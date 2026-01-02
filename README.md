@@ -208,6 +208,13 @@ pokemon-guide-kids/
 
 ## Historial de Versions
 
+### v2.2.0 (Gener 2026)
+- 🌍 **Expansió completa**: Tots els 1,025 Pokémon de les 9 generacions
+- 🚀 **Precàrrega intel·ligent**: Imatges precargades en segon pla per llistat instantani
+- 📊 **Navegació ampliada**: Del #1 al #1025 amb comptador actualitzat
+- 💾 **Optimització**: Lotes de 50 imatges amb pauses per no bloquejar la UI
+- 🎯 **Totes les regions**: Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar, Paldea
+
 ### v2.1.1 (Gener 2026)
 - 🎨 **Reorganització d'informació**: Eliminar títol "Descripció", reorganitzar atributs
 - 🌈 **Color visual**: Recuadre de color real + nom traduït per cada Pokémon
