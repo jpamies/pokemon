@@ -208,6 +208,13 @@ pokemon-guide-kids/
 
 ## Historial de Versions
 
+### v2.1.1 (Gener 2026)
+- 🎨 **Reorganització d'informació**: Eliminar títol "Descripció", reorganitzar atributs
+- 🌈 **Color visual**: Recuadre de color real + nom traduït per cada Pokémon
+- 📊 **Ordre optimitzat**: Número, color, hàbitat, altura, pes
+- 📱 **Millores de disseny**: Text més petit (0.9em) per valors d'atributs
+- 🌍 **Traduccions**: COLOR i HÀBITAT en català, espanyol i anglès
+
 ### v2.1.0 (Gener 2026)
 - 🔄 **Cadena d'evolució**: Navegació clickeable entre evolucions
 - 📋 **Llistat complet**: Vista de tots els 151 Pokémon amb navegació directa
