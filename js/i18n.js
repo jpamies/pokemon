@@ -46,6 +46,8 @@ class I18n {
             'home-text': this.t('home'),
             'height-label': this.t('height'),
             'weight-label': this.t('weight'),
+            'color-label': this.t('color'),
+            'habitat-label': this.t('habitat'),
             'number-label': this.t('number'),
             'error-text': this.t('error'),
             'retry-btn': this.t('retry')

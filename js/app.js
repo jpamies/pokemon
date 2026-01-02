@@ -328,20 +328,24 @@ class PokemonGuide {
 
     translateColor(color) {
         const colors = {
-            'black': { ca: 'Negre', es: 'Negro', en: 'Black' },
-            'blue': { ca: 'Blau', es: 'Azul', en: 'Blue' },
-            'brown': { ca: 'Marró', es: 'Marrón', en: 'Brown' },
-            'gray': { ca: 'Gris', es: 'Gris', en: 'Gray' },
-            'green': { ca: 'Verd', es: 'Verde', en: 'Green' },
-            'pink': { ca: 'Rosa', es: 'Rosa', en: 'Pink' },
-            'purple': { ca: 'Morat', es: 'Morado', en: 'Purple' },
-            'red': { ca: 'Vermell', es: 'Rojo', en: 'Red' },
-            'white': { ca: 'Blanc', es: 'Blanco', en: 'White' },
-            'yellow': { ca: 'Groc', es: 'Amarillo', en: 'Yellow' }
+            'black': { ca: 'Negre', es: 'Negro', en: 'Black', hex: '#2c2c2c' },
+            'blue': { ca: 'Blau', es: 'Azul', en: 'Blue', hex: '#3b82f6' },
+            'brown': { ca: 'Marró', es: 'Marrón', en: 'Brown', hex: '#8b4513' },
+            'gray': { ca: 'Gris', es: 'Gris', en: 'Gray', hex: '#6b7280' },
+            'green': { ca: 'Verd', es: 'Verde', en: 'Green', hex: '#22c55e' },
+            'pink': { ca: 'Rosa', es: 'Rosa', en: 'Pink', hex: '#ec4899' },
+            'purple': { ca: 'Morat', es: 'Morado', en: 'Purple', hex: '#a855f7' },
+            'red': { ca: 'Vermell', es: 'Rojo', en: 'Red', hex: '#ef4444' },
+            'white': { ca: 'Blanc', es: 'Blanco', en: 'White', hex: '#f8fafc' },
+            'yellow': { ca: 'Groc', es: 'Amarillo', en: 'Yellow', hex: '#eab308' }
         };
         
         const currentLang = window.i18n.currentLanguage;
-        return colors[color]?.[currentLang] || colors[color]?.en || color;
+        const colorData = colors[color] || { ca: 'Desconegut', es: 'Desconocido', en: 'Unknown', hex: '#9ca3af' };
+        return {
+            name: colorData[currentLang] || colorData.en || color,
+            hex: colorData.hex
+        };
     }
 
     translateHabitat(habitat) {
@@ -457,7 +461,8 @@ class PokemonGuide {
         document.getElementById('pokemon-description').textContent = pokemon.description || 'No hi ha descripció disponible.';
 
         // Update details
-        document.getElementById('pokemon-color').textContent = this.translateColor(pokemon.color);
+        const colorData = this.translateColor(pokemon.color);
+        document.getElementById('pokemon-color').innerHTML = `<span class="color-box" style="background-color: ${colorData.hex}"></span> ${colorData.name}`;
         document.getElementById('pokemon-habitat').textContent = this.translateHabitat(pokemon.habitat);
 
         // Update special status

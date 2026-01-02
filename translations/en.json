@@ -5,6 +5,8 @@
   "home": "HOME",
   "height": "HEIGHT",
   "weight": "WEIGHT",
+  "color": "COLOR",
+  "habitat": "HABITAT",
   "number": "NUMBER",
   "error": "SOMETHING WENT WRONG",
   "retry": "TRY AGAIN",

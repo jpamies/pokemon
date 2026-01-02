@@ -5,6 +5,8 @@
   "home": "INICI",
   "height": "ALÇADA",
   "weight": "PES",
+  "color": "COLOR",
+  "habitat": "HÀBITAT",
   "number": "NÚMERO",
   "error": "ALGUNA COSA HA ANAT MALAMENT",
   "retry": "TORNAR A INTENTAR",

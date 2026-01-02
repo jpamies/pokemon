@@ -164,7 +164,7 @@ main {
 }
 
 .stat span:last-child {
-    font-size: 1.3em;
+    font-size: 0.9em;
     font-weight: bold;
     color: #2c3e50;
 }
@@ -219,6 +219,25 @@ main {
     font-weight: bold;
     color: #2c3e50;
     text-transform: capitalize;
+}
+
+/* Recuadro de color */
+.color-box {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 2px solid #333;
+    margin-right: 8px;
+    vertical-align: middle;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Contenedor del color para mantener en línea */
+#pokemon-color {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
 /* Special Badges */
@@ -645,7 +664,7 @@ main {
 
 .stat span:last-child {
     display: block;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: bold;
     color: #2c3e50;
 }
