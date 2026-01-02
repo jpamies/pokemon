@@ -134,27 +134,27 @@ class PokemonGuide {
 
         const query = `
             query GetPokemon($id: Int!) {
-                pokemon_v2_pokemon(where: {id: {_eq: $id}}) {
+                pokemon(where: {id: {_eq: $id}}) {
                     id
                     name
                     height
                     weight
-                    pokemon_v2_pokemonspecies {
-                        pokemon_v2_pokemonspeciesnames(where: {language_id: {_in: [6, 7, 9]}}) {
+                    pokemon_species {
+                        pokemon_species_names(where: {language_id: {_in: [6, 7, 9]}}) {
                             name
                             language_id
                         }
                     }
-                    pokemon_v2_pokemontypes {
-                        pokemon_v2_type {
+                    pokemon_types {
+                        type {
                             name
-                            pokemon_v2_typenames(where: {language_id: {_in: [6, 7, 9]}}) {
+                            type_names(where: {language_id: {_in: [6, 7, 9]}}) {
                                 name
                                 language_id
                             }
                         }
                     }
-                    pokemon_v2_pokemonsprites {
+                    pokemon_sprites {
                         sprites
                     }
                 }
@@ -168,7 +168,12 @@ class PokemonGuide {
         });
 
         const data = await response.json();
-        const pokemonData = data.data.pokemon_v2_pokemon[0];
+        
+        if (data.errors) {
+            throw new Error(data.errors[0].message);
+        }
+        
+        const pokemonData = data.data.pokemon[0];
 
         if (!pokemonData) {
             throw new Error('Pokemon not found');
@@ -184,17 +189,17 @@ class PokemonGuide {
     }
 
     processPokemonData(data) {
-        const sprites = JSON.parse(data.pokemon_v2_pokemonsprites[0]?.sprites || '{}');
+        const sprites = JSON.parse(data.pokemon_sprites[0]?.sprites || '{}');
         
         return {
             id: data.id,
-            name: this.extractNames(data.pokemon_v2_pokemonspecies[0]?.pokemon_v2_pokemonspeciesnames || []),
+            name: this.extractNames(data.pokemon_species[0]?.pokemon_species_names || []),
             image: sprites.front_default || `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${data.id}.png`,
             height: data.height,
             weight: data.weight,
-            types: data.pokemon_v2_pokemontypes.map(typeData => ({
-                name: typeData.pokemon_v2_type.name,
-                translations: this.extractNames(typeData.pokemon_v2_type.pokemon_v2_typenames || [])
+            types: data.pokemon_types.map(typeData => ({
+                name: typeData.type.name,
+                translations: this.extractNames(typeData.type.type_names || [])
             }))
         };
     }

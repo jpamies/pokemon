@@ -11,26 +11,26 @@
 #### Obtenir un Pokémon específic
 ```graphql
 query GetPokemon($id: Int!) {
-  pokemon_v2_pokemon(where: {id: {_eq: $id}}) {
+  pokemon(where: {id: {_eq: $id}}) {
     id
     name
     height
     weight
-    pokemon_v2_pokemonspecies {
-      pokemon_v2_pokemonspeciesnames(where: {language_id: {_in: [6, 7, 9]}}) {
+    pokemon_species {
+      pokemon_species_names(where: {language_id: {_in: [6, 7, 9]}}) {
         name
         language_id
       }
     }
-    pokemon_v2_pokemontypes {
-      pokemon_v2_type {
-        pokemon_v2_typenames(where: {language_id: {_in: [6, 7, 9]}}) {
+    pokemon_types {
+      type {
+        type_names(where: {language_id: {_in: [6, 7, 9]}}) {
           name
           language_id
         }
       }
     }
-    pokemon_v2_pokemonsprites {
+    pokemon_sprites {
       sprites
     }
   }
@@ -40,7 +40,7 @@ query GetPokemon($id: Int!) {
 #### Obtenir llista de Pokémon (per navegació)
 ```graphql
 query GetPokemonList($limit: Int!, $offset: Int!) {
-  pokemon_v2_pokemon(limit: $limit, offset: $offset, order_by: {id: asc}) {
+  pokemon(limit: $limit, offset: $offset, order_by: {id: asc}) {
     id
     name
   }

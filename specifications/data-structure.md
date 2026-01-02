@@ -9,25 +9,25 @@
 ### Consulta GraphQL Bàsica
 ```graphql
 query GetPokemon($id: Int!) {
-  pokemon_v2_pokemon(where: {id: {_eq: $id}}) {
+  pokemon(where: {id: {_eq: $id}}) {
     id
     name
     height
     weight
-    pokemon_v2_pokemonspecies {
-      pokemon_v2_pokemonspeciesnames(where: {language_id: {_eq: 6}}) {
+    pokemon_species {
+      pokemon_species_names(where: {language_id: {_eq: 6}}) {
         name
       }
     }
-    pokemon_v2_pokemontypes {
-      pokemon_v2_type {
+    pokemon_types {
+      type {
         name
-        pokemon_v2_typenames(where: {language_id: {_eq: 6}}) {
+        type_names(where: {language_id: {_eq: 6}}) {
           name
         }
       }
     }
-    pokemon_v2_pokemonsprites {
+    pokemon_sprites {
       sprites
     }
   }
