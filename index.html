@@ -56,6 +56,28 @@
                 </div>
             </div>
 
+            <div class="pokemon-description-section">
+                <h3>Descripció</h3>
+                <p id="pokemon-description" class="pokemon-description"></p>
+            </div>
+
+            <div class="pokemon-details-section">
+                <div class="detail-item">
+                    <span class="detail-label">Color:</span>
+                    <span id="pokemon-color" class="detail-value"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Hàbitat:</span>
+                    <span id="pokemon-habitat" class="detail-value"></span>
+                </div>
+                <div id="pokemon-special" class="pokemon-special"></div>
+            </div>
+
+            <div class="pokemon-evolution-section">
+                <h3>Cadena de Evolución</h3>
+                <div id="pokemon-evolution" class="pokemon-evolution"></div>
+            </div>
+
             <!-- Advanced mode content -->
             <div class="pokemon-advanced-content">
                 <div class="pokemon-stats-section">
@@ -70,12 +92,26 @@
             </div>
         </div>
 
+        <!-- Pokemon List View -->
+        <div id="pokemon-list-container" class="pokemon-list-container hidden">
+            <div class="list-header">
+                <h2>Tots els Pokémon</h2>
+                <button id="close-list-btn" class="close-list-btn">✕ Tancar</button>
+            </div>
+            <div id="pokemon-grid" class="pokemon-grid">
+                <!-- Pokemon list will be populated here -->
+            </div>
+        </div>
+
         <nav class="navigation">
             <button id="prev-btn" class="nav-btn">
                 <span id="prev-text">ANTERIOR</span>
             </button>
             <button id="home-btn" class="nav-btn home-btn">
                 <span id="home-text">INICI</span>
+            </button>
+            <button id="list-btn" class="nav-btn">
+                <span id="list-text">LLISTA</span>
             </button>
             <button id="next-btn" class="nav-btn">
                 <span id="next-text">SEGÜENT</span>

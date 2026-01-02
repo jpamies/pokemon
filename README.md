@@ -13,8 +13,13 @@ Una aplicació web estàtica per ajudar els nens a aprendre sobre Pokémon amb s
 - 💾 **Emmagatzematge local**: Guarda preferències i cache de dades
 - 🔄 **Gestió d'errors**: Sistema de retry automàtic
 - 🎯 **Icones de tipus**: Emojis visuals per cada tipus de Pokémon
-- 🎲 **Informació de generació**: Mostra la generació de cada Pokémon
+- 🎲 **Informació de generació**: Mostra la generació i regió de cada Pokémon
 - 📊 **Modo avançat**: Vista tipus carta amb estadístiques i habilitats
+- 🔄 **Cadena d'evolució**: Navegació clickeable entre evolucions
+- 📋 **Llistat complet**: Vista de tots els 151 Pokémon amb navegació directa
+- 📖 **Descripcions**: Textos descriptius dels Pokémon en múltiples idiomes
+- 🎨 **Informació visual**: Color principal i hàbitat de cada Pokémon
+- 👑 **Pokémon especials**: Identificació de legendaris i mítics
 
 ## API
 
@@ -139,9 +144,27 @@ const speciesData = await speciesResponse.json();
 #### Modo Avançat
 - **Vista carta**: Layout tipus carta de Pokémon professional
 - **Estadístiques base**: Barres visuals per HP, ATK, DEF, SP.ATK, SP.DEF, SPD
-- **Habilitats**: Mostra habilitats normals i ocultes
+- **Habilitats**: Mostra habilitats normals i ocultes amb traduccions
 - **Toggle dinàmic**: Botó 📋/📊 per canviar entre modes
 - **Responsive**: S'adapta a mòbils i tauletes
+
+#### Cadena d'Evolució
+- **Navegació visual**: Imatges clickeables de tota la cadena evolutiva
+- **Posició actual**: Destacat visual del Pokémon actual
+- **Nivells d'evolució**: Mostra els nivells necessaris per evolucionar
+- **Navegació directa**: Click per canviar a qualsevol evolució
+
+#### Llistat Complet
+- **Vista grid**: Tots els 151 Pokémon en format quadrícula
+- **Informació bàsica**: ID, imatge i nom de cada Pokémon
+- **Navegació directa**: Click per anar directament a qualsevol Pokémon
+- **Noms reals**: Carrega els noms oficials en l'idioma seleccionat
+
+#### Informació Descriptiva
+- **Descripcions**: Textos oficials dels jocs Pokémon
+- **Color principal**: Color característic de cada Pokémon
+- **Hàbitat**: Ecosistema on viu naturalment
+- **Pokémon especials**: Badges per legendaris (👑) i mítics (✨)
 
 #### Cache i Offline
 - localStorage per preferències d'usuari
@@ -184,6 +207,15 @@ pokemon-guide-kids/
 ```
 
 ## Historial de Versions
+
+### v2.1.0 (Gener 2026)
+- 🔄 **Cadena d'evolució**: Navegació clickeable entre evolucions
+- 📋 **Llistat complet**: Vista de tots els 151 Pokémon amb navegació directa
+- 📖 **Descripcions**: Textos descriptius dels Pokémon en múltiples idiomes
+- 🎨 **Informació visual**: Color principal i hàbitat traduïts
+- 👑 **Pokémon especials**: Badges per legendaris i mítics
+- 🌍 **Habilitats traduïdes**: Noms d'habilitats en català, espanyol i anglès
+- 🎯 **Generació amb regió**: "Gen I - Kanto" format millorat
 
 ### v2.0.0 (Gener 2026)
 - ✨ **Modo Avançat**: Vista tipus carta amb estadístiques i habilitats
