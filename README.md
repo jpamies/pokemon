@@ -137,11 +137,41 @@ pokemon-guide-kids/
     └── en.json
 ```
 
-## Instal·lació
+## Instal·lació i Execució
 
-1. Clona el repositori
-2. Obre `index.html` en un navegador web
-3. L'aplicació funciona completament sense connexió després de la primera càrrega
+### Opció 1: Servidor Local (Recomanat)
+```bash
+# Clona el repositori
+git clone <url-del-repositori>
+cd pokeAPI
+
+# Inicia un servidor local (tria una opció):
+
+# Python 3
+python -m http.server 8000
+
+# Python 2
+python -m SimpleHTTPServer 8000
+
+# Node.js (si tens npx)
+npx serve .
+
+# PHP
+php -S localhost:8000
+```
+
+Després obre: http://localhost:8000
+
+### Opció 2: Extensions de Navegador
+- **Chrome**: Inicia amb `--disable-web-security --user-data-dir=/tmp/chrome_dev`
+- **Firefox**: Canvia `security.fileuri.strict_origin_policy` a `false` a `about:config`
+
+### Opció 3: Live Server (VS Code)
+1. Instal·la l'extensió "Live Server"
+2. Clic dret a `index.html` → "Open with Live Server"
+
+### ⚠️ Problema CORS
+Si obres `index.html` directament des del sistema de fitxers (`file://`), obtindràs errors CORS quan l'aplicació intenti carregar les traduccions i fer crides a l'API. **Sempre utilitza un servidor local.**
 
 ## Ús
 
