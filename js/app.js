@@ -1,13 +1,16 @@
 class PokemonGuide {
     constructor() {
         this.currentPokemonId = 1;
-        this.maxPokemonId = 151; // First generation
+        this.maxPokemonId = 1025; // All Pokemon generations
         this.isUppercase = true; // Default to uppercase for accessibility
         this.isAdvancedMode = false; // New advanced mode toggle
         this.apiEndpoint = 'https://pokeapi.co/api/v2';
         this.cache = new Map();
         
         this.initializeApp();
+        
+        // Start preloading images in background
+        this.preloadImages();
     }
 
     async initializeApp() {
@@ -776,6 +779,38 @@ class PokemonGuide {
         }
         
         this.hideLoading();
+    }
+
+    async preloadImages() {
+        console.log('Starting image preload...');
+        const batchSize = 50; // Preload in batches to avoid overwhelming the browser
+        
+        for (let start = 1; start <= this.maxPokemonId; start += batchSize) {
+            const end = Math.min(start + batchSize - 1, this.maxPokemonId);
+            
+            // Preload batch
+            const promises = [];
+            for (let i = start; i <= end; i++) {
+                promises.push(this.preloadImage(i));
+            }
+            
+            await Promise.allSettled(promises);
+            console.log(`Preloaded images ${start}-${end}`);
+            
+            // Small delay between batches to not block UI
+            await new Promise(resolve => setTimeout(resolve, 100));
+        }
+        
+        console.log('Image preload completed');
+    }
+
+    preloadImage(pokemonId) {
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.onload = () => resolve();
+            img.onerror = () => resolve(); // Continue even if image fails
+            img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`;
+        });
     }
 
     async loadPokemonName(id, nameElement) {
