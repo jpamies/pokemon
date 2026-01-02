@@ -1,0 +1,32 @@
+{
+  "loading": "CARGANDO POKÉMON...",
+  "previous": "ANTERIOR",
+  "next": "SIGUIENTE",
+  "home": "INICIO",
+  "height": "ALTURA",
+  "weight": "PESO",
+  "number": "NÚMERO",
+  "error": "ALGO SALIÓ MAL",
+  "retry": "INTENTAR DE NUEVO",
+  "counter": "DE",
+  "types": {
+    "normal": "NORMAL",
+    "fire": "FUEGO",
+    "water": "AGUA",
+    "electric": "ELÉCTRICO",
+    "grass": "PLANTA",
+    "ice": "HIELO",
+    "fighting": "LUCHA",
+    "poison": "VENENO",
+    "ground": "TIERRA",
+    "flying": "VOLADOR",
+    "psychic": "PSÍQUICO",
+    "bug": "BICHO",
+    "rock": "ROCA",
+    "ghost": "FANTASMA",
+    "dragon": "DRAGÓN",
+    "dark": "SINIESTRO",
+    "steel": "ACERO",
+    "fairy": "HADA"
+  }
+}

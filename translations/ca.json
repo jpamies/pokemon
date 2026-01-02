@@ -1,0 +1,32 @@
+{
+  "loading": "CARREGANT POKÉMON...",
+  "previous": "ANTERIOR",
+  "next": "SEGÜENT",
+  "home": "INICI",
+  "height": "ALÇADA",
+  "weight": "PES",
+  "number": "NÚMERO",
+  "error": "ALGUNA COSA HA ANAT MALAMENT",
+  "retry": "TORNAR A INTENTAR",
+  "counter": "DE",
+  "types": {
+    "normal": "NORMAL",
+    "fire": "FOC",
+    "water": "AIGUA",
+    "electric": "ELÈCTRIC",
+    "grass": "PLANTA",
+    "ice": "GEL",
+    "fighting": "LLUITA",
+    "poison": "VERÍ",
+    "ground": "TERRA",
+    "flying": "VOLADOR",
+    "psychic": "PSÍQUIC",
+    "bug": "INSECTE",
+    "rock": "ROCA",
+    "ghost": "FANTASMA",
+    "dragon": "DRAC",
+    "dark": "FOSC",
+    "steel": "ACER",
+    "fairy": "FADA"
+  }
+}

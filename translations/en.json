@@ -1,0 +1,32 @@
+{
+  "loading": "LOADING POKÉMON...",
+  "previous": "PREVIOUS",
+  "next": "NEXT",
+  "home": "HOME",
+  "height": "HEIGHT",
+  "weight": "WEIGHT",
+  "number": "NUMBER",
+  "error": "SOMETHING WENT WRONG",
+  "retry": "TRY AGAIN",
+  "counter": "OF",
+  "types": {
+    "normal": "NORMAL",
+    "fire": "FIRE",
+    "water": "WATER",
+    "electric": "ELECTRIC",
+    "grass": "GRASS",
+    "ice": "ICE",
+    "fighting": "FIGHTING",
+    "poison": "POISON",
+    "ground": "GROUND",
+    "flying": "FLYING",
+    "psychic": "PSYCHIC",
+    "bug": "BUG",
+    "rock": "ROCK",
+    "ghost": "GHOST",
+    "dragon": "DRAGON",
+    "dark": "DARK",
+    "steel": "STEEL",
+    "fairy": "FAIRY"
+  }
+}
