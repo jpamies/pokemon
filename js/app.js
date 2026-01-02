@@ -3,7 +3,8 @@ class PokemonGuide {
         this.currentPokemonId = 1;
         this.maxPokemonId = 151; // First generation
         this.isUppercase = true; // Default to uppercase for accessibility
-        this.apiEndpoint = 'https://graphql.pokeapi.co/v1beta2';
+        this.isAdvancedMode = false; // New advanced mode toggle
+        this.apiEndpoint = 'https://pokeapi.co/api/v2';
         this.cache = new Map();
         
         this.initializeApp();
@@ -38,6 +39,11 @@ class PokemonGuide {
         // Accessibility toggle
         document.getElementById('accessibility-toggle').addEventListener('click', () => {
             this.toggleAccessibilityMode();
+        });
+
+        // Advanced mode toggle
+        document.getElementById('advanced-toggle').addEventListener('click', () => {
+            this.toggleAdvancedMode();
         });
 
         // Navigation buttons
@@ -81,6 +87,20 @@ class PokemonGuide {
         const savedAccessibility = localStorage.getItem('pokemon-guide-uppercase');
         if (savedAccessibility !== null) {
             this.isUppercase = savedAccessibility === 'true';
+        }
+
+        // Load advanced mode preference
+        const savedAdvancedMode = localStorage.getItem('pokemon-guide-advanced-mode');
+        if (savedAdvancedMode !== null) {
+            this.isAdvancedMode = savedAdvancedMode === 'true';
+            const container = document.getElementById('pokemon-container');
+            const toggleBtn = document.getElementById('advanced-toggle');
+            
+            if (this.isAdvancedMode) {
+                container.classList.add('advanced-mode');
+                toggleBtn.textContent = '📊';
+                toggleBtn.title = 'Modo Simple';
+            }
         }
     }
 
@@ -132,55 +152,22 @@ class PokemonGuide {
             return this.cache.get(cacheKey);
         }
 
-        const query = `
-            query GetPokemon($id: Int!) {
-                pokemon(where: {id: {_eq: $id}}) {
-                    id
-                    name
-                    height
-                    weight
-                    pokemon_species {
-                        pokemon_species_names(where: {language_id: {_in: [6, 7, 9]}}) {
-                            name
-                            language_id
-                        }
-                    }
-                    pokemon_types {
-                        type {
-                            name
-                            type_names(where: {language_id: {_in: [6, 7, 9]}}) {
-                                name
-                                language_id
-                            }
-                        }
-                    }
-                    pokemon_sprites {
-                        sprites
-                    }
-                }
-            }
-        `;
-
-        const response = await fetch(this.apiEndpoint, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ query, variables: { id } })
-        });
-
-        const data = await response.json();
-        
-        if (data.errors) {
-            throw new Error(data.errors[0].message);
+        // Fetch Pokemon data
+        const pokemonResponse = await fetch(`${this.apiEndpoint}/pokemon/${id}`);
+        if (!pokemonResponse.ok) {
+            throw new Error(`HTTP error! status: ${pokemonResponse.status}`);
         }
-        
-        const pokemonData = data.data.pokemon[0];
+        const pokemonData = await pokemonResponse.json();
 
-        if (!pokemonData) {
-            throw new Error('Pokemon not found');
+        // Fetch Pokemon species data for names
+        const speciesResponse = await fetch(pokemonData.species.url);
+        if (!speciesResponse.ok) {
+            throw new Error(`HTTP error! status: ${speciesResponse.status}`);
         }
+        const speciesData = await speciesResponse.json();
 
         // Process the data
-        const pokemon = this.processPokemonData(pokemonData);
+        const pokemon = this.processPokemonData(pokemonData, speciesData);
         
         // Cache the result
         this.cache.set(cacheKey, pokemon);
@@ -188,34 +175,72 @@ class PokemonGuide {
         return pokemon;
     }
 
-    processPokemonData(data) {
-        const sprites = JSON.parse(data.pokemon_sprites[0]?.sprites || '{}');
-        
+    processPokemonData(pokemonData, speciesData) {
         return {
-            id: data.id,
-            name: this.extractNames(data.pokemon_species[0]?.pokemon_species_names || []),
-            image: sprites.front_default || `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${data.id}.png`,
-            height: data.height,
-            weight: data.weight,
-            types: data.pokemon_types.map(typeData => ({
+            id: pokemonData.id,
+            name: this.extractNames(speciesData.names || []),
+            image: pokemonData.sprites.front_default || `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonData.id}.png`,
+            height: pokemonData.height,
+            weight: pokemonData.weight,
+            generation: speciesData.generation?.name || 'generation-i',
+            types: pokemonData.types.map(typeData => ({
                 name: typeData.type.name,
-                translations: this.extractNames(typeData.type.type_names || [])
+                translations: {} // Types will be translated via i18n
+            })),
+            stats: pokemonData.stats.map(stat => ({
+                name: stat.stat.name,
+                value: stat.base_stat
+            })),
+            abilities: pokemonData.abilities.map(ability => ({
+                name: ability.ability.name,
+                isHidden: ability.is_hidden
             }))
         };
     }
 
     extractNames(nameArray) {
         const names = { ca: '', es: '', en: '' };
-        const languageMap = { 6: 'ca', 7: 'es', 9: 'en' };
+        const languageMap = { 
+            'ca': 'ca', 
+            'es': 'es', 
+            'en': 'en',
+            'spanish': 'es',
+            'english': 'en'
+        };
         
         nameArray.forEach(item => {
-            const lang = languageMap[item.language_id];
+            const lang = languageMap[item.language.name];
             if (lang) {
                 names[lang] = item.name;
             }
         });
         
         return names;
+    }
+
+    getTypeIcon(typeName) {
+        const typeIcons = {
+            'normal': '⚪',
+            'fire': '🔥',
+            'water': '💧',
+            'electric': '⚡',
+            'grass': '🌿',
+            'ice': '❄️',
+            'fighting': '👊',
+            'poison': '☠️',
+            'ground': '🌍',
+            'flying': '🪶',
+            'psychic': '🔮',
+            'bug': '🐛',
+            'rock': '🪨',
+            'ghost': '👻',
+            'dragon': '🐉',
+            'dark': '🌙',
+            'steel': '⚙️',
+            'fairy': '🧚'
+        };
+        
+        return typeIcons[typeName] || '❓';
     }
 
     displayCurrentPokemon() {
@@ -233,6 +258,10 @@ class PokemonGuide {
         document.getElementById('pokemon-name').textContent = 
             pokemon.name[currentLang] || pokemon.name.en || `Pokemon #${pokemon.id}`;
 
+        // Update generation
+        const genNumber = pokemon.generation.replace('generation-', '').toUpperCase();
+        document.getElementById('pokemon-generation').textContent = `Gen ${genNumber}`;
+
         // Update types
         const typesContainer = document.getElementById('pokemon-types');
         typesContainer.innerHTML = '';
@@ -240,15 +269,103 @@ class PokemonGuide {
         pokemon.types.forEach(type => {
             const badge = document.createElement('span');
             badge.className = 'type-badge';
-            badge.textContent = window.i18n.t(`types.${type.name}`) || type.translations[currentLang] || type.name;
+            
+            const icon = document.createElement('span');
+            icon.className = 'type-icon';
+            icon.textContent = this.getTypeIcon(type.name);
+            
+            const text = document.createElement('span');
+            text.textContent = window.i18n.t(`types.${type.name}`) || type.translations[currentLang] || type.name;
+            
+            badge.appendChild(icon);
+            badge.appendChild(text);
             badge.style.backgroundColor = window.i18n.getTypeColor(type.name);
             typesContainer.appendChild(badge);
         });
 
-        // Update stats
+        // Update basic info
         document.getElementById('pokemon-height').textContent = window.i18n.formatHeight(pokemon.height);
         document.getElementById('pokemon-weight').textContent = window.i18n.formatWeight(pokemon.weight);
         document.getElementById('pokemon-number').textContent = `#${pokemon.id.toString().padStart(3, '0')}`;
+
+        // Update advanced info if in advanced mode
+        if (this.isAdvancedMode) {
+            this.displayAdvancedInfo(pokemon);
+        }
+    }
+
+    displayAdvancedInfo(pokemon) {
+        // Update stats
+        const statsContainer = document.getElementById('pokemon-stats');
+        statsContainer.innerHTML = '';
+        
+        pokemon.stats.forEach(stat => {
+            const statDiv = document.createElement('div');
+            statDiv.className = 'stat-item';
+            
+            const statName = document.createElement('span');
+            statName.className = 'stat-name';
+            statName.textContent = this.getStatName(stat.name);
+            
+            const statBar = document.createElement('div');
+            statBar.className = 'stat-bar';
+            
+            const statFill = document.createElement('div');
+            statFill.className = 'stat-fill';
+            statFill.style.width = `${(stat.value / 255) * 100}%`;
+            
+            const statValue = document.createElement('span');
+            statValue.className = 'stat-value';
+            statValue.textContent = stat.value;
+            
+            statBar.appendChild(statFill);
+            statDiv.appendChild(statName);
+            statDiv.appendChild(statBar);
+            statDiv.appendChild(statValue);
+            statsContainer.appendChild(statDiv);
+        });
+
+        // Update abilities
+        const abilitiesContainer = document.getElementById('pokemon-abilities');
+        abilitiesContainer.innerHTML = '';
+        
+        pokemon.abilities.forEach(ability => {
+            const abilityDiv = document.createElement('div');
+            abilityDiv.className = `ability-item ${ability.isHidden ? 'hidden-ability' : ''}`;
+            abilityDiv.textContent = ability.name.replace('-', ' ');
+            abilitiesContainer.appendChild(abilityDiv);
+        });
+    }
+
+    getStatName(statName) {
+        const statNames = {
+            'hp': 'HP',
+            'attack': 'ATK',
+            'defense': 'DEF',
+            'special-attack': 'SP.ATK',
+            'special-defense': 'SP.DEF',
+            'speed': 'SPD'
+        };
+        return statNames[statName] || statName;
+    }
+
+    toggleAdvancedMode() {
+        this.isAdvancedMode = !this.isAdvancedMode;
+        const container = document.getElementById('pokemon-container');
+        const toggleBtn = document.getElementById('advanced-toggle');
+        
+        if (this.isAdvancedMode) {
+            container.classList.add('advanced-mode');
+            toggleBtn.textContent = '📊';
+            toggleBtn.title = 'Modo Simple';
+        } else {
+            container.classList.remove('advanced-mode');
+            toggleBtn.textContent = '📋';
+            toggleBtn.title = 'Modo Avanzado';
+        }
+        
+        this.displayCurrentPokemon();
+        localStorage.setItem('pokemon-guide-advanced-mode', this.isAdvancedMode.toString());
     }
 
     updateNavigation() {

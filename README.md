@@ -7,21 +7,24 @@ Una aplicació web estàtica per ajudar els nens a aprendre sobre Pokémon amb s
 - 🌍 **Multiidioma**: Català (per defecte), Espanyol i Anglès
 - 🔤 **Accessibilitat**: Lletres majúscules per defecte per facilitar la lectura als nens
 - 📱 **Estàtic**: Funciona sense connexió i es pot imprimir
-- 🖼️ **Imatges**: Inclou imatges de tots els Pokémon
+- 🖼️ **Imatges grans**: Imatges de 200x200px amb millor visualització
 - 🎮 **Fàcil d'usar**: Interfície dissenyada especialment per a nens
 - ⌨️ **Navegació per teclat**: Suport per fletxes i tecla Inici
 - 💾 **Emmagatzematge local**: Guarda preferències i cache de dades
 - 🔄 **Gestió d'errors**: Sistema de retry automàtic
+- 🎯 **Icones de tipus**: Emojis visuals per cada tipus de Pokémon
+- 🎲 **Informació de generació**: Mostra la generació de cada Pokémon
+- 📊 **Modo avançat**: Vista tipus carta amb estadístiques i habilitats
 
 ## API
 
-Utilitza l'API GraphQL de Pokémon: https://graphql.pokeapi.co/v1beta2
+Utilitza l'API REST de Pokémon: https://pokeapi.co/api/v2
 
 ## Implementació Tècnica
 
 ### Arquitectura
 - **Frontend**: HTML5, CSS3, JavaScript ES6+ (Vanilla)
-- **API**: GraphQL amb cache local
+- **API**: REST amb cache local
 - **Emmagatzematge**: localStorage per preferències i cache
 - **Internacionalització**: Sistema i18n personalitzat
 - **Accessibilitat**: WCAG 2.1 compliant
@@ -40,7 +43,7 @@ class I18n {
 #### 2. Aplicació Principal (`js/app.js`)
 ```javascript
 class PokemonGuide {
-  // Integració GraphQL API
+  // Integració REST API
   // Navegació entre Pokémon (1-151)
   // Cache intel·ligent
   // Gestió d'estat i preferències
@@ -58,35 +61,71 @@ class PokemonGuide {
 - Escala de grisos per estalviar tinta
 - Layout simplificat per paper
 
-### Consultes GraphQL
+### Consultes REST API
 
 #### Obtenir Pokémon
-```graphql
-query GetPokemon($id: Int!) {
-  pokemon(where: {id: {_eq: $id}}) {
-    id name height weight
-    pokemon_species {
-      pokemon_species_names(where: {language_id: {_in: [6, 7, 9]}}) {
-        name language_id
+```javascript
+// Obtenir dades del Pokémon
+const pokemonResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
+const pokemonData = await pokemonResponse.json();
+
+// Obtenir noms en diferents idiomes
+const speciesResponse = await fetch(pokemonData.species.url);
+const speciesData = await speciesResponse.json();
+```
+
+### Estructura de Resposta REST
+
+#### Pokémon Data
+```json
+{
+  "id": 1,
+  "name": "bulbasaur",
+  "height": 7,
+  "weight": 69,
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  },
+  "types": [
+    {
+      "type": {
+        "name": "grass",
+        "url": "https://pokeapi.co/api/v2/type/12/"
       }
     }
-    pokemon_types {
-      type {
-        name
-        type_names(where: {language_id: {_in: [6, 7, 9]}}) {
-          name language_id
-        }
-      }
-    }
-    pokemon_sprites { sprites }
+  ],
+  "species": {
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
   }
 }
 ```
 
+#### Species Data (per noms multiidioma)
+```json
+{
+  "names": [
+    {
+      "language": {
+        "name": "en"
+      },
+      "name": "Bulbasaur"
+    },
+    {
+      "language": {
+        "name": "es"
+      },
+      "name": "Bulbasaur"
+    }
+  ]
+}
+```
+
 ### Mapeig d'Idiomes
-- Català: `language_id = 6`
-- Espanyol: `language_id = 7` 
-- Anglès: `language_id = 9`
+- Català: `language.name = "ca"` (no disponible a l'API, utilitzem anglès com fallback)
+- Espanyol: `language.name = "es"` 
+- Anglès: `language.name = "en"`
+
+### Funcionalitats Clau
 
 ### Funcionalitats Clau
 
@@ -96,6 +135,13 @@ query GetPokemon($id: Int!) {
 - Navegació per teclat completa
 - Contrast alt de colors
 - Botons amb mida mínima accessible
+
+#### Modo Avançat
+- **Vista carta**: Layout tipus carta de Pokémon professional
+- **Estadístiques base**: Barres visuals per HP, ATK, DEF, SP.ATK, SP.DEF, SPD
+- **Habilitats**: Mostra habilitats normals i ocultes
+- **Toggle dinàmic**: Botó 📋/📊 per canviar entre modes
+- **Responsive**: S'adapta a mòbils i tauletes
 
 #### Cache i Offline
 - localStorage per preferències d'usuari
@@ -136,6 +182,24 @@ pokemon-guide-kids/
     ├── es.json
     └── en.json
 ```
+
+## Historial de Versions
+
+### v2.0.0 (Gener 2026)
+- ✨ **Modo Avançat**: Vista tipus carta amb estadístiques i habilitats
+- 🖼️ **Imatges millorades**: Imatges més grans (200x200px) amb millor layout
+- 🎲 **Informació de generació**: Mostra la generació de cada Pokémon
+- 📊 **Estadístiques base**: Barres visuals per totes les stats
+- 🎯 **Habilitats**: Mostra habilitats normals i ocultes
+- 🎨 **Disseny responsive**: Millor adaptació a mòbils i tauletes
+
+### v1.0.0 (Desembre 2025)
+- 🌍 Suport multiidioma (Català, Espanyol, Anglès)
+- 🔤 Mode d'accessibilitat amb majúscules
+- 🎯 Icones de tipus amb emojis
+- ⌨️ Navegació per teclat
+- 💾 Cache local i preferències
+- 🔄 Gestió d'errors amb retry automàtic
 
 ## Instal·lació i Execució
 

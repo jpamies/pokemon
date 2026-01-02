@@ -45,7 +45,7 @@ header {
     min-width: 140px;
 }
 
-#accessibility-toggle {
+#accessibility-toggle, #advanced-toggle {
     padding: 12px 16px;
     font-size: 20px;
     font-weight: bold;
@@ -55,9 +55,10 @@ header {
     cursor: pointer;
     min-width: 60px;
     transition: all 0.3s ease;
+    margin-left: 10px;
 }
 
-#accessibility-toggle:hover {
+#accessibility-toggle:hover, #advanced-toggle:hover {
     background: #4a90e2;
     color: white;
 }
@@ -97,26 +98,205 @@ main {
     padding: 30px;
     margin: 20px 0;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Pokemon Header Layout */
+.pokemon-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
 }
 
 .pokemon-image-container {
-    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+.pokemon-info {
+    flex: 1;
+    text-align: left;
 }
 
 .pokemon-image {
-    max-width: 200px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
-    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .pokemon-name {
     font-size: 2.5em;
     font-weight: bold;
     color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.pokemon-generation {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Basic Stats */
+.pokemon-basic-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 15px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat span:first-child {
+    display: block;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.stat span:last-child {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Advanced Mode Styles */
+.pokemon-advanced-content {
+    display: none;
+    margin-top: 30px;
+}
+
+.pokemon-container.advanced-mode .pokemon-advanced-content {
+    display: block;
+}
+
+.pokemon-container.advanced-mode {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.pokemon-stats-section, .pokemon-abilities-section {
+    margin: 30px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 15px;
+}
+
+.pokemon-stats-section h3, .pokemon-abilities-section h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Stats Bars */
+.stat-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    gap: 15px;
+}
+
+.stat-name {
+    min-width: 80px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+.stat-bar {
+    flex: 1;
+    height: 20px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stat-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+.stat-value {
+    min-width: 40px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: right;
+}
+
+/* Abilities */
+.pokemon-abilities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ability-item {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.ability-item.hidden-ability {
+    background: #9b59b6;
+    position: relative;
+}
+
+.ability-item.hidden-ability::after {
+    content: " (Oculta)";
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+
+/* Responsive Design for Advanced Mode */
+@media (max-width: 768px) {
+    .pokemon-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .pokemon-info {
+        text-align: center;
+    }
+    
+    .pokemon-image {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .pokemon-name {
+        font-size: 2em;
+    }
+    
+    .pokemon-basic-stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .stat-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .stat-bar {
+        width: 100%;
+    }
 }
 
 /* Pokemon Types */
@@ -124,7 +304,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
 }
 
@@ -136,10 +316,15 @@ main {
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     min-width: 80px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-/* Pokemon Stats */
-.pokemon-stats {
+.type-icon {
+    font-size: 18px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 20px;

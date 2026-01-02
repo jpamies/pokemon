@@ -19,6 +19,7 @@
             <button id="accessibility-toggle" aria-label="Canviar majúscules">
                 <span id="accessibility-text">Aa</span>
             </button>
+            <button id="advanced-toggle" aria-label="Modo Avanzado" title="Modo Avanzado">📋</button>
         </div>
     </header>
 
@@ -29,15 +30,18 @@
         </div>
 
         <div id="pokemon-container" class="pokemon-container">
-            <div class="pokemon-image-container">
-                <img id="pokemon-image" src="" alt="" class="pokemon-image">
+            <div class="pokemon-header">
+                <div class="pokemon-image-container">
+                    <img id="pokemon-image" src="" alt="" class="pokemon-image">
+                </div>
+                <div class="pokemon-info">
+                    <h1 id="pokemon-name" class="pokemon-name"></h1>
+                    <div id="pokemon-generation" class="pokemon-generation"></div>
+                    <div id="pokemon-types" class="pokemon-types"></div>
+                </div>
             </div>
             
-            <h1 id="pokemon-name" class="pokemon-name"></h1>
-            
-            <div id="pokemon-types" class="pokemon-types"></div>
-            
-            <div class="pokemon-stats">
+            <div class="pokemon-basic-stats">
                 <div class="stat">
                     <span id="height-label">ALÇADA</span>
                     <span id="pokemon-height"></span>
@@ -49,6 +53,19 @@
                 <div class="stat">
                     <span id="number-label">NÚMERO</span>
                     <span id="pokemon-number"></span>
+                </div>
+            </div>
+
+            <!-- Advanced mode content -->
+            <div class="pokemon-advanced-content">
+                <div class="pokemon-stats-section">
+                    <h3>Estadístiques Base</h3>
+                    <div id="pokemon-stats" class="pokemon-stats"></div>
+                </div>
+                
+                <div class="pokemon-abilities-section">
+                    <h3>Habilitats</h3>
+                    <div id="pokemon-abilities" class="pokemon-abilities"></div>
                 </div>
             </div>
         </div>
