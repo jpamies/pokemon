@@ -6,6 +6,9 @@ Una aplicació web estàtica per ajudar els nens a aprendre sobre Pokémon amb s
 
 Ara disponible: **Guies PDF completes de tots els Pokémon en català**!
 
+### 📖 **GUIA COMPLETA** - Tots els Pokémon en un sol PDF
+**[📥 DESCARREGA LA GUIA COMPLETA](docs/pdf/pokemon_complet_catala.pdf)** - 1,025 Pokémon de totes les generacions amb descripcions en català
+
 ### 📱 Accés Web
 - **Aplicació Web**: [https://jordipb.github.io/pokeAPI/](https://jordipb.github.io/pokeAPI/)
 - **Descarrega PDFs**: [https://jordipb.github.io/pokeAPI/docs/](https://jordipb.github.io/pokeAPI/docs/)
@@ -26,12 +29,13 @@ Ara disponible: **Guies PDF completes de tots els Pokémon en català**!
 
 ### ✨ Característiques dels PDFs
 
-- 🌍 **Completament en català**: Traduccions fetes especialment per a nens
-- 🎨 **Disseny atractiu**: Cartes horitzontals amb colors i imatges grans
+- 🌍 **Completament en català**: Traduccions fetes especialment per a nens per Kiro AI
+- 📚 **Guia completa disponible**: Un sol PDF amb tots els 1,025 Pokémon
+- 🎨 **Format optimitzat**: Taules compactes amb informació essencial
 - 📱 **Optimitzat per impressió**: Format A4 perfecte per imprimir a casa
-- 🔄 **Dues ordenacions**: Per número de Pokédex o agrupats per color
-- 🎯 **Cadenes evolutives**: Navegació visual entre evolucions
-- 📖 **Descripcions completes**: Text adaptat per a la comprensió infantil
+- 🔄 **Múltiples versions**: Guia completa + PDFs per generació
+- 🎯 **Informació completa**: Número, nom, tipus, mides, color i descripció
+- 📖 **Descripcions adaptades**: Text adaptat per a la comprensió infantil
 
 ## Característiques de l'Aplicació Web
 
