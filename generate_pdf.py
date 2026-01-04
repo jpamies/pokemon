@@ -430,12 +430,12 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
     c.drawString(x + (card_width - gen_width) // 2, y + card_height - 32, gen_text)
     
     # LEFT SIDE: Pokemon image
+    img_size = 80
+    img_x = x + 15
+    img_y = y + card_height - 125
+    
     if image:
         try:
-            img_size = 80
-            img_x = x + 15
-            img_y = y + card_height - 125
-            
             # Simple background
             c.setFillColor(HexColor('#ffffff'))
             c.roundRect(img_x - 5, img_y - 5, img_size + 10, img_size + 10, 5, fill=1)
