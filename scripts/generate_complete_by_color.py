@@ -23,7 +23,7 @@ def generate_complete_by_color():
     
     print(f"Loaded {len(all_pokemon)} Pokemon")
     
-    # Sort by color
+    # Sort by color first, then by ID
     def get_color_sort_key(pokemon):
         color = 'white'  # default
         if 'species_data' in pokemon and 'color' in pokemon['species_data']:
@@ -34,7 +34,9 @@ def generate_complete_by_color():
             'black': 1, 'blue': 2, 'brown': 3, 'gray': 4, 'green': 5,
             'pink': 6, 'purple': 7, 'red': 8, 'white': 9, 'yellow': 10
         }
-        return color_order.get(color, 99)
+        
+        pokemon_id = pokemon.get('id', 9999)
+        return (color_order.get(color, 99), pokemon_id)  # Sort by color first, then by ID
     
     all_pokemon.sort(key=get_color_sort_key)
     
