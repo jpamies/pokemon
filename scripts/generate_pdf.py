@@ -439,7 +439,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
     # LEFT SIDE: Pokemon image
     img_size = 80
     img_x = x + 15
-    img_y = y + card_height - 125
+    img_y = y + card_height - 135  # Adjusted for taller card
     
     if image:
         try:
@@ -604,9 +604,9 @@ def generate_pokemon_pdf(pokemon_list, filename, subtitle="151 Pokémon"):
     c = canvas.Canvas(filename, pagesize=landscape(A4))
     page_width, page_height = landscape(A4)
     
-    # Card dimensions - better proportions
+    # Card dimensions - increased height for better use of space
     card_width = 190
-    card_height = 220
+    card_height = 260  # Increased from 220 to 260
     cards_per_row = 4
     cards_per_col = 2
     cards_per_page = cards_per_row * cards_per_col
@@ -614,7 +614,7 @@ def generate_pokemon_pdf(pokemon_list, filename, subtitle="151 Pokémon"):
     margin_x = 15
     margin_y = 40
     spacing_x = 10
-    spacing_y = 15
+    spacing_y = 10  # Reduced from 15 to 10 to fit taller cards
     
     # Title page
     c.setFont("Helvetica-Bold", 24)
