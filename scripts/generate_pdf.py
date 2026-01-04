@@ -616,19 +616,6 @@ def generate_pokemon_pdf(pokemon_list, filename, subtitle="151 Pokémon"):
     spacing_x = 10
     spacing_y = 10  # Reduced from 15 to 10 to fit taller cards
     
-    # Title page
-    c.setFont("Helvetica-Bold", 24)
-    c.setFillColor(HexColor('#e74c3c'))
-    title_text = "Guia Pokémon per a Nens"
-    title_width = c.stringWidth(title_text, "Helvetica-Bold", 24)
-    c.drawString((page_width - title_width) / 2, page_height - 50, title_text)
-    
-    c.setFont("Helvetica", 14)
-    c.setFillColor(HexColor('#7f8c8d'))
-    subtitle_text = f"{subtitle} - {len(pokemon_list)} cartes"
-    subtitle_width = c.stringWidth(subtitle_text, "Helvetica", 14)
-    c.drawString((page_width - subtitle_width) / 2, page_height - 80, subtitle_text)
-    
     card_count = 0
     
     for pokemon in pokemon_list:
