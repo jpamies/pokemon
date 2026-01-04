@@ -10,8 +10,8 @@ Ara disponible: **Guies PDF completes de tots els Pokémon en català**!
 **[📥 DESCARREGA LA GUIA COMPLETA](docs/pdf/pokemon_complet_catala.pdf)** - 1,025 Pokémon de totes les generacions amb descripcions en català
 
 ### 📱 Accés Web
-- **Aplicació Web**: [https://jordipb.github.io/pokeAPI/](https://jordipb.github.io/pokeAPI/)
-- **Descarrega PDFs**: [https://jordipb.github.io/pokeAPI/docs/](https://jordipb.github.io/pokeAPI/docs/)
+- **Documentació**: [https://jpamies.github.io/pokemon/](https://jpamies.github.io/pokemon/)
+- **Descarrega PDFs**: [https://jpamies.github.io/pokemon/docs/](https://jpamies.github.io/pokemon/docs/)
 
 ### 📚 PDFs Disponibles
 
