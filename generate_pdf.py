@@ -231,8 +231,15 @@ def fetch_pokemon(pokemon_id):
                     description = entry['flavor_text'].replace('\n', ' ').replace('\f', ' ')
                     break
         
-        # Placeholder for Catalan translation (to be filled by Kiro)
+        # Get Catalan translation from file
         description_catalan = "Descripció no disponible."
+        try:
+            with open('catalan_translations.json', 'r', encoding='utf-8') as f:
+                translations = json.load(f)
+                if str(pokemon_id) in translations:
+                    description_catalan = translations[str(pokemon_id)].get('description_catalan', description_catalan)
+        except:
+            pass
         
         pokemon_data = {
             'id': data['id'],
