@@ -41,7 +41,7 @@ def generate_complete_by_color():
     all_pokemon.sort(key=get_color_sort_key)
     
     # Generate PDF
-    filename = "pokemon_complet_catala_by_color.pdf"
+    filename = "../pokemon_complet_catala_by_color.pdf"
     generate_pokemon_pdf(all_pokemon, filename, f"{len(all_pokemon)} Pokémon - Per Color")
     
     print(f"Complete PDF by color generated: {filename}")

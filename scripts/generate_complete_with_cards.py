@@ -24,7 +24,7 @@ def generate_complete_pdf():
     print(f"Loaded {len(all_pokemon)} Pokemon")
     
     # Generate PDF
-    filename = "pokemon_complet_catala.pdf"
+    filename = "../pokemon_complet_catala.pdf"
     generate_pokemon_pdf(all_pokemon, filename, f"{len(all_pokemon)} Pokémon - Totes les Generacions")
     
     print(f"Complete PDF generated: {filename}")
