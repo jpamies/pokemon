@@ -22,10 +22,10 @@ Ara disponible: **Guies PDF completes de tots els Pokémon en català**!
 | **Gen III - Hoenn** | #252-386 | ✅ Complet | [Per ID](docs/pdf/iii_hoenn_by_id.pdf) \| [Per Color](docs/pdf/iii_hoenn_by_color.pdf) |
 | **Gen IV - Sinnoh** | #387-493 | ✅ Complet | [Per ID](docs/pdf/iv_sinnoh_by_id.pdf) \| [Per Color](docs/pdf/iv_sinnoh_by_color.pdf) |
 | **Gen V - Unova** | #494-649 | ✅ Complet | [Per ID](docs/pdf/v_unova_by_id.pdf) \| [Per Color](docs/pdf/v_unova_by_color.pdf) |
-| **Gen VI - Kalos** | #650-721 | 🔄 En procés | Pròximament |
-| **Gen VII - Alola** | #722-809 | 🔄 En procés | Pròximament |
-| **Gen VIII - Galar** | #810-905 | 🔄 En procés | Pròximament |
-| **Gen IX - Paldea** | #906-1025 | 🔄 En procés | Pròximament |
+| **Gen VI - Kalos** | #650-721 | ✅ Complet | [Per ID](docs/pdf/vi_kalos_by_id.pdf) |
+| **Gen VII - Alola** | #722-809 | ✅ Complet | [Per ID](docs/pdf/vii_alola_by_id.pdf) |
+| **Gen VIII - Galar** | #810-905 | ✅ Complet | [Per ID](docs/pdf/viii_galar_by_id.pdf) |
+| **Gen IX - Paldea** | #906-1025 | ✅ Complet | [Per ID](docs/pdf/ix_paldea_by_id.pdf) |
 
 ### ✨ Característiques dels PDFs
 
