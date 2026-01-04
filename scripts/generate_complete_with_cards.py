@@ -4,8 +4,8 @@ Generate complete Pokemon PDF using fetch_pokemon function
 """
 
 import sys
-sys.path.append('.')
-from generate_pdf import fetch_pokemon, generate_pokemon_pdf
+sys.path.append('..')
+from scripts.generate_pdf import fetch_pokemon, generate_pokemon_pdf
 
 def generate_complete_pdf():
     """Generate complete PDF with all Pokemon"""

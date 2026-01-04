@@ -1,171 +1,159 @@
-# Guia Pokémon per a Nens
+# 🐾 Guía Pokémon para Niños
 
-Una aplicació web estàtica per ajudar els nens a aprendre sobre Pokémon amb suport multiidioma i funcions d'accessibilitat.
+> **Sistema educativo completo con guías Pokémon multiidioma y PDFs descargables**
 
-## 🎯 Nou: PDFs en Català!
+Una aplicación web estática diseñada específicamente para ayudar a los niños a aprender sobre Pokémon, con soporte completo en **catalán**, español e inglés, y funciones de accesibilidad adaptadas para el público infantil.
 
-Ara disponible: **Guies PDF completes de tots els Pokémon en català**!
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://jpamies.github.io/pokemon/)
+[![PDFs](https://img.shields.io/badge/PDFs-20%20archivos-blue)](https://jpamies.github.io/pokemon/docs/)
+[![Pokémon](https://img.shields.io/badge/Pokémon-1025%20completos-red)](https://jpamies.github.io/pokemon/)
 
-### 📖 **GUIA COMPLETA** - Tots els Pokémon en un sol PDF
-- **[📥 DESCARREGA LA GUIA COMPLETA (Per ID)](docs/pdf/pokemon_complet_catala.pdf)** - 1,025 Pokémon ordenats per número
-- **[📥 DESCARREGA LA GUIA COMPLETA (Per Color)](docs/pdf/pokemon_complet_catala_by_color.pdf)** - 1,025 Pokémon ordenats per color
+## 🎯 Acceso Rápido
 
-*Ambdues versions contenen tots els Pokémon de totes les generacions amb descripcions completes en català*
+### 🌐 **Aplicación Web**
+- **[📱 Aplicación Interactiva](https://jpamies.github.io/pokemon/)** - Navega por todos los Pokémon online
+- **[📚 Centro de Descargas](https://jpamies.github.io/pokemon/docs/)** - Todos los PDFs disponibles
 
-### 📱 Accés Web
-- **Documentació**: [https://jpamies.github.io/pokemon/](https://jpamies.github.io/pokemon/)
-- **Descarrega PDFs**: [https://jpamies.github.io/pokemon/docs/](https://jpamies.github.io/pokemon/docs/)
+### 📖 **Guías Completas** (Recomendado)
+- **[📥 Guía Completa por ID](docs/pdf/pokemon_complet_catala.pdf)** - 1,025 Pokémon ordenados por número
+- **[📥 Guía Completa por Color](docs/pdf/pokemon_complet_catala_by_color.pdf)** - 1,025 Pokémon ordenados por color
 
-### 📚 PDFs Disponibles
+*Ambas versiones incluyen todos los Pokémon de las 9 generaciones con descripciones completas en catalán*
 
-| Generació | Pokémon | Estat | Descarrega |
-|-----------|---------|-------|------------|
-| **Gen I - Kanto** | #1-151 | ✅ Complet | [Per ID](docs/pdf/gen1_kanto_by_id.pdf) \| [Per Color](docs/pdf/gen1_kanto_by_color.pdf) |
-| **Gen II - Johto** | #152-251 | ✅ Complet | [Per ID](docs/pdf/ii_johto_by_id.pdf) \| [Per Color](docs/pdf/ii_johto_by_color.pdf) |
-| **Gen III - Hoenn** | #252-386 | ✅ Complet | [Per ID](docs/pdf/iii_hoenn_by_id.pdf) \| [Per Color](docs/pdf/iii_hoenn_by_color.pdf) |
-| **Gen IV - Sinnoh** | #387-493 | ✅ Complet | [Per ID](docs/pdf/iv_sinnoh_by_id.pdf) \| [Per Color](docs/pdf/iv_sinnoh_by_color.pdf) |
-| **Gen V - Unova** | #494-649 | ✅ Complet | [Per ID](docs/pdf/v_unova_by_id.pdf) \| [Per Color](docs/pdf/v_unova_by_color.pdf) |
-| **Gen VI - Kalos** | #650-721 | ✅ Complet | [Per ID](docs/pdf/vi_kalos_by_id.pdf) \| [Per Color](docs/pdf/vi_kalos_by_color.pdf) |
-| **Gen VII - Alola** | #722-809 | ✅ Complet | [Per ID](docs/pdf/vii_alola_by_id.pdf) \| [Per Color](docs/pdf/vii_alola_by_color.pdf) |
-| **Gen VIII - Galar** | #810-905 | ✅ Complet | [Per ID](docs/pdf/viii_galar_by_id.pdf) \| [Per Color](docs/pdf/viii_galar_by_color.pdf) |
-| **Gen IX - Paldea** | #906-1025 | ✅ Complet | [Per ID](docs/pdf/ix_paldea_by_id.pdf) \| [Per Color](docs/pdf/ix_paldea_by_color.pdf) |
+## 📚 PDFs por Generación
 
-### ✨ Característiques dels PDFs
+| Generación | Pokémon | Región | Descargas |
+|------------|---------|--------|-----------|
+| **Gen I** | #1-151 | Kanto | [Por ID](docs/pdf/gen1_kanto_by_id.pdf) • [Por Color](docs/pdf/gen1_kanto_by_color.pdf) |
+| **Gen II** | #152-251 | Johto | [Por ID](docs/pdf/ii_johto_by_id.pdf) • [Por Color](docs/pdf/ii_johto_by_color.pdf) |
+| **Gen III** | #252-386 | Hoenn | [Por ID](docs/pdf/iii_hoenn_by_id.pdf) • [Por Color](docs/pdf/iii_hoenn_by_color.pdf) |
+| **Gen IV** | #387-493 | Sinnoh | [Por ID](docs/pdf/iv_sinnoh_by_id.pdf) • [Por Color](docs/pdf/iv_sinnoh_by_color.pdf) |
+| **Gen V** | #494-649 | Unova | [Por ID](docs/pdf/v_unova_by_id.pdf) • [Por Color](docs/pdf/v_unova_by_color.pdf) |
+| **Gen VI** | #650-721 | Kalos | [Por ID](docs/pdf/vi_kalos_by_id.pdf) • [Por Color](docs/pdf/vi_kalos_by_color.pdf) |
+| **Gen VII** | #722-809 | Alola | [Por ID](docs/pdf/vii_alola_by_id.pdf) • [Por Color](docs/pdf/vii_alola_by_color.pdf) |
+| **Gen VIII** | #810-905 | Galar | [Por ID](docs/pdf/viii_galar_by_id.pdf) • [Por Color](docs/pdf/viii_galar_by_color.pdf) |
+| **Gen IX** | #906-1025 | Paldea | [Por ID](docs/pdf/ix_paldea_by_id.pdf) • [Por Color](docs/pdf/ix_paldea_by_color.pdf) |
 
-- 🌍 **Completament en català**: Traduccions fetes especialment per a nens per Kiro AI
-- 📚 **Guia completa disponible**: Un sol PDF amb tots els 1,025 Pokémon
-- 🎨 **Format optimitzat**: Taules compactes amb informació essencial
-- 📱 **Optimitzat per impressió**: Format A4 perfecte per imprimir a casa
-- 🔄 **Múltiples versions**: Guia completa + PDFs per generació
-- 🎯 **Informació completa**: Número, nom, tipus, mides, color i descripció
-- 📖 **Descripcions adaptades**: Text adaptat per a la comprensió infantil
+## ✨ Características Principales
 
-## Característiques de l'Aplicació Web
+### 🎨 **PDFs Educativos**
+- 🌍 **Completamente en catalán** - Traducciones especializadas para niños
+- 🎯 **Formato de cartas horizontales** - Optimizado para impresión A4
+- 🖼️ **Imágenes oficiales** - Artwork de alta calidad de cada Pokémon
+- 📊 **Información completa** - Número, nombre, tipos, medidas y descripción
+- 🎨 **Fondos de color** - Cada carta con el color representativo del Pokémon
 
-- 🌍 **Multiidioma**: Català (per defecte), Espanyol i Anglès
-- 🔤 **Accessibilitat**: Lletres majúscules per defecte per facilitar la lectura als nens
-- 📱 **Estàtic**: Funciona sense connexió i es pot imprimir
-- 🖼️ **Imatges grans**: Imatges de 200x200px amb millor visualització
-- 🎮 **Fàcil d'usar**: Interfície dissenyada especialment per a nens
-- ⌨️ **Navegació per teclat**: Suport per fletxes i tecla Inici
-- 💾 **Emmagatzematge local**: Guarda preferències i cache de dades
-- 🔄 **Gestió d'errors**: Sistema de retry automàtic
-- 🎯 **Icones de tipus**: Emojis visuals per cada tipus de Pokémon
-- 🎲 **Informació de generació**: Mostra la generació i regió de cada Pokémon
-- 📊 **Modo avançat**: Vista tipus carta amb estadístiques i habilitats
-- 🔄 **Cadena d'evolució**: Navegació clickeable entre evolucions
-- 📋 **Llistat complet**: Vista de tots els Pokémon amb navegació directa
-- 📖 **Descripcions**: Textos descriptius dels Pokémon en múltiples idiomes
-- 🎨 **Informació visual**: Color principal i hàbitat de cada Pokémon
-- 👑 **Pokémon especials**: Identificació de legendaris i mítics
+### 📱 **Aplicación Web Interactiva**
+- 🌍 **Multiidioma** - Catalán (por defecto), español e inglés
+- 🔤 **Accesibilidad** - Modo mayúsculas para facilitar la lectura
+- 📱 **Responsive** - Funciona en móviles, tablets y ordenadores
+- ⌨️ **Navegación por teclado** - Soporte completo para accesibilidad
+- 🎮 **Modos de vista** - Básico y avanzado con estadísticas
+- 🔄 **Cadenas de evolución** - Navegación entre evoluciones
+- 📋 **Lista completa** - Vista de todos los Pokémon
 
-## API
+### 🚀 **Rendimiento y Tecnología**
+- 💾 **Sistema de cache** - Carga rápida y uso eficiente de datos
+- 🌐 **Funciona offline** - PDFs descargables para uso sin conexión
+- 📊 **Optimizado** - Imágenes y datos optimizados para web
+- 🔄 **Actualización automática** - Contenido siempre actualizado
 
-Utilitza l'API REST de Pokémon: https://pokeapi.co/api/v2
+## 🛠️ Uso para Desarrolladores
 
-## Historial de Versions
-
-### v3.0.0 (Gener 2026) - PDFs en Català
-- 📚 **PDFs complets**: Guies descarregables de tots els Pokémon en català
-- 🌍 **Traduccions professionals**: Fetes per Kiro especialment per a nens
-- 🎨 **Disseny optimitzat**: Cartes horitzontals amb fons de color
-- 📱 **GitHub Pages**: Hosting gratuït amb descàrregues directes
-- 🔄 **Múltiples ordenacions**: Per ID i per color per cada generació
-
-### v2.2.0 (Gener 2026)
-- 🌍 **Expansió completa**: Tots els 1,025 Pokémon de les 9 generacions
-- 🚀 **Precàrrega intel·ligent**: Imatges precargades en segon pla per llistat instantani
-- 📊 **Navegació ampliada**: Del #1 al #1025 amb comptador actualitzat
-- 💾 **Optimització**: Lotes de 50 imatges amb pauses per no bloquejar la UI
-- 🎯 **Totes les regions**: Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar, Paldea
-
-### v2.1.1 (Gener 2026)
-- 🎨 **Reorganització d'informació**: Eliminar títol "Descripció", reorganitzar atributs
-- 🌈 **Color visual**: Recuadre de color real + nom traduït per cada Pokémon
-- 📊 **Ordre optimitzat**: Número, color, hàbitat, altura, pes
-- 📱 **Millores de disseny**: Text més petit (0.9em) per valors d'atributs
-- 🌍 **Traduccions**: COLOR i HÀBITAT en català, espanyol i anglès
-
-### v2.1.0 (Gener 2026)
-- 🔄 **Cadena d'evolució**: Navegació clickeable entre evolucions
-- 📋 **Llistat complet**: Vista de tots els Pokémon amb navegació directa
-- 📖 **Descripcions**: Textos descriptius dels Pokémon en múltiples idiomes
-- 🎨 **Informació visual**: Color principal i hàbitat traduïts
-- 👑 **Pokémon especials**: Badges per legendaris i mítics
-- 🌍 **Habilitats traduïdes**: Noms d'habilitats en català, espanyol i anglès
-- 🎯 **Generació amb regió**: "Gen I - Kanto" format millorat
-
-### v2.0.0 (Gener 2026)
-- ✨ **Modo Avançat**: Vista tipus carta amb estadístiques i habilitats
-- 🖼️ **Imatges millorades**: Imatges més grans (200x200px) amb millor layout
-- 🎲 **Informació de generació**: Mostra la generació de cada Pokémon
-- 📊 **Estadístiques base**: Barres visuals per totes les stats
-- 🎯 **Habilitats**: Mostra habilitats normals i ocultes
-- 🎨 **Disseny responsive**: Millor adaptació a mòbils i tauletes
-
-### v1.0.0 (Desembre 2025)
-- 🌍 Suport multiidioma (Català, Espanyol, Anglès)
-- 🔤 Mode d'accessibilitat amb majúscules
-- 🎯 Icones de tipus amb emojis
-- ⌨️ Navegació per teclat
-- 💾 Cache local i preferències
-- 🔄 Gestió d'errors amb retry automàtic
-
-## Instal·lació i Execució
-
-### Opció 1: Accés Online (Recomanat)
-Visita directament: [https://jordipb.github.io/pokeAPI/](https://jordipb.github.io/pokeAPI/)
-
-### Opció 2: Servidor Local
+### Instalación Rápida
 ```bash
-# Clona el repositori
-git clone https://github.com/jordipb/pokeAPI.git
-cd pokeAPI
-
-# Inicia un servidor local (tria una opció):
-
-# Python 3
+git clone https://github.com/jpamies/pokemon.git
+cd pokemon
 python -m http.server 8000
-
-# Python 2
-python -m SimpleHTTPServer 8000
-
-# Node.js (si tens npx)
-npx serve .
-
-# PHP
-php -S localhost:8000
 ```
 
-Després obre: http://localhost:8000
+### Generación de PDFs
+```bash
+# Generar todos los PDFs
+python main.py all
 
-### Opció 3: Extensions de Navegador
-- **Chrome**: Inicia amb `--disable-web-security --user-data-dir=/tmp/chrome_dev`
-- **Firefox**: Canvia `security.fileuri.strict_origin_policy` a `false` a `about:config`
+# Solo PDFs por generaciones
+python main.py generations
 
-### Opció 4: Live Server (VS Code)
-1. Instal·la l'extensió "Live Server"
-2. Clic dret a `index.html` → "Open with Live Server"
+# Solo PDFs completos
+python main.py complete
 
-### ⚠️ Problema CORS
-Si obres `index.html` directament des del sistema de fitxers (`file://`), obtindràs errors CORS quan l'aplicació intenti carregar les traduccions i fer crides a l'API. **Sempre utilitza un servidor local o accedeix online.**
+# Regenerar cache
+python main.py cache
+```
 
-## Ús
+### Estructura del Proyecto
+```
+pokemon/
+├── 📱 Aplicación Web
+│   ├── index.html          # Aplicación principal
+│   ├── css/               # Estilos y temas
+│   ├── js/                # Lógica JavaScript
+│   └── translations/      # Archivos de traducción
+│
+├── 🐍 Scripts Python
+│   ├── scripts/           # Scripts de generación
+│   ├── data/             # Traducciones y datos
+│   └── main.py           # Script principal
+│
+├── 📄 PDFs y Distribución
+│   ├── pdf/              # PDFs generados
+│   ├── docs/             # GitHub Pages
+│   └── cache/            # Cache de datos e imágenes
+│
+└── 📚 Documentación
+    ├── README.md         # Esta documentación
+    └── TECHNICAL_DOCS.md # Documentación técnica
+```
 
-- Selecciona l'idioma al menú superior
-- Utilitza el botó d'accessibilitat per canviar entre majúscules i minúscules
-- Navega pels Pokémon utilitzant els controls de navegació
-- Descarrega els PDFs per utilitzar-los sense connexió
-- Imprimeix les pàgines per utilitzar-les offline
+## 📊 Estadísticas del Proyecto
 
-## Contribuir
+- **🐾 Pokémon**: 1,025 completos (Generaciones I-IX)
+- **🌍 Traducciones**: 1,025 descripciones en catalán
+- **📄 PDFs**: 20 archivos (18 por generación + 2 completos)
+- **💾 Tamaño**: ~60MB total de PDFs con imágenes
+- **🌐 Idiomas**: Catalán, español, inglés
+- **📱 Compatibilidad**: Todos los navegadores modernos
 
-1. Fork el projecte
-2. Crea una branca per a la teva funcionalitat
-3. Fes commit dels teus canvis
-4. Push a la branca
-5. Obre un Pull Request
+## 🎓 Uso Educativo
 
-## Llicència
+### Para Padres y Educadores
+- **📚 Material didáctico** - PDFs listos para imprimir y usar en clase
+- **🌍 Aprendizaje multiidioma** - Especialmente diseñado para catalanohablantes
+- **🎯 Adaptado para niños** - Lenguaje y diseño apropiado para la edad
+- **📱 Interactivo** - Aplicación web para exploración digital
 
-Aquest projecte està sota llicència MIT.
+### Para Niños
+- **🔤 Fácil lectura** - Modo mayúsculas y fuentes grandes
+- **🎨 Visual atractivo** - Colores y diseño llamativo
+- **🎮 Navegación simple** - Controles intuitivos
+- **📖 Información completa** - Todo lo necesario sobre cada Pokémon
+
+## 🤝 Contribuir
+
+1. **Fork** el proyecto
+2. **Crea** una rama para tu funcionalidad (`git checkout -b feature/nueva-funcionalidad`)
+3. **Commit** tus cambios (`git commit -am 'Añadir nueva funcionalidad'`)
+4. **Push** a la rama (`git push origin feature/nueva-funcionalidad`)
+5. **Abre** un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la **Licencia MIT**. Ver el archivo `LICENSE` para más detalles.
+
+## 🙏 Reconocimientos
+
+- **[PokeAPI](https://pokeapi.co/)** - API de datos Pokémon
+- **[ReportLab](https://www.reportlab.com/)** - Generación de PDFs
+- **[GitHub Pages](https://pages.github.com/)** - Hosting gratuito
+- **Kiro AI** - Traducciones especializadas en catalán
+
+---
+
+<div align="center">
+
+**[🌐 Ver Aplicación](https://jpamies.github.io/pokemon/) • [📚 Descargar PDFs](https://jpamies.github.io/pokemon/docs/) • [📖 Documentación Técnica](TECHNICAL_DOCS.md)**
+
+*Hecho con ❤️ para la comunidad educativa catalanohablante*
+
+</div>

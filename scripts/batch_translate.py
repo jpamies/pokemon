@@ -9,7 +9,7 @@ from generate_pdf import fetch_pokemon
 
 def update_translations_batch(translations_dict):
     """Update cache with a batch of translations"""
-    cache_dir = 'cache/data'
+    cache_dir = '../cache/data'
     updated = 0
     
     for pokemon_id, catalan_desc in translations_dict.items():

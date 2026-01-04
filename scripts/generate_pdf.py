@@ -12,7 +12,7 @@ import os
 import hashlib
 
 # Cache directories
-CACHE_DIR = './cache'
+CACHE_DIR = '../cache'
 DATA_CACHE_DIR = os.path.join(CACHE_DIR, 'data')
 IMAGE_CACHE_DIR = os.path.join(CACHE_DIR, 'images')
 TRANSLATION_CACHE_DIR = os.path.join(CACHE_DIR, 'translations')
@@ -28,7 +28,7 @@ def translate_to_catalan(text):
         return text
     
     # Load translations from file
-    translations_file = 'catalan_translations.json'
+    translations_file = '../data/catalan_translations.json'
     if os.path.exists(translations_file):
         try:
             with open(translations_file, 'r', encoding='utf-8') as f:
@@ -234,7 +234,7 @@ def fetch_pokemon(pokemon_id):
         # Get Catalan translation from file
         description_catalan = "Descripció no disponible."
         try:
-            with open('catalan_translations.json', 'r', encoding='utf-8') as f:
+            with open('../data/catalan_translations.json', 'r', encoding='utf-8') as f:
                 translations = json.load(f)
                 if str(pokemon_id) in translations:
                     description_catalan = translations[str(pokemon_id)].get('description_catalan', description_catalan)
