@@ -25,9 +25,7 @@ def generate_complete_by_color():
     
     # Sort by color first, then by ID
     def get_color_sort_key(pokemon):
-        color = 'white'  # default
-        if 'species_data' in pokemon and 'color' in pokemon['species_data']:
-            color = pokemon['species_data']['color']['name']
+        color = pokemon.get('color', 'white')  # Use the direct color field
         
         # Color order for sorting
         color_order = {
