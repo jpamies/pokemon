@@ -28,14 +28,15 @@ def translate_to_catalan(text):
         return text
     
     # Load translations from file
-    translations_file = '../data/catalan_translations.json'
-    if os.path.exists(translations_file):
-        try:
-            with open(translations_file, 'r', encoding='utf-8') as f:
-                translations = json.load(f)
-                return translations.get(text, text)  # Return original if not found
-        except:
-            pass
+    translation_paths = ['../data/catalan_translations.json', 'data/catalan_translations.json']
+    for translations_file in translation_paths:
+        if os.path.exists(translations_file):
+            try:
+                with open(translations_file, 'r', encoding='utf-8') as f:
+                    translations = json.load(f)
+                    return translations.get(text, text)  # Return original if not found
+            except:
+                pass
     
     # Fallback: return original text if translation file not found
     return text
@@ -234,11 +235,16 @@ def fetch_pokemon(pokemon_id):
         # Get Catalan translation from file
         description_catalan = "Descripció no disponible."
         try:
-            with open('../data/catalan_translations.json', 'r', encoding='utf-8') as f:
-                translations = json.load(f)
-                if str(pokemon_id) in translations:
-                    description_catalan = translations[str(pokemon_id)]
-        except:
+            # Try both relative paths depending on execution context
+            translation_paths = ['../data/catalan_translations.json', 'data/catalan_translations.json']
+            for path in translation_paths:
+                if os.path.exists(path):
+                    with open(path, 'r', encoding='utf-8') as f:
+                        translations = json.load(f)
+                        if str(pokemon_id) in translations:
+                            description_catalan = translations[str(pokemon_id)]
+                    break
+        except Exception as e:
             pass
         
         pokemon_data = {

@@ -4,8 +4,9 @@ Generate complete Pokemon PDF sorted by color
 """
 
 import sys
-sys.path.append('..')
-from scripts.generate_pdf import fetch_pokemon, generate_pokemon_pdf
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from generate_pdf import fetch_pokemon, generate_pokemon_pdf
 
 def generate_complete_by_color():
     """Generate complete PDF sorted by color"""
