@@ -1,0 +1,33 @@
+{
+  "id": 803,
+  "name": "Poipole",
+  "height": 6,
+  "weight": 18,
+  "types": [
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png",
+  "stats": {
+    "hp": 67,
+    "attack": 73,
+    "defense": 67,
+    "special-attack": 73,
+    "special-defense": 67,
+    "speed": 73
+  },
+  "evolution": [
+    {
+      "id": 803,
+      "name": "Poipole",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png"
+    },
+    {
+      "id": 804,
+      "name": "Naganadel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png"
+    }
+  ],
+  "color": "purple",
+  "description": "En su mundo, este Ultraente se considera tan entrañable como para ser elegido compañero de viaje.",
+  "description_catalan": "Descripció no disponible."
+}

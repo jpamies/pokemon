@@ -1,0 +1,33 @@
+{
+  "id": 820,
+  "name": "Greedent",
+  "height": 6,
+  "weight": 60,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/820.png",
+  "stats": {
+    "hp": 120,
+    "attack": 95,
+    "defense": 95,
+    "special-attack": 55,
+    "special-defense": 75,
+    "speed": 20
+  },
+  "evolution": [
+    {
+      "id": 819,
+      "name": "Skwovet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/819.png"
+    },
+    {
+      "id": 820,
+      "name": "Greedent",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/820.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Sus incisivos, de fuerza y dureza extraordinarias, le permiten mordisquear incluso las bayas más duras. Es un Pokémon muy común en Galar.",
+  "description_catalan": "Descripció no disponible."
+}

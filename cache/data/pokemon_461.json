@@ -1,0 +1,39 @@
+{
+  "id": 461,
+  "name": "Weavile",
+  "height": 11,
+  "weight": 340,
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
+  "stats": {
+    "hp": 70,
+    "attack": 120,
+    "defense": 65,
+    "special-attack": 45,
+    "special-defense": 85,
+    "speed": 125
+  },
+  "evolution": [
+    {
+      "id": 215,
+      "name": "Sneasel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png"
+    },
+    {
+      "id": 461,
+      "name": "Weavile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"
+    },
+    {
+      "id": 903,
+      "name": "Sneasler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png"
+    }
+  ],
+  "color": "black",
+  "description": "Vive en zonas nevadas. Deja marcas en los árboles con sus garras para comunicarse con sus compañeros.",
+  "description_catalan": "Descripció en català per al Pokémon #461. [Traducció pendent]"
+}

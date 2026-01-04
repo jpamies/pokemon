@@ -1,0 +1,22 @@
+{
+  "id": 716,
+  "name": "Xerneas",
+  "height": 30,
+  "weight": 2150,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png",
+  "stats": {
+    "hp": 126,
+    "attack": 131,
+    "defense": 95,
+    "special-attack": 131,
+    "special-defense": 98,
+    "speed": 99
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Según las leyendas, puede compartir el secreto de la vida eterna. Ha despertado tras dormir durante mil años bajo la apariencia de un árbol.",
+  "description_catalan": "Descripció en català per al Pokémon #716. [Traducció pendent]"
+}

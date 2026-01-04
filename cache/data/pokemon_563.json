@@ -1,0 +1,38 @@
+{
+  "id": 563,
+  "name": "Cofagrigus",
+  "height": 17,
+  "weight": 765,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
+  "stats": {
+    "hp": 58,
+    "attack": 50,
+    "defense": 145,
+    "special-attack": 95,
+    "special-defense": 105,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 562,
+      "name": "Yamask",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png"
+    },
+    {
+      "id": 563,
+      "name": "Cofagrigus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png"
+    },
+    {
+      "id": 867,
+      "name": "Runerigus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Se comenta que engulle a todo humano que se le acerca y lo momifica. Su comida favorita son las pepitas de oro.",
+  "description_catalan": "Descripció en català per al Pokémon #563. [Traducció pendent]"
+}

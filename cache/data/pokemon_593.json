@@ -1,0 +1,34 @@
+{
+  "id": 593,
+  "name": "Jellicent",
+  "height": 22,
+  "weight": 1350,
+  "types": [
+    "water",
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
+  "stats": {
+    "hp": 100,
+    "attack": 60,
+    "defense": 70,
+    "special-attack": 85,
+    "special-defense": 105,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 592,
+      "name": "Frillish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png"
+    },
+    {
+      "id": 593,
+      "name": "Jellicent",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png"
+    }
+  ],
+  "color": "white",
+  "description": "Su cuerpo se compone de agua salada. Dicen que ha construido un palacio en el fondo del mar con restos de barcos.",
+  "description_catalan": "Descripció en català per al Pokémon #593. [Traducció pendent]"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 210,
+  "name": "Granbull",
+  "height": 14,
+  "weight": 487,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
+  "stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 75,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 209,
+      "name": "Snubbull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png"
+    },
+    {
+      "id": 210,
+      "name": "Granbull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png"
+    }
+  ],
+  "color": "purple",
+  "description": "A pesar de su aspecto, es muy tímido. Sin embargo, cuando se enfada, ataca con sus colmillos.",
+  "description_catalan": "Malgrat la seva aparença ferotge, és molt juganera i li agrada la companyia."
+}

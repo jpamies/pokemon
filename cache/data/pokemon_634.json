@@ -1,0 +1,39 @@
+{
+  "id": 634,
+  "name": "Zweilous",
+  "height": 14,
+  "weight": 500,
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png",
+  "stats": {
+    "hp": 72,
+    "attack": 85,
+    "defense": 70,
+    "special-attack": 65,
+    "special-defense": 70,
+    "speed": 58
+  },
+  "evolution": [
+    {
+      "id": 633,
+      "name": "Deino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png"
+    },
+    {
+      "id": 634,
+      "name": "Zweilous",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png"
+    },
+    {
+      "id": 635,
+      "name": "Hydreigon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Sus dos cabezas se llevan fatal, y la que consigue comer más que la otra es la que lleva la voz cantante.",
+  "description_catalan": "Descripció en català per al Pokémon #634. [Traducció pendent]"
+}

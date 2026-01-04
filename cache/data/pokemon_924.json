@@ -1,0 +1,33 @@
+{
+  "id": 924,
+  "name": "Tandemaus",
+  "height": 3,
+  "weight": 18,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png",
+  "stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 45,
+    "special-attack": 40,
+    "special-defense": 45,
+    "speed": 75
+  },
+  "evolution": [
+    {
+      "id": 924,
+      "name": "Tandemaus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png"
+    },
+    {
+      "id": 925,
+      "name": "Maushold",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png"
+    }
+  ],
+  "color": "white",
+  "description": "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+  "description_catalan": "Descripció no disponible."
+}

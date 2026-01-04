@@ -1,0 +1,33 @@
+{
+  "id": 320,
+  "name": "Wailmer",
+  "height": 20,
+  "weight": 1300,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png",
+  "stats": {
+    "hp": 130,
+    "attack": 70,
+    "defense": 35,
+    "special-attack": 70,
+    "special-defense": 35,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 320,
+      "name": "Wailmer",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png"
+    },
+    {
+      "id": 321,
+      "name": "Wailord",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Le gusta botar como una pelota de playa. Cuanta más agua de mar traga, más alto puede llegar.",
+  "description_catalan": "Descripció en català per al Pokémon #320. [Traducció pendent]"
+}

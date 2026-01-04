@@ -1,0 +1,33 @@
+{
+  "id": 619,
+  "name": "Mienfoo",
+  "height": 9,
+  "weight": 200,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
+  "stats": {
+    "hp": 45,
+    "attack": 85,
+    "defense": 50,
+    "special-attack": 55,
+    "special-defense": 50,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 619,
+      "name": "Mienfoo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png"
+    },
+    {
+      "id": 620,
+      "name": "Mienshao",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "La velocidad de sus ataques es su gran orgullo. Lo que le falta de fuerza bruta lo compensa en cantidad de golpes.",
+  "description_catalan": "Descripció en català per al Pokémon #619. [Traducció pendent]"
+}

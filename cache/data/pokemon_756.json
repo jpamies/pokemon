@@ -1,0 +1,34 @@
+{
+  "id": 756,
+  "name": "Shiinotic",
+  "height": 10,
+  "weight": 115,
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 80,
+    "special-attack": 90,
+    "special-defense": 100,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 755,
+      "name": "Morelull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png"
+    },
+    {
+      "id": 756,
+      "name": "Shiinotic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Es peligroso adentrarse por la noche en un bosque habitado por Shiinotic. Su luz confunde a los caminantes, que terminan perdiéndose.",
+  "description_catalan": "Descripció no disponible."
+}

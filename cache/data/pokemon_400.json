@@ -1,0 +1,34 @@
+{
+  "id": 400,
+  "name": "Bibarel",
+  "height": 10,
+  "weight": 315,
+  "types": [
+    "normal",
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
+  "stats": {
+    "hp": 79,
+    "attack": 85,
+    "defense": 60,
+    "special-attack": 55,
+    "special-defense": 60,
+    "speed": 71
+  },
+  "evolution": [
+    {
+      "id": 399,
+      "name": "Bidoof",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png"
+    },
+    {
+      "id": 400,
+      "name": "Bibarel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Con sus incisivos roe ramas y raíces y las apila para construir sus madrigueras junto al río.",
+  "description_catalan": "Descripció en català per al Pokémon #400. [Traducció pendent]"
+}

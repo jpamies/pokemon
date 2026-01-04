@@ -1,0 +1,43 @@
+{
+  "id": 61,
+  "name": "Poliwhirl",
+  "height": 10,
+  "weight": 200,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+  "stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 65,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 90
+  },
+  "evolution": [
+    {
+      "id": 60,
+      "name": "Poliwag",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+    },
+    {
+      "id": 61,
+      "name": "Poliwhirl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+    },
+    {
+      "id": 62,
+      "name": "Poliwrath",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+    },
+    {
+      "id": 186,
+      "name": "Politoed",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Capaz de vivir dentro o fuera del agua. Fuera del agua suda para mantener baboso su cuerpo.",
+  "description_catalan": "Capaç de viure dins o fora de l'aigua. Fora de l'aigua sua per mantenir babós el seu cos."
+}

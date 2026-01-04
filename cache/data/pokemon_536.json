@@ -1,0 +1,39 @@
+{
+  "id": 536,
+  "name": "Palpitoad",
+  "height": 8,
+  "weight": 170,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png",
+  "stats": {
+    "hp": 75,
+    "attack": 65,
+    "defense": 55,
+    "special-attack": 65,
+    "special-defense": 55,
+    "speed": 69
+  },
+  "evolution": [
+    {
+      "id": 535,
+      "name": "Tympole",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png"
+    },
+    {
+      "id": 536,
+      "name": "Palpitoad",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png"
+    },
+    {
+      "id": 537,
+      "name": "Seismitoad",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Cuando hace vibrar el bulto de su cabeza, no solo se embravece el mar, sino que la tierra también tiembla.",
+  "description_catalan": "Descripció en català per al Pokémon #536. [Traducció pendent]"
+}

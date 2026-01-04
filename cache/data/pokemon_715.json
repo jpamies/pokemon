@@ -1,0 +1,34 @@
+{
+  "id": 715,
+  "name": "Noivern",
+  "height": 15,
+  "weight": 850,
+  "types": [
+    "flying",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
+  "stats": {
+    "hp": 85,
+    "attack": 70,
+    "defense": 80,
+    "special-attack": 97,
+    "special-defense": 80,
+    "speed": 123
+  },
+  "evolution": [
+    {
+      "id": 714,
+      "name": "Noibat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png"
+    },
+    {
+      "id": 715,
+      "name": "Noivern",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Surca el cielo nocturno cuando ni siquiera la luna brilla y ataca a presas incautas. Es imbatible en combates que tienen lugar a oscuras.",
+  "description_catalan": "Descripció en català per al Pokémon #715. [Traducció pendent]"
+}

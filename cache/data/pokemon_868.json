@@ -1,0 +1,33 @@
+{
+  "id": 868,
+  "name": "Milcery",
+  "height": 2,
+  "weight": 3,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png",
+  "stats": {
+    "hp": 45,
+    "attack": 40,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 61,
+    "speed": 34
+  },
+  "evolution": [
+    {
+      "id": 868,
+      "name": "Milcery",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png"
+    },
+    {
+      "id": 869,
+      "name": "Alcremie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png"
+    }
+  ],
+  "color": "white",
+  "description": "Su cremoso cuerpo surgió a partir de la unión de partículas odoríferas de dulces aromas presentes en el aire.",
+  "description_catalan": "Descripció no disponible."
+}

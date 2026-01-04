@@ -1,0 +1,49 @@
+{
+  "id": 267,
+  "name": "Beautifly",
+  "height": 10,
+  "weight": 284,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
+  "stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 50,
+    "special-attack": 100,
+    "special-defense": 50,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 265,
+      "name": "Wurmple",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png"
+    },
+    {
+      "id": 266,
+      "name": "Silcoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png"
+    },
+    {
+      "id": 267,
+      "name": "Beautifly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png"
+    },
+    {
+      "id": 268,
+      "name": "Cascoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png"
+    },
+    {
+      "id": 269,
+      "name": "Dustox",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Los dibujos de sus coloridas alas son muy peculiares. Liba el néctar de las flores con su fina trompa.",
+  "description_catalan": "Les seves ales tenen pols que paralitza els enemics que la toquen."
+}

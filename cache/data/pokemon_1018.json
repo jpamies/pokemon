@@ -1,0 +1,34 @@
+{
+  "id": 1018,
+  "name": "Archaludon",
+  "height": 20,
+  "weight": 600,
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png",
+  "stats": {
+    "hp": 90,
+    "attack": 105,
+    "defense": 130,
+    "special-attack": 125,
+    "special-defense": 65,
+    "speed": 85
+  },
+  "evolution": [
+    {
+      "id": 884,
+      "name": "Duraludon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png"
+    },
+    {
+      "id": 1018,
+      "name": "Archaludon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png"
+    }
+  ],
+  "color": "white",
+  "description": "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+  "description_catalan": "Descripció no disponible."
+}

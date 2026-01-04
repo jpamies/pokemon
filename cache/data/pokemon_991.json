@@ -1,0 +1,23 @@
+{
+  "id": 991,
+  "name": "Iron-Bundle",
+  "height": 6,
+  "weight": 110,
+  "types": [
+    "ice",
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png",
+  "stats": {
+    "hp": 56,
+    "attack": 80,
+    "defense": 114,
+    "special-attack": 124,
+    "special-defense": 60,
+    "speed": 136
+  },
+  "evolution": null,
+  "color": "red",
+  "description": "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.",
+  "description_catalan": "Descripció no disponible."
+}

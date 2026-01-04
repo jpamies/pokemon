@@ -1,0 +1,38 @@
+{
+  "id": 67,
+  "name": "Machoke",
+  "height": 15,
+  "weight": 705,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+  "stats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "special-attack": 50,
+    "special-defense": 60,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 66,
+      "name": "Machop",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Su musculoso cuerpo es tan fuerte que usa un cinto antifuerza para controlar sus movimientos.",
+  "description_catalan": "El seu cos musculós és tan fort que usa un cinturó per controlar la seva força."
+}

@@ -1,0 +1,34 @@
+{
+  "id": 453,
+  "name": "Croagunk",
+  "height": 7,
+  "weight": 230,
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+  "stats": {
+    "hp": 48,
+    "attack": 61,
+    "defense": 40,
+    "special-attack": 61,
+    "special-defense": 40,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 453,
+      "name": "Croagunk",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png"
+    },
+    {
+      "id": 454,
+      "name": "Toxicroak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Tiene bolsas venenosas en las mejillas. Pilla desprevenidos a sus rivales para pincharles.",
+  "description_catalan": "Descripció en català per al Pokémon #453. [Traducció pendent]"
+}

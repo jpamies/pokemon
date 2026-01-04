@@ -1,0 +1,34 @@
+{
+  "id": 423,
+  "name": "Gastrodon",
+  "height": 9,
+  "weight": 299,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
+  "stats": {
+    "hp": 111,
+    "attack": 83,
+    "defense": 68,
+    "special-attack": 92,
+    "special-defense": 82,
+    "speed": 39
+  },
+  "evolution": [
+    {
+      "id": 422,
+      "name": "Shellos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png"
+    },
+    {
+      "id": 423,
+      "name": "Gastrodon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Si se ve amenazado por sus enemigos naturales, segrega un líquido morado y huye rápidamente.",
+  "description_catalan": "Descripció en català per al Pokémon #423. [Traducció pendent]"
+}

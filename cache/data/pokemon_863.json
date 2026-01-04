@@ -1,0 +1,38 @@
+{
+  "id": 863,
+  "name": "Perrserker",
+  "height": 8,
+  "weight": 280,
+  "types": [
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png",
+  "stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 100,
+    "special-attack": 50,
+    "special-defense": 60,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 52,
+      "name": "Meowth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+    },
+    {
+      "id": 53,
+      "name": "Persian",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+    },
+    {
+      "id": 863,
+      "name": "Perrserker",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png"
+    }
+  ],
+  "color": "brown",
+  "description": "El pelo de la cabeza se le ha endurecido hasta el punto de parecer un yelmo de hierro. Posee un temperamento muy combativo.",
+  "description_catalan": "Descripció no disponible."
+}

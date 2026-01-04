@@ -1,0 +1,34 @@
+{
+  "id": 323,
+  "name": "Camerupt",
+  "height": 19,
+  "weight": 2200,
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
+  "stats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 70,
+    "special-attack": 105,
+    "special-defense": 75,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 322,
+      "name": "Numel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png"
+    },
+    {
+      "id": 323,
+      "name": "Camerupt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png"
+    }
+  ],
+  "color": "red",
+  "description": "Los volcanes de su joroba entran en erupción cada 10 años o cuando Camerupt se enfada mucho.",
+  "description_catalan": "Descripció en català per al Pokémon #323. [Traducció pendent]"
+}

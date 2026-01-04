@@ -1,0 +1,39 @@
+{
+  "id": 733,
+  "name": "Toucannon",
+  "height": 11,
+  "weight": 260,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
+  "stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 75,
+    "special-attack": 75,
+    "special-defense": 75,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 731,
+      "name": "Pikipek",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png"
+    },
+    {
+      "id": 732,
+      "name": "Trumbeak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png"
+    },
+    {
+      "id": 733,
+      "name": "Toucannon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png"
+    }
+  ],
+  "color": "black",
+  "description": "Cuando va a combatir, calienta su pico hasta temperaturas que superan los 100 °C, lo que puede causar graves quemaduras al contacto.",
+  "description_catalan": "Descripció no disponible."
+}

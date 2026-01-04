@@ -1,0 +1,33 @@
+{
+  "id": 617,
+  "name": "Accelgor",
+  "height": 8,
+  "weight": 253,
+  "types": [
+    "bug"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
+  "stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 40,
+    "special-attack": 100,
+    "special-defense": 60,
+    "speed": 145
+  },
+  "evolution": [
+    {
+      "id": 616,
+      "name": "Shelmet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png"
+    },
+    {
+      "id": 617,
+      "name": "Accelgor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"
+    }
+  ],
+  "color": "red",
+  "description": "Se siente ligero una vez liberado de su caparazón. Lucha y se mueve como un ninja.",
+  "description_catalan": "Descripció en català per al Pokémon #617. [Traducció pendent]"
+}

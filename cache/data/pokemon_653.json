@@ -1,0 +1,38 @@
+{
+  "id": 653,
+  "name": "Fennekin",
+  "height": 4,
+  "weight": 94,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special-attack": 62,
+    "special-defense": 60,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 653,
+      "name": "Fennekin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+    },
+    {
+      "id": 654,
+      "name": "Braixen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+    },
+    {
+      "id": 655,
+      "name": "Delphox",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+    }
+  ],
+  "color": "red",
+  "description": "Tras masticar e ingerir pequeñas ramas se siente pletórico y expulsa aire caliente por sus grandes orejas a temperaturas superiores a los 200 ºC.",
+  "description_catalan": "Descripció en català per al Pokémon #653. [Traducció pendent]"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 154,
+  "name": "Meganium",
+  "height": 18,
+  "weight": 1005,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
+  "stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 100,
+    "special-attack": 83,
+    "special-defense": 100,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 152,
+      "name": "Chikorita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
+    },
+    {
+      "id": 153,
+      "name": "Bayleef",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png"
+    },
+    {
+      "id": 154,
+      "name": "Meganium",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png"
+    }
+  ],
+  "color": "green",
+  "description": "El olor que desprenden sus pétalos contiene una sustancia que calma el instinto agresivo.",
+  "description_catalan": "L'olor que desprenen els seus pètals conté una substància que aviva l'instint combatiu."
+}

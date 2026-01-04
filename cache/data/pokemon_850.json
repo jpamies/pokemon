@@ -1,0 +1,34 @@
+{
+  "id": 850,
+  "name": "Sizzlipede",
+  "height": 7,
+  "weight": 10,
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png",
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 850,
+      "name": "Sizzlipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png"
+    },
+    {
+      "id": 851,
+      "name": "Centiskorch",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/851.png"
+    }
+  ],
+  "color": "red",
+  "description": "Genera calor consumiendo el gas inflamable que almacena en su cuerpo. Los círculos amarillos del abdomen están particularmente calientes.",
+  "description_catalan": "Descripció no disponible."
+}

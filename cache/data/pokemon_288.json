@@ -1,0 +1,38 @@
+{
+  "id": 288,
+  "name": "Vigoroth",
+  "height": 14,
+  "weight": 465,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png",
+  "stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "special-attack": 55,
+    "special-defense": 55,
+    "speed": 90
+  },
+  "evolution": [
+    {
+      "id": 287,
+      "name": "Slakoth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png"
+    },
+    {
+      "id": 288,
+      "name": "Vigoroth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png"
+    },
+    {
+      "id": 289,
+      "name": "Slaking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png"
+    }
+  ],
+  "color": "white",
+  "description": "Su corazón palpita a un ritmo frenético, haciendo que su sangre bulla, así que no puede estarse quieto ni un segundo.",
+  "description_catalan": "Descripció en català per al Pokémon #288. [Traducció pendent]"
+}

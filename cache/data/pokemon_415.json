@@ -1,0 +1,34 @@
+{
+  "id": 415,
+  "name": "Combee",
+  "height": 3,
+  "weight": 55,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
+  "stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 42,
+    "special-attack": 30,
+    "special-defense": 42,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 415,
+      "name": "Combee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png"
+    },
+    {
+      "id": 416,
+      "name": "Vespiquen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "El trío se forma al nacer y se pasa la vida recogiendo miel de las flores para satisfacer a Vespiquen.",
+  "description_catalan": "Descripció en català per al Pokémon #415. [Traducció pendent]"
+}

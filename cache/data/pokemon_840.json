@@ -1,0 +1,49 @@
+{
+  "id": 840,
+  "name": "Applin",
+  "height": 2,
+  "weight": 5,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png",
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 80,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 20
+  },
+  "evolution": [
+    {
+      "id": 840,
+      "name": "Applin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png"
+    },
+    {
+      "id": 841,
+      "name": "Flapple",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/841.png"
+    },
+    {
+      "id": 842,
+      "name": "Appletun",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/842.png"
+    },
+    {
+      "id": 1011,
+      "name": "Dipplin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1011.png"
+    },
+    {
+      "id": 1019,
+      "name": "Hydrapple",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1019.png"
+    }
+  ],
+  "color": "green",
+  "description": "Habita durante toda su vida en el interior de una manzana. Finge ser una fruta para protegerse de los Pokémon pájaro, sus enemigos naturales.",
+  "description_catalan": "Descripció no disponible."
+}

@@ -1,0 +1,33 @@
+{
+  "id": 739,
+  "name": "Crabrawler",
+  "height": 6,
+  "weight": 70,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
+  "stats": {
+    "hp": 47,
+    "attack": 82,
+    "defense": 57,
+    "special-attack": 42,
+    "special-defense": 47,
+    "speed": 63
+  },
+  "evolution": [
+    {
+      "id": 739,
+      "name": "Crabrawler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png"
+    },
+    {
+      "id": 740,
+      "name": "Crabominable",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Protege sus puntos débiles con las pinzas y propina puñetazos en cuanto tiene ocasión. Cuando pierde, llora lágrimas espumosas.",
+  "description_catalan": "Descripció no disponible."
+}

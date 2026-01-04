@@ -1,0 +1,33 @@
+{
+  "id": 961,
+  "name": "Wugtrio",
+  "height": 12,
+  "weight": 54,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png",
+  "stats": {
+    "hp": 35,
+    "attack": 100,
+    "defense": 50,
+    "special-attack": 50,
+    "special-defense": 70,
+    "speed": 120
+  },
+  "evolution": [
+    {
+      "id": 960,
+      "name": "Wiglett",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png"
+    },
+    {
+      "id": 961,
+      "name": "Wugtrio",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png"
+    }
+  ],
+  "color": "red",
+  "description": "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
+  "description_catalan": "Descripció no disponible."
+}

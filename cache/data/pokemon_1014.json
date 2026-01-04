@@ -1,0 +1,23 @@
+{
+  "id": 1014,
+  "name": "Okidogi",
+  "height": 18,
+  "weight": 922,
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1014.png",
+  "stats": {
+    "hp": 88,
+    "attack": 128,
+    "defense": 115,
+    "special-attack": 58,
+    "special-defense": 86,
+    "speed": 80
+  },
+  "evolution": null,
+  "color": "black",
+  "description": "After all its muscles were stimulated by the toxic chain around its neck, Okidogi transformed and gained a powerful physique.",
+  "description_catalan": "Descripció no disponible."
+}

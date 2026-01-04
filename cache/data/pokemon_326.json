@@ -1,0 +1,33 @@
+{
+  "id": 326,
+  "name": "Grumpig",
+  "height": 9,
+  "weight": 715,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
+  "stats": {
+    "hp": 80,
+    "attack": 45,
+    "defense": 65,
+    "special-attack": 90,
+    "special-defense": 110,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 325,
+      "name": "Spoink",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png"
+    },
+    {
+      "id": 326,
+      "name": "Grumpig",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Las perlas negras aumentan sus poderes psíquicos. Controla las mentes de sus rivales con un extraño baile.",
+  "description_catalan": "Descripció en català per al Pokémon #326. [Traducció pendent]"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 585,
+  "name": "Deerling",
+  "height": 6,
+  "weight": 195,
+  "types": [
+    "normal",
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 75
+  },
+  "evolution": [
+    {
+      "id": 585,
+      "name": "Deerling",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png"
+    },
+    {
+      "id": 586,
+      "name": "Sawsbuck",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png"
+    }
+  ],
+  "color": "pink",
+  "description": "El color de su cuerpo cambia no solo con las estaciones, sino también con los cambios de humedad y temperatura.",
+  "description_catalan": "Descripció en català per al Pokémon #585. [Traducció pendent]"
+}

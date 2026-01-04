@@ -1,0 +1,39 @@
+{
+  "id": 395,
+  "name": "Empoleon",
+  "height": 17,
+  "weight": 845,
+  "types": [
+    "water",
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
+  "stats": {
+    "hp": 84,
+    "attack": 86,
+    "defense": 88,
+    "special-attack": 111,
+    "special-defense": 101,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 393,
+      "name": "Piplup",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png"
+    },
+    {
+      "id": 394,
+      "name": "Prinplup",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png"
+    },
+    {
+      "id": 395,
+      "name": "Empoleon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Nada tan rápido como un fueraborda. Con los afilados bordes de sus alas puede cortar el hielo.",
+  "description_catalan": "Descripció en català per al Pokémon #395. [Traducció pendent]"
+}

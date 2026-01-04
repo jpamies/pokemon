@@ -1,0 +1,33 @@
+{
+  "id": 509,
+  "name": "Purrloin",
+  "height": 4,
+  "weight": 101,
+  "types": [
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png",
+  "stats": {
+    "hp": 41,
+    "attack": 50,
+    "defense": 37,
+    "special-attack": 50,
+    "special-defense": 37,
+    "speed": 66
+  },
+  "evolution": [
+    {
+      "id": 509,
+      "name": "Purrloin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png"
+    },
+    {
+      "id": 510,
+      "name": "Liepard",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Distrae a su oponente con movimientos gráciles y sustrae sus pertenencias. Cuando se enfada, ataca con las garras.",
+  "description_catalan": "Descripció en català per al Pokémon #509. [Traducció pendent]"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 399,
+  "name": "Bidoof",
+  "height": 5,
+  "weight": 200,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
+  "stats": {
+    "hp": 59,
+    "attack": 45,
+    "defense": 40,
+    "special-attack": 35,
+    "special-defense": 40,
+    "speed": 31
+  },
+  "evolution": [
+    {
+      "id": 399,
+      "name": "Bidoof",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png"
+    },
+    {
+      "id": 400,
+      "name": "Bibarel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Tiene nervios de acero y nada puede perturbarlo. Es más ágil y activo de lo que aparenta.",
+  "description_catalan": "Descripció en català per al Pokémon #399. [Traducció pendent]"
+}

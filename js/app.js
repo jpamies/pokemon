@@ -6,6 +6,7 @@ class PokemonGuide {
         this.isAdvancedMode = false; // New advanced mode toggle
         this.apiEndpoint = 'https://pokeapi.co/api/v2';
         this.cache = new Map();
+        this.pokemonCache = new PokemonCache(); // Use new cache system
         
         this.initializeApp();
         
@@ -47,6 +48,11 @@ class PokemonGuide {
         // Advanced mode toggle
         document.getElementById('advanced-toggle').addEventListener('click', () => {
             this.toggleAdvancedMode();
+        });
+
+        // PDF export button
+        document.getElementById('pdf-export').addEventListener('click', () => {
+            this.exportToPDF();
         });
 
         // Navigation buttons
@@ -156,9 +162,16 @@ class PokemonGuide {
     }
 
     async fetchPokemon(id) {
-        const cacheKey = `pokemon_${id}`;
+        // Check persistent cache first
+        let cachedData = this.pokemonCache.getPokemonData(id);
+        if (cachedData) {
+            // Also store in memory cache for faster access
+            this.cache.set(`pokemon_${id}`, cachedData);
+            return cachedData;
+        }
         
-        // Check cache first
+        // Check memory cache
+        const cacheKey = `pokemon_${id}`;
         if (this.cache.has(cacheKey)) {
             return this.cache.get(cacheKey);
         }
@@ -197,8 +210,9 @@ class PokemonGuide {
         // Process the data
         const pokemon = this.processPokemonData(pokemonData, speciesData, generationData, evolutionData, abilitiesWithTranslations);
         
-        // Cache the result
+        // Cache the result in both memory and persistent storage
         this.cache.set(cacheKey, pokemon);
+        this.pokemonCache.setPokemonData(id, pokemon);
         
         return pokemon;
     }
@@ -811,6 +825,105 @@ class PokemonGuide {
             img.onerror = () => resolve(); // Continue even if image fails
             img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`;
         });
+    }
+
+    async exportToPDF() {
+        this.showLoading();
+        
+        try {
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF('landscape', 'mm', 'a4'); // Horizontal A4
+            
+            const pageWidth = 297; // A4 landscape width
+            const pageHeight = 210; // A4 landscape height
+            const margin = 10;
+            const cardWidth = 65;
+            const cardHeight = 85;
+            const cardsPerRow = 4;
+            const cardsPerCol = 2;
+            const cardsPerPage = cardsPerRow * cardsPerCol; // 8 cards per page
+            
+            let currentPage = 1;
+            let cardCount = 0;
+            
+            // Title on first page
+            pdf.setFontSize(20);
+            pdf.text('Guia Pokémon per a Nens - Tots els Pokémon', pageWidth / 2, 15, { align: 'center' });
+            
+            for (let pokemonId = 1; pokemonId <= this.maxPokemonId; pokemonId++) {
+                const pokemon = await this.fetchPokemon(pokemonId);
+                
+                if (cardCount > 0 && cardCount % cardsPerPage === 0) {
+                    pdf.addPage('landscape');
+                    currentPage++;
+                }
+                
+                const row = Math.floor((cardCount % cardsPerPage) / cardsPerRow);
+                const col = (cardCount % cardsPerPage) % cardsPerRow;
+                
+                const x = margin + col * (cardWidth + 5);
+                const y = 25 + row * (cardHeight + 5);
+                
+                // Draw card border
+                pdf.setDrawColor(231, 76, 60);
+                pdf.setLineWidth(1);
+                pdf.rect(x, y, cardWidth, cardHeight);
+                
+                // Pokemon image (placeholder - would need base64 conversion for actual images)
+                pdf.setFillColor(240, 240, 240);
+                pdf.rect(x + 5, y + 5, 25, 25, 'F');
+                
+                // Pokemon info
+                pdf.setFontSize(10);
+                pdf.setFont(undefined, 'bold');
+                pdf.text(`#${pokemonId.toString().padStart(3, '0')}`, x + 35, y + 12);
+                const pokemonName = (pokemon.name[window.i18n.currentLanguage] || pokemon.name.en || `Pokemon #${pokemonId}`).toUpperCase();
+                pdf.text(pokemonName, x + 35, y + 18);
+                
+                // Types
+                pdf.setFontSize(8);
+                pdf.setFont(undefined, 'normal');
+                const types = pokemon.types.map(type => this.getTypeIcon(type.name) + ' ' + (window.i18n.t(`types.${type.name}`) || type.name)).join(' ');
+                pdf.text(types, x + 35, y + 24);
+                
+                // Stats (simplified)
+                pdf.setFontSize(7);
+                pdf.text(`Altura: ${(pokemon.height / 10).toFixed(1)}m`, x + 5, y + 40);
+                pdf.text(`Peso: ${(pokemon.weight / 10).toFixed(1)}kg`, x + 5, y + 45);
+                
+                // Generation
+                const generation = this.getGenerationFromId(pokemonId);
+                pdf.text(`Gen ${generation.num} - ${generation.region}`, x + 5, y + 50);
+                
+                cardCount++;
+                
+                // Update progress
+                if (pokemonId % 50 === 0) {
+                    console.log(`PDF Progress: ${pokemonId}/${this.maxPokemonId}`);
+                }
+            }
+            
+            // Save PDF
+            pdf.save('pokemon-guide-complete.pdf');
+            
+        } catch (error) {
+            console.error('Error generating PDF:', error);
+            alert('Error generant el PDF. Prova-ho més tard.');
+        }
+        
+        this.hideLoading();
+    }
+
+    getGenerationFromId(pokemonId) {
+        if (pokemonId <= 151) return { num: 'I', region: 'Kanto' };
+        if (pokemonId <= 251) return { num: 'II', region: 'Johto' };
+        if (pokemonId <= 386) return { num: 'III', region: 'Hoenn' };
+        if (pokemonId <= 493) return { num: 'IV', region: 'Sinnoh' };
+        if (pokemonId <= 649) return { num: 'V', region: 'Unova' };
+        if (pokemonId <= 721) return { num: 'VI', region: 'Kalos' };
+        if (pokemonId <= 809) return { num: 'VII', region: 'Alola' };
+        if (pokemonId <= 905) return { num: 'VIII', region: 'Galar' };
+        return { num: 'IX', region: 'Paldea' };
     }
 
     async loadPokemonName(id, nameElement) {

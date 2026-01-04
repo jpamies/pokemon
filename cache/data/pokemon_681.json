@@ -1,0 +1,39 @@
+{
+  "id": 681,
+  "name": "Aegislash-Shield",
+  "height": 17,
+  "weight": 530,
+  "types": [
+    "steel",
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png",
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 140,
+    "special-attack": 50,
+    "special-defense": 140,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 679,
+      "name": "Honedge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png"
+    },
+    {
+      "id": 680,
+      "name": "Doublade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+    },
+    {
+      "id": 681,
+      "name": "Aegislash",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Han permanecido junto a estirpes de reyes durante generaciones. Mediante su poder espectral pueden controlar a humanos y a Pokémon.",
+  "description_catalan": "Descripció en català per al Pokémon #681. [Traducció pendent]"
+}

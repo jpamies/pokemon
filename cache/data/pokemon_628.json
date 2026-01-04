@@ -1,0 +1,34 @@
+{
+  "id": 628,
+  "name": "Braviary",
+  "height": 15,
+  "weight": 410,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
+  "stats": {
+    "hp": 100,
+    "attack": 123,
+    "defense": 75,
+    "special-attack": 57,
+    "special-defense": 75,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 627,
+      "name": "Rufflet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png"
+    },
+    {
+      "id": 628,
+      "name": "Braviary",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png"
+    }
+  ],
+  "color": "red",
+  "description": "Un valiente guerrero del cielo que no duda en luchar por sus compañeros por graves que sean sus heridas.",
+  "description_catalan": "Descripció en català per al Pokémon #628. [Traducció pendent]"
+}

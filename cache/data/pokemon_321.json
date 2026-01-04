@@ -1,0 +1,33 @@
+{
+  "id": 321,
+  "name": "Wailord",
+  "height": 145,
+  "weight": 3980,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
+  "stats": {
+    "hp": 170,
+    "attack": 90,
+    "defense": 45,
+    "special-attack": 90,
+    "special-defense": 45,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 320,
+      "name": "Wailmer",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png"
+    },
+    {
+      "id": 321,
+      "name": "Wailord",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Puede dejar fuera de combate a sus oponentes con el impacto de su enorme cuerpo al caer en el agua tras un salto.",
+  "description_catalan": "Descripció en català per al Pokémon #321. [Traducció pendent]"
+}

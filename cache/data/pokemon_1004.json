@@ -1,0 +1,23 @@
+{
+  "id": 1004,
+  "name": "Chi-Yu",
+  "height": 4,
+  "weight": 49,
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png",
+  "stats": {
+    "hp": 55,
+    "attack": 80,
+    "defense": 80,
+    "special-attack": 135,
+    "special-defense": 120,
+    "speed": 100
+  },
+  "evolution": null,
+  "color": "red",
+  "description": "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
+  "description_catalan": "Descripció no disponible."
+}

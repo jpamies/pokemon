@@ -1,0 +1,39 @@
+{
+  "id": 39,
+  "name": "Jigglypuff",
+  "height": 5,
+  "weight": 55,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+  "stats": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special-attack": 45,
+    "special-defense": 25,
+    "speed": 20
+  },
+  "evolution": [
+    {
+      "id": 174,
+      "name": "Igglybuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
+    },
+    {
+      "id": 39,
+      "name": "Jigglypuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    },
+    {
+      "id": 40,
+      "name": "Wigglytuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Cautiva con la mirada a su enemigo y hace que se quede profundamente dormido mientras entona una dulce melodía.",
+  "description_catalan": "Quan els seus grans ulls redons brillen, canta una melodia misteriosa que fa adormir els enemics."
+}

@@ -1,0 +1,34 @@
+{
+  "id": 892,
+  "name": "Urshifu-Single-Strike",
+  "height": 19,
+  "weight": 1050,
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png",
+  "stats": {
+    "hp": 100,
+    "attack": 130,
+    "defense": 100,
+    "special-attack": 63,
+    "special-defense": 60,
+    "speed": 97
+  },
+  "evolution": [
+    {
+      "id": 891,
+      "name": "Kubfu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/891.png"
+    },
+    {
+      "id": 892,
+      "name": "Urshifu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Su estilo de lucha se basa en abatir a sus rivales de un solo golpe. Se abalanza sobre ellos con su puño cincelado por el entrenamiento.",
+  "description_catalan": "Descripció no disponible."
+}

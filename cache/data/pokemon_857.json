@@ -1,0 +1,38 @@
+{
+  "id": 857,
+  "name": "Hattrem",
+  "height": 6,
+  "weight": 48,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/857.png",
+  "stats": {
+    "hp": 57,
+    "attack": 40,
+    "defense": 65,
+    "special-attack": 86,
+    "special-defense": 73,
+    "speed": 49
+  },
+  "evolution": [
+    {
+      "id": 856,
+      "name": "Hatenna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png"
+    },
+    {
+      "id": 857,
+      "name": "Hattrem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/857.png"
+    },
+    {
+      "id": 858,
+      "name": "Hatterene",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Silencia a cualquiera que muestre una emoción intensa sin importar de quién se trate y recurre para ello a métodos a cuál más violento.",
+  "description_catalan": "Descripció no disponible."
+}

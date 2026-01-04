@@ -1,0 +1,22 @@
+{
+  "id": 889,
+  "name": "Zamazenta",
+  "height": 29,
+  "weight": 2100,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/889.png",
+  "stats": {
+    "hp": 92,
+    "attack": 120,
+    "defense": 115,
+    "special-attack": 80,
+    "special-defense": 115,
+    "speed": 138
+  },
+  "evolution": null,
+  "color": "red",
+  "description": "Este Pokémon se erigió en salvador de Galar, tras unir fuerzas con un rey de los hombres. Absorbe el metal para utilizarlo en combate.",
+  "description_catalan": "Descripció no disponible."
+}

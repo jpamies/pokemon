@@ -1,0 +1,38 @@
+{
+  "id": 763,
+  "name": "Tsareena",
+  "height": 12,
+  "weight": 214,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
+  "stats": {
+    "hp": 72,
+    "attack": 120,
+    "defense": 98,
+    "special-attack": 50,
+    "special-defense": 98,
+    "speed": 72
+  },
+  "evolution": [
+    {
+      "id": 761,
+      "name": "Bounsweet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png"
+    },
+    {
+      "id": 762,
+      "name": "Steenee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png"
+    },
+    {
+      "id": 763,
+      "name": "Tsareena",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Propinar patadas implacables es su especialidad. Patea a sus oponentes derrotados y proclama su victoria con una gran carcajada.",
+  "description_catalan": "Descripció no disponible."
+}

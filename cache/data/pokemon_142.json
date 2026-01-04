@@ -1,0 +1,23 @@
+{
+  "id": 142,
+  "name": "Aerodactyl",
+  "height": 18,
+  "weight": 590,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+  "stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special-attack": 60,
+    "special-defense": 75,
+    "speed": 130
+  },
+  "evolution": null,
+  "color": "purple",
+  "description": "Se regeneró a partir de material genético de un dinosaurio encontrado en ámbar. Cuando vuela emite escandalosos alaridos.",
+  "description_catalan": "Es va regenerar a partir de material genètic d'un dinosaure trobat en ambre. Quan vola emet escandalosos crits."
+}

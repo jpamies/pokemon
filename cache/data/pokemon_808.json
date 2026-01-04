@@ -1,0 +1,22 @@
+{
+  "id": 808,
+  "name": "Meltan",
+  "height": 2,
+  "weight": 80,
+  "types": [
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/808.png",
+  "stats": {
+    "hp": 46,
+    "attack": 65,
+    "defense": 65,
+    "special-attack": 55,
+    "special-defense": 35,
+    "speed": 34
+  },
+  "evolution": null,
+  "color": "gray",
+  "description": "Su cuerpo está compuesto de acero líquido. Funde las partículas de hierro y otros metales del subsuelo para luego absorberlas.",
+  "description_catalan": "Descripció no disponible."
+}

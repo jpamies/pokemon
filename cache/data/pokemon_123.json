@@ -1,0 +1,39 @@
+{
+  "id": 123,
+  "name": "Scyther",
+  "height": 15,
+  "weight": 560,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+  "stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 80,
+    "special-attack": 55,
+    "special-defense": 80,
+    "speed": 105
+  },
+  "evolution": [
+    {
+      "id": 123,
+      "name": "Scyther",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
+    },
+    {
+      "id": 212,
+      "name": "Scizor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
+    },
+    {
+      "id": 900,
+      "name": "Kleavor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png"
+    }
+  ],
+  "color": "green",
+  "description": "Destroza a su presa con las guadañas que tiene. No es común que use las alas para volar.",
+  "description_catalan": "Destrossa la seva presa amb les falçs que té. No és comú que usi les ales per volar."
+}

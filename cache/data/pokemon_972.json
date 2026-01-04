@@ -1,0 +1,33 @@
+{
+  "id": 972,
+  "name": "Houndstone",
+  "height": 20,
+  "weight": 150,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png",
+  "stats": {
+    "hp": 72,
+    "attack": 101,
+    "defense": 100,
+    "special-attack": 50,
+    "special-defense": 97,
+    "speed": 68
+  },
+  "evolution": [
+    {
+      "id": 971,
+      "name": "Greavard",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png"
+    },
+    {
+      "id": 972,
+      "name": "Houndstone",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png"
+    }
+  ],
+  "color": "white",
+  "description": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
+  "description_catalan": "Descripció no disponible."
+}

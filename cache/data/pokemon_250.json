@@ -1,0 +1,23 @@
+{
+  "id": 250,
+  "name": "Ho-Oh",
+  "height": 38,
+  "weight": 1990,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png",
+  "stats": {
+    "hp": 106,
+    "attack": 130,
+    "defense": 90,
+    "special-attack": 110,
+    "special-defense": 154,
+    "speed": 90
+  },
+  "evolution": null,
+  "color": "red",
+  "description": "Cuenta la leyenda que brilla en siete colores. Dicen que deja un arcoíris tras de sí al volar.",
+  "description_catalan": "Reneix de les seves pròpies cendres. Les seves flames són sagrades."
+}

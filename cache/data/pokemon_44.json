@@ -1,0 +1,44 @@
+{
+  "id": 44,
+  "name": "Gloom",
+  "height": 8,
+  "weight": 86,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+  "stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 70,
+    "special-attack": 85,
+    "special-defense": 75,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 43,
+      "name": "Oddish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+    },
+    {
+      "id": 44,
+      "name": "Gloom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+    },
+    {
+      "id": 45,
+      "name": "Vileplume",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+    },
+    {
+      "id": 182,
+      "name": "Bellossom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png"
+    }
+  ],
+  "color": "blue",
+  "description": "¡Huele bastante mal! De todas formas, una de cada mil personas aprecian su fétido olor.",
+  "description_catalan": "Fa pudor bastant! De totes maneres, una de cada mil persones gaudeix d'aquesta fragància."
+}

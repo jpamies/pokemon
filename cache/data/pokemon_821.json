@@ -1,0 +1,38 @@
+{
+  "id": 821,
+  "name": "Rookidee",
+  "height": 2,
+  "weight": 18,
+  "types": [
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png",
+  "stats": {
+    "hp": 38,
+    "attack": 47,
+    "defense": 35,
+    "special-attack": 33,
+    "special-defense": 35,
+    "speed": 57
+  },
+  "evolution": [
+    {
+      "id": 821,
+      "name": "Rookidee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png"
+    },
+    {
+      "id": 822,
+      "name": "Corvisquire",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/822.png"
+    },
+    {
+      "id": 823,
+      "name": "Corviknight",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png"
+    }
+  ],
+  "color": "blue",
+  "description": "De naturaleza valiente, planta cara a cualquier rival, por muy fuerte que sea. Los contraataques que recibe le sirven para fortalecerse.",
+  "description_catalan": "Descripció no disponible."
+}

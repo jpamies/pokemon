@@ -1,0 +1,38 @@
+{
+  "id": 255,
+  "name": "Torchic",
+  "height": 4,
+  "weight": 25,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
+  "stats": {
+    "hp": 45,
+    "attack": 60,
+    "defense": 40,
+    "special-attack": 70,
+    "special-defense": 50,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 255,
+      "name": "Torchic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png"
+    },
+    {
+      "id": 256,
+      "name": "Combusken",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png"
+    },
+    {
+      "id": 257,
+      "name": "Blaziken",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
+    }
+  ],
+  "color": "red",
+  "description": "En su interior, guarda una llama que arde sin cesar. Si se le abraza, se nota que tiene una temperatura muy alta.",
+  "description_catalan": "Té una flama al seu interior que mai s'apaga. És molt lleial al seu entrenador."
+}

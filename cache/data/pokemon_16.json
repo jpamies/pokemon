@@ -1,0 +1,39 @@
+{
+  "id": 16,
+  "name": "Pidgey",
+  "height": 3,
+  "weight": 18,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 56
+  },
+  "evolution": [
+    {
+      "id": 16,
+      "name": "Pidgey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+    },
+    {
+      "id": 17,
+      "name": "Pidgeotto",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+    },
+    {
+      "id": 18,
+      "name": "Pidgeot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Muy común en bosques y selvas. Aletea al nivel del suelo para levantar la gravilla.",
+  "description_catalan": "Molt comú en boscos i selves. Batega les ales a nivell del terra per aixecar sorra."
+}

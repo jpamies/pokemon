@@ -1,0 +1,39 @@
+{
+  "id": 212,
+  "name": "Scizor",
+  "height": 18,
+  "weight": 1180,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
+  "stats": {
+    "hp": 70,
+    "attack": 130,
+    "defense": 100,
+    "special-attack": 55,
+    "special-defense": 80,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 123,
+      "name": "Scyther",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
+    },
+    {
+      "id": 212,
+      "name": "Scizor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
+    },
+    {
+      "id": 900,
+      "name": "Kleavor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png"
+    }
+  ],
+  "color": "red",
+  "description": "Las pinzas que posee tienen acero. Con ellas, no hay nada que se le resista. Rompen todo lo que pillan.",
+  "description_catalan": "Les seves pinces són tan fortes com l'acer. Pot tallar metall gruixut."
+}

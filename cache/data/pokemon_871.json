@@ -1,0 +1,22 @@
+{
+  "id": 871,
+  "name": "Pincurchin",
+  "height": 3,
+  "weight": 10,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/871.png",
+  "stats": {
+    "hp": 48,
+    "attack": 101,
+    "defense": 95,
+    "special-attack": 91,
+    "special-defense": 85,
+    "speed": 15
+  },
+  "evolution": null,
+  "color": "purple",
+  "description": "Libera electricidad por la punta de las púas. Con sus afilados dientes raspa las algas pegadas a las rocas para ingerirlas.",
+  "description_catalan": "Descripció no disponible."
+}

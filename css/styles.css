@@ -45,7 +45,7 @@ header {
     min-width: 140px;
 }
 
-#accessibility-toggle, #advanced-toggle {
+#accessibility-toggle, #advanced-toggle, #pdf-export {
     padding: 12px 16px;
     font-size: 20px;
     font-weight: bold;

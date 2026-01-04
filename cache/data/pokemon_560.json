@@ -1,0 +1,34 @@
+{
+  "id": 560,
+  "name": "Scrafty",
+  "height": 11,
+  "weight": 300,
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 115,
+    "special-attack": 45,
+    "special-defense": 115,
+    "speed": 58
+  },
+  "evolution": [
+    {
+      "id": 559,
+      "name": "Scraggy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png"
+    },
+    {
+      "id": 560,
+      "name": "Scrafty",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png"
+    }
+  ],
+  "color": "red",
+  "description": "Se protege de los ataques con la muda de su piel mientras reparte patadas. Cuanto mayor es su cresta, más se le respeta.",
+  "description_catalan": "Descripció en català per al Pokémon #560. [Traducció pendent]"
+}

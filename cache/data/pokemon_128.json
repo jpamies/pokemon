@@ -1,0 +1,22 @@
+{
+  "id": 128,
+  "name": "Tauros",
+  "height": 14,
+  "weight": 884,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+  "stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "special-attack": 40,
+    "special-defense": 70,
+    "speed": 110
+  },
+  "evolution": null,
+  "color": "brown",
+  "description": "Después de animarse a luchar fustigándose con sus tres colas, carga a toda velocidad.",
+  "description_catalan": "Després d'animar-se a lluitar fustigant-se amb les cues, carrega contra l'enemic."
+}

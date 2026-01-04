@@ -1,0 +1,38 @@
+{
+  "id": 217,
+  "name": "Ursaring",
+  "height": 18,
+  "weight": 1258,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
+  "stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 75,
+    "special-attack": 75,
+    "special-defense": 75,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 216,
+      "name": "Teddiursa",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png"
+    },
+    {
+      "id": 217,
+      "name": "Ursaring",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png"
+    },
+    {
+      "id": 901,
+      "name": "Ursaluna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Capaz de percibir cualquier tipo de aroma, encuentra sin problemas todo alimento enterrado bajo tierra.",
+  "description_catalan": "Hiberna en coves durant l'hivern. Quan es desperta, té molta gana."
+}

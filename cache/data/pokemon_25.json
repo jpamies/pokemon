@@ -1,0 +1,38 @@
+{
+  "id": 25,
+  "name": "Pikachu",
+  "height": 4,
+  "weight": 60,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+  "stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 90
+  },
+  "evolution": [
+    {
+      "id": 172,
+      "name": "Pichu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png"
+    },
+    {
+      "id": 25,
+      "name": "Pikachu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    {
+      "id": 26,
+      "name": "Raichu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Levanta su cola para vigilar los alrededores. A veces, puede ser alcanzado por un rayo en esa pose.",
+  "description_catalan": "Aixeca la cua per vigilar els voltants. De vegades, la cua és colpejada per un llamp."
+}

@@ -1,0 +1,33 @@
+{
+  "id": 750,
+  "name": "Mudsdale",
+  "height": 25,
+  "weight": 9200,
+  "types": [
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
+  "stats": {
+    "hp": 100,
+    "attack": 125,
+    "defense": 100,
+    "special-attack": 55,
+    "special-defense": 85,
+    "speed": 35
+  },
+  "evolution": [
+    {
+      "id": 749,
+      "name": "Mudbray",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png"
+    },
+    {
+      "id": 750,
+      "name": "Mudsdale",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png"
+    }
+  ],
+  "color": "brown",
+  "description": "El lodo que segrega por la boca se vuelve impermeable al secarse, por lo que solía usarse como capa aislante en las paredes de las casas.",
+  "description_catalan": "Descripció no disponible."
+}

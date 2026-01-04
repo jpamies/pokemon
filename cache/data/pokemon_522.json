@@ -1,0 +1,33 @@
+{
+  "id": 522,
+  "name": "Blitzle",
+  "height": 8,
+  "weight": 298,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
+  "stats": {
+    "hp": 45,
+    "attack": 60,
+    "defense": 32,
+    "special-attack": 50,
+    "special-defense": 32,
+    "speed": 76
+  },
+  "evolution": [
+    {
+      "id": 522,
+      "name": "Blitzle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png"
+    },
+    {
+      "id": 523,
+      "name": "Zebstrika",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png"
+    }
+  ],
+  "color": "black",
+  "description": "Aparece cuando nubes envueltas en rayos encapotan el cielo. Atrapa rayos con su crin y almacena electricidad.",
+  "description_catalan": "Descripció en català per al Pokémon #522. [Traducció pendent]"
+}

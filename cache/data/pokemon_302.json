@@ -1,0 +1,23 @@
+{
+  "id": 302,
+  "name": "Sableye",
+  "height": 5,
+  "weight": 110,
+  "types": [
+    "dark",
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
+  "stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 75,
+    "special-attack": 65,
+    "special-defense": 65,
+    "speed": 50
+  },
+  "evolution": null,
+  "color": "purple",
+  "description": "Se oculta en cavernas oscuras. De tanto comer gemas, sus ojos son piedras preciosas.",
+  "description_catalan": "Descripció en català per al Pokémon #302. [Traducció pendent]"
+}

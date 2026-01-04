@@ -1,0 +1,33 @@
+{
+  "id": 86,
+  "name": "Seel",
+  "height": 11,
+  "weight": 900,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+  "stats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "special-attack": 45,
+    "special-defense": 70,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 86,
+      "name": "Seel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+    },
+    {
+      "id": 87,
+      "name": "Dewgong",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+    }
+  ],
+  "color": "white",
+  "description": "Este Pokémon vive en icebergs. Nada en el mar y usa el cuerno de su cabeza para romper el hielo.",
+  "description_catalan": "Aquest Pokémon viu en icebergs. Neda en el mar i usa el seu corn per trencar el gel."
+}

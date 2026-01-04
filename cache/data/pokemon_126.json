@@ -1,0 +1,38 @@
+{
+  "id": 126,
+  "name": "Magmar",
+  "height": 13,
+  "weight": 445,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+  "stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "special-attack": 100,
+    "special-defense": 85,
+    "speed": 93
+  },
+  "evolution": [
+    {
+      "id": 240,
+      "name": "Magby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png"
+    },
+    {
+      "id": 126,
+      "name": "Magmar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+    },
+    {
+      "id": 467,
+      "name": "Magmortar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png"
+    }
+  ],
+  "color": "red",
+  "description": "A este Pokémon se lo encontraron cerca de un volcán. Esta criatura ígnea tiene una temperatura corporal de unos 1200 °C.",
+  "description_catalan": "El seu cos crema a 1.200 graus. Quan respira, l'aire al seu voltant ondula per la calor."
+}

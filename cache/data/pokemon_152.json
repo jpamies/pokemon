@@ -1,0 +1,38 @@
+{
+  "id": 152,
+  "name": "Chikorita",
+  "height": 9,
+  "weight": 64,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+  "stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 65,
+    "special-attack": 49,
+    "special-defense": 65,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 152,
+      "name": "Chikorita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
+    },
+    {
+      "id": 153,
+      "name": "Bayleef",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png"
+    },
+    {
+      "id": 154,
+      "name": "Meganium",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png"
+    }
+  ],
+  "color": "green",
+  "description": "Un dulce aroma se desprende de la hoja de su cabeza. Es dócil y le encanta absorber los rayos de sol.",
+  "description_catalan": "Una dolça aroma es desprèn de la fulla del seu cap. És dòcil i li agrada prendre el sol."
+}

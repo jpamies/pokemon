@@ -1,0 +1,22 @@
+{
+  "id": 327,
+  "name": "Spinda",
+  "height": 11,
+  "weight": 50,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/327.png",
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 60
+  },
+  "evolution": null,
+  "color": "brown",
+  "description": "No hay dos Spinda que tengan idénticos pelajes. Su tambaleo al bailar confunde a los rivales.",
+  "description_catalan": "Descripció en català per al Pokémon #327. [Traducció pendent]"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 408,
+  "name": "Cranidos",
+  "height": 9,
+  "weight": 315,
+  "types": [
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+  "stats": {
+    "hp": 67,
+    "attack": 125,
+    "defense": 40,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 58
+  },
+  "evolution": [
+    {
+      "id": 408,
+      "name": "Cranidos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png"
+    },
+    {
+      "id": 409,
+      "name": "Rampardos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Fue recreado a partir de un fósil con forma esférica. Derriba a las presas a cabezazos.",
+  "description_catalan": "Descripció en català per al Pokémon #408. [Traducció pendent]"
+}

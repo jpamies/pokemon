@@ -1,0 +1,22 @@
+{
+  "id": 594,
+  "name": "Alomomola",
+  "height": 12,
+  "weight": 316,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png",
+  "stats": {
+    "hp": 165,
+    "attack": 75,
+    "defense": 80,
+    "special-attack": 40,
+    "special-defense": 45,
+    "speed": 65
+  },
+  "evolution": null,
+  "color": "pink",
+  "description": "Vive flotando a la deriva en mar abierto. Siempre que encuentra un Pokémon herido, lo abraza y lo lleva a la costa.",
+  "description_catalan": "Descripció en català per al Pokémon #594. [Traducció pendent]"
+}

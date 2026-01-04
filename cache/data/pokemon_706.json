@@ -1,0 +1,38 @@
+{
+  "id": 706,
+  "name": "Goodra",
+  "height": 20,
+  "weight": 1505,
+  "types": [
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png",
+  "stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 70,
+    "special-attack": 110,
+    "special-defense": 150,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 704,
+      "name": "Goomy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+    },
+    {
+      "id": 705,
+      "name": "Sliggoo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+    },
+    {
+      "id": 706,
+      "name": "Goodra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Pokémon de tipo Dragón muy afable al que le gusta abrazar con efusión a su Entrenador, aunque después lo deja totalmente pringado.",
+  "description_catalan": "Descripció en català per al Pokémon #706. [Traducció pendent]"
+}

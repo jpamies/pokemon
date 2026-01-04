@@ -1,0 +1,33 @@
+{
+  "id": 919,
+  "name": "Nymble",
+  "height": 2,
+  "weight": 10,
+  "types": [
+    "bug"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png",
+  "stats": {
+    "hp": 33,
+    "attack": 46,
+    "defense": 40,
+    "special-attack": 21,
+    "special-defense": 25,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 919,
+      "name": "Nymble",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png"
+    },
+    {
+      "id": 920,
+      "name": "Lokix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png"
+    }
+  ],
+  "color": "gray",
+  "description": "It has its third set of legs folded up. When it’s in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+  "description_catalan": "Descripció no disponible."
+}

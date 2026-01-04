@@ -1,0 +1,33 @@
+{
+  "id": 58,
+  "name": "Growlithe",
+  "height": 7,
+  "weight": 190,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+  "stats": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "special-attack": 70,
+    "special-defense": 50,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 58,
+      "name": "Growlithe",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+    },
+    {
+      "id": 59,
+      "name": "Arcanine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Es muy agradable y leal. Para ahuyentar al enemigo, se pone a ladrar y a dar bocados.",
+  "description_catalan": "És molt agradable i lleial. Per espantar l'enemic, lladra i mossega."
+}

@@ -1,0 +1,34 @@
+{
+  "id": 558,
+  "name": "Crustle",
+  "height": 14,
+  "weight": 2000,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
+  "stats": {
+    "hp": 70,
+    "attack": 105,
+    "defense": 125,
+    "special-attack": 65,
+    "special-defense": 75,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 557,
+      "name": "Dwebble",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png"
+    },
+    {
+      "id": 558,
+      "name": "Crustle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png"
+    }
+  ],
+  "color": "red",
+  "description": "Su inmensa capacidad motriz le permite desplazarse cargando a sus espaldas rocas enormes durante días.",
+  "description_catalan": "Descripció en català per al Pokémon #558. [Traducció pendent]"
+}

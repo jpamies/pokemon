@@ -1,0 +1,33 @@
+{
+  "id": 513,
+  "name": "Pansear",
+  "height": 6,
+  "weight": 110,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
+  "stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 48,
+    "special-attack": 53,
+    "special-defense": 48,
+    "speed": 64
+  },
+  "evolution": [
+    {
+      "id": 513,
+      "name": "Pansear",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png"
+    },
+    {
+      "id": 514,
+      "name": "Simisear",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png"
+    }
+  ],
+  "color": "red",
+  "description": "Pokémon muy inteligente que tiene la costumbre de tostar las bayas antes de comérselas. Ayuda mucho a los humanos.",
+  "description_catalan": "Descripció en català per al Pokémon #513. [Traducció pendent]"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 660,
+  "name": "Diggersby",
+  "height": 10,
+  "weight": 424,
+  "types": [
+    "normal",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
+  "stats": {
+    "hp": 85,
+    "attack": 56,
+    "defense": 77,
+    "special-attack": 50,
+    "special-defense": 77,
+    "speed": 78
+  },
+  "evolution": [
+    {
+      "id": 659,
+      "name": "Bunnelby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png"
+    },
+    {
+      "id": 660,
+      "name": "Diggersby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Sus grandes orejas tienen tal fuerza que con ellas puede levantar con facilidad rocas de más de una tonelada. Es de una ayuda inestimable en las obras.",
+  "description_catalan": "Descripció en català per al Pokémon #660. [Traducció pendent]"
+}

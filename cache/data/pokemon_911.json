@@ -1,0 +1,39 @@
+{
+  "id": 911,
+  "name": "Skeledirge",
+  "height": 16,
+  "weight": 3265,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
+  "stats": {
+    "hp": 104,
+    "attack": 75,
+    "defense": 100,
+    "special-attack": 110,
+    "special-defense": 75,
+    "speed": 66
+  },
+  "evolution": [
+    {
+      "id": 909,
+      "name": "Fuecoco",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png"
+    },
+    {
+      "id": 910,
+      "name": "Crocalor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png"
+    },
+    {
+      "id": 911,
+      "name": "Skeledirge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png"
+    }
+  ],
+  "color": "red",
+  "description": "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge’s head gained a soul.",
+  "description_catalan": "Descripció no disponible."
+}

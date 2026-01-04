@@ -1,0 +1,38 @@
+{
+  "id": 405,
+  "name": "Luxray",
+  "height": 14,
+  "weight": 420,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
+  "stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 79,
+    "special-attack": 95,
+    "special-defense": 79,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 403,
+      "name": "Shinx",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png"
+    },
+    {
+      "id": 404,
+      "name": "Luxio",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png"
+    },
+    {
+      "id": 405,
+      "name": "Luxray",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Cuando sus ojos brillan como el oro, puede ver presas escondidas, incluso detrás de un muro.",
+  "description_catalan": "Descripció en català per al Pokémon #405. [Traducció pendent]"
+}

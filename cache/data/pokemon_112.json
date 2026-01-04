@@ -1,0 +1,39 @@
+{
+  "id": 112,
+  "name": "Rhydon",
+  "height": 19,
+  "weight": 1200,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+  "stats": {
+    "hp": 105,
+    "attack": 130,
+    "defense": 120,
+    "special-attack": 45,
+    "special-defense": 45,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 111,
+      "name": "Rhyhorn",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+    },
+    {
+      "id": 112,
+      "name": "Rhydon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+    },
+    {
+      "id": 464,
+      "name": "Rhyperior",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+    }
+  ],
+  "color": "gray",
+  "description": "La piel le sirve de escudo protector. Puede vivir en lava líquida a 2000 °C de temperatura.",
+  "description_catalan": "Evoluciona quan el seu cos es torna més dur que el diamant. Pot destruir qualsevol cosa."
+}

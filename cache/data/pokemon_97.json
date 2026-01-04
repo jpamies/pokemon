@@ -1,0 +1,33 @@
+{
+  "id": 97,
+  "name": "Hypno",
+  "height": 16,
+  "weight": 756,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+  "stats": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "special-attack": 73,
+    "special-defense": 115,
+    "speed": 67
+  },
+  "evolution": [
+    {
+      "id": 96,
+      "name": "Drowzee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+    },
+    {
+      "id": 97,
+      "name": "Hypno",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Lleva un péndulo en la mano. Una vez, hizo desaparecer a un niño al que había hipnotizado.",
+  "description_catalan": "Porta un pèndol a la mà. Una vegada, va fer desaparèixer un nen al qual havia hipnotitzat."
+}

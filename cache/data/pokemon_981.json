@@ -1,0 +1,34 @@
+{
+  "id": 981,
+  "name": "Farigiraf",
+  "height": 32,
+  "weight": 1600,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png",
+  "stats": {
+    "hp": 120,
+    "attack": 90,
+    "defense": 70,
+    "special-attack": 110,
+    "special-defense": 70,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 203,
+      "name": "Girafarig",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png"
+    },
+    {
+      "id": 981,
+      "name": "Farigiraf",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.",
+  "description_catalan": "Descripció no disponible."
+}

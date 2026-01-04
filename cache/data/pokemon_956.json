@@ -1,0 +1,33 @@
+{
+  "id": 956,
+  "name": "Espathra",
+  "height": 19,
+  "weight": 900,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png",
+  "stats": {
+    "hp": 95,
+    "attack": 60,
+    "defense": 60,
+    "special-attack": 101,
+    "special-defense": 60,
+    "speed": 105
+  },
+  "evolution": [
+    {
+      "id": 955,
+      "name": "Flittle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png"
+    },
+    {
+      "id": 956,
+      "name": "Espathra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+  "description_catalan": "Descripció no disponible."
+}

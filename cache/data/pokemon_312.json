@@ -1,0 +1,22 @@
+{
+  "id": 312,
+  "name": "Minun",
+  "height": 4,
+  "weight": 42,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
+  "stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 50,
+    "special-attack": 75,
+    "special-defense": 85,
+    "speed": 95
+  },
+  "evolution": null,
+  "color": "yellow",
+  "description": "La electricidad de Minun y Plusle es buena para la circulación y para desentumecer músculos.",
+  "description_catalan": "Descripció en català per al Pokémon #312. [Traducció pendent]"
+}

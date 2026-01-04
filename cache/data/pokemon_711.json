@@ -1,0 +1,34 @@
+{
+  "id": 711,
+  "name": "Gourgeist-Average",
+  "height": 9,
+  "weight": 125,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png",
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 122,
+    "special-attack": 58,
+    "special-defense": 75,
+    "speed": 84
+  },
+  "evolution": [
+    {
+      "id": 710,
+      "name": "Pumpkaboo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png"
+    },
+    {
+      "id": 711,
+      "name": "Gourgeist",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/711.png"
+    }
+  ],
+  "color": "brown",
+  "description": "En las noches de luna nueva deambula por las calles de las ciudades y emite espeluznantes alaridos que maldicen a quienes los oyen.",
+  "description_catalan": "Descripció en català per al Pokémon #711. [Traducció pendent]"
+}

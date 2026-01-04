@@ -1,0 +1,33 @@
+{
+  "id": 927,
+  "name": "Dachsbun",
+  "height": 5,
+  "weight": 149,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png",
+  "stats": {
+    "hp": 57,
+    "attack": 80,
+    "defense": 115,
+    "special-attack": 50,
+    "special-defense": 80,
+    "speed": 95
+  },
+  "evolution": [
+    {
+      "id": 926,
+      "name": "Fidough",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png"
+    },
+    {
+      "id": 927,
+      "name": "Dachsbun",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png"
+    }
+  ],
+  "color": "brown",
+  "description": "The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+  "description_catalan": "Descripció no disponible."
+}

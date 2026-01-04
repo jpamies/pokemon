@@ -1,0 +1,33 @@
+{
+  "id": 429,
+  "name": "Mismagius",
+  "height": 9,
+  "weight": 44,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special-attack": 105,
+    "special-defense": 105,
+    "speed": 105
+  },
+  "evolution": [
+    {
+      "id": 200,
+      "name": "Misdreavus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png"
+    },
+    {
+      "id": 429,
+      "name": "Mismagius",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Recita cánticos. Algunos de ellos atormentan a sus rivales, mientras que otros producen felicidad.",
+  "description_catalan": "Descripció en català per al Pokémon #429. [Traducció pendent]"
+}

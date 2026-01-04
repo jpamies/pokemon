@@ -1,0 +1,33 @@
+{
+  "id": 514,
+  "name": "Simisear",
+  "height": 10,
+  "weight": 280,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
+  "stats": {
+    "hp": 75,
+    "attack": 98,
+    "defense": 63,
+    "special-attack": 98,
+    "special-defense": 63,
+    "speed": 101
+  },
+  "evolution": [
+    {
+      "id": 513,
+      "name": "Pansear",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png"
+    },
+    {
+      "id": 514,
+      "name": "Simisear",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png"
+    }
+  ],
+  "color": "red",
+  "description": "Achicharra a sus enemigos desprendiendo llamas por la cola y la cabeza, fruto de su desmesurado calor interno.",
+  "description_catalan": "Descripció en català per al Pokémon #514. [Traducció pendent]"
+}

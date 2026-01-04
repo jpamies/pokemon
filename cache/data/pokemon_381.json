@@ -1,0 +1,23 @@
+{
+  "id": 381,
+  "name": "Latios",
+  "height": 20,
+  "weight": 600,
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
+  "stats": {
+    "hp": 80,
+    "attack": 90,
+    "defense": 80,
+    "special-attack": 130,
+    "special-defense": 110,
+    "speed": 110
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Es un Pokémon muy inteligente. Puede adelantar a aviones a reacción plegando las alas.",
+  "description_catalan": "Descripció en català per al Pokémon #381. [Traducció pendent]"
+}

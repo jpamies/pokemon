@@ -1,0 +1,43 @@
+{
+  "id": 107,
+  "name": "Hitmonchan",
+  "height": 14,
+  "weight": 502,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+  "stats": {
+    "hp": 50,
+    "attack": 105,
+    "defense": 79,
+    "special-attack": 35,
+    "special-defense": 110,
+    "speed": 76
+  },
+  "evolution": [
+    {
+      "id": 236,
+      "name": "Tyrogue",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png"
+    },
+    {
+      "id": 106,
+      "name": "Hitmonlee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
+    },
+    {
+      "id": 107,
+      "name": "Hitmonchan",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
+    },
+    {
+      "id": 237,
+      "name": "Hitmontop",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Los potentes golpes de sus brazos pueden pulverizar el hormigón. Descansa tras luchar tres minutos.",
+  "description_catalan": "Es mou com si ballés, esquivant els atacs enemics i contraatacant amb els punys."
+}

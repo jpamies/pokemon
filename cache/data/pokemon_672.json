@@ -1,0 +1,33 @@
+{
+  "id": 672,
+  "name": "Skiddo",
+  "height": 9,
+  "weight": 310,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png",
+  "stats": {
+    "hp": 66,
+    "attack": 65,
+    "defense": 48,
+    "special-attack": 62,
+    "special-defense": 57,
+    "speed": 52
+  },
+  "evolution": [
+    {
+      "id": 672,
+      "name": "Skiddo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png"
+    },
+    {
+      "id": 673,
+      "name": "Gogoat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Se dice que fue la primera especie de Pokémon que se acostumbró a vivir con los seres humanos. Tiene una naturaleza muy afable.",
+  "description_catalan": "Descripció en català per al Pokémon #672. [Traducció pendent]"
+}

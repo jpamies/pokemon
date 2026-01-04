@@ -1,0 +1,33 @@
+{
+  "id": 960,
+  "name": "Wiglett",
+  "height": 12,
+  "weight": 18,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png",
+  "stats": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "special-attack": 35,
+    "special-defense": 25,
+    "speed": 95
+  },
+  "evolution": [
+    {
+      "id": 960,
+      "name": "Wiglett",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png"
+    },
+    {
+      "id": 961,
+      "name": "Wugtrio",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png"
+    }
+  ],
+  "color": "white",
+  "description": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+  "description_catalan": "Descripció no disponible."
+}

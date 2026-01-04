@@ -1,0 +1,33 @@
+{
+  "id": 105,
+  "name": "Marowak",
+  "height": 10,
+  "weight": 450,
+  "types": [
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+  "stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 110,
+    "special-attack": 50,
+    "special-defense": 80,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 104,
+      "name": "Cubone",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+    },
+    {
+      "id": 105,
+      "name": "Marowak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Es pequeño y siempre ha sido muy débil. Cuando empezó a usar huesos, se volvió más violento.",
+  "description_catalan": "És petit i sempre ha estat molt dèbil. Quan va començar a portar ossos, es va tornar més fort."
+}

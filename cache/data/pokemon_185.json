@@ -1,0 +1,33 @@
+{
+  "id": 185,
+  "name": "Sudowoodo",
+  "height": 12,
+  "weight": 380,
+  "types": [
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
+  "stats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 115,
+    "special-attack": 30,
+    "special-defense": 65,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 438,
+      "name": "Bonsly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png"
+    },
+    {
+      "id": 185,
+      "name": "Sudowoodo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Aunque pretende ser un árbol, en su composición se parece más a una roca que a una planta.",
+  "description_catalan": "Sembla un arbre normal, però si l'toquen, es mou. No li agrada l'aigua."
+}

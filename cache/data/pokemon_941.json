@@ -1,0 +1,34 @@
+{
+  "id": 941,
+  "name": "Kilowattrel",
+  "height": 14,
+  "weight": 386,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png",
+  "stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 60,
+    "special-attack": 105,
+    "special-defense": 60,
+    "speed": 125
+  },
+  "evolution": [
+    {
+      "id": 940,
+      "name": "Wattrel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/940.png"
+    },
+    {
+      "id": 941,
+      "name": "Kilowattrel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+  "description_catalan": "Descripció no disponible."
+}

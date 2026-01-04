@@ -1,0 +1,38 @@
+{
+  "id": 601,
+  "name": "Klinklang",
+  "height": 6,
+  "weight": 810,
+  "types": [
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
+  "stats": {
+    "hp": 60,
+    "attack": 100,
+    "defense": 115,
+    "special-attack": 70,
+    "special-defense": 85,
+    "speed": 90
+  },
+  "evolution": [
+    {
+      "id": 599,
+      "name": "Klink",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png"
+    },
+    {
+      "id": 600,
+      "name": "Klang",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png"
+    },
+    {
+      "id": 601,
+      "name": "Klinklang",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Recarga su energía rápidamente haciendo girar con gran celeridad el engranaje equipado con un núcleo rojo.",
+  "description_catalan": "Descripció en català per al Pokémon #601. [Traducció pendent]"
+}

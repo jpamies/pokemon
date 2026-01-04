@@ -1,0 +1,39 @@
+{
+  "id": 979,
+  "name": "Annihilape",
+  "height": 12,
+  "weight": 560,
+  "types": [
+    "fighting",
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png",
+  "stats": {
+    "hp": 110,
+    "attack": 115,
+    "defense": 80,
+    "special-attack": 50,
+    "special-defense": 90,
+    "speed": 90
+  },
+  "evolution": [
+    {
+      "id": 56,
+      "name": "Mankey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+    },
+    {
+      "id": 57,
+      "name": "Primeape",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+    },
+    {
+      "id": 979,
+      "name": "Annihilape",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"
+    }
+  ],
+  "color": "gray",
+  "description": "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.",
+  "description_catalan": "Descripció no disponible."
+}

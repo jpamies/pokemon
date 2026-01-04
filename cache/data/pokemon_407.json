@@ -1,0 +1,39 @@
+{
+  "id": 407,
+  "name": "Roserade",
+  "height": 9,
+  "weight": 145,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+  "stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 65,
+    "special-attack": 125,
+    "special-defense": 105,
+    "speed": 90
+  },
+  "evolution": [
+    {
+      "id": 406,
+      "name": "Budew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png"
+    },
+    {
+      "id": 315,
+      "name": "Roselia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png"
+    },
+    {
+      "id": 407,
+      "name": "Roserade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png"
+    }
+  ],
+  "color": "green",
+  "description": "Atrae a sus presas con una dulce fragancia y usa sus cepas venenosas para atenazarlas y acabar con ellas.",
+  "description_catalan": "Descripció en català per al Pokémon #407. [Traducció pendent]"
+}

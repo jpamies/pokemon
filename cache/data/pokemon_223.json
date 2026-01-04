@@ -1,0 +1,33 @@
+{
+  "id": 223,
+  "name": "Remoraid",
+  "height": 6,
+  "weight": 120,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
+  "stats": {
+    "hp": 35,
+    "attack": 65,
+    "defense": 35,
+    "special-attack": 65,
+    "special-defense": 35,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 223,
+      "name": "Remoraid",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png"
+    },
+    {
+      "id": 224,
+      "name": "Octillery",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Tiene muy buena puntería. Dispara agua a sus presas, hasta si se están moviendo, a más de 100 metros.",
+  "description_catalan": "Pot disparar aigua amb molta precisió. Mai falla el seu objectiu."
+}

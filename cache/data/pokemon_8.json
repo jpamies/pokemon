@@ -1,0 +1,38 @@
+{
+  "id": 8,
+  "name": "Wartortle",
+  "height": 10,
+  "weight": 225,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+  "stats": {
+    "hp": 59,
+    "attack": 63,
+    "defense": 80,
+    "special-attack": 65,
+    "special-defense": 80,
+    "speed": 58
+  },
+  "evolution": [
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Wartortle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Si es golpeado, esconderá su cabeza. Aun así, su cola puede seguir golpeando.",
+  "description_catalan": "Si és colpejat, amagarà el seu cap. Tot i així, la seva cua pot seguir colpejant."
+}

@@ -1,0 +1,33 @@
+{
+  "id": 59,
+  "name": "Arcanine",
+  "height": 19,
+  "weight": 1550,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+  "stats": {
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "special-attack": 100,
+    "special-defense": 80,
+    "speed": 95
+  },
+  "evolution": [
+    {
+      "id": 58,
+      "name": "Growlithe",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+    },
+    {
+      "id": 59,
+      "name": "Arcanine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Un Pokémon muy admirado desde la antigüedad por su belleza. Corre ágilmente como si tuviera alas.",
+  "description_catalan": "Un Pokémon molt admirat des de l'antiguitat per la seva bellesa. Corre àgilment com si tingués ales."
+}

@@ -1,0 +1,34 @@
+{
+  "id": 873,
+  "name": "Frosmoth",
+  "height": 13,
+  "weight": 420,
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png",
+  "stats": {
+    "hp": 70,
+    "attack": 65,
+    "defense": 60,
+    "special-attack": 125,
+    "special-defense": 90,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 872,
+      "name": "Snom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png"
+    },
+    {
+      "id": 873,
+      "name": "Frosmoth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png"
+    }
+  ],
+  "color": "white",
+  "description": "La temperatura de sus alas es de -180 °C. Sobrevuela el campo esparciendo sus gélidas escamas, como si de nieve se tratase.",
+  "description_catalan": "Descripció no disponible."
+}

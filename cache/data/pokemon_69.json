@@ -1,0 +1,39 @@
+{
+  "id": 69,
+  "name": "Bellsprout",
+  "height": 7,
+  "weight": 40,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+  "stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 35,
+    "special-attack": 70,
+    "special-defense": 30,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 69,
+      "name": "Bellsprout",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+    },
+    {
+      "id": 70,
+      "name": "Weepinbell",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+    },
+    {
+      "id": 71,
+      "name": "Victreebel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+    }
+  ],
+  "color": "green",
+  "description": "Aunque su cuerpo es extremadamente delgado, es muy rápido a la hora de capturar sus presas.",
+  "description_catalan": "Encara que el seu cos és extremadament prim, és molt flexible i àgil."
+}

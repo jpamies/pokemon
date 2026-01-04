@@ -1,0 +1,22 @@
+{
+  "id": 626,
+  "name": "Bouffalant",
+  "height": 16,
+  "weight": 946,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png",
+  "stats": {
+    "hp": 95,
+    "attack": 110,
+    "defense": 95,
+    "special-attack": 40,
+    "special-defense": 95,
+    "speed": 55
+  },
+  "evolution": null,
+  "color": "brown",
+  "description": "Embiste con la cabeza sin distinción. Su potencia es capaz de hacer descarrilar un tren en marcha.",
+  "description_catalan": "Descripció en català per al Pokémon #626. [Traducció pendent]"
+}

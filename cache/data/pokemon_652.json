@@ -1,0 +1,39 @@
+{
+  "id": 652,
+  "name": "Chesnaught",
+  "height": 16,
+  "weight": 900,
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png",
+  "stats": {
+    "hp": 88,
+    "attack": 107,
+    "defense": 122,
+    "special-attack": 74,
+    "special-defense": 75,
+    "speed": 64
+  },
+  "evolution": [
+    {
+      "id": 650,
+      "name": "Chespin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+    },
+    {
+      "id": 651,
+      "name": "Quilladin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+    },
+    {
+      "id": 652,
+      "name": "Chesnaught",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+    }
+  ],
+  "color": "green",
+  "description": "Su fuerza es tal que, de un empellón, puede hacer volcar un tanque de 50 toneladas. Protege a sus aliados cuando hace de escudo.",
+  "description_catalan": "Descripció en català per al Pokémon #652. [Traducció pendent]"
+}

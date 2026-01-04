@@ -1,0 +1,23 @@
+{
+  "id": 785,
+  "name": "Tapu-Koko",
+  "height": 18,
+  "weight": 205,
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png",
+  "stats": {
+    "hp": 70,
+    "attack": 115,
+    "defense": 85,
+    "special-attack": 95,
+    "special-defense": 75,
+    "speed": 130
+  },
+  "evolution": null,
+  "color": "yellow",
+  "description": "El espíritu guardián de Melemele, curioso e inquisitivo. Invoca nubes de tormenta y acumula el poder de los rayos en su cuerpo.",
+  "description_catalan": "Descripció no disponible."
+}

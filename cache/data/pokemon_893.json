@@ -1,0 +1,23 @@
+{
+  "id": 893,
+  "name": "Zarude",
+  "height": 18,
+  "weight": 700,
+  "types": [
+    "dark",
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/893.png",
+  "stats": {
+    "hp": 105,
+    "attack": 120,
+    "defense": 105,
+    "special-attack": 70,
+    "special-defense": 95,
+    "speed": 105
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "Viven en manada en la selva. Debido a su marcada agresividad, son muy temidos por otros Pokémon selváticos.",
+  "description_catalan": "Descripció no disponible."
+}

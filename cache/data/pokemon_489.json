@@ -1,0 +1,33 @@
+{
+  "id": 489,
+  "name": "Phione",
+  "height": 4,
+  "weight": 31,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
+  "stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "special-attack": 80,
+    "special-defense": 80,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 489,
+      "name": "Phione",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png"
+    },
+    {
+      "id": 490,
+      "name": "Manaphy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Si sube la temperatura del mar, infla el flotador de su cabeza y flota en grupo en la superficie.",
+  "description_catalan": "Descripció en català per al Pokémon #489. [Traducció pendent]"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 723,
+  "name": "Dartrix",
+  "height": 7,
+  "weight": 160,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png",
+  "stats": {
+    "hp": 78,
+    "attack": 75,
+    "defense": 75,
+    "special-attack": 70,
+    "special-defense": 70,
+    "speed": 52
+  },
+  "evolution": [
+    {
+      "id": 722,
+      "name": "Rowlet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
+    },
+    {
+      "id": 723,
+      "name": "Dartrix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png"
+    },
+    {
+      "id": 724,
+      "name": "Decidueye",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Es un poco coqueto, por lo que, cuando puede, se acicala las alas. En ocasiones se niega a combatir por temor a mancharse las plumas.",
+  "description_catalan": "Descripció no disponible."
+}

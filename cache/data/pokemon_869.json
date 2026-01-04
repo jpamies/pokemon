@@ -1,0 +1,33 @@
+{
+  "id": 869,
+  "name": "Alcremie",
+  "height": 3,
+  "weight": 5,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png",
+  "stats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 75,
+    "special-attack": 110,
+    "special-defense": 121,
+    "speed": 64
+  },
+  "evolution": [
+    {
+      "id": 868,
+      "name": "Milcery",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png"
+    },
+    {
+      "id": 869,
+      "name": "Alcremie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png"
+    }
+  ],
+  "color": "white",
+  "description": "Obsequia bayas decoradas con nata a aquellos Entrenadores en los que confía.",
+  "description_catalan": "Descripció no disponible."
+}

@@ -1,0 +1,34 @@
+{
+  "id": 709,
+  "name": "Trevenant",
+  "height": 15,
+  "weight": 710,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
+  "stats": {
+    "hp": 85,
+    "attack": 110,
+    "defense": 76,
+    "special-attack": 65,
+    "special-defense": 82,
+    "speed": 56
+  },
+  "evolution": [
+    {
+      "id": 708,
+      "name": "Phantump",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png"
+    },
+    {
+      "id": 709,
+      "name": "Trevenant",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Puede controlar los árboles a su voluntad. Retiene hasta el fin de sus días a los humanos que se adentran en el bosque y lo mancillan.",
+  "description_catalan": "Descripció en català per al Pokémon #709. [Traducció pendent]"
+}

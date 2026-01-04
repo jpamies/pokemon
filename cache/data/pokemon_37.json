@@ -1,0 +1,33 @@
+{
+  "id": 37,
+  "name": "Vulpix",
+  "height": 6,
+  "weight": 99,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+  "stats": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 65,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 37,
+      "name": "Vulpix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+    },
+    {
+      "id": 38,
+      "name": "Ninetales",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Cuando nace solo tiene una cola, pero a medida que crece, esta se va dividiendo desde la punta.",
+  "description_catalan": "Quan neix només té una cua, però a mesura que creix, la cua es divideix en diverses puntes."
+}

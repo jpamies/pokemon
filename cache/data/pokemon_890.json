@@ -1,0 +1,23 @@
+{
+  "id": 890,
+  "name": "Eternatus",
+  "height": 200,
+  "weight": 9500,
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png",
+  "stats": {
+    "hp": 140,
+    "attack": 85,
+    "defense": 95,
+    "special-attack": 145,
+    "special-defense": 95,
+    "speed": 130
+  },
+  "evolution": null,
+  "color": "purple",
+  "description": "Se alimenta de la energía que brota de la tierra de Galar absorbiéndola por el núcleo del pecho.",
+  "description_catalan": "Descripció no disponible."
+}

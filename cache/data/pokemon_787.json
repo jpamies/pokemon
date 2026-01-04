@@ -1,0 +1,23 @@
+{
+  "id": 787,
+  "name": "Tapu-Bulu",
+  "height": 19,
+  "weight": 455,
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png",
+  "stats": {
+    "hp": 70,
+    "attack": 130,
+    "defense": 115,
+    "special-attack": 85,
+    "special-defense": 95,
+    "speed": 75
+  },
+  "evolution": null,
+  "color": "red",
+  "description": "Arranca de cuajo árboles grandes para hacerlos girar. Vuelve exuberante la vegetación y luego absorbe su energía.",
+  "description_catalan": "Descripció no disponible."
+}

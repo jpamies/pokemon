@@ -1,0 +1,23 @@
+{
+  "id": 1021,
+  "name": "Raging-Bolt",
+  "height": 52,
+  "weight": 4800,
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1021.png",
+  "stats": {
+    "hp": 125,
+    "attack": 73,
+    "defense": 91,
+    "special-attack": 137,
+    "special-defense": 89,
+    "speed": 75
+  },
+  "evolution": null,
+  "color": "yellow",
+  "description": "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
+  "description_catalan": "Descripció no disponible."
+}

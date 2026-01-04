@@ -1,0 +1,33 @@
+{
+  "id": 54,
+  "name": "Psyduck",
+  "height": 8,
+  "weight": 196,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+  "stats": {
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "special-attack": 65,
+    "special-defense": 50,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 54,
+      "name": "Psyduck",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+    },
+    {
+      "id": 55,
+      "name": "Golduck",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Padece continuamente dolores de cabeza. Cuando son muy fuertes, empieza a usar misteriosos poderes.",
+  "description_catalan": "Pateix contínuament mals de cap. Quan són més intensos, comença a usar poders estranys."
+}

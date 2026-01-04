@@ -1,0 +1,43 @@
+{
+  "id": 60,
+  "name": "Poliwag",
+  "height": 6,
+  "weight": 124,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+  "stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 90
+  },
+  "evolution": [
+    {
+      "id": 60,
+      "name": "Poliwag",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+    },
+    {
+      "id": 61,
+      "name": "Poliwhirl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+    },
+    {
+      "id": 62,
+      "name": "Poliwrath",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+    },
+    {
+      "id": 186,
+      "name": "Politoed",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Tiene una piel extraordinaria, fina y húmeda, que deja entrever las vísceras que tiene dispuestas en espiral.",
+  "description_catalan": "Té una pell extraordinària, fina i humida, que deixa veure els seus òrgans interns en espiral."
+}

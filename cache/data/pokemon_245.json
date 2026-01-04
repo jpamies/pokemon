@@ -1,0 +1,22 @@
+{
+  "id": 245,
+  "name": "Suicune",
+  "height": 20,
+  "weight": 1870,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png",
+  "stats": {
+    "hp": 100,
+    "attack": 75,
+    "defense": 115,
+    "special-attack": 90,
+    "special-defense": 115,
+    "speed": 85
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Recorre el mundo para purificar agua contaminada. Corre veloz con el viento del norte.",
+  "description_catalan": "Purifica l'aigua contaminada només tocant-la. És molt elegant."
+}

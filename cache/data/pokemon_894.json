@@ -1,0 +1,22 @@
+{
+  "id": 894,
+  "name": "Regieleki",
+  "height": 12,
+  "weight": 1450,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png",
+  "stats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 50,
+    "special-attack": 100,
+    "special-defense": 50,
+    "speed": 200
+  },
+  "evolution": null,
+  "color": "yellow",
+  "description": "Su cuerpo entero es energía eléctrica. Por lo visto, quitarle los anillos que lleva libera su poder oculto.",
+  "description_catalan": "Descripció no disponible."
+}

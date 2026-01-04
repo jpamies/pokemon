@@ -1,0 +1,38 @@
+{
+  "id": 328,
+  "name": "Trapinch",
+  "height": 7,
+  "weight": 150,
+  "types": [
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png",
+  "stats": {
+    "hp": 45,
+    "attack": 100,
+    "defense": 45,
+    "special-attack": 45,
+    "special-defense": 45,
+    "speed": 10
+  },
+  "evolution": [
+    {
+      "id": 328,
+      "name": "Trapinch",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png"
+    },
+    {
+      "id": 329,
+      "name": "Vibrava",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png"
+    },
+    {
+      "id": 330,
+      "name": "Flygon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Habita desiertos áridos. Cava fosas profundas, en las que espera que caiga su presa.",
+  "description_catalan": "Descripció en català per al Pokémon #328. [Traducció pendent]"
+}

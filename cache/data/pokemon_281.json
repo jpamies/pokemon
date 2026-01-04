@@ -1,0 +1,44 @@
+{
+  "id": 281,
+  "name": "Kirlia",
+  "height": 8,
+  "weight": 202,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
+  "stats": {
+    "hp": 38,
+    "attack": 35,
+    "defense": 35,
+    "special-attack": 65,
+    "special-defense": 55,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 280,
+      "name": "Ralts",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png"
+    },
+    {
+      "id": 281,
+      "name": "Kirlia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png"
+    },
+    {
+      "id": 282,
+      "name": "Gardevoir",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
+    },
+    {
+      "id": 475,
+      "name": "Gallade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png"
+    }
+  ],
+  "color": "white",
+  "description": "Al percibir la alegría de su Entrenador refuerza sus ataques psicoquinéticos. Cuando está contento, da vueltas y baila.",
+  "description_catalan": "Té poders psíquics molt desenvolupats. Pot llegir la ment."
+}

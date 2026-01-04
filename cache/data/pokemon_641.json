@@ -1,0 +1,22 @@
+{
+  "id": 641,
+  "name": "Tornadus-Incarnate",
+  "height": 15,
+  "weight": 630,
+  "types": [
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png",
+  "stats": {
+    "hp": 79,
+    "attack": 115,
+    "defense": 70,
+    "special-attack": 125,
+    "special-defense": 80,
+    "speed": 111
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "La parte inferior de su cuerpo, similar a una nube, está recubierta de un campo de energía. Vuela a 300 km/h.",
+  "description_catalan": "Descripció en català per al Pokémon #641. [Traducció pendent]"
+}

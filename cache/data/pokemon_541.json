@@ -1,0 +1,39 @@
+{
+  "id": 541,
+  "name": "Swadloon",
+  "height": 5,
+  "weight": 73,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png",
+  "stats": {
+    "hp": 55,
+    "attack": 63,
+    "defense": 90,
+    "special-attack": 50,
+    "special-defense": 80,
+    "speed": 42
+  },
+  "evolution": [
+    {
+      "id": 540,
+      "name": "Sewaddle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png"
+    },
+    {
+      "id": 541,
+      "name": "Swadloon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png"
+    },
+    {
+      "id": 542,
+      "name": "Leavanny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png"
+    }
+  ],
+  "color": "green",
+  "description": "La vegetación abunda en los bosques que habita. Este Pokémon transforma las hojas caídas en nutrientes.",
+  "description_catalan": "Descripció en català per al Pokémon #541. [Traducció pendent]"
+}

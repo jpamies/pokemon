@@ -1,0 +1,23 @@
+{
+  "id": 985,
+  "name": "Scream-Tail",
+  "height": 12,
+  "weight": 80,
+  "types": [
+    "fairy",
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png",
+  "stats": {
+    "hp": 115,
+    "attack": 65,
+    "defense": 99,
+    "special-attack": 65,
+    "special-defense": 115,
+    "speed": 111
+  },
+  "evolution": null,
+  "color": "pink",
+  "description": "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
+  "description_catalan": "Descripció no disponible."
+}

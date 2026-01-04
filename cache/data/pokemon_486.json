@@ -1,0 +1,22 @@
+{
+  "id": 486,
+  "name": "Regigigas",
+  "height": 37,
+  "weight": 4200,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
+  "stats": {
+    "hp": 110,
+    "attack": 160,
+    "defense": 110,
+    "special-attack": 80,
+    "special-defense": 110,
+    "speed": 100
+  },
+  "evolution": null,
+  "color": "white",
+  "description": "Se dice que usó rocas, magma y un hielo especial de montaña para crear Pokémon con su aspecto.",
+  "description_catalan": "Descripció en català per al Pokémon #486. [Traducció pendent]"
+}

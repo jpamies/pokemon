@@ -1,0 +1,33 @@
+{
+  "id": 200,
+  "name": "Misdreavus",
+  "height": 7,
+  "weight": 10,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special-attack": 85,
+    "special-defense": 85,
+    "speed": 85
+  },
+  "evolution": [
+    {
+      "id": 200,
+      "name": "Misdreavus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png"
+    },
+    {
+      "id": 429,
+      "name": "Mismagius",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Se deleita con el miedo, que absorbe con sus esferas rojas. Por el día, duerme en la oscuridad.",
+  "description_catalan": "Apareix de sobte i fa crits esgarrifosos. Li agrada espantar la gent."
+}

@@ -1,0 +1,34 @@
+{
+  "id": 167,
+  "name": "Spinarak",
+  "height": 5,
+  "weight": 85,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
+  "stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 167,
+      "name": "Spinarak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png"
+    },
+    {
+      "id": 168,
+      "name": "Ariados",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/168.png"
+    }
+  ],
+  "color": "green",
+  "description": "Teje su telaraña con hilo fino pero resistente. Espera pacientemente a que caiga su presa.",
+  "description_catalan": "Teix fils de seda molt resistents i fa trampes per atrapar les seves preses."
+}

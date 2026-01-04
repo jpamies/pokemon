@@ -1,0 +1,38 @@
+{
+  "id": 921,
+  "name": "Pawmi",
+  "height": 3,
+  "weight": 25,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png",
+  "stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 20,
+    "special-attack": 40,
+    "special-defense": 25,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 921,
+      "name": "Pawmi",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png"
+    },
+    {
+      "id": 922,
+      "name": "Pawmo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png"
+    },
+    {
+      "id": 923,
+      "name": "Pawmot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+  "description_catalan": "Descripció no disponible."
+}

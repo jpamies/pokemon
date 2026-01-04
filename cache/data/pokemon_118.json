@@ -1,0 +1,33 @@
+{
+  "id": 118,
+  "name": "Goldeen",
+  "height": 6,
+  "weight": 150,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+  "stats": {
+    "hp": 45,
+    "attack": 67,
+    "defense": 60,
+    "special-attack": 35,
+    "special-defense": 50,
+    "speed": 63
+  },
+  "evolution": [
+    {
+      "id": 118,
+      "name": "Goldeen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+    },
+    {
+      "id": 119,
+      "name": "Seaking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+    }
+  ],
+  "color": "red",
+  "description": "Nada a una velocidad de cinco nudos. Si siente peligro, golpea con su afilado cuerno.",
+  "description_catalan": "Neda a una velocitat de cinc nusos. Si sent perill, colpeja amb el seu corn afilat."
+}

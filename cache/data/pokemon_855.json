@@ -1,0 +1,33 @@
+{
+  "id": 855,
+  "name": "Polteageist",
+  "height": 2,
+  "weight": 4,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png",
+  "stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 65,
+    "special-attack": 134,
+    "special-defense": 114,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 854,
+      "name": "Sinistea",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png"
+    },
+    {
+      "id": 855,
+      "name": "Polteageist",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Se hospeda en teteras dignas de un anticuario. Las originales son escasísimas, pero existe un gran número de burdas falsificaciones.",
+  "description_catalan": "Descripció no disponible."
+}

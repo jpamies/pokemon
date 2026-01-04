@@ -1,0 +1,34 @@
+{
+  "id": 899,
+  "name": "Wyrdeer",
+  "height": 18,
+  "weight": 951,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png",
+  "stats": {
+    "hp": 103,
+    "attack": 105,
+    "defense": 72,
+    "special-attack": 105,
+    "special-defense": 75,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 234,
+      "name": "Stantler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png"
+    },
+    {
+      "id": 899,
+      "name": "Wyrdeer",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png"
+    }
+  ],
+  "color": "gray",
+  "description": "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
+  "description_catalan": "Descripció no disponible."
+}

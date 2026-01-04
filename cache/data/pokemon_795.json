@@ -1,0 +1,23 @@
+{
+  "id": 795,
+  "name": "Pheromosa",
+  "height": 18,
+  "weight": 250,
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png",
+  "stats": {
+    "hp": 71,
+    "attack": 137,
+    "defense": 37,
+    "special-attack": 137,
+    "special-defense": 37,
+    "speed": 151
+  },
+  "evolution": null,
+  "color": "white",
+  "description": "Uno de los temibles Ultraentes. Se dice que ha sido avistado recorriendo la superficie terrestre a velocidades de vértigo.",
+  "description_catalan": "Descripció no disponible."
+}

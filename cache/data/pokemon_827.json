@@ -1,0 +1,33 @@
+{
+  "id": 827,
+  "name": "Nickit",
+  "height": 6,
+  "weight": 89,
+  "types": [
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png",
+  "stats": {
+    "hp": 40,
+    "attack": 28,
+    "defense": 28,
+    "special-attack": 47,
+    "special-defense": 52,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 827,
+      "name": "Nickit",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png"
+    },
+    {
+      "id": 828,
+      "name": "Thievul",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/828.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Se sustenta con el alimento que roba a otros Pokémon. Las almohadillas de sus patas son tan blandas que no hace ningún ruido al caminar.",
+  "description_catalan": "Descripció no disponible."
+}

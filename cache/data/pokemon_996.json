@@ -1,0 +1,39 @@
+{
+  "id": 996,
+  "name": "Frigibax",
+  "height": 5,
+  "weight": 170,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png",
+  "stats": {
+    "hp": 65,
+    "attack": 75,
+    "defense": 45,
+    "special-attack": 35,
+    "special-defense": 45,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 996,
+      "name": "Frigibax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png"
+    },
+    {
+      "id": 997,
+      "name": "Arctibax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png"
+    },
+    {
+      "id": 998,
+      "name": "Baxcalibur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+  "description_catalan": "Descripció no disponible."
+}

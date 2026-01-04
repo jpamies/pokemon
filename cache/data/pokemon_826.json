@@ -1,0 +1,39 @@
+{
+  "id": 826,
+  "name": "Orbeetle",
+  "height": 4,
+  "weight": 408,
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 110,
+    "special-attack": 80,
+    "special-defense": 120,
+    "speed": 90
+  },
+  "evolution": [
+    {
+      "id": 824,
+      "name": "Blipbug",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png"
+    },
+    {
+      "id": 825,
+      "name": "Dottler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/825.png"
+    },
+    {
+      "id": 826,
+      "name": "Orbeetle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png"
+    }
+  ],
+  "color": "red",
+  "description": "Este Pokémon es conocido por su inteligencia. El gran tamaño de su cerebro es un indicio de la magnitud de sus poderes psíquicos.",
+  "description_catalan": "Descripció no disponible."
+}

@@ -1,0 +1,23 @@
+{
+  "id": 338,
+  "name": "Solrock",
+  "height": 12,
+  "weight": 1540,
+  "types": [
+    "rock",
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/338.png",
+  "stats": {
+    "hp": 90,
+    "attack": 95,
+    "defense": 85,
+    "special-attack": 55,
+    "special-defense": 65,
+    "speed": 70
+  },
+  "evolution": null,
+  "color": "red",
+  "description": "Usa el sol como fuente de energía, por lo que es más poderoso de día. Brilla al rotar.",
+  "description_catalan": "Descripció en català per al Pokémon #338. [Traducció pendent]"
+}

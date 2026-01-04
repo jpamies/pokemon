@@ -1,0 +1,22 @@
+{
+  "id": 241,
+  "name": "Miltank",
+  "height": 12,
+  "weight": 755,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
+  "stats": {
+    "hp": 95,
+    "attack": 80,
+    "defense": 105,
+    "special-attack": 40,
+    "special-defense": 70,
+    "speed": 100
+  },
+  "evolution": null,
+  "color": "pink",
+  "description": "Si tiene crías, la leche que produce contiene muchos más nutrientes de lo normal.",
+  "description_catalan": "Produeix llet nutritiva cada dia. La seva llet és molt sana."
+}

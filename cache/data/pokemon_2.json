@@ -1,0 +1,39 @@
+{
+  "id": 2,
+  "name": "Ivysaur",
+  "height": 10,
+  "weight": 130,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": {
+    "hp": 60,
+    "attack": 62,
+    "defense": 63,
+    "special-attack": 80,
+    "special-defense": 80,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    }
+  ],
+  "color": "green",
+  "description": "Este Pokémon tiene un bulbo en el lomo. Dicen que, al absorber nutrientes, el bulbo se transforma en una flor grande.",
+  "description_catalan": "Aquest Pokémon té un bulb a l'esquena. Diuen que, quan absorbeix nutrients, el bulb es transforma en una flor gran."
+}

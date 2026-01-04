@@ -1,0 +1,38 @@
+{
+  "id": 35,
+  "name": "Clefairy",
+  "height": 6,
+  "weight": 75,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+  "stats": {
+    "hp": 70,
+    "attack": 45,
+    "defense": 48,
+    "special-attack": 60,
+    "special-defense": 65,
+    "speed": 35
+  },
+  "evolution": [
+    {
+      "id": 173,
+      "name": "Cleffa",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png"
+    },
+    {
+      "id": 35,
+      "name": "Clefairy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+    },
+    {
+      "id": 36,
+      "name": "Clefable",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Se dice que la felicidad llegará a quien vea a un grupo de Clefairy bailando a la luz de la luna llena.",
+  "description_catalan": "Es diu que la felicitat arribarà a qui vegi un grup d'aquests Pokémon ballant sota la lluna plena."
+}

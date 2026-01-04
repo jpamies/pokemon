@@ -1,0 +1,39 @@
+{
+  "id": 543,
+  "name": "Venipede",
+  "height": 4,
+  "weight": 53,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png",
+  "stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 59,
+    "special-attack": 30,
+    "special-defense": 39,
+    "speed": 57
+  },
+  "evolution": [
+    {
+      "id": 543,
+      "name": "Venipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png"
+    },
+    {
+      "id": 544,
+      "name": "Whirlipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png"
+    },
+    {
+      "id": 545,
+      "name": "Scolipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
+    }
+  ],
+  "color": "red",
+  "description": "Percibe su entorno con su sentido del tacto, residente en su cabeza y cola. Su carácter es violento por naturaleza.",
+  "description_catalan": "Descripció en català per al Pokémon #543. [Traducció pendent]"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 410,
+  "name": "Shieldon",
+  "height": 5,
+  "weight": 570,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
+  "stats": {
+    "hp": 30,
+    "attack": 42,
+    "defense": 118,
+    "special-attack": 42,
+    "special-defense": 88,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 410,
+      "name": "Shieldon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png"
+    },
+    {
+      "id": 411,
+      "name": "Bastiodon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Se abrillanta la cara frotándola contra los árboles. Es vulnerable a los ataques por la espalda.",
+  "description_catalan": "Descripció en català per al Pokémon #410. [Traducció pendent]"
+}

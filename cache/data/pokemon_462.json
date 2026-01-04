@@ -1,0 +1,39 @@
+{
+  "id": 462,
+  "name": "Magnezone",
+  "height": 12,
+  "weight": 1800,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
+  "stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 115,
+    "special-attack": 130,
+    "special-defense": 90,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 81,
+      "name": "Magnemite",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+    },
+    {
+      "id": 82,
+      "name": "Magneton",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+    },
+    {
+      "id": 462,
+      "name": "Magnezone",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Emiten campos magnéticos tan potentes que se atraen entre sí e incluso pueden llegar a inmovilizarse.",
+  "description_catalan": "Descripció en català per al Pokémon #462. [Traducció pendent]"
+}

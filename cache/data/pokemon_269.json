@@ -1,0 +1,49 @@
+{
+  "id": 269,
+  "name": "Dustox",
+  "height": 12,
+  "weight": 316,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "special-attack": 50,
+    "special-defense": 90,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 265,
+      "name": "Wurmple",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png"
+    },
+    {
+      "id": 266,
+      "name": "Silcoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png"
+    },
+    {
+      "id": 267,
+      "name": "Beautifly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png"
+    },
+    {
+      "id": 268,
+      "name": "Cascoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png"
+    },
+    {
+      "id": 269,
+      "name": "Dustox",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png"
+    }
+  ],
+  "color": "green",
+  "description": "Pokémon nocturno. Atraído por las luces de la ciudad, se come las hojas y arbustos de las avenidas.",
+  "description_catalan": "Vola silenciosament per la nit. Les seves ales no fan cap soroll."
+}

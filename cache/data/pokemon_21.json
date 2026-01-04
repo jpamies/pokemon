@@ -1,0 +1,34 @@
+{
+  "id": 21,
+  "name": "Spearow",
+  "height": 3,
+  "weight": 20,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+  "stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 30,
+    "special-attack": 31,
+    "special-defense": 31,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 21,
+      "name": "Spearow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+    },
+    {
+      "id": 22,
+      "name": "Fearow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Muy protector de su territorio, mueve sus cortas alas sin descanso para lanzarse a toda velocidad.",
+  "description_catalan": "Molt protector del seu territori, mou les seves ales curtes sense descans per llançar-se a tota velocitat."
+}

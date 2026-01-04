@@ -1,0 +1,33 @@
+{
+  "id": 510,
+  "name": "Liepard",
+  "height": 11,
+  "weight": 375,
+  "types": [
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
+  "stats": {
+    "hp": 64,
+    "attack": 88,
+    "defense": 50,
+    "special-attack": 88,
+    "special-defense": 50,
+    "speed": 106
+  },
+  "evolution": [
+    {
+      "id": 509,
+      "name": "Purrloin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png"
+    },
+    {
+      "id": 510,
+      "name": "Liepard",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Su bella y grácil silueta le viene dada por su desarrollada musculatura, que le permite andar de noche sin hacer ruido.",
+  "description_catalan": "Descripció en català per al Pokémon #510. [Traducció pendent]"
+}

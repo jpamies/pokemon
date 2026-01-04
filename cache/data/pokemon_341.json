@@ -1,0 +1,33 @@
+{
+  "id": 341,
+  "name": "Corphish",
+  "height": 6,
+  "weight": 115,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png",
+  "stats": {
+    "hp": 43,
+    "attack": 80,
+    "defense": 65,
+    "special-attack": 50,
+    "special-defense": 35,
+    "speed": 35
+  },
+  "evolution": [
+    {
+      "id": 341,
+      "name": "Corphish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png"
+    },
+    {
+      "id": 342,
+      "name": "Crawdaunt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png"
+    }
+  ],
+  "color": "red",
+  "description": "Por sucio o contaminado que esté el río, se adaptan rápido y se multiplican. Poseen una gran fuerza vital.",
+  "description_catalan": "Descripció en català per al Pokémon #341. [Traducció pendent]"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 962,
+  "name": "Bombirdier",
+  "height": 15,
+  "weight": 429,
+  "types": [
+    "flying",
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/962.png",
+  "stats": {
+    "hp": 70,
+    "attack": 103,
+    "defense": 85,
+    "special-attack": 60,
+    "special-defense": 85,
+    "speed": 82
+  },
+  "evolution": null,
+  "color": "white",
+  "description": "It gathers things up in an apron made from shed feathers added to the Pokémon’s chest feathers, then drops those things from high places for fun.",
+  "description_catalan": "Descripció no disponible."
+}

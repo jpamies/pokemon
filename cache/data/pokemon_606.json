@@ -1,0 +1,33 @@
+{
+  "id": 606,
+  "name": "Beheeyem",
+  "height": 10,
+  "weight": 345,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
+  "stats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 75,
+    "special-attack": 125,
+    "special-defense": 95,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 605,
+      "name": "Elgyem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png"
+    },
+    {
+      "id": 606,
+      "name": "Beheeyem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Parece que se comunica haciendo brillar sus dedos tricolores, pero nadie ha conseguido descifrar aún su patrón.",
+  "description_catalan": "Descripció en català per al Pokémon #606. [Traducció pendent]"
+}

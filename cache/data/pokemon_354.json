@@ -1,0 +1,33 @@
+{
+  "id": 354,
+  "name": "Banette",
+  "height": 11,
+  "weight": 125,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
+  "stats": {
+    "hp": 64,
+    "attack": 115,
+    "defense": 65,
+    "special-attack": 83,
+    "special-defense": 63,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 353,
+      "name": "Shuppet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png"
+    },
+    {
+      "id": 354,
+      "name": "Banette",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png"
+    }
+  ],
+  "color": "black",
+  "description": "Este muñeco se convirtió en un Pokémon cuando lo tiraron a la basura. Busca a su antiguo dueño.",
+  "description_catalan": "Descripció en català per al Pokémon #354. [Traducció pendent]"
+}

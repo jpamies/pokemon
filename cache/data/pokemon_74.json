@@ -1,0 +1,39 @@
+{
+  "id": 74,
+  "name": "Geodude",
+  "height": 4,
+  "weight": 200,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+  "stats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 100,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 20
+  },
+  "evolution": [
+    {
+      "id": 74,
+      "name": "Geodude",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+    },
+    {
+      "id": 75,
+      "name": "Graveler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+    },
+    {
+      "id": 76,
+      "name": "Golem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Aparecen en llanos y montañas. Como parecen rocas, la gente se tropieza con ellos o los pisa.",
+  "description_catalan": "Apareixen en planes i muntanyes. Com que semblen roques, la gent sovint els trepitja."
+}

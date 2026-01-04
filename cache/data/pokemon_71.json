@@ -1,0 +1,39 @@
+{
+  "id": 71,
+  "name": "Victreebel",
+  "height": 17,
+  "weight": 155,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+  "stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special-attack": 100,
+    "special-defense": 70,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 69,
+      "name": "Bellsprout",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+    },
+    {
+      "id": 70,
+      "name": "Weepinbell",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+    },
+    {
+      "id": 71,
+      "name": "Victreebel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+    }
+  ],
+  "color": "green",
+  "description": "Dicen que vive en grandes colonias en el interior de las junglas, aunque nadie ha podido verificarlo.",
+  "description_catalan": "Diuen que viu en grans colònies a l'interior de les jungles, encara que ningú ho ha pogut verificar."
+}

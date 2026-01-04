@@ -1,0 +1,34 @@
+{
+  "id": 528,
+  "name": "Swoobat",
+  "height": 9,
+  "weight": 105,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
+  "stats": {
+    "hp": 67,
+    "attack": 57,
+    "defense": 55,
+    "special-attack": 77,
+    "special-defense": 55,
+    "speed": 114
+  },
+  "evolution": [
+    {
+      "id": 527,
+      "name": "Woobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png"
+    },
+    {
+      "id": 528,
+      "name": "Swoobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Cuando emite ondas ultrasónicas, que incluso pueden reventar el cemento, agita su cola con vehemencia.",
+  "description_catalan": "Descripció en català per al Pokémon #528. [Traducció pendent]"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 663,
+  "name": "Talonflame",
+  "height": 12,
+  "weight": 245,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
+  "stats": {
+    "hp": 78,
+    "attack": 81,
+    "defense": 71,
+    "special-attack": 74,
+    "special-defense": 69,
+    "speed": 126
+  },
+  "evolution": [
+    {
+      "id": 661,
+      "name": "Fletchling",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png"
+    },
+    {
+      "id": 662,
+      "name": "Fletchinder",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png"
+    },
+    {
+      "id": 663,
+      "name": "Talonflame",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
+    }
+  ],
+  "color": "red",
+  "description": "Si se exalta durante un combate reñido, arroja chispas y ascuas de los intersticios entre su plumaje mientras vuela.",
+  "description_catalan": "Descripció en català per al Pokémon #663. [Traducció pendent]"
+}

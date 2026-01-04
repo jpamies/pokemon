@@ -1,0 +1,33 @@
+{
+  "id": 120,
+  "name": "Staryu",
+  "height": 8,
+  "weight": 345,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+  "stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 55,
+    "special-attack": 70,
+    "special-defense": 55,
+    "speed": 85
+  },
+  "evolution": [
+    {
+      "id": 120,
+      "name": "Staryu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+    },
+    {
+      "id": 121,
+      "name": "Starmie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Aunque sus brazos se rompan podrán regenerarse, siempre y cuando su núcleo siga intacto.",
+  "description_catalan": "Encara que els seus braços es trenquin podran regenerar-se, sempre que el seu nucli segueixi intacte."
+}

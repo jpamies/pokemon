@@ -1,0 +1,33 @@
+{
+  "id": 674,
+  "name": "Pancham",
+  "height": 6,
+  "weight": 80,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
+  "stats": {
+    "hp": 67,
+    "attack": 82,
+    "defense": 62,
+    "special-attack": 46,
+    "special-defense": 48,
+    "speed": 43
+  },
+  "evolution": [
+    {
+      "id": 674,
+      "name": "Pancham",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png"
+    },
+    {
+      "id": 675,
+      "name": "Pangoro",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png"
+    }
+  ],
+  "color": "white",
+  "description": "Se esfuerza mucho para que el enemigo no lo menosprecie, pero su mirada no intimida demasiado. Se caracteriza por mascar siempre una hoja.",
+  "description_catalan": "Descripció en català per al Pokémon #674. [Traducció pendent]"
+}

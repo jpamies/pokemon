@@ -1,0 +1,38 @@
+{
+  "id": 153,
+  "name": "Bayleef",
+  "height": 12,
+  "weight": 158,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
+  "stats": {
+    "hp": 60,
+    "attack": 62,
+    "defense": 80,
+    "special-attack": 63,
+    "special-defense": 80,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 152,
+      "name": "Chikorita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
+    },
+    {
+      "id": 153,
+      "name": "Bayleef",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png"
+    },
+    {
+      "id": 154,
+      "name": "Meganium",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png"
+    }
+  ],
+  "color": "green",
+  "description": "Emana un aroma picante de su cuello. El aroma actúa como estimulante para recuperar salud.",
+  "description_catalan": "Emana una aroma picant del seu coll. L'aroma actua com a estimulant per avivar les emocions."
+}

@@ -1,0 +1,34 @@
+{
+  "id": 95,
+  "name": "Onix",
+  "height": 88,
+  "weight": 2100,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+  "stats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "special-attack": 30,
+    "special-defense": 45,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 95,
+      "name": "Onix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+    },
+    {
+      "id": 208,
+      "name": "Steelix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Cava a gran velocidad en busca de comida. Los túneles que deja son usados por los Diglett.",
+  "description_catalan": "Cava a gran velocitat en busca de menjar. Els túnels que deixa són usats pels Diglett."
+}

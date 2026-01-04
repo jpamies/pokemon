@@ -1,0 +1,38 @@
+{
+  "id": 254,
+  "name": "Sceptile",
+  "height": 17,
+  "weight": 522,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
+  "stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 65,
+    "special-attack": 105,
+    "special-defense": 85,
+    "speed": 120
+  },
+  "evolution": [
+    {
+      "id": 252,
+      "name": "Treecko",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
+    },
+    {
+      "id": 253,
+      "name": "Grovyle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png"
+    },
+    {
+      "id": 254,
+      "name": "Sceptile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png"
+    }
+  ],
+  "color": "green",
+  "description": "Las hojas de sus brazos pueden cortar gruesos árboles. Invencible en los combates en la jungla.",
+  "description_catalan": "És increïblement ràpid i àgil. Pot saltar per sobre dels arbres més alts."
+}

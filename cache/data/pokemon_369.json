@@ -1,0 +1,23 @@
+{
+  "id": 369,
+  "name": "Relicanth",
+  "height": 10,
+  "weight": 234,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/369.png",
+  "stats": {
+    "hp": 100,
+    "attack": 90,
+    "defense": 130,
+    "special-attack": 45,
+    "special-defense": 65,
+    "speed": 55
+  },
+  "evolution": null,
+  "color": "gray",
+  "description": "No ha sufrido ningún cambio desde hace 100 millones de años. Fue descubierto durante una expedición marina.",
+  "description_catalan": "Descripció en català per al Pokémon #369. [Traducció pendent]"
+}

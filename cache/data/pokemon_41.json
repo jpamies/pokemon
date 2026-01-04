@@ -1,0 +1,39 @@
+{
+  "id": 41,
+  "name": "Zubat",
+  "height": 8,
+  "weight": 75,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special-attack": 30,
+    "special-defense": 40,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 41,
+      "name": "Zubat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+    },
+    {
+      "id": 42,
+      "name": "Golbat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+    },
+    {
+      "id": 169,
+      "name": "Crobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Aunque carezca de ojos, puede detectar obstáculos con las ondas ultrasónicas que emite su boca.",
+  "description_catalan": "Encara que no té ulls, pot detectar obstacles amb les ones ultrasòniques que emet per la boca."
+}

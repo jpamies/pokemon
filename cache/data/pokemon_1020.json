@@ -1,0 +1,23 @@
+{
+  "id": 1020,
+  "name": "Gouging-Fire",
+  "height": 35,
+  "weight": 5900,
+  "types": [
+    "fire",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1020.png",
+  "stats": {
+    "hp": 105,
+    "attack": 115,
+    "defense": 121,
+    "special-attack": 65,
+    "special-defense": 93,
+    "speed": 91
+  },
+  "evolution": null,
+  "color": "brown",
+  "description": "There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.",
+  "description_catalan": "Descripció no disponible."
+}

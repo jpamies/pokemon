@@ -1,0 +1,34 @@
+{
+  "id": 163,
+  "name": "Hoothoot",
+  "height": 7,
+  "weight": 212,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
+  "stats": {
+    "hp": 60,
+    "attack": 30,
+    "defense": 30,
+    "special-attack": 36,
+    "special-defense": 56,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 163,
+      "name": "Hoothoot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png"
+    },
+    {
+      "id": 164,
+      "name": "Noctowl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Su percepción del tiempo es exacta. Ocurra lo que ocurra, lleva el ritmo moviendo la cabeza.",
+  "description_catalan": "Gairebé no pot volar durant el dia. De nit, però, vola d'arbre en arbre buscant preses."
+}

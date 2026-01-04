@@ -1,0 +1,22 @@
+{
+  "id": 201,
+  "name": "Unown",
+  "height": 5,
+  "weight": 50,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
+  "stats": {
+    "hp": 48,
+    "attack": 72,
+    "defense": 48,
+    "special-attack": 72,
+    "special-defense": 48,
+    "speed": 48
+  },
+  "evolution": null,
+  "color": "black",
+  "description": "Su cuerpo fino y plano aparece siempre en los muros. Su forma parece tener algún significado.",
+  "description_catalan": "Té la forma de lletres antigues. Es diu que amaguen un missatge secret."
+}

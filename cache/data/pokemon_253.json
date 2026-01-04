@@ -1,0 +1,38 @@
+{
+  "id": 253,
+  "name": "Grovyle",
+  "height": 9,
+  "weight": 216,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "special-attack": 85,
+    "special-defense": 65,
+    "speed": 95
+  },
+  "evolution": [
+    {
+      "id": 252,
+      "name": "Treecko",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
+    },
+    {
+      "id": 253,
+      "name": "Grovyle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png"
+    },
+    {
+      "id": 254,
+      "name": "Sceptile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png"
+    }
+  ],
+  "color": "green",
+  "description": "Los desarrollados músculos que tiene en las extremidades inferiores le hacen ser muy ágil y le permiten dar grandes saltos.",
+  "description_catalan": "Viu en boscos densos. Les fulles del seu cos són molt afilades."
+}

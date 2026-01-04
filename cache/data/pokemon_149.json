@@ -1,0 +1,39 @@
+{
+  "id": 149,
+  "name": "Dragonite",
+  "height": 22,
+  "weight": 2100,
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+  "stats": {
+    "hp": 91,
+    "attack": 134,
+    "defense": 95,
+    "special-attack": 100,
+    "special-defense": 100,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 147,
+      "name": "Dratini",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+    },
+    {
+      "id": 148,
+      "name": "Dragonair",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+    },
+    {
+      "id": 149,
+      "name": "Dragonite",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+    }
+  ],
+  "color": "brown",
+  "description": "A pesar del tamaño que tiene y de lo pesado que es, puede volar. Es capaz de dar la vuelta al mundo en solo 16 horas.",
+  "description_catalan": "Malgrat la mida que té i el pesat que és, pot volar. Pot donar la volta al món en 16 hores."
+}

@@ -1,0 +1,38 @@
+{
+  "id": 577,
+  "name": "Solosis",
+  "height": 3,
+  "weight": 10,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
+  "stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 40,
+    "special-attack": 105,
+    "special-defense": 50,
+    "speed": 20
+  },
+  "evolution": [
+    {
+      "id": 577,
+      "name": "Solosis",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png"
+    },
+    {
+      "id": 578,
+      "name": "Duosion",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png"
+    },
+    {
+      "id": 579,
+      "name": "Reuniclus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png"
+    }
+  ],
+  "color": "green",
+  "description": "Gracias a la sustancia viscosa que envuelve su cuerpo, permanece tranquilo por dura o rigurosa que sea la situación.",
+  "description_catalan": "Descripció en català per al Pokémon #577. [Traducció pendent]"
+}

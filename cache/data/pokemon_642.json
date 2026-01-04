@@ -1,0 +1,23 @@
+{
+  "id": 642,
+  "name": "Thundurus-Incarnate",
+  "height": 15,
+  "weight": 610,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
+  "stats": {
+    "hp": 79,
+    "attack": 115,
+    "defense": 70,
+    "special-attack": 125,
+    "special-defense": 80,
+    "speed": 111
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Lanza descargas eléctricas por las púas de su cola. Sobrevuela Teselia dejando caer rayos.",
+  "description_catalan": "Descripció en català per al Pokémon #642. [Traducció pendent]"
+}

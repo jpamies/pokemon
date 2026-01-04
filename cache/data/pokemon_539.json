@@ -1,0 +1,22 @@
+{
+  "id": 539,
+  "name": "Sawk",
+  "height": 14,
+  "weight": 510,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png",
+  "stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 75,
+    "special-attack": 30,
+    "special-defense": 75,
+    "speed": 85
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Para lograr dominar las técnicas de kárate más letales, se retiran a las montañas y entrenan día y noche.",
+  "description_catalan": "Descripció en català per al Pokémon #539. [Traducció pendent]"
+}

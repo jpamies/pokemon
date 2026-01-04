@@ -1,0 +1,34 @@
+{
+  "id": 164,
+  "name": "Noctowl",
+  "height": 16,
+  "weight": 408,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
+  "stats": {
+    "hp": 100,
+    "attack": 50,
+    "defense": 50,
+    "special-attack": 86,
+    "special-defense": 96,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 163,
+      "name": "Hoothoot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png"
+    },
+    {
+      "id": 164,
+      "name": "Noctowl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Sus ojos están especialmente adaptados. Concentran la luz para poder ver en la oscuridad.",
+  "description_catalan": "Té un rellotge intern perfecte. Sempre sap quina hora és, fins i tot en la foscor més absoluta."
+}

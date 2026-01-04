@@ -1,0 +1,39 @@
+{
+  "id": 959,
+  "name": "Tinkaton",
+  "height": 7,
+  "weight": 1128,
+  "types": [
+    "fairy",
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png",
+  "stats": {
+    "hp": 85,
+    "attack": 75,
+    "defense": 77,
+    "special-attack": 70,
+    "special-defense": 105,
+    "speed": 94
+  },
+  "evolution": [
+    {
+      "id": 957,
+      "name": "Tinkatink",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/957.png"
+    },
+    {
+      "id": 958,
+      "name": "Tinkatuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/958.png"
+    },
+    {
+      "id": 959,
+      "name": "Tinkaton",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png"
+    }
+  ],
+  "color": "pink",
+  "description": "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+  "description_catalan": "Descripció no disponible."
+}

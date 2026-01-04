@@ -1,0 +1,23 @@
+{
+  "id": 618,
+  "name": "Stunfisk",
+  "height": 7,
+  "weight": 110,
+  "types": [
+    "ground",
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
+  "stats": {
+    "hp": 109,
+    "attack": 66,
+    "defense": 84,
+    "special-attack": 81,
+    "special-defense": 99,
+    "speed": 32
+  },
+  "evolution": null,
+  "color": "brown",
+  "description": "Ni un pisotón de un luchador de sumo lo aplastaría gracias a su piel sólida. Sonríe al soltar descargas eléctricas.",
+  "description_catalan": "Descripció en català per al Pokémon #618. [Traducció pendent]"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 1005,
+  "name": "Roaring-Moon",
+  "height": 20,
+  "weight": 3800,
+  "types": [
+    "dragon",
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
+  "stats": {
+    "hp": 105,
+    "attack": 139,
+    "defense": 71,
+    "special-attack": 55,
+    "special-defense": 101,
+    "speed": 119
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
+  "description_catalan": "Descripció no disponible."
+}

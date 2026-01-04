@@ -1,0 +1,33 @@
+{
+  "id": 447,
+  "name": "Riolu",
+  "height": 7,
+  "weight": 202,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
+  "stats": {
+    "hp": 40,
+    "attack": 70,
+    "defense": 40,
+    "special-attack": 35,
+    "special-defense": 40,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 447,
+      "name": "Riolu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png"
+    },
+    {
+      "id": 448,
+      "name": "Lucario",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Se comunica con los suyos mediante la emisión de unas ondas que cambian de forma en función de los sentimientos.",
+  "description_catalan": "Descripció en català per al Pokémon #447. [Traducció pendent]"
+}

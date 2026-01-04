@@ -1,0 +1,33 @@
+{
+  "id": 191,
+  "name": "Sunkern",
+  "height": 3,
+  "weight": 18,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png",
+  "stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 30,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 191,
+      "name": "Sunkern",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png"
+    },
+    {
+      "id": 192,
+      "name": "Sunflora",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Puede caer del cielo de repente. Si le ataca un Spearow, moverá violentamente sus hojas.",
+  "description_catalan": "Durant el dia, absorbeix energia solar. De nit, esparce llavors mentre dorm."
+}

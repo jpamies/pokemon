@@ -1,0 +1,39 @@
+{
+  "id": 275,
+  "name": "Shiftry",
+  "height": 13,
+  "weight": 596,
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png",
+  "stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 60,
+    "special-attack": 90,
+    "special-defense": 60,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 273,
+      "name": "Seedot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png"
+    },
+    {
+      "id": 274,
+      "name": "Nuzleaf",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png"
+    },
+    {
+      "id": 275,
+      "name": "Shiftry",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/275.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Habita los bosques y se le tiene miedo. Es capaz de leer los pensamientos del rival y actuar en consecuencia.",
+  "description_catalan": "Té un nas molt llarg que usa per atacar. És molt agressiu."
+}

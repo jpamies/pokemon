@@ -1,0 +1,33 @@
+{
+  "id": 143,
+  "name": "Snorlax",
+  "height": 21,
+  "weight": 4600,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+  "stats": {
+    "hp": 160,
+    "attack": 110,
+    "defense": 65,
+    "special-attack": 65,
+    "special-defense": 110,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 446,
+      "name": "Munchlax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png"
+    },
+    {
+      "id": 143,
+      "name": "Snorlax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+    }
+  ],
+  "color": "black",
+  "description": "No se encuentra satisfecho hasta que no se come 400 kg de comida cada día. Cuando acaba de comer, se queda dormido.",
+  "description_catalan": "No es troba satisfet fins que no es menja 400 kg de menjar cada dia. Quan acaba de menjar, s'adorm immediatament."
+}

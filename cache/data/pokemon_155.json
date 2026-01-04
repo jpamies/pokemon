@@ -1,0 +1,38 @@
+{
+  "id": 155,
+  "name": "Cyndaquil",
+  "height": 5,
+  "weight": 79,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+  "stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special-attack": 60,
+    "special-defense": 50,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 155,
+      "name": "Cyndaquil",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png"
+    },
+    {
+      "id": 156,
+      "name": "Quilava",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png"
+    },
+    {
+      "id": 157,
+      "name": "Typhlosion",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Es un Pokémon muy tímido. Si se asusta, las llamas de su lomo arden con más fuerza.",
+  "description_catalan": "És un Pokémon molt tímid. Si s'espanta, les flames del seu llom cremen amb més intensitat."
+}

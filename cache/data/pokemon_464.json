@@ -1,0 +1,39 @@
+{
+  "id": 464,
+  "name": "Rhyperior",
+  "height": 24,
+  "weight": 2828,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
+  "stats": {
+    "hp": 115,
+    "attack": 140,
+    "defense": 130,
+    "special-attack": 55,
+    "special-defense": 55,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 111,
+      "name": "Rhyhorn",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+    },
+    {
+      "id": 112,
+      "name": "Rhydon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+    },
+    {
+      "id": 464,
+      "name": "Rhyperior",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Lanza Geodude por los agujeros de las manos. Gracias a Protector resiste erupciones volcánicas.",
+  "description_catalan": "Descripció en català per al Pokémon #464. [Traducció pendent]"
+}

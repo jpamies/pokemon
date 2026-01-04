@@ -1,0 +1,38 @@
+{
+  "id": 356,
+  "name": "Dusclops",
+  "height": 16,
+  "weight": 306,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
+  "stats": {
+    "hp": 40,
+    "attack": 70,
+    "defense": 130,
+    "special-attack": 60,
+    "special-defense": 130,
+    "speed": 25
+  },
+  "evolution": [
+    {
+      "id": 355,
+      "name": "Duskull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png"
+    },
+    {
+      "id": 356,
+      "name": "Dusclops",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png"
+    },
+    {
+      "id": 477,
+      "name": "Dusknoir",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png"
+    }
+  ],
+  "color": "black",
+  "description": "Si alguien mira los fuegos fatuos del interior de Dusclops, perderá su alma irremediablemente.",
+  "description_catalan": "Descripció en català per al Pokémon #356. [Traducció pendent]"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 263,
+  "name": "Zigzagoon",
+  "height": 4,
+  "weight": 175,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png",
+  "stats": {
+    "hp": 38,
+    "attack": 30,
+    "defense": 41,
+    "special-attack": 30,
+    "special-defense": 41,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 263,
+      "name": "Zigzagoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/263.png"
+    },
+    {
+      "id": 264,
+      "name": "Linoone",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/264.png"
+    },
+    {
+      "id": 862,
+      "name": "Obstagoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/862.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Se mueve en zigzag. Se le da bien encontrar objetos ocultos en la hierba e incluso enterrados.",
+  "description_catalan": "Corre en línia recta sense parar. No pot girar mentre corre."
+}

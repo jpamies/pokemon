@@ -1,0 +1,38 @@
+{
+  "id": 932,
+  "name": "Nacli",
+  "height": 4,
+  "weight": 160,
+  "types": [
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png",
+  "stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 75,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 25
+  },
+  "evolution": [
+    {
+      "id": 932,
+      "name": "Nacli",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png"
+    },
+    {
+      "id": 933,
+      "name": "Naclstack",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png"
+    },
+    {
+      "id": 934,
+      "name": "Garganacl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png"
+    }
+  ],
+  "color": "brown",
+  "description": "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
+  "description_catalan": "Descripció no disponible."
+}

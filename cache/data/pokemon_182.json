@@ -1,0 +1,43 @@
+{
+  "id": 182,
+  "name": "Bellossom",
+  "height": 4,
+  "weight": 58,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
+  "stats": {
+    "hp": 75,
+    "attack": 80,
+    "defense": 95,
+    "special-attack": 90,
+    "special-defense": 100,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 43,
+      "name": "Oddish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+    },
+    {
+      "id": 44,
+      "name": "Gloom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+    },
+    {
+      "id": 45,
+      "name": "Vileplume",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+    },
+    {
+      "id": 182,
+      "name": "Bellossom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png"
+    }
+  ],
+  "color": "green",
+  "description": "Los Bellossom suelen reunirse para bailar. Dicen que sus danzas son un ritual para invocar al sol.",
+  "description_catalan": "Quan fa sol, les seves fulles es mouen alegrament. L'aroma que desprèn és molt dolç."
+}

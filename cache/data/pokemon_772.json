@@ -1,0 +1,33 @@
+{
+  "id": 772,
+  "name": "Type-Null",
+  "height": 19,
+  "weight": 1205,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
+  "stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 95,
+    "special-attack": 95,
+    "special-defense": 95,
+    "speed": 59
+  },
+  "evolution": [
+    {
+      "id": 772,
+      "name": "Type-Null",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png"
+    },
+    {
+      "id": 773,
+      "name": "Silvally",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png"
+    }
+  ],
+  "color": "gray",
+  "description": "La pesada máscara le impide liberar toda su fuerza, que se cree que es extraordinaria.",
+  "description_catalan": "Descripció no disponible."
+}

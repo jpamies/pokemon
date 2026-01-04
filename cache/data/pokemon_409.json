@@ -1,0 +1,33 @@
+{
+  "id": 409,
+  "name": "Rampardos",
+  "height": 16,
+  "weight": 1025,
+  "types": [
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
+  "stats": {
+    "hp": 97,
+    "attack": 165,
+    "defense": 60,
+    "special-attack": 65,
+    "special-defense": 50,
+    "speed": 58
+  },
+  "evolution": [
+    {
+      "id": 408,
+      "name": "Cranidos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png"
+    },
+    {
+      "id": 409,
+      "name": "Rampardos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Tiene sesos pequeños porque su duro cráneo, que soporta cualquier golpe, les impide desarrollarse.",
+  "description_catalan": "Descripció en català per al Pokémon #409. [Traducció pendent]"
+}

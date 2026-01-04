@@ -1,0 +1,33 @@
+{
+  "id": 90,
+  "name": "Shellder",
+  "height": 3,
+  "weight": 40,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+  "stats": {
+    "hp": 30,
+    "attack": 65,
+    "defense": 100,
+    "special-attack": 45,
+    "special-defense": 25,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 90,
+      "name": "Shellder",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+    },
+    {
+      "id": 91,
+      "name": "Cloyster",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+    }
+  ],
+  "color": "purple",
+  "description": "La concha lo protege de cualquier tipo de ataque. Solo es vulnerable cuando se abre.",
+  "description_catalan": "La closca el protegeix de qualsevol tipus d'atac. Quan obre la closca, dispara espines."
+}

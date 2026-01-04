@@ -1,0 +1,22 @@
+{
+  "id": 243,
+  "name": "Raikou",
+  "height": 19,
+  "weight": 1780,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/243.png",
+  "stats": {
+    "hp": 90,
+    "attack": 85,
+    "defense": 75,
+    "special-attack": 115,
+    "special-defense": 100,
+    "speed": 115
+  },
+  "evolution": null,
+  "color": "yellow",
+  "description": "Las nubes de lluvia que lleva le permiten lanzar rayos a voluntad. Dicen que apareció con un rayo.",
+  "description_catalan": "Corre per tot el món en un sol dia. Controla els llamps."
+}

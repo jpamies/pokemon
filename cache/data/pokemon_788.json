@@ -1,0 +1,23 @@
+{
+  "id": 788,
+  "name": "Tapu-Fini",
+  "height": 13,
+  "weight": 212,
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
+  "stats": {
+    "hp": 70,
+    "attack": 75,
+    "defense": 115,
+    "special-attack": 95,
+    "special-defense": 130,
+    "speed": 85
+  },
+  "evolution": null,
+  "color": "purple",
+  "description": "Desconcierta al enemigo provocando una espesa niebla que se convierte en su perdición. Las corrientes marinas son su fuente de energía.",
+  "description_catalan": "Descripció no disponible."
+}

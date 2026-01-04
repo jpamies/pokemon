@@ -1,0 +1,23 @@
+{
+  "id": 442,
+  "name": "Spiritomb",
+  "height": 10,
+  "weight": 1080,
+  "types": [
+    "ghost",
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+  "stats": {
+    "hp": 50,
+    "attack": 92,
+    "defense": 108,
+    "special-attack": 92,
+    "special-defense": 108,
+    "speed": 35
+  },
+  "evolution": null,
+  "color": "purple",
+  "description": "Se formó a partir de 108 espíritus. Está unido a la fisura de una piedra angular mística.",
+  "description_catalan": "Descripció en català per al Pokémon #442. [Traducció pendent]"
+}

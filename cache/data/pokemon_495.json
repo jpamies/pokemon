@@ -1,0 +1,38 @@
+{
+  "id": 495,
+  "name": "Snivy",
+  "height": 6,
+  "weight": 81,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+  "stats": {
+    "hp": 45,
+    "attack": 45,
+    "defense": 55,
+    "special-attack": 45,
+    "special-defense": 55,
+    "speed": 63
+  },
+  "evolution": [
+    {
+      "id": 495,
+      "name": "Snivy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png"
+    },
+    {
+      "id": 496,
+      "name": "Servine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png"
+    },
+    {
+      "id": 497,
+      "name": "Serperior",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"
+    }
+  ],
+  "color": "green",
+  "description": "Cuando recibe los rayos de sol, se mueve mucho más rápido que de costumbre. Usa mejor sus lianas que sus manos.",
+  "description_catalan": "Descripció en català per al Pokémon #495. [Traducció pendent]"
+}

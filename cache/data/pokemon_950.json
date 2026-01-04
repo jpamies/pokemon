@@ -1,0 +1,22 @@
+{
+  "id": 950,
+  "name": "Klawf",
+  "height": 13,
+  "weight": 790,
+  "types": [
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/950.png",
+  "stats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 115,
+    "special-attack": 35,
+    "special-defense": 55,
+    "speed": 75
+  },
+  "evolution": null,
+  "color": "red",
+  "description": "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can’t remain in this position for long because its blood rushes to its head.",
+  "description_catalan": "Descripció no disponible."
+}

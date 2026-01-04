@@ -1,0 +1,23 @@
+{
+  "id": 880,
+  "name": "Dracozolt",
+  "height": 18,
+  "weight": 1900,
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png",
+  "stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "special-attack": 80,
+    "special-defense": 70,
+    "speed": 75
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "La robustez de su tren inferior lo hacía invencible en la antigüedad, pero se extinguió tras comerse todas las plantas de las que se nutría.",
+  "description_catalan": "Descripció no disponible."
+}

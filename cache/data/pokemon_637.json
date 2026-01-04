@@ -1,0 +1,34 @@
+{
+  "id": 637,
+  "name": "Volcarona",
+  "height": 16,
+  "weight": 460,
+  "types": [
+    "bug",
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
+  "stats": {
+    "hp": 85,
+    "attack": 60,
+    "defense": 65,
+    "special-attack": 135,
+    "special-defense": 105,
+    "speed": 100
+  },
+  "evolution": [
+    {
+      "id": 636,
+      "name": "Larvesta",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png"
+    },
+    {
+      "id": 637,
+      "name": "Volcarona",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png"
+    }
+  ],
+  "color": "white",
+  "description": "Cuando combate, despide escamas ardientes de sus seis alas y genera un mar ígneo a su alrededor.",
+  "description_catalan": "Descripció en català per al Pokémon #637. [Traducció pendent]"
+}

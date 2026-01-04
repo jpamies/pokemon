@@ -1,0 +1,33 @@
+{
+  "id": 678,
+  "name": "Meowstic-Male",
+  "height": 6,
+  "weight": 85,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png",
+  "stats": {
+    "hp": 74,
+    "attack": 48,
+    "defense": 76,
+    "special-attack": 83,
+    "special-defense": 81,
+    "speed": 104
+  },
+  "evolution": [
+    {
+      "id": 677,
+      "name": "Espurr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png"
+    },
+    {
+      "id": 678,
+      "name": "Meowstic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/678.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Cuando percibe peligro, yergue sus orejas y desata un poder psíquico capaz de levantar un camión de unas 10 toneladas.",
+  "description_catalan": "Descripció en català per al Pokémon #678. [Traducció pendent]"
+}

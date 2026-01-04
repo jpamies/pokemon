@@ -1,0 +1,39 @@
+{
+  "id": 633,
+  "name": "Deino",
+  "height": 8,
+  "weight": 173,
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
+  "stats": {
+    "hp": 52,
+    "attack": 65,
+    "defense": 50,
+    "special-attack": 45,
+    "special-defense": 50,
+    "speed": 38
+  },
+  "evolution": [
+    {
+      "id": 633,
+      "name": "Deino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png"
+    },
+    {
+      "id": 634,
+      "name": "Zweilous",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png"
+    },
+    {
+      "id": 635,
+      "name": "Hydreigon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
+    }
+  ],
+  "color": "blue",
+  "description": "No ve, por eso va haciendo placajes y dando mordiscos a diestro y siniestro. Su cuerpo está plagado de heridas.",
+  "description_catalan": "Descripció en català per al Pokémon #633. [Traducció pendent]"
+}

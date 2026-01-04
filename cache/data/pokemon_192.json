@@ -1,0 +1,33 @@
+{
+  "id": 192,
+  "name": "Sunflora",
+  "height": 8,
+  "weight": 85,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
+  "stats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 55,
+    "special-attack": 105,
+    "special-defense": 85,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 191,
+      "name": "Sunkern",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png"
+    },
+    {
+      "id": 192,
+      "name": "Sunflora",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "A medida que se acerca el verano, va adquiriendo un color más vivo e intenso en los pétalos de la cara.",
+  "description_catalan": "Converteix la llum solar en energia. Quan fa sol, es mou molt activament."
+}

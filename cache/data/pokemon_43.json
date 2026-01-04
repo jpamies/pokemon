@@ -1,0 +1,44 @@
+{
+  "id": 43,
+  "name": "Oddish",
+  "height": 5,
+  "weight": 54,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+  "stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 55,
+    "special-attack": 75,
+    "special-defense": 65,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 43,
+      "name": "Oddish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+    },
+    {
+      "id": 44,
+      "name": "Gloom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+    },
+    {
+      "id": 45,
+      "name": "Vileplume",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+    },
+    {
+      "id": 182,
+      "name": "Bellossom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Durante el día, se agazapa en el frío subsuelo huyendo del sol. La luz de la luna le hace crecer mucho.",
+  "description_catalan": "Durant el dia, s'ajup en el fred subsòl fugint del sol. La llum de la lluna el fa créixer molt."
+}

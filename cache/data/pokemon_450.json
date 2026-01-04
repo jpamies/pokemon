@@ -1,0 +1,33 @@
+{
+  "id": 450,
+  "name": "Hippowdon",
+  "height": 20,
+  "weight": 3000,
+  "types": [
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
+  "stats": {
+    "hp": 108,
+    "attack": 112,
+    "defense": 118,
+    "special-attack": 68,
+    "special-defense": 72,
+    "speed": 47
+  },
+  "evolution": [
+    {
+      "id": 449,
+      "name": "Hippopotas",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png"
+    },
+    {
+      "id": 450,
+      "name": "Hippowdon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Hace gala de su fuerza abriendo su enorme boca. Para atacar levanta gran cantidad de arena.",
+  "description_catalan": "Descripció en català per al Pokémon #450. [Traducció pendent]"
+}

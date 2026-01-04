@@ -1,0 +1,38 @@
+{
+  "id": 242,
+  "name": "Blissey",
+  "height": 15,
+  "weight": 468,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
+  "stats": {
+    "hp": 255,
+    "attack": 10,
+    "defense": 10,
+    "special-attack": 75,
+    "special-defense": 135,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 440,
+      "name": "Happiny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png"
+    },
+    {
+      "id": 113,
+      "name": "Chansey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+    },
+    {
+      "id": 242,
+      "name": "Blissey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Los huevos que pone están llenos de felicidad. Solo con probar un poquito de uno, cualquiera sonríe.",
+  "description_catalan": "Porta felicitat a les persones que cuida. És molt gentil i compassiva."
+}

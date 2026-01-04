@@ -1,0 +1,39 @@
+{
+  "id": 607,
+  "name": "Litwick",
+  "height": 3,
+  "weight": 31,
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png",
+  "stats": {
+    "hp": 50,
+    "attack": 30,
+    "defense": 55,
+    "special-attack": 65,
+    "special-defense": 55,
+    "speed": 20
+  },
+  "evolution": [
+    {
+      "id": 607,
+      "name": "Litwick",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png"
+    },
+    {
+      "id": 608,
+      "name": "Lampent",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png"
+    },
+    {
+      "id": 609,
+      "name": "Chandelure",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
+    }
+  ],
+  "color": "white",
+  "description": "Finge ser una luz guía en el camino, pero en realidad solo quiere absorber la energía vital de quien lo sigue.",
+  "description_catalan": "Descripció en català per al Pokémon #607. [Traducció pendent]"
+}

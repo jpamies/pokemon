@@ -1,0 +1,23 @@
+{
+  "id": 131,
+  "name": "Lapras",
+  "height": 25,
+  "weight": 2200,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+  "stats": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "special-attack": 85,
+    "special-defense": 95,
+    "speed": 60
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Son buenos de corazón. Muchos fueron capturados por ser tan pacíficos. Ahora hay muchos menos.",
+  "description_catalan": "Són bons de cor. Molts van ser capturats per ser tan pacífics. Ara n'hi ha molts menys."
+}

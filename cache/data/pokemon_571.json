@@ -1,0 +1,33 @@
+{
+  "id": 571,
+  "name": "Zoroark",
+  "height": 16,
+  "weight": 811,
+  "types": [
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
+  "stats": {
+    "hp": 60,
+    "attack": 105,
+    "defense": 60,
+    "special-attack": 120,
+    "special-defense": 60,
+    "speed": 105
+  },
+  "evolution": [
+    {
+      "id": 570,
+      "name": "Zorua",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png"
+    },
+    {
+      "id": 571,
+      "name": "Zoroark",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Tiene la facultad de confundir a muchos humanos a la vez. Protege su guarida creando un paisaje ilusorio.",
+  "description_catalan": "Descripció en català per al Pokémon #571. [Traducció pendent]"
+}

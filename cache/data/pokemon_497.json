@@ -1,0 +1,38 @@
+{
+  "id": 497,
+  "name": "Serperior",
+  "height": 33,
+  "weight": 630,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
+  "stats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 95,
+    "special-attack": 75,
+    "special-defense": 95,
+    "speed": 113
+  },
+  "evolution": [
+    {
+      "id": 495,
+      "name": "Snivy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png"
+    },
+    {
+      "id": 496,
+      "name": "Servine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png"
+    },
+    {
+      "id": 497,
+      "name": "Serperior",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"
+    }
+  ],
+  "color": "green",
+  "description": "Tan solo muestra su verdadero poder a quienes no se amedrentan ante su noble pero inquisitoria mirada.",
+  "description_catalan": "Descripció en català per al Pokémon #497. [Traducció pendent]"
+}

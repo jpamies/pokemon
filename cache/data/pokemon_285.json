@@ -1,0 +1,33 @@
+{
+  "id": 285,
+  "name": "Shroomish",
+  "height": 4,
+  "weight": 45,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
+  "stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 60,
+    "special-attack": 40,
+    "special-defense": 60,
+    "speed": 35
+  },
+  "evolution": [
+    {
+      "id": 285,
+      "name": "Shroomish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png"
+    },
+    {
+      "id": 286,
+      "name": "Breloom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Prefiere los sitios húmedos. De día está tranquilamente en el bosque, a la sombra. Expulsa polvo tóxico por la cabeza.",
+  "description_catalan": "Sembla un bolet normal, però es mou quan ningú el mira."
+}

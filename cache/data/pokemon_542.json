@@ -1,0 +1,39 @@
+{
+  "id": 542,
+  "name": "Leavanny",
+  "height": 12,
+  "weight": 205,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
+  "stats": {
+    "hp": 75,
+    "attack": 103,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 80,
+    "speed": 92
+  },
+  "evolution": [
+    {
+      "id": 540,
+      "name": "Sewaddle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png"
+    },
+    {
+      "id": 541,
+      "name": "Swadloon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png"
+    },
+    {
+      "id": 542,
+      "name": "Leavanny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Si se encuentra con un Pokémon joven, segrega por la boca hilos pegadizos con los que le teje una prenda de ropa.",
+  "description_catalan": "Descripció en català per al Pokémon #542. [Traducció pendent]"
+}

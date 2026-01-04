@@ -1,0 +1,39 @@
+{
+  "id": 291,
+  "name": "Ninjask",
+  "height": 8,
+  "weight": 120,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
+  "stats": {
+    "hp": 61,
+    "attack": 90,
+    "defense": 45,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 160
+  },
+  "evolution": [
+    {
+      "id": 290,
+      "name": "Nincada",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png"
+    },
+    {
+      "id": 291,
+      "name": "Ninjask",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png"
+    },
+    {
+      "id": 292,
+      "name": "Shedinja",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Escuchar su zumbido de forma continuada provoca jaquecas. Casi no se le ve de lo rápido que es.",
+  "description_catalan": "Descripció en català per al Pokémon #291. [Traducció pendent]"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 562,
+  "name": "Yamask",
+  "height": 5,
+  "weight": 15,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
+  "stats": {
+    "hp": 38,
+    "attack": 30,
+    "defense": 85,
+    "special-attack": 55,
+    "special-defense": 65,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 562,
+      "name": "Yamask",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png"
+    },
+    {
+      "id": 563,
+      "name": "Cofagrigus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png"
+    },
+    {
+      "id": 867,
+      "name": "Runerigus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png"
+    }
+  ],
+  "color": "black",
+  "description": "Almas de humanos sepultados en tumbas que han adquirido forma de Pokémon. Recuerdan su vida antes de la muerte.",
+  "description_catalan": "Descripció en català per al Pokémon #562. [Traducció pendent]"
+}

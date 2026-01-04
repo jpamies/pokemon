@@ -1,0 +1,38 @@
+{
+  "id": 526,
+  "name": "Gigalith",
+  "height": 17,
+  "weight": 2600,
+  "types": [
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
+  "stats": {
+    "hp": 85,
+    "attack": 135,
+    "defense": 130,
+    "special-attack": 60,
+    "special-defense": 80,
+    "speed": 25
+  },
+  "evolution": [
+    {
+      "id": 524,
+      "name": "Roggenrola",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png"
+    },
+    {
+      "id": 525,
+      "name": "Boldore",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png"
+    },
+    {
+      "id": 526,
+      "name": "Gigalith",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Absorbe los rayos solares, procesa esa energía en su núcleo y lanza poderosas bolas de luz a sus enemigos.",
+  "description_catalan": "Descripció en català per al Pokémon #526. [Traducció pendent]"
+}

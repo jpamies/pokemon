@@ -1,0 +1,38 @@
+{
+  "id": 935,
+  "name": "Charcadet",
+  "height": 6,
+  "weight": 105,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png",
+  "stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 40,
+    "speed": 35
+  },
+  "evolution": [
+    {
+      "id": 935,
+      "name": "Charcadet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png"
+    },
+    {
+      "id": 936,
+      "name": "Armarouge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png"
+    },
+    {
+      "id": 937,
+      "name": "Ceruledge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png"
+    }
+  ],
+  "color": "red",
+  "description": "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+  "description_catalan": "Descripció no disponible."
+}

@@ -1,0 +1,22 @@
+{
+  "id": 764,
+  "name": "Comfey",
+  "height": 1,
+  "weight": 3,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/764.png",
+  "stats": {
+    "hp": 51,
+    "attack": 52,
+    "defense": 90,
+    "special-attack": 82,
+    "special-defense": 110,
+    "speed": 100
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "Prende flores en su tallo, que es muy rico en nutrientes. Las flores se revitalizan y desprenden una agradable fragancia.",
+  "description_catalan": "Descripció no disponible."
+}

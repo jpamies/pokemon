@@ -1,0 +1,38 @@
+{
+  "id": 533,
+  "name": "Gurdurr",
+  "height": 12,
+  "weight": 400,
+  "types": [
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png",
+  "stats": {
+    "hp": 85,
+    "attack": 105,
+    "defense": 85,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 532,
+      "name": "Timburr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png"
+    },
+    {
+      "id": 533,
+      "name": "Gurdurr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png"
+    },
+    {
+      "id": 534,
+      "name": "Conkeldurr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Gracias a su entrenada musculatura, puede blandir vigas de acero sin problema para así derribar edificios enteros.",
+  "description_catalan": "Descripció en català per al Pokémon #533. [Traducció pendent]"
+}

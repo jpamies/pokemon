@@ -1,0 +1,23 @@
+{
+  "id": 646,
+  "name": "Kyurem",
+  "height": 30,
+  "weight": 3250,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png",
+  "stats": {
+    "hp": 125,
+    "attack": 130,
+    "defense": 90,
+    "special-attack": 130,
+    "special-defense": 90,
+    "speed": 95
+  },
+  "evolution": null,
+  "color": "gray",
+  "description": "Pokémon legendario que aguarda al héroe que compense el vacío de su cuerpo de hielo con verdad e ideales.",
+  "description_catalan": "Descripció en català per al Pokémon #646. [Traducció pendent]"
+}

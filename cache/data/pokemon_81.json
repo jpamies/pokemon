@@ -1,0 +1,39 @@
+{
+  "id": 81,
+  "name": "Magnemite",
+  "height": 3,
+  "weight": 60,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+  "stats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 70,
+    "special-attack": 95,
+    "special-defense": 55,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 81,
+      "name": "Magnemite",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+    },
+    {
+      "id": 82,
+      "name": "Magneton",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+    },
+    {
+      "id": 462,
+      "name": "Magnezone",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Las unidades a los lados de su cuerpo generan energía antigravitatoria para mantenerlo en el aire.",
+  "description_catalan": "Les unitats als costats del seu cos generen energia antigravitatòria per mantenir-lo a l'aire."
+}

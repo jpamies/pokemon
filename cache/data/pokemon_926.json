@@ -1,0 +1,33 @@
+{
+  "id": 926,
+  "name": "Fidough",
+  "height": 3,
+  "weight": 109,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png",
+  "stats": {
+    "hp": 37,
+    "attack": 55,
+    "defense": 70,
+    "special-attack": 30,
+    "special-defense": 55,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 926,
+      "name": "Fidough",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png"
+    },
+    {
+      "id": 927,
+      "name": "Dachsbun",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "This Pokémon is smooth and moist to the touch. Yeast in Fidough’s breath induces fermentation in the Pokémon’s vicinity.",
+  "description_catalan": "Descripció no disponible."
+}

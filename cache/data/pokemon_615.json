@@ -1,0 +1,22 @@
+{
+  "id": 615,
+  "name": "Cryogonal",
+  "height": 11,
+  "weight": 1480,
+  "types": [
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png",
+  "stats": {
+    "hp": 80,
+    "attack": 50,
+    "defense": 50,
+    "special-attack": 95,
+    "special-defense": 135,
+    "speed": 105
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Nació entre nubes de nieve. Atrapa a sus presas con una cadena hecha de hielo cristalizado.",
+  "description_catalan": "Descripció en català per al Pokémon #615. [Traducció pendent]"
+}

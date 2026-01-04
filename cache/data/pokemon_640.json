@@ -1,0 +1,23 @@
+{
+  "id": 640,
+  "name": "Virizion",
+  "height": 20,
+  "weight": 2000,
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
+  "stats": {
+    "hp": 91,
+    "attack": 90,
+    "defense": 72,
+    "special-attack": 90,
+    "special-defense": 129,
+    "speed": 108
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "Sus cuernos son hojas afiladas. Sacude a sus enemigos con sus relampagueantes movimientos y los reduce.",
+  "description_catalan": "Descripció en català per al Pokémon #640. [Traducció pendent]"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 117,
+  "name": "Seadra",
+  "height": 12,
+  "weight": 250,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+  "stats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 95,
+    "special-attack": 95,
+    "special-defense": 45,
+    "speed": 85
+  },
+  "evolution": [
+    {
+      "id": 116,
+      "name": "Horsea",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+    },
+    {
+      "id": 117,
+      "name": "Seadra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+    },
+    {
+      "id": 230,
+      "name": "Kingdra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Las afiladas púas que le recubren el cuerpo se le erizan y pueden causar el debilitamiento con solo tocarlo.",
+  "description_catalan": "Les espines afilades que li recobreixen el cos se li erissen i poden causar debilitament només tocant-lo."
+}

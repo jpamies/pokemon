@@ -1,0 +1,39 @@
+{
+  "id": 398,
+  "name": "Staraptor",
+  "height": 12,
+  "weight": 249,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
+  "stats": {
+    "hp": 85,
+    "attack": 120,
+    "defense": 70,
+    "special-attack": 50,
+    "special-defense": 60,
+    "speed": 100
+  },
+  "evolution": [
+    {
+      "id": 396,
+      "name": "Starly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png"
+    },
+    {
+      "id": 397,
+      "name": "Staravia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png"
+    },
+    {
+      "id": 398,
+      "name": "Staraptor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Sus alas y sus patas son muy fuertes. Puede llevarse volando Pokémon pequeños.",
+  "description_catalan": "Descripció en català per al Pokémon #398. [Traducció pendent]"
+}

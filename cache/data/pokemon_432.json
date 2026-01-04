@@ -1,0 +1,33 @@
+{
+  "id": 432,
+  "name": "Purugly",
+  "height": 10,
+  "weight": 438,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
+  "stats": {
+    "hp": 71,
+    "attack": 82,
+    "defense": 64,
+    "special-attack": 64,
+    "special-defense": 59,
+    "speed": 112
+  },
+  "evolution": [
+    {
+      "id": 431,
+      "name": "Glameow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png"
+    },
+    {
+      "id": 432,
+      "name": "Purugly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Si se siente a gusto, no tiene ningún reparo en apropiarse de las moradas de otros Pokémon.",
+  "description_catalan": "Descripció en català per al Pokémon #432. [Traducció pendent]"
+}

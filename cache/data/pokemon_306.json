@@ -1,0 +1,39 @@
+{
+  "id": 306,
+  "name": "Aggron",
+  "height": 21,
+  "weight": 3600,
+  "types": [
+    "steel",
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
+  "stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 180,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 304,
+      "name": "Aron",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png"
+    },
+    {
+      "id": 305,
+      "name": "Lairon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png"
+    },
+    {
+      "id": 306,
+      "name": "Aggron",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Hacen de toda una montaña su territorio. Cuantas más cicatrices tienen, más curtidos en disputas. ¡Mucha atención!",
+  "description_catalan": "Descripció en català per al Pokémon #306. [Traducció pendent]"
+}

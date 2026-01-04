@@ -1,0 +1,22 @@
+{
+  "id": 352,
+  "name": "Kecleon",
+  "height": 10,
+  "weight": 220,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/352.png",
+  "stats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 70,
+    "special-attack": 60,
+    "special-defense": 120,
+    "speed": 40
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "Puede mudar el color de su cuerpo a voluntad, pero el dibujo en zigzag de su panza nunca desaparece.",
+  "description_catalan": "Descripció en català per al Pokémon #352. [Traducció pendent]"
+}

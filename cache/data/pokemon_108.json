@@ -1,0 +1,33 @@
+{
+  "id": 108,
+  "name": "Lickitung",
+  "height": 12,
+  "weight": 655,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+  "stats": {
+    "hp": 90,
+    "attack": 55,
+    "defense": 75,
+    "special-attack": 60,
+    "special-defense": 75,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 108,
+      "name": "Lickitung",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+    },
+    {
+      "id": 463,
+      "name": "Lickilicky",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Su larga lengua, recubierta de saliva pegajosa, se pega a todo, por lo que es muy útil.",
+  "description_catalan": "La seva llarga llengua, recoberta de saliva enganxosa, se li enrotlla al voltant del cos."
+}

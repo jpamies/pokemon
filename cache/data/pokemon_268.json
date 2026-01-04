@@ -1,0 +1,48 @@
+{
+  "id": 268,
+  "name": "Cascoon",
+  "height": 7,
+  "weight": 115,
+  "types": [
+    "bug"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
+  "stats": {
+    "hp": 50,
+    "attack": 35,
+    "defense": 55,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 15
+  },
+  "evolution": [
+    {
+      "id": 265,
+      "name": "Wurmple",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png"
+    },
+    {
+      "id": 266,
+      "name": "Silcoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png"
+    },
+    {
+      "id": 267,
+      "name": "Beautifly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png"
+    },
+    {
+      "id": 268,
+      "name": "Cascoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png"
+    },
+    {
+      "id": 269,
+      "name": "Dustox",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Está formado por seda que se endurece poco a poco. Si se resquebraja el capullo, está a punto de evolucionar.",
+  "description_catalan": "Viu amagat sota fulles grans. Rarament surt del seu amagatall."
+}

@@ -1,0 +1,38 @@
+{
+  "id": 159,
+  "name": "Croconaw",
+  "height": 11,
+  "weight": 250,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
+  "stats": {
+    "hp": 65,
+    "attack": 80,
+    "defense": 80,
+    "special-attack": 59,
+    "special-defense": 63,
+    "speed": 58
+  },
+  "evolution": [
+    {
+      "id": 158,
+      "name": "Totodile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png"
+    },
+    {
+      "id": 159,
+      "name": "Croconaw",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png"
+    },
+    {
+      "id": 160,
+      "name": "Feraligatr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Si pierde un colmillo, le crecerá otro en su lugar. Siempre tiene 48 colmillos en su boca.",
+  "description_catalan": "Si perd una ullal, li creixerà una altra al seu lloc. Sempre té 48 ullals a la boca."
+}

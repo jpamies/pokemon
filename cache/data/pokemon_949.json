@@ -1,0 +1,34 @@
+{
+  "id": 949,
+  "name": "Toedscruel",
+  "height": 19,
+  "weight": 580,
+  "types": [
+    "ground",
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png",
+  "stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "special-attack": 80,
+    "special-defense": 120,
+    "speed": 100
+  },
+  "evolution": [
+    {
+      "id": 948,
+      "name": "Toedscool",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png"
+    },
+    {
+      "id": 949,
+      "name": "Toedscruel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png"
+    }
+  ],
+  "color": "black",
+  "description": "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
+  "description_catalan": "Descripció no disponible."
+}

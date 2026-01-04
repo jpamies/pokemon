@@ -1,0 +1,39 @@
+{
+  "id": 658,
+  "name": "Greninja",
+  "height": 15,
+  "weight": 400,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
+  "stats": {
+    "hp": 72,
+    "attack": 95,
+    "defense": 67,
+    "special-attack": 103,
+    "special-defense": 71,
+    "speed": 122
+  },
+  "evolution": [
+    {
+      "id": 656,
+      "name": "Froakie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+    },
+    {
+      "id": 657,
+      "name": "Frogadier",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+    },
+    {
+      "id": 658,
+      "name": "Greninja",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Comprime el agua y crea estrellas ninja con las que ataca al enemigo. Cuando las hace girar a gran velocidad cortan en dos hasta el metal.",
+  "description_catalan": "Descripció en català per al Pokémon #658. [Traducció pendent]"
+}

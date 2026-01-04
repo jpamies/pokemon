@@ -1,0 +1,23 @@
+{
+  "id": 806,
+  "name": "Blacephalon",
+  "height": 18,
+  "weight": 130,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png",
+  "stats": {
+    "hp": 53,
+    "attack": 127,
+    "defense": 53,
+    "special-attack": 151,
+    "special-defense": 79,
+    "speed": 107
+  },
+  "evolution": null,
+  "color": "white",
+  "description": "Parece ser uno de los temibles Ultraentes. Se acerca a la gente contoneándose y hace explotar su propia cabeza súbitamente.",
+  "description_catalan": "Descripció no disponible."
+}

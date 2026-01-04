@@ -1,0 +1,34 @@
+{
+  "id": 946,
+  "name": "Bramblin",
+  "height": 6,
+  "weight": 6,
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png",
+  "stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 30,
+    "special-attack": 45,
+    "special-defense": 35,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 946,
+      "name": "Bramblin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png"
+    },
+    {
+      "id": 947,
+      "name": "Brambleghast",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png"
+    }
+  ],
+  "color": "brown",
+  "description": "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+  "description_catalan": "Descripció no disponible."
+}

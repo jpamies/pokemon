@@ -1,0 +1,33 @@
+{
+  "id": 325,
+  "name": "Spoink",
+  "height": 7,
+  "weight": 306,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png",
+  "stats": {
+    "hp": 60,
+    "attack": 25,
+    "defense": 35,
+    "special-attack": 70,
+    "special-defense": 80,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 325,
+      "name": "Spoink",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png"
+    },
+    {
+      "id": 326,
+      "name": "Grumpig",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png"
+    }
+  ],
+  "color": "black",
+  "description": "Bota continuamente usando su cola como muelle. Salta para mantener el latido de su corazón.",
+  "description_catalan": "Descripció en català per al Pokémon #325. [Traducció pendent]"
+}

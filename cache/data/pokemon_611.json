@@ -1,0 +1,38 @@
+{
+  "id": 611,
+  "name": "Fraxure",
+  "height": 10,
+  "weight": 360,
+  "types": [
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png",
+  "stats": {
+    "hp": 66,
+    "attack": 117,
+    "defense": 70,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 67
+  },
+  "evolution": [
+    {
+      "id": 610,
+      "name": "Axew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png"
+    },
+    {
+      "id": 611,
+      "name": "Fraxure",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png"
+    },
+    {
+      "id": 612,
+      "name": "Haxorus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
+    }
+  ],
+  "color": "green",
+  "description": "Sus colmillos pueden hacer añicos rocas inmensas. Las luchas territoriales de los Fraxure son encarnizadas.",
+  "description_catalan": "Descripció en català per al Pokémon #611. [Traducció pendent]"
+}

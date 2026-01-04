@@ -1,0 +1,39 @@
+{
+  "id": 80,
+  "name": "Slowbro",
+  "height": 16,
+  "weight": 785,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+  "stats": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "special-attack": 100,
+    "special-defense": 80,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 79,
+      "name": "Slowpoke",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+    },
+    {
+      "id": 80,
+      "name": "Slowbro",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+    },
+    {
+      "id": 199,
+      "name": "Slowking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Tiene una cola tan apetecible, que el Shellder que va enganchado a ella no se soltará por nada del mundo.",
+  "description_catalan": "Té una cua tan apetible, que el Shellder que va enganxat a ella no es deixarà anar per res del món."
+}

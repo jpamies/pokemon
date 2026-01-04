@@ -1,0 +1,39 @@
+{
+  "id": 468,
+  "name": "Togekiss",
+  "height": 15,
+  "weight": 380,
+  "types": [
+    "fairy",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
+  "stats": {
+    "hp": 85,
+    "attack": 50,
+    "defense": 95,
+    "special-attack": 120,
+    "special-defense": 115,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 175,
+      "name": "Togepi",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png"
+    },
+    {
+      "id": 176,
+      "name": "Togetic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png"
+    },
+    {
+      "id": 468,
+      "name": "Togekiss",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png"
+    }
+  ],
+  "color": "white",
+  "description": "Se dice que aparece en zonas pacíficas y las bendice con sus dones.",
+  "description_catalan": "Descripció en català per al Pokémon #468. [Traducció pendent]"
+}

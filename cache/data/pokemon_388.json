@@ -1,0 +1,38 @@
+{
+  "id": 388,
+  "name": "Grotle",
+  "height": 11,
+  "weight": 970,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
+  "stats": {
+    "hp": 75,
+    "attack": 89,
+    "defense": 85,
+    "special-attack": 55,
+    "special-defense": 65,
+    "speed": 36
+  },
+  "evolution": [
+    {
+      "id": 387,
+      "name": "Turtwig",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png"
+    },
+    {
+      "id": 388,
+      "name": "Grotle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png"
+    },
+    {
+      "id": 389,
+      "name": "Torterra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png"
+    }
+  ],
+  "color": "green",
+  "description": "Vive en los bosques cerca del agua. Por el día, sale a que les dé el sol a las plantas de su espalda.",
+  "description_catalan": "Descripció en català per al Pokémon #388. [Traducció pendent]"
+}

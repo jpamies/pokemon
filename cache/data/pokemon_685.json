@@ -1,0 +1,33 @@
+{
+  "id": 685,
+  "name": "Slurpuff",
+  "height": 8,
+  "weight": 50,
+  "types": [
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png",
+  "stats": {
+    "hp": 82,
+    "attack": 80,
+    "defense": 86,
+    "special-attack": 85,
+    "special-defense": 75,
+    "speed": 72
+  },
+  "evolution": [
+    {
+      "id": 684,
+      "name": "Swirlix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png"
+    },
+    {
+      "id": 685,
+      "name": "Slurpuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
+    }
+  ],
+  "color": "white",
+  "description": "Puede rastrear hasta el más débil de los olores. Hace uso de su fino olfato para ayudar a los pasteleros más exquisitos.",
+  "description_catalan": "Descripció en català per al Pokémon #685. [Traducció pendent]"
+}

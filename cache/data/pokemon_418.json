@@ -1,0 +1,33 @@
+{
+  "id": 418,
+  "name": "Buizel",
+  "height": 7,
+  "weight": 295,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
+  "stats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 35,
+    "special-attack": 60,
+    "special-defense": 30,
+    "speed": 85
+  },
+  "evolution": [
+    {
+      "id": 418,
+      "name": "Buizel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png"
+    },
+    {
+      "id": 419,
+      "name": "Floatzel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Nada rotando sus dos colas a modo de tornillo. Cuando bucea, el flotador se pliega.",
+  "description_catalan": "Descripció en català per al Pokémon #418. [Traducció pendent]"
+}

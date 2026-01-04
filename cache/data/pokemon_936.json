@@ -1,0 +1,39 @@
+{
+  "id": 936,
+  "name": "Armarouge",
+  "height": 15,
+  "weight": 850,
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
+  "stats": {
+    "hp": 85,
+    "attack": 60,
+    "defense": 100,
+    "special-attack": 125,
+    "special-defense": 80,
+    "speed": 75
+  },
+  "evolution": [
+    {
+      "id": 935,
+      "name": "Charcadet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png"
+    },
+    {
+      "id": 936,
+      "name": "Armarouge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png"
+    },
+    {
+      "id": 937,
+      "name": "Ceruledge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png"
+    }
+  ],
+  "color": "red",
+  "description": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+  "description_catalan": "Descripció no disponible."
+}

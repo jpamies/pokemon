@@ -1,0 +1,33 @@
+{
+  "id": 673,
+  "name": "Gogoat",
+  "height": 17,
+  "weight": 910,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png",
+  "stats": {
+    "hp": 123,
+    "attack": 100,
+    "defense": 62,
+    "special-attack": 97,
+    "special-defense": 81,
+    "speed": 68
+  },
+  "evolution": [
+    {
+      "id": 672,
+      "name": "Skiddo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/672.png"
+    },
+    {
+      "id": 673,
+      "name": "Gogoat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/673.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Percibe los sentimientos del Entrenador por la forma en la que agarra sus cuernos, aunque sean variaciones sutiles, y así avanzan como si fueran un solo ente.",
+  "description_catalan": "Descripció en català per al Pokémon #673. [Traducció pendent]"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 928,
+  "name": "Smoliv",
+  "height": 3,
+  "weight": 65,
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png",
+  "stats": {
+    "hp": 41,
+    "attack": 35,
+    "defense": 45,
+    "special-attack": 58,
+    "special-defense": 51,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 928,
+      "name": "Smoliv",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png"
+    },
+    {
+      "id": 929,
+      "name": "Dolliv",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png"
+    },
+    {
+      "id": 930,
+      "name": "Arboliva",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png"
+    }
+  ],
+  "color": "green",
+  "description": "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+  "description_catalan": "Descripció no disponible."
+}

@@ -1,0 +1,23 @@
+{
+  "id": 638,
+  "name": "Cobalion",
+  "height": 21,
+  "weight": 2500,
+  "types": [
+    "steel",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png",
+  "stats": {
+    "hp": 91,
+    "attack": 90,
+    "defense": 129,
+    "special-attack": 90,
+    "special-defense": 72,
+    "speed": 108
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Posee un cuerpo y un corazón de acero. Basta una mirada suya para que Pokémon violentos le obedezcan.",
+  "description_catalan": "Descripció en català per al Pokémon #638. [Traducció pendent]"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 459,
+  "name": "Snover",
+  "height": 10,
+  "weight": 505,
+  "types": [
+    "grass",
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
+  "stats": {
+    "hp": 60,
+    "attack": 62,
+    "defense": 50,
+    "special-attack": 62,
+    "special-defense": 60,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 459,
+      "name": "Snover",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png"
+    },
+    {
+      "id": 460,
+      "name": "Abomasnow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png"
+    }
+  ],
+  "color": "white",
+  "description": "En las estaciones frías baja al pie de la montaña, pero regresa a las cimas nevadas en primavera.",
+  "description_catalan": "Descripció en català per al Pokémon #459. [Traducció pendent]"
+}

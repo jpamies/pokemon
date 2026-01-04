@@ -1,0 +1,44 @@
+{
+  "id": 475,
+  "name": "Gallade",
+  "height": 16,
+  "weight": 520,
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
+  "stats": {
+    "hp": 68,
+    "attack": 125,
+    "defense": 65,
+    "special-attack": 65,
+    "special-defense": 115,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 280,
+      "name": "Ralts",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png"
+    },
+    {
+      "id": 281,
+      "name": "Kirlia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png"
+    },
+    {
+      "id": 282,
+      "name": "Gardevoir",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
+    },
+    {
+      "id": 475,
+      "name": "Gallade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png"
+    }
+  ],
+  "color": "white",
+  "description": "Puede presentir los movimientos de sus rivales y por eso ataca siempre antes que ellos.",
+  "description_catalan": "Descripció en català per al Pokémon #475. [Traducció pendent]"
+}

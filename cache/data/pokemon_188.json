@@ -1,0 +1,39 @@
+{
+  "id": 188,
+  "name": "Skiploom",
+  "height": 6,
+  "weight": 10,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png",
+  "stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 50,
+    "special-attack": 45,
+    "special-defense": 65,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 187,
+      "name": "Hoppip",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/187.png"
+    },
+    {
+      "id": 188,
+      "name": "Skiploom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png"
+    },
+    {
+      "id": 189,
+      "name": "Jumpluff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png"
+    }
+  ],
+  "color": "green",
+  "description": "La flor de su cabeza se abre y cierra según suba o baje la temperatura.",
+  "description_catalan": "Quan fa bon temps, obre les seves fulles per absorbir la llum solar."
+}

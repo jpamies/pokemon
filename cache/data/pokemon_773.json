@@ -1,0 +1,33 @@
+{
+  "id": 773,
+  "name": "Silvally",
+  "height": 23,
+  "weight": 1005,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png",
+  "stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 95,
+    "special-attack": 95,
+    "special-defense": 95,
+    "speed": 95
+  },
+  "evolution": [
+    {
+      "id": 772,
+      "name": "Type-Null",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png"
+    },
+    {
+      "id": 773,
+      "name": "Silvally",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png"
+    }
+  ],
+  "color": "gray",
+  "description": "La confianza con su Entrenador ha despertado su potencial. Ahora es capaz de cambiar de tipo a voluntad durante el combate.",
+  "description_catalan": "Descripció no disponible."
+}

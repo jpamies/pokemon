@@ -1,0 +1,39 @@
+{
+  "id": 858,
+  "name": "Hatterene",
+  "height": 21,
+  "weight": 51,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png",
+  "stats": {
+    "hp": 57,
+    "attack": 90,
+    "defense": 95,
+    "special-attack": 136,
+    "special-defense": 103,
+    "speed": 29
+  },
+  "evolution": [
+    {
+      "id": 856,
+      "name": "Hatenna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png"
+    },
+    {
+      "id": 857,
+      "name": "Hattrem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/857.png"
+    },
+    {
+      "id": 858,
+      "name": "Hatterene",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Para mantener alejados a los demás seres vivos, emana a su alrededor ondas psíquicas cuya potencia es capaz de provocar jaquecas.",
+  "description_catalan": "Descripció no disponible."
+}

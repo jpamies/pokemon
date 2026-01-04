@@ -1,0 +1,22 @@
+{
+  "id": 556,
+  "name": "Maractus",
+  "height": 10,
+  "weight": 280,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
+  "stats": {
+    "hp": 75,
+    "attack": 86,
+    "defense": 67,
+    "special-attack": 106,
+    "special-defense": 67,
+    "speed": 60
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "Espanta a los Pokémon pájaro con un baile rápido y haciendo ruido para evitar que picoteen las semillas de sus flores.",
+  "description_catalan": "Descripció en català per al Pokémon #556. [Traducció pendent]"
+}

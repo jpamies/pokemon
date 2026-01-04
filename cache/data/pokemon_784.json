@@ -1,0 +1,39 @@
+{
+  "id": 784,
+  "name": "Kommo-O",
+  "height": 16,
+  "weight": 782,
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png",
+  "stats": {
+    "hp": 75,
+    "attack": 110,
+    "defense": 125,
+    "special-attack": 100,
+    "special-defense": 105,
+    "speed": 85
+  },
+  "evolution": [
+    {
+      "id": 782,
+      "name": "Jangmo-O",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png"
+    },
+    {
+      "id": 783,
+      "name": "Hakamo-O",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png"
+    },
+    {
+      "id": 784,
+      "name": "Kommo-O",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png"
+    }
+  ],
+  "color": "gray",
+  "description": "Al avistar a su enemigo, lo intimida con el tintineo que producen las escamas de su cola. Los más débiles se asustan y huyen.",
+  "description_catalan": "Descripció no disponible."
+}

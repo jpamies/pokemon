@@ -1,0 +1,34 @@
+{
+  "id": 458,
+  "name": "Mantyke",
+  "height": 10,
+  "weight": 650,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
+  "stats": {
+    "hp": 45,
+    "attack": 20,
+    "defense": 50,
+    "special-attack": 60,
+    "special-defense": 120,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 458,
+      "name": "Mantyke",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png"
+    },
+    {
+      "id": 226,
+      "name": "Mantine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Los símbolos de su espalda cambian según la región. A veces se mezcla con bancos de Remoraid y nada junto a ellos.",
+  "description_catalan": "Descripció en català per al Pokémon #458. [Traducció pendent]"
+}

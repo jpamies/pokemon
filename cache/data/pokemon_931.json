@@ -1,0 +1,23 @@
+{
+  "id": 931,
+  "name": "Squawkabilly-Green-Plumage",
+  "height": 6,
+  "weight": 24,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/931.png",
+  "stats": {
+    "hp": 82,
+    "attack": 96,
+    "defense": 51,
+    "special-attack": 45,
+    "special-defense": 51,
+    "speed": 92
+  },
+  "evolution": null,
+  "color": "green",
+  "description": "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
+  "description_catalan": "Descripció no disponible."
+}

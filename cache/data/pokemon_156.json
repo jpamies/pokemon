@@ -1,0 +1,38 @@
+{
+  "id": 156,
+  "name": "Quilava",
+  "height": 9,
+  "weight": 190,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
+  "stats": {
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special-attack": 80,
+    "special-defense": 65,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 155,
+      "name": "Cyndaquil",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png"
+    },
+    {
+      "id": 156,
+      "name": "Quilava",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png"
+    },
+    {
+      "id": 157,
+      "name": "Typhlosion",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Antes de empezar a luchar, se gira ante su rival para alardear del alcance y la fuerza de sus llamas.",
+  "description_catalan": "Abans de començar a lluitar, es gira davant el seu rival per fer gala de les flames del seu llom."
+}

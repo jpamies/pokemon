@@ -1,0 +1,33 @@
+{
+  "id": 754,
+  "name": "Lurantis",
+  "height": 9,
+  "weight": 185,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png",
+  "stats": {
+    "hp": 70,
+    "attack": 105,
+    "defense": 90,
+    "special-attack": 80,
+    "special-defense": 90,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 753,
+      "name": "Fomantis",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/753.png"
+    },
+    {
+      "id": 754,
+      "name": "Lurantis",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/754.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Dedica mucho tiempo y esfuerzo a acicalarse y preservar sus vivos colores. A algunos ejemplares incluso les lleva todo el día.",
+  "description_catalan": "Descripció no disponible."
+}

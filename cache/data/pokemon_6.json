@@ -1,0 +1,39 @@
+{
+  "id": 6,
+  "name": "Charizard",
+  "height": 17,
+  "weight": 905,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+  "stats": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "special-attack": 109,
+    "special-defense": 85,
+    "speed": 100
+  },
+  "evolution": [
+    {
+      "id": 4,
+      "name": "Charmander",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    }
+  ],
+  "color": "red",
+  "description": "Cuando lanza una descarga de fuego supercaliente, la roja llama de su cola brilla más intensamente.",
+  "description_catalan": "Quan llança una descàrrega de foc supercalent, la flama roja de la seva cua brilla més intensament."
+}

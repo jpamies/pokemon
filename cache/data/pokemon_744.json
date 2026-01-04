@@ -1,0 +1,33 @@
+{
+  "id": 744,
+  "name": "Rockruff",
+  "height": 5,
+  "weight": 92,
+  "types": [
+    "rock"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
+  "stats": {
+    "hp": 45,
+    "attack": 65,
+    "defense": 40,
+    "special-attack": 30,
+    "special-defense": 40,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 744,
+      "name": "Rockruff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png"
+    },
+    {
+      "id": 745,
+      "name": "Lycanroc",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png"
+    }
+  ],
+  "color": "brown",
+  "description": "Su carácter amigable lo convierte en el Pokémon ideal para Entrenadores novatos. Sin embargo, al crecer suele volverse un poco agresivo.",
+  "description_catalan": "Descripció no disponible."
+}

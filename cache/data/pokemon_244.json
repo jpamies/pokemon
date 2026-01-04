@@ -1,0 +1,22 @@
+{
+  "id": 244,
+  "name": "Entei",
+  "height": 21,
+  "weight": 1980,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png",
+  "stats": {
+    "hp": 115,
+    "attack": 115,
+    "defense": 85,
+    "special-attack": 90,
+    "special-defense": 75,
+    "speed": 100
+  },
+  "evolution": null,
+  "color": "brown",
+  "description": "Un Pokémon que corre por la tierra. Dicen que siempre nace uno cuando aparece un nuevo volcán.",
+  "description_catalan": "Viu en volcans actius. El seu rugit pot fer tremolar muntanyes."
+}

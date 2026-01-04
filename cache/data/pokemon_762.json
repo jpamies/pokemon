@@ -1,0 +1,38 @@
+{
+  "id": 762,
+  "name": "Steenee",
+  "height": 7,
+  "weight": 82,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png",
+  "stats": {
+    "hp": 52,
+    "attack": 40,
+    "defense": 48,
+    "special-attack": 40,
+    "special-defense": 48,
+    "speed": 62
+  },
+  "evolution": [
+    {
+      "id": 761,
+      "name": "Bounsweet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png"
+    },
+    {
+      "id": 762,
+      "name": "Steenee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png"
+    },
+    {
+      "id": 763,
+      "name": "Tsareena",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png"
+    }
+  ],
+  "color": "purple",
+  "description": "El cáliz de su cabeza se ha desarrollado y le protege todo el cuerpo. Es tan duro que no le importa que lo picoteen los Pokémon pájaro.",
+  "description_catalan": "Descripció no disponible."
+}

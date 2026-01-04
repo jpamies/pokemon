@@ -1,0 +1,33 @@
+{
+  "id": 316,
+  "name": "Gulpin",
+  "height": 4,
+  "weight": 103,
+  "types": [
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
+  "stats": {
+    "hp": 70,
+    "attack": 43,
+    "defense": 53,
+    "special-attack": 43,
+    "special-defense": 53,
+    "speed": 40
+  },
+  "evolution": [
+    {
+      "id": 316,
+      "name": "Gulpin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png"
+    },
+    {
+      "id": 317,
+      "name": "Swalot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png"
+    }
+  ],
+  "color": "green",
+  "description": "Sus sesos y corazón son diminutos; es casi todo estómago. Sus jugos gástricos disuelven lo que sea.",
+  "description_catalan": "Descripció en català per al Pokémon #316. [Traducció pendent]"
+}

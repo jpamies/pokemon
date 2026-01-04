@@ -1,0 +1,23 @@
+{
+  "id": 741,
+  "name": "Oricorio-Baile",
+  "height": 6,
+  "weight": 34,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/741.png",
+  "stats": {
+    "hp": 75,
+    "attack": 70,
+    "defense": 70,
+    "special-attack": 98,
+    "special-defense": 70,
+    "speed": 93
+  },
+  "evolution": null,
+  "color": "red",
+  "description": "Junta las alas y lanza voraces llamas al rival. Su ataque se asemeja a una elaborada coreografía de fuego.",
+  "description_catalan": "Descripció no disponible."
+}

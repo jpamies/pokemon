@@ -1,0 +1,22 @@
+{
+  "id": 771,
+  "name": "Pyukumuku",
+  "height": 3,
+  "weight": 12,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png",
+  "stats": {
+    "hp": 55,
+    "attack": 60,
+    "defense": 130,
+    "special-attack": 30,
+    "special-defense": 130,
+    "speed": 5
+  },
+  "evolution": null,
+  "color": "black",
+  "description": "Vive en las playas y en aguas poco profundas. Expulsa sus entrañas para engañar a sus depredadores y librarse de ellos.",
+  "description_catalan": "Descripció no disponible."
+}

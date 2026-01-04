@@ -1,0 +1,39 @@
+{
+  "id": 537,
+  "name": "Seismitoad",
+  "height": 15,
+  "weight": 620,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png",
+  "stats": {
+    "hp": 105,
+    "attack": 95,
+    "defense": 75,
+    "special-attack": 85,
+    "special-defense": 75,
+    "speed": 74
+  },
+  "evolution": [
+    {
+      "id": 535,
+      "name": "Tympole",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png"
+    },
+    {
+      "id": 536,
+      "name": "Palpitoad",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png"
+    },
+    {
+      "id": 537,
+      "name": "Seismitoad",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Aumenta la potencia de sus puñetazos haciendo vibrar sus puños. Es capaz de quebrar una roca de un solo golpe.",
+  "description_catalan": "Descripció en català per al Pokémon #537. [Traducció pendent]"
+}

@@ -1,0 +1,22 @@
+{
+  "id": 800,
+  "name": "Necrozma",
+  "height": 24,
+  "weight": 2300,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/800.png",
+  "stats": {
+    "hp": 97,
+    "attack": 107,
+    "defense": 101,
+    "special-attack": 127,
+    "special-defense": 89,
+    "speed": 79
+  },
+  "evolution": null,
+  "color": "black",
+  "description": "Se dice que yacía en el interior de la tierra. Se cree que esta criatura, parecida a un Ultraente, vino de otro mundo hace muchísimo tiempo.",
+  "description_catalan": "Descripció no disponible."
+}

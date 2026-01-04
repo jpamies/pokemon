@@ -1,0 +1,38 @@
+{
+  "id": 501,
+  "name": "Oshawott",
+  "height": 5,
+  "weight": 59,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
+  "stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 45,
+    "special-attack": 63,
+    "special-defense": 45,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 501,
+      "name": "Oshawott",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png"
+    },
+    {
+      "id": 502,
+      "name": "Dewott",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png"
+    },
+    {
+      "id": 503,
+      "name": "Samurott",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png"
+    }
+  ],
+  "color": "blue",
+  "description": "La vieira de su ombligo no solo sirve como arma, sino también como instrumento para cortar las bayas que estén duras.",
+  "description_catalan": "Descripció en català per al Pokémon #501. [Traducció pendent]"
+}

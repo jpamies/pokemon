@@ -1,0 +1,22 @@
+{
+  "id": 336,
+  "name": "Seviper",
+  "height": 27,
+  "weight": 525,
+  "types": [
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/336.png",
+  "stats": {
+    "hp": 73,
+    "attack": 100,
+    "defense": 60,
+    "special-attack": 100,
+    "special-defense": 60,
+    "speed": 65
+  },
+  "evolution": null,
+  "color": "black",
+  "description": "Hace frente a Zangoose con su agilidad y su afilada cola, que está cargada con un veneno letal.",
+  "description_catalan": "Descripció en català per al Pokémon #336. [Traducció pendent]"
+}

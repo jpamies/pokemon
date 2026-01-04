@@ -1,0 +1,33 @@
+{
+  "id": 202,
+  "name": "Wobbuffet",
+  "height": 13,
+  "weight": 285,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
+  "stats": {
+    "hp": 190,
+    "attack": 33,
+    "defense": 58,
+    "special-attack": 33,
+    "special-defense": 58,
+    "speed": 33
+  },
+  "evolution": [
+    {
+      "id": 360,
+      "name": "Wynaut",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png"
+    },
+    {
+      "id": 202,
+      "name": "Wobbuffet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Odia la luz y las sacudidas. Si le atacan, infla su cuerpo para aumentar su contraataque.",
+  "description_catalan": "Sempre manté una actitud positiva. Odia perdre i s'entrena constantment."
+}

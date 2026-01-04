@@ -1,0 +1,39 @@
+{
+  "id": 256,
+  "name": "Combusken",
+  "height": 9,
+  "weight": 195,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
+  "stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 60,
+    "special-attack": 85,
+    "special-defense": 60,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 255,
+      "name": "Torchic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png"
+    },
+    {
+      "id": 256,
+      "name": "Combusken",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png"
+    },
+    {
+      "id": 257,
+      "name": "Blaziken",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
+    }
+  ],
+  "color": "red",
+  "description": "Su habilidad le permite dar diez patadas por segundo. Lanza potentes gritos para intimidar.",
+  "description_catalan": "Pot córrer a gran velocitat per terrenys muntanyosos. Les seves potes són molt fortes."
+}

@@ -1,0 +1,22 @@
+{
+  "id": 1024,
+  "name": "Terapagos",
+  "height": 2,
+  "weight": 65,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1024.png",
+  "stats": {
+    "hp": 90,
+    "attack": 65,
+    "defense": 85,
+    "special-attack": 65,
+    "special-defense": 85,
+    "speed": 60
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.",
+  "description_catalan": "Descripció no disponible."
+}

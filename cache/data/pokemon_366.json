@@ -1,0 +1,38 @@
+{
+  "id": 366,
+  "name": "Clamperl",
+  "height": 4,
+  "weight": 525,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
+  "stats": {
+    "hp": 35,
+    "attack": 64,
+    "defense": 85,
+    "special-attack": 74,
+    "special-defense": 55,
+    "speed": 32
+  },
+  "evolution": [
+    {
+      "id": 366,
+      "name": "Clamperl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png"
+    },
+    {
+      "id": 367,
+      "name": "Huntail",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png"
+    },
+    {
+      "id": 368,
+      "name": "Gorebyss",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Produce durante su vida una sola perla que aumenta los poderes psíquicos al evolucionar.",
+  "description_catalan": "Descripció en català per al Pokémon #366. [Traducció pendent]"
+}

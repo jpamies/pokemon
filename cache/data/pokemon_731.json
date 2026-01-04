@@ -1,0 +1,39 @@
+{
+  "id": 731,
+  "name": "Pikipek",
+  "height": 3,
+  "weight": 12,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png",
+  "stats": {
+    "hp": 35,
+    "attack": 75,
+    "defense": 30,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 65
+  },
+  "evolution": [
+    {
+      "id": 731,
+      "name": "Pikipek",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png"
+    },
+    {
+      "id": 732,
+      "name": "Trumbeak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png"
+    },
+    {
+      "id": 733,
+      "name": "Toucannon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png"
+    }
+  ],
+  "color": "black",
+  "description": "Hace agujeros en los árboles a una velocidad de 16 picotazos por segundo y los utiliza como despensa o como su nido.",
+  "description_catalan": "Descripció no disponible."
+}

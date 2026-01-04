@@ -1,0 +1,34 @@
+{
+  "id": 581,
+  "name": "Swanna",
+  "height": 13,
+  "weight": 242,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
+  "stats": {
+    "hp": 75,
+    "attack": 87,
+    "defense": 63,
+    "special-attack": 87,
+    "special-defense": 63,
+    "speed": 98
+  },
+  "evolution": [
+    {
+      "id": 580,
+      "name": "Ducklett",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png"
+    },
+    {
+      "id": 581,
+      "name": "Swanna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png"
+    }
+  ],
+  "color": "white",
+  "description": "Aunque no lo parezca por su grácil elegancia, puede batir con fuerza las alas y volar durante miles de kilómetros.",
+  "description_catalan": "Descripció en català per al Pokémon #581. [Traducció pendent]"
+}

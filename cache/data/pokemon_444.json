@@ -1,0 +1,39 @@
+{
+  "id": 444,
+  "name": "Gabite",
+  "height": 14,
+  "weight": 560,
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
+  "stats": {
+    "hp": 68,
+    "attack": 90,
+    "defense": 65,
+    "special-attack": 50,
+    "special-defense": 55,
+    "speed": 82
+  },
+  "evolution": [
+    {
+      "id": 443,
+      "name": "Gible",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png"
+    },
+    {
+      "id": 444,
+      "name": "Gabite",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png"
+    },
+    {
+      "id": 445,
+      "name": "Garchomp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Le gustan las cosas brillantes. Busca tesoros en cuevas y se lleva el botín a su nido.",
+  "description_catalan": "Descripció en català per al Pokémon #444. [Traducció pendent]"
+}

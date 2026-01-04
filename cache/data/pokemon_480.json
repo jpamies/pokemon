@@ -1,0 +1,22 @@
+{
+  "id": 480,
+  "name": "Uxie",
+  "height": 3,
+  "weight": 3,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
+  "stats": {
+    "hp": 75,
+    "attack": 75,
+    "defense": 130,
+    "special-attack": 75,
+    "special-defense": 130,
+    "speed": 95
+  },
+  "evolution": null,
+  "color": "yellow",
+  "description": "Se le conoce como el Ser de la Sabiduría. Se dice que puede borrar la memoria con una mirada.",
+  "description_catalan": "Descripció en català per al Pokémon #480. [Traducció pendent]"
+}

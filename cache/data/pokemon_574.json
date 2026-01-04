@@ -1,0 +1,38 @@
+{
+  "id": 574,
+  "name": "Gothita",
+  "height": 4,
+  "weight": 58,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png",
+  "stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 50,
+    "special-attack": 55,
+    "special-defense": 65,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 574,
+      "name": "Gothita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png"
+    },
+    {
+      "id": 575,
+      "name": "Gothorita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png"
+    },
+    {
+      "id": 576,
+      "name": "Gothitelle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Amplifica su poder psíquico con sus antenitas en forma de lazo. Siempre está mirando algo fijamente.",
+  "description_catalan": "Descripció en català per al Pokémon #574. [Traducció pendent]"
+}

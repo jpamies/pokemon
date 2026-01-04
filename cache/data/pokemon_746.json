@@ -1,0 +1,22 @@
+{
+  "id": 746,
+  "name": "Wishiwashi-Solo",
+  "height": 2,
+  "weight": 3,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
+  "stats": {
+    "hp": 45,
+    "attack": 20,
+    "defense": 20,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 40
+  },
+  "evolution": null,
+  "color": "blue",
+  "description": "Al sentirse amenazado, sus ojos emiten cierto brillo, algo que atrae a otros miembros de su especie, y juntos luchan como un mismo ente.",
+  "description_catalan": "Descripció no disponible."
+}

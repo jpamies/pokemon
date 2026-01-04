@@ -1,0 +1,23 @@
+{
+  "id": 487,
+  "name": "Giratina-Altered",
+  "height": 45,
+  "weight": 7500,
+  "types": [
+    "ghost",
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
+  "stats": {
+    "hp": 150,
+    "attack": 100,
+    "defense": 120,
+    "special-attack": 100,
+    "special-defense": 120,
+    "speed": 90
+  },
+  "evolution": null,
+  "color": "black",
+  "description": "Vive en el Mundo Distorsión, un mundo opuesto al nuestro y cuyas leyes desafían el sentido común.",
+  "description_catalan": "Descripció en català per al Pokémon #487. [Traducció pendent]"
+}

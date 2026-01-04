@@ -1,0 +1,33 @@
+{
+  "id": 420,
+  "name": "Cherubi",
+  "height": 4,
+  "weight": 33,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
+  "stats": {
+    "hp": 45,
+    "attack": 35,
+    "defense": 45,
+    "special-attack": 62,
+    "special-defense": 53,
+    "speed": 35
+  },
+  "evolution": [
+    {
+      "id": 420,
+      "name": "Cherubi",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png"
+    },
+    {
+      "id": 421,
+      "name": "Cherrim",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Bajo la luz solar es rojo. La esfera pequeña pierde sus nutrientes y se seca para anunciar la evolución.",
+  "description_catalan": "Descripció en català per al Pokémon #420. [Traducció pendent]"
+}

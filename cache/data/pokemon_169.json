@@ -1,0 +1,39 @@
+{
+  "id": 169,
+  "name": "Crobat",
+  "height": 18,
+  "weight": 750,
+  "types": [
+    "poison",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+  "stats": {
+    "hp": 85,
+    "attack": 90,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 80,
+    "speed": 130
+  },
+  "evolution": [
+    {
+      "id": 41,
+      "name": "Zubat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+    },
+    {
+      "id": 42,
+      "name": "Golbat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+    },
+    {
+      "id": 169,
+      "name": "Crobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Es tan silencioso cuando vuela en la oscuridad con sus cuatro alas, que cuesta percibirlo cuando se acerca.",
+  "description_catalan": "Vola silenciosament per la foscor amb les seves quatre ales. Rarament es deixa veure."
+}

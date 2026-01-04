@@ -1,0 +1,38 @@
+{
+  "id": 612,
+  "name": "Haxorus",
+  "height": 18,
+  "weight": 1055,
+  "types": [
+    "dragon"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
+  "stats": {
+    "hp": 76,
+    "attack": 147,
+    "defense": 90,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 97
+  },
+  "evolution": [
+    {
+      "id": 610,
+      "name": "Axew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png"
+    },
+    {
+      "id": 611,
+      "name": "Fraxure",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png"
+    },
+    {
+      "id": 612,
+      "name": "Haxorus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Es gentil, pero no perdona a todo el que ose invadir su territorio. Su mayor baza son sus colmillos, que cortan el acero.",
+  "description_catalan": "Descripció en català per al Pokémon #612. [Traducció pendent]"
+}

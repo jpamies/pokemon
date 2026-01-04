@@ -1,0 +1,34 @@
+{
+  "id": 72,
+  "name": "Tentacool",
+  "height": 9,
+  "weight": 455,
+  "types": [
+    "water",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "special-attack": 50,
+    "special-defense": 100,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 72,
+      "name": "Tentacool",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+    },
+    {
+      "id": 73,
+      "name": "Tentacruel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Su cuerpo se compone casi en exclusiva de agua. Lanza extraños rayos con sus ojos cristalinos.",
+  "description_catalan": "El seu cos es compon gairebé exclusivament d'aigua. La seva forma és difícil de veure."
+}

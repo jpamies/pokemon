@@ -1,0 +1,38 @@
+{
+  "id": 815,
+  "name": "Cinderace",
+  "height": 14,
+  "weight": 330,
+  "types": [
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png",
+  "stats": {
+    "hp": 80,
+    "attack": 116,
+    "defense": 75,
+    "special-attack": 65,
+    "special-defense": 75,
+    "speed": 119
+  },
+  "evolution": [
+    {
+      "id": 813,
+      "name": "Scorbunny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png"
+    },
+    {
+      "id": 814,
+      "name": "Raboot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/814.png"
+    },
+    {
+      "id": 815,
+      "name": "Cinderace",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png"
+    }
+  ],
+  "color": "white",
+  "description": "Convierte piedras en balones de fuego dándoles toques y, luego, chuta con fuerza hacia el rival para chamuscarlo.",
+  "description_catalan": "Descripció no disponible."
+}

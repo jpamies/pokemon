@@ -1,0 +1,34 @@
+{
+  "id": 139,
+  "name": "Omastar",
+  "height": 10,
+  "weight": 350,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+  "stats": {
+    "hp": 70,
+    "attack": 60,
+    "defense": 125,
+    "special-attack": 115,
+    "special-defense": 70,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 138,
+      "name": "Omanyte",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
+    },
+    {
+      "id": 139,
+      "name": "Omastar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Tiene los tentáculos tan desarrollados que le sirven de manos y pies. Con ellos atrapa a su presa y le da un bocado.",
+  "description_catalan": "Té els tentacles tan desenvolupats que li serveixen de mans i peus. Amb ells atrapa la seva presa i li dona una mossegada."
+}

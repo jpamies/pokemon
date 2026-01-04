@@ -1,0 +1,33 @@
+{
+  "id": 109,
+  "name": "Koffing",
+  "height": 6,
+  "weight": 10,
+  "types": [
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+  "stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 95,
+    "special-attack": 60,
+    "special-defense": 45,
+    "speed": 35
+  },
+  "evolution": [
+    {
+      "id": 109,
+      "name": "Koffing",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+    },
+    {
+      "id": 110,
+      "name": "Weezing",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Tiene forma de globo y es muy ligero. Está compuesto por gases tóxicos y apesta.",
+  "description_catalan": "Té forma de globus i és molt lleuger. Està compost de gasos tòxics."
+}

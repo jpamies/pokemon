@@ -1,0 +1,39 @@
+{
+  "id": 732,
+  "name": "Trumbeak",
+  "height": 6,
+  "weight": 148,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png",
+  "stats": {
+    "hp": 55,
+    "attack": 85,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 75
+  },
+  "evolution": [
+    {
+      "id": 731,
+      "name": "Pikipek",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png"
+    },
+    {
+      "id": 732,
+      "name": "Trumbeak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png"
+    },
+    {
+      "id": 733,
+      "name": "Toucannon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png"
+    }
+  ],
+  "color": "black",
+  "description": "Almacena en su pico las semillas de las bayas de las que se alimenta para usarlas como arma contra enemigos y posibles presas.",
+  "description_catalan": "Descripció no disponible."
+}

@@ -1,0 +1,39 @@
+{
+  "id": 270,
+  "name": "Lotad",
+  "height": 5,
+  "weight": 26,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
+  "stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 30,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 30
+  },
+  "evolution": [
+    {
+      "id": 270,
+      "name": "Lotad",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png"
+    },
+    {
+      "id": 271,
+      "name": "Lombre",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png"
+    },
+    {
+      "id": 272,
+      "name": "Ludicolo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png"
+    }
+  ],
+  "color": "green",
+  "description": "Parece una planta acuática. Hace de ferry para los Pokémon que no saben nadar.",
+  "description_catalan": "Flota a la superfície de l'aigua. Sembla una planta aquàtica."
+}

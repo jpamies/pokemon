@@ -1,0 +1,34 @@
+{
+  "id": 527,
+  "name": "Woobat",
+  "height": 4,
+  "weight": 21,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
+  "stats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 43,
+    "special-attack": 55,
+    "special-defense": 43,
+    "speed": 72
+  },
+  "evolution": [
+    {
+      "id": 527,
+      "name": "Woobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png"
+    },
+    {
+      "id": 528,
+      "name": "Swoobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Vive en bosques oscuros y cavernas. Emite ultrasonidos por la nariz para saber todo lo que pasa a su alrededor.",
+  "description_catalan": "Descripció en català per al Pokémon #527. [Traducció pendent]"
+}

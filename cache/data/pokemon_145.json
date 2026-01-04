@@ -1,0 +1,23 @@
+{
+  "id": 145,
+  "name": "Zapdos",
+  "height": 16,
+  "weight": 526,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+  "stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 85,
+    "special-attack": 125,
+    "special-defense": 90,
+    "speed": 100
+  },
+  "evolution": null,
+  "color": "yellow",
+  "description": "Es un legendario pájaro Pokémon. Dicen que aparece entre las nubes lanzando enormes rayos brillantes.",
+  "description_catalan": "És un llegendari ocell Pokémon. Diuen que apareix entre els núvols llançant enormes llamps brillants."
+}

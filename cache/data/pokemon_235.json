@@ -1,0 +1,22 @@
+{
+  "id": 235,
+  "name": "Smeargle",
+  "height": 12,
+  "weight": 580,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/235.png",
+  "stats": {
+    "hp": 55,
+    "attack": 20,
+    "defense": 35,
+    "special-attack": 20,
+    "special-defense": 45,
+    "speed": 75
+  },
+  "evolution": null,
+  "color": "white",
+  "description": "Marca su territorio usando su cola a modo de pincel. Ha hecho más de 5000 marcas diferentes.",
+  "description_catalan": "Pinta marques amb la seva cua. Cada marca té un significat diferent."
+}

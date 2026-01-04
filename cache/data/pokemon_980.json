@@ -1,0 +1,39 @@
+{
+  "id": 980,
+  "name": "Clodsire",
+  "height": 18,
+  "weight": 2230,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
+  "stats": {
+    "hp": 130,
+    "attack": 75,
+    "defense": 60,
+    "special-attack": 45,
+    "special-defense": 100,
+    "speed": 20
+  },
+  "evolution": [
+    {
+      "id": 194,
+      "name": "Wooper",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png"
+    },
+    {
+      "id": 195,
+      "name": "Quagsire",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png"
+    },
+    {
+      "id": 980,
+      "name": "Clodsire",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png"
+    }
+  ],
+  "color": "brown",
+  "description": "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It’s a risky move that puts everything on the line.",
+  "description_catalan": "Descripció no disponible."
+}

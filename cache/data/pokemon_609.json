@@ -1,0 +1,39 @@
+{
+  "id": 609,
+  "name": "Chandelure",
+  "height": 10,
+  "weight": 343,
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png",
+  "stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 90,
+    "special-attack": 145,
+    "special-defense": 90,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 607,
+      "name": "Litwick",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png"
+    },
+    {
+      "id": 608,
+      "name": "Lampent",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png"
+    },
+    {
+      "id": 609,
+      "name": "Chandelure",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
+    }
+  ],
+  "color": "black",
+  "description": "Sus llamas absorben el alma del enemigo y la abrasan, dejando solo su cuerpo inerte.",
+  "description_catalan": "Descripció en català per al Pokémon #609. [Traducció pendent]"
+}

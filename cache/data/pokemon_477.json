@@ -1,0 +1,38 @@
+{
+  "id": 477,
+  "name": "Dusknoir",
+  "height": 22,
+  "weight": 1066,
+  "types": [
+    "ghost"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
+  "stats": {
+    "hp": 45,
+    "attack": 100,
+    "defense": 135,
+    "special-attack": 65,
+    "special-defense": 135,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 355,
+      "name": "Duskull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png"
+    },
+    {
+      "id": 356,
+      "name": "Dusclops",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png"
+    },
+    {
+      "id": 477,
+      "name": "Dusknoir",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png"
+    }
+  ],
+  "color": "black",
+  "description": "Se dice que recoge en su cuerpo flexible a los espíritus extraviados y los guía hasta casa.",
+  "description_catalan": "Descripció en català per al Pokémon #477. [Traducció pendent]"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 989,
+  "name": "Sandy-Shocks",
+  "height": 23,
+  "weight": 600,
+  "types": [
+    "electric",
+    "ground"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png",
+  "stats": {
+    "hp": 85,
+    "attack": 81,
+    "defense": 97,
+    "special-attack": 121,
+    "special-defense": 85,
+    "speed": 101
+  },
+  "evolution": null,
+  "color": "gray",
+  "description": "No records exist of this Pokémon being caught. Data is lacking, but the Pokémon’s traits match up with a creature shown in an expedition journal.",
+  "description_catalan": "Descripció no disponible."
+}

@@ -1,0 +1,34 @@
+{
+  "id": 91,
+  "name": "Cloyster",
+  "height": 15,
+  "weight": 1325,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+  "stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 180,
+    "special-attack": 85,
+    "special-defense": 45,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 90,
+      "name": "Shellder",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+    },
+    {
+      "id": 91,
+      "name": "Cloyster",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+    }
+  ],
+  "color": "purple",
+  "description": "A los Cloyster que viven en las fuertes corrientes marinas les crecen largas y afiladas púas en la concha.",
+  "description_catalan": "Als Cloyster que viuen en les corrents marines fortes, les espines de la closca creixen més."
+}

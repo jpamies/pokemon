@@ -1,0 +1,38 @@
+{
+  "id": 650,
+  "name": "Chespin",
+  "height": 4,
+  "weight": 90,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
+  "stats": {
+    "hp": 56,
+    "attack": 61,
+    "defense": 65,
+    "special-attack": 48,
+    "special-defense": 45,
+    "speed": 38
+  },
+  "evolution": [
+    {
+      "id": 650,
+      "name": "Chespin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+    },
+    {
+      "id": 651,
+      "name": "Quilladin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+    },
+    {
+      "id": 652,
+      "name": "Chesnaught",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+    }
+  ],
+  "color": "green",
+  "description": "Cuando acumula energía, las suaves púas de su cabeza se vuelven tan duras y afiladas que hasta pueden atravesar rocas.",
+  "description_catalan": "Descripció en català per al Pokémon #650. [Traducció pendent]"
+}

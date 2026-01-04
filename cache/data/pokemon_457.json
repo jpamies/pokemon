@@ -1,0 +1,33 @@
+{
+  "id": 457,
+  "name": "Lumineon",
+  "height": 12,
+  "weight": 240,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
+  "stats": {
+    "hp": 69,
+    "attack": 69,
+    "defense": 76,
+    "special-attack": 69,
+    "special-defense": 86,
+    "speed": 91
+  },
+  "evolution": [
+    {
+      "id": 456,
+      "name": "Finneon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png"
+    },
+    {
+      "id": 457,
+      "name": "Lumineon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Vive en las profundidades marinas. Atrae a sus presas con parpadeos del dibujo de sus cuatro aletas.",
+  "description_catalan": "Descripció en català per al Pokémon #457. [Traducció pendent]"
+}

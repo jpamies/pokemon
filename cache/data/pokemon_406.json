@@ -1,0 +1,39 @@
+{
+  "id": 406,
+  "name": "Budew",
+  "height": 2,
+  "weight": 12,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
+  "stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 35,
+    "special-attack": 50,
+    "special-defense": 70,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 406,
+      "name": "Budew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png"
+    },
+    {
+      "id": 315,
+      "name": "Roselia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png"
+    },
+    {
+      "id": 407,
+      "name": "Roserade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png"
+    }
+  ],
+  "color": "green",
+  "description": "Vive cerca de aguas cristalinas. Su cabello se abre y esparce polen cuando le bañan los rayos del sol.",
+  "description_catalan": "Descripció en català per al Pokémon #406. [Traducció pendent]"
+}

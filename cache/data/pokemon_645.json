@@ -1,0 +1,23 @@
+{
+  "id": 645,
+  "name": "Landorus-Incarnate",
+  "height": 15,
+  "weight": 680,
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png",
+  "stats": {
+    "hp": 89,
+    "attack": 125,
+    "defense": 90,
+    "special-attack": 115,
+    "special-defense": 80,
+    "speed": 101
+  },
+  "evolution": null,
+  "color": "brown",
+  "description": "Lo consideran una deidad de las cosechas porque los cultivos crecen en abundancia en las tierras por las que pasa.",
+  "description_catalan": "Descripció en català per al Pokémon #645. [Traducció pendent]"
+}

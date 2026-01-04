@@ -1,0 +1,33 @@
+{
+  "id": 424,
+  "name": "Ambipom",
+  "height": 12,
+  "weight": 203,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+  "stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 66,
+    "special-attack": 60,
+    "special-defense": 66,
+    "speed": 115
+  },
+  "evolution": [
+    {
+      "id": 190,
+      "name": "Aipom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png"
+    },
+    {
+      "id": 424,
+      "name": "Ambipom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Habitan en grandes colonias y forman anillos uniendo sus colas, aparentemente en signo de amistad.",
+  "description_catalan": "Descripció en català per al Pokémon #424. [Traducció pendent]"
+}

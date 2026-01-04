@@ -1,0 +1,38 @@
+{
+  "id": 179,
+  "name": "Mareep",
+  "height": 6,
+  "weight": 78,
+  "types": [
+    "electric"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
+  "stats": {
+    "hp": 55,
+    "attack": 40,
+    "defense": 40,
+    "special-attack": 65,
+    "special-defense": 45,
+    "speed": 35
+  },
+  "evolution": [
+    {
+      "id": 179,
+      "name": "Mareep",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png"
+    },
+    {
+      "id": 180,
+      "name": "Flaaffy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png"
+    },
+    {
+      "id": 181,
+      "name": "Ampharos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png"
+    }
+  ],
+  "color": "white",
+  "description": "Su pelaje lanudo dobla su volumen al acumular electricidad estática. Tocarlo puede dar calambre.",
+  "description_catalan": "La seva llana creix constantment. A l'estiu, es despulla per no passar calor."
+}

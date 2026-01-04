@@ -1,0 +1,39 @@
+{
+  "id": 257,
+  "name": "Blaziken",
+  "height": 19,
+  "weight": 520,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
+  "stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 70,
+    "special-attack": 110,
+    "special-defense": 70,
+    "speed": 80
+  },
+  "evolution": [
+    {
+      "id": 255,
+      "name": "Torchic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png"
+    },
+    {
+      "id": 256,
+      "name": "Combusken",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png"
+    },
+    {
+      "id": 257,
+      "name": "Blaziken",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
+    }
+  ],
+  "color": "red",
+  "description": "Puede saltar edificios de 30 plantas. Con sus golpes de fuego quema a sus rivales.",
+  "description_catalan": "Pot donar punyetades que cremen tot el que toquen. És un lluitador nat."
+}

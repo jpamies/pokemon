@@ -1,0 +1,33 @@
+{
+  "id": 433,
+  "name": "Chingling",
+  "height": 2,
+  "weight": 6,
+  "types": [
+    "psychic"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
+  "stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 50,
+    "special-attack": 65,
+    "special-defense": 50,
+    "speed": 45
+  },
+  "evolution": [
+    {
+      "id": 433,
+      "name": "Chingling",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png"
+    },
+    {
+      "id": 358,
+      "name": "Chimecho",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png"
+    }
+  ],
+  "color": "yellow",
+  "description": "Emite un tintineo cada vez que salta. Ensordece a sus rivales con sonidos de alta frecuencia.",
+  "description_catalan": "Descripció en català per al Pokémon #433. [Traducció pendent]"
+}

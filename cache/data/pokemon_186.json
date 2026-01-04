@@ -1,0 +1,43 @@
+{
+  "id": 186,
+  "name": "Politoed",
+  "height": 11,
+  "weight": 339,
+  "types": [
+    "water"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png",
+  "stats": {
+    "hp": 90,
+    "attack": 75,
+    "defense": 75,
+    "special-attack": 90,
+    "special-defense": 100,
+    "speed": 70
+  },
+  "evolution": [
+    {
+      "id": 60,
+      "name": "Poliwag",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+    },
+    {
+      "id": 61,
+      "name": "Poliwhirl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+    },
+    {
+      "id": 62,
+      "name": "Poliwrath",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+    },
+    {
+      "id": 186,
+      "name": "Politoed",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png"
+    }
+  ],
+  "color": "green",
+  "description": "Cuando tres o más de estos se juntan, emiten un sonido muy fuerte parecido a un bramido.",
+  "description_catalan": "Quan crida, la seva veu ressona com un tambor. Viu en pantans i llacs."
+}

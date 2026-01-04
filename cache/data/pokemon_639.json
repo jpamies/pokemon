@@ -1,0 +1,23 @@
+{
+  "id": 639,
+  "name": "Terrakion",
+  "height": 19,
+  "weight": 2600,
+  "types": [
+    "rock",
+    "fighting"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png",
+  "stats": {
+    "hp": 91,
+    "attack": 129,
+    "defense": 90,
+    "special-attack": 72,
+    "special-defense": 90,
+    "speed": 108
+  },
+  "evolution": null,
+  "color": "gray",
+  "description": "Su potencia al embestir es capaz de derribar las murallas de un castillo. Las leyendas hablan de sus proezas.",
+  "description_catalan": "Descripció en català per al Pokémon #639. [Traducció pendent]"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 614,
+  "name": "Beartic",
+  "height": 26,
+  "weight": 2600,
+  "types": [
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
+  "stats": {
+    "hp": 95,
+    "attack": 130,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 80,
+    "speed": 50
+  },
+  "evolution": [
+    {
+      "id": 613,
+      "name": "Cubchoo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png"
+    },
+    {
+      "id": 614,
+      "name": "Beartic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png"
+    }
+  ],
+  "color": "white",
+  "description": "Adoran los mares gélidos del norte. Congelan su aliento para crear sendas por las que caminar sobre las aguas.",
+  "description_catalan": "Descripció en català per al Pokémon #614. [Traducció pendent]"
+}

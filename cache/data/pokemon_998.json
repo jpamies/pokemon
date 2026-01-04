@@ -1,0 +1,39 @@
+{
+  "id": 998,
+  "name": "Baxcalibur",
+  "height": 21,
+  "weight": 2100,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png",
+  "stats": {
+    "hp": 115,
+    "attack": 145,
+    "defense": 92,
+    "special-attack": 75,
+    "special-defense": 86,
+    "speed": 87
+  },
+  "evolution": [
+    {
+      "id": 996,
+      "name": "Frigibax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png"
+    },
+    {
+      "id": 997,
+      "name": "Arctibax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png"
+    },
+    {
+      "id": 998,
+      "name": "Baxcalibur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png"
+    }
+  ],
+  "color": "gray",
+  "description": "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+  "description_catalan": "Descripció no disponible."
+}

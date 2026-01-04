@@ -1,0 +1,33 @@
+{
+  "id": 23,
+  "name": "Ekans",
+  "height": 20,
+  "weight": 69,
+  "types": [
+    "poison"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+  "stats": {
+    "hp": 35,
+    "attack": 60,
+    "defense": 44,
+    "special-attack": 40,
+    "special-defense": 54,
+    "speed": 55
+  },
+  "evolution": [
+    {
+      "id": 23,
+      "name": "Ekans",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+    },
+    {
+      "id": 24,
+      "name": "Arbok",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+    }
+  ],
+  "color": "purple",
+  "description": "Cuanto más viejo, más crece este Pokémon. Por la noche, descansa en las ramas de los árboles.",
+  "description_catalan": "Com més vell, més creix aquest Pokémon. Per la nit, es refugia entre les branques dels arbres per dormir."
+}

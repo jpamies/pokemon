@@ -1,0 +1,39 @@
+{
+  "id": 174,
+  "name": "Igglybuff",
+  "height": 3,
+  "weight": 10,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
+  "stats": {
+    "hp": 90,
+    "attack": 30,
+    "defense": 15,
+    "special-attack": 40,
+    "special-defense": 20,
+    "speed": 15
+  },
+  "evolution": [
+    {
+      "id": 174,
+      "name": "Igglybuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
+    },
+    {
+      "id": 39,
+      "name": "Jigglypuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    },
+    {
+      "id": 40,
+      "name": "Wigglytuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+    }
+  ],
+  "color": "pink",
+  "description": "Para caminar, en lugar de usar los pies que tiene, opta por dar botes con su cuerpo redondo y blandito.",
+  "description_catalan": "El seu cos és elàstic i suau. Quan canta, els seus ulls es mouen rítmicament."
+}

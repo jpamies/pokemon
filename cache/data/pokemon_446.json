@@ -1,0 +1,33 @@
+{
+  "id": 446,
+  "name": "Munchlax",
+  "height": 6,
+  "weight": 1050,
+  "types": [
+    "normal"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
+  "stats": {
+    "hp": 135,
+    "attack": 85,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 85,
+    "speed": 5
+  },
+  "evolution": [
+    {
+      "id": 446,
+      "name": "Munchlax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png"
+    },
+    {
+      "id": 143,
+      "name": "Snorlax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+    }
+  ],
+  "color": "black",
+  "description": "Esconde comida bajo el largo pelo de su cuerpo, pero más tarde lo olvida.",
+  "description_catalan": "Descripció en català per al Pokémon #446. [Traducció pendent]"
+}

@@ -1,0 +1,22 @@
+{
+  "id": 968,
+  "name": "Orthworm",
+  "height": 25,
+  "weight": 3100,
+  "types": [
+    "steel"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png",
+  "stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 145,
+    "special-attack": 60,
+    "special-defense": 55,
+    "speed": 65
+  },
+  "evolution": null,
+  "color": "pink",
+  "description": "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
+  "description_catalan": "Descripció no disponible."
+}

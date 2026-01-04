@@ -1,0 +1,33 @@
+{
+  "id": 114,
+  "name": "Tangela",
+  "height": 10,
+  "weight": 350,
+  "types": [
+    "grass"
+  ],
+  "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+  "stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 115,
+    "special-attack": 100,
+    "special-defense": 40,
+    "speed": 60
+  },
+  "evolution": [
+    {
+      "id": 114,
+      "name": "Tangela",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
+    },
+    {
+      "id": 465,
+      "name": "Tangrowth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png"
+    }
+  ],
+  "color": "blue",
+  "description": "Se camufla con la multitud de lianas que envuelven su cuerpo y que no dejan de crecer a lo largo de toda su vida.",
+  "description_catalan": "Es camufla amb la multitud de lianes que envolten el seu cos per atacar per sorpresa."
+}
