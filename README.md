@@ -7,7 +7,10 @@ Una aplicació web estàtica per ajudar els nens a aprendre sobre Pokémon amb s
 Ara disponible: **Guies PDF completes de tots els Pokémon en català**!
 
 ### 📖 **GUIA COMPLETA** - Tots els Pokémon en un sol PDF
-**[📥 DESCARREGA LA GUIA COMPLETA](docs/pdf/pokemon_complet_catala.pdf)** - 1,025 Pokémon de totes les generacions amb descripcions en català
+- **[📥 DESCARREGA LA GUIA COMPLETA (Per ID)](docs/pdf/pokemon_complet_catala.pdf)** - 1,025 Pokémon ordenats per número
+- **[📥 DESCARREGA LA GUIA COMPLETA (Per Color)](docs/pdf/pokemon_complet_catala_by_color.pdf)** - 1,025 Pokémon ordenats per color
+
+*Ambdues versions contenen tots els Pokémon de totes les generacions amb descripcions completes en català*
 
 ### 📱 Accés Web
 - **Documentació**: [https://jpamies.github.io/pokemon/](https://jpamies.github.io/pokemon/)
