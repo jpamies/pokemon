@@ -44,7 +44,15 @@ Thumbs.db
 
 # Logs
 *.log
+*_log.txt
 
 # Temporary files
 *.tmp
 *.temp
+
+# Node.js (if needed in future)
+node_modules/
+package-lock.json
+
+# Deployment scripts
+deploy.sh

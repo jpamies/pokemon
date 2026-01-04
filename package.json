@@ -1,9 +1,0 @@
-{
-  "name": "pokemon-pdf-generator",
-  "version": "1.0.0",
-  "description": "Generate Pokemon guide PDF",
-  "main": "generate-pdf.js",
-  "dependencies": {
-    "pdfkit": "^0.13.0"
-  }
-}
