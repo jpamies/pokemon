@@ -74,5 +74,245 @@
   "Un Pokémon legendario. Dicen que puede crear tormentas con solo batir las alas.": "Un Pokémon llegendari. Diuen que pot crear tempestes només batent les ales.",
   "Un Pokémon legendario que puede controlar el fuego. Vive en volcanes activos.": "Un Pokémon llegendari que pot controlar el foc. Viu en volcans actius.",
   "Un Pokémon legendario muy inteligente. Puede aprender cualquier movimiento.": "Un Pokémon llegendari molt intel·ligent. Pot aprendre qualsevol moviment.",
-  "Un Pokémon muy raro y esquivo. Pocos entrenadores han conseguido verlo.": "Un Pokémon molt rar i esquiu. Pocs entrenadors han aconseguit veure'l."
+  "Un Pokémon muy raro y esquivo. Pocos entrenadores han conseguido verlo.": "Un Pokémon molt rar i esquiu. Pocs entrenadors han aconseguit veure'l.",
+  "650": {
+    "description_catalan": "Chespin és un Pokémon de tipus PLANTA. Aquest petit Pokémon té espines al cap que pot usar per defensar-se dels enemics."
+  },
+  "651": {
+    "description_catalan": "Quilladin és l'evolució de Chespin. Aquest Pokémon de tipus PLANTA té una closca dura que el protegeix dels atacs."
+  },
+  "652": {
+    "description_catalan": "Chesnaught és un poderós Pokémon de tipus PLANTA/LLUITA. Pot protegir els seus amics amb el seu cos fort com una fortalesa."
+  },
+  "653": {
+    "description_catalan": "Fennekin és un adorable Pokémon de tipus FOC. Pot expulsar aire calent de les seves orelles per confondre els enemics."
+  },
+  "654": {
+    "description_catalan": "Braixen és l'evolució de Fennekin. Aquest Pokémon de tipus FOC porta una branca que usa com a vareta màgica."
+  },
+  "655": {
+    "description_catalan": "Delphox és un elegant Pokémon de tipus FOC/PSÍQUIC. Pot predir el futur mirant les flames de la seva vareta."
+  },
+  "656": {
+    "description_catalan": "Froakie és un àgil Pokémon de tipus AIGUA. Pot saltar molt alt gràcies a les bombolles que té al cos."
+  },
+  "657": {
+    "description_catalan": "Frogadier és l'evolució de Froakie. Aquest Pokémon de tipus AIGUA és molt ràpid i sigilós com un ninja."
+  },
+  "658": {
+    "description_catalan": "Greninja és un misteriós Pokémon de tipus AIGUA/FOSC. És conegut com el Pokémon ninja per la seva velocitat increïble."
+  },
+  "722": {
+    "description_catalan": "Rowlet és un tranquil Pokémon de tipus PLANTA/VOLADOR. Pot volar sense fer soroll gràcies a les seves plomes especials."
+  },
+  "723": {
+    "description_catalan": "Dartrix és l'evolució de Rowlet. Aquest Pokémon de tipus PLANTA/VOLADOR és molt elegant i cuida molt la seva aparença."
+  },
+  "724": {
+    "description_catalan": "Decidueye és un hàbil Pokémon de tipus PLANTA/FANTASMA. Pot disparar les seves plomes com fletxes amb gran precisió."
+  },
+  "725": {
+    "description_catalan": "Litten és un solitari Pokémon de tipus FOC. Quan es neteja, les seves flames es fan més fortes."
+  },
+  "726": {
+    "description_catalan": "Torracat és l'evolució de Litten. Aquest Pokémon de tipus FOC té una campana al coll que sona quan ataca."
+  },
+  "727": {
+    "description_catalan": "Incineroar és un poderós Pokémon de tipus FOC/FOSC. És conegut per les seves tècniques de lluita espectaculars."
+  },
+  "728": {
+    "description_catalan": "Popplio és un alegre Pokémon de tipus AIGUA. Pot crear bombolles d'aigua i fer espectacles divertits amb elles."
+  },
+  "729": {
+    "description_catalan": "Brionne és l'evolució de Popplio. Aquest Pokémon de tipus AIGUA és una gran ballarina i pot controlar les bombolles d'aigua."
+  },
+  "730": {
+    "description_catalan": "Primarina és un elegant Pokémon de tipus AIGUA/FADA. El seu cant melodiós pot controlar les bombolles d'aigua com si fossin instruments."
+  },
+  "810": {
+    "description_catalan": "Grookey és un energètic Pokémon de tipus PLANTA. Sempre porta un pal que usa per tocar ritmes i fer créixer les plantes."
+  },
+  "811": {
+    "description_catalan": "Thwackey és l'evolució de Grookey. Aquest Pokémon de tipus PLANTA usa dos pals per crear ritmes que fan créixer la vegetació."
+  },
+  "812": {
+    "description_catalan": "Rillaboom és un poderós Pokémon de tipus PLANTA. Pot crear un tambor gegant amb les seves arrels per tocar ritmes impressionants."
+  },
+  "813": {
+    "description_catalan": "Scorbunny és un ràpid Pokémon de tipus FOC. Sempre està saltant i corrent, i les seves potes generen calor quan corre."
+  },
+  "814": {
+    "description_catalan": "Raboot és l'evolució de Scorbunny. Aquest Pokémon de tipus FOC és molt àgil i pot córrer a gran velocitat."
+  },
+  "815": {
+    "description_catalan": "Cinderace és un atlètic Pokémon de tipus FOC. És expert jugant a futbol i pot xutar pilotes de foc amb gran precisió."
+  },
+  "816": {
+    "description_catalan": "Sobble és un tímid Pokémon de tipus AIGUA. Quan es posa nerviós, pot fer-se invisible com l'aigua."
+  },
+  "817": {
+    "description_catalan": "Drizzile és l'evolució de Sobble. Aquest Pokémon de tipus AIGUA és molt intel·ligent i estratègic en els combats."
+  },
+  "818": {
+    "description_catalan": "Inteleon és un espia Pokémon de tipus AIGUA. Pot disparar aigua amb la precisió d'un franctirador des de la seva cua."
+  },
+  "906": {
+    "description_catalan": "Sprigatito és un traviès Pokémon de tipus PLANTA. La seva olor dolça pot calmar els enemics i fer-los baixar la guàrdia."
+  },
+  "907": {
+    "description_catalan": "Floragato és l'evolució de Sprigatito. Aquest Pokémon de tipus PLANTA usa una flor com a ioiò per atacar els seus enemics."
+  },
+  "908": {
+    "description_catalan": "Meowscarada és un misteriós Pokémon de tipus PLANTA/FOSC. És un mestre de la màgia i pot fer desaparèixer coses amb els seus trucs."
+  },
+  "909": {
+    "description_catalan": "Fuecoco és un relaxat Pokémon de tipus FOC. Absorbeix la calor del sol per generar energia de foc al seu interior."
+  },
+  "910": {
+    "description_catalan": "Crocalor és l'evolució de Fuecoco. Aquest Pokémon de tipus FOC té un ou de foc al cap que usa per escalfar-se."
+  },
+  "911": {
+    "description_catalan": "Skeledirge és un cantant Pokémon de tipus FOC/FANTASMA. Pot cantar melodies que calmen l'ànima i controlar flames espectrals."
+  },
+  "912": {
+    "description_catalan": "Quaxly és un net Pokémon de tipus AIGUA. Sempre manté les seves plumes perfectament netes i brillants."
+  },
+  "913": {
+    "description_catalan": "Quaxwell és l'evolució de Quaxly. Aquest Pokémon de tipus AIGUA és un gran ballari i pot moure's amb elegància sobre l'aigua."
+  },
+  "914": {
+    "description_catalan": "Quaquaval és un festiu Pokémon de tipus AIGUA/LLUITA. És conegut pels seus balls espectaculars que poden hipnotitzar els enemics."
+  },
+  "659": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "660": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "661": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "662": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "663": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "664": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "665": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "666": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "667": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "668": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "669": {
+    "description_catalan": "Aquest és un fascinant Pokémon de la regió de Kalos. Cada Pokémon té característiques úniques que el fan especial."
+  },
+  "731": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "732": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "733": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "734": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "735": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "736": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "737": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "738": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "739": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "740": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "741": {
+    "description_catalan": "Aquest és un exòtic Pokémon de la regió d'Alola. Viu en un paradís tropical ple d'aventures."
+  },
+  "819": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "820": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "821": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "822": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "823": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "824": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "825": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "826": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "827": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "828": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "829": {
+    "description_catalan": "Aquest és un valent Pokémon de la regió de Galar. És conegut per la seva força i determinació."
+  },
+  "915": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "916": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "917": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "918": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "919": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "920": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "921": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "922": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "923": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "924": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  },
+  "925": {
+    "description_catalan": "Aquest és un aventurer Pokémon de la regió de Paldea. Li encanta explorar nous territoris."
+  }
 }
