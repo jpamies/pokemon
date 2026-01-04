@@ -237,7 +237,7 @@ def fetch_pokemon(pokemon_id):
             with open('../data/catalan_translations.json', 'r', encoding='utf-8') as f:
                 translations = json.load(f)
                 if str(pokemon_id) in translations:
-                    description_catalan = translations[str(pokemon_id)].get('description_catalan', description_catalan)
+                    description_catalan = translations[str(pokemon_id)]
         except:
             pass
         
