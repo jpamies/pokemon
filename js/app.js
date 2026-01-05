@@ -208,7 +208,7 @@ class PokemonGuide {
         const abilitiesWithTranslations = await this.fetchAbilityTranslations(pokemonData.abilities);
 
         // Process the data
-        const pokemon = this.processPokemonData(pokemonData, speciesData, generationData, evolutionData, abilitiesWithTranslations);
+        const pokemon = await this.processPokemonData(pokemonData, speciesData, generationData, evolutionData, abilitiesWithTranslations);
         
         // Cache the result in both memory and persistent storage
         this.cache.set(cacheKey, pokemon);
@@ -245,7 +245,7 @@ class PokemonGuide {
         return translatedAbilities;
     }
 
-    processPokemonData(pokemonData, speciesData, generationData, evolutionData, abilitiesWithTranslations) {
+    async processPokemonData(pokemonData, speciesData, generationData, evolutionData, abilitiesWithTranslations) {
         const evolutionChain = this.parseEvolutionChain(evolutionData.chain, pokemonData.name);
         
         return {
@@ -258,7 +258,7 @@ class PokemonGuide {
             region: generationData.main_region?.name || 'kanto',
             evolutionChain: evolutionChain.chain,
             evolutionStage: evolutionChain.currentStage,
-            description: this.extractDescription(speciesData.flavor_text_entries || []),
+            description: await this.extractDescription(speciesData.flavor_text_entries || [], pokemonData.id),
             color: speciesData.color?.name || 'unknown',
             habitat: speciesData.habitat?.name || 'unknown',
             isLegendary: speciesData.is_legendary || false,
@@ -275,14 +275,51 @@ class PokemonGuide {
         };
     }
 
-    extractDescription(flavorTextEntries) {
+    async updateDescription(pokemonId) {
         const currentLang = window.i18n?.currentLanguage || 'en';
-        let targetLang = currentLang;
+        let description = '';
         
-        // For Catalan, use Spanish as fallback
-        if (currentLang === 'ca') {
-            targetLang = 'es';
+        // Load description from Pokemon data files for all languages
+        try {
+            const response = await fetch(`./pokemon_data/pokemon_${pokemonId.toString().padStart(4, '0')}.json`);
+            const pokemonData = await response.json();
+            description = pokemonData.descriptions?.[currentLang];
+        } catch (error) {
+            console.warn('Could not load Pokemon data file:', error);
         }
+        
+        if (!description && this.currentPokemon) {
+            // Fallback to cached description
+            description = this.currentPokemon.description;
+        }
+        
+        document.getElementById('pokemon-description').textContent = description || 'No description available.';
+    }
+
+    async getCatalanDescription(pokemonId) {
+        // Load Pokemon data file with 3 languages
+        try {
+            const response = await fetch(`./pokemon_data/pokemon_${pokemonId.toString().padStart(4, '0')}.json`);
+            const pokemonData = await response.json();
+            return pokemonData.descriptions?.ca || null;
+        } catch (error) {
+            console.warn('Could not load Pokemon data file:', error);
+            return null;
+        }
+    }
+
+    async extractDescription(flavorTextEntries, pokemonId) {
+        const currentLang = window.i18n?.currentLanguage || 'en';
+        
+        // For Catalan, use Pokemon data files with Bedrock translations
+        if (currentLang === 'ca') {
+            const catalanDescription = await this.getCatalanDescription(pokemonId);
+            if (catalanDescription) {
+                return catalanDescription;
+            }
+        }
+        
+        let targetLang = currentLang;
         
         // Find description in target language
         let description = flavorTextEntries.find(entry => entry.language.name === targetLang);
@@ -474,8 +511,8 @@ class PokemonGuide {
         document.getElementById('pokemon-weight').textContent = window.i18n.formatWeight(pokemon.weight);
         document.getElementById('pokemon-number').textContent = `#${pokemon.id.toString().padStart(3, '0')}`;
 
-        // Update description
-        document.getElementById('pokemon-description').textContent = pokemon.description || 'No hi ha descripció disponible.';
+        // Update description - reload for current language
+        this.updateDescription(pokemon.id);
 
         // Update details
         const colorData = this.translateColor(pokemon.color);
