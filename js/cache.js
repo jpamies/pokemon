@@ -7,6 +7,31 @@ class PokemonCache {
     constructor() {
         this.cachePrefix = 'pokemon_cache_';
         this.imageCachePrefix = 'pokemon_image_';
+        this.cacheVersion = 'v2_official_artwork'; // Updated version for official artwork
+        this.checkCacheVersion();
+    }
+
+    /**
+     * Check cache version and clear if outdated
+     */
+    checkCacheVersion() {
+        const storedVersion = localStorage.getItem('pokemon_cache_version');
+        if (storedVersion !== this.cacheVersion) {
+            this.clearAllCache();
+            localStorage.setItem('pokemon_cache_version', this.cacheVersion);
+        }
+    }
+
+    /**
+     * Clear all Pokemon cache
+     */
+    clearAllCache() {
+        const keys = Object.keys(localStorage);
+        keys.forEach(key => {
+            if (key.startsWith(this.cachePrefix) || key.startsWith(this.imageCachePrefix)) {
+                localStorage.removeItem(key);
+            }
+        });
     }
 
     /**
