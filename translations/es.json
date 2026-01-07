@@ -32,11 +32,11 @@
     "fairy": "HADA"
   },
   "stats": {
-    "hp": "PS",
-    "attack": "ATAQUE",
-    "defense": "DEFENSA",
-    "special-attack": "AT. ESP.",
-    "special-defense": "DEF. ESP.",
-    "speed": "VELOCIDAD"
+    "hp": "Puntos de Salud",
+    "attack": "Ataque",
+    "defense": "Defensa",
+    "special-attack": "Ataque Especial",
+    "special-defense": "Defensa Especial",
+    "speed": "Velocidad"
   }
 }

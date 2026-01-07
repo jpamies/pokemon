@@ -32,12 +32,12 @@
     "fairy": "FADA"
   },
   "stats": {
-    "hp": "PS",
-    "attack": "ATAC",
-    "defense": "DEFENSA",
-    "special-attack": "ATAC ESP.",
-    "special-defense": "DEF. ESP.",
-    "speed": "VELOCITAT"
+    "hp": "Punts de Salut",
+    "attack": "Atac",
+    "defense": "Defensa",
+    "special-attack": "Atac Especial",
+    "special-defense": "Defensa Especial",
+    "speed": "Velocitat"
   },
   "descriptions_file": "pokemon_descriptions_ca.json",
   "descriptions_available": true
