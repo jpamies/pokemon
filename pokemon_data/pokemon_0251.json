@@ -1,0 +1,42 @@
+{
+  "id": 251,
+  "name": "Celebi",
+  "height": 6,
+  "weight": 50,
+  "base_experience": 270,
+  "types": [
+    "psychic",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "special-attack": 100,
+    "special-defense": 100,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/251.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/251.png"
+  },
+  "color": "green",
+  "generation": 2,
+  "descriptions": {
+    "en": "This POKéMON wan­ ders across time. Grass and trees flourish in the forests in which it has appeared.",
+    "es": "Este Pokémon vaga por el tiempo. La hierba y los árboles crecen por los campos por donde pasa.",
+    "ca": "Aquest POKéMON vaga per diferents èpoques. Els boscos on ha aparegut floreixen amb herbes i arbres."
+  },
+  "names": {
+    "en": "Celebi",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Celebi"
+  }
+}

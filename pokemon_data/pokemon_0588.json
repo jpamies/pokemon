@@ -1,0 +1,49 @@
+{
+  "id": 588,
+  "name": "Karrablast",
+  "height": 5,
+  "weight": 59,
+  "base_experience": 63,
+  "types": [
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "shed-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "no-guard",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 45,
+    "special-attack": 40,
+    "special-defense": 45,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/588.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/588.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+    "es": "Si recibe un estímulo eléctrico al estar en contacto con un Shelmet, evoluciona.",
+    "ca": "Aquests misteriosos Pokémon evolucionen quan reben un estímul elèctric quan es troben al mateix lloc que el Shelmet."
+  },
+  "names": {
+    "en": "Karrablast",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Karrablast"
+  }
+}

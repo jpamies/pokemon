@@ -1,0 +1,45 @@
+{
+  "id": 134,
+  "name": "Vaporeon",
+  "height": 10,
+  "weight": 290,
+  "base_experience": 184,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "water-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "hydration",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 130,
+    "attack": 65,
+    "defense": 60,
+    "special-attack": 110,
+    "special-defense": 95,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/134.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+  },
+  "color": "blue",
+  "generation": 1,
+  "descriptions": {
+    "en": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
+    "es": "Prefiere las bellas costas. Con células parecidas al agua, podría fundirse en la misma.",
+    "ca": "Viu a prop de l'aigua. La seva llarga cua té una aleta que sovint es confon amb la d'una sirena."
+  },
+  "names": {
+    "en": "Vaporeon",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Vaporeon"
+  }
+}

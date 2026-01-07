@@ -1,0 +1,46 @@
+{
+  "id": 770,
+  "name": "Palossand",
+  "height": 13,
+  "weight": 2500,
+  "base_experience": 168,
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "water-compaction",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 75,
+    "defense": 110,
+    "special-attack": 100,
+    "special-defense": 75,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/770.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/770.png"
+  },
+  "color": "brown",
+  "generation": 7,
+  "descriptions": {
+    "en": "Possessed people controlled by this Pokémon transformed its sand mound into a castle. As it evolved, its power to curse grew ever stronger.",
+    "es": "Manipulando a la gente ha conseguido transformarse en todo un castillo de arena, lo que ha aumentado su poder maligno.",
+    "ca": "Les persones posseïdes que controlava aquest Pokémon van transformar el seu munt de sorra en un castell. A mesura que evolucionava, el seu poder de maleir es feia cada vegada més fort."
+  },
+  "names": {
+    "en": "Palossand",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Palossand"
+  }
+}

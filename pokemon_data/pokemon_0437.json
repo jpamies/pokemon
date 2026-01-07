@@ -1,0 +1,50 @@
+{
+  "id": 437,
+  "name": "Bronzong",
+  "height": 13,
+  "weight": 1870,
+  "base_experience": 175,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "levitate",
+      "is_hidden": false
+    },
+    {
+      "name": "heatproof",
+      "is_hidden": false
+    },
+    {
+      "name": "heavy-metal",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 67,
+    "attack": 89,
+    "defense": 116,
+    "special-attack": 79,
+    "special-defense": 116,
+    "speed": 33
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/437.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/437.png"
+  },
+  "color": "green",
+  "generation": 4,
+  "descriptions": {
+    "en": "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
+    "es": "Desde antaño se adora a este Pokémon para que propicie lluvias abundantes. A veces se esconde bajo tierra.",
+    "ca": "Un d'aquests va causar sensació quan es va trobar enterrat en un lloc de construcció després d'estar-hi dormint durant 2.000 anys."
+  },
+  "names": {
+    "en": "Bronzong",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Bronzong"
+  }
+}

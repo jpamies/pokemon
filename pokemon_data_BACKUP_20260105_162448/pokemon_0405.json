@@ -1,0 +1,49 @@
+{
+  "id": 405,
+  "name": "Luxray",
+  "height": 14,
+  "weight": 420,
+  "base_experience": 235,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "rivalry",
+      "is_hidden": false
+    },
+    {
+      "name": "intimidate",
+      "is_hidden": false
+    },
+    {
+      "name": "guts",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 79,
+    "special-attack": 95,
+    "special-defense": 79,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/405.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png"
+  },
+  "color": "blue",
+  "generation": 4,
+  "descriptions": {
+    "en": "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
+    "es": "Cuando sus ojos brillan como el oro, puede ver presas escondidas, incluso detrás de un muro.",
+    "ca": "Té uns ulls capaços de veure a través de qualsevol cosa. Localitza i captura la seva presa amagada rere objectes."
+  },
+  "names": {
+    "en": "Luxray",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Luxray"
+  }
+}

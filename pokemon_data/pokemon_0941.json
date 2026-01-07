@@ -1,0 +1,50 @@
+{
+  "id": 941,
+  "name": "Kilowattrel",
+  "height": 14,
+  "weight": 386,
+  "base_experience": 172,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "wind-power",
+      "is_hidden": false
+    },
+    {
+      "name": "volt-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "competitive",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 60,
+    "special-attack": 105,
+    "special-defense": 60,
+    "speed": 125
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/941.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/941.png"
+  },
+  "color": "yellow",
+  "generation": 9,
+  "descriptions": {
+    "en": "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+    "es": "Descripción no disponible.",
+    "ca": "El Kilowattrel infla la seva bossa de gola per amplificar la seva electricitat. Gràcies a cavalcar el vent, aquest Pokémon pot volar més de 430 milles en un dia."
+  },
+  "names": {
+    "en": "Kilowattrel",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Kilowattrel"
+  }
+}

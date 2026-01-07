@@ -1,0 +1,50 @@
+{
+  "id": 17,
+  "name": "Pidgeotto",
+  "height": 11,
+  "weight": 300,
+  "base_experience": 122,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "tangled-feet",
+      "is_hidden": false
+    },
+    {
+      "name": "big-pecks",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 63,
+    "attack": 60,
+    "defense": 55,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 71
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/17.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+  },
+  "color": "brown",
+  "generation": 1,
+  "descriptions": {
+    "en": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+    "es": "Tiene unas garras desarrolladas. Puede atrapar un Exeggcute y transportarlo desde una distancia de casi 100 km.",
+    "ca": "Molt protector de la seva extensa àrea territorial, aquest POKÉMON picarà ferotgement qualsevol intrús."
+  },
+  "names": {
+    "en": "Pidgeotto",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Pidgeotto"
+  }
+}

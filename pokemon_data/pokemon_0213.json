@@ -1,0 +1,50 @@
+{
+  "id": 213,
+  "name": "Shuckle",
+  "height": 6,
+  "weight": 205,
+  "base_experience": 177,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "gluttony",
+      "is_hidden": false
+    },
+    {
+      "name": "contrary",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 230,
+    "special-attack": 10,
+    "special-defense": 230,
+    "speed": 5
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/213.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/213.png"
+  },
+  "color": "yellow",
+  "generation": 2,
+  "descriptions": {
+    "en": "The BERRIES it stores in its vase-like shell decompose and become a gooey liquid.",
+    "es": "Las bayas que almacena en su caparazón con forma de tarro se convierten al final en un espeso zumo.",
+    "ca": "Els FRUITS que emmagatzema a la càpsula com un gerro es descomponen i es converteixen en un líquid llefiscós."
+  },
+  "names": {
+    "en": "Shuckle",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Shuckle"
+  }
+}

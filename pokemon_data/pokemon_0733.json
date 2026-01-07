@@ -1,0 +1,50 @@
+{
+  "id": 733,
+  "name": "Toucannon",
+  "height": 11,
+  "weight": 260,
+  "base_experience": 218,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "skill-link",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 75,
+    "special-attack": 75,
+    "special-defense": 75,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/733.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/733.png"
+  },
+  "color": "black",
+  "generation": 7,
+  "descriptions": {
+    "en": "When it battles, its beak heats up. The temperature can easily exceed 212 degrees Fahrenheit, causing severe burns when it hits.",
+    "es": "Cuando va a combatir, calienta su pico hasta temperaturas que superan los 100 °C, lo que puede causar graves quemaduras al contacto.",
+    "ca": "Quan lluita, el seu bec s'escalfa. La temperatura pot superar fàcilment els 100 graus Celsius, provocant cremades greus quan l'impacta."
+  },
+  "names": {
+    "en": "Toucannon",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Toucannon"
+  }
+}

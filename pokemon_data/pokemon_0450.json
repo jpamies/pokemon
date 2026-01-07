@@ -1,0 +1,45 @@
+{
+  "id": 450,
+  "name": "Hippowdon",
+  "height": 20,
+  "weight": 3000,
+  "base_experience": 184,
+  "types": [
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "sand-stream",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 108,
+    "attack": 112,
+    "defense": 118,
+    "special-attack": 68,
+    "special-defense": 72,
+    "speed": 47
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/450.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png"
+  },
+  "color": "brown",
+  "generation": 4,
+  "descriptions": {
+    "en": "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+    "es": "Hace gala de su fuerza abriendo su enorme boca. Para atacar levanta gran cantidad de arena.",
+    "ca": "Llança sorra emmagatzemada internament a través de sortides del seu cos per crear un remolí gegant per atacar."
+  },
+  "names": {
+    "en": "Hippowdon",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Hippowdon"
+  }
+}

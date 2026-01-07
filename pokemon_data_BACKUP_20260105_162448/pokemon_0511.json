@@ -1,0 +1,45 @@
+{
+  "id": 511,
+  "name": "Pansage",
+  "height": 6,
+  "weight": 105,
+  "base_experience": 63,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "gluttony",
+      "is_hidden": false
+    },
+    {
+      "name": "overgrow",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 48,
+    "special-attack": 53,
+    "special-defense": 48,
+    "speed": 64
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/511.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/511.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+    "es": "Comparte las hojas de su cabeza con Pokémon agotados. Posee la facultad de aliviar el cansancio.",
+    "ca": "Aquest Pokémon viu al bosc més profund. Menjar un full del seu cap fa desaparèixer la fatiga com per art de màgia."
+  },
+  "names": {
+    "en": "Pansage",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Pansage"
+  }
+}

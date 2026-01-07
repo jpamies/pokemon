@@ -1,0 +1,49 @@
+{
+  "id": 313,
+  "name": "Volbeat",
+  "height": 7,
+  "weight": 177,
+  "base_experience": 151,
+  "types": [
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "illuminate",
+      "is_hidden": false
+    },
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "prankster",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 73,
+    "defense": 75,
+    "special-attack": 47,
+    "special-defense": 85,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/313.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/313.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/313.png"
+  },
+  "color": "gray",
+  "generation": 3,
+  "descriptions": {
+    "en": "With the arrival of night, VOLBEAT emits light from its tail. It communicates with others by adjusting the intensity and flashing of its light. This POKéMON is attracted by the sweet aroma of ILLUMISE.",
+    "es": "Se comunica con otros iluminando su cola por la noche. Le encanta el suave aroma de Illumise.",
+    "ca": "Amb l'arribada de la nit, VOLBEAT emet llum de la seva cua. Es comunica amb els altres ajustant la intensitat i parpelleig de la seva llum. Aquest POKÉMON està atret per la dolça aroma de l'ILLUMISE."
+  },
+  "names": {
+    "en": "Volbeat",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Volbeat"
+  }
+}

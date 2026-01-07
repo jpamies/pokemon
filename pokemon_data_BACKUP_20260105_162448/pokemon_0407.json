@@ -1,0 +1,50 @@
+{
+  "id": 407,
+  "name": "Roserade",
+  "height": 9,
+  "weight": 145,
+  "base_experience": 232,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    },
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "technician",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 65,
+    "special-attack": 125,
+    "special-defense": 105,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/407.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png"
+  },
+  "color": "green",
+  "generation": 4,
+  "descriptions": {
+    "en": "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
+    "es": "Atrae a sus presas con una dulce fragancia y usa sus cepas venenosas para atenazarlas y acabar con ellas.",
+    "ca": "Atrau la seva presa amb una olor dolça, i després la derrota amb fuetades espinoses amagades als seus braços."
+  },
+  "names": {
+    "en": "Roserade",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Roserade"
+  }
+}

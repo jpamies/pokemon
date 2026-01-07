@@ -1,0 +1,42 @@
+{
+  "id": 867,
+  "name": "Runerigus",
+  "height": 16,
+  "weight": 666,
+  "base_experience": 169,
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "wandering-spirit",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 58,
+    "attack": 95,
+    "defense": 145,
+    "special-attack": 50,
+    "special-defense": 105,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/867.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/867.png"
+  },
+  "color": "gray",
+  "generation": 8,
+  "descriptions": {
+    "en": "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
+    "es": "Una poderosa maldición pesa sobre esta antigua imagen grabada, que ha cobrado vida tras adueñarse del alma de Yamask.",
+    "ca": "Una maledicció poderosa es va teixir en una pintura antiga. Després d'absorbir l'esperit d'un Yamask, la pintura va començar a moure's."
+  },
+  "names": {
+    "en": "Runerigus",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Runerigus"
+  }
+}

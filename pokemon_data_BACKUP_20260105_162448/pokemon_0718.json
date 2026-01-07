@@ -1,0 +1,42 @@
+{
+  "id": 718,
+  "name": "Zygarde-50",
+  "height": 50,
+  "weight": 3050,
+  "base_experience": 270,
+  "types": [
+    "dragon",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "aura-break",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 108,
+    "attack": 100,
+    "defense": 121,
+    "special-attack": 81,
+    "special-defense": 95,
+    "speed": 95
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/718.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png"
+  },
+  "color": "green",
+  "generation": 6,
+  "descriptions": {
+    "en": "When the Kalos region’s ecosystem falls into disarray, it appears and reveals its secret power.",
+    "es": "Cuando el ecosistema de Kalos se encuentra en peligro, aparece y revela su poder secreto.",
+    "ca": "Quan l'ecosistema de la regió de Kalos es desordena, apareix i revela el seu poder secret."
+  },
+  "names": {
+    "en": "Zygarde-50",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Zygarde-50"
+  }
+}

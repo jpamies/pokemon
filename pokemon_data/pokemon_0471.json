@@ -1,0 +1,45 @@
+{
+  "id": 471,
+  "name": "Glaceon",
+  "height": 8,
+  "weight": 259,
+  "base_experience": 184,
+  "types": [
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "snow-cloak",
+      "is_hidden": false
+    },
+    {
+      "name": "ice-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 60,
+    "defense": 110,
+    "special-attack": 130,
+    "special-defense": 95,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/471.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
+  },
+  "color": "blue",
+  "generation": 4,
+  "descriptions": {
+    "en": "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+    "es": "Controla su temperatura corporal para congelar el ambiente y causar ráfagas de nieve en polvo.",
+    "ca": "Com a tècnica de protecció, pot congelar completament el seu pelatge per fer que els pèls s'aixequin com agulles."
+  },
+  "names": {
+    "en": "Glaceon",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Glaceon"
+  }
+}

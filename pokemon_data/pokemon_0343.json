@@ -1,0 +1,42 @@
+{
+  "id": 343,
+  "name": "Baltoy",
+  "height": 5,
+  "weight": 215,
+  "base_experience": 60,
+  "types": [
+    "ground",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "levitate",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 55,
+    "special-attack": 40,
+    "special-defense": 70,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/343.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/343.png"
+  },
+  "color": "brown",
+  "generation": 3,
+  "descriptions": {
+    "en": "BALTOY moves while spinning around on its one foot. Primitive wall paintings depicting this POKéMON living among people were discovered in some ancient ruins.",
+    "es": "Se mueve girando sobre su eje. También se le puede ver girando cabeza abajo.",
+    "ca": "El BRAGANT es mou mentre gira al voltant del seu únic peu. Es van descobrir pintures murals primitives que representaven aquest POKÉMON vivint entre les persones en algunes antigues ruïnes."
+  },
+  "names": {
+    "en": "Baltoy",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Baltoy"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 709,
+  "name": "Trevenant",
+  "height": 15,
+  "weight": 710,
+  "base_experience": 166,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    },
+    {
+      "name": "frisk",
+      "is_hidden": false
+    },
+    {
+      "name": "harvest",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 110,
+    "defense": 76,
+    "special-attack": 65,
+    "special-defense": 82,
+    "speed": 56
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/709.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png"
+  },
+  "color": "brown",
+  "generation": 6,
+  "descriptions": {
+    "en": "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
+    "es": "Puede controlar los árboles a su voluntad. Retiene hasta el fin de sus días a los humanos que se adentran en el bosque y lo mancillan.",
+    "ca": "Pot controlar els arbres a voluntat. Atrapa les persones que malmeten el bosc, perquè no puguin marxar mai més."
+  },
+  "names": {
+    "en": "Trevenant",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Trevenant"
+  }
+}

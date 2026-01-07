@@ -1,0 +1,46 @@
+{
+  "id": 333,
+  "name": "Swablu",
+  "height": 4,
+  "weight": 12,
+  "base_experience": 62,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    },
+    {
+      "name": "cloud-nine",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 40,
+    "defense": 60,
+    "special-attack": 40,
+    "special-defense": 75,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/333.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "SWABLU has light and fluffy wings that are like cottony clouds. This POKéMON is not frightened of people. It lands on the heads of people and sits there like a cotton-fluff hat.",
+    "es": "Se desconoce el porqué, pero le encanta posarse sobre la cabeza de los humanos y fingir que es un gorro.",
+    "ca": "El SWABLU té ales lleugeres i esponjoses com a núvols de cotó. Aquest POKÉMON no té por de la gent. S'asseu al cap de les persones com un barret d'algodó."
+  },
+  "names": {
+    "en": "Swablu",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Swablu"
+  }
+}

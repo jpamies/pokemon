@@ -1,0 +1,45 @@
+{
+  "id": 147,
+  "name": "Dratini",
+  "height": 18,
+  "weight": 33,
+  "base_experience": 60,
+  "types": [
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "marvel-scale",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 41,
+    "attack": 64,
+    "defense": 45,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/147.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+  },
+  "color": "blue",
+  "generation": 1,
+  "descriptions": {
+    "en": "Long considered a mythical POKéMON until recently when a small colony was found living underwater.",
+    "es": "Se le llama el Pokémon Espejismo porque son muy pocos los que lo han visto. Se encontró su muda.",
+    "ca": "Fins fa poc era considerat un POKÉMON mític, fins que es va trobar una petita colònia que vivia submergida."
+  },
+  "names": {
+    "en": "Dratini",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dratini"
+  }
+}

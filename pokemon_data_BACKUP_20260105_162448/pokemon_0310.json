@@ -1,0 +1,49 @@
+{
+  "id": 310,
+  "name": "Manectric",
+  "height": 15,
+  "weight": 402,
+  "base_experience": 166,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "static",
+      "is_hidden": false
+    },
+    {
+      "name": "lightning-rod",
+      "is_hidden": false
+    },
+    {
+      "name": "minus",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 75,
+    "defense": 60,
+    "special-attack": 105,
+    "special-defense": 60,
+    "speed": 105
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/310.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png"
+  },
+  "color": "yellow",
+  "generation": 3,
+  "descriptions": {
+    "en": "MANECTRIC is constantly discharging electricity from its mane. The sparks sometimes ignite forest fires. When it enters a battle, this POKéMON creates thunderclouds.",
+    "es": "No suele aparecer ante la gente. Dicen que suele colocar su nido donde caen los rayos.",
+    "ca": "MANECTRIC està descarregant constantment electricitat de la seva crinera. Les guspires a vegades provoquen incendis forestals. Quan entra en batalla, aquest POKÉMON crea núvols de tempesta."
+  },
+  "names": {
+    "en": "Manectric",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Manectric"
+  }
+}

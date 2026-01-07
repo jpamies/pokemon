@@ -1,0 +1,46 @@
+{
+  "id": 257,
+  "name": "Blaziken",
+  "height": 19,
+  "weight": 520,
+  "base_experience": 239,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "blaze",
+      "is_hidden": false
+    },
+    {
+      "name": "speed-boost",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 70,
+    "special-attack": 110,
+    "special-defense": 70,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/257.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png"
+  },
+  "color": "red",
+  "generation": 3,
+  "descriptions": {
+    "en": "In battle, BLAZIKEN blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this POKéMON’s wrists burn.",
+    "es": "Puede saltar edificios de 30 plantas. Con sus golpes de fuego quema a sus rivales.",
+    "ca": "En combat, el BLAZIKEN bufa flames intenses dels seus canells i ataca els enemics amb coratge. Com més fort és l'enemic, més intensament cremen els canells d'aquest POKÉMON."
+  },
+  "names": {
+    "en": "Blaziken",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Blaziken"
+  }
+}

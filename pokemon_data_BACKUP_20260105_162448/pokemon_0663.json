@@ -1,0 +1,46 @@
+{
+  "id": 663,
+  "name": "Talonflame",
+  "height": 12,
+  "weight": 245,
+  "base_experience": 175,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "gale-wings",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 78,
+    "attack": 81,
+    "defense": 71,
+    "special-attack": 74,
+    "special-defense": 69,
+    "speed": 126
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/663.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png"
+  },
+  "color": "red",
+  "generation": 6,
+  "descriptions": {
+    "en": "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+    "es": "Si se exalta durante un combate reñido, arroja chispas y ascuas de los intersticios entre su plumaje mientras vuela.",
+    "ca": "En la febre d'una emocionant batalla, ruixa brases dels buits entre les seves plomes i s'eleva al cel."
+  },
+  "names": {
+    "en": "Talonflame",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Talonflame"
+  }
+}

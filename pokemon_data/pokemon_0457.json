@@ -1,0 +1,49 @@
+{
+  "id": 457,
+  "name": "Lumineon",
+  "height": 12,
+  "weight": 240,
+  "base_experience": 161,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "storm-drain",
+      "is_hidden": false
+    },
+    {
+      "name": "water-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 69,
+    "attack": 69,
+    "defense": 76,
+    "special-attack": 69,
+    "special-defense": 86,
+    "speed": 91
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/457.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/457.png"
+  },
+  "color": "blue",
+  "generation": 4,
+  "descriptions": {
+    "en": "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
+    "es": "Vive en las profundidades marinas. Atrae a sus presas con parpadeos del dibujo de sus cuatro aletas.",
+    "ca": "Viu al fons del mar profund. Atrau les seves preses llampant els patrons de les seves quatre aletes de la cua."
+  },
+  "names": {
+    "en": "Lumineon",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Lumineon"
+  }
+}

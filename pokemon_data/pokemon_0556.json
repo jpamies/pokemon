@@ -1,0 +1,49 @@
+{
+  "id": 556,
+  "name": "Maractus",
+  "height": 10,
+  "weight": 280,
+  "base_experience": 161,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "water-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "chlorophyll",
+      "is_hidden": false
+    },
+    {
+      "name": "storm-drain",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 86,
+    "defense": 67,
+    "special-attack": 106,
+    "special-defense": 67,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/556.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/556.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+    "es": "Espanta a los Pokémon pájaro con un baile rápido y haciendo ruido para evitar que picoteen las semillas de sus flores.",
+    "ca": "Utilitza una cançó i una dansa de ritme viu per allunyar els Pokémon ocell que es mengen les llavors de la seva flor."
+  },
+  "names": {
+    "en": "Maractus",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Maractus"
+  }
+}

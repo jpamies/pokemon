@@ -1,0 +1,50 @@
+{
+  "id": 885,
+  "name": "Dreepy",
+  "height": 5,
+  "weight": 20,
+  "base_experience": 54,
+  "types": [
+    "dragon",
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "clear-body",
+      "is_hidden": false
+    },
+    {
+      "name": "infiltrator",
+      "is_hidden": false
+    },
+    {
+      "name": "cursed-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 28,
+    "attack": 60,
+    "defense": 30,
+    "special-attack": 40,
+    "special-defense": 30,
+    "speed": 82
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/885.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/885.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/885.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
+    "es": "Habitaba los mares en tiempos inmemoriales. Ha revivido en forma de Pokémon de tipo Fantasma para vagar por su antigua morada.",
+    "ca": "Després de renéixer com a Pokémon fantasma, el Dreepy vaga per les zones que abans habitava quan era viu als mars prehistòrics."
+  },
+  "names": {
+    "en": "Dreepy",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dreepy"
+  }
+}

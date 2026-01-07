@@ -1,0 +1,50 @@
+{
+  "id": 527,
+  "name": "Woobat",
+  "height": 4,
+  "weight": 21,
+  "base_experience": 65,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "unaware",
+      "is_hidden": false
+    },
+    {
+      "name": "klutz",
+      "is_hidden": false
+    },
+    {
+      "name": "simple",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 43,
+    "special-attack": 55,
+    "special-defense": 43,
+    "speed": 72
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/527.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/527.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+    "es": "Vive en bosques oscuros y cavernas. Emite ultrasonidos por la nariz para saber todo lo que pasa a su alrededor.",
+    "ca": "El seu hàbitat són els boscos foscos i les coves. Emet ones ultrasòniques del nas per conèixer el seu entorn."
+  },
+  "names": {
+    "en": "Woobat",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Woobat"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 302,
+  "name": "Sableye",
+  "height": 5,
+  "weight": 110,
+  "base_experience": 133,
+  "types": [
+    "dark",
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "stall",
+      "is_hidden": false
+    },
+    {
+      "name": "prankster",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 75,
+    "special-attack": 65,
+    "special-defense": 65,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/302.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png"
+  },
+  "color": "purple",
+  "generation": 3,
+  "descriptions": {
+    "en": "SABLEYE lead quiet lives deep inside caverns. They are feared, however, because these POKéMON are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness.",
+    "es": "Se oculta en cavernas oscuras. De tanto comer gemas, sus ojos son piedras preciosas.",
+    "ca": "Els SABLEYE viuen vides tranquil·les al fons de les cavernes. Tot i això, se'ls tem perquè es creu que aquests POKÉMON robem l'esperit de les persones quan els seus ulls brillen amb un resplendor sinistre a la foscor."
+  },
+  "names": {
+    "en": "Sableye",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Sableye"
+  }
+}

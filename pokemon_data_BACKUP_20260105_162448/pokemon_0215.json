@@ -1,0 +1,50 @@
+{
+  "id": 215,
+  "name": "Sneasel",
+  "height": 9,
+  "weight": 280,
+  "base_experience": 86,
+  "types": [
+    "dark",
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "inner-focus",
+      "is_hidden": false
+    },
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "pickpocket",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 95,
+    "defense": 55,
+    "special-attack": 35,
+    "special-defense": 75,
+    "speed": 115
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/215.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png"
+  },
+  "color": "black",
+  "generation": 2,
+  "descriptions": {
+    "en": "Its paws conceal sharp claws. If attacked, it sud­ denly extends the claws and startles its enemy.",
+    "es": "Se alimenta de huevos robados en nidos. Clava sus afiladas garras en los puntos débiles de sus rivales.",
+    "ca": "Les seves potes amaguen unes urpes afilades. Si l'ataquen, estén ràpidament les urpes i sorprèn el seu enemic."
+  },
+  "names": {
+    "en": "Sneasel",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Sneasel"
+  }
+}

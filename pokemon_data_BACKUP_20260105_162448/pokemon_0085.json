@@ -1,0 +1,50 @@
+{
+  "id": 85,
+  "name": "Dodrio",
+  "height": 18,
+  "weight": 852,
+  "base_experience": 165,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "run-away",
+      "is_hidden": false
+    },
+    {
+      "name": "early-bird",
+      "is_hidden": false
+    },
+    {
+      "name": "tangled-feet",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 110,
+    "defense": 70,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 110
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/85.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png"
+  },
+  "color": "brown",
+  "generation": 1,
+  "descriptions": {
+    "en": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+    "es": "Más vale no perder de vista ninguna de las tres cabezas. De lo contrario, el número de picotazos será enorme.",
+    "ca": "Utilitza els seus tres cervells per executar plans complexos. Mentre dos caps dormen, un cap es manté despert."
+  },
+  "names": {
+    "en": "Dodrio",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dodrio"
+  }
+}

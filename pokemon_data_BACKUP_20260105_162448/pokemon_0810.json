@@ -1,0 +1,45 @@
+{
+  "id": 810,
+  "name": "Grookey",
+  "height": 3,
+  "weight": 50,
+  "base_experience": 62,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "grassy-surge",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/810.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/810.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+    "es": "Al marcar el ritmo con su baqueta especial, produce unas ondas sonoras capaces de devolver la vitalidad a la flora.",
+    "ca": "Quan utilitza la seva vara especial per a tocar una batuda, les ones sonores que produeix aporten energia revitalitzadora a les plantes i les flors de la zona."
+  },
+  "names": {
+    "en": "Grookey",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Grookey"
+  }
+}

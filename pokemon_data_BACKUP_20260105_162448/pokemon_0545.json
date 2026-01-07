@@ -1,0 +1,50 @@
+{
+  "id": 545,
+  "name": "Scolipede",
+  "height": 25,
+  "weight": 2005,
+  "base_experience": 218,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "speed-boost",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 100,
+    "defense": 89,
+    "special-attack": 55,
+    "special-defense": 69,
+    "speed": 112
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/545.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+    "es": "Atenaza a sus presas con las garras que sobresalen de su cuello hasta que no se pueden mover y las remata con veneno.",
+    "ca": "Amb moviments ràpids, persegueix els seus enemics i els ataca sense descans amb les seves banyes fins que surt victoriós."
+  },
+  "names": {
+    "en": "Scolipede",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Scolipede"
+  }
+}

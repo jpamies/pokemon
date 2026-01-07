@@ -1,0 +1,45 @@
+{
+  "id": 202,
+  "name": "Wobbuffet",
+  "height": 13,
+  "weight": 285,
+  "base_experience": 142,
+  "types": [
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "shadow-tag",
+      "is_hidden": false
+    },
+    {
+      "name": "telepathy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 190,
+    "attack": 33,
+    "defense": 58,
+    "special-attack": 33,
+    "special-defense": 58,
+    "speed": 33
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/202.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png"
+  },
+  "color": "blue",
+  "generation": 2,
+  "descriptions": {
+    "en": "It hates light and shock. If attack­ ed, it inflates its body to pump up its counter­ strike.",
+    "es": "Odia la luz y las sacudidas. Si le atacan, infla su cuerpo para aumentar su contraataque.",
+    "ca": "Odia la llum i els xocs. Si l'ataquen, infla el seu cos per enfortir el seu contraatac."
+  },
+  "names": {
+    "en": "Wobbuffet",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Wobbuffet"
+  }
+}

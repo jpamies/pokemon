@@ -1,0 +1,45 @@
+{
+  "id": 367,
+  "name": "Huntail",
+  "height": 17,
+  "weight": 270,
+  "base_experience": 170,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "water-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 104,
+    "defense": 105,
+    "special-attack": 94,
+    "special-defense": 75,
+    "speed": 52
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/367.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/367.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "HUNTAIL’s presence went unnoticed by people for a long time because it lives at extreme depths in the sea. This POKéMON’s eyes can see clearly even in the murky dark depths of the ocean.",
+    "es": "Vive en los abismos marinos, donde no se filtra la luz. Tiene una cola en forma de pez, que enciende para atraer a su presa.",
+    "ca": "HUNTAIL va passar molt de temps sense ser detectat per les persones perquè viu a grans profunditats del mar. Els ulls d'aquest POKÉMON poden veure clarament fins i tot a la foscor tèrbola de les profunditats de l'oceà."
+  },
+  "names": {
+    "en": "Huntail",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Huntail"
+  }
+}

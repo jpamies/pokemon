@@ -1,0 +1,50 @@
+{
+  "id": 472,
+  "name": "Gliscor",
+  "height": 20,
+  "weight": 425,
+  "base_experience": 179,
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "hyper-cutter",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-veil",
+      "is_hidden": false
+    },
+    {
+      "name": "poison-heal",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 125,
+    "special-attack": 45,
+    "special-defense": 75,
+    "speed": 95
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/472.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/472.png"
+  },
+  "color": "purple",
+  "generation": 4,
+  "descriptions": {
+    "en": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+    "es": "Espera a sus presas colgado de una rama bocabajo. Cuando llega su oportunidad, se lanza en picado.",
+    "ca": "Observa les preses mentre penja cap per avall de les branques. Quan es presenta l'oportunitat, es llança en picat!"
+  },
+  "names": {
+    "en": "Gliscor",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Gliscor"
+  }
+}

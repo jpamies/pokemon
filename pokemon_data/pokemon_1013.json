@@ -1,0 +1,46 @@
+{
+  "id": 1013,
+  "name": "Sinistcha",
+  "height": 2,
+  "weight": 22,
+  "base_experience": 178,
+  "types": [
+    "grass",
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "hospitality",
+      "is_hidden": false
+    },
+    {
+      "name": "heatproof",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 71,
+    "attack": 60,
+    "defense": 106,
+    "special-attack": 121,
+    "special-defense": 80,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1013.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1013.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1013.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.",
+    "es": "Descripción no disponible.",
+    "ca": "Es fa passar per te, intentant enganyar la gent perquè se'l beguin i així poder robar-los l'energia vital. Però, en general, el seu engany acostuma a fracassar."
+  },
+  "names": {
+    "en": "Sinistcha",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Sinistcha"
+  }
+}

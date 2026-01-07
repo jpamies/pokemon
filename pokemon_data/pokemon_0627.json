@@ -1,0 +1,50 @@
+{
+  "id": 627,
+  "name": "Rufflet",
+  "height": 5,
+  "weight": 105,
+  "base_experience": 70,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": false
+    },
+    {
+      "name": "hustle",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 83,
+    "defense": 50,
+    "special-attack": 37,
+    "special-defense": 50,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/627.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/627.png"
+  },
+  "color": "white",
+  "generation": 5,
+  "descriptions": {
+    "en": "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+    "es": "Quiebra bayas con sus extremidades. Se enfrenta con valentía a todo enemigo por fuerte que este sea.",
+    "ca": "Aixafan baies amb les seves urpes. S'enfronten valentament a qualsevol rival, per fort que sigui."
+  },
+  "names": {
+    "en": "Rufflet",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Rufflet"
+  }
+}

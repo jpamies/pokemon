@@ -1,0 +1,45 @@
+{
+  "id": 408,
+  "name": "Cranidos",
+  "height": 9,
+  "weight": 315,
+  "base_experience": 70,
+  "types": [
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "mold-breaker",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 67,
+    "attack": 125,
+    "defense": 40,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 58
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/408.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/408.png"
+  },
+  "color": "blue",
+  "generation": 4,
+  "descriptions": {
+    "en": "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
+    "es": "Fue recreado a partir de un fósil con forma esférica. Derriba a las presas a cabezazos.",
+    "ca": "Va viure a les jungles fa uns 100 milions d'anys. El seu crani és tan dur com el ferro."
+  },
+  "names": {
+    "en": "Cranidos",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Cranidos"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 314,
+  "name": "Illumise",
+  "height": 6,
+  "weight": 177,
+  "base_experience": 151,
+  "types": [
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "oblivious",
+      "is_hidden": false
+    },
+    {
+      "name": "tinted-lens",
+      "is_hidden": false
+    },
+    {
+      "name": "prankster",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 47,
+    "defense": 75,
+    "special-attack": 73,
+    "special-defense": 85,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/314.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/314.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/314.png"
+  },
+  "color": "purple",
+  "generation": 3,
+  "descriptions": {
+    "en": "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
+    "es": "Con su dulce aroma guía a grupos de Volbeat para que tracen hasta 200 dibujos distintos en el cielo nocturno.",
+    "ca": "Amb la seva dolça aroma, guia els Volbeat per dibuixar senyals amb la llum al cel nocturn."
+  },
+  "names": {
+    "en": "Illumise",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Illumise"
+  }
+}

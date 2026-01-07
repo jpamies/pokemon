@@ -1,0 +1,50 @@
+{
+  "id": 560,
+  "name": "Scrafty",
+  "height": 11,
+  "weight": 300,
+  "base_experience": 171,
+  "types": [
+    "dark",
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "moxie",
+      "is_hidden": false
+    },
+    {
+      "name": "intimidate",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 115,
+    "special-attack": 45,
+    "special-defense": 115,
+    "speed": 58
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/560.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+    "es": "Se protege de los ataques con la muda de su piel mientras reparte patadas. Cuanto mayor es su cresta, más se le respeta.",
+    "ca": "Els grups d'ells peguen a tot el que entra al seu territori. Cada un pot escopir líquid àcid de la seva boca."
+  },
+  "names": {
+    "en": "Scrafty",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Scrafty"
+  }
+}

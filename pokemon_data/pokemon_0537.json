@@ -1,0 +1,50 @@
+{
+  "id": 537,
+  "name": "Seismitoad",
+  "height": 15,
+  "weight": 620,
+  "base_experience": 229,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "poison-touch",
+      "is_hidden": false
+    },
+    {
+      "name": "water-absorb",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 105,
+    "attack": 95,
+    "defense": 75,
+    "special-attack": 85,
+    "special-defense": 75,
+    "speed": 74
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/537.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/537.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+    "es": "Aumenta la potencia de sus puñetazos haciendo vibrar sus puños. Es capaz de quebrar una roca de un solo golpe.",
+    "ca": "Disparen líquid paralitzant dels bossots del cap. Utilitzen la vibració per a fer mal als seus adversaris."
+  },
+  "names": {
+    "en": "Seismitoad",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Seismitoad"
+  }
+}

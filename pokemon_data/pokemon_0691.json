@@ -1,0 +1,50 @@
+{
+  "id": 691,
+  "name": "Dragalge",
+  "height": 18,
+  "weight": 815,
+  "base_experience": 173,
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "poison-touch",
+      "is_hidden": false
+    },
+    {
+      "name": "adaptability",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 75,
+    "defense": 90,
+    "special-attack": 97,
+    "special-defense": 123,
+    "speed": 44
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/691.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png"
+  },
+  "color": "brown",
+  "generation": 6,
+  "descriptions": {
+    "en": "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
+    "es": "Ataca de manera indiscriminada a quien ose adentrarse en su territorio, escupiéndole un virulento veneno que puede corroer hasta el casco de un petrolero.",
+    "ca": "El seu verí és prou fort per foradar el casc d'un petrolier, i l'escopeixen indiscriminadament a tot el que entra al seu territori."
+  },
+  "names": {
+    "en": "Dragalge",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dragalge"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": 918,
+  "name": "Spidops",
+  "height": 10,
+  "weight": 165,
+  "base_experience": 141,
+  "types": [
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "insomnia",
+      "is_hidden": false
+    },
+    {
+      "name": "stakeout",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 79,
+    "defense": 92,
+    "special-attack": 52,
+    "special-defense": 86,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/918.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/918.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/918.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+    "es": "Descripción no disponible.",
+    "ca": "S'agafa a les branques i als sostres fent servir els seus fils i es mou sense fer soroll. Captura la seva presa abans que ni tan sols se n'adoni."
+  },
+  "names": {
+    "en": "Spidops",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Spidops"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 490,
+  "name": "Manaphy",
+  "height": 3,
+  "weight": 14,
+  "base_experience": 270,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "hydration",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "special-attack": 100,
+    "special-defense": 100,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/490.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/490.png"
+  },
+  "color": "blue",
+  "generation": 4,
+  "descriptions": {
+    "en": "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
+    "es": "Nace con un maravilloso poder que le permite establecer vínculos con cualquier tipo de Pokémon.",
+    "ca": "Nascut en un fred fons marí, nedarà grans distàncies per tornar al seu lloc de naixement."
+  },
+  "names": {
+    "en": "Manaphy",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Manaphy"
+  }
+}

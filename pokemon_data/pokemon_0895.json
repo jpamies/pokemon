@@ -1,0 +1,41 @@
+{
+  "id": 895,
+  "name": "Regidrago",
+  "height": 21,
+  "weight": 2000,
+  "base_experience": 290,
+  "types": [
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "dragons-maw",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 200,
+    "attack": 100,
+    "defense": 50,
+    "special-attack": 100,
+    "special-defense": 50,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/895.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/895.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/895.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "An academic theory proposes that Regidrago’s arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+    "es": "Cierta teoría afirma que la forma de sus brazos representa la cabeza de un Pokémon dragón ancestral, aunque esto no ha podido verificarse.",
+    "ca": "Una teoria acadèmica proposa que els braços de Regidrago eren abans el cap d'un antic Pokémon dragó. Aquesta teoria encara no s'ha demostrat."
+  },
+  "names": {
+    "en": "Regidrago",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Regidrago"
+  }
+}

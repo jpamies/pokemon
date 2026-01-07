@@ -1,0 +1,50 @@
+{
+  "id": 453,
+  "name": "Croagunk",
+  "height": 7,
+  "weight": 230,
+  "base_experience": 60,
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "anticipation",
+      "is_hidden": false
+    },
+    {
+      "name": "dry-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "poison-touch",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 48,
+    "attack": 61,
+    "defense": 40,
+    "special-attack": 61,
+    "special-defense": 40,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/453.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/453.png"
+  },
+  "color": "blue",
+  "generation": 4,
+  "descriptions": {
+    "en": "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+    "es": "Tiene bolsas venenosas en las mejillas. Pilla desprevenidos a sus rivales para pincharles.",
+    "ca": "Les seves galtes contenen bosses de verí. Intenta sorprendre els rivals per atacar-los amb els dits tòxics."
+  },
+  "names": {
+    "en": "Croagunk",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Croagunk"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 908,
+  "name": "Meowscarada",
+  "height": 15,
+  "weight": 312,
+  "base_experience": 265,
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "protean",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 76,
+    "attack": 110,
+    "defense": 70,
+    "special-attack": 81,
+    "special-defense": 70,
+    "speed": 123
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/908.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/908.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+    "es": "Descripción no disponible.",
+    "ca": "Aquest Pokémon utilitza el pel reflector que folra el seu mantell per camuflar el tija de la seva flor, creant la il·lusió que la flor està flotant."
+  },
+  "names": {
+    "en": "Meowscarada",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Meowscarada"
+  }
+}

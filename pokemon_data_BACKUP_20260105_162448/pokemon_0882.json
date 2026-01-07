@@ -1,0 +1,50 @@
+{
+  "id": 882,
+  "name": "Dracovish",
+  "height": 23,
+  "weight": 2150,
+  "base_experience": 177,
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "water-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "strong-jaw",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-rush",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 100,
+    "special-attack": 70,
+    "special-defense": 80,
+    "speed": 75
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/882.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/882.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
+    "es": "Su excelente capacidad motriz y la fuerza de su mandíbula lo hacían antaño invencible, pero dar caza a todas sus presas propició su extinción.",
+    "ca": "Les seves poderoses potes i mandíbules el van convertir en el depredador dominant del seu temps. La seva sobreexplotació de les preses va ser el que el va portar a l'extinció."
+  },
+  "names": {
+    "en": "Dracovish",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dracovish"
+  }
+}

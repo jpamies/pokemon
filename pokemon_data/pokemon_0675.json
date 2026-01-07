@@ -1,0 +1,50 @@
+{
+  "id": 675,
+  "name": "Pangoro",
+  "height": 21,
+  "weight": 1360,
+  "base_experience": 173,
+  "types": [
+    "fighting",
+    "dark"
+  ],
+  "abilities": [
+    {
+      "name": "iron-fist",
+      "is_hidden": false
+    },
+    {
+      "name": "mold-breaker",
+      "is_hidden": false
+    },
+    {
+      "name": "scrappy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 95,
+    "attack": 124,
+    "defense": 78,
+    "special-attack": 69,
+    "special-defense": 71,
+    "speed": 58
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/675.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png"
+  },
+  "color": "white",
+  "generation": 6,
+  "descriptions": {
+    "en": "Although it possesses a violent temperament, it won’t put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.",
+    "es": "Es muy temperamental, pero no permite que nadie se meta con los débiles. Mediante su hoja, predice los movimientos del enemigo.",
+    "ca": "Encara que posseeix un temperament violent, no tolera l'assetjament. Utilitza la fulla a la seva boca per percebre els moviments dels seus enemics."
+  },
+  "names": {
+    "en": "Pangoro",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Pangoro"
+  }
+}

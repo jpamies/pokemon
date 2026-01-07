@@ -1,0 +1,46 @@
+{
+  "id": 205,
+  "name": "Forretress",
+  "height": 12,
+  "weight": 1258,
+  "base_experience": 163,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "overcoat",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 90,
+    "defense": 140,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/205.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png"
+  },
+  "color": "purple",
+  "generation": 2,
+  "descriptions": {
+    "en": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
+    "es": "Se protege con su concha de acero de tal manera que solo se pueden ver sus ojos.",
+    "ca": "Tot el seu cos està protegit per una closca d'acer dur. El que s'amaga dins de l'armadura és tot un misteri."
+  },
+  "names": {
+    "en": "Forretress",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Forretress"
+  }
+}

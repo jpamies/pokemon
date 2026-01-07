@@ -1,0 +1,49 @@
+{
+  "id": 52,
+  "name": "Meowth",
+  "height": 4,
+  "weight": 42,
+  "base_experience": 58,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "pickup",
+      "is_hidden": false
+    },
+    {
+      "name": "technician",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/52.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "It washes its face regularly to keep the coin on its forehead spotless. It doesn’t get along with Galarian Meowth.",
+    "es": "Es de naturaleza nocturna. Le atraen los objetos brillantes.",
+    "ca": "Es renta la cara regularment per mantenir net el seu pal brillant de la front. No es porta bé amb els Meowth de Galar."
+  },
+  "names": {
+    "en": "Meowth",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Meowth"
+  }
+}

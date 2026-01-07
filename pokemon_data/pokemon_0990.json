@@ -1,0 +1,42 @@
+{
+  "id": 990,
+  "name": "Iron-Treads",
+  "height": 9,
+  "weight": 2400,
+  "base_experience": 285,
+  "types": [
+    "ground",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "quark-drive",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 112,
+    "defense": 120,
+    "special-attack": 72,
+    "special-defense": 70,
+    "speed": 106
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/990.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/990.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/990.png"
+  },
+  "color": "gray",
+  "generation": 9,
+  "descriptions": {
+    "en": "This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.",
+    "es": "Descripción no disponible.",
+    "ca": "Aquest Pokémon es sembla molt a una arma científica que una revista paranormal va afirmar que havia estat enviada a aquest planeta per extraterrestres."
+  },
+  "names": {
+    "en": "Iron-Treads",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Iron-Treads"
+  }
+}

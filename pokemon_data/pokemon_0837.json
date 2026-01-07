@@ -1,0 +1,49 @@
+{
+  "id": 837,
+  "name": "Rolycoly",
+  "height": 3,
+  "weight": 120,
+  "base_experience": 48,
+  "types": [
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "steam-engine",
+      "is_hidden": false
+    },
+    {
+      "name": "heatproof",
+      "is_hidden": false
+    },
+    {
+      "name": "flash-fire",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 40,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/837.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/837.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/837.png"
+  },
+  "color": "black",
+  "generation": 8,
+  "descriptions": {
+    "en": "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.",
+    "es": "Fue descubierto hace aproximadamente 400 años en una mina. Casi la totalidad de su cuerpo presenta una composición igual a la del carbón.",
+    "ca": "La major part del seu cos té la mateixa composició que el carbó. Curiosament, aquest Pokémon es va descobrir per primera vegada a les mines de carbó fa uns 400 anys."
+  },
+  "names": {
+    "en": "Rolycoly",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Rolycoly"
+  }
+}

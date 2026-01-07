@@ -1,0 +1,50 @@
+{
+  "id": 400,
+  "name": "Bibarel",
+  "height": 10,
+  "weight": 315,
+  "base_experience": 144,
+  "types": [
+    "normal",
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "simple",
+      "is_hidden": false
+    },
+    {
+      "name": "unaware",
+      "is_hidden": false
+    },
+    {
+      "name": "moody",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 79,
+    "attack": 85,
+    "defense": 60,
+    "special-attack": 55,
+    "special-defense": 60,
+    "speed": 71
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/400.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/400.png"
+  },
+  "color": "brown",
+  "generation": 4,
+  "descriptions": {
+    "en": "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+    "es": "Con sus incisivos roe ramas y raíces y las apila para construir sus madrigueras junto al río.",
+    "ca": "Fa el seu niu embassant rierols amb escorça i fang. És conegut per ser un treballador industriós."
+  },
+  "names": {
+    "en": "Bibarel",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Bibarel"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 272,
+  "name": "Ludicolo",
+  "height": 15,
+  "weight": 550,
+  "base_experience": 216,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "rain-dish",
+      "is_hidden": false
+    },
+    {
+      "name": "own-tempo",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 70,
+    "special-attack": 90,
+    "special-defense": 100,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/272.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/272.png"
+  },
+  "color": "green",
+  "generation": 3,
+  "descriptions": {
+    "en": "LUDICOLO begins dancing as soon as it hears cheerful, festive music. This POKéMON is said to appear when it hears the singing of children on hiking outings.",
+    "es": "Cuando oye música alegre, sus músculos se llenan de energía, y no puede evitar ponerse a bailar.",
+    "ca": "El LUDICOLO comença a ballar tan bon punt escolta una música alegre i festiva. Es diu que aquest POKéMON apareix quan sent el cant dels nens en excursions."
+  },
+  "names": {
+    "en": "Ludicolo",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Ludicolo"
+  }
+}

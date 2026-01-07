@@ -1,0 +1,50 @@
+{
+  "id": 40,
+  "name": "Wigglytuff",
+  "height": 10,
+  "weight": 120,
+  "base_experience": 196,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "cute-charm",
+      "is_hidden": false
+    },
+    {
+      "name": "competitive",
+      "is_hidden": false
+    },
+    {
+      "name": "frisk",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 140,
+    "attack": 70,
+    "defense": 45,
+    "special-attack": 85,
+    "special-defense": 50,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/40.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png"
+  },
+  "color": "pink",
+  "generation": 1,
+  "descriptions": {
+    "en": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+    "es": "Su piel es tan suave que si dos de ellos se acurrucan juntos, no querrán separarse nunca.",
+    "ca": "El cos és tou i elàstic. Quan s'enfada, aspira aire i s'infla fins a una mida enorme."
+  },
+  "names": {
+    "en": "Wigglytuff",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Wigglytuff"
+  }
+}

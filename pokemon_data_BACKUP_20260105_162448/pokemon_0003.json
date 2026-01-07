@@ -1,0 +1,46 @@
+{
+  "id": 3,
+  "name": "Venusaur",
+  "height": 20,
+  "weight": 1000,
+  "base_experience": 236,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "chlorophyll",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 83,
+    "special-attack": 100,
+    "special-defense": 100,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+  },
+  "color": "green",
+  "generation": 1,
+  "descriptions": {
+    "en": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+    "es": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor.",
+    "ca": "La planta floreix quan està absorbint energia solar. Es manté en moviment per buscar la llum del sol."
+  },
+  "names": {
+    "en": "Venusaur",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Venusaur"
+  }
+}

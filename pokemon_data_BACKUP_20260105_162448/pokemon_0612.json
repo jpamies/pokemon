@@ -1,0 +1,49 @@
+{
+  "id": 612,
+  "name": "Haxorus",
+  "height": 18,
+  "weight": 1055,
+  "base_experience": 243,
+  "types": [
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "rivalry",
+      "is_hidden": false
+    },
+    {
+      "name": "mold-breaker",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 76,
+    "attack": 147,
+    "defense": 90,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 97
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/612.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/612.png"
+  },
+  "color": "yellow",
+  "generation": 5,
+  "descriptions": {
+    "en": "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+    "es": "Es gentil, pero no perdona a todo el que ose invadir su territorio. Su mayor baza son sus colmillos, que cortan el acero.",
+    "ca": "Són amables però poden ser despietats quan defensen el seu territori. Repten els seus rivals amb queixals que poden tallar l'acer."
+  },
+  "names": {
+    "en": "Haxorus",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Haxorus"
+  }
+}

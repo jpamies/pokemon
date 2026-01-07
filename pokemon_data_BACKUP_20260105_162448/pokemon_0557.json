@@ -1,0 +1,50 @@
+{
+  "id": 557,
+  "name": "Dwebble",
+  "height": 3,
+  "weight": 145,
+  "base_experience": 65,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "shell-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "weak-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 85,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/557.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/557.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "This Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+    "es": "Abre un agujero en la roca y vive en él. Si la roca se resquebraja, no se queda tranquilo hasta que no encuentra otra.",
+    "ca": "Aquest Pokémon pot fondre fàcilment forats a les roques dures amb un líquid que segrega de la seva boca."
+  },
+  "names": {
+    "en": "Dwebble",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dwebble"
+  }
+}

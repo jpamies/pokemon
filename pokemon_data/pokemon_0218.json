@@ -1,0 +1,49 @@
+{
+  "id": 218,
+  "name": "Slugma",
+  "height": 7,
+  "weight": 350,
+  "base_experience": 50,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "magma-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "weak-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 40,
+    "special-attack": 70,
+    "special-defense": 40,
+    "speed": 20
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/218.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png"
+  },
+  "color": "red",
+  "generation": 2,
+  "descriptions": {
+    "en": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+    "es": "Asiduo a las zonas volcánicas, se desliza lentamente en busca de lugares calientes.",
+    "ca": "Mai no dorm. Ha d'estar sempre en moviment perquè si es pararà, el seu cos de magma es refredaria i s'endurira."
+  },
+  "names": {
+    "en": "Slugma",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Slugma"
+  }
+}

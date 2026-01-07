@@ -1,0 +1,45 @@
+{
+  "id": 154,
+  "name": "Meganium",
+  "height": 18,
+  "weight": 1005,
+  "base_experience": 236,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "leaf-guard",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 100,
+    "special-attack": 83,
+    "special-defense": 100,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/154.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png"
+  },
+  "color": "green",
+  "generation": 2,
+  "descriptions": {
+    "en": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+    "es": "El olor que desprenden sus pétalos contiene una sustancia que calma el instinto agresivo.",
+    "ca": "L'aroma que sorgeix dels seus pètals conté una substància que calma els sentiments agressius."
+  },
+  "names": {
+    "en": "Meganium",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Meganium"
+  }
+}

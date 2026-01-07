@@ -1,0 +1,45 @@
+{
+  "id": 356,
+  "name": "Dusclops",
+  "height": 16,
+  "weight": 306,
+  "base_experience": 159,
+  "types": [
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "pressure",
+      "is_hidden": false
+    },
+    {
+      "name": "frisk",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 70,
+    "defense": 130,
+    "special-attack": 60,
+    "special-defense": 130,
+    "speed": 25
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/356.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/356.png"
+  },
+  "color": "black",
+  "generation": 3,
+  "descriptions": {
+    "en": "DUSCLOPS’s body is completely hollow - there is nothing at all inside. It is said that its body is like a black hole. This POKéMON will absorb anything into its body, but nothing will ever come back out.",
+    "es": "Si alguien mira los fuegos fatuos del interior de Dusclops, perderá su alma irremediablemente.",
+    "ca": "El cos del DUSCLOPS està completament buit, no hi ha res a dins. Es diu que el seu cos és com un forat negre. Aquest POKÉMON absorbirà qualsevol cosa al seu interior, però res mai no en tornarà a sortir."
+  },
+  "names": {
+    "en": "Dusclops",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dusclops"
+  }
+}

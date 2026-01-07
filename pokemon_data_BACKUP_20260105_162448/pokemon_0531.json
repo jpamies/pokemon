@@ -1,0 +1,49 @@
+{
+  "id": 531,
+  "name": "Audino",
+  "height": 11,
+  "weight": 310,
+  "base_experience": 390,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "healer",
+      "is_hidden": false
+    },
+    {
+      "name": "regenerator",
+      "is_hidden": false
+    },
+    {
+      "name": "klutz",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 103,
+    "attack": 60,
+    "defense": 86,
+    "special-attack": 60,
+    "special-defense": 86,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/531.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png"
+  },
+  "color": "pink",
+  "generation": 5,
+  "descriptions": {
+    "en": "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
+    "es": "Con las antenas de sus oídos, perciben el estado de un rival o predicen cuándo va a eclosionar un Huevo Pokémon.",
+    "ca": "Toca els altres amb les antenes de les orelles, utilitzant el so dels seus batecs cardíacs per saber com es senten."
+  },
+  "names": {
+    "en": "Audino",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Audino"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 22,
+  "name": "Fearow",
+  "height": 12,
+  "weight": 380,
+  "base_experience": 155,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "sniper",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 65,
+    "special-attack": 61,
+    "special-defense": 61,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/22.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+  },
+  "color": "brown",
+  "generation": 1,
+  "descriptions": {
+    "en": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+    "es": "Con sus enormes y magníficas alas, puede seguir volando sin tener que aterrizar para descansar.",
+    "ca": "Amb les ales enormes i magnífiques, pot volar sense haver de reposar mai."
+  },
+  "names": {
+    "en": "Fearow",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Fearow"
+  }
+}

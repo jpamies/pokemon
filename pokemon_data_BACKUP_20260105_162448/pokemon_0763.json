@@ -1,0 +1,49 @@
+{
+  "id": 763,
+  "name": "Tsareena",
+  "height": 12,
+  "weight": 214,
+  "base_experience": 230,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "leaf-guard",
+      "is_hidden": false
+    },
+    {
+      "name": "queenly-majesty",
+      "is_hidden": false
+    },
+    {
+      "name": "sweet-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 72,
+    "attack": 120,
+    "defense": 98,
+    "special-attack": 50,
+    "special-defense": 98,
+    "speed": 72
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/763.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/763.png"
+  },
+  "color": "purple",
+  "generation": 7,
+  "descriptions": {
+    "en": "Its long, striking legs aren’t just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.",
+    "es": "Propinar patadas implacables es su especialidad. Patea a sus oponentes derrotados y proclama su victoria con una gran carcajada.",
+    "ca": "Les seves llargues i impactants cames no són només per mostrar, sinó per usar-les per donar puntades amb habilitat. En la victòria, es mostra exhibint-se donant puntades als derrotats, rient sorollosament."
+  },
+  "names": {
+    "en": "Tsareena",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Tsareena"
+  }
+}

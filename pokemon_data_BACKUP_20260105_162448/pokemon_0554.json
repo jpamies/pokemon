@@ -1,0 +1,45 @@
+{
+  "id": 554,
+  "name": "Darumaka",
+  "height": 6,
+  "weight": 375,
+  "base_experience": 63,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "hustle",
+      "is_hidden": false
+    },
+    {
+      "name": "inner-focus",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 90,
+    "defense": 45,
+    "special-attack": 15,
+    "special-defense": 45,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/554.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/554.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+    "es": "Como sus excrementos están muy calientes, la gente de antaño se los metía en los bolsillos para calentarse.",
+    "ca": "Quan el seu foc intern crema, no es pot calmar i corre per tot arreu. Quan el foc disminueix, s'adorm."
+  },
+  "names": {
+    "en": "Darumaka",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Darumaka"
+  }
+}

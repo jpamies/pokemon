@@ -1,0 +1,45 @@
+{
+  "id": 864,
+  "name": "Cursola",
+  "height": 10,
+  "weight": 4,
+  "base_experience": 179,
+  "types": [
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "weak-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "perish-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 50,
+    "special-attack": 145,
+    "special-defense": 130,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/864.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/864.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/864.png"
+  },
+  "color": "white",
+  "generation": 8,
+  "descriptions": {
+    "en": "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon’s core spirit.",
+    "es": "Su energía espiritual ha aumentado hasta hacerlo desprenderse de su base caliza. Protege el alma del núcleo con su cuerpo espectral.",
+    "ca": "La seva closca està desbordant de l'energia sobrenatural intensificada. L'ectoplasma serveix de protecció per a l'esperit central d'aquest Pokémon."
+  },
+  "names": {
+    "en": "Cursola",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Cursola"
+  }
+}

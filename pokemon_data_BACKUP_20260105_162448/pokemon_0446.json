@@ -1,0 +1,49 @@
+{
+  "id": 446,
+  "name": "Munchlax",
+  "height": 6,
+  "weight": 1050,
+  "base_experience": 78,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "pickup",
+      "is_hidden": false
+    },
+    {
+      "name": "thick-fat",
+      "is_hidden": false
+    },
+    {
+      "name": "gluttony",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 135,
+    "attack": 85,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 85,
+    "speed": 5
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/446.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/446.png"
+  },
+  "color": "black",
+  "generation": 4,
+  "descriptions": {
+    "en": "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
+    "es": "Esconde comida bajo el largo pelo de su cuerpo, pero más tarde lo olvida.",
+    "ca": "S'empassa el seu pes en menjar una vegada al dia, i s'ho empassa tot sencer amb gairebé cap mastegada."
+  },
+  "names": {
+    "en": "Munchlax",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Munchlax"
+  }
+}

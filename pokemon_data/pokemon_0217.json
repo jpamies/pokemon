@@ -1,0 +1,49 @@
+{
+  "id": 217,
+  "name": "Ursaring",
+  "height": 18,
+  "weight": 1258,
+  "base_experience": 175,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "guts",
+      "is_hidden": false
+    },
+    {
+      "name": "quick-feet",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 75,
+    "special-attack": 75,
+    "special-defense": 75,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/217.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png"
+  },
+  "color": "brown",
+  "generation": 2,
+  "descriptions": {
+    "en": "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen BERRIES.",
+    "es": "Capaz de percibir cualquier tipo de aroma, encuentra sin problemas todo alimento enterrado bajo tierra.",
+    "ca": "Tot i ser bon escalador, prefereix trencar arbres amb les potes davanteres i menjar-se les baies que caiguin."
+  },
+  "names": {
+    "en": "Ursaring",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Ursaring"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 596,
+  "name": "Galvantula",
+  "height": 8,
+  "weight": 143,
+  "base_experience": 165,
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "compound-eyes",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": false
+    },
+    {
+      "name": "swarm",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 77,
+    "defense": 60,
+    "special-attack": 97,
+    "special-defense": 60,
+    "speed": 108
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/596.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/596.png"
+  },
+  "color": "yellow",
+  "generation": 5,
+  "descriptions": {
+    "en": "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+    "es": "Pone trampas con hilos electrificados. De este modo, electrocuta a sus enemigos y los inmoviliza por completo.",
+    "ca": "Quan els ataquen, creen una barrera elèctrica escopint molts fils carregats elèctricament."
+  },
+  "names": {
+    "en": "Galvantula",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Galvantula"
+  }
+}

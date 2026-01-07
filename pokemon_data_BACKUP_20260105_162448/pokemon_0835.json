@@ -1,0 +1,45 @@
+{
+  "id": 835,
+  "name": "Yamper",
+  "height": 3,
+  "weight": 135,
+  "base_experience": 54,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "ball-fetch",
+      "is_hidden": false
+    },
+    {
+      "name": "rattled",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 59,
+    "attack": 45,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 26
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/835.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/835.png"
+  },
+  "color": "yellow",
+  "generation": 8,
+  "descriptions": {
+    "en": "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail.",
+    "es": "Al correr, genera electricidad por la base de la cola. Es muy popular entre los pastores de Galar.",
+    "ca": "Aquest Pokémon és molt popular com a gos d'acollida a la regió de Galar. Mentre corre, genera electricitat de la base de la seva cua."
+  },
+  "names": {
+    "en": "Yamper",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Yamper"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 954,
+  "name": "Rabsca",
+  "height": 3,
+  "weight": 35,
+  "base_experience": 165,
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "synchronize",
+      "is_hidden": false
+    },
+    {
+      "name": "telepathy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 50,
+    "defense": 85,
+    "special-attack": 115,
+    "special-defense": 100,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/954.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/954.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
+    "es": "Descripción no disponible.",
+    "ca": "El cos que sosté la bola a penes es mou. Per això, es creu que el cos vertader d'aquest Pokémon es troba a l'interior de la bola."
+  },
+  "names": {
+    "en": "Rabsca",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Rabsca"
+  }
+}

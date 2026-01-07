@@ -1,0 +1,46 @@
+{
+  "id": 411,
+  "name": "Bastiodon",
+  "height": 13,
+  "weight": 1495,
+  "base_experience": 173,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "soundproof",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 52,
+    "defense": 168,
+    "special-attack": 47,
+    "special-defense": 138,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/411.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png"
+  },
+  "color": "gray",
+  "generation": 4,
+  "descriptions": {
+    "en": "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
+    "es": "Se alineaban y creaban una barrera que ningún enemigo podía cruzar. Así protegían a sus crías.",
+    "ca": "Qualsevol atac frontal és rebutjat. És un Pokémon dòcil que s'alimenta d'herba i baies."
+  },
+  "names": {
+    "en": "Bastiodon",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Bastiodon"
+  }
+}

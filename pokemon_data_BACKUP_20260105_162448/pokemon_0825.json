@@ -1,0 +1,50 @@
+{
+  "id": 825,
+  "name": "Dottler",
+  "height": 4,
+  "weight": 195,
+  "base_experience": 117,
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "compound-eyes",
+      "is_hidden": false
+    },
+    {
+      "name": "telepathy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 35,
+    "defense": 80,
+    "special-attack": 50,
+    "special-defense": 90,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/825.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/825.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/825.png"
+  },
+  "color": "yellow",
+  "generation": 8,
+  "descriptions": {
+    "en": "It barely moves, but it’s still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.",
+    "es": "Apenas se mueve, pero está vivo. Se cree que adquiere poderes psíquicos mientras permanece recluido en su caparazón sin comer ni beber.",
+    "ca": "Gairebé no es mou, però encara està viu. Amagar-se a la seva closca sense menjar ni beure sembla haver despertat els seus poders psíquics."
+  },
+  "names": {
+    "en": "Dottler",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dottler"
+  }
+}

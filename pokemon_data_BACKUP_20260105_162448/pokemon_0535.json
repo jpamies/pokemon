@@ -1,0 +1,49 @@
+{
+  "id": 535,
+  "name": "Tympole",
+  "height": 5,
+  "weight": 45,
+  "base_experience": 59,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "hydration",
+      "is_hidden": false
+    },
+    {
+      "name": "water-absorb",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 40,
+    "speed": 64
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/535.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/535.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "They warn others of danger by vibrating their cheeks to create a high-pitched sound.",
+    "es": "Emite sonidos imperceptibles para los humanos con la vibración de sus mejillas y advierte de algún peligro a los suyos.",
+    "ca": "Avisen els altres del perill vibrant les galtes per crear un so agut."
+  },
+  "names": {
+    "en": "Tympole",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Tympole"
+  }
+}

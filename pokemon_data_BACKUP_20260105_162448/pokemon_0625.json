@@ -1,0 +1,50 @@
+{
+  "id": 625,
+  "name": "Bisharp",
+  "height": 16,
+  "weight": 700,
+  "base_experience": 172,
+  "types": [
+    "dark",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "defiant",
+      "is_hidden": false
+    },
+    {
+      "name": "inner-focus",
+      "is_hidden": false
+    },
+    {
+      "name": "pressure",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 125,
+    "defense": 100,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/625.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/625.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
+    "es": "Un Pokémon temible que remata a su presa una vez que su séquito de Pawniard la ha debilitado e inmovilizado.",
+    "ca": "Dirigeix un grup de Pawniard. Lluita per convertir-se en el cap, però serà expulsat del grup si perd."
+  },
+  "names": {
+    "en": "Bisharp",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Bisharp"
+  }
+}

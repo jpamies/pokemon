@@ -1,0 +1,49 @@
+{
+  "id": 110,
+  "name": "Weezing",
+  "height": 12,
+  "weight": 95,
+  "base_experience": 172,
+  "types": [
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "levitate",
+      "is_hidden": false
+    },
+    {
+      "name": "neutralizing-gas",
+      "is_hidden": false
+    },
+    {
+      "name": "stench",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 120,
+    "special-attack": 85,
+    "special-defense": 70,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/110.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.",
+    "es": "Si uno de los gemelos Koffing se infla, el otro se desinfla. Mezclan constantemente sus venenosos gases.",
+    "ca": "On es troben dos tipus de gasos verinosos, 2 KOFFINGs es poden fusionar en un WEEZING al llarg de molts anys."
+  },
+  "names": {
+    "en": "Weezing",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Weezing"
+  }
+}

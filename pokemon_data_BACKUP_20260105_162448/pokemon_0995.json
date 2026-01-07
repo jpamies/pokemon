@@ -1,0 +1,42 @@
+{
+  "id": 995,
+  "name": "Iron-Thorns",
+  "height": 16,
+  "weight": 3030,
+  "base_experience": 285,
+  "types": [
+    "rock",
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "quark-drive",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 134,
+    "defense": 110,
+    "special-attack": 70,
+    "special-defense": 84,
+    "speed": 72
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/995.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/995.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/995.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.",
+    "es": "Descripción no disponible.",
+    "ca": "Té algunes similituds amb un Pokémon presentat en una revista dubtosa com un Tyranitar d'un mil·lenni al futur."
+  },
+  "names": {
+    "en": "Iron-Thorns",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Iron-Thorns"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 90,
+  "name": "Shellder",
+  "height": 3,
+  "weight": 40,
+  "base_experience": 61,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "shell-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "skill-link",
+      "is_hidden": false
+    },
+    {
+      "name": "overcoat",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 65,
+    "defense": 100,
+    "special-attack": 45,
+    "special-defense": 25,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/90.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+    "es": "La concha lo protege de cualquier tipo de ataque. Solo es vulnerable cuando se abre.",
+    "ca": "La seva closca dura repel·leix qualsevol tipus d'atac. Només és vulnerable quan la closca està oberta."
+  },
+  "names": {
+    "en": "Shellder",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Shellder"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": 96,
+  "name": "Drowzee",
+  "height": 10,
+  "weight": 324,
+  "base_experience": 66,
+  "types": [
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "insomnia",
+      "is_hidden": false
+    },
+    {
+      "name": "forewarn",
+      "is_hidden": false
+    },
+    {
+      "name": "inner-focus",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "special-attack": 43,
+    "special-defense": 90,
+    "speed": 42
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/96.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.",
+    "es": "Adormece a sus enemigos y se come sus sueños. A veces se pone enfermo si come pesadillas.",
+    "ca": "Adorm els enemics i es menja els seus somnis. De vegades s'acaba mareant per menjar-se somnis dolents."
+  },
+  "names": {
+    "en": "Drowzee",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Drowzee"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 291,
+  "name": "Ninjask",
+  "height": 8,
+  "weight": 120,
+  "base_experience": 160,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "speed-boost",
+      "is_hidden": false
+    },
+    {
+      "name": "infiltrator",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 61,
+    "attack": 90,
+    "defense": 45,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 160
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/291.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/291.png"
+  },
+  "color": "yellow",
+  "generation": 3,
+  "descriptions": {
+    "en": "NINJASK moves around at such a high speed that it cannot be seen, even while its crying can be clearly heard. For that reason, this POKéMON was long believed to be invisible.",
+    "es": "Escuchar su zumbido de forma continuada provoca jaquecas. Casi no se le ve de lo rápido que es.",
+    "ca": "El NINJASK es capaç de moure's a una velocitat tan alta que és impossible veure'l, tot i que el seu crit es pot escoltar clarament. Per aquest motiu, durant molt de temps es va creure que aquest POKÉMON era invisible."
+  },
+  "names": {
+    "en": "Ninjask",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Ninjask"
+  }
+}

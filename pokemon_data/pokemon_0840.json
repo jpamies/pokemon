@@ -1,0 +1,50 @@
+{
+  "id": 840,
+  "name": "Applin",
+  "height": 2,
+  "weight": 5,
+  "base_experience": 52,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "ripen",
+      "is_hidden": false
+    },
+    {
+      "name": "gluttony",
+      "is_hidden": false
+    },
+    {
+      "name": "bulletproof",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 80,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 20
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/840.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it’s just an apple and nothing more.",
+    "es": "Habita durante toda su vida en el interior de una manzana. Finge ser una fruta para protegerse de los Pokémon pájaro, sus enemigos naturales.",
+    "ca": "Passa tota la seva vida dins d'una poma. S'amaga dels seus enemics naturals, els Pokémon aus, fent veure que només és una poma i res més."
+  },
+  "names": {
+    "en": "Applin",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Applin"
+  }
+}

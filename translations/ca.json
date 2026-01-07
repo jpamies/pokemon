@@ -30,5 +30,7 @@
     "dark": "FOSC",
     "steel": "ACER",
     "fairy": "FADA"
-  }
+  },
+  "descriptions_file": "pokemon_descriptions_ca.json",
+  "descriptions_available": true
 }

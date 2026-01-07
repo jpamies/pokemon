@@ -1,0 +1,45 @@
+{
+  "id": 503,
+  "name": "Samurott",
+  "height": 15,
+  "weight": 946,
+  "base_experience": 238,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "torrent",
+      "is_hidden": false
+    },
+    {
+      "name": "shell-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 95,
+    "attack": 100,
+    "defense": 85,
+    "special-attack": 108,
+    "special-defense": 70,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/503.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+    "es": "En un abrir y cerrar de ojos, puede desenvainar y envainar los sables que hay en sus patas delanteras.",
+    "ca": "Un sol cop d'espasa incorporat a la seva armadura pot abatre un oponent. Una simple mirada seva tranquil·litza tothom."
+  },
+  "names": {
+    "en": "Samurott",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Samurott"
+  }
+}

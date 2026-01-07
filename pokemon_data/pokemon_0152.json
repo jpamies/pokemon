@@ -1,0 +1,45 @@
+{
+  "id": 152,
+  "name": "Chikorita",
+  "height": 9,
+  "weight": 64,
+  "base_experience": 64,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "leaf-guard",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 65,
+    "special-attack": 49,
+    "special-defense": 65,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/152.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png"
+  },
+  "color": "green",
+  "generation": 2,
+  "descriptions": {
+    "en": "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
+    "es": "Un dulce aroma se desprende de la hoja de su cabeza. Es dócil y le encanta absorber los rayos de sol.",
+    "ca": "Una dolça aroma emana suaument de la fulla del seu cap. És dòcil i li encanta prendre el sol."
+  },
+  "names": {
+    "en": "Chikorita",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Chikorita"
+  }
+}

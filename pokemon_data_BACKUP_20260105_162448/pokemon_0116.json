@@ -1,0 +1,49 @@
+{
+  "id": 116,
+  "name": "Horsea",
+  "height": 4,
+  "weight": 80,
+  "base_experience": 59,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "sniper",
+      "is_hidden": false
+    },
+    {
+      "name": "damp",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 40,
+    "defense": 70,
+    "special-attack": 70,
+    "special-defense": 25,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/116.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png"
+  },
+  "color": "blue",
+  "generation": 1,
+  "descriptions": {
+    "en": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+    "es": "Es famoso por derribar a bichos voladores lanzando tinta desde la superficie del agua.",
+    "ca": "Se sap que dispara amb precisió gotes de tinta des de la superfície de l'aigua per abatre insectes voladors."
+  },
+  "names": {
+    "en": "Horsea",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Horsea"
+  }
+}

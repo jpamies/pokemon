@@ -1,0 +1,46 @@
+{
+  "id": 392,
+  "name": "Infernape",
+  "height": 12,
+  "weight": 550,
+  "base_experience": 240,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "blaze",
+      "is_hidden": false
+    },
+    {
+      "name": "iron-fist",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 76,
+    "attack": 104,
+    "defense": 71,
+    "special-attack": 104,
+    "special-defense": 71,
+    "speed": 108
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/392.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/392.png"
+  },
+  "color": "brown",
+  "generation": 4,
+  "descriptions": {
+    "en": "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
+    "es": "Su corona de fuego demuestra su naturaleza ígnea. Nadie le gana en velocidad.",
+    "ca": "Utilitza un tipus especial d'arts marcials que involucren tots els seus membres. El seu foc mai s'apaga."
+  },
+  "names": {
+    "en": "Infernape",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Infernape"
+  }
+}

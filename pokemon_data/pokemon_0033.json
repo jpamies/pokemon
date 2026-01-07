@@ -1,0 +1,49 @@
+{
+  "id": 33,
+  "name": "Nidorino",
+  "height": 9,
+  "weight": 195,
+  "base_experience": 128,
+  "types": [
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "rivalry",
+      "is_hidden": false
+    },
+    {
+      "name": "hustle",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 61,
+    "attack": 72,
+    "defense": 57,
+    "special-attack": 55,
+    "special-defense": 55,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/33.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.",
+    "es": "Levanta sus grandes orejas para vigilar. Si detecta algo, atacará de inmediato.",
+    "ca": "Un Pokémon agressiu que ataca ràpidament. El corn al seu cap segrega un verí molt potent."
+  },
+  "names": {
+    "en": "Nidorino",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Nidorino"
+  }
+}

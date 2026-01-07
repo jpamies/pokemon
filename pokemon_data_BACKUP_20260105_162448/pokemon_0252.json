@@ -1,0 +1,45 @@
+{
+  "id": 252,
+  "name": "Treecko",
+  "height": 5,
+  "weight": 50,
+  "base_experience": 62,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "unburden",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special-attack": 65,
+    "special-defense": 55,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/252.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png"
+  },
+  "color": "green",
+  "generation": 3,
+  "descriptions": {
+    "en": "TREECKO has small hooks on the bottom of its feet that enable it to scale vertical walls. This POKéMON attacks by slamming foes with its thick tail.",
+    "es": "Escala superficies verticales muy rápido. Con la cola detecta la humedad y prevé el tiempo que va a hacer.",
+    "ca": "TREECKO té petits ganxos a la part inferior de les seves potes que li permeten escalar parets verticals. Aquest POKéMON ataca impactant els seus rivals amb la seva cua gruixuda."
+  },
+  "names": {
+    "en": "Treecko",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Treecko"
+  }
+}

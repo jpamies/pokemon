@@ -1,0 +1,49 @@
+{
+  "id": 54,
+  "name": "Psyduck",
+  "height": 8,
+  "weight": 196,
+  "base_experience": 64,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "damp",
+      "is_hidden": false
+    },
+    {
+      "name": "cloud-nine",
+      "is_hidden": false
+    },
+    {
+      "name": "swift-swim",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "special-attack": 65,
+    "special-defense": 50,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/54.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "While lulling its enemies with its vacant look, this wily POKéMON will use psychokinetic powers.",
+    "es": "Padece continuamente dolores de cabeza. Cuando son muy fuertes, empieza a usar misteriosos poderes.",
+    "ca": "Mentre adorm els seus enemics amb la seva mirada buida, aquest astut Pokémon farà servir poders psicocinètics."
+  },
+  "names": {
+    "en": "Psyduck",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Psyduck"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 441,
+  "name": "Chatot",
+  "height": 5,
+  "weight": 19,
+  "base_experience": 144,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "tangled-feet",
+      "is_hidden": false
+    },
+    {
+      "name": "big-pecks",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 76,
+    "attack": 65,
+    "defense": 45,
+    "special-attack": 92,
+    "special-defense": 42,
+    "speed": 91
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/441.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/441.png"
+  },
+  "color": "black",
+  "generation": 4,
+  "descriptions": {
+    "en": "It can learn and speak human words. If they gather, they all learn the same saying.",
+    "es": "Imita los sonidos de sus rivales, haciéndoles creer que son amigos e impidiendo que le ataquen.",
+    "ca": "Pot aprendre i parlar paraules humanes. Si es congreguen, tots aprenen la mateixa frase."
+  },
+  "names": {
+    "en": "Chatot",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Chatot"
+  }
+}

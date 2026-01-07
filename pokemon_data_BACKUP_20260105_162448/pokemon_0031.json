@@ -1,0 +1,50 @@
+{
+  "id": 31,
+  "name": "Nidoqueen",
+  "height": 13,
+  "weight": 600,
+  "base_experience": 227,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "rivalry",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 92,
+    "defense": 87,
+    "special-attack": 75,
+    "special-defense": 85,
+    "speed": 76
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/31.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png"
+  },
+  "color": "blue",
+  "generation": 1,
+  "descriptions": {
+    "en": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+    "es": "Usa su cuerpo duro y escamoso para sellar la entrada a su madriguera y protegerse de los depredadores.",
+    "ca": "Les seves dures escates proporcionen una forta protecció. Utilitza el seu pes considerable per executar moviments poderosos."
+  },
+  "names": {
+    "en": "Nidoqueen",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Nidoqueen"
+  }
+}

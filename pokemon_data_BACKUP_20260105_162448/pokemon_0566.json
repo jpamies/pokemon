@@ -1,0 +1,42 @@
+{
+  "id": 566,
+  "name": "Archen",
+  "height": 5,
+  "weight": 95,
+  "base_experience": 71,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "defeatist",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 112,
+    "defense": 45,
+    "special-attack": 74,
+    "special-defense": 45,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/566.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/566.png"
+  },
+  "color": "yellow",
+  "generation": 5,
+  "descriptions": {
+    "en": "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
+    "es": "Pokémon que renació de un fósil. Dicen que es el antepasado de todos los Pokémon pájaro.",
+    "ca": "Es diu que és un avantpassat dels Pokémon d'ocell, no podien volar i es movien saltant d'una branca a l'altra."
+  },
+  "names": {
+    "en": "Archen",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Archen"
+  }
+}

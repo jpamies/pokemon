@@ -1,0 +1,50 @@
+{
+  "id": 82,
+  "name": "Magneton",
+  "height": 10,
+  "weight": 600,
+  "base_experience": 163,
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "magnet-pull",
+      "is_hidden": false
+    },
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "analytic",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 95,
+    "special-attack": 120,
+    "special-defense": 70,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/82.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png"
+  },
+  "color": "gray",
+  "generation": 1,
+  "descriptions": {
+    "en": "Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up.",
+    "es": "Lo constituye un grupo de Magnemite. Descarga potentes ondas magnéticas de alto voltaje.",
+    "ca": "Format per diversos MAGNEMITE units. Apareixen freqüentment quan les taques solars s'intensifiquen."
+  },
+  "names": {
+    "en": "Magneton",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Magneton"
+  }
+}

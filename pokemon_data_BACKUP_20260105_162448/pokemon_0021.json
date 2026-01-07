@@ -1,0 +1,46 @@
+{
+  "id": 21,
+  "name": "Spearow",
+  "height": 3,
+  "weight": 20,
+  "base_experience": 52,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "sniper",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 60,
+    "defense": 30,
+    "special-attack": 31,
+    "special-defense": 31,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/21.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+  },
+  "color": "brown",
+  "generation": 1,
+  "descriptions": {
+    "en": "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
+    "es": "Muy protector de su territorio, mueve sus cortas alas sin descanso para lanzarse a toda velocidad.",
+    "ca": "Batega les ales petites amb activitat per volar. Usa el bec per buscar preses entre l'herba."
+  },
+  "names": {
+    "en": "Spearow",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Spearow"
+  }
+}

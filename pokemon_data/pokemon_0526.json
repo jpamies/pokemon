@@ -1,0 +1,49 @@
+{
+  "id": 526,
+  "name": "Gigalith",
+  "height": 17,
+  "weight": 2600,
+  "base_experience": 232,
+  "types": [
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-stream",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 135,
+    "defense": 130,
+    "special-attack": 60,
+    "special-defense": 80,
+    "speed": 25
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/526.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/526.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+    "es": "Absorbe los rayos solares, procesa esa energía en su núcleo y lanza poderosas bolas de luz a sus enemigos.",
+    "ca": "Comprimint l'energia del seu nucli intern, pot disparar un atac capaç de fer volar una muntanya."
+  },
+  "names": {
+    "en": "Gigalith",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Gigalith"
+  }
+}

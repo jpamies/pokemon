@@ -1,0 +1,49 @@
+{
+  "id": 60,
+  "name": "Poliwag",
+  "height": 6,
+  "weight": 124,
+  "base_experience": 60,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "water-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "damp",
+      "is_hidden": false
+    },
+    {
+      "name": "swift-swim",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 50,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/60.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png"
+  },
+  "color": "blue",
+  "generation": 1,
+  "descriptions": {
+    "en": "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
+    "es": "Tiene una piel extraordinaria, fina y húmeda, que deja entrever las vísceras que tiene dispuestas en espiral.",
+    "ca": "Les seves cames recentment creixudes l'impedeixen córrer. Sembla preferir nedar en lloc d'intentar estar dret."
+  },
+  "names": {
+    "en": "Poliwag",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Poliwag"
+  }
+}

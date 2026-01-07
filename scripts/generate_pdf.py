@@ -242,7 +242,7 @@ def fetch_pokemon(pokemon_id):
                     with open(path, 'r', encoding='utf-8') as f:
                         translations = json.load(f)
                         if str(pokemon_id) in translations:
-                            description_catalan = translations[str(pokemon_id)]
+                            description_catalan = translations[str(pokemon_id)].get('description', 'Descripció no disponible.')
                     break
         except Exception as e:
             pass

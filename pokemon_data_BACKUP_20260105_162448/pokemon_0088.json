@@ -1,0 +1,49 @@
+{
+  "id": 88,
+  "name": "Grimer",
+  "height": 9,
+  "weight": 300,
+  "base_experience": 65,
+  "types": [
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "stench",
+      "is_hidden": false
+    },
+    {
+      "name": "sticky-hold",
+      "is_hidden": false
+    },
+    {
+      "name": "poison-touch",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 25
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/88.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
+    "es": "Nace de lodo alterado al filtrarse en el agua los rayos X reflejados por la Luna. Se alimenta de sustancias desagradables.",
+    "ca": "Apareix en zones brutes. Prospera xupant el fangar contaminat que es bombeja fora de les fàbriques."
+  },
+  "names": {
+    "en": "Grimer",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Grimer"
+  }
+}

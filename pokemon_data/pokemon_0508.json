@@ -1,0 +1,49 @@
+{
+  "id": 508,
+  "name": "Stoutland",
+  "height": 12,
+  "weight": 610,
+  "base_experience": 225,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "intimidate",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-rush",
+      "is_hidden": false
+    },
+    {
+      "name": "scrappy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 110,
+    "defense": 90,
+    "special-attack": 45,
+    "special-defense": 90,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/508.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/508.png"
+  },
+  "color": "gray",
+  "generation": 5,
+  "descriptions": {
+    "en": "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+    "es": "Socorre a humanos perdidos en montañas azotadas por ventiscas. Su largo pelaje le protege del frío.",
+    "ca": "Rescata persones atrapades per les nevades a les muntanyes. El seu pelatge xamós el protegeix del fred."
+  },
+  "names": {
+    "en": "Stoutland",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Stoutland"
+  }
+}
