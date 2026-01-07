@@ -719,6 +719,14 @@ class PokemonGuide {
     }
 
     getStatName(statName) {
+        const currentLang = window.i18n?.currentLanguage || 'en';
+        const translations = window.i18n?.translations[currentLang]?.stats;
+        
+        if (translations && translations[statName]) {
+            return translations[statName];
+        }
+        
+        // Fallback to English abbreviations
         const statNames = {
             'hp': 'HP',
             'attack': 'ATK',

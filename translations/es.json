@@ -30,5 +30,13 @@
     "dark": "SINIESTRO",
     "steel": "ACERO",
     "fairy": "HADA"
+  },
+  "stats": {
+    "hp": "PS",
+    "attack": "ATAQUE",
+    "defense": "DEFENSA",
+    "special-attack": "AT. ESP.",
+    "special-defense": "DEF. ESP.",
+    "speed": "VELOCIDAD"
   }
 }

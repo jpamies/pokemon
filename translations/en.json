@@ -30,5 +30,13 @@
     "dark": "DARK",
     "steel": "STEEL",
     "fairy": "FAIRY"
+  },
+  "stats": {
+    "hp": "HP",
+    "attack": "ATTACK",
+    "defense": "DEFENSE",
+    "special-attack": "SP. ATK",
+    "special-defense": "SP. DEF",
+    "speed": "SPEED"
   }
 }

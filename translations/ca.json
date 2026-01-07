@@ -31,6 +31,14 @@
     "steel": "ACER",
     "fairy": "FADA"
   },
+  "stats": {
+    "hp": "PS",
+    "attack": "ATAC",
+    "defense": "DEFENSA",
+    "special-attack": "ATAC ESP.",
+    "special-defense": "DEF. ESP.",
+    "speed": "VELOCITAT"
+  },
   "descriptions_file": "pokemon_descriptions_ca.json",
   "descriptions_available": true
 }
