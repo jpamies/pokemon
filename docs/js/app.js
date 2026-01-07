@@ -281,7 +281,7 @@ class PokemonGuide {
         
         // Load description from Pokemon data files for all languages
         try {
-            const response = await fetch(`./pokemon_data/pokemon_${pokemonId.toString().padStart(4, '0')}.json`);
+            const response = await fetch(`pokemon_data/pokemon_${pokemonId.toString().padStart(4, '0')}.json`);
             const pokemonData = await response.json();
             description = pokemonData.descriptions?.[currentLang];
         } catch (error) {
@@ -299,7 +299,7 @@ class PokemonGuide {
     async getCatalanDescription(pokemonId) {
         // Load Pokemon data file with 3 languages
         try {
-            const response = await fetch(`./pokemon_data/pokemon_${pokemonId.toString().padStart(4, '0')}.json`);
+            const response = await fetch(`pokemon_data/pokemon_${pokemonId.toString().padStart(4, '0')}.json`);
             const pokemonData = await response.json();
             return pokemonData.descriptions?.ca || null;
         } catch (error) {
