@@ -794,15 +794,18 @@ class PokemonGuide {
         
         this.showLoading();
         
+        // Crear elementos sin cargar imágenes inmediatamente
         for (let i = 1; i <= this.maxPokemonId; i++) {
             const pokemonItem = document.createElement('div');
             pokemonItem.className = 'pokemon-list-item';
             pokemonItem.style.cursor = 'pointer';
             
             const img = document.createElement('img');
-            img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`;
             img.alt = `Pokemon #${i}`;
             img.className = 'pokemon-list-image';
+            img.style.backgroundColor = '#f0f0f0';
+            // No cargar imagen inmediatamente
+            img.dataset.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`;
             
             const id = document.createElement('div');
             id.className = 'pokemon-list-id';
@@ -830,6 +833,32 @@ class PokemonGuide {
         }
         
         this.hideLoading();
+        
+        // Cargar imágenes progresivamente después de crear todos los elementos
+        this.loadImagesProgressively();
+    }
+
+    async loadImagesProgressively() {
+        const images = document.querySelectorAll('.pokemon-list-image[data-src]');
+        const batchSize = 20; // Cargar en lotes pequeños
+        const delay = 100; // Delay entre lotes
+        
+        for (let i = 0; i < images.length; i += batchSize) {
+            const batch = Array.from(images).slice(i, i + batchSize);
+            
+            // Cargar lote actual
+            batch.forEach(img => {
+                if (img.dataset.src) {
+                    img.src = img.dataset.src;
+                    delete img.dataset.src;
+                }
+            });
+            
+            // Esperar antes del siguiente lote
+            if (i + batchSize < images.length) {
+                await new Promise(resolve => setTimeout(resolve, delay));
+            }
+        }
     }
 
     async preloadImages() {
