@@ -251,7 +251,7 @@ class PokemonGuide {
         return {
             id: pokemonData.id,
             name: this.extractNames(speciesData.names || []),
-            image: pokemonData.sprites.front_default || `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonData.id}.png`,
+            image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonData.id}.png`,
             height: pokemonData.height,
             weight: pokemonData.weight,
             generation: speciesData.generation?.name || 'generation-i',
@@ -441,6 +441,48 @@ class PokemonGuide {
     }
 
     getTypeIcon(typeName) {
+        // Create img element for PNG emoji
+        const img = document.createElement('img');
+        img.src = `docs/emoji_icons/${typeName}.png`;
+        img.alt = typeName;
+        img.className = 'type-emoji';
+        img.style.width = '16px';
+        img.style.height = '16px';
+        img.style.verticalAlign = 'middle';
+        
+        // Fallback to text emoji if image fails
+        const typeIcons = {
+            'normal': '⚪',
+            'fire': '🔥',
+            'water': '💧',
+            'electric': '⚡',
+            'grass': '🌿',
+            'ice': '❄️',
+            'fighting': '👊',
+            'poison': '☠️',
+            'ground': '🌍',
+            'flying': '🪶',
+            'psychic': '🔮',
+            'bug': '🐛',
+            'rock': '🪨',
+            'ghost': '👻',
+            'dragon': '🐉',
+            'dark': '🌙',
+            'steel': '⚙️',
+            'fairy': '🧚'
+        };
+        
+        img.onerror = () => {
+            img.style.display = 'none';
+            const span = document.createElement('span');
+            span.textContent = typeIcons[typeName] || '❓';
+            img.parentNode.replaceChild(span, img);
+        };
+        
+        return img;
+    }
+
+    getTypeIconText(typeName) {
         const typeIcons = {
             'normal': '⚪',
             'fire': '🔥',
@@ -493,9 +535,7 @@ class PokemonGuide {
             const badge = document.createElement('span');
             badge.className = 'type-badge';
             
-            const icon = document.createElement('span');
-            icon.className = 'type-icon';
-            icon.textContent = this.getTypeIcon(type.name);
+            const icon = this.getTypeIcon(type.name);
             
             const text = document.createElement('span');
             text.textContent = window.i18n.t(`types.${type.name}`) || type.translations[currentLang] || type.name;
@@ -641,7 +681,7 @@ class PokemonGuide {
             });
             
             const img = document.createElement('img');
-            img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${evolution.id}.png`;
+            img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${evolution.id}.png`;
             img.alt = evolution.name;
             img.className = 'evolution-image';
             
@@ -805,7 +845,7 @@ class PokemonGuide {
             img.className = 'pokemon-list-image';
             img.style.backgroundColor = '#f0f0f0';
             // No cargar imagen inmediatamente
-            img.dataset.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`;
+            img.dataset.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${i}.png`;
             
             const id = document.createElement('div');
             id.className = 'pokemon-list-id';
@@ -889,7 +929,7 @@ class PokemonGuide {
             const img = new Image();
             img.onload = () => resolve();
             img.onerror = () => resolve(); // Continue even if image fails
-            img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`;
+            img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonId}.png`;
         });
     }
 
@@ -949,7 +989,7 @@ class PokemonGuide {
                 // Types
                 pdf.setFontSize(8);
                 pdf.setFont(undefined, 'normal');
-                const types = pokemon.types.map(type => this.getTypeIcon(type.name) + ' ' + (window.i18n.t(`types.${type.name}`) || type.name)).join(' ');
+                const types = pokemon.types.map(type => this.getTypeIconText(type.name) + ' ' + (window.i18n.t(`types.${type.name}`) || type.name)).join(' ');
                 pdf.text(types, x + 35, y + 24);
                 
                 // Stats (simplified)

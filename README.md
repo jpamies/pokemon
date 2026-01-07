@@ -18,6 +18,10 @@ Una aplicación web estática diseñada específicamente para ayudar a los niño
 - **[📥 Guía Completa por ID](docs/pdf/pokemon_complet_catala.pdf)** - 1,025 Pokémon ordenados por número
 - **[📥 Guía Completa por Color](docs/pdf/pokemon_complet_catala_by_color.pdf)** - 1,025 Pokémon ordenados por color
 
+### 🗜️ **Versiones Comprimidas** (Menor tamaño)
+- **[📦 Guía Completa por ID (Comprimida)](docs/pdf/pokemon_complet_catala_compressed.pdf)** - Versión optimizada
+- **[📦 Guía Completa por Color (Comprimida)](docs/pdf/pokemon_complet_catala_by_color_compressed.pdf)** - Versión optimizada
+
 *Ambas versiones incluyen todos los Pokémon de las 9 generaciones con descripciones completas en catalán*
 
 ## 📚 PDFs por Generación

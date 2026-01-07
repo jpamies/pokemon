@@ -14,15 +14,16 @@ YELLOW = \033[1;33m
 RED = \033[0;31m
 NC = \033[0m # No Color
 
-.PHONY: help pdf all clean cache
+.PHONY: help pdf all complete clean cache
 
 # Comando por defecto
 help:
 	@echo "$(GREEN)🐾 Pokémon PDF Generator$(NC)"
 	@echo ""
 	@echo "$(YELLOW)Comandos disponibles:$(NC)"
-	@echo "  make pdf                    - Generar todos los PDFs"
+	@echo "  make pdf                    - Generar todos los PDFs por generación"
 	@echo "  make all                    - Generar todos los PDFs (alias de pdf)"
+	@echo "  make complete               - Generar PDFs completos (1,025 Pokémon)"
 	@echo "  make pdf gen=N              - Generar PDFs de generación N (1-9)"
 	@echo "  make pdf order=color        - Generar PDFs ordenados por color"
 	@echo "  make pdf gen=N order=color  - Generar generación N por color"
@@ -32,7 +33,7 @@ help:
 	@echo "$(YELLOW)Ejemplos:$(NC)"
 	@echo "  make pdf gen=1              - Solo Generación I (Kanto)"
 	@echo "  make pdf gen=2 order=color  - Generación II por color"
-	@echo "  make pdf                    - Todas las generaciones"
+	@echo "  make complete               - PDFs completos con todos los Pokémon"
 
 # Generar PDFs
 pdf:
@@ -48,6 +49,12 @@ endif
 
 # Alias para generar todos los PDFs
 all: pdf
+
+# Generar PDFs completos
+complete:
+	@echo "$(GREEN)📚 Generando PDFs completos...$(NC)"
+	@$(PYTHON) $(SCRIPTS_DIR)/make_all_pdfs.py complete
+	@echo "$(GREEN)✅ PDFs completos generados$(NC)"
 
 # Limpiar archivos temporales
 clean:

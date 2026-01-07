@@ -12,7 +12,7 @@ import os
 import hashlib
 
 # Cache directories
-CACHE_DIR = '../cache'
+CACHE_DIR = os.path.join(os.path.dirname(__file__), '..', 'cache')
 DATA_CACHE_DIR = os.path.join(CACHE_DIR, 'data')
 IMAGE_CACHE_DIR = os.path.join(CACHE_DIR, 'images')
 TRANSLATION_CACHE_DIR = os.path.join(CACHE_DIR, 'translations')
@@ -324,9 +324,12 @@ def download_image(url):
     if not url:
         return None
     
-    # Create cache filename from URL hash
-    url_hash = hashlib.md5(url.encode()).hexdigest()
-    cache_file = os.path.join(IMAGE_CACHE_DIR, f'{url_hash}_gradient.png')
+    # Use official artwork URL
+    artwork_url = url.replace('/sprites/pokemon/', '/sprites/pokemon/other/official-artwork/')
+    
+    # Create cache filename from artwork URL hash
+    url_hash = hashlib.md5(artwork_url.encode()).hexdigest()
+    cache_file = os.path.join(IMAGE_CACHE_DIR, f'{url_hash}_artwork.png')
     
     # Try to load from cache first
     if os.path.exists(cache_file):
@@ -335,50 +338,43 @@ def download_image(url):
         except:
             pass  # If cache is corrupted, download again
     
-    # Download from URL and create gradient background
+    # Download from URL - use official artwork
+    print(f"🎨 Using artwork URL: {artwork_url}")
+    
     try:
-        response = requests.get(url)
-        image_data = response.content
+        from PIL import Image
+        response = requests.get(artwork_url, timeout=10)
+        response.raise_for_status()
         
-        # Create image with gradient background using PIL
-        from PIL import Image, ImageDraw
-        import io
+        # Load and save directly without gradient (transparent background)
+        img_data = BytesIO(response.content)
+        img = Image.open(img_data)
         
-        # Load Pokemon image
-        pokemon_img = Image.open(io.BytesIO(image_data)).convert("RGBA")
-        
-        # Create gradient background
-        width, height = pokemon_img.size
-        gradient_img = Image.new('RGBA', (width, height), (0, 0, 0, 0))
-        draw = ImageDraw.Draw(gradient_img)
-        
-        # Create diagonal gradient from #f5f7fa to #c3cfe2
-        for y in range(height):
-            for x in range(width):
-                # Calculate diagonal position (0 to 1)
-                diagonal_pos = (x + y) / (width + height - 2)
-                
-                # Interpolate colors
-                r = int(245 + (195 - 245) * diagonal_pos)
-                g = int(247 + (207 - 247) * diagonal_pos)
-                b = int(250 + (226 - 250) * diagonal_pos)
-                
-                gradient_img.putpixel((x, y), (r, g, b, 255))
-        
-        # Composite Pokemon over gradient
-        final_img = Image.alpha_composite(gradient_img, pokemon_img)
+        # Convert to RGBA to ensure transparency
+        if img.mode != 'RGBA':
+            img = img.convert('RGBA')
         
         # Save to cache
-        final_img.save(cache_file, 'PNG')
+        img.save(cache_file, 'PNG')
+        print(f"✅ Saved artwork to cache: {cache_file}")
         
         return ImageReader(cache_file)
     except Exception as e:
-        print(f"Error processing image {url}: {e}")
-        # Fallback to original image without gradient
+        print(f"Error with official artwork {artwork_url}: {e}")
+        # Fallback to basic sprite
         try:
-            response = requests.get(url)
-            return ImageReader(BytesIO(response.content))
-        except:
+            from PIL import Image
+            print(f"⚠️ Falling back to basic sprite: {url}")
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            img_data = BytesIO(response.content)
+            img = Image.open(img_data)
+            if img.mode != 'RGBA':
+                img = img.convert('RGBA')
+            img.save(cache_file, 'PNG')
+            return ImageReader(cache_file)
+        except Exception as fallback_error:
+            print(f"Error in fallback for {url}: {fallback_error}")
             return None
 
 def get_generation(pokemon_id):
@@ -408,15 +404,15 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
     c.setFillColor(HexColor('#ffffff'))
     c.rect(x, y, card_width, card_height, fill=1)
     
-    # Card border (like real Pokemon cards)
+    # Card border (like real Pokemon cards) - rounded corners
     c.setStrokeColor(HexColor('#2c3e50'))
     c.setLineWidth(2)
-    c.rect(x, y, card_width, card_height)
+    c.rect(x, y, card_width, card_height, fill=0, stroke=1)
     
     # Header with Pokemon color as background
     pokemon_color = POKEMON_COLORS.get(pokemon['color'], '#f8f9fa')
     c.setFillColor(HexColor(pokemon_color))
-    c.rect(x + 2, y + card_height - 35, card_width - 4, 33, fill=1)
+    c.rect(x + 1, y + card_height - 36, card_width - 2, 35, fill=1, stroke=0)
     
     # Pokemon name (left side) - white text with black outline
     c.setFont("Helvetica-Bold", 12)
@@ -471,11 +467,8 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
     
     if image:
         try:
-            # Simple background
-            c.setFillColor(HexColor('#ffffff'))
-            c.roundRect(img_x - 5, img_y - 5, img_size + 10, img_size + 10, 5, fill=1)
-            
-            c.drawImage(image, img_x, img_y, width=img_size, height=img_size)
+            # Draw image with transparency (no border)
+            c.drawImage(image, img_x, img_y, width=img_size, height=img_size, mask='auto')
         except:
             pass
     
@@ -627,7 +620,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                 try:
                     evo_image = download_image(evo_pokemon['image_url'])
                     if evo_image:
-                        c.drawImage(evo_image, evo_x, evo_y + row_height, width=img_size, height=img_size)
+                        c.drawImage(evo_image, evo_x, evo_y + row_height, width=img_size, height=img_size, mask='auto')
                         
                         name = evo_pokemon['name'].upper()
                         c.setFont("Helvetica", font_size)
@@ -639,7 +632,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                         if evo_pokemon['id'] == pokemon['id']:
                             c.setStrokeColor(HexColor('#e74c3c'))
                             c.setLineWidth(2)
-                            c.rect(evo_x - 1, evo_y + row_height - 1, img_size + 2, img_size + 2)
+                            c.roundRect(evo_x - 1, evo_y + row_height - 1, img_size + 2, img_size + 2, 3)
                             c.setStrokeColor(HexColor('#2c3e50'))
                             c.setLineWidth(1)
                 except:
@@ -661,7 +654,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                 try:
                     evo_image = download_image(evo_pokemon['image_url'])
                     if evo_image:
-                        c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size)
+                        c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size, mask='auto')
                         
                         name = evo_pokemon['name'].upper()
                         c.setFont("Helvetica", font_size)
@@ -673,7 +666,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                         if evo_pokemon['id'] == pokemon['id']:
                             c.setStrokeColor(HexColor('#e74c3c'))
                             c.setLineWidth(2)
-                            c.rect(evo_x - 1, evo_y - 1, img_size + 2, img_size + 2)
+                            c.roundRect(evo_x - 1, evo_y - 1, img_size + 2, img_size + 2, 3)
                             c.setStrokeColor(HexColor('#2c3e50'))
                             c.setLineWidth(1)
                 except:
@@ -710,7 +703,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                 try:
                     evo_image = download_image(evo_pokemon['image_url'])
                     if evo_image:
-                        c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size)
+                        c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size, mask='auto')
                         
                         name = evo_pokemon['name'].upper()
                         c.setFont("Helvetica", font_size)
@@ -722,7 +715,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                         if evo_pokemon['id'] == pokemon['id']:
                             c.setStrokeColor(HexColor('#e74c3c'))
                             c.setLineWidth(2)
-                            c.rect(evo_x - 1, evo_y - 1, img_size + 2, img_size + 2)
+                            c.roundRect(evo_x - 1, evo_y - 1, img_size + 2, img_size + 2, 3)
                             c.setStrokeColor(HexColor('#2c3e50'))
                             c.setLineWidth(1)
                 except:
