@@ -1,0 +1,49 @@
+{
+  "id": 863,
+  "name": "Perrserker",
+  "height": 8,
+  "weight": 280,
+  "base_experience": 154,
+  "types": [
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "battle-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "tough-claws",
+      "is_hidden": false
+    },
+    {
+      "name": "steely-spirit",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 100,
+    "special-attack": 50,
+    "special-defense": 60,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/863.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/863.png"
+  },
+  "color": "brown",
+  "generation": 8,
+  "descriptions": {
+    "en": "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
+    "es": "El pelo de la cabeza se le ha endurecido hasta el punto de parecer un yelmo de hierro. Posee un temperamento muy combativo.",
+    "ca": "El que sembla un casc de ferro és en realitat pèl endureït. Aquest Pokémon viu per la emoció de la batalla."
+  },
+  "names": {
+    "en": "Perrserker",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Perrserker"
+  }
+}

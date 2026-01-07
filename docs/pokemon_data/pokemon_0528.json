@@ -1,0 +1,50 @@
+{
+  "id": 528,
+  "name": "Swoobat",
+  "height": 9,
+  "weight": 105,
+  "base_experience": 149,
+  "types": [
+    "psychic",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "unaware",
+      "is_hidden": false
+    },
+    {
+      "name": "klutz",
+      "is_hidden": false
+    },
+    {
+      "name": "simple",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 67,
+    "attack": 57,
+    "defense": 55,
+    "special-attack": 77,
+    "special-defense": 55,
+    "speed": 114
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/528.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/528.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.",
+    "es": "Cuando emite ondas ultrasónicas, que incluso pueden reventar el cemento, agita su cola con vehemencia.",
+    "ca": "Emet ones sonores de diverses freqüències del seu nas, incloent-n'hi algunes prou potents per destruir roques."
+  },
+  "names": {
+    "en": "Swoobat",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Swoobat"
+  }
+}

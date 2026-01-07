@@ -1,0 +1,50 @@
+{
+  "id": 364,
+  "name": "Sealeo",
+  "height": 11,
+  "weight": 876,
+  "base_experience": 144,
+  "types": [
+    "ice",
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "thick-fat",
+      "is_hidden": false
+    },
+    {
+      "name": "ice-body",
+      "is_hidden": false
+    },
+    {
+      "name": "oblivious",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 70,
+    "special-attack": 75,
+    "special-defense": 70,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/364.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/364.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "SEALEO has the habit of always juggling on the tip of its nose anything it sees for the first time. This POKéMON occasionally entertains itself by balancing and rolling a SPHEAL on its nose.",
+    "es": "Su nariz es muy sensible. Cuando ve algo por primera vez, lo toca con ella para recordarlo después.",
+    "ca": "El SEALEO té el costum de balancejar a la punta del seu nas qualsevol cosa que veu per primera vegada. Aquest POKÉMON de vegades s'entretén equilibrant i fent rodar un SPHEAL sobre el seu nas."
+  },
+  "names": {
+    "en": "Sealeo",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Sealeo"
+  }
+}

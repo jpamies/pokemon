@@ -1,0 +1,41 @@
+{
+  "id": 486,
+  "name": "Regigigas",
+  "height": 37,
+  "weight": 4200,
+  "base_experience": 302,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "slow-start",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 110,
+    "attack": 160,
+    "defense": 110,
+    "special-attack": 80,
+    "special-defense": 110,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/486.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/486.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/486.png"
+  },
+  "color": "white",
+  "generation": 4,
+  "descriptions": {
+    "en": "There is an enduring legend that states this Pokémon towed continents with ropes.",
+    "es": "Se dice que usó rocas, magma y un hielo especial de montaña para crear Pokémon con su aspecto.",
+    "ca": "Hi ha una llegenda persistent que diu que aquest Pokémon va arrossegar continents amb cordes."
+  },
+  "names": {
+    "en": "Regigigas",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Regigigas"
+  }
+}

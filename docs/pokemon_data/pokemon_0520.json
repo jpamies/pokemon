@@ -1,0 +1,50 @@
+{
+  "id": 520,
+  "name": "Tranquill",
+  "height": 6,
+  "weight": 150,
+  "base_experience": 125,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "big-pecks",
+      "is_hidden": false
+    },
+    {
+      "name": "super-luck",
+      "is_hidden": false
+    },
+    {
+      "name": "rivalry",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 62,
+    "attack": 77,
+    "defense": 62,
+    "special-attack": 50,
+    "special-defense": 42,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/520.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/520.png"
+  },
+  "color": "gray",
+  "generation": 5,
+  "descriptions": {
+    "en": "It can return to its Trainer’s location regardless of the distance separating them.",
+    "es": "Según los rumores, en lo más profundo del bosque donde mora Tranquill, hay un mundo pacífico y exento de luchas.",
+    "ca": "Pot tornar a la localització del seu Entrenador, independent de la distància que els separi."
+  },
+  "names": {
+    "en": "Tranquill",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Tranquill"
+  }
+}

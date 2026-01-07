@@ -1,0 +1,50 @@
+{
+  "id": 34,
+  "name": "Nidoking",
+  "height": 14,
+  "weight": 620,
+  "base_experience": 227,
+  "types": [
+    "poison",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "rivalry",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 81,
+    "attack": 102,
+    "defense": 77,
+    "special-attack": 85,
+    "special-defense": 75,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/34.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+    "es": "Es fácil reconocerlo por tener una dura piel y un gran cuerno lleno de peligrosísimo veneno.",
+    "ca": "Utilitza la seva cua poderosa en batalla per aixafar, estrènyer i finalment trencar els ossos de la seva presa."
+  },
+  "names": {
+    "en": "Nidoking",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Nidoking"
+  }
+}

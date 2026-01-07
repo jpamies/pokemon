@@ -1,0 +1,49 @@
+{
+  "id": 108,
+  "name": "Lickitung",
+  "height": 12,
+  "weight": 655,
+  "base_experience": 77,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "own-tempo",
+      "is_hidden": false
+    },
+    {
+      "name": "oblivious",
+      "is_hidden": false
+    },
+    {
+      "name": "cloud-nine",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 55,
+    "defense": 75,
+    "special-attack": 60,
+    "special-defense": 75,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/108.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png"
+  },
+  "color": "pink",
+  "generation": 1,
+  "descriptions": {
+    "en": "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.",
+    "es": "Su larga lengua, recubierta de saliva pegajosa, se pega a todo, por lo que es muy útil.",
+    "ca": "La seva llengua es pot allargar com la d'un camaleó. Deixa una sensació de formigueig quan lampe els enemics."
+  },
+  "names": {
+    "en": "Lickitung",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Lickitung"
+  }
+}

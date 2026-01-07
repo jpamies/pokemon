@@ -1,0 +1,49 @@
+{
+  "id": 117,
+  "name": "Seadra",
+  "height": 12,
+  "weight": 250,
+  "base_experience": 154,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "sniper",
+      "is_hidden": false
+    },
+    {
+      "name": "damp",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 95,
+    "special-attack": 95,
+    "special-defense": 45,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/117.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png"
+  },
+  "color": "blue",
+  "generation": 1,
+  "descriptions": {
+    "en": "Capable of swim­ ming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
+    "es": "Las afiladas púas que le recubren el cuerpo se le erizan y pueden causar el debilitamiento con solo tocarlo.",
+    "ca": "Capaç de nedar cap enrere movent ràpidament les aletes pectorals semblants a ales i la seva cua robusta."
+  },
+  "names": {
+    "en": "Seadra",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Seadra"
+  }
+}

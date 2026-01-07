@@ -1,0 +1,83 @@
+/* Print Styles for Pokemon Guide */
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    body {
+        background: white !important;
+        font-size: 14pt;
+        line-height: 1.4;
+        color: black !important;
+    }
+
+    header {
+        display: none !important;
+    }
+
+    .navigation {
+        display: none !important;
+    }
+
+    .pokemon-counter {
+        color: black !important;
+        text-shadow: none !important;
+    }
+
+    .loading,
+    .error-message {
+        display: none !important;
+    }
+
+    .pokemon-container {
+        box-shadow: none !important;
+        border: 2px solid #333 !important;
+        page-break-inside: avoid;
+        margin: 0 !important;
+        padding: 20pt !important;
+    }
+
+    .pokemon-image {
+        max-width: 150pt !important;
+        max-height: 150pt !important;
+        filter: none !important;
+    }
+
+    .pokemon-name {
+        color: black !important;
+        text-shadow: none !important;
+        font-size: 24pt !important;
+        margin-bottom: 15pt !important;
+    }
+
+    .type-badge {
+        background: #f0f0f0 !important;
+        color: black !important;
+        border: 1pt solid #333 !important;
+        text-shadow: none !important;
+    }
+
+    .pokemon-stats {
+        margin-bottom: 20pt !important;
+    }
+
+    .stat {
+        background: #f8f8f8 !important;
+        border: 1pt solid #333 !important;
+    }
+
+    .stat span {
+        color: black !important;
+    }
+
+    /* Add page break after each Pokemon */
+    .pokemon-container {
+        page-break-after: always;
+    }
+
+    /* Don't break after the last Pokemon */
+    .pokemon-container:last-child {
+        page-break-after: auto;
+    }
+}

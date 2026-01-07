@@ -1,0 +1,46 @@
+{
+  "id": 591,
+  "name": "Amoonguss",
+  "height": 6,
+  "weight": 105,
+  "base_experience": 162,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "effect-spore",
+      "is_hidden": false
+    },
+    {
+      "name": "regenerator",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 114,
+    "attack": 85,
+    "defense": 70,
+    "special-attack": 85,
+    "special-defense": 80,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/591.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/591.png"
+  },
+  "color": "white",
+  "generation": 5,
+  "descriptions": {
+    "en": "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+    "es": "Aunque intenta pasar por parte superior de una Poké Ball para atraer a sus presas, consigue engañar a pocos.",
+    "ca": "Atrau les preses a prop seu balancejant i movent els seus casquets de braços que semblen Pokéballs."
+  },
+  "names": {
+    "en": "Amoonguss",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Amoonguss"
+  }
+}

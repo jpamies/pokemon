@@ -1,0 +1,50 @@
+{
+  "id": 710,
+  "name": "Pumpkaboo-Average",
+  "height": 4,
+  "weight": 50,
+  "base_experience": 67,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "pickup",
+      "is_hidden": false
+    },
+    {
+      "name": "frisk",
+      "is_hidden": false
+    },
+    {
+      "name": "insomnia",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 49,
+    "attack": 66,
+    "defense": 70,
+    "special-attack": 44,
+    "special-defense": 55,
+    "speed": 51
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/710.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/710.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png"
+  },
+  "color": "brown",
+  "generation": 6,
+  "descriptions": {
+    "en": "The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.",
+    "es": "En el interior de la calabaza reside un espíritu que ha permanecido atrapado en este mundo. Entra en acción al caer la noche.",
+    "ca": "El cos de carbassa està habitat per un esperit atrapat en aquest món. Quan es pon el sol, es torna inquiet i actiu."
+  },
+  "names": {
+    "en": "Pumpkaboo-Average",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Pumpkaboo-Average"
+  }
+}

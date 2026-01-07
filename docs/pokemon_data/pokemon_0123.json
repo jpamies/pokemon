@@ -1,0 +1,50 @@
+{
+  "id": 123,
+  "name": "Scyther",
+  "height": 15,
+  "weight": 560,
+  "base_experience": 100,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "technician",
+      "is_hidden": false
+    },
+    {
+      "name": "steadfast",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 80,
+    "special-attack": 55,
+    "special-defense": 80,
+    "speed": 105
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/123.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png"
+  },
+  "color": "green",
+  "generation": 1,
+  "descriptions": {
+    "en": "With ninja-like agility and speed, it can create the illusion that there is more than one.",
+    "es": "Destroza a su presa con las guadañas que tiene. No es común que use las alas para volar.",
+    "ca": "Amb l'agilitat i la velocitat d'un ninja, pot crear la il·lusió que hi ha més d'un."
+  },
+  "names": {
+    "en": "Scyther",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Scyther"
+  }
+}

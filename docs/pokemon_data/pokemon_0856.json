@@ -1,0 +1,49 @@
+{
+  "id": 856,
+  "name": "Hatenna",
+  "height": 4,
+  "weight": 34,
+  "base_experience": 53,
+  "types": [
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "healer",
+      "is_hidden": false
+    },
+    {
+      "name": "anticipation",
+      "is_hidden": false
+    },
+    {
+      "name": "magic-bounce",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 42,
+    "attack": 30,
+    "defense": 45,
+    "special-attack": 56,
+    "special-defense": 53,
+    "speed": 39
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/856.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/856.png"
+  },
+  "color": "pink",
+  "generation": 8,
+  "descriptions": {
+    "en": "Via the protrusion on its head, it senses other creatures’ emotions. If you don’t have a calm disposition, it will never warm up to you.",
+    "es": "Percibe los sentimientos de los seres vivos con la protuberancia de la cabeza. Solo abre su corazón a quienes muestren un carácter sosegado.",
+    "ca": "Mitjançant la prominència del seu cap, detecta les emocions d'altres criatures. Si no tens una disposició tranquil·la, mai s'acostumaran a tu."
+  },
+  "names": {
+    "en": "Hatenna",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Hatenna"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": 253,
+  "name": "Grovyle",
+  "height": 9,
+  "weight": 216,
+  "base_experience": 142,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "unburden",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "special-attack": 85,
+    "special-defense": 65,
+    "speed": 95
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/253.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/253.png"
+  },
+  "color": "green",
+  "generation": 3,
+  "descriptions": {
+    "en": "The leaves growing out of GROVYLE’s body are convenient for camouflaging it from enemies in the forest. This POKéMON is a master at climbing trees in jungles.",
+    "es": "Los desarrollados músculos que tiene en las extremidades inferiores le hacen ser muy ágil y le permiten dar grandes saltos.",
+    "ca": "Les fulles que creixen al cos de GROVYLE són ideals per amagar-lo dels seus enemics al bosc. Aquest POKéMON és un expert trepant pels arbres de la jungla."
+  },
+  "names": {
+    "en": "Grovyle",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Grovyle"
+  }
+}

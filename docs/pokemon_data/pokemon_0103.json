@@ -1,0 +1,46 @@
+{
+  "id": 103,
+  "name": "Exeggutor",
+  "height": 20,
+  "weight": 1200,
+  "base_experience": 186,
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "is_hidden": false
+    },
+    {
+      "name": "harvest",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "special-attack": 125,
+    "special-defense": 75,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/103.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
+    "es": "Sus tres cabezas piensan de forma independiente. Sin embargo, son amigas y no suelen discutir nunca.",
+    "ca": "Segons la llegenda, de tant en tant, un dels seus caps es desprèn i continua com a EXEGGCUTE."
+  },
+  "names": {
+    "en": "Exeggutor",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Exeggutor"
+  }
+}

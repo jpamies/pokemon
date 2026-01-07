@@ -1,0 +1,49 @@
+{
+  "id": 53,
+  "name": "Persian",
+  "height": 10,
+  "weight": 320,
+  "base_experience": 154,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "limber",
+      "is_hidden": false
+    },
+    {
+      "name": "technician",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 70,
+    "defense": 60,
+    "special-attack": 65,
+    "special-defense": 65,
+    "speed": 115
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/53.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+    "es": "Aunque es muy admirado por el pelo, es difícil de entrenar como mascota, porque es un poco travieso.",
+    "ca": "Tot i que la seva pell té molts admiradors, és difícil de tenir com a animal de companyia per la seva naturalesa variable i rancuniosa."
+  },
+  "names": {
+    "en": "Persian",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Persian"
+  }
+}

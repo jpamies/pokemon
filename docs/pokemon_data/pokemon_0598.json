@@ -1,0 +1,46 @@
+{
+  "id": 598,
+  "name": "Ferrothorn",
+  "height": 10,
+  "weight": 1100,
+  "base_experience": 171,
+  "types": [
+    "grass",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "iron-barbs",
+      "is_hidden": false
+    },
+    {
+      "name": "anticipation",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 74,
+    "attack": 94,
+    "defense": 131,
+    "special-attack": 54,
+    "special-defense": 116,
+    "speed": 20
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/598.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/598.png"
+  },
+  "color": "gray",
+  "generation": 5,
+  "descriptions": {
+    "en": "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
+    "es": "Azota al enemigo con sus tres tentáculos y después dispara púas hasta que no deja ni rastro del rival.",
+    "ca": "Lluita balancejant els seus tres tentacles amb punxes. Un cop d'aquests punxons d'acer pot reduir una roca a runes."
+  },
+  "names": {
+    "en": "Ferrothorn",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Ferrothorn"
+  }
+}

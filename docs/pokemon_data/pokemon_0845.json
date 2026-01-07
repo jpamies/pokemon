@@ -1,0 +1,42 @@
+{
+  "id": 845,
+  "name": "Cramorant",
+  "height": 8,
+  "weight": 180,
+  "base_experience": 166,
+  "types": [
+    "flying",
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "gulp-missile",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 55,
+    "special-attack": 85,
+    "special-defense": 95,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/845.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/845.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/845.png"
+  },
+  "color": "blue",
+  "generation": 8,
+  "descriptions": {
+    "en": "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight.",
+    "es": "Su colosal potencia le permite machacar al rival de un solo golpe, aunque su carácter despistado lo lleva a olvidarse de su presencia.",
+    "ca": "És tan fort que pot deixar inconscients alguns oponents d'un sol cop, però a vegades també es pot oblidar de què està lluitant enmig de la batalla."
+  },
+  "names": {
+    "en": "Cramorant",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Cramorant"
+  }
+}

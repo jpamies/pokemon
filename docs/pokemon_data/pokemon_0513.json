@@ -1,0 +1,45 @@
+{
+  "id": 513,
+  "name": "Pansear",
+  "height": 6,
+  "weight": 110,
+  "base_experience": 63,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "gluttony",
+      "is_hidden": false
+    },
+    {
+      "name": "blaze",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 48,
+    "special-attack": 53,
+    "special-defense": 48,
+    "speed": 64
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/513.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/513.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+    "es": "Pokémon muy inteligente que tiene la costumbre de tostar las bayas antes de comérselas. Ayuda mucho a los humanos.",
+    "ca": "Quan s'enfada, la temperatura del plomall del seu cap arriba als 600°F. Fa servir el plomall per torrar baies."
+  },
+  "names": {
+    "en": "Pansear",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Pansear"
+  }
+}

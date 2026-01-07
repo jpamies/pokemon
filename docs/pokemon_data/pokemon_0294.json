@@ -1,0 +1,45 @@
+{
+  "id": 294,
+  "name": "Loudred",
+  "height": 10,
+  "weight": 405,
+  "base_experience": 126,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "soundproof",
+      "is_hidden": false
+    },
+    {
+      "name": "scrappy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 84,
+    "attack": 71,
+    "defense": 43,
+    "special-attack": 71,
+    "special-defense": 43,
+    "speed": 48
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/294.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/294.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "LOUDRED’s bellowing can completely decimate a wood-frame house. It uses its voice to punish its foes. This POKéMON’s round ears serve as loudspeakers.",
+    "es": "Aspira profundamente y luego, usando sus fuertes abdominales, suelta un potente vozarrón.",
+    "ca": "Els udols del LOUDRED poden destruir completament una casa de fusta. Utilitza la seva veu per castigar els seus enemics. Les orelles rodones d'aquest POKÉMON funcionen com a altaveus."
+  },
+  "names": {
+    "en": "Loudred",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Loudred"
+  }
+}

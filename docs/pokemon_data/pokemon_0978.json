@@ -1,0 +1,46 @@
+{
+  "id": 978,
+  "name": "Tatsugiri-Curly",
+  "height": 3,
+  "weight": 80,
+  "base_experience": 166,
+  "types": [
+    "dragon",
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "commander",
+      "is_hidden": false
+    },
+    {
+      "name": "storm-drain",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 68,
+    "attack": 50,
+    "defense": 60,
+    "special-attack": 120,
+    "special-defense": 95,
+    "speed": 82
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/978.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/978.png"
+  },
+  "color": "pink",
+  "generation": 9,
+  "descriptions": {
+    "en": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+    "es": "Descripción no disponible.",
+    "ca": "Aquest és un petit Pokémon drac. Viu dins la boca de Dondozo per protegir-se dels enemics de l'exterior."
+  },
+  "names": {
+    "en": "Tatsugiri-Curly",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Tatsugiri-Curly"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": 183,
+  "name": "Marill",
+  "height": 4,
+  "weight": 85,
+  "base_experience": 88,
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "thick-fat",
+      "is_hidden": false
+    },
+    {
+      "name": "huge-power",
+      "is_hidden": false
+    },
+    {
+      "name": "sap-sipper",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 20,
+    "defense": 50,
+    "special-attack": 20,
+    "special-defense": 50,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/183.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png"
+  },
+  "color": "blue",
+  "generation": 2,
+  "descriptions": {
+    "en": "The tip of its tail, which con­ tains oil that is lighter than wa­ ter, lets it swim without drowning.",
+    "es": "Tiene una piel que repele el agua. De hecho, puede pasarse horas jugando en el agua sin mojarse.",
+    "ca": "La punta de la seva cua, que conté oli més lleuger que l'aigua, li permet nedar sense ofegar-se."
+  },
+  "names": {
+    "en": "Marill",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Marill"
+  }
+}

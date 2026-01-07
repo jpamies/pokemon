@@ -1,0 +1,49 @@
+{
+  "id": 933,
+  "name": "Naclstack",
+  "height": 6,
+  "weight": 1050,
+  "base_experience": 124,
+  "types": [
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "purifying-salt",
+      "is_hidden": false
+    },
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "clear-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 100,
+    "special-attack": 35,
+    "special-defense": 65,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/933.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/933.png"
+  },
+  "color": "brown",
+  "generation": 9,
+  "descriptions": {
+    "en": "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey’s body.",
+    "es": "Descripción no disponible.",
+    "ca": "Aquest Pokémon asseca i cura la seva presa ruixant-la amb sal. El procés de curat li treu l'aigua del cos."
+  },
+  "names": {
+    "en": "Naclstack",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Naclstack"
+  }
+}

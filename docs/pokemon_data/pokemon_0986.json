@@ -1,0 +1,42 @@
+{
+  "id": 986,
+  "name": "Brute-Bonnet",
+  "height": 12,
+  "weight": 210,
+  "base_experience": 285,
+  "types": [
+    "grass",
+    "dark"
+  ],
+  "abilities": [
+    {
+      "name": "protosynthesis",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 111,
+    "attack": 127,
+    "defense": 99,
+    "special-attack": 79,
+    "special-defense": 99,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/986.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/986.png"
+  },
+  "color": "gray",
+  "generation": 9,
+  "descriptions": {
+    "en": "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
+    "es": "Descripción no disponible.",
+    "ca": "És possible que la criatura que es descriu com a Barret Bonic en un determinat llibre sigui realment aquest Pokémon."
+  },
+  "names": {
+    "en": "Brute-Bonnet",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Brute-Bonnet"
+  }
+}

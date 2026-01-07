@@ -1,0 +1,45 @@
+{
+  "id": 181,
+  "name": "Ampharos",
+  "height": 14,
+  "weight": 615,
+  "base_experience": 230,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "static",
+      "is_hidden": false
+    },
+    {
+      "name": "plus",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 75,
+    "defense": 85,
+    "special-attack": 115,
+    "special-defense": 90,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/181.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png"
+  },
+  "color": "yellow",
+  "generation": 2,
+  "descriptions": {
+    "en": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+    "es": "La punta de su cola reluce brillantemente y puede ser vista desde lejos. Es usado como faro.",
+    "ca": "La punta de la cua brill­a intensament i es pot veure des de lluny. Actua com un far per a la gent que s'ha perdut."
+  },
+  "names": {
+    "en": "Ampharos",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Ampharos"
+  }
+}

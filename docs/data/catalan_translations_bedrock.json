@@ -1,0 +1,4102 @@
+{
+  "220": {
+    "name": "Swinub",
+    "description": "Frega el seu musell contra el terra per trobar i excavar menjar. De vegades descobreix fonts termals."
+  },
+  "670": {
+    "name": "Floette",
+    "description": "Vola pels camps de flors i té cura de les flors que comencen a marcir-se. Fa aflorar el poder amagat de les flors per combatre."
+  },
+  "365": {
+    "name": "Walrein",
+    "description": "Neda per mars gelats tot trencant els gels flotants amb les seves grans ulleres. Està protegit pel seu gruixut greix."
+  },
+  "735": {
+    "name": "Gumshoos",
+    "description": "Quan troba un rastre de la seva presa, l'assetja amb paciència... però sempre s'adorm a la caiguda de la nit."
+  },
+  "559": {
+    "name": "Scraggy",
+    "description": "La seva pell té una elasticitat gomosa, de manera que pot reduir el dany defensivament estirant-se la pell fins al coll."
+  },
+  "109": {
+    "name": "Koffing",
+    "description": "Com que emmagatzema diversos tipus de gasos tòxics al seu cos, té tendència a explotar sense avís."
+  },
+  "627": {
+    "name": "Rufflet",
+    "description": "Aixafan baies amb les seves urpes. S'enfronten valentament a qualsevol rival, per fort que sigui."
+  },
+  "277": {
+    "name": "Swellow",
+    "description": "El SWELLOW vola alt sobre els nostres caps, traçant arcs elegants al cel. Aquest Pokemon es llança en picat a gran velocitat quan veu la seva presa. La infeliç víctima és subjectada fermament pels peus amb urpes del SWELLOW, impedint-li escapar."
+  },
+  "762": {
+    "name": "Steenee",
+    "description": "Els sèpals del cap es van desenvolupar per protegir el seu cos. Són prou durs, de manera que, fins i tot si són picats per Pokémon ocells, aquest Pokémon es troba perfectament bé."
+  },
+  "298": {
+    "name": "Azurill",
+    "description": "Un Pokémon que viu a prop de l'aigua. Es mou ràpidament per terra saltant amb la seva gran cua."
+  },
+  "332": {
+    "name": "Cacturne",
+    "description": "Durant el dia, el CACTURNE roman immòbil per no perdre humitat sota el sol desert intens. Aquest POKÉMON s'activa de nit quan la temperatura baixa."
+  },
+  "918": {
+    "name": "Spidops",
+    "description": "S'agafa a les branques i als sostres fent servir els seus fils i es mou sense fer soroll. Captura la seva presa abans que ni tan sols se n'adoni."
+  },
+  "1020": {
+    "name": "Gouging-Fire",
+    "description": "Hi ha molt pocs informes sobre l'avistament d'aquesta criatura. Un breu vídeo mostra com es desferma i expulsa columnes de flames."
+  },
+  "261": {
+    "name": "Poochyena",
+    "description": "A primera vista, el POOCHYENA mossega qualsevol cosa que es mou. Aquest POKÉMON persegueix la seva presa fins que aquesta s'esgota. No obstant això, pot donar mitja volta si la presa li planta cara."
+  },
+  "631": {
+    "name": "Heatmor",
+    "description": "Respira per un forat a la cua mentre crema amb un foc intern. El Durant és la seva presa."
+  },
+  "324": {
+    "name": "Torkoal",
+    "description": "Pots saber com es troba pel fum que surt de la seva closca. Una gran velocitat és un signe de bona salut."
+  },
+  "774": {
+    "name": "Minior-Red-Meteor",
+    "description": "Originalment feia la seva llar a la capa d'ozó, es precipita a terra quan l'closca que envolta el seu cos es fa massa pesada."
+  },
+  "518": {
+    "name": "Musharna",
+    "description": "La boira que emana del seu front està carregada dels somnis de les persones i els Pokémon."
+  },
+  "148": {
+    "name": "Dragonair",
+    "description": "És un POKÉMON místic que desprèn una aura suau. Té l'habilitat de canviar les condicions climàtiques."
+  },
+  "666": {
+    "name": "Vivillon",
+    "description": "Els Vivillon amb molts patrons diferents es poden trobar arreu del món. Aquests patrons es veuen afectats pel clima del seu hàbitat."
+  },
+  "236": {
+    "name": "Tyrogue",
+    "description": "Sempre està rebossant d'energia. Per fer-se més fort, segueix lluitant encara que perdi."
+  },
+  "723": {
+    "name": "Dartrix",
+    "description": "Una mica posat, passa el seu temps lliure pentinant-se les ales. La seva preocupació per qualsevol brutícia del seu plomatge pot deixar-lo incapacitat per lluitar."
+  },
+  "373": {
+    "name": "Salamence",
+    "description": "El Salamence va sorgir a causa d'un somni intens i de llarga durada de tenir ales. Es diu que aquest desig tan fort va desencadenar una mutacio sobtada a les cel·lules d'aquest pokemon, provocant que li brotessin aquestes impressionants ales."
+  },
+  "689": {
+    "name": "Barbaracle",
+    "description": "Quan evolucionen, dos Binacle es multipliquen fins a set. Lluiten amb la força de set Binacle."
+  },
+  "959": {
+    "name": "Tinkaton",
+    "description": "Aquest intel·ligent Pokémon té un caràcter molt valent. Llança roques al cel amb el seu martell, apuntant als Corviknight que volen."
+  },
+  "758": {
+    "name": "Salazzle",
+    "description": "Per alguna raó, només s'han trobat femelles. Crea un harem invers de Salandit mascles amb els quals viu."
+  },
+  "308": {
+    "name": "Medicham",
+    "description": "Es diu que gràcies a la meditació, MEDICHAM incrementa l'energia dins del seu cos i aguditza el seu sisè sentit. Aquest POKÉMON s'amaga fondent-se amb els camps i les muntanyes."
+  },
+  "164": {
+    "name": "Noctowl",
+    "description": "Els seus ulls estan especialment adaptats. Concentren fins i tot la llum feble i li permeten veure a la foscor."
+  },
+  "534": {
+    "name": "Conkeldurr",
+    "description": "Es creu que el Conkeldurr va ensenyar als humans a fer formigó fa més de 2.000 anys."
+  },
+  "867": {
+    "name": "Runerigus",
+    "description": "Una maledicció poderosa es va teixir en una pintura antiga. Després d'absorbir l'esperit d'un Yamask, la pintura va començar a moure's."
+  },
+  "922": {
+    "name": "Pawmo",
+    "description": "Quan el seu grup és atacat, el Pawmo és el primer a llançar-se a la batalla, derrotant els enemics amb una tècnica de lluita que utilitza descàrregues elèctriques."
+  },
+  "888": {
+    "name": "Zacian",
+    "description": "Conegut com a heroi llegendari, aquest Pokémon absorbeix partícules de metall i les transforma en una arma que utilitza per lluitar."
+  },
+  "21": {
+    "name": "Spearow",
+    "description": "Batega les ales petites amb activitat per volar. Usa el bec per buscar preses entre l'herba."
+  },
+  "471": {
+    "name": "Glaceon",
+    "description": "Com a tècnica de protecció, pot congelar completament el seu pelatge per fer que els pèls s'aixequin com agulles."
+  },
+  "830": {
+    "name": "Eldegoss",
+    "description": "Les llavors adherides al seu floc de cotó estan plenes de nutrients. Les escampa amb el vent perquè les plantes i altres Pokémon en puguin beneficiar-se."
+  },
+  "563": {
+    "name": "Cofagrigus",
+    "description": "S'ha dit que s'empassen els que s'acosten massa i els converteixen en mòmies. Els agraden molt els lingots d'or."
+  },
+  "99": {
+    "name": "Kingler",
+    "description": "La pinça gran té una força de trituració de 10.000 hp. Però la seva grandària immensa la fa incòmoda d'utilitzar."
+  },
+  "133": {
+    "name": "Eevee",
+    "description": "El seu codi genètic és irregular. Pot mutar si és exposat a la radiació de les PEDRES elementals."
+  },
+  "426": {
+    "name": "Drifblim",
+    "description": "A la posta, eixams d'aquests Pokemon són transportats pel vent. Quan se'ls observa, desapareixen sobtadament."
+  },
+  "76": {
+    "name": "Golem",
+    "description": "El seu cos semblant a una roca és extremadament dur. Pot resistir fàcilment explosions de dinamita sense patir danys."
+  },
+  "975": {
+    "name": "Cetitan",
+    "description": "Aquest Pokémon deambula per zones nevades i gelades. Protegeix el seu cos amb potents músculs i una gruixuda capa de greix sota la pell."
+  },
+  "719": {
+    "name": "Diancie",
+    "description": "Una transformació sobtada de Carbink, el seu cos rosa i brillant es considera la visió més bella del món sencer."
+  },
+  "349": {
+    "name": "Feebas",
+    "description": "Les aletes de FEEBAS estan esfilagarsades i destrossades des del principi de la seva vida. A causa de la seva aparença descurada, aquest POKÉMON és àmpliament ignorat. És capaç de viure tant al mar com als rius."
+  },
+  "125": {
+    "name": "Electabuzz",
+    "description": "Normalment es troben a prop de les centrals elèctriques, però poden allunyar-se i provocar talls de llum importants a les ciutats."
+  },
+  "575": {
+    "name": "Gothorita",
+    "description": "Utilitzen l'hipnotisme per controlar la gent i els Pokémon. S'expliquen històries de Gothorita que desvien la gent per tot arreu."
+  },
+  "826": {
+    "name": "Orbeetle",
+    "description": "És famós pel seu elevat nivell d'intel·ligència, i la grandària del seu cervell és la prova que també té un immens poder psíquic."
+  },
+  "963": {
+    "name": "Finizen",
+    "description": "Li agrada jugar amb altres del seu tipus utilitzant l'anell d'aigua de la seva cua. Utilitza ones ultrasòniques per percebre les emocions d'altres éssers vius."
+  },
+  "60": {
+    "name": "Poliwag",
+    "description": "Les seves cames recentment creixudes l'impedeixen córrer. Sembla preferir nedar en lloc d'intentar estar dret."
+  },
+  "430": {
+    "name": "Honchkrow",
+    "description": "Actiu de nit, se sap que va en estols nombrosos de MURKROW."
+  },
+  "871": {
+    "name": "Pincurchin",
+    "description": "S'alimenta d'algues, utilitzant les seves dents per a llevar-les de les roques. Flueix corrent elèctric des de les puntes de les seves espines."
+  },
+  "522": {
+    "name": "Blitzle",
+    "description": "Apareix quan el cel s'omple de núvols de tempesta. Pot atrapar llamps amb la seva crinera i emmagatzemar l'electricitat."
+  },
+  "172": {
+    "name": "Pichu",
+    "description": "Encara no té la capacitat d'emmagatzemar electricitat. Pot alliberar una descàrrega si s'alegra o es sobresalta."
+  },
+  "488": {
+    "name": "Cresselia",
+    "description": "Allibera partícules brillants de les seves ales com un tel. Es diu que representa la lluna creixent."
+  },
+  "467": {
+    "name": "Magmortar",
+    "description": "Dispara boles de foc de més de 1.800 graus Celsius des dels extrems dels seus braços. Viu en cràters volcànics."
+  },
+  "37": {
+    "name": "Vulpix",
+    "description": "En néixer, només té una cua. La cua es divideix des de la punta a mesura que creix."
+  },
+  "934": {
+    "name": "Garganacl",
+    "description": "El Garganacl frota les puntes dels dits i ruixa els Pokémon ferits amb sal. Fins i tot les ferides més greus es curen de seguida."
+  },
+  "943": {
+    "name": "Mabosstiff",
+    "description": "Aquest Pokémon pot emmagatzemar energia a la seva gran papada. El Mabosstiff allibera aquesta energia de cop per allunyar els enemics."
+  },
+  "40": {
+    "name": "Wigglytuff",
+    "description": "El cos és tou i elàstic. Quan s'enfada, aspira aire i s'infla fins a una mida enorme."
+  },
+  "410": {
+    "name": "Shieldon",
+    "description": "Un Pokémon que va viure a les jungles fa uns 100 milions d'anys. La seva cara és extremadament dura."
+  },
+  "105": {
+    "name": "Marowak",
+    "description": "L'os que subjecta és la seva arma principal. El llança hàbilment com un bumerang per enderrocar els objectius."
+  },
+  "555": {
+    "name": "Darmanitan-Standard",
+    "description": "El seu foc intern crema a 1.370 °C, generant prou energia per poder destrossar un camió de càrrega amb un sol cop de puny."
+  },
+  "806": {
+    "name": "Blacephalon",
+    "description": "S'allisca cap a la gent. Llavors, sense avisar, activa l'explosió del seu propi cap. Aparentment és una mena de Bèstia Ultra."
+  },
+  "386": {
+    "name": "Deoxys-Normal",
+    "description": "El DNA d'un virus espacial va patir una mutació sobtada en exposar-se a un raig làser, i va donar lloc al DEOXYS. L'òrgan cristal·lí del pit d'aquest POKÉMON sembla ser el seu cervell."
+  },
+  "739": {
+    "name": "Crabrawler",
+    "description": "Mentre protegeix els seus punts febles amb les seves pinces, busca una obertura i llança cops de puny. Quan perd, fa escuma per la boca i es desmaia."
+  },
+  "369": {
+    "name": "Relicanth",
+    "description": "RELICANTH és una espècie de POKÉMON que ha existit durant cent milions d'anys sense canviar mai la seva forma. Aquest antic POKÉMON s'alimenta d'organismes microscòpics amb la seva boca sense dents."
+  },
+  "693": {
+    "name": "Clawitzer",
+    "description": "Les seves enormes pinces llancen canonades d'aigua prou potents per travessar els cascos dels petroliers."
+  },
+  "447": {
+    "name": "Riolu",
+    "description": "L'aura que emana del seu cos s'intensifica per alertar els altres si té por o està trist."
+  },
+  "17": {
+    "name": "Pidgeotto",
+    "description": "Molt protector de la seva extensa àrea territorial, aquest POKÉMON picarà ferotgement qualsevol intrús."
+  },
+  "914": {
+    "name": "Quaquaval",
+    "description": "Una sola puntada d'un Quaquaval pot fer rodar un camió. Aquest Pokémon utilitza les seves potes poderoses per realitzar vistoses danses de terres llunyanes."
+  },
+  "851": {
+    "name": "Centiskorch",
+    "description": "Quan s'escalfa, la seva temperatura corporal arriba als 1.500 graus Fahrenheit. Làtiga el seu cos com un fuet i es llança contra els enemics."
+  },
+  "502": {
+    "name": "Dewott",
+    "description": "L'estricte entrenament és com aprèn la tècnica fluida de la doble escata."
+  },
+  "152": {
+    "name": "Chikorita",
+    "description": "Una dolça aroma emana suaument de la fulla del seu cap. És dòcil i li encanta prendre el sol."
+  },
+  "781": {
+    "name": "Dhelmise",
+    "description": "Balancejant la seua ancla massissa, pot nocaut un Wailord amb un sol cop. El que sembla ser una alga marina verda és realment el seu cos."
+  },
+  "294": {
+    "name": "Loudred",
+    "description": "Els udols del LOUDRED poden destruir completament una casa de fusta. Utilitza la seva veu per castigar els seus enemics. Les orelles rodones d'aquest POKÉMON funcionen com a altaveus."
+  },
+  "902": {
+    "name": "Basculegion-Male",
+    "description": "S'arma amb les ànimes dels companys que van morir abans d'acomplir els seus objectius de remuntar el riu. Cap altra espècie dels rius de Hisui no pot igualar el Basculegion."
+  },
+  "1": {
+    "name": "Bulbasaur",
+    "description": "Una llavor estranya es va plantar a la seva esquena quan va néixer. La planta creix i es desenvolupa juntament amb aquest POKÉMON."
+  },
+  "451": {
+    "name": "Skorupi",
+    "description": "Agafa les preses amb les seves urpes de la cua i injecta verí. S'agafa tenaçment fins que el verí fa efecte."
+  },
+  "144": {
+    "name": "Articuno",
+    "description": "Un Pokémon ocell llegendari que es diu que apareix a les persones condemnades que es perden a les muntanyes gelades."
+  },
+  "514": {
+    "name": "Simisear",
+    "description": "Li encantan les coses dolces perquè es converteixen en energia per al foc que crema dins del seu cos."
+  },
+  "847": {
+    "name": "Barraskewda",
+    "description": "Aquest Pokémon té una mandíbula tan afilada com una llança i tan forta com l'acer. Sembla que la carn de Barraskewda també és sorprenentment saborosa."
+  },
+  "797": {
+    "name": "Celesteela",
+    "description": "Va aparèixer del Forat Ultradimensional. Els testimonis van observar com travessava el cel a gran velocitat."
+  },
+  "778": {
+    "name": "Mimikyu-Disguised",
+    "description": "La seva aparença real es desconeix. Un estudiós que va veure què hi havia sota el seu drap va ser aclaparat per la por i va morir de la impresió."
+  },
+  "282": {
+    "name": "Gardevoir",
+    "description": "GARDEVOIR té la capacitat de llegir el futur. Si percep un perill imminent per al seu ENTRENADOR, es diu que aquest POKéMON allibera tota la seva energia psicocinètica."
+  },
+  "328": {
+    "name": "Trapinch",
+    "description": "El niu de TRAPINCH és un clot inclinat i en forma de bol cavat a la sorra. Aquest POKÉMON espera pacientment que la seva presa caigui al clot. Les seves enormes mandíbules tenen prou força per triturar fins i tot pedres."
+  },
+  "406": {
+    "name": "Budew",
+    "description": "Durant l'hivern, tanca el seu botó i aguanta el fred. A la primavera, el botó s'obre i allibera pol·len."
+  },
+  "56": {
+    "name": "Mankey",
+    "description": "És extremadament ràpid a enfadar-se. Pot estar tranquil un moment i després estavellar-se al següent."
+  },
+  "955": {
+    "name": "Flittle",
+    "description": "Els dits dels peus de Flittle leviten uns pocs centímetres per sobre del terra a causa del poder psíquic que emeten les franges del seu ventre."
+  },
+  "810": {
+    "name": "Grookey",
+    "description": "Quan utilitza la seva vara especial per a tocar una batuda, les ones sonores que produeix aporten energia revitalitzadora a les plantes i les flors de la zona."
+  },
+  "543": {
+    "name": "Venipede",
+    "description": "La seva mossegada injecta un verí potent, suficient per paralitzar grans Pokémon ocell que intenten caçar-lo."
+  },
+  "113": {
+    "name": "Chansey",
+    "description": "Un POKÉMON rar i escurçó que es diu que porta felicitat a aquells que aconsegueixen tenir-lo."
+  },
+  "390": {
+    "name": "Chimchar",
+    "description": "Escala amb agilitat els penya-segats escarpats per viure a dalt de les muntanyes abruptes. El seu foc s'apaga quan dorm."
+  },
+  "685": {
+    "name": "Slurpuff",
+    "description": "Pot distingir les olors més dèbils. Utilitza el seu agut sentit de l'olfacte per ajudar als pastissers en la seva feina."
+  },
+  "538": {
+    "name": "Throh",
+    "description": "Quan estreny el seu cinturó, es fa més fort. Els Throh salvatges fan servir lianes per a teixir els seus propis cinturons."
+  },
+  "168": {
+    "name": "Ariados",
+    "description": "Teixeix fil no només amb la part posterior, sinó també amb la boca. És difícil saber quin és quin extrem."
+  },
+  "492": {
+    "name": "Shaymin-Land",
+    "description": "Viu en tapissos de flors i s'amaga fent-se passar per una planta florida."
+  },
+  "187": {
+    "name": "Hoppip",
+    "description": "Per no ser enduts pel vent, es reuneixen en grups. Tot i això, gaudeixen de brises suaus."
+  },
+  "884": {
+    "name": "Duraludon",
+    "description": "El seu cos sembla metall polit, i és lleuger i fort. L'única desavantatge és que es rovella amb facilitat."
+  },
+  "304": {
+    "name": "Aron",
+    "description": "Aquest POKÉMON té un cos d'acer. Per formar el seu cos, l'ARON s'alimenta de mineral de ferro que extreu de les muntanyes. De tant en tant, causa grans problemes menjant-se ponts i carrils."
+  },
+  "754": {
+    "name": "Lurantis",
+    "description": "Requereix molt d'esforç per mantenir el viu color de Lurantis, però alguns col·leccionistes gaudeixen d'aquesta feina i la tracten com el seu hobby."
+  },
+  "1000": {
+    "name": "Gholdengo",
+    "description": "El seu cos sembla estar fet de 1.000 monedes. Aquest Pokémon es du bé amb els altres i és ràpid a fer amics amb qualsevol."
+  },
+  "241": {
+    "name": "Miltank",
+    "description": "La seva llet està plena de nutrients, i es converteix en la beguda ideal per a malalts o cansats."
+  },
+  "611": {
+    "name": "Fraxure",
+    "description": "Des d'un queixal trencat no en tornarà a créixer, aquestes criatures afilen curosament els seus queixals sobre les roques dels rius després de barallar-se."
+  },
+  "95": {
+    "name": "Onix",
+    "description": "A mesura que creix, les parts de pedra del seu cos es van endurint fins a assemblar-se a un diamant, però de color negre."
+  },
+  "996": {
+    "name": "Frigibax",
+    "description": "Frigibax absorbeix la calor a través de la seva aleta dorsal i la converteix en energia de gel. Com més alta és la temperatura, més energia emmagatzema Frigibax."
+  },
+  "979": {
+    "name": "Annihilape",
+    "description": "Quan la seva ira va superar un punt crític, aquest Pokémon va aconseguir un poder que no està limitat per les barreres del seu cos físic."
+  },
+  "580": {
+    "name": "Ducklett",
+    "description": "Aquests ocells Pokémon són excel·lents bussos. Neden per l'aigua menjant-se el seu menjar preferit: el molsa de tourba."
+  },
+  "703": {
+    "name": "Carbink",
+    "description": "Nascut de les temperatures i pressions de les profunditats de la terra, dispara feixos de llum des de la pedra del seu cap."
+  },
+  "353": {
+    "name": "Shuppet",
+    "description": "El SHUPPET se sent atret pels sentiments de gelosia i venjança. Si algú desenvolupa uns sentiments de venjança molt forts, aquest POKÉMON apareixerà en estol i es col·locarà sota els ràfecs de la casa d'aquella persona."
+  },
+  "646": {
+    "name": "Kyurem",
+    "description": "Genera una energia de congelació poderosa dins seu, però el seu cos es va congelar quan se'n va escapar l'energia."
+  },
+  "216": {
+    "name": "Teddiursa",
+    "description": "Si troba mel, la seva marca en forma de mitja lluna brilla. Sempre es llép les potes perquè estan xopes de mel."
+  },
+  "980": {
+    "name": "Clodsire",
+    "description": "Quan l'ataquen, aquest Pokémon es venjarà clavant gruixudes espines al seu cos. És un moviment arriscat que ho posa tot en joc."
+  },
+  "579": {
+    "name": "Reuniclus",
+    "description": "Quan els Reuniclus es donen la mà, es forma una xarxa entre els seus cervells, augmentant el seu poder psíquic."
+  },
+  "83": {
+    "name": "Farfetchd",
+    "description": "El brot de cebes verdes que aguanta és la seva arma. S'utilitza com una espasa de metall."
+  },
+  "129": {
+    "name": "Magikarp",
+    "description": "En el passat llunyà, era una mica més fort que els descendents terriblement dèbils que existeixen avui en dia."
+  },
+  "596": {
+    "name": "Galvantula",
+    "description": "Quan els ataquen, creen una barrera elèctrica escopint molts fils carregats elèctricament."
+  },
+  "345": {
+    "name": "Lileep",
+    "description": "El LILIéS va extingir-se fa aproximadament cent milions d'anys. Aquest antic POKÉMON s'enganxa a una roca del fons marí i atrapa les preses que s'apropen utilitzant tentacles en forma de pètals de flor."
+  },
+  "715": {
+    "name": "Noivern",
+    "description": "Volen per les nits sense lluna i ataquen preses desatentes. Ningú els pot guanyar en una batalla a la foscor."
+  },
+  "200": {
+    "name": "Misdreavus",
+    "description": "Li agrada jugar a bromes traviesses, com ara cridar i udolar per espantar a la gent de nit."
+  },
+  "650": {
+    "name": "Chespin",
+    "description": "Els pues del seu cap solen ser tous. Quan els flexiona, els punts es tornen tan durs i afilats que poden traspassar la roca."
+  },
+  "484": {
+    "name": "Palkia",
+    "description": "Té la capacitat de distorsionar l'espai. Es descriu com una deïtat en la mitologia de la regió de Sinnoh."
+  },
+  "938": {
+    "name": "Tadbulb",
+    "description": "El Tadbulb sacseja la cua per generar electricitat. Si detecta perill, farà que el cap s'encengui i s'apagui per alertar els seus aliats."
+  },
+  "892": {
+    "name": "Urshifu-Single-Strike",
+    "description": "Aquesta forma d'Urshifu creu fermament en el cop de gràcia. La seva estratègia és acostar-se ràpidament als enemics i assastar-los amb un cop devastador amb el puny endurit."
+  },
+  "191": {
+    "name": "Sunkern",
+    "description": "Pot caure del cel de sobte. Si és atacat per un SPEAROW, agitarà violentament les seves fulles."
+  },
+  "742": {
+    "name": "Cutiefly",
+    "description": "S'alimenta del nèctar i el pol·len de les flors. A causa de la seva capacitat de percebre l'aura, pot identificar quines flors estaran a punt de florir."
+  },
+  "312": {
+    "name": "Minun",
+    "description": "MINUN es preocupa més per animar els seus companys que per la seva pròpia seguretat. Fa curtcircuit en l'electricitat del seu cos per crear brillants pluges d'espurnes per animar els seus companys."
+  },
+  "607": {
+    "name": "Litwick",
+    "description": "Litwick emet una llum que absorbeix l'energia vital de les persones i dels Pokémon, la qual es converteix en el combustible que crema."
+  },
+  "257": {
+    "name": "Blaziken",
+    "description": "En combat, el BLAZIKEN bufa flames intenses dels seus canells i ataca els enemics amb coratge. Com més fort és l'enemic, més intensament cremen els canells d'aquest POKÉMON."
+  },
+  "1016": {
+    "name": "Fezandipiti",
+    "description": "El Fezandipiti deu el seu bell aspecte i la seva encisadora veu als estimulants tòxics que emanen de la cadena que envolta el seu cos."
+  },
+  "743": {
+    "name": "Ribombee",
+    "description": "Enrotlla el pol·len en boles. En fa moltes varietats diferents, algunes per a menjar i d'altres per utilitzar-les en batalla."
+  },
+  "313": {
+    "name": "Volbeat",
+    "description": "Amb l'arribada de la nit, VOLBEAT emet llum de la seva cua. Es comunica amb els altres ajustant la intensitat i parpelleig de la seva llum. Aquest POKÉMON està atret per la dolça aroma de l'ILLUMISE."
+  },
+  "606": {
+    "name": "Beheeyem",
+    "description": "Pot manipular la memòria d'un oponent. Aparentment, es comunica parpellejant els seus tres dits de diferents colors."
+  },
+  "256": {
+    "name": "Combusken",
+    "description": "El COMBUSKEN endureix les seves cames i cuixes corrent per camps i muntanyes. Les cames d'aquest POKÉMON tenen tant velocitat com força, i li permeten donar deu puntades de peu en un segon."
+  },
+  "1017": {
+    "name": "Ogerpon",
+    "description": "El tipus d'aquest Pokémon canvia segons la màscara que porti. Desconcerta els seus enemics amb moviments àgils i puntades de peu."
+  },
+  "485": {
+    "name": "Heatran",
+    "description": "Habita en coves volcàniques. S'agafa amb els seus peus en forma de creu per enfilar-se al sostre i les parets."
+  },
+  "939": {
+    "name": "Bellibolt",
+    "description": "Quan aquest Pokémon expandeix i contreu el seu cos trontollant, el generador de la panxa al seu estómac produeix una gran quantitat d'electricitat."
+  },
+  "893": {
+    "name": "Zarude",
+    "description": "Dins de densos boscos, aquest Pokémon viu en una manada amb d'altres de la seva espècie. És increïblement agressiu, i els altres Pokémon del bosc el temen."
+  },
+  "190": {
+    "name": "Aipom",
+    "description": "La seva cua és tan poderosa que la pot fer servir per agafar-se a una branca i mantenir-se a l'aire."
+  },
+  "344": {
+    "name": "Claydol",
+    "description": "Es diu que els CLAYDOL són ninots de fang fets per humans primitius i portats a vida per l'exposició a un raig misteriós. Aquest POKÉMON es mou mentre levita."
+  },
+  "714": {
+    "name": "Noibat",
+    "description": "Viuen en coves completament fosques. Les seves enormes orelles poden emetre ones ultrasòniques de 200.000 hertz."
+  },
+  "201": {
+    "name": "Unown",
+    "description": "La seva forma s'assembla a jeroglífics en tauletes antigues. Es diu que els dos estan d'alguna manera relacionats."
+  },
+  "651": {
+    "name": "Quilladin",
+    "description": "Confia en la seva robusta closca per defendre's dels atacs dels depredadors. Contraataca amb les seves afilades agulles."
+  },
+  "981": {
+    "name": "Farigiraf",
+    "description": "Ara que les ones cerebrals del cap i la cua estan sincronitzades, el poder psíquic d'aquest Pokémon és 10 vegades més fort que el de Girafarig."
+  },
+  "578": {
+    "name": "Duosion",
+    "description": "Com que tenen dos cervells dividits, de vegades intenten fer dues accions diferents alhora."
+  },
+  "82": {
+    "name": "Magneton",
+    "description": "Format per diversos MAGNEMITE units. Apareixen freqüentment quan les taques solars s'intensifiquen."
+  },
+  "128": {
+    "name": "Tauros",
+    "description": "Quan es dirigeix a un enemic, es llança furiós mentre fueteja el seu cos amb les seves llargues cues."
+  },
+  "597": {
+    "name": "Ferroseed",
+    "description": "Quan s'amenacen, ataquen disparant una barrera de punxes, la qual cosa els dona una oportunitat per escapar rodolant."
+  },
+  "702": {
+    "name": "Dedenne",
+    "description": "Els seus bigotis serveixen com a antenes. Enviant i rebent ones elèctriques, pot comunicar-se amb altres a grans distàncies."
+  },
+  "352": {
+    "name": "Kecleon",
+    "description": "Canvia el color del seu cos per fondre's amb l'entorn. També canvia de color quan està content o trist."
+  },
+  "647": {
+    "name": "Keldeo-Ordinary",
+    "description": "Mitjançant la propulsió d'aigua des de les seves potes, pot lliscar sobre l'aigua. Destaca en l'ús de moviments de cames durant les batalles."
+  },
+  "217": {
+    "name": "Ursaring",
+    "description": "Tot i ser bon escalador, prefereix trencar arbres amb les potes davanteres i menjar-se les baies que caiguin."
+  },
+  "94": {
+    "name": "Gengar",
+    "description": "Sota la lluna plena, aquest Pokémon li agrada imitar les ombres de la gent i riure del seu esglai."
+  },
+  "997": {
+    "name": "Arctibax",
+    "description": "Arctibax congela l'aire que l'envolta, protegint el seu rostre amb una màscara de gel i convertint la seva aleta dorsal en una fulla de gel."
+  },
+  "978": {
+    "name": "Tatsugiri-Curly",
+    "description": "Aquest és un petit Pokémon drac. Viu dins la boca de Dondozo per protegir-se dels enemics de l'exterior."
+  },
+  "581": {
+    "name": "Swanna",
+    "description": "Les Swanna comencen a ballar a la caiguda del sol. La que balla al mig és la líder del grup."
+  },
+  "305": {
+    "name": "Lairon",
+    "description": "El LAIRON tempera el seu cos d'acer bevent aigua mineral altament nutritiva fins que queda inflat. Aquest POKÉMON fa el seu niu a prop de fonts d'aigua deliciosa."
+  },
+  "755": {
+    "name": "Morelull",
+    "description": "Escampa espores que pampalluguen i brillen. Qualsevol que vegi aquestes llums cau en un son profund."
+  },
+  "1001": {
+    "name": "Wo-Chien",
+    "description": "El rancor d'una persona castigada per escriure les males accions del rei en tauletes de fusta s'ha cobert de fulles mortes per convertir-se en un Pokémon."
+  },
+  "240": {
+    "name": "Magby",
+    "description": "Cada vegada que inspira i exhala, cauen espurnes calentes de la seva boca i les seves fosses nasals."
+  },
+  "610": {
+    "name": "Axew",
+    "description": "Utilitzen les seves ulleres per esclafar les baies que mengen. El renaixement repetit fa que les seves ulleres siguin fortes i esmolades."
+  },
+  "539": {
+    "name": "Sawk",
+    "description": "El so dels Sawk colpejant roques i arbres es pot sentir des de les muntanyes on entrenen."
+  },
+  "169": {
+    "name": "Crobat",
+    "description": "Vola tan silenciosament per la foscor amb els seus quatre ales que potser ni se n'adonen quan està a prop."
+  },
+  "493": {
+    "name": "Arceus",
+    "description": "La mitologia el descriu com el Pokémon que va donar forma a l'univers amb els seus 1.000 braços."
+  },
+  "186": {
+    "name": "Politoed",
+    "description": "Si els POLIWAG i POLIWHIRL senten el seu crit estrident, s'apleguen des de lluny per respondre-hi."
+  },
+  "885": {
+    "name": "Dreepy",
+    "description": "Després de renéixer com a Pokémon fantasma, el Dreepy vaga per les zones que abans habitava quan era viu als mars prehistòrics."
+  },
+  "391": {
+    "name": "Monferno",
+    "description": "Per intimidar els atacants, allarga el foc de la seva cua per semblar més gran."
+  },
+  "684": {
+    "name": "Swirlix",
+    "description": "Per embolicar els seus oponents durant les batalles, expulsa fils blancs tan dolços i enganxosos com el cotó de sucre."
+  },
+  "407": {
+    "name": "Roserade",
+    "description": "Atrau la seva presa amb una olor dolça, i després la derrota amb fuetades espinoses amagades als seus braços."
+  },
+  "57": {
+    "name": "Primeape",
+    "description": "Sempre furiós i tenaç a més. No abandonarà la persecució de la seva presa fins que l'hagi agafat."
+  },
+  "954": {
+    "name": "Rabsca",
+    "description": "El cos que sosté la bola a penes es mou. Per això, es creu que el cos vertader d'aquest Pokémon es troba a l'interior de la bola."
+  },
+  "811": {
+    "name": "Thwackey",
+    "description": "Com més ràpid bata els seus dos bastons, més respecte guanya dels seus companys."
+  },
+  "542": {
+    "name": "Leavanny",
+    "description": "Quan troba un Pokémon petit, li teixeix roba de fulles, fent servir les talladores dels seus braços i la seda enganxosa."
+  },
+  "112": {
+    "name": "Rhydon",
+    "description": "Protegit per una pell com a una armadura, és capaç de viure en magma fos de 3.600 graus."
+  },
+  "796": {
+    "name": "Xurkitree",
+    "description": "Un dels misteriosos éssers vius coneguts com a Bèsties Ultradimensionals. Segons testimonis, impressionants descàrregues elèctriques emanen de tot el seu cos."
+  },
+  "779": {
+    "name": "Bruxish",
+    "description": "Quan allibera el seu poder psíquic de la protuberància del cap, el so estrident de les dents grinyolant ressona per la zona."
+  },
+  "283": {
+    "name": "Surskit",
+    "description": "Des de la punta dels seus peus, SURSKIT secreta un oli que li permet caminar sobre l'aigua com si fos en patins. Aquest POKéMON s'alimenta d'organismes microscòpics en llacs i estanys."
+  },
+  "329": {
+    "name": "Vibrava",
+    "description": "Per fer que la seva presa s'adormi, VIBRAVA genera ones ultrasòniques fent vibrar vigorosament les seves dues ales. Les ones ultrasòniques d'aquest POKÉMON són tan potents que poden provocar mal de cap a les persones."
+  },
+  "903": {
+    "name": "Sneasler",
+    "description": "A causa del virulent verí i l'aclaparadora força física de l'Sneasler, cap altra espècie no pot esperar superar-lo a les glacials terres altes. Aquesta espècie prefereix la soledat i no forma grups."
+  },
+  "450": {
+    "name": "Hippowdon",
+    "description": "Llança sorra emmagatzemada internament a través de sortides del seu cos per crear un remolí gegant per atacar."
+  },
+  "145": {
+    "name": "Zapdos",
+    "description": "Un Pokémon ocell llegendari que es diu que apareix entre els núvols mentre deixa caure enormes llamps."
+  },
+  "515": {
+    "name": "Panpour",
+    "description": "L'aigua emmagatzemada al plomall del seu cap està plena de nutrients. Les plantes que reben aquesta aigua creixen molt."
+  },
+  "846": {
+    "name": "Arrokuda",
+    "description": "Si veu qualsevol moviment al seu voltant, aquest Pokémon es llança endavant de seguida, encapçalat per la seva mandíbula punxeguda. Està molt orgullós d'aquesta mandíbula."
+  },
+  "780": {
+    "name": "Drampa",
+    "description": "Té una personalitat compassiva, però si s'enfada, destrueix completament els seus voltants amb la seva intensa respiració."
+  },
+  "295": {
+    "name": "Exploud",
+    "description": "L'EXPLOUD provoca terratrèmols amb les sacsejades que genera quan udola. Si aquest POKÉMON aspira violentament pels forats del seu cos, és un senyal que s'està preparant per deixar anar un udol enorme."
+  },
+  "446": {
+    "name": "Munchlax",
+    "description": "S'empassa el seu pes en menjar una vegada al dia, i s'ho empassa tot sencer amb gairebé cap mastegada."
+  },
+  "16": {
+    "name": "Pidgey",
+    "description": "Un ocell molt comú als boscos i els camps. Bat les ales a ras de terra per aixecar una gran cortina de sorra cegadora."
+  },
+  "915": {
+    "name": "Lechonk",
+    "description": "Tot el dia es dedica a buscar menjar. Té un sentit de l'olfacte molt desenvolupat, però no l'utilitza per res més que per farrejar."
+  },
+  "850": {
+    "name": "Sizzlipede",
+    "description": "Emmagatzema gas inflamable al seu cos i l'utilitza per generar calor. Les seccions grogues del seu ventre s'escalfen especialment."
+  },
+  "503": {
+    "name": "Samurott",
+    "description": "Un sol cop d'espasa incorporat a la seva armadura pot abatre un oponent. Una simple mirada seva tranquil·litza tothom."
+  },
+  "153": {
+    "name": "Bayleef",
+    "description": "La fragància d'espècies prové del voltant del seu coll. De fet, olorar-la et fa voler lluitar."
+  },
+  "387": {
+    "name": "Turtwig",
+    "description": "Fet de terra, la closca a l'esquena es fa més dura quan beu aigua. Viu al llarg dels llacs."
+  },
+  "738": {
+    "name": "Vikavolt",
+    "description": "Es mou ràpidament, mantenint-se atent a qualsevol obertura. Concentra l'energia elèctrica a les seves enormes mandíbules i l'utilitza per atacar els seus enemics."
+  },
+  "368": {
+    "name": "Gorebyss",
+    "description": "GOREBYSS viu als mars del sud a grans profunditats. El seu cos està preparat per suportar l'enorme pressió de l'aigua a increïbles fondàries. Per això, el cos d'aquest POKÉMON no pateix danys pels atacs normals."
+  },
+  "692": {
+    "name": "Clauncher",
+    "description": "Derriben les preses voladores disparant aigua comprimida des de les seves enormes pinces, com si fossin pistoles."
+  },
+  "942": {
+    "name": "Maschiff",
+    "description": "Sempre arruga el front per intentar que els oponents es prenguin seriosament, però fins i tot els nens que ploren esclatarien a riure en veure la cara del Maschiff."
+  },
+  "41": {
+    "name": "Zubat",
+    "description": "Es forma colònies en llocs permanentment foscos. Utilitza ones ultrasòniques per identificar i apropar-se als seus objectius."
+  },
+  "411": {
+    "name": "Bastiodon",
+    "description": "Qualsevol atac frontal és rebutjat. És un Pokémon dòcil que s'alimenta d'herba i baies."
+  },
+  "104": {
+    "name": "Cubone",
+    "description": "Com que mai es treu el casc de crani, ningú ha vist mai la cara real d'aquest POKéMON."
+  },
+  "554": {
+    "name": "Darumaka",
+    "description": "Quan el seu foc intern crema, no es pot calmar i corre per tot arreu. Quan el foc disminueix, s'adorm."
+  },
+  "807": {
+    "name": "Zeraora",
+    "description": "Electrifica les seves urpes i les utilitza per a esquarterar els seus oponents. Fins i tot si esquiven l'atac, els sacsejaran les espurnes elèctriques."
+  },
+  "870": {
+    "name": "Falinks",
+    "description": "Cinc d'ells són soldats i un és el comandant. Les ordres del comandant són absolutes."
+  },
+  "523": {
+    "name": "Zebstrika",
+    "description": "Es mouen com un llamp. Quan els Zebstrika corren a tota velocitat, se sent el so del tro."
+  },
+  "173": {
+    "name": "Cleffa",
+    "description": "A causa de la seva silueta inusual, en forma d'estrella, la gent creu que va arribar aquí amb un meteorit."
+  },
+  "489": {
+    "name": "Phione",
+    "description": "Deriva per mars càlids. Sempre torna al lloc on va néixer, per molt lluny que s'hagi pogut allunyar."
+  },
+  "466": {
+    "name": "Electivire",
+    "description": "A mesura que la seva càrrega elèctrica s'amplifica, comencen a crackear espurnes blaves entre les seves banyes."
+  },
+  "36": {
+    "name": "Clefable",
+    "description": "Un Pokémon de fada tímid que rarament es veu. Fugirà i s'amagarà tan bon punt detecti la presència de les persones."
+  },
+  "935": {
+    "name": "Charcadet",
+    "description": "El carbó cremat va cobrar vida i es va convertir en un Pokémon. Amb un esperit de lluita ardent, el Charcadet es baterà fins i tot amb oponents forts."
+  },
+  "124": {
+    "name": "Jynx",
+    "description": "Camina sacsejant sensual·ment les seves malucs. Pot fer que la gent balli al seu ritme."
+  },
+  "574": {
+    "name": "Gothita",
+    "description": "Els seus tentacles de cinta augmenten el seu poder psíquic. Sempre miren fixament alguna cosa."
+  },
+  "827": {
+    "name": "Nickit",
+    "description": "Ajudat per les almohadilles suaus de les seves potes, assalta silenciosament els dipòsits d'aliments d'altres Pokémon. Sobreviu dels seus guanys mal aconseguits."
+  },
+  "962": {
+    "name": "Bombirdier",
+    "description": "Recull coses en un davantal fet de plomes que ha perdut, afegides a les plomes del pit del Pokémon, i després les deixa caure des d'alts llocs per diversió."
+  },
+  "61": {
+    "name": "Poliwhirl",
+    "description": "Capaç de viure tant a l'aigua com fora. Quan surt de l'aigua, suda per mantenir el seu cos llefiscós."
+  },
+  "431": {
+    "name": "Glameow",
+    "description": "Rasca quan està descontenta i ronrona quan està afectuosa. La seva inconstància és molt popular entre alguns."
+  },
+  "718": {
+    "name": "Zygarde-50",
+    "description": "Quan l'ecosistema de la regió de Kalos es desordena, apareix i revela el seu poder secret."
+  },
+  "348": {
+    "name": "Armaldo",
+    "description": "L'armadura resistent d'ARMALDO fa rebotar tots els atacs. Les dues pinces enormes d'aquest POKÉMON es poden estendre o contreure lliurement. Tenen la força per travessar una xapa d'acer."
+  },
+  "831": {
+    "name": "Wooloo",
+    "description": "La seva llana arrissonada és un coixí tan efectiu que aquest Pokémon podria caure d'un penya-segat i tornar a aixecar-se al fons, il·lès."
+  },
+  "562": {
+    "name": "Yamask",
+    "description": "Cada un d'ells porta una màscara que era la seva cara quan era humà. A vegades la miren i ploren."
+  },
+  "98": {
+    "name": "Krabby",
+    "description": "Les seves pinces no només són poderoses armes, també les fa servir per mantenir l'equilibri quan camina de costat."
+  },
+  "132": {
+    "name": "Ditto",
+    "description": "Capaç de copiar el codi genètic d'un enemic per transformar-se instantàniament en un duplicat de l'enemic."
+  },
+  "427": {
+    "name": "Buneary",
+    "description": "Ataca els rivals desenrotllant bruscament les seves orelles arrodonides. La ferida que provoca és prou forta per fer plorar un adult."
+  },
+  "77": {
+    "name": "Ponyta",
+    "description": "Les seves peülles són 10 vegades més dures que els diamants. Pot trepitjar qualsevol cosa completament plana en poc temps."
+  },
+  "974": {
+    "name": "Cetoddle",
+    "description": "Aquesta espècie va deixar l'oceà i va començar a viure a terra ferma fa molt de temps. Sembla estar estretament relacionada amb el Wailmer."
+  },
+  "165": {
+    "name": "Ledyba",
+    "description": "És molt tímid. Tindrà por de moure's si està sol. Però serà actiu si està en grup."
+  },
+  "535": {
+    "name": "Tympole",
+    "description": "Avisen els altres del perill vibrant les galtes per crear un so agut."
+  },
+  "866": {
+    "name": "Mr-Rime",
+    "description": "És molt hàbil ballant claqué. Agita el seu bastó de gel al ritme dels seus moviments elegants."
+  },
+  "923": {
+    "name": "Pawmot",
+    "description": "Normalment, aquest Pokémon reacciona lentament, però un cop entra en batalla, abatrà els seus enemics amb moviments ràpids com el llamp."
+  },
+  "889": {
+    "name": "Zamazenta",
+    "description": "En el passat, va col·laborar amb un rei del poble per salvar la regió de Galar. Absorbeix metall que després utilitza en batalla."
+  },
+  "20": {
+    "name": "Raticate",
+    "description": "Utilitza els bigotis per mantenir l'equilibri. Sembla que es desaccelera si se'ls tallen."
+  },
+  "470": {
+    "name": "Leafeon",
+    "description": "Igual que una planta, utilitza la fotosíntesi. Com a resultat, sempre està envoltat d'aire net."
+  },
+  "759": {
+    "name": "Stufful",
+    "description": "Malgrat la seva aparença adorable, quan s'enfada i es mou de manera frenètica, els seus braços i cames podrien tombar un lluitador professional."
+  },
+  "309": {
+    "name": "Electrike",
+    "description": "ELECTRIKE acumula electricitat al seu llarg pèl corporal. Aquest POKÉMON estimula els músculs de les seves potes amb càrregues elèctriques. Aquests xocs d'energia li donen una acceleració explosiva a les seves cames."
+  },
+  "958": {
+    "name": "Tinkatuff",
+    "description": "Aquest Pokémon atacarà grups de Pawniard i Bisharp per recollir metall i crear un martell gran i robust."
+  },
+  "667": {
+    "name": "Litleo",
+    "description": "Com més fort sigui l'oponent que afronti, més calor sorgirà de la seva crinera i més poder fluirà pel seu cos."
+  },
+  "237": {
+    "name": "Hitmontop",
+    "description": "Si et fas encantar pels seus suaus, elegants i balladors cops de peu, pot ser que et perfori amb força."
+  },
+  "722": {
+    "name": "Rowlet",
+    "description": "Aquest Pokémon cautelós utilitza la fotosíntesi per emmagatzemar energia durant el dia, mentre que s'activa de nit."
+  },
+  "372": {
+    "name": "Shelgon",
+    "description": "A dins de la seva closca semblant a una armadura, les seves cel·lules estan en ple proces de transformacio per crear un cos nou. Aquesta closca es molt pesada, fent que els seus moviments siguin lents."
+  },
+  "688": {
+    "name": "Binacle",
+    "description": "Dos Binacle viuen junts a la mateixa roca. Quan es barallen, un d'ells es mou a una roca diferent."
+  },
+  "519": {
+    "name": "Pidove",
+    "description": "Cada un segueix les ordres del seu Entrenador el millor que pot, però a vegades no entenen ordres complicades."
+  },
+  "149": {
+    "name": "Dragonite",
+    "description": "És un POKÉMON marí extremament rar de veure. Es diu que la seva intel·ligència iguala la dels humans."
+  },
+  "1021": {
+    "name": "Raging-Bolt",
+    "description": "Es diu que crema tot el que l'envolta amb llamps llançats des del seu pel. Se'n sap molt poc d'aquesta criatura."
+  },
+  "260": {
+    "name": "Swampert",
+    "description": "El SWAMPERT és molt fort. Té prou poder per arrossegar fàcilment una roca que pesa més d'una tona. Aquest POKÉMON també té una visió poderosa que li permet veure fins i tot en aigües tèrboles."
+  },
+  "630": {
+    "name": "Mandibuzz",
+    "description": "Fa el seu niu amb ossos que troba. Agafa preses febles amb les seves urpes i les transporta al seu niu d'ossos."
+  },
+  "325": {
+    "name": "Spoink",
+    "description": "SPOINK salta amunt i avall amb la seva cua. El xoc dels seus salts fa bombejar el seu cor. Com a resultat, aquest POKéMON no es pot permetre deixar de botar - si s'atura, el seu cor també s'aturarà."
+  },
+  "775": {
+    "name": "Komala",
+    "description": "Neix adormit i mor adormit. Tots els seus moviments semblen només el resultat de donar-se voltes mentre somnia."
+  },
+  "919": {
+    "name": "Nymble",
+    "description": "Té el seu tercer parell de potes plegades. Quan es troba en una situació difícil, aquest Pokémon salta més de 9 metres fent servir la força de les seves potes."
+  },
+  "626": {
+    "name": "Bouffalant",
+    "description": "El seu pelut pelatge absorbeix els cops, fins i tot quan xoquen els seus rivals amb un fervent cop de cap."
+  },
+  "276": {
+    "name": "Taillow",
+    "description": "El TAILLOW es valent i es planta cara contra els seus rivals, per forts que siguin. Aquest Pokemon gòspel es mantindrà desafiant fins i tot després d'una derrota. D'altra banda, crida fort si té gana."
+  },
+  "763": {
+    "name": "Tsareena",
+    "description": "Les seves llargues i impactants cames no són només per mostrar, sinó per usar-les per donar puntades amb habilitat. En la victòria, es mostra exhibint-se donant puntades als derrotats, rient sorollosament."
+  },
+  "299": {
+    "name": "Nosepass",
+    "description": "El nas magnètic del NOSEPASS sempre apunta al nord. Si es troben dos d'aquests POKÉMON, no poden girar les seves cares l'una a l'altra quan estan a prop perquè els seus nassos magnètics es repel·leixen."
+  },
+  "333": {
+    "name": "Swablu",
+    "description": "El SWABLU té ales lleugeres i esponjoses com a núvols de cotó. Aquest POKÉMON no té por de la gent. S'asseu al cap de les persones com un barret d'algodó."
+  },
+  "558": {
+    "name": "Crustle",
+    "description": "Competint per un territori, els Crustle lluiten aferrissadament. El qui té la seva roca trencada és el perdedor de la batalla."
+  },
+  "108": {
+    "name": "Lickitung",
+    "description": "La seva llengua es pot allargar com la d'un camaleó. Deixa una sensació de formigueig quan lampe els enemics."
+  },
+  "221": {
+    "name": "Piloswine",
+    "description": "A causa del llarg pèl que cobreix tot el seu cos, li impedeix la vista i només segueix carregant repetidament."
+  },
+  "671": {
+    "name": "Florges",
+    "description": "Reclama els exquisits jardins de flors com el seu territori, i obté poder en banyar-se en l'energia emesa per les plantes florides."
+  },
+  "364": {
+    "name": "Sealeo",
+    "description": "El SEALEO té el costum de balancejar a la punta del seu nas qualsevol cosa que veu per primera vegada. Aquest POKÉMON de vegades s'entretén equilibrant i fent rodar un SPHEAL sobre el seu nas."
+  },
+  "734": {
+    "name": "Yungoos",
+    "description": "Amb les seves dents esmolades, mossega qualsevol cosa. Originàriament no vivia a Alola sinó que va ser importat d'una altra regió."
+  },
+  "46": {
+    "name": "Paras",
+    "description": "S'enterra per xuclar les arrels dels arbres. Els bolets del seu dors creixen alimentant-se dels nutrients de l'insecte que l'hostatja."
+  },
+  "416": {
+    "name": "Vespiquen",
+    "description": "El seu abdomen és un rusc de mel per a les larves. Cria les seves larves amb la mel recollida pels COMBEE."
+  },
+  "945": {
+    "name": "Grafaiai",
+    "description": "El color de la saliva verinosa depèn del que es mengi el Pokémon. El Grafaiai cobreix els seus dits amb la seva saliva i dibuixa patrons als arbres dels boscos."
+  },
+  "800": {
+    "name": "Necrozma",
+    "description": "Recorda les Bèsties Ultradimensionals, aquest ésser viu, aparentment adormit sota terra, es creu que va arribar d'un altre món en temps antics."
+  },
+  "103": {
+    "name": "Exeggutor",
+    "description": "Segons la llegenda, de tant en tant, un dels seus caps es desprèn i continua com a EXEGGCUTE."
+  },
+  "553": {
+    "name": "Krookodile",
+    "description": "Mai no deixen escapar la seva presa. Les seves mandíbules són tan poderoses que poden triturar el cos d'un automòbil."
+  },
+  "380": {
+    "name": "Latias",
+    "description": "LATIAS és altament sensible a les emocions de les persones. Si detecta alguna hostilitat, aquest POKÉMON aixeca les plomes de tot el cos i crida estridentment per intimidar l'enemic."
+  },
+  "695": {
+    "name": "Heliolisk",
+    "description": "Despleguen les seves frèdules i generen energia. Un sol Heliolisk pot generar prou electricitat per alimentar un gratacel."
+  },
+  "912": {
+    "name": "Quaxly",
+    "description": "Aquest Pokémon va migrar a Paldea des de terres llunyanes fa molt de temps. El gel que segreguen les seves plomes repel·leix l'aigua i la brutícia."
+  },
+  "441": {
+    "name": "Chatot",
+    "description": "Pot aprendre i parlar paraules humanes. Si es congreguen, tots aprenen la mateixa frase."
+  },
+  "11": {
+    "name": "Metapod",
+    "description": "Aquest POKÉMON és vulnerable a l'atac mentre la seva closca està tova, deixant exposat el seu cos dèbil i tendre."
+  },
+  "504": {
+    "name": "Patrat",
+    "description": "Utilitzant aliments emmagatzemats a les butxaques de les galtes, poden fer vigilància durant dies. Utilitzen les seves cues per comunicar-se amb els altres."
+  },
+  "154": {
+    "name": "Meganium",
+    "description": "L'aroma que sorgeix dels seus pètals conté una substància que calma els sentiments agressius."
+  },
+  "857": {
+    "name": "Hattrem",
+    "description": "No importa qui siguis, si t'acostes amb emocions fortes a aquest Pokémon, t'acallarà violentament."
+  },
+  "787": {
+    "name": "Tapu-Bulu",
+    "description": "Arrenca arbres grans de soca-rel i els fa girar. Fa créixer la vegetació i després n'absorbeix l'energia."
+  },
+  "338": {
+    "name": "Solrock",
+    "description": "L'energia solar és la font del seu poder, per tant és fort durant el dia. Quan gira, el seu cos brilla."
+  },
+  "768": {
+    "name": "Golisopod",
+    "description": "Amb un tall fulgurant de les seves enormes i afilades urpes, talla l'aigua del mar o fins i tot l'aire mateix."
+  },
+  "292": {
+    "name": "Shedinja",
+    "description": "El Shedinja té un cos dur que no es mou ni tan sols una mica. De fet, el seu cos sembla ser només un casquet buit. Es creu que aquest POKÉMON podrà robar l'esperit de qualsevol que miri dins el seu cos buit des de l'esquena."
+  },
+  "7": {
+    "name": "Squirtle",
+    "description": "Després de néixer, l'esquena li augmenta i es fa dura com una closca. Llança amb força escuma per la boca."
+  },
+  "457": {
+    "name": "Lumineon",
+    "description": "Viu al fons del mar profund. Atrau les seves preses llampant els patrons de les seves quatre aletes de la cua."
+  },
+  "904": {
+    "name": "Overqwil",
+    "description": "Les seves llances punxegudes i el seu temperament salvatge li han valgut el sobrenom de \"dimoni marí\". S'empassa verí per nodrir-se."
+  },
+  "841": {
+    "name": "Flapple",
+    "description": "S'ha menjat una poma àcida, i això li ha fet evolucionar. Té unes galtes que guarden un àcid capaç de causar cremades químiques."
+  },
+  "142": {
+    "name": "Aerodactyl",
+    "description": "Un Pokémon que va volar pels cels a l'era dels dinosaures. Les seves dents són com serres."
+  },
+  "512": {
+    "name": "Simisage",
+    "description": "Té un caràcter irritable i lluita agitant la seva cua espinosa. El full que li creix al cap és molt amarg."
+  },
+  "791": {
+    "name": "Solgaleo",
+    "description": "Es diu que viu en un altre món. La intensa llum que irradia des de la superfície del seu cos pot il·luminar com el migdia les nits més fosques."
+  },
+  "284": {
+    "name": "Masquerain",
+    "description": "MASQUERAIN intimida els enemics amb els patrons d'ulls a les seves antenes. Aquest POKéMON baten les seves quatre ales per volar lliurement en qualsevol direcció, fins i tot de costat i cap enrere, com si fos un helicòpter."
+  },
+  "953": {
+    "name": "Rellor",
+    "description": "Aquest Pokémon crea una bola de fang barrejant sorra i terra amb energia psíquica. Valora més la seva bola de fang que la seva pròpia vida."
+  },
+  "400": {
+    "name": "Bibarel",
+    "description": "Fa el seu niu embassant rierols amb escorça i fang. És conegut per ser un treballador industriós."
+  },
+  "50": {
+    "name": "Diglett",
+    "description": "Viu a uns trenta centímetres sota terra on s'alimenta de les arrels de les plantes. De vegades surt a la superfície."
+  },
+  "545": {
+    "name": "Scolipede",
+    "description": "Amb moviments ràpids, persegueix els seus enemics i els ataca sense descans amb les seves banyes fins que surt victoriós."
+  },
+  "115": {
+    "name": "Kangaskhan",
+    "description": "El petit rares vegades s'aventura fora de la protectora bossa de la mare fins que té 3 anys."
+  },
+  "816": {
+    "name": "Sobble",
+    "description": "Quan té por, aquest Pokémon plora. Les seves llàgrimes tenen la potència química de 100 cebes, i els atacants no podran resistir plorar."
+  },
+  "396": {
+    "name": "Starly",
+    "description": "Van en estols nombrosos. Tot i ser petits, baten les ales amb molta força."
+  },
+  "379": {
+    "name": "Registeel",
+    "description": "REGISTEEL té un cos més dur que qualsevol tipus de metall. El seu cos sembla buit. Ningú sap què menja aquest POKÉMON."
+  },
+  "683": {
+    "name": "Aromatisse",
+    "description": "Crea diverses olors, tant agradables com desagradables, i llança perfums que els seus enemics no poden suportar per tal de guanyar avantatge en les batalles."
+  },
+  "729": {
+    "name": "Brionne",
+    "description": "Un ballarí hàbil, crea una seqüència de bombolles d'aigua mentre balla, i bombardeja ràpidament els seus enemics."
+  },
+  "494": {
+    "name": "Victini",
+    "description": "Aquest Pokémon porta la victòria. Es diu que els Entrenadors amb Victini sempre guanyen, independentment del tipus d'encontre."
+  },
+  "882": {
+    "name": "Dracovish",
+    "description": "Les seves poderoses potes i mandíbules el van convertir en el depredador dominant del seu temps. La seva sobreexplotació de les preses va ser el que el va portar a l'extinció."
+  },
+  "928": {
+    "name": "Smoliv",
+    "description": "Es protegeix dels enemics emetent oli del fruit al seu cap. Aquest oli és prou amarg i astringent per fer que algú es faci enrere."
+  },
+  "181": {
+    "name": "Ampharos",
+    "description": "La punta de la cua brill­a intensament i es pot veure des de lluny. Actua com un far per a la gent que s'ha perdut."
+  },
+  "302": {
+    "name": "Sableye",
+    "description": "Els SABLEYE viuen vides tranquil·les al fons de les cavernes. Tot i això, se'ls tem perquè es creu que aquests POKÉMON robem l'esperit de les persones quan els seus ulls brillen amb un resplendor sinistre a la foscor."
+  },
+  "752": {
+    "name": "Araquanid",
+    "description": "Propina copets al cap amb la bombolla d'aigua del cap. Els Pokémon petits són xuclats dins la bombolla, on s'ofeguen."
+  },
+  "247": {
+    "name": "Pupitar",
+    "description": "La seva closca és tan dura com una pissarra, i també és molt forta. El seu SACSEJAMENT pot tombar una muntanya."
+  },
+  "617": {
+    "name": "Accelgor",
+    "description": "Quan el seu cos s'asseca, es debilita. Per tant, per evitar la deshidratació, s'embolica amb moltes capes de membrana prima."
+  },
+  "1006": {
+    "name": "Iron-Valiant",
+    "description": "Té algunes similituds amb una invenció de científic boig que apareixia en una revista paranormal."
+  },
+  "990": {
+    "name": "Iron-Treads",
+    "description": "Aquest Pokémon es sembla molt a una arma científica que una revista paranormal va afirmar que havia estat enviada a aquest planeta per extraterrestres."
+  },
+  "139": {
+    "name": "Omastar",
+    "description": "Un POKÉMON prehistòric que es va extingir quan la seva closca pesada li va impedir caçar preses."
+  },
+  "569": {
+    "name": "Garbodor",
+    "description": "Immobilitza els oponents amb el seu braç esquerre i els acaba amb un gas verinós i pudent que belfa per la boca."
+  },
+  "93": {
+    "name": "Haunter",
+    "description": "Pel seu poder de travessar parets de bloc, es diu que prové d'una altra dimensió."
+  },
+  "586": {
+    "name": "Sawsbuck",
+    "description": "Es mouen segons les estacions. Les persones poden saber quina estació és mirant els banyes del Sawsbuck."
+  },
+  "705": {
+    "name": "Sliggoo",
+    "description": "Espanta els seus oponents expulsant un líquid enganxós que pot dissoldre qualsevol cosa. Els seus ulls han evolucionat, de manera que no hi veu res."
+  },
+  "355": {
+    "name": "Duskull",
+    "description": "El DUSKULL pot travessar qualsevol paret, per gruixuda que sigui. Un cop aquest POKÉMON tria un objectiu, el perseguirà amb obstinació fins a la llum del dia."
+  },
+  "640": {
+    "name": "Virizion",
+    "description": "Aquest Pokémon va lluitar contra els humans per protegir els seus amics. Les llegendes sobre ell continuen transmetent-se."
+  },
+  "210": {
+    "name": "Granbull",
+    "description": "De fet, és molt tímid i es pot espantar fàcilment. Si l'ataquen, es revolta per allunyar l'atacant."
+  },
+  "85": {
+    "name": "Dodrio",
+    "description": "Utilitza els seus tres cervells per executar plans complexos. Mentre dos caps dormen, un cap es manté despert."
+  },
+  "986": {
+    "name": "Brute-Bonnet",
+    "description": "És possible que la criatura que es descriu com a Barret Bonic en un determinat llibre sigui realment aquest Pokémon."
+  },
+  "969": {
+    "name": "Glimmet",
+    "description": "Absorbeix nutrients de les parets de les coves. Els pètals que porta posats estan fets de verí cristal·litzat."
+  },
+  "590": {
+    "name": "Foongus",
+    "description": "Atrau les persones amb el seu patró de Poké Ball, i després allibera espores verinoses. Es desconeix per què es sembla a una Poké Ball."
+  },
+  "343": {
+    "name": "Baltoy",
+    "description": "El BRAGANT es mou mentre gira al voltant del seu únic peu. Es van descobrir pintures murals primitives que representaven aquest POKÉMON vivint entre les persones en algunes antigues ruïnes."
+  },
+  "713": {
+    "name": "Avalugg",
+    "description": "El seu cos recobert de gel és tan dur com l'acer. El seu voluminós cos aixafa tot el que es posi al seu camí."
+  },
+  "206": {
+    "name": "Dunsparce",
+    "description": "Quan el localitzen, aquest POKÉMON s'escapa cap enrere perforant furi­osament el terra amb la seva cua."
+  },
+  "656": {
+    "name": "Froakie",
+    "description": "Segrega bombolles flexibles del seu pit i esquena. Les bombolles redueixen el dany que rebria en cas d'atac."
+  },
+  "178": {
+    "name": "Xatu",
+    "description": "Diuen que es manté quiet i en silenci perquè està veient el passat i el futur alhora."
+  },
+  "482": {
+    "name": "Azelf",
+    "description": "Conegut com \"L'Ésser de la Voluntat\". Dorm al fons d'un llac per mantenir l'equilibri del món."
+  },
+  "528": {
+    "name": "Swoobat",
+    "description": "Emet ones sonores de diverses freqüències del seu nas, incloent-n'hi algunes prou potents per destruir roques."
+  },
+  "197": {
+    "name": "Umbreon",
+    "description": "Quan està excitat, aquest POKÉMON es protegeix esprement suor verinosa dels seus porus."
+  },
+  "894": {
+    "name": "Regieleki",
+    "description": "Aquest Pokémon és un conglomerat d'energia elèctrica. Es diu que treure els anells del cos de Regieleki alliberarà el poder latent del Pokémon."
+  },
+  "744": {
+    "name": "Rockruff",
+    "description": "Es considera un bon Pokémon per a principiants a causa de la seva amabilitat, però la seva disposició es torna més aspra a mesura que creix."
+  },
+  "314": {
+    "name": "Illumise",
+    "description": "Amb la seva dolça aroma, guia els Volbeat per dibuixar senyals amb la llum al cel nocturn."
+  },
+  "1010": {
+    "name": "Iron-Leaves",
+    "description": "Moltes de les seves característiques físiques coincideixen amb les d'un Virizion del futur que va ser cobert en una revista paranormal."
+  },
+  "601": {
+    "name": "Klinklang",
+    "description": "L'engranatge amb el nucli vermell gira a gran velocitat per a una ràpida càrrega d'energia."
+  },
+  "251": {
+    "name": "Celebi",
+    "description": "Aquest POKéMON vaga per diferents èpoques. Els boscos on ha aparegut floreixen amb herbes i arbres."
+  },
+  "226": {
+    "name": "Mantine",
+    "description": "Mentre nada majestuosament, no es preocupa si hi ha RÈMORES que s'enganxen a ell per buscar les seves restes."
+  },
+  "676": {
+    "name": "Furfrou",
+    "description": "Tallar el seu pelatge esponjós no només el fa més elegant, sinó que també augmenta la rapidesa dels seus moviments."
+  },
+  "363": {
+    "name": "Spheal",
+    "description": "El SPHEAL és molt més ràpid rodant que caminant per desplaçar-se. Quan els grups d'aquest POKÉMON mengen, tots plegats aplaudeixen per mostrar el seu plaer. Per aquest motiu, els seus àpats són sorollosos."
+  },
+  "699": {
+    "name": "Aurorus",
+    "description": "Els cristalls en forma de diamant del seu cos expulsen aire tan fred com a -240 graus Fahrenheit, envoltant els seus enemics i encapsulant-los en gel."
+  },
+  "733": {
+    "name": "Toucannon",
+    "description": "Quan lluita, el seu bec s'escalfa. La temperatura pot superar fàcilment els 100 graus Celsius, provocant cremades greus quan l'impacta."
+  },
+  "949": {
+    "name": "Toedscruel",
+    "description": "Aquests Pokémon es reuneixen en grups i formen colònies al cor dels boscos. Odien que els estranys s'apropin."
+  },
+  "621": {
+    "name": "Druddigon",
+    "description": "S'escalfa el cos absorbint la llum solar amb les seves ales. Quan la seva temperatura corporal baixa, ja no es pot moure."
+  },
+  "271": {
+    "name": "Lombre",
+    "description": "Viu a la vora de l'aigua on hi ha sol. Es dorm sobre un llit d'herba aquàtica durant el dia i es torna actiu durant la nit."
+  },
+  "764": {
+    "name": "Comfey",
+    "description": "Uneix flors a la seva vinyeta molt nutritiva. Això revitalitza les flors i desprenen una olor aromàtica."
+  },
+  "334": {
+    "name": "Altaria",
+    "description": "L'ALTARIA balla i vola pel cel entre núvols esponjosos com el cotó. Cantant melodies amb la seva veu cristal·lina, aquest POKÉMON fa que els seus oients experimentin un encantament oníric."
+  },
+  "158": {
+    "name": "Totodile",
+    "description": "Les seves mandíbules ben desenvolupades són poderoses i capaces de trencar qualsevol cosa. Fins i tot el seu entrenador ha de tenir cura."
+  },
+  "508": {
+    "name": "Stoutland",
+    "description": "Rescata persones atrapades per les nevades a les muntanyes. El seu pelatge xamós el protegeix del fred."
+  },
+  "267": {
+    "name": "Beautifly",
+    "description": "L'aliment preferit del BEAUTIFLY és el dolç pol·len de les flors. Si vols veure aquest POKÉMON, només has de deixar una tafona de flors prop d'una finestra oberta. El BEAUTIFLY segur que vindrà a buscar pol·len."
+  },
+  "637": {
+    "name": "Volcarona",
+    "description": "Quan la cendra volcànica va enfosquir l'atmosfera, es diu que el foc de Volcarona va proporcionar un substitut del sol."
+  },
+  "322": {
+    "name": "Numel",
+    "description": "NUMEL és extremadament estúpid - ni s'adona que el colpegen. No obstant això, no pot suportar la fam ni un segon. El cos d'aquest POKéMON és un bullent caldero de magma ardent."
+  },
+  "772": {
+    "name": "Type-Null",
+    "description": "La pesada màscara de control que porta suprimeix les seves capacitats intrínseques. Aquest Pokémon té un cert poder especial ocult."
+  },
+  "288": {
+    "name": "Vigoroth",
+    "description": "El VIGOROTH sempre té picor i está inquiet per fer una ràbia desenfrenada. Simplement no pot suportar estar quiet ni un minut. El nivell d'estrès d'aquesta CRIATURA POKÉMON puja si no pot estar-se movent constantment."
+  },
+  "908": {
+    "name": "Meowscarada",
+    "description": "Aquest Pokémon utilitza el pel reflector que folra el seu mantell per camuflar el tija de la seva flor, creant la il·lusió que la flor està flotant."
+  },
+  "660": {
+    "name": "Diggersby",
+    "description": "Amb les seves orelles potents, poden alçar roques d'una tona o més amb facilitat. Poden ser de gran ajuda en llocs de construcció."
+  },
+  "230": {
+    "name": "Kingdra",
+    "description": "Es diu que normalment s'amaga en coves submarines. Pot crear remolins amb un badall."
+  },
+  "725": {
+    "name": "Litten",
+    "description": "Mentre es pentina, acumula pèl a l'interior del seu estómac. Encén el pèl i escup atacs de foc, que canvien segons com tossegi."
+  },
+  "375": {
+    "name": "Metang",
+    "description": "Quan dos Beldum es fusionen, neix el Metang. Els cervells dels Beldum estan units per un sistema nerviós magnetic. Enllaçant els seus cervells magneticament, aquest pokemon genera un gran poder psicocinetic."
+  },
+  "119": {
+    "name": "Seaking",
+    "description": "Durant la temporada de posta a la tardor, es poden veure nedant amb força pujant per rius i rierols."
+  },
+  "549": {
+    "name": "Lilligant",
+    "description": "Fins i tot entrenadors veterans tenen el repte de fer que la seva bella flor floreixi. Aquest Pokémon és popular entre les celebritats."
+  },
+  "861": {
+    "name": "Grimmsnarl",
+    "description": "Amb el pèl envoltat del cos ajudant a ressaltar els seus músculs, aquest Pokémon pot superar fins i tot el Machamp."
+  },
+  "162": {
+    "name": "Furret",
+    "description": "Fa un niu que s'ajusta al seu cos llarg i prim. El niu és impossible que altres POKÉMON hi entrin."
+  },
+  "498": {
+    "name": "Tepig",
+    "description": "Pot esquivar hàbilment els atacs dels seus rivals mentre dispara boles de foc pel nas. Es torra les baies abans de menjar-les."
+  },
+  "532": {
+    "name": "Timburr",
+    "description": "Lluita brandint una peça de fusta. Està a punt d'evolucionar quan pot manejar la fusta sense dificultat."
+  },
+  "27": {
+    "name": "Sandshrew",
+    "description": "S'enterra profundament sota terra en llocs àrids lluny de l'aigua. Només surt per caçar el seu aliment."
+  },
+  "477": {
+    "name": "Dusknoir",
+    "description": "L'antena del seu cap capta ones de ràdio del món dels esperits que li ordenen que porti persones allà."
+  },
+  "924": {
+    "name": "Tandemaus",
+    "description": "Mostrant una gran col·laboració, utilitzen les seves dents incisives per tallar peces de qualsevol material que pugui ser útil per a un niu, i després se les emporten."
+  },
+  "359": {
+    "name": "Absol",
+    "description": "Cada vegada que l'ABSOL apareix davant de la gent, és seguit per un desastre com un terratrèmol o una onada de marea. Com a resultat, es va conèixer com el POKÉMON del desastre."
+  },
+  "709": {
+    "name": "Trevenant",
+    "description": "Pot controlar els arbres a voluntat. Atrapa les persones que malmeten el bosc, perquè no puguin marxar mai més."
+  },
+  "565": {
+    "name": "Carracosta",
+    "description": "Poden viure tant a l'oceà com a terra ferma. Un cop seu és suficient per obrir un forat al fons d'un petrolier."
+  },
+  "135": {
+    "name": "Jolteon",
+    "description": "Acumula ions negatius a l'atmosfera per llançar llamps de 10.000 volts."
+  },
+  "836": {
+    "name": "Boltund",
+    "description": "Aquest Pokémon genera electricitat i la canalitza a les seves potes per mantenir-les fortes. El Boltund pot córrer sense parar durant tres dies sencers."
+  },
+  "973": {
+    "name": "Flamigo",
+    "description": "Aquest Pokémon aparentment s'amarra la base del coll en un nus perquè l'energia emmagatzemada a la seva panxa no se'n vagi pel seu bec."
+  },
+  "420": {
+    "name": "Cherubi",
+    "description": "La petita bola conté els nutrients necessaris per evolucionar. Sembla que és molt dolça i saborosa."
+  },
+  "70": {
+    "name": "Weepinbell",
+    "description": "Expulsa PÓLVORA VERÍNOSA per immobilitzar l'enemic i després l'acaba amb un raig d'ÀCID."
+  },
+  "820": {
+    "name": "Greedent",
+    "description": "Amaga baies a la seva cua, tantes baies que se li cauen constantment. Però aquest Pokémon és una mica beneitet, així que no s'adona de la pèrdua."
+  },
+  "123": {
+    "name": "Scyther",
+    "description": "Amb l'agilitat i la velocitat d'un ninja, pot crear la il·lusió que hi ha més d'un."
+  },
+  "573": {
+    "name": "Cinccino",
+    "description": "El seu pèl blanc està recobert d'un oli especial que els fa fàcil de desviar els atacs."
+  },
+  "89": {
+    "name": "Muk",
+    "description": "Cobert de forma espessa per un fangar brut i vil. És tan tòxic que fins i tot les seves petjades contenen verí."
+  },
+  "66": {
+    "name": "Machop",
+    "description": "Li agrada desenvolupar els seus músculs. Entrena en tots els estils de les arts marcials per fer-se encara més fort."
+  },
+  "436": {
+    "name": "Bronzor",
+    "description": "S'han trobat objectes amb aquesta forma en antigues tombes. Es desconeix si tenen alguna relació."
+  },
+  "965": {
+    "name": "Varoom",
+    "description": "Es diu que aquest Pokémon va néixer quan un Pokémon verinós desconegut va entrar i va inspirar un motor deixat en una fàbrica de reciclatge."
+  },
+  "318": {
+    "name": "Carvanha",
+    "description": "Les fortes mandíbules i les punxegudes dents de la CARVANHA tenen un poder destructiu capaç de trencar el casc dels vaixells. Molts vaixells han estat atacats i enfonsats per aquest POKÉMON."
+  },
+  "748": {
+    "name": "Toxapex",
+    "description": "Toxapex s'arrossega pel fons de l'oceà amb les seves 12 potes. Deixa un rastre de trossos de Corsola escampats al seu pas."
+  },
+  "524": {
+    "name": "Roggenrola",
+    "description": "La seva orella té forma hexagonal. Comprimit sota terra, el seu cos és tan dur com l'acer."
+  },
+  "174": {
+    "name": "Igglybuff",
+    "description": "Té un cos molt tou. Si comença a rodar, botarà per tot arreu i serà impossible aturar-lo."
+  },
+  "877": {
+    "name": "Morpeko-Full-Belly",
+    "description": "Mentre menja les llavors emmagatzemades a les seves butxaques com a bosses, aquest Pokémon no només està satisfent la seva gana constant. També està generant electricitat."
+  },
+  "898": {
+    "name": "Calyrex",
+    "description": "Calyrex és un Pokémon misericordiós, capaç de proporcionar curació i benediccions. Va regnar sobre la regió de Galar en temps antics."
+  },
+  "932": {
+    "name": "Nacli",
+    "description": "Va néixer en una capa de sal gema ben endins de la Terra. Aquesta espècie es valorava molt en els temps antics, ja que compartien la preciosa sal."
+  },
+  "461": {
+    "name": "Weavile",
+    "description": "Viuen en regions fredes, formant grups de quatre o cinc individus que cacen la seva presa amb una impressionant coordinació."
+  },
+  "31": {
+    "name": "Nidoqueen",
+    "description": "Les seves dures escates proporcionen una forta protecció. Utilitza el seu pes considerable per executar moviments poderosos."
+  },
+  "525": {
+    "name": "Boldore",
+    "description": "Quan s'omple de poder, el cristall taronja del seu cos s'il·lumina. Busca aigua subterra a les coves."
+  },
+  "175": {
+    "name": "Togepi",
+    "description": "La closca sembla plena d'alegria. Es diu que compartirà bona sort si se'l tracta amb amabilitat."
+  },
+  "876": {
+    "name": "Indeedee-Male",
+    "description": "Utilitza els seus banyes del cap per detectar les emocions dels altres. Els mascles actuaran com a majordoms per als qui serveixen, atenent a les seves necessitats."
+  },
+  "899": {
+    "name": "Wyrdeer",
+    "description": "Les esferes negres brillen amb una llum estranya quan el Pokémon erigeix barreres invisibles. La pèl que es desprèn de la seva barba manté bé la calor i és un material molt útil per a la roba d'hivern."
+  },
+  "933": {
+    "name": "Naclstack",
+    "description": "Aquest Pokémon asseca i cura la seva presa ruixant-la amb sal. El procés de curat li treu l'aigua del cos."
+  },
+  "460": {
+    "name": "Abomasnow",
+    "description": "Aixeca borrasques a les muntanyes que estan sempre enterrades en la neu. És l'home de les neus abominable."
+  },
+  "30": {
+    "name": "Nidorina",
+    "description": "La banya de la femella es desenvolupa lentament. Prefereix atacs físics com ara arpar i mossegar."
+  },
+  "319": {
+    "name": "Sharpedo",
+    "description": "Apodada \"la lleona del mar\", el SHARPEDO és àmpliament temut. Les seves cruels dents tornen a créixer immediatament si es trencaven. Només cal un d'aquests POKÉMON per destrossar per complet un petrolier."
+  },
+  "749": {
+    "name": "Mudbray",
+    "description": "La fang enganxada a les potes de Mudbray millora la seva agafada i el seu potent pas de córrer."
+  },
+  "821": {
+    "name": "Rookidee",
+    "description": "Aquest Pokémon afrontarà valentament qualsevol oponent, per poderós que sigui. Aquest Pokémon es beneficia de cada batalla: fins i tot una derrota augmenta una mica la seva força."
+  },
+  "122": {
+    "name": "Mr-Mime",
+    "description": "Si l'interrompen mentre imita, colpejarà l'ofensor amb les seves àmplies mans."
+  },
+  "572": {
+    "name": "Minccino",
+    "description": "Es saluden fregant-se les cues, que sempre mantenen ben pentinades i netes."
+  },
+  "88": {
+    "name": "Grimer",
+    "description": "Apareix en zones brutes. Prospera xupant el fangar contaminat que es bombeja fora de les fàbriques."
+  },
+  "67": {
+    "name": "Machoke",
+    "description": "El seu cos musculós és tan poderós que ha de portar un cinturó d'estalvi d'energia per poder regular els seus moviments."
+  },
+  "437": {
+    "name": "Bronzong",
+    "description": "Un d'aquests va causar sensació quan es va trobar enterrat en un lloc de construcció després d'estar-hi dormint durant 2.000 anys."
+  },
+  "964": {
+    "name": "Palafin-Zero",
+    "description": "Aquest Pokémon canvia la seva aparença si escolta els seus aliats demanant ajuda. El Palafin mai mostrarà a ningú el seu moment de transformació."
+  },
+  "564": {
+    "name": "Tirtouga",
+    "description": "Restaurat d'un fòssil, aquest Pokémon pot submergir-se a profunditats de més d'un quilòmetre."
+  },
+  "134": {
+    "name": "Vaporeon",
+    "description": "Viu a prop de l'aigua. La seva llarga cua té una aleta que sovint es confon amb la d'una sirena."
+  },
+  "837": {
+    "name": "Rolycoly",
+    "description": "La major part del seu cos té la mateixa composició que el carbó. Curiosament, aquest Pokémon es va descobrir per primera vegada a les mines de carbó fa uns 400 anys."
+  },
+  "972": {
+    "name": "Houndstone",
+    "description": "Houndstone passa la majoria del temps dormint en cementiris. Entre tots els Pokémon gos, aquest és el més lleial al seu amo."
+  },
+  "421": {
+    "name": "Cherrim",
+    "description": "Floreix durant els moments de forta llum solar. Intenta compensar tot el que va patir quan era un botó."
+  },
+  "71": {
+    "name": "Victreebel",
+    "description": "Es diu que viuen en grans colònies al fons de les jungles, tot i que ningú mai no n'ha tornat."
+  },
+  "358": {
+    "name": "Chimecho",
+    "description": "El CHIMECHO fa ressonar els seus crits a l'interior del seu cos buit. Quan aquest POKÉMON s'enfureix, els seus crits produeixen ones ultrasòniques que tenen el poder de fer volar els enemics."
+  },
+  "708": {
+    "name": "Phantump",
+    "description": "Aquests Pokémon es creen quan els esperits posseeixen troncs d'arbre podrits. Prefereixen viure en boscos abandonats."
+  },
+  "860": {
+    "name": "Morgrem",
+    "description": "Quan es posa a quatre grapes com si demanés perdó, intenta atreure els oponents per poder clavar-los amb els seus cabells en forma de pal."
+  },
+  "163": {
+    "name": "Hoothoot",
+    "description": "Sempre es posa sobre una sola pota. Canvia de peus tan ràpidament que el moviment gairebé no es pot veure."
+  },
+  "499": {
+    "name": "Pignite",
+    "description": "Quan el seu foc intern s'encén, els seus moviments es tornen més afilats i ràpids. Quan està en problemes, emet fum."
+  },
+  "533": {
+    "name": "Gurdurr",
+    "description": "Aquest Pokémon és tan musculós i robust que ni un grup de lluitadors no el podrien moure ni un centímetre."
+  },
+  "26": {
+    "name": "Raichu",
+    "description": "La seva llarga cua serveix de presa a terra per protegir-se de la seva pròpia energia d'alta tensió."
+  },
+  "476": {
+    "name": "Probopass",
+    "description": "Controla lliurement tres unitats petites anomenades Mini-Nas utilitzant força magnètica."
+  },
+  "925": {
+    "name": "Maushold-Family-Of-Four",
+    "description": "Els dos petits van aparèixer un dia. El grup podria ser una família de Pokémon emparentats, però ningú no ho sap amb certesa."
+  },
+  "118": {
+    "name": "Goldeen",
+    "description": "La seva aleta caudal s'inflama com un elegant vestit de ball, guanyant-se el sobrenom de Reina de l'Aigua."
+  },
+  "548": {
+    "name": "Petilil",
+    "description": "Les fulles del seu cap són molt amargues. Menjar-ne'n una es diu que refresca un cos cansat."
+  },
+  "661": {
+    "name": "Fletchling",
+    "description": "Aquests Pokémon amistosos s'envien senyals els uns als altres amb bonics xiscles i moviments de les plomes de la cua."
+  },
+  "231": {
+    "name": "Phanpy",
+    "description": "Bamba el seu llarg musell de manera jugano­ sa, però com que és tan fort, això pot ser perillós."
+  },
+  "724": {
+    "name": "Decidueye",
+    "description": "Dispara dards de les seves ales amb tanta precisió que poden traspassar una pedra a distàncies de més de cent iards."
+  },
+  "374": {
+    "name": "Beldum",
+    "description": "En comptes de sang, el cos del Beldum esta recorregut per una forta forca magnetica. Aquest pokemon es comunica amb els altres enviant polsos de magnetisme controlats."
+  },
+  "909": {
+    "name": "Fuecoco",
+    "description": "Jeu sobre roques calentes i utilitza la calor absorbida per les seves escates quadrades per crear energia de foc."
+  },
+  "266": {
+    "name": "Silcoon",
+    "description": "El SILCOON s'uneix a una branca d'arbre amb seda per no caure. Allà, aquest POKÉMON es queda quiet mentre espera evolucionar. Mira fora del caput de seda a través d'un petit forat."
+  },
+  "636": {
+    "name": "Larvesta",
+    "description": "Aquest Pokémon es creia que havia nascut del sol. Quan evoluciona, tot el seu cos s'envolta de flames."
+  },
+  "323": {
+    "name": "Camerupt",
+    "description": "CAMERUPT té un volcà a l'interior del seu cos. Magma de 18.000 graus F circula per tot el seu cos. De tant en tant, les gepes d'aquest POKéMON erupcionen, expulsant el magma superesCalfat."
+  },
+  "773": {
+    "name": "Silvally",
+    "description": "La seva confiança en el seu company és el que el desperta. Aquest Pokémon és capaç de canviar el seu tipus, una flexibilitat que es mostra bé en batalla."
+  },
+  "289": {
+    "name": "Slaking",
+    "description": "El SLAKING passa tot el dia ajagut i jagadejant. Menja l'herba que li creix a l'abast. Si es menja tota l'herba que pot arribar, aquesta CRIATURA POKÉMON de mala gana es trasllada a un altre lloc."
+  },
+  "159": {
+    "name": "Croconaw",
+    "description": "Si perd una dent, en creix una de nova al seu lloc. Sempre té 48 dents a la boca."
+  },
+  "509": {
+    "name": "Purrloin",
+    "description": "Roben a la gent per diversió, però les seves víctimes no poden evitar perdonar-los. El seu enganyós acte d'adoració és perfecte."
+  },
+  "620": {
+    "name": "Mienshao",
+    "description": "Empra el pèl dels seus braços com un fuet. Els seus atacs de braç arriben amb tanta rapidesa que ni tan sols es poden veure."
+  },
+  "270": {
+    "name": "Lotad",
+    "description": "Busca aigua neta. Si no beu aigua durant massa temps, la fulla del seu cap es marceix."
+  },
+  "765": {
+    "name": "Oranguru",
+    "description": "Conegut per la seva extrema intel·ligència, aquest Pokémon menysprearia els Entrenadors inexperts, per la qual cosa és més adequat per a Entrenadors veterans."
+  },
+  "335": {
+    "name": "Zangoose",
+    "description": "Els records de lluitar contra el seu rival acèrrim SEVIPER estan gravats en cada cèl·lula del cos del ZANGOOSE. Aquest POKÉMON evita hàbilment els atacs amb una agilitat increïble."
+  },
+  "948": {
+    "name": "Toedscool",
+    "description": "El Toedscool viu en boscos humits. Els flocs que se li cauen del cos són masticables i molt saborosos."
+  },
+  "227": {
+    "name": "Skarmory",
+    "description": "Les seves fortes ales semblen pesades, però en realitat són buides i lleugeres, la qual cosa li permet volar lliurement pel cel."
+  },
+  "677": {
+    "name": "Espurr",
+    "description": "L'òrgan que emet el seu intens poder psíquic està protegit per les seves orelles per evitar que el poder s'escapi."
+  },
+  "362": {
+    "name": "Glalie",
+    "description": "El GLALIE té un cos de roca que reforça amb una armadura de gel. Aquest POKÉMON té la capacitat de congelar la humitat de l'atmosfera en qualsevol forma que desitgi."
+  },
+  "698": {
+    "name": "Amaura",
+    "description": "Aquest Pokémon antic va ser restaurat a partir d'una part del seu cos que havia estat congelada en gel durant més de 100 milions d'anys."
+  },
+  "732": {
+    "name": "Trumbeak",
+    "description": "Menja baies i guarda les seves llavors al bec. Quan es troba amb enemics o preses, llança totes les llavors en un esclat."
+  },
+  "745": {
+    "name": "Lycanroc-Midday",
+    "description": "Els seus moviments ràpids confonen els seus enemics. Ben equipat amb urpes i dents, també utilitza les roques afilades de la seva melena com a armes."
+  },
+  "315": {
+    "name": "Roselia",
+    "description": "ROSELIA dispara espines afilades com a projectils contra qualsevol oponent que intenti robar les flors dels seus braços. L'aroma d'aquest POKÉMON aporta serenitat als éssers vius."
+  },
+  "1011": {
+    "name": "Dipplin",
+    "description": "El Dipplin és dos criatures en un sol Pokémon. La seva evolució es va desencadenar per una poma especial que només es cultiva en un lloc."
+  },
+  "600": {
+    "name": "Klang",
+    "description": "Canviant la direcció en què rota, comunica els seus sentiments als altres. Quan està enfadat, rota més ràpid."
+  },
+  "250": {
+    "name": "Ho-Oh",
+    "description": "Els mites afirmen que aquest POKÉMON vola pels cels del món contínuament amb les seves magnífiques ales de set colors."
+  },
+  "179": {
+    "name": "Mareep",
+    "description": "Si es acumula electricitat estàtica al seu cos, la seva llana es doblega en volum. Si el toques, et donarà una descàrrega."
+  },
+  "483": {
+    "name": "Dialga",
+    "description": "Té el poder de controlar el temps. Apareix en els mites de la regió de Sinnoh com una deïtat antiga."
+  },
+  "529": {
+    "name": "Drilbur",
+    "description": "Pot excavar per la terra a una velocitat de 30 milles per hora. Podria córrer al costat d'un cotxe que va per la superfície."
+  },
+  "196": {
+    "name": "Espeon",
+    "description": "Utilitza els fins pèls que cobreixen el seu cos per sentir els corrents d'aire i predir les accions del seu enemic."
+  },
+  "895": {
+    "name": "Regidrago",
+    "description": "Una teoria acadèmica proposa que els braços de Regidrago eren abans el cap d'un antic Pokémon dragó. Aquesta teoria encara no s'ha demostrat."
+  },
+  "342": {
+    "name": "Crawdaunt",
+    "description": "El GAMBARAIG té una naturalesa extremadament violenta que el fa desafiar altres éssers vius a la batalla. Altres formes de vida es neguen a viure en els estanys habitats per aquest POKÉMON, convertint-los en llocs desolats."
+  },
+  "712": {
+    "name": "Bergmite",
+    "description": "Bloqueja els atacs dels oponents amb el gel que recobreix el seu cos. Usa aire fred per reparar les esquerdes amb nou gel."
+  },
+  "207": {
+    "name": "Gligar",
+    "description": "Vola directament a la cara de la seva víctima i després l'agafa amb força per injectar-li verí."
+  },
+  "657": {
+    "name": "Frogadier",
+    "description": "Pot llançar pedres recobertes de bombolles amb un control precís, encertant llaunes buides a fins a cent peus de distància."
+  },
+  "84": {
+    "name": "Doduo",
+    "description": "Un ocell que compensa la seva mala volada amb la seva gran velocitat a peu. Deixa petjades gegants."
+  },
+  "987": {
+    "name": "Flutter-Mane",
+    "description": "Aquest Pokémon té característiques similars a les de la Plomada, una criatura esmentada en un cert llibre."
+  },
+  "968": {
+    "name": "Orthworm",
+    "description": "Quan l'ataquen, aquest Pokémon utilitzarà els seus tentacles com a puny i bombardejarà l'oponent amb una tempesta de cops."
+  },
+  "591": {
+    "name": "Amoonguss",
+    "description": "Atrau les preses a prop seu balancejant i movent els seus casquets de braços que semblen Pokéballs."
+  },
+  "704": {
+    "name": "Goomy",
+    "description": "El Pokémon Drac més dèbil, viu en llocs humits i ombrívols, perquè el seu cos no es dessequi."
+  },
+  "354": {
+    "name": "Banette",
+    "description": "El BANETTE genera energia per llançar malediccions poderoses clavant agulles al seu propi cos. Aquest POKÉMON era originalment una pobra joguina de peluix que havia estat llançada a les escombraries."
+  },
+  "641": {
+    "name": "Tornadus-Incarnate",
+    "description": "La part inferior del seu cos està envoltada per un núvol d'energia. Recorre el cel a 200 milles per hora."
+  },
+  "211": {
+    "name": "Qwilfish",
+    "description": "Per llançar les seves espines verinoses, ha d'inflar el seu cos bevent més de 9,8 litres d'aigua d'un sol cop."
+  },
+  "991": {
+    "name": "Iron-Bundle",
+    "description": "La seva forma és similar a un robot que es va presentar en un article de revista sobre fenòmens paranormals. Es deia que aquest robot havia estat creat per una antiga civilització."
+  },
+  "138": {
+    "name": "Omanyte",
+    "description": "Tot i que s'ha extingit fa molt de temps, en casos rars, pot ser ressuscitat genèticament a partir de fòssils."
+  },
+  "568": {
+    "name": "Trubbish",
+    "description": "Respirar el gas que belfen et farà dormir una setmana. Prefereixen llocs bruts i descuidats."
+  },
+  "92": {
+    "name": "Gastly",
+    "description": "Gairebé invisible, aquest Pokémon gasós envolta l'objectiu i l'adorm sense que se n'adoni."
+  },
+  "587": {
+    "name": "Emolga",
+    "description": "L'energia que es genera a les bossetes elèctriques de les seves galtes s'emmagatzema a la seva membrana i s'allibera mentre està volant."
+  },
+  "303": {
+    "name": "Mawile",
+    "description": "Les enormes mandíbules del MAWHILE són en realitat banyes d'acer que s'han transformat. La seva cara de semblar dòcil serveix per enganyar l'adversari i fer que baixi la guàrdia. Quan menys s'ho espera, el MAWHILE l'enxampa amb les seves enormes mandíbules."
+  },
+  "753": {
+    "name": "Fomantis",
+    "description": "Durant el dia, dorm i absorbeix llum. Quan cau la nit, camina buscant un lloc més segur per dormir."
+  },
+  "246": {
+    "name": "Larvitar",
+    "description": "S'alimenta de sòl. Després d'haver menjat una muntanya gran, s'adormirà per tal que pugui créixer."
+  },
+  "616": {
+    "name": "Shelmet",
+    "description": "Quan l'ataquen, es defensa tancant la tapa de la seva closca. Pot escopir un líquid enganxós i verinós."
+  },
+  "1007": {
+    "name": "Koraidon",
+    "description": "Sembla ser el Rei Alat esmentat en un antic diari d'expedició. Es deia que havia dividit la terra amb els seus puny nus."
+  },
+  "495": {
+    "name": "Snivy",
+    "description": "És molt intel·ligent i tranquil. Estar exposat a molta llum solar accelera els seus moviments."
+  },
+  "883": {
+    "name": "Arctovish",
+    "description": "Tot i que pot capturar preses congelant el seu entorn, té problemes menjant-les després perquè té la boca al damunt del cap."
+  },
+  "929": {
+    "name": "Dolliv",
+    "description": "El Dolliv comparteix el seu oli saborós i de fragància fresca amb els altres. Aquesta espècie ha conviscut amb els humans des de temps remots."
+  },
+  "180": {
+    "name": "Flaaffy",
+    "description": "Com a resultat d'emmagatzemar massa electricitat, ha desenvolupat zones on fins i tot la llana suau no creix."
+  },
+  "397": {
+    "name": "Staravia",
+    "description": "Vola per boscos i camps buscant Pokémon insectes. Sempre es manté dins un esbart molt gran."
+  },
+  "378": {
+    "name": "Regice",
+    "description": "El cos de REGICE es va formar durant una edat de gel. El cos congelat no es pot fondre, ni tan sols amb foc. Aquest POKÉMON controla l'aire gèlid de menys 328 graus Fahrenheit."
+  },
+  "682": {
+    "name": "Spritzee",
+    "description": "Emet una olor que encisa tothom qui la percep. Aquest perfum canvia segons el que hagi menjat."
+  },
+  "728": {
+    "name": "Popplio",
+    "description": "Aquest Pokémon bufa líquids corporals pel nas, fent bombolles per estavellar-se contra els seus enemics. És famós per ser molt treballador."
+  },
+  "952": {
+    "name": "Scovillain",
+    "description": "El cap roig converteix les substàncies picants en energia de foc i llença una potent flamarada superencesa a l'entorn."
+  },
+  "401": {
+    "name": "Kricketot",
+    "description": "Mou el cap d'un costat a l'altre, fent que les seves antenes xoquin i sonin com un xilòfon."
+  },
+  "51": {
+    "name": "Dugtrio",
+    "description": "Un equip de tres Diglett. Provoca grans terratrèmols en cavar a 100 quilòmetres de profunditat."
+  },
+  "544": {
+    "name": "Whirlipede",
+    "description": "Protegit per una closca dura, gira el seu cos com una roda i s'estavella furiós contra els seus enemics."
+  },
+  "114": {
+    "name": "Tangela",
+    "description": "Tot el cos està embolcallat amb àmplies enfiladisses que són similars a les algues. Les seves enfiladisses es mouen quan camina."
+  },
+  "817": {
+    "name": "Drizzile",
+    "description": "Un combatent intel·ligent, aquest Pokémon es bateja utilitzant globus d'aigua creats amb la humitat secretada de les seves palmells."
+  },
+  "790": {
+    "name": "Cosmoem",
+    "description": "Immòbil com si estigués mort, el seu cos té una lleugera escalfor al tacte. En el passat llunyà, s'anomenava el capoll de les estrelles."
+  },
+  "285": {
+    "name": "Shroomish",
+    "description": "Els SHROOMISH viuen en sòls humits a les profunditats fosques dels boscos. Sovint es troben quiets sota fulles caigudes. Aquest POKéMON s'alimenta del compost format per fulles caigudes i porides."
+  },
+  "6": {
+    "name": "Charizard",
+    "description": "Escup foc prou calent per fondre roques. Es coneix que pot provocar incendis forestals sense voler."
+  },
+  "456": {
+    "name": "Finneon",
+    "description": "Després d'una llarga exposició a la llum solar, els patrons de les seves aletes de la cua brillen vividament quan arriba la foscor."
+  },
+  "905": {
+    "name": "Enamorus-Incarnate",
+    "description": "Quan vola a aquesta terra des de l'altre costat del mar, l'amarga hivern arriba a la fi. Segons la llegenda, l'amor d'aquest Pokémon fa néixer vida nova per tot Hisui."
+  },
+  "840": {
+    "name": "Applin",
+    "description": "Passa tota la seva vida dins d'una poma. S'amaga dels seus enemics naturals, els Pokémon aus, fent veure que només és una poma i res més."
+  },
+  "143": {
+    "name": "Snorlax",
+    "description": "Molt gandul. Només menja i dorm. A mesura que la seva corpulència rodona es construeix, es torna cada vegada més mandrós."
+  },
+  "513": {
+    "name": "Pansear",
+    "description": "Quan s'enfada, la temperatura del plomall del seu cap arriba als 600°F. Fa servir el plomall per torrar baies."
+  },
+  "786": {
+    "name": "Tapu-Lele",
+    "description": "Aquesta deïtat guardiana d'Akala és cruelment ingènua. La fragant aroma de les flors és la font de la seva energia."
+  },
+  "339": {
+    "name": "Barboach",
+    "description": "Els sensibles bigotis de BARBOACH serveixen com un sistema de radar excel·lent. Aquest POKÉMON s'amaga al fang, deixant només els seus dos bigotis exposats mentre espera que la presa s'apropi."
+  },
+  "769": {
+    "name": "Sandygast",
+    "description": "Nascut d'un munt de sorra construït de manera juganera per un nen, aquest Pokémon encarna els rancors dels difunts."
+  },
+  "293": {
+    "name": "Whismur",
+    "description": "Normalment, la veu del WHISMUR és molt suau – gairebé inaudible fins i tot si s'hi posa molta atenció. Però si aquest POKÉMON sent perill, comença a cridar amb un volum molt alt que pot fer mal a les orelles."
+  },
+  "913": {
+    "name": "Quaxwell",
+    "description": "Aquests Pokémon corren constantment per aigües poc profundes per entrenar les seves potes, i després competeixen entre ells per veure quin d'ells pega les parpedejades més gràcils."
+  },
+  "440": {
+    "name": "Happiny",
+    "description": "Li encanten les coses blanques i rodones. Porta una roca amb forma d'ou imitant el CHANSEY."
+  },
+  "10": {
+    "name": "Caterpie",
+    "description": "Les seves potes curtes acaben en ventoses que li permeten pujar sense parar per pendents i parets."
+  },
+  "505": {
+    "name": "Watchog",
+    "description": "Quan veuen un enemic, les seves cues s'alcen i escopeixen les llavors de les baies emmagatzemades a les butxaques de les galtes."
+  },
+  "155": {
+    "name": "Cyndaquil",
+    "description": "Té una naturalesa tímida. Si se sorprèn, les flames de l'esquena cremen amb més vigor."
+  },
+  "856": {
+    "name": "Hatenna",
+    "description": "Mitjançant la prominència del seu cap, detecta les emocions d'altres criatures. Si no tens una disposició tranquil·la, mai s'acostumaran a tu."
+  },
+  "381": {
+    "name": "Latios",
+    "description": "LATIOS té l'habilitat de fer que el seu rival vegi una imatge del que ha vist o imaginat al seu cap. Aquest POKÉMON és intel·ligent i entén el llenguatge humà."
+  },
+  "694": {
+    "name": "Helioptile",
+    "description": "Fan el seu llar al desert. Poden generar energia tot prenent el sol, de manera que no necessiten menjar."
+  },
+  "47": {
+    "name": "Parasect",
+    "description": "Un parell d'hoste i paràsit on el bolet paràsit s'ha apoderat de l'insecte hoste. Prefereix llocs humits."
+  },
+  "417": {
+    "name": "Pachirisu",
+    "description": "Fa boles de pèl que crispegen amb electricitat estàtica. Les guarda amb baies als forats dels arbres."
+  },
+  "944": {
+    "name": "Shroodle",
+    "description": "Tot i que normalment és un Pokémon tranquil, clavaré les seves dents frontals afilades i emponzonyades a qualsevol que l'enfadi, provocant-los paralització."
+  },
+  "801": {
+    "name": "Magearna",
+    "description": "Aquest Pokémon artificial, construït fa més de 500 anys, pot entendre el llenguatge humà però no pot parlar."
+  },
+  "102": {
+    "name": "Exeggcute",
+    "description": "Sovint es confonen amb ous. Quan es molesten, es reuneixen ràpidament i ataquen en estols."
+  },
+  "552": {
+    "name": "Krokorok",
+    "description": "Viuen en grups de pocs individus. Tenen membranes protectores que els protegeixen els ulls de les tempestes de sorra."
+  },
+  "603": {
+    "name": "Eelektrik",
+    "description": "S'enrotllen al voltant dels rivals i els electrocuten amb els seus òrgans generadors d'electricitat que semblen ser simples patrons circulars."
+  },
+  "253": {
+    "name": "Grovyle",
+    "description": "Les fulles que creixen al cos de GROVYLE són ideals per amagar-lo dels seus enemics al bosc. Aquest POKéMON és un expert trepant pels arbres de la jungla."
+  },
+  "1012": {
+    "name": "Poltchageist",
+    "description": "Segons es diu, els penediments d'un mestre de la cerimònia del te que va morir abans de perfeccionar la seva habilitat es van quedar impregnats en una mica de matxa i es van convertir en un Pokémon."
+  },
+  "746": {
+    "name": "Wishiwashi-Solo",
+    "description": "Quan està en problemes, els seus ulls s'humitegen i comencen a brillar. La llum brillant atrau els seus companys, i es posen junts contra els seus enemics."
+  },
+  "316": {
+    "name": "Gulpin",
+    "description": "Pràcticament tot el cos del GULPIN és l'estómac. Com a resultat, pot empassar-se alguna cosa del seu propi tamany. Aquest POKÉMON té un líquid especial a l'estómac que ho digereix tot."
+  },
+  "896": {
+    "name": "Glastrier",
+    "description": "Glastrier emet un fred intens de les seves botes. També és un Pokémon bel·ligerant: agafa a la força tot el que vol."
+  },
+  "195": {
+    "name": "Quagsire",
+    "description": "Aquest despreocupat POKéMON té una naturalesa tranquil·la. Mentre neda, sempre xoca contra els cascs dels vaixells."
+  },
+  "480": {
+    "name": "Uxie",
+    "description": "Conegut com \"L'Ésser del Coneixement\". Es diu que pot esborrar la memòria d'aquells que veuen els seus ulls."
+  },
+  "879": {
+    "name": "Copperajah",
+    "description": "Van venir d'una altra regió fa molt de temps i van treballar juntament amb els humans. La seva pell verda és resistent a l'aigua."
+  },
+  "204": {
+    "name": "Pineco",
+    "description": "Li agrada fer el seu caparaçó més gruixut afegint capes d'escorça d'arbre. El pes addicional no l'incomoda."
+  },
+  "654": {
+    "name": "Braixen",
+    "description": "Té una branqueta clavada a la cua. Amb la fricció dels pèls de la cua, li prengui foc i salta a la batalla."
+  },
+  "341": {
+    "name": "Corphish",
+    "description": "La seva vigorosa vitalitat li permet adaptar-se a qualsevol entorn. Les seves pinces no alliberaran mai la seva presa."
+  },
+  "711": {
+    "name": "Gourgeist-Average",
+    "description": "Canten amb veus esgarrifoses i vaguegen pels carrers del poble la nit de lluna nova. Qui escolti la seva cançó serà maleït."
+  },
+  "438": {
+    "name": "Bonsly",
+    "description": "Sembla que sempre estigui plorant. Però en realitat s'està ajustant els nivells de líquids del seu cos per eliminar l'excés."
+  },
+  "68": {
+    "name": "Machamp",
+    "description": "Utilitzant els seus músculs pesants, llança cops de puny poderosos que poden enviar la víctima molt lluny a l'horitzó."
+  },
+  "592": {
+    "name": "Frillish",
+    "description": "Amb els seus braços prims i vaporosos envoltant el cos de l'oponent, s'enfonsa fins al fons de l'oceà."
+  },
+  "984": {
+    "name": "Great-Tusk",
+    "description": "S'han registrat alguns avistaments d'aquest Pokémon en els últims anys. El nom Gran-Ullal prové d'una criatura descrita en un cert llibre."
+  },
+  "87": {
+    "name": "Dewgong",
+    "description": "Emmagatzema energia tèrmica al seu cos. Neda a una velocitat constant de 8 nusos, fins i tot en aigües intensament fredes."
+  },
+  "642": {
+    "name": "Thundurus-Incarnate",
+    "description": "Nombroses restes cremades marquen el paisatge dels llocs pels quals ha passat Thundurus."
+  },
+  "212": {
+    "name": "Scizor",
+    "description": "Té un cos d'acer dur. Intimidar els rivals alçant les seves forces de pinces amb dibuixos d'ulls."
+  },
+  "707": {
+    "name": "Klefki",
+    "description": "Aquests col·leccionistes de claus amenacen qualsevol atacant fent sonar feroçment les seves claus contra ells."
+  },
+  "357": {
+    "name": "Tropius",
+    "description": "Els raïms de fruita al voltant del coll del TROPIUS són molt populars entre els nens. Aquest POKÉMON adora la fruita i en menja contínuament. Aparentment, el seu amor per la fruita va resultar en el creixement de fruita al seu propi cos."
+  },
+  "584": {
+    "name": "Vanilluxe",
+    "description": "Empassant-se grans quantitats d'aigua, fan núvols de neu dins del seu cos i ataquen els seus enemics amb violentes nevades."
+  },
+  "91": {
+    "name": "Cloyster",
+    "description": "Quan l'ataquen, llança les seves banyes a gran velocitat. Mai s'ha vist el seu interior."
+  },
+  "838": {
+    "name": "Carkol",
+    "description": "Forma carbó dins del seu cos. El carbó deixat per aquest Pokémon va ajudar a alimentar la vida de la gent de la regió de Galar."
+  },
+  "992": {
+    "name": "Iron-Hands",
+    "description": "És molt similar a un cíborg que es va cobrir exclusivament en una revista sobre fenòmens paranormals. Es deia que el cíborg era la forma modificada d'un determinat atleta."
+  },
+  "1004": {
+    "name": "Chi-Yu",
+    "description": "Controla flames que cremen a més de 5.400 graus Fahrenheit. Nedeja tranquil·lament pel mar de lava que crea en fondre la roca i la sorra."
+  },
+  "245": {
+    "name": "Suicune",
+    "description": "Corre per tot el món per purificar les aigües brutes. Es llança a tota velocitat amb el vent del nord."
+  },
+  "615": {
+    "name": "Cryogonal",
+    "description": "Quan augmenta la seva temperatura corporal, es transforma en vapor i desapareix. Quan la temperatura baixa, torna a ser de gel."
+  },
+  "300": {
+    "name": "Skitty",
+    "description": "El SKITTY té el costum de fascinar-se per objectes en moviment i perseguir-los. Se sap que aquest POKÉMON persegueix la seva pròpia cua i s'acaba marejant."
+  },
+  "750": {
+    "name": "Mudsdale",
+    "description": "Escopeix una fang que proporciona resistència tant al vent com a la pluja, per això les parets de les cases antigues sovint s'hi cobrien."
+  },
+  "479": {
+    "name": "Rotom",
+    "description": "El seu cos està compost de plasma. Se sap que s'infiltra en dispositius electrònics i causa estralls."
+  },
+  "183": {
+    "name": "Marill",
+    "description": "La punta de la seva cua, que conté oli més lleuger que l'aigua, li permet nedar sense ofegar-se."
+  },
+  "29": {
+    "name": "Nidoran-F",
+    "description": "Tot i ser petit, les seves puntes verinoses converteixen aquest POKÉMON en perillós. La femella té banyes més petites."
+  },
+  "880": {
+    "name": "Dracozolt",
+    "description": "En temps antics, era invencible gràcies al seu poderós cos inferior, però es va extingir igualment després d'esgotar totes les seves fonts d'aliment vegetals."
+  },
+  "496": {
+    "name": "Servine",
+    "description": "Es mou per terra com si llisqués. Els seus moviments ràpids confonen els seus rivals, i després ataca amb un fuet de vinya."
+  },
+  "681": {
+    "name": "Aegislash-Shield",
+    "description": "Aquestes criatures van ser ateses per generacions de reis, i utilitzaven els seus poders espectrals per a manipular i controlar persones i altres Pokémon."
+  },
+  "394": {
+    "name": "Prinplup",
+    "description": "Viu sol, lluny dels altres. Sembla que cadascun d'ells creu que és el més important."
+  },
+  "814": {
+    "name": "Raboot",
+    "description": "El seu espès i esponjós pèl el protegeix del fred i li permet usar moviments de foc més calents."
+  },
+  "547": {
+    "name": "Whimsicott",
+    "description": "Com el vent, es pot colar per qualsevol escletxa, per petita que sigui. Deixa boletes de cotó blanc darrere."
+  },
+  "117": {
+    "name": "Seadra",
+    "description": "Capaç de nedar cap enrere movent ràpidament les aletes pectorals semblants a ales i la seva cua robusta."
+  },
+  "402": {
+    "name": "Kricketune",
+    "description": "Creua els seus braços tallants davant del pit quan crida. Pot compondre melodies sobre la marxa."
+  },
+  "52": {
+    "name": "Meowth",
+    "description": "Es renta la cara regularment per mantenir net el seu pal brillant de la front. No es porta bé amb els Meowth de Galar."
+  },
+  "951": {
+    "name": "Capsakid",
+    "description": "Aquest Pokémon produeix més substàncies picants al seu cos com més s'hi banya a la llum del sol, i per tant, els seus atacs es tornen més picants."
+  },
+  "286": {
+    "name": "Breloom",
+    "description": "El BRELOOM s'apropa als seus enemics amb petits i lleugers moviments de peus, i després els colpeja amb els seus braços flexibles. Aquesta CRIATURA POKÉMON té una tècnica de lluita que fa vergonya als boxejadors."
+  },
+  "639": {
+    "name": "Terrakion",
+    "description": "Aquest Pokémon va acudir en defensa dels Pokémon que havien perdut les seves llars en una guerra entre els humans."
+  },
+  "269": {
+    "name": "Dustox",
+    "description": "El DUSTOX se sent atret instintivament per la llum. Eixams d'aquest POKÉMON són atrets per les llums brillants de les ciutats, on causen estralls despullant les fulles dels arbres de les voreres per alimentar-se."
+  },
+  "793": {
+    "name": "Nihilego",
+    "description": "Un dels diversos Ultraéssers misteriosos. La gent del carrer reporta que les persones infestades per aquest Pokémon es tornen violentes sobtadament."
+  },
+  "140": {
+    "name": "Kabuto",
+    "description": "Un POKÉMON que va ser ressuscitat d'un fòssil trobat al que va ser el fons de l'oceà fa eons."
+  },
+  "510": {
+    "name": "Liepard",
+    "description": "Aquests Pokémon desapareixen i apareixen de manera inesperada. Molts entrenadors es senten atrets per la seva bella forma i pelatge."
+  },
+  "843": {
+    "name": "Silicobra",
+    "description": "A mesura que cava, s'empassa sorra i la guarda en una butxaca al coll. Aquesta butxaca pot contenir més de 7 quilos de sorra."
+  },
+  "906": {
+    "name": "Sprigatito",
+    "description": "El seu pel suau és similar en composició a les plantes. Aquest Pokémon es renta la cara amb freqüència per evitar que se li assequi."
+  },
+  "5": {
+    "name": "Charmeleon",
+    "description": "Quan brandia la seva cua ardent, eleva la temperatura a nivells insoportablement alts."
+  },
+  "455": {
+    "name": "Carnivine",
+    "description": "Atrau les preses amb la seva saliva de dolç perfum i llavors les devora. Necessita tot un dia per menjar-se una presa."
+  },
+  "290": {
+    "name": "Nincada",
+    "description": "El NINCADA viu sota terra durant molts anys en foscor total. Aquesta CRIATURA POKÉMON absorbeix nutrients de les arrels dels arbres. Està immòbil mentre espera evolucionar."
+  },
+  "785": {
+    "name": "Tapu-Koko",
+    "description": "Aquesta deïtat guardiana de Melemele està plena de curiositat. Invoca núvols de trons i emmagatzema els seus llampecs dins del seu cos."
+  },
+  "855": {
+    "name": "Polteageist",
+    "description": "Aquesta espècie viu en tetera antigues. La majoria de les tetera són falsificacions, però en algunes ocasions, es troba una obra autèntica."
+  },
+  "506": {
+    "name": "Lillipup",
+    "description": "S'enfronta a rivals forts amb gran coratge. Però, quan es troba en desavantatge en una lluita, aquest Pokémon intel·ligent fuig."
+  },
+  "156": {
+    "name": "Quilava",
+    "description": "Sigues amb compte si es dona la volta durant una batalla. Vol dir que atacarà amb el foc de la seva esquena."
+  },
+  "443": {
+    "name": "Gible",
+    "description": "Nia en forats petits i horitzontals a les parets de les coves. Es llança per caçar preses que s'acosten massa."
+  },
+  "13": {
+    "name": "Weedle",
+    "description": "Sovint es troba en boscos, menjant fulles. Té una agulla verinosa afilada al cap."
+  },
+  "910": {
+    "name": "Crocalor",
+    "description": "La combinació de l'energia de foc del Crocalor i la vitalitat desbordant han fet aparèixer una bola de foc en forma d'ou al cap del Pokémon."
+  },
+  "697": {
+    "name": "Tyrantrum",
+    "description": "Gràcies a les seves mandíbules gegants, que podrien destrossar plaques de metall gruixudes com si fossin de paper, era invencible en l'antic món que va habitar."
+  },
+  "678": {
+    "name": "Meowstic-Male",
+    "description": "Quan està en perill, alça les orelles i allibera prou poder psíquic per convertir un camió de 10 tones en pols."
+  },
+  "382": {
+    "name": "Kyogre",
+    "description": "KYOGRE té el poder de crear grans núvols de pluja que cobreixen tot el cel i provoquen pluges torrencials. Aquest POKÉMON va salvar la gent que patia per les sequeres."
+  },
+  "228": {
+    "name": "Houndour",
+    "description": "Utilitza diferents tipus de crits per comunicar-se amb els altres de la seva espècie i per perseguir la seva presa."
+  },
+  "101": {
+    "name": "Electrode",
+    "description": "Emmagatzema energia elèctrica a molta pressió. Sovint explota amb poca o cap provocació."
+  },
+  "551": {
+    "name": "Sandile",
+    "description": "Viuen enterrats a les sorres del desert. Les sorres escalfades pel sol els impedeixen que la seva temperatura corporal baixi."
+  },
+  "802": {
+    "name": "Marshadow",
+    "description": "Capaç d'amagar-se a les ombres, mai no apareix davant dels humans, per això la seva existència era com un mite."
+  },
+  "947": {
+    "name": "Brambleghast",
+    "description": "Obrirà les branques del seu cap per a envair la seva presa. Un cop ha absorbit tota l'energia vital que necessita, expulsa la presa i la descarta."
+  },
+  "44": {
+    "name": "Gloom",
+    "description": "El fluid que raja de la seva boca no és saliva. És una nectar que s'utilitza per atreure les seves preses."
+  },
+  "414": {
+    "name": "Mothim",
+    "description": "Li encanta la mel de les flors i roba la mel recollida pels COMBEE."
+  },
+  "463": {
+    "name": "Lickilicky",
+    "description": "Envolta les coses amb la seva llengua extensible. Apropar-se massa a ell et deixarà xop de bava."
+  },
+  "199": {
+    "name": "Slowking",
+    "description": "Té una intel·ligència i intuïció increïbles. Sigui quina sigui la situació, es manté calmat i recollit."
+  },
+  "33": {
+    "name": "Nidorino",
+    "description": "Un Pokémon agressiu que ataca ràpidament. El corn al seu cap segrega un verí molt potent."
+  },
+  "930": {
+    "name": "Arboliva",
+    "description": "Aquest Pokémon tranquil és molt compassiu. Compartirà el seu oli deliciós i ric en nutrients amb els Pokémon dèbils."
+  },
+  "875": {
+    "name": "Eiscue-Ice",
+    "description": "Va arribar flotant amb el corrent de les aigües oceàniques d'un lloc molt fred. Manté el seu cap geglaciat constantment per assegurar-se que es mantingui ben fred."
+  },
+  "526": {
+    "name": "Gigalith",
+    "description": "Comprimint l'energia del seu nucli intern, pot disparar un atac capaç de fer volar una muntanya."
+  },
+  "176": {
+    "name": "Togetic",
+    "description": "Diuen que apareixerà davant de les persones amables i bondadoses i les omplirà de felicitat."
+  },
+  "967": {
+    "name": "Cyclizar",
+    "description": "Aparentment, el Cyclizar ha permès que la gent muntés a la seva esquena des de l'antiguitat. S'han trobat representacions d'això en murals de fa 10.000 anys."
+  },
+  "64": {
+    "name": "Kadabra",
+    "description": "Emet ones alfa especials del seu cos que provoquen mal de cap només per estar a prop."
+  },
+  "434": {
+    "name": "Stunky",
+    "description": "Es protegeix ruixant un fluid nociu des de la seva part posterior. La pudor persisteix durant 24 hores."
+  },
+  "121": {
+    "name": "Starmie",
+    "description": "El seu nucli central resplendeix amb els set colors de l'arc de sant Martí. Algunes persones valoren el nucli com a una gemma."
+  },
+  "571": {
+    "name": "Zoroark",
+    "description": "Els vincles entre aquests Pokémon són molt forts. Protegeix la seguretat de la seva manada enganyant els seus oponents."
+  },
+  "822": {
+    "name": "Corvisquire",
+    "description": "Prou intel·ligents per utilitzar eines en batalla, aquests Pokémon s'han vist recollint pedres i llançant-les o fent servir cordes per embolcallar els seus enemics."
+  },
+  "988": {
+    "name": "Slither-Wing",
+    "description": "Aquest misteriós Pokémon té certes semblances amb una criatura que un antic llibre va presentar com a Ala-Lliscant."
+  },
+  "658": {
+    "name": "Greninja",
+    "description": "Crea estrelles de llançament de aigua comprimida. Quan les gira i les llança a gran velocitat, aquestes estrelles poden dividir el metall en dos."
+  },
+  "208": {
+    "name": "Steelix",
+    "description": "Es creu que el seu cos es va transformar a causa de l'acumulació de ferro a l'interior després d'empassar-se terra."
+  },
+  "422": {
+    "name": "Shellos",
+    "description": "Els seus colors i formes difereixen segons la regió. A la regió de Sinnoh, s'han confirmat dos tipus."
+  },
+  "72": {
+    "name": "Tentacool",
+    "description": "Flota en mars poc profunds. Els pescadors que els enganxen per accident sovint són castigats pel seu àcid urticant."
+  },
+  "588": {
+    "name": "Karrablast",
+    "description": "Aquests misteriosos Pokémon evolucionen quan reben un estímul elèctric quan es troben al mateix lloc que el Shelmet."
+  },
+  "971": {
+    "name": "Greavard",
+    "description": "Es diu que un Pokémon gos que va morir al bosc sense haver interactuat mai amb un humà va renéixer com aquest Pokémon."
+  },
+  "834": {
+    "name": "Drednaw",
+    "description": "Amb unes mandíbules que poden tallar barres d'acer, aquest Pokémon molt agressiu es llança sobre la seva infortunada presa."
+  },
+  "567": {
+    "name": "Archeops",
+    "description": "Són intel·ligents i cooperen per caçar la presa. Des del terra, agafen una cursa per enlairar-se a l'aire."
+  },
+  "137": {
+    "name": "Porygon",
+    "description": "Un POKÉMON que consisteix enterament en codi de programació. Capaç de moure's lliurement al ciberespai."
+  },
+  "926": {
+    "name": "Fidough",
+    "description": "Aquest Pokémon és suau i humit al tacte. El llevat de l'alè del Fidough provoca la fermentació a l'entorn del Pokémon."
+  },
+  "25": {
+    "name": "Pikachu",
+    "description": "Quan es reuneixen diversos d'aquests Pokémon, la seva electricitat pot acumular-se i causar tempestes."
+  },
+  "475": {
+    "name": "Gallade",
+    "description": "Expert en cortesia i esgrima, es bateja utilitzant espases extensibles als seus colzes."
+  },
+  "160": {
+    "name": "Feraligatr",
+    "description": "Quan mossega amb les seves enormes i poderoses mandíbules, sacseja el cap i trosseja salvatge la seva víctima."
+  },
+  "530": {
+    "name": "Excadrill",
+    "description": "Pot ajudar en la construcció de túnels. La seva broca s'ha evolucionat a un acer prou fort per foradar plaques de ferro."
+  },
+  "863": {
+    "name": "Perrserker",
+    "description": "El que sembla un casc de ferro és en realitat pèl endureït. Aquest Pokémon viu per la emoció de la batalla."
+  },
+  "619": {
+    "name": "Mienfoo",
+    "description": "En les lluites, dominen amb envestides d'atacs continus i fluids. Amb les seves urpes afilades, tallen els enemics."
+  },
+  "249": {
+    "name": "Lugia",
+    "description": "Diuen que passa el seu temps tranquil·lament al fons del mar perquè els seus poders són massa forts."
+  },
+  "1008": {
+    "name": "Miraidon",
+    "description": "Encara queda molt per saber sobre aquesta criatura. Sembla a Cyclizar, però és molt més despietada i poderosa."
+  },
+  "818": {
+    "name": "Inteleon",
+    "description": "Té moltes capacitats amagades, com ara puntes dels dits que poden llançar aigua i una membrana a l'esquena que pot utilitzar per lliscar per l'aire."
+  },
+  "727": {
+    "name": "Incineroar",
+    "description": "Aquest Pokémon té un caràcter violent i egoista. Si no té ganes d'escoltar, ignorarà les ordres del seu entrenador amb total despreocupació."
+  },
+  "377": {
+    "name": "Regirock",
+    "description": "Tot el seu cos està fet de roca. Si es trenca alguna part durant una batalla, s'afegeix roca per reparar-se."
+  },
+  "662": {
+    "name": "Fletchinder",
+    "description": "Del seu bec expulsa brases que encenen l'herbatge alt. Llavors es llança sobre la desconcertada presa que surt de l'herba."
+  },
+  "398": {
+    "name": "Staraptor",
+    "description": "Té una naturalesa salvatge. S'enfronta amb coratge a rivals molt més grans."
+  },
+  "232": {
+    "name": "Donphan",
+    "description": "Té ullals afilats i durs, i una pell robusta. El seu ZEMBLA és prou fort per fer caure una casa."
+  },
+  "459": {
+    "name": "Snover",
+    "description": "Viu a les muntanyes nevades. Havent tingut poc contacte amb els humans, és audaçment curiosa."
+  },
+  "9": {
+    "name": "Blastoise",
+    "description": "És un Pokémon brutal amb raigs d'aigua a pressió a la closca. S'utilitzen per embestides a gran velocitat."
+  },
+  "320": {
+    "name": "Wailmer",
+    "description": "Les fosses nasals del WAILMER es troben per sobre dels seus ulls. Aquest POKÉMON juganer estima espantar la gent llençant amb força l'aigua de mar que guarda dins del seu cos per les seves fosses nasals."
+  },
+  "770": {
+    "name": "Palossand",
+    "description": "Les persones posseïdes que controlava aquest Pokémon van transformar el seu munt de sorra en un castell. A mesura que evolucionava, el seu poder de maleir es feia cada vegada més fort."
+  },
+  "1024": {
+    "name": "Terapagos",
+    "description": "El Terapagos es protegeix utilitzant el seu poder per transformar l'energia en cristalls durs. Aquest Pokémon és l'origen del fenomen Terastal."
+  },
+  "265": {
+    "name": "Wurmple",
+    "description": "Fent servir les espines del seu final de la cua, el WURMPLE pela l'escorça dels arbres i s'alimenta de la saba que en surt. Les potes d'aquest POKÉMON acaben en unes ventoses que li permeten enganxar-se al vidre sense relliscar."
+  },
+  "635": {
+    "name": "Hydreigon",
+    "description": "Aquest Pokémon brutal viatja pels cels amb les seves sis ales. Qualsevol cosa que es mogui sembla un enemic per a ell, desencadenant el seu atac."
+  },
+  "859": {
+    "name": "Impidimp",
+    "description": "A través del nas, succiona les emanacions produïdes per les persones i els Pokémon quan se senten molests. Prospera gràcies a aquesta energia negativa."
+  },
+  "766": {
+    "name": "Passimian",
+    "description": "Formen grups d'aproximadament 20 individus. El seu vincle mutu és remarcable, mai no deixaran de costat un company."
+  },
+  "336": {
+    "name": "Seviper",
+    "description": "SEVIPER manté una vella enemistat amb ZANGOOSE. Les cicatrius del seu cos són evidència de les ferotges batalles. Aquest POKÉMON ataca utilitzant la seva cua com una espasa afilada."
+  },
+  "623": {
+    "name": "Golurk",
+    "description": "Vola pel cel a velocitats de Mach. Treure el segell del seu pit fa que la seva energia interna perdi el control."
+  },
+  "273": {
+    "name": "Seedot",
+    "description": "El SEEDOT s'enganxa a una branca d'arbre amb la part superior del seu cap. Xucla la humitat de l'arbre mentre penja de la branca. Com més aigua beu, més brillant es torna el cos d'aquest POKéMON."
+  },
+  "789": {
+    "name": "Cosmog",
+    "description": "El seu cos és gasós i fràgil. Creix lentament a mesura que recull pols de l'atmosfera."
+  },
+  "418": {
+    "name": "Buizel",
+    "description": "Té una bossa de flotació com un coll inflable. Sura a l'aigua amb el cap fora."
+  },
+  "48": {
+    "name": "Venonat",
+    "description": "Viu a les ombres dels arbres alts on s'alimenta d'insectes. S'hi atrau per la llum de nit."
+  },
+  "361": {
+    "name": "Snorunt",
+    "description": "Els SNORUNT viuen en regions amb molta nevada. En les temporades sense neu, com la primavera i l'estiu, aquest POKÉMON s'amaga per viure tranquil·lament entre estalactites i estalagmites al fons de les coves."
+  },
+  "731": {
+    "name": "Pikipek",
+    "description": "Pot picar a una velocitat de 16 vegades per segon per perforar forats als arbres. Utilitza els forats per emmagatzemar aliments i per fer niu."
+  },
+  "224": {
+    "name": "Octillery",
+    "description": "Atrapa els enemics amb els seus temibles tentacles amb ventoses i els aixafa amb el seu cap dur com la roca."
+  },
+  "674": {
+    "name": "Pancham",
+    "description": "Fa el seu millor esforç per ser pres seriosament pels seus enemics, però la seva mirada no és prou intimidant. Mastegar una fulla és la seva marca registrada."
+  },
+  "360": {
+    "name": "Wynaut",
+    "description": "El WYNAUT sempre es pot veure amb una gran i feliç somriure a la cara. Mira la seva cua per determinar si està enfadat. Quan s'enfada, aquest POKÉMON estarà colpejant el terra amb la seva cua."
+  },
+  "730": {
+    "name": "Primarina",
+    "description": "Controla les seves bombolles d'aigua amb el cant. La melodia s'aprèn d'altres del seu tipus i es transmet de generació en generació."
+  },
+  "225": {
+    "name": "Delibird",
+    "description": "Porta menjar tot el dia. Hi ha històries de gent perduda que van ser salvades per la comida que aquest Pokémon duia."
+  },
+  "675": {
+    "name": "Pangoro",
+    "description": "Encara que posseeix un temperament violent, no tolera l'assetjament. Utilitza la fulla a la seva boca per percebre els moviments dels seus enemics."
+  },
+  "419": {
+    "name": "Floatzel",
+    "description": "Sura gràcies a la seva bossa de flotació ben desenvolupada. Ajuda en el rescat de persones ofegades."
+  },
+  "49": {
+    "name": "Venomoth",
+    "description": "Les petites escates que cobreixen les seves ales tenen colors que indiquen els diferents tipus de verí que té."
+  },
+  "767": {
+    "name": "Wimpod",
+    "description": "Aquest Pokémon és un covard. Quan s'escapa desesperadament, el moviment de les seves moltes potes deixa un camí brillantment net al seu pas."
+  },
+  "337": {
+    "name": "Lunatone",
+    "description": "LUNATONE es va descobrir en un lloc on va caure un meteorit. Com a resultat, algunes persones teorizoen que aquest POKÉMON va venir de l'espai. No obstant això, ningú ha pogut demostrar aquesta teoria fins ara."
+  },
+  "622": {
+    "name": "Golett",
+    "description": "L'energia que crema a l'interior li permet moure's, però ningú encara ha pogut identificar aquesta energia."
+  },
+  "272": {
+    "name": "Ludicolo",
+    "description": "El LUDICOLO comença a ballar tan bon punt escolta una música alegre i festiva. Es diu que aquest POKéMON apareix quan sent el cant dels nens en excursions."
+  },
+  "788": {
+    "name": "Tapu-Fini",
+    "description": "La densa boira que crea porta a la caiguda i destrucció dels seus enemics confosos. Els corrents marins són la font de la seva energia."
+  },
+  "858": {
+    "name": "Hatterene",
+    "description": "Emet un poder psíquic prou fort per causar mal de cap com a mesura dissuasiva per allunyar els altres."
+  },
+  "321": {
+    "name": "Wailord",
+    "description": "WAILORD és el més gran de tots els POKéMON identificats fins ara. Aquest POKéMON gegant neda langurosament per l'immens mar obert, menjant-se grans quantitats de menjar d'un sol cop amb la seva enorme boca."
+  },
+  "771": {
+    "name": "Pyukumuku",
+    "description": "Està cobert d'un moc que manté la seva pell humida, permetent-li estar a terra durant dies sense assecar-se."
+  },
+  "1025": {
+    "name": "Pecharunt",
+    "description": "S'alimenta de mochi tòxics que treuen a la llum els desitjos i les capacitats dels altres. Els qui mengen aquests mochi cauen sota el control del Pecharunt, encadenats a la seva voluntat."
+  },
+  "264": {
+    "name": "Linoone",
+    "description": "El LINOONE sempre corre a tota velocitat i només en línia recta. Si es troba amb un obstacle, fa un gir en angle recte per evitar-lo. Aquest POKÉMON té molt de problema amb les carreteres lleugerament corbades."
+  },
+  "634": {
+    "name": "Zweilous",
+    "description": "Després d'haver-se menjat tot el menjar del seu territori, es mou a una altra zona. Les seves dues caps no es porten bé."
+  },
+  "458": {
+    "name": "Mantyke",
+    "description": "Un Pokémon amigable que captura els subtils fluxos de l'aigua de mar utilitzant les seves dues antenes."
+  },
+  "8": {
+    "name": "Wartortle",
+    "description": "Sovint s'amaga a l'aigua per caçar preses descuidades. Per nedar ràpid, mou les orelles per mantenir l'equilibri."
+  },
+  "726": {
+    "name": "Torracat",
+    "description": "Al coll té una campana de foc. La campana sona brillantment quan aquest Pokémon escup foc."
+  },
+  "376": {
+    "name": "Metagross",
+    "description": "METAGROSS té en total quatre cervells. Combinats, els quatre cervells poden realitzar càlculs difícils més ràpid que un superordinador. Aquest POKÉMON pot flotar a l'aire plegant les seves quatre potes."
+  },
+  "663": {
+    "name": "Talonflame",
+    "description": "En la febre d'una emocionant batalla, ruixa brases dels buits entre les seves plomes i s'eleva al cel."
+  },
+  "399": {
+    "name": "Bidoof",
+    "description": "Té els nervis d'acer, res no el pertorba. És més àgil i actiu del que sembla."
+  },
+  "233": {
+    "name": "Porygon2",
+    "description": "Aquesta versió millorada de PORYGON està dis­ senyada per a l'exploració espacial. Però no pot volar."
+  },
+  "819": {
+    "name": "Skwovet",
+    "description": "Es troba per tota la regió de Galar, aquest Pokémon es posa nerviós si les seves galtes estan completament buides de baies."
+  },
+  "618": {
+    "name": "Stunfisk",
+    "description": "La seva pell és molt dura, per la qual cosa no es fa mal ni tan sols si la trepitgen lluitadors de sumo. Somriu mentre transmet electricitat."
+  },
+  "248": {
+    "name": "Tyranitar",
+    "description": "El seu cos no es pot fer mal amb cap tipus d'atac, per això està molt ansiós per desafiar els enemics."
+  },
+  "1009": {
+    "name": "Walking-Wake",
+    "description": "Aquesta criatura ferotge està envoltada de misteri. Té el nom d'un monstre aquàtic esmentat en un antic diari d'expedició."
+  },
+  "927": {
+    "name": "Dachsbun",
+    "description": "La fragància agradable que emana del cos d'aquest Pokémon ajuda a fer créixer el blat, per això el Dachsbun ha estat tresorat pels pobles agrícoles."
+  },
+  "24": {
+    "name": "Arbok",
+    "description": "Es diu que els dibuixos ferotges del seu ventre varien segons la zona."
+  },
+  "474": {
+    "name": "Porygon-Z",
+    "description": "S'hi va instal·lar programari addicional per fer-lo un Pokémon millor. Tanmateix, va començar a comportar-se de manera estranya."
+  },
+  "161": {
+    "name": "Sentret",
+    "description": "Un POKÉMON molt prudent, s'alça utilitzant la cua per obtenir una millor visió del seu entorn."
+  },
+  "531": {
+    "name": "Audino",
+    "description": "Toca els altres amb les antenes de les orelles, utilitzant el so dels seus batecs cardíacs per saber com es senten."
+  },
+  "862": {
+    "name": "Obstagoon",
+    "description": "La seva veu és esfereïdora en volum. L'Obstagoon té tendència a adoptar una postura amenaçadora i cridar, aquest moviment es coneix com a Obstruct."
+  },
+  "423": {
+    "name": "Gastrodon",
+    "description": "Té un cos flexible sense ossos. Si es trenca qualsevol part del seu cos, li torna a créixer."
+  },
+  "73": {
+    "name": "Tentacruel",
+    "description": "Els seus tentacles normalment es mantenen curts. Quan cacen, els estenen per atrapar i immobilitzar la presa."
+  },
+  "589": {
+    "name": "Escavalier",
+    "description": "Volen a gran velocitat i ataquen amb les seves llances afilades. Fins i tot quan tenen problemes, s'enfronten als oponents amb valentia."
+  },
+  "970": {
+    "name": "Glimmora",
+    "description": "Quan aquest Pokémon detecta perill, obrirà els seus pètals cristal·lins i dispararà rajos des del seu cos cònic."
+  },
+  "835": {
+    "name": "Yamper",
+    "description": "Aquest Pokémon és molt popular com a gos d'acollida a la regió de Galar. Mentre corre, genera electricitat de la base de la seva cua."
+  },
+  "566": {
+    "name": "Archen",
+    "description": "Es diu que és un avantpassat dels Pokémon d'ocell, no podien volar i es movien saltant d'una branca a l'altra."
+  },
+  "136": {
+    "name": "Flareon",
+    "description": "Quan emmagatzema energia tèrmica al seu cos, la seva temperatura podria elevar-se per sobre dels 1.600 graus."
+  },
+  "659": {
+    "name": "Bunnelby",
+    "description": "Utilitzen les seves grans orelles per excavar caus. Cavaran tota la nit."
+  },
+  "209": {
+    "name": "Snubbull",
+    "description": "Tot i que té un aspecte espantós, realment és amable i afectuós. És molt popular entre les dones."
+  },
+  "966": {
+    "name": "Revavroom",
+    "description": "Crea un gas a partir de verí i minerals de les roques. Després detonada el gas als seus cilindres —ara són vuit— per generar energia."
+  },
+  "65": {
+    "name": "Alakazam",
+    "description": "El seu cervell pot superar un superordinador. Es diu que el seu coeficient d'intel·ligència és de 5.000."
+  },
+  "435": {
+    "name": "Skuntank",
+    "description": "Ruixa un fluid de mala olor des de la punta de la seva cua per atacar. El seu abast és de més de 160 peus."
+  },
+  "120": {
+    "name": "Staryu",
+    "description": "Si el seu cos es trenca, pot tornar a créixer si el nucli vermell es manté. El nucli parpelleja a mitjanit."
+  },
+  "570": {
+    "name": "Zorua",
+    "description": "Es transforma per sorprendre els altres. Sovint es transforma en un nen silenciós."
+  },
+  "823": {
+    "name": "Corviknight",
+    "description": "Aquest Pokémon domina el cel de la regió de Galar. El brillant negre del seu cos d'acer podria inspirar terror al cor de qualsevol enemic."
+  },
+  "989": {
+    "name": "Sandy-Shocks",
+    "description": "No hi ha registres d'aquest Pokémon que hagi estat capturat. Les dades són escasses, però els trets del Pokémon coincideixen amb una criatura que es mostra en un diari d'expedició."
+  },
+  "462": {
+    "name": "Magnezone",
+    "description": "Va evolucionar per l'exposició a un camp magnètic especial. Tres unitats generen magnetisme."
+  },
+  "198": {
+    "name": "Murkrow",
+    "description": "Temut i avorrit per molts, es creu que porta desgràcia a tots els que el veuen de nit."
+  },
+  "32": {
+    "name": "Nidoran-M",
+    "description": "Endureix les orelles per detectar el perill. Com més grans són els seus banyes, més poderós és el verí que segrega."
+  },
+  "931": {
+    "name": "Squawkabilly-Green-Plumage",
+    "description": "Aquests Pokémon prefereixen viure a les ciutats. Formen esbarts segons el color de les seves plomes i es barallen per marcar el seu territori."
+  },
+  "874": {
+    "name": "Stonjourner",
+    "description": "Es queda dret als prats, observant la posta de sol des del zenit fins a l'horitzó. Aquest Pokémon té talent per donar puntades de peu dinàmiques."
+  },
+  "527": {
+    "name": "Woobat",
+    "description": "El seu hàbitat són els boscos foscos i les coves. Emet ones ultrasòniques del nas per conèixer el seu entorn."
+  },
+  "177": {
+    "name": "Natu",
+    "description": "Com que les seves ales encara no estan del tot desenvolupades, ha de saltar per moure's. Sempre està mirant alguna cosa."
+  },
+  "100": {
+    "name": "Voltorb",
+    "description": "Normalment es troba a les centrals elèctriques. És fàcil de confondre'l amb una BOLA POKÉMON, i han electrocutat molta gent."
+  },
+  "550": {
+    "name": "Basculin-Red-Striped",
+    "description": "Els Basculins vermells i blaus no es porten gens bé, i començaran a lluitar de seguida. Aquests Pokémon són molt hostils."
+  },
+  "803": {
+    "name": "Poipole",
+    "description": "Aquest Ultra Bèstia és prou estimada per ser triada com a primer company al seu propi món."
+  },
+  "946": {
+    "name": "Bramblin",
+    "description": "Una ànima incapaç de seguir cap a l'altre món va ser empesa pel vent fins que es va embolicar amb herba seca i es va convertir en un Pokémon."
+  },
+  "45": {
+    "name": "Vileplume",
+    "description": "Té els pètals més grans del món. A cada pas, els pètals sacsegen núvols pesats de pol·len tòxic."
+  },
+  "415": {
+    "name": "Combee",
+    "description": "Un Pokémon format per tres altres. Porta diligentment la dolça mel floral a la VESPIQUEN."
+  },
+  "696": {
+    "name": "Tyrunt",
+    "description": "Aquest Pokémon va ser restaurat d'un fòssil. Si passa alguna cosa que no li agrada, fa un atac de gelosia i s'escapa."
+  },
+  "679": {
+    "name": "Honedge",
+    "description": "Aparentment, aquest Pokémon neix quan un esperit difunt habita una espasa. S'adhereix a les persones i beu la seva força vital."
+  },
+  "383": {
+    "name": "Groudon",
+    "description": "S'ha descrit GROUDON en la mitologia com el POKÉMON que va pujar terres i va expandir continents. Aquest POKÉMON es va adormir després d'una batalla catastròfica amb KYOGRE."
+  },
+  "229": {
+    "name": "Houndoom",
+    "description": "Si et cremes amb les flames que dispara de la seva boca, el dolor no desapareixerà mai."
+  },
+  "854": {
+    "name": "Sinistea",
+    "description": "Es diu que aquest Pokémon va néixer quan un esperit solitari va posseir una tassa de te freda i sobrant."
+  },
+  "507": {
+    "name": "Herdier",
+    "description": "Té un pelatge negre com una capa que és molt dur i redueix la quantitat de dany que rep."
+  },
+  "157": {
+    "name": "Typhlosion",
+    "description": "Si la seva ràbia arriba al màxim, s'escalfa tant que qualsevol cosa que el toqui s'encendrà al moment."
+  },
+  "442": {
+    "name": "Spiritomb",
+    "description": "Un Pokémon format per 108 esperits. Està lligat a una escletxa en una pedra mestra estranya."
+  },
+  "12": {
+    "name": "Butterfree",
+    "description": "En batalla, bat les ales a gran velocitat per alliberar una pols altament tòxica a l'aire."
+  },
+  "911": {
+    "name": "Skeledirge",
+    "description": "Aquesta au de foc canvia de forma quan Skeledirge canta. Es diu que l'au va néixer quan la bola de foc del cap de Skeledirge va adquirir ànima."
+  },
+  "291": {
+    "name": "Ninjask",
+    "description": "El NINJASK es capaç de moure's a una velocitat tan alta que és impossible veure'l, tot i que el seu crit es pot escoltar clarament. Per aquest motiu, durant molt de temps es va creure que aquest POKÉMON era invisible."
+  },
+  "784": {
+    "name": "Kommo-O",
+    "description": "Quan veu enemics, els amenace fent soroll amb les escates de la seua cua. Els oponents més dèbils es trencaran i fugiran espantats."
+  },
+  "141": {
+    "name": "Kabutops",
+    "description": "La seva forma llisa és perfecta per nadar. Talla la seva presa amb les seves urpes i drena els fluids del cos."
+  },
+  "511": {
+    "name": "Pansage",
+    "description": "Aquest Pokémon viu al bosc més profund. Menjar un full del seu cap fa desaparèixer la fatiga com per art de màgia."
+  },
+  "842": {
+    "name": "Appletun",
+    "description": "Menjar-se una poma dolça li va fer evolucionar. Del seu cos desprèn una fragància melosa que atrau els pokémons insectes que són les seves preses."
+  },
+  "907": {
+    "name": "Floragato",
+    "description": "El Floragato mou amb destresa la vinya amagada sota el seu pel llarg, colpejant el botó de la flor dura contra els seus oponents."
+  },
+  "4": {
+    "name": "Charmander",
+    "description": "Prefereix clarament els llocs calorosos. Es diu que quan plou, surt vapor de la punta de la seva cua."
+  },
+  "454": {
+    "name": "Toxicroak",
+    "description": "Els seus nusos de les urpes segreguen un verí tan repugnant que fins i tot un simple arranyac podria ser fatal."
+  },
+  "287": {
+    "name": "Slakoth",
+    "description": "El SLAKOTH jagadeja més de vint hores al dia. Com que es mou molt poc, no necessita gaire menjar. L'únic àpat diari d'aquesta CRIATURA POKÉMON consisteix en només tres fulles."
+  },
+  "638": {
+    "name": "Cobalion",
+    "description": "Aquest Pokémon llegendari va lluitar contra els humans per protegir els Pokémon. La seva personalitat és tranquil·la i serena."
+  },
+  "268": {
+    "name": "Cascoon",
+    "description": "El CASCOON fa el seu caput protector embolcallant tot el seu cos amb una fina seda de la seva boca. Un cop la seda envolta el seu cos, es fa rígida. Aquest POKÉMON es prepara per evolucionar dins del caput."
+  },
+  "792": {
+    "name": "Lunala",
+    "description": "Es diu que és l'evolució femenina de Cosmog. Quan s'activa el seu tercer ull, s'envola cap a un altre món."
+  },
+  "815": {
+    "name": "Cinderace",
+    "description": "Juga a llançar una pedra amb els peus, convertint-la en una bola de futbol en flames. Els seus trets colpegen els oponents amb força i els deixen cremats."
+  },
+  "546": {
+    "name": "Cottonee",
+    "description": "Quan l'ataquen, escapa disparant cotó del seu cos. El cotó serveix com a esquer per distreure l'atacant."
+  },
+  "116": {
+    "name": "Horsea",
+    "description": "Se sap que dispara amb precisió gotes de tinta des de la superfície de l'aigua per abatre insectes voladors."
+  },
+  "403": {
+    "name": "Shinx",
+    "description": "Tot el seu pelatge brillarà si detecta perill. Fuig mentre el seu enemic queda temporalment encegat."
+  },
+  "53": {
+    "name": "Persian",
+    "description": "Tot i que la seva pell té molts admiradors, és difícil de tenir com a animal de companyia per la seva naturalesa variable i rancuniosa."
+  },
+  "950": {
+    "name": "Klawf",
+    "description": "El Klawf s'agafa de cap per avall als penya-segats, esperant la seva presa. Però el Klawf no pot mantenir-se en aquesta posició durant molt de temps perquè la sang se li puja al cap."
+  },
+  "680": {
+    "name": "Doublade",
+    "description": "Quan Honedge evoluciona, es divideix en dues espases, que cooperen per telepatia per coordinar els atacs i tallar els seus enemics a trossos."
+  },
+  "395": {
+    "name": "Empoleon",
+    "description": "Els tres banyes que s'estenen del seu bec atesten el seu poder. El líder té les banyes més grans."
+  },
+  "478": {
+    "name": "Froslass",
+    "description": "Congela els enemics amb un alè glaçat de gairebé -60 graus Fahrenheit. El que sembla el seu cos realment està buit."
+  },
+  "182": {
+    "name": "Bellossom",
+    "description": "N'hi ha molts als tròpics. Quan balla, els seus pètals froten entre si i fan un so de campanes agradable."
+  },
+  "28": {
+    "name": "Sandslash",
+    "description": "S'arrapa en forma de bola punxeguda quan se sent amenaçat. Es pot moure mentre està arreplegat per atacar o escapar."
+  },
+  "881": {
+    "name": "Arctozolt",
+    "description": "El sacsejament de la meitat superior congelada és el que genera la seva electricitat. Té problemes caminant."
+  },
+  "497": {
+    "name": "Serperior",
+    "description": "Pot aturar els moviments dels seus oponents amb només una mirada. Absorbeix l'energia solar i la potencia internament."
+  },
+  "1005": {
+    "name": "Roaring-Moon",
+    "description": "És possible que aquest sigui la criatura anomenada Roaring Moon en un diari d'expedició que encara guarda molts misteris."
+  },
+  "244": {
+    "name": "Entei",
+    "description": "Els volcans entren en erupció quan udola. Incapaç de contenir el seu poder extrem, corre desbocat per la terra."
+  },
+  "614": {
+    "name": "Beartic",
+    "description": "Pot congelar el seu alè a voluntat. És molt hàbil a l'aigua, neda pels mars del nord i caça la seva presa."
+  },
+  "301": {
+    "name": "Delcatty",
+    "description": "El DELCATTY prefereix viure una existència sense restriccions on pot fer el que li plau al seu propi ritme. Aquest POKÉMON menja i dorm sempre que ho decideix, per la qual cosa els seus hàbits diaris són completament aleatoris."
+  },
+  "751": {
+    "name": "Dewpider",
+    "description": "S'arrossega per terra per buscar menjar. La bombolla d'aigua li permet respirar i protegeix el seu cap tou."
+  },
+  "585": {
+    "name": "Deerling",
+    "description": "El color i l'olor del seu pelatge canvien per fer joc amb l'herba de la muntanya. Quan detecten hostilitat, s'amaguen a l'herba."
+  },
+  "90": {
+    "name": "Shellder",
+    "description": "La seva closca dura repel·leix qualsevol tipus d'atac. Només és vulnerable quan la closca està oberta."
+  },
+  "839": {
+    "name": "Coalossal",
+    "description": "Normalment és pacífic, però el vandalisme a les mines l'enfureix. Els infractors seran calcinats per flames que arriben als 1.500 graus Celsius."
+  },
+  "993": {
+    "name": "Iron-Jugulis",
+    "description": "Sembla un determinat Pokémon que es va presentar en una revista sobre fenòmens paranormals, descrit com la cria d'un Hydreigon que s'havia enamorat d'un robot."
+  },
+  "643": {
+    "name": "Reshiram",
+    "description": "Aquest Pokémon apareix en llegendes. Envia flames a l'aire des de la seva cua, cremant tot el que l'envolta."
+  },
+  "213": {
+    "name": "Shuckle",
+    "description": "Els FRUITS que emmagatzema a la càpsula com un gerro es descomponen i es converteixen en un líquid llefiscós."
+  },
+  "706": {
+    "name": "Goodra",
+    "description": "Aquest Pokémon de tipus Drac molt amistós abraçarà el seu entrenador estimat, deixant-lo cobert de llesca enganxosa."
+  },
+  "356": {
+    "name": "Dusclops",
+    "description": "El cos del DUSCLOPS està completament buit, no hi ha res a dins. Es diu que el seu cos és com un forat negre. Aquest POKÉMON absorbirà qualsevol cosa al seu interior, però res mai no en tornarà a sortir."
+  },
+  "439": {
+    "name": "Mime-Jr",
+    "description": "Acostuma a imitar els seus rivals. Un cop l'ha imitat, el rival no pot deixar de mirar-lo."
+  },
+  "69": {
+    "name": "Bellsprout",
+    "description": "Un Pokémon carnívor que atrapa i menja insectes. Utilitza les seves arrels per absorbir la humitat necessària."
+  },
+  "593": {
+    "name": "Jellicent",
+    "description": "La sort de les naus i les tripulacions que s'aventuren a l'hàbitat del Jellicent: totes enfonsades, totes perdudes, totes desaparegudes."
+  },
+  "985": {
+    "name": "Scream-Tail",
+    "description": "Només s'ha reportat un avistament d'aquest Pokémon. Sembla una criatura misteriosa descrita en un antic diari d'expedició."
+  },
+  "86": {
+    "name": "Seel",
+    "description": "El corn que sobresurt del seu cap és molt dur. S'utilitza per obrir camí a través del gel dens."
+  },
+  "205": {
+    "name": "Forretress",
+    "description": "Tot el seu cos està protegit per una closca d'acer dur. El que s'amaga dins de l'armadura és tot un misteri."
+  },
+  "655": {
+    "name": "Delphox",
+    "description": "Mira fixament la flama de la punta de la seva branca per assolir un estat de concentració, que li permet veure el futur."
+  },
+  "340": {
+    "name": "Whiscash",
+    "description": "WHISCASH és extremadament territorial. Només un d'aquests POKÉMON reclamará un gran estany com a territori exclusiu. Si s'apropa un enemic, s'esvalota i desencadena un gran terratrèmol."
+  },
+  "710": {
+    "name": "Pumpkaboo-Average",
+    "description": "El cos de carbassa està habitat per un esperit atrapat en aquest món. Quan es pon el sol, es torna inquiet i actiu."
+  },
+  "897": {
+    "name": "Spectrier",
+    "description": "Explora els seus voltants amb tots els sentits excepte un: no fa servir la vista. Es diu que les puntades de Spectrier separen l'ànima del cos."
+  },
+  "194": {
+    "name": "Wooper",
+    "description": "Aquest POKéMON viu a l'aigua freda. Sortirà de l'aigua per buscar menjar quan faci fred a l'exterior."
+  },
+  "481": {
+    "name": "Mesprit",
+    "description": "Conegut com \"L'Ésser de l'Emoció\". Va ensenyar als humans la noblesa de la tristesa, el dolor i l'alegria."
+  },
+  "878": {
+    "name": "Cufant",
+    "description": "Cava el terra amb la seva trompa. També és molt fort, capaç de carregar càrregues de més de cinc tones sense cap problema."
+  },
+  "602": {
+    "name": "Tynamo",
+    "description": "Mentre que un sol no té gaire poder, una cadena de molts Tynamo pot ser tan poderosa com un llamp."
+  },
+  "252": {
+    "name": "Treecko",
+    "description": "TREECKO té petits ganxos a la part inferior de les seves potes que li permeten escalar parets verticals. Aquest POKéMON ataca impactant els seus rivals amb la seva cua gruixuda."
+  },
+  "1013": {
+    "name": "Sinistcha",
+    "description": "Es fa passar per te, intentant enganyar la gent perquè se'l beguin i així poder robar-los l'energia vital. Però, en general, el seu engany acostuma a fracassar."
+  },
+  "747": {
+    "name": "Mareanie",
+    "description": "Clava la punxa verinosa del seu cap a la seva presa. Quan la presa s'ha debilitat, Mareanie li propina el cop de gràcia amb els seus 10 temacles."
+  },
+  "317": {
+    "name": "Swalot",
+    "description": "Quan el SWALOT avista una presa, expulsa un fluid tòxicament repugnant pels seus porus i l'escomet. Un cop la presa s'ha debilitat, aquest POKÉMON s'ho empassa sencer amb la seva enorme boca."
+  },
+  "936": {
+    "name": "Armarouge",
+    "description": "L'Armarouge va evolucionar gràcies a un conjunt d'armadura que pertanyia a un distingit guerrer. Aquest Pokémon és increïblement lleial."
+  },
+  "465": {
+    "name": "Tangrowth",
+    "description": "Atrapa la seva presa estenent els braços fets de lianes. Perdre els braços davant de depredadors no l'afecta."
+  },
+  "35": {
+    "name": "Clefairy",
+    "description": "El seu encant màgic i adorable té molts admiradors. És rar i només es troba en certes zones."
+  },
+  "520": {
+    "name": "Tranquill",
+    "description": "Pot tornar a la localització del seu Entrenador, independent de la distància que els separi."
+  },
+  "170": {
+    "name": "Chinchou",
+    "description": "Els Chinchou parpellegen les seves brillants antenes els uns als altres per reclamar el seu territori."
+  },
+  "873": {
+    "name": "Frosmoth",
+    "description": "Les escates de gel cauen de les seves ales com la neu mentre vola sobre camps i muntanyes. La temperatura de les seves ales és inferior a -179 graus Celsius."
+  },
+  "259": {
+    "name": "Marshtomp",
+    "description": "La superfície del cos del MARSHTOMP està recoberta per una fina pel·lícula enganxosa que li permet viure en terra. Aquest POKÉMON juga al fang de les platges quan la marea baixa."
+  },
+  "609": {
+    "name": "Chandelure",
+    "description": "Absorbeix un esperit, que després crema. Agitant les flames dels seus braços, posa els seus rivals en un trànsit hipnòtic."
+  },
+  "1018": {
+    "name": "Archaludon",
+    "description": "Reuneix electricitat estàtica del seu entorn. Els rajos que llança quan està ajagut sobre les quatre potes són tremendament potents."
+  },
+  "62": {
+    "name": "Poliwrath",
+    "description": "Un nedador hàbil tant a la crawl com al braç. Supera fàcilment els millors nedadors humans."
+  },
+  "598": {
+    "name": "Ferrothorn",
+    "description": "Lluita balancejant els seus tres tentacles amb punxes. Un cop d'aquests punxons d'acer pot reduir una roca a runes."
+  },
+  "432": {
+    "name": "Purugly",
+    "description": "És una bèstia descarada que s'obre pas a la força en el niu d'un altre Pokémon i se l'apropia."
+  },
+  "961": {
+    "name": "Wugtrio",
+    "description": "Té un temperament ferotge, contràriament al que la seva aparença podria suggerir. Enrotlla els seus cossos llargs al voltant de la presa, i després l'arrossega cap a la seva cova."
+  },
+  "824": {
+    "name": "Blipbug",
+    "description": "Un col·leccionista constant d'informació, aquest Pokémon és molt intel·ligent. Molt fort no és el que és."
+  },
+  "127": {
+    "name": "Pinsir",
+    "description": "Si no aconsegueix esclafar la víctima amb les seves pinces, la farà girar i la llançarà amb força."
+  },
+  "577": {
+    "name": "Solosis",
+    "description": "Allunyenen els atacants amb el seu poder psíquic. Poden usar la telepatia per parlar amb els altres."
+  },
+  "977": {
+    "name": "Dondozo",
+    "description": "Aquest Pokémon és un golafre, però és dolent per aconseguir menjar. Es junta amb un Tatsugiri per caçar preses."
+  },
+  "424": {
+    "name": "Ambipom",
+    "description": "Per menjar, desgranen hàbilment els fruits secs amb les seves dues cues. Ara gairebé no fa servir els braços."
+  },
+  "74": {
+    "name": "Geodude",
+    "description": "Es troben en camps i muntanyes. La gent sovint els pisa o ensopega amb ells, perquè els confonen amb pedres."
+  },
+  "561": {
+    "name": "Sigilyph",
+    "description": "Mai no varien la ruta que volen perquè els records de guardians d'una antiga ciutat són ferm."
+  },
+  "131": {
+    "name": "Lapras",
+    "description": "Un POKÉMON que ha estat caçat gairebé fins a l'extinció. Pot transportar persones a través de l'aigua."
+  },
+  "998": {
+    "name": "Baxcalibur",
+    "description": "Aquest Pokémon expulsa aire criogènic per la seva boca. Aquest aire pot congelar instantàniament fins i tot la lava líquida."
+  },
+  "832": {
+    "name": "Dubwool",
+    "description": "Teixiu una catifa amb la seva llana elàstica, i acabareu amb alguna cosa més semblant a un trampolí. Començaràs a rebotar en el moment que hi posis els peus."
+  },
+  "218": {
+    "name": "Slugma",
+    "description": "Mai no dorm. Ha d'estar sempre en moviment perquè si es pararà, el seu cos de magma es refredaria i s'endurira."
+  },
+  "648": {
+    "name": "Meloetta-Aria",
+    "description": "Les seves melodies es canten amb un mètode de vocalització especial que pot controlar els sentiments de qui les escolta."
+  },
+  "23": {
+    "name": "Ekans",
+    "description": "Es mou en silenci i sigil·losament. S'empassa sencers els ous dels ocells, com el Pidgey i l'Espanrot."
+  },
+  "473": {
+    "name": "Mamoswine",
+    "description": "Les seves impressionants ullals estan fets de gel. La població es va aprimar quan es va posar càlid després de l'era glacial."
+  },
+  "189": {
+    "name": "Jumpluff",
+    "description": "Quan agafa el vent, controla amb agilitat les seves espores de cotó per flotar, fins i tot al voltant del món."
+  },
+  "920": {
+    "name": "Lokix",
+    "description": "Quan decideix lluitar amb totes les seves forces, s'alça sobre les potes que tenia plegades per entrar en mode Combat. Neutralitza els seus enemics ràpidament."
+  },
+  "865": {
+    "name": "Sirfetchd",
+    "description": "Només els Farfetch'd que han sobreviscut a moltes batalles poden assolir aquesta evolució. Quan el porro d'aquest Pokémon es marceix, es retirarà del combat."
+  },
+  "166": {
+    "name": "Ledian",
+    "description": "Quan titil·len els estels en el cel nocturn, s'hi belluga, escampant un pols brillant."
+  },
+  "536": {
+    "name": "Palpitoad",
+    "description": "Quan vibren els bossots del cap, poden fer ones a l'aigua o vibracions semblants a terratrèmols a terra."
+  },
+  "58": {
+    "name": "Growlithe",
+    "description": "Molt protector del seu territori. Bordarà i mossegará per expulsar els intrusos del seu espai."
+  },
+  "408": {
+    "name": "Cranidos",
+    "description": "Va viure a les jungles fa uns 100 milions d'anys. El seu crani és tan dur com el ferro."
+  },
+  "721": {
+    "name": "Volcanion",
+    "description": "Deixa anar grans boires de vapor i desapareix entre la boira densa. Es diu que viu en muntanyes on els humans no transiten."
+  },
+  "371": {
+    "name": "Bagon",
+    "description": "Somia poder volar algun dia i per aixo practica saltant des de penya-segats cada dia."
+  },
+  "664": {
+    "name": "Scatterbug",
+    "description": "Quan està sent atacat per Pokémon ocells, expulsa un pols negre verinós que causa paralització al contacte."
+  },
+  "234": {
+    "name": "Stantler",
+    "description": "Els banyams corbats canvien subtilment el flux d'aire per crear un espai estrany on la realitat es distorsiona."
+  },
+  "849": {
+    "name": "Toxtricity-Amped",
+    "description": "Quan aquest Pokémon sona com si estigués puntejant una guitarra, en realitat està rascant les protuberàncies del seu pit per generar electricitat."
+  },
+  "326": {
+    "name": "Grumpig",
+    "description": "GRUMPIG utilitza les perles negres del seu cos per amplificar les ones del seu poder psíquic i aconseguir el control total sobre els seus enemics. Quan aquest POKÉMON utilitza el seu poder especial, la seva respiració ronca es fa més dificultosa."
+  },
+  "776": {
+    "name": "Turtonator",
+    "description": "La closca de l'esquena és químicament inestable i explota violentament si s'impacta. El forat a l'estómac és el seu punt feble."
+  },
+  "263": {
+    "name": "Zigzagoon",
+    "description": "El ZIGZAGOON deambula sense descans per tot arreu en tot moment. Aquest POKÉMON ho fa perquè és molt curiós. S'interessa per qualsevol cosa que veu."
+  },
+  "799": {
+    "name": "Guzzlord",
+    "description": "Segons informes, ha engollt muntanyes i s'ha empassat edificis sencers. És una de les Bèsties Ultradimensionals."
+  },
+  "633": {
+    "name": "Deino",
+    "description": "Té tendència a mossegar-ho tot i no és gens selectiu amb el menjar. Acostar-s'hi sense tenir cura és perillós."
+  },
+  "1022": {
+    "name": "Iron-Boulder",
+    "description": "Sembla un Pokémon descrit en una revista dubtosa com un Terrakion que havia estat modificat per una organització malvada."
+  },
+  "19": {
+    "name": "Rattata",
+    "description": "Mossega qualsevol cosa quan ataca. Petit i molt ràpid, és una criatura molt comuna en molts llocs."
+  },
+  "449": {
+    "name": "Hippopotas",
+    "description": "Viu en llocs àrids. En lloc de transpirar, expulsa sorra granulosa del seu cos."
+  },
+  "760": {
+    "name": "Bewear",
+    "description": "Aquest Pokémon extremament perillós posseeix una força física aclaparadora. El seu hàbitat és generalment fora de límits."
+  },
+  "330": {
+    "name": "Flygon",
+    "description": "FLYGON rep el sobrenom d'\"esperit elemental del desert\". Degut al núvol de sorra que aixequen les seves ales quan baten, aquest POKÉMON sempre està envoltat d'un remolí de sorra quan vola."
+  },
+  "625": {
+    "name": "Bisharp",
+    "description": "Dirigeix un grup de Pawniard. Lluita per convertir-se en el cap, però serà expulsat del grup si perd."
+  },
+  "275": {
+    "name": "Shiftry",
+    "description": "Viu tranquil·lament en el bosc profund. Es diu que crea vents d'hivern freds amb els ventalls que té."
+  },
+  "808": {
+    "name": "Meltan",
+    "description": "Fon partícules de ferro i altres metalls que troba al subsòl per poder absorbir-los al seu cos de metall fos."
+  },
+  "367": {
+    "name": "Huntail",
+    "description": "HUNTAIL va passar molt de temps sense ser detectat per les persones perquè viu a grans profunditats del mar. Els ulls d'aquest POKÉMON poden veure clarament fins i tot a la foscor tèrbola de les profunditats de l'oceà."
+  },
+  "737": {
+    "name": "Charjabug",
+    "description": "El seu cos és capaç d'emmagatzemar electricitat. En els campaments, la gent està agraïda de tenir-ne un a prop."
+  },
+  "222": {
+    "name": "Corsola",
+    "description": "Està contínuament perdent i creixent el pèl. La punta del seu cap és apreciada com un tresor per la seva bellesa."
+  },
+  "672": {
+    "name": "Skiddo",
+    "description": "Es creu que és un dels primers Pokémon que va viure en harmonia amb els humans, té una disposició plàcida."
+  },
+  "388": {
+    "name": "Grotle",
+    "description": "Sap on brolla l'aigua pura. Transporta altres Pokémon fins allà a l'esquena."
+  },
+  "1014": {
+    "name": "Okidogi",
+    "description": "Després que tots els seus músculs fossin estimulats per la cadena tòxica que tenia al voltant del coll, l'Okidogi es va transformar i va guanyar una silueta poderosa."
+  },
+  "605": {
+    "name": "Elgyem",
+    "description": "Utilitza el seu fort poder psíquic per a estrènyer el cervell del seu oponent, causant-li dolors de cap insuportables."
+  },
+  "255": {
+    "name": "Torchic",
+    "description": "TORCHIC segueix el seu ENTRENADOR, camina darrere d'ell amb passos insegurs. Aquest POKéMON expulsa flames de més de 800 graus Celsius, incloses boles de foc que deixen els seus rivals cremats i negres."
+  },
+  "740": {
+    "name": "Crabominable",
+    "description": "Anava a la recerca del cim, però es va perdre i va acabar en una muntanya nevada. Obligat a suportar el fred, aquest Pokémon va evolucionar i va créixer pèl."
+  },
+  "310": {
+    "name": "Manectric",
+    "description": "MANECTRIC està descarregant constantment electricitat de la seva crinera. Les guspires a vegades provoquen incendis forestals. Quan entra en batalla, aquest POKÉMON crea núvols de tempesta."
+  },
+  "39": {
+    "name": "Jigglypuff",
+    "description": "Quan els seus ulls enormes s'il·luminen, canta una melodia misteriosa i reconfortant que adorm els seus enemics."
+  },
+  "469": {
+    "name": "Yanmega",
+    "description": "Agitant les seves ales, crea ones de xoc que infligeixen greus danys interns als seus rivals."
+  },
+  "193": {
+    "name": "Yanma",
+    "description": "Si bat les seves ales molt ràpidament, pot generar ones de xoc que trencaran les finestres de la zona."
+  },
+  "890": {
+    "name": "Eternatus",
+    "description": "El nucli del seu pit absorbeix l'energia que emana de les terres de la regió de Galar. Aquesta energia és el que permet que Eternatus es mantingui actiu."
+  },
+  "486": {
+    "name": "Regigigas",
+    "description": "Hi ha una llegenda persistent que diu que aquest Pokémon va arrossegar continents amb cordes."
+  },
+  "202": {
+    "name": "Wobbuffet",
+    "description": "Odia la llum i els xocs. Si l'ataquen, infla el seu cos per enfortir el seu contraatac."
+  },
+  "652": {
+    "name": "Chesnaught",
+    "description": "El seu Placatge és prou fort per tombar un tanc de 50 tones. Protegeix els seus aliats del perill amb el seu propi cos."
+  },
+  "347": {
+    "name": "Anorith",
+    "description": "ANORITH va ser regenerat a partir d'un fòssil prehistòric. Aquest POKÉMON primitiu abans vivia en mars càlids. Agafa la seva presa fermament entre les seves dues enormes pinces."
+  },
+  "717": {
+    "name": "Yveltal",
+    "description": "Quan les ales i les plomes de la cua d'aquest Pokémon llegendari s'obren de bat a bat i brillen en vermell, absorbeix la força vital dels éssers vius."
+  },
+  "594": {
+    "name": "Alomomola",
+    "description": "La membrana especial que envolta l'Alomomola té la capacitat de curar ferides."
+  },
+  "81": {
+    "name": "Magnemite",
+    "description": "Utilitza l'antigravitat per mantenir-se suspès. Apareix sense avisar i fa servir DESCÀRREGA ELÈCTRICA i moviments similars."
+  },
+  "982": {
+    "name": "Dudunsparce-Two-Segment",
+    "description": "Aquest Pokémon utilitza la seva cua dura per fer el seu niu fent forats a la roca mare en profunditats subterrànies. El niu pot arribar a tenir més de sis milles de llargada."
+  },
+  "828": {
+    "name": "Thievul",
+    "description": "Marca sigilosament els possibles objectius amb una olor. Seguint l'olor, els acorrala i els roba quan menys s'ho esperen."
+  },
+  "644": {
+    "name": "Zekrom",
+    "description": "S'amaga entre núvols de llamps i vola per tota la regió d'Unova. Crea electricitat a la seva cua."
+  },
+  "214": {
+    "name": "Heracross",
+    "description": "Normalment és tranquil, però si el molesten mentre xuclava mel, persegueix l'intrús amb el seu banyat."
+  },
+  "701": {
+    "name": "Hawlucha",
+    "description": "Encara que el seu cos és petit, les seves destres habilitats de lluita li permeten mantenir-se al mateix nivell que lluitadors grans com en Machamp i en Hariyama."
+  },
+  "351": {
+    "name": "Castform",
+    "description": "El CASTFORM canvia d'aparença segons el temps. Aquest POKÉMON ha adquirit la capacitat d'utilitzar el gran poder de la natura per protegir el seu diminut cos."
+  },
+  "78": {
+    "name": "Rapidash",
+    "description": "Molt competitiu, aquest POKÉMON perseguirà qualsevol cosa que es mogui ràpidament amb l'esperança de córrer-li al darrere."
+  },
+  "582": {
+    "name": "Vanillite",
+    "description": "La temperatura de la seva respiració és de -48°C. Creen cristalls de neu i fan que nevi a les zones del seu voltant."
+  },
+  "428": {
+    "name": "Lopunny",
+    "description": "Un Pokémon extremadament cautelós. Quan sent perill, s'embolica el cos amb el pelut pel de les seves orelles."
+  },
+  "994": {
+    "name": "Iron-Moth",
+    "description": "Aquest Pokémon sembla un objecte desconegut descrit en una revista sobre fenòmens paranormals com un OVNI enviat per observar la humanitat."
+  },
+  "97": {
+    "name": "Hypno",
+    "description": "Quan clava la mirada a un enemic, utilitza una barreja de moviments PSI com HIPNOSI i CONFUSIÓ."
+  },
+  "243": {
+    "name": "Raikou",
+    "description": "Els núvols de pluja que porta li permeten llançar raigs elèctrics al seu gust. Diuen que va arribar amb un llampec."
+  },
+  "613": {
+    "name": "Cubchoo",
+    "description": "Quan no es troba bé, el seu mucus es torna aquós i el poder dels seus atacs de tipus Gel disminueix."
+  },
+  "1002": {
+    "name": "Chien-Pao",
+    "description": "Aquest Pokémon pot controlar 100 tones de neu caiguda. Juga de manera innocent saltant dins i fora de les allaus que ha provocat."
+  },
+  "306": {
+    "name": "Aggron",
+    "description": "AGGRON es el senyor de tota una muntanya. Pega sense pietat tot el que viola el seu territori. Aquest POKÉMON vigila constantment el seu domini."
+  },
+  "756": {
+    "name": "Shiinotic",
+    "description": "Els boscos on viuen els Shiinotic són perillosos per entrar a la nit. Les persones confoses per les seves estranyes llums mai més no trobaran el camí de tornada."
+  },
+  "886": {
+    "name": "Drakloak",
+    "description": "És capaç de volar més ràpid que a 120 milles per hora. Lluita al costat dels Dreepy i els mima fins que evolucionen amb èxit."
+  },
+  "185": {
+    "name": "Sudowoodo",
+    "description": "Malgrat que sempre fa veure que és un arbre, la seva composició sembla més pròxima a una roca que a una planta."
+  },
+  "490": {
+    "name": "Manaphy",
+    "description": "Nascut en un fred fons marí, nedarà grans distàncies per tornar al seu lloc de naixement."
+  },
+  "869": {
+    "name": "Alcremie",
+    "description": "Quan confia en un Entrenador, li oferirà bàcies que ha decorat amb nata."
+  },
+  "687": {
+    "name": "Malamar",
+    "description": "És el Pokémon amb els poders hipnòtics més potents i fa que els altres facin el que ell vol."
+  },
+  "238": {
+    "name": "Smoochum",
+    "description": "Els seus llavis són les parts més sensibles del seu cos. Sempre utilitza els llavis en primer lloc per examinar les coses."
+  },
+  "668": {
+    "name": "Pyroar",
+    "description": "El mascle amb la crinera de foc més gran és el líder del grup."
+  },
+  "392": {
+    "name": "Infernape",
+    "description": "Utilitza un tipus especial d'arts marcials que involucren tots els seus membres. El seu foc mai s'apaga."
+  },
+  "541": {
+    "name": "Swadloon",
+    "description": "Els boscos on viuen els Swadloon tenen un fullatge excel·lent perquè els nutrients que fabriquen a partir de les fulles caigudes nodreixen la vida vegetal."
+  },
+  "111": {
+    "name": "Rhyhorn",
+    "description": "Un POKÉMON amb una sola idea al cap. Un cop càrrega, no deixa de córrer fins que s'adorm."
+  },
+  "812": {
+    "name": "Rillaboom",
+    "description": "Batent el tambor, activa el poder del seu toc especial. Les arrels del toc segueixen les seves indicacions en batalla."
+  },
+  "957": {
+    "name": "Tinkatink",
+    "description": "Brandeja el martell que ha fet ell mateix per protegir-se, però sovint altres Pokémon que mengen metall li roben el martell."
+  },
+  "404": {
+    "name": "Luxio",
+    "description": "Les seves urpes generen electricitat amb prou amperatge per provocar desmais. Viuen en grups petits."
+  },
+  "54": {
+    "name": "Psyduck",
+    "description": "Mentre adorm els seus enemics amb la seva mirada buida, aquest astut Pokémon farà servir poders psicocinètics."
+  },
+  "280": {
+    "name": "Ralts",
+    "description": "El RALTS detecta les emocions de les persones mitjançant els seus banyons. Aquest Pokemon rares vegades es deixa veure davant de les persones. Però quan ho fa, s'acosta més si nota que la persona té una disposició positiva."
+  },
+  "795": {
+    "name": "Pheromosa",
+    "description": "Un dels perillosos Ultraéssers, se l'ha vist córrer a velocitats terribles per la terra."
+  },
+  "845": {
+    "name": "Cramorant",
+    "description": "És tan fort que pot deixar inconscients alguns oponents d'un sol cop, però a vegades també es pot oblidar de què està lluitant enmig de la batalla."
+  },
+  "146": {
+    "name": "Moltres",
+    "description": "És conegut com l'ocell llegendari del foc. Cada batec de les seves ales crea un llampec d'flames deslumbradores."
+  },
+  "516": {
+    "name": "Simipour",
+    "description": "El floró del seu cap conté aigua. Quan el nivell es redueix, l'omple tornant a xuclar aigua amb la cua."
+  },
+  "3": {
+    "name": "Venusaur",
+    "description": "La planta floreix quan està absorbint energia solar. Es manté en moviment per buscar la llum del sol."
+  },
+  "453": {
+    "name": "Croagunk",
+    "description": "Les seves galtes contenen bosses de verí. Intenta sorprendre els rivals per atacar-los amb els dits tòxics."
+  },
+  "900": {
+    "name": "Kleavor",
+    "description": "Una criatura violenta que tomba arbres enormes amb les seves destrals brutes i es protegeix amb pedra dura. Si es troba aquest Pokémon als boscos, l'única opció és fugir."
+  },
+  "296": {
+    "name": "Makuhita",
+    "description": "El MAKUHITA és tenaç - es tornarà a posar dret i a atacar el seu rival tantes vegades com el derrotiïn. Cada cop que es torna a aixecar, aquest POKÉMON emmagatzema més energia al seu cos per evolucionar."
+  },
+  "279": {
+    "name": "Pelipper",
+    "description": "És un missatger dels cels, que transporta en el seu bec petits Pokemon i ous per posar-los a lloc segur."
+  },
+  "783": {
+    "name": "Hakamo-O",
+    "description": "Es llança sobre la seua presa amb un crit valent. Els seus punys escatosos destrossem els seus oponents."
+  },
+  "629": {
+    "name": "Vullaby",
+    "description": "Les seves ales són massa petites per volar. Protegeixen la seva part posterior amb ossos recollits per la Mandibuzz."
+  },
+  "500": {
+    "name": "Emboar",
+    "description": "Pot llançar un cop de puny de foc encenent els seus punys amb el seu mentó ardent. Es preocupa profundament pels seus amics."
+  },
+  "150": {
+    "name": "Mewtwo",
+    "description": "Va ser creat per un científic després d'anys d'experiments esgarrifosos de manipulació gènica i enginyeria del DNA."
+  },
+  "853": {
+    "name": "Grapploct",
+    "description": "Un cos format només de múscul fa que els moviments de presa que aquest Pokémon realitza amb els seus tentacles siguin tremendament poderosos."
+  },
+  "916": {
+    "name": "Oinkologne-Male",
+    "description": "Oinkologne està orgullós de la seva pell fina i brillant. Emet una aroma concentrada de la punta de la seva cua."
+  },
+  "445": {
+    "name": "Garchomp",
+    "description": "Quan replegua el seu cos i estén les ales, sembla un avió de reacció. Vola a la velocitat del so."
+  },
+  "15": {
+    "name": "Beedrill",
+    "description": "Té tres agullons verinosos a les seves potes davanteres i a la cua. S'utilitzen per punxar l'enemic repetidament."
+  },
+  "691": {
+    "name": "Dragalge",
+    "description": "El seu verí és prou fort per foradar el casc d'un petrolier, i l'escopeixen indiscriminadament a tot el que entra al seu territori."
+  },
+  "384": {
+    "name": "Rayquaza",
+    "description": "RAYQUAZA va viure durant centenars de milions d'anys a la capa d'ozó de la Terra, sense descendir mai a terra. Aquest POKÉMON sembla alimentar-se d'aigua i partícules de l'atmosfera."
+  },
+  "804": {
+    "name": "Naganadel",
+    "description": "Emmagatzema centenars de litres de líquid verinós al seu interior. És una de les criatures conegudes com a UBs."
+  },
+  "107": {
+    "name": "Hitmonchan",
+    "description": "Tot i que sembla que no fa res, dispara cops de puny en ràfegues llampants que són impossibles de veure."
+  },
+  "557": {
+    "name": "Dwebble",
+    "description": "Aquest Pokémon pot fondre fàcilment forats a les roques dures amb un líquid que segrega de la seva boca."
+  },
+  "42": {
+    "name": "Golbat",
+    "description": "Un cop ataca, no deixarà de drenar energia de la seva víctima fins i tot si es torna massa pesada per volar."
+  },
+  "412": {
+    "name": "Burmy",
+    "description": "Per protegir-se del fred vent hivernal, es cobreix amb un mantell fet de brots i fulles."
+  },
+  "941": {
+    "name": "Kilowattrel",
+    "description": "El Kilowattrel infla la seva bossa de gola per amplificar la seva electricitat. Gràcies a cavalcar el vent, aquest Pokémon pot volar més de 430 milles en un dia."
+  },
+  "805": {
+    "name": "Stakataka",
+    "description": "Va aparèixer d'un Forat Ultra. Cada un sembla estar format per molts éssers vius apilats un sobre l'altre."
+  },
+  "106": {
+    "name": "Hitmonlee",
+    "description": "Quan s'afanya, les seves cames s'allarguen progressivament. Corre fluïdament amb gambades extrallarges."
+  },
+  "556": {
+    "name": "Maractus",
+    "description": "Utilitza una cançó i una dansa de ritme viu per allunyar els Pokémon ocell que es mengen les llavors de la seva flor."
+  },
+  "43": {
+    "name": "Oddish",
+    "description": "Durant el dia, manté el rostre enterrat a terra. A la nit, deambula escampant les seves llavors."
+  },
+  "413": {
+    "name": "Wormadam-Plant",
+    "description": "Quan el BURMY va evolucionar, el seu mantell es va convertir en part del cos d'aquest Pokémon. El mantell mai no es perd."
+  },
+  "940": {
+    "name": "Wattrel",
+    "description": "Quan les seves ales agafen el vent, els ossos de dins produeixen electricitat. Aquest Pokémon es llança a l'oceà, caçant la seva presa electrocutant-la."
+  },
+  "690": {
+    "name": "Skrelp",
+    "description": "Camuflats com a algues pudrides, polvoritzen verí líquid sobre les preses que s'acosten sense saber-ho i després les acaben."
+  },
+  "385": {
+    "name": "Jirachi",
+    "description": "Una llegenda diu que JIRACHI complirà qualsevol desig escrit en notes enganxades al seu cap quan es desperti. Si aquest POKÉMON percep perill, lluitarà sense despertar-se."
+  },
+  "501": {
+    "name": "Oshawott",
+    "description": "Lluita utilitzant l'escata del seu abdomen. En resposta a un atac, es revenja immediatament tallant."
+  },
+  "151": {
+    "name": "Mew",
+    "description": "Tan rara que encara es considerada una il·lusió per molts experts. Només unes poques persones l'han vist al món."
+  },
+  "852": {
+    "name": "Clobbopus",
+    "description": "És molt curiós, però la seva manera d'investigar les coses és intentar-les colpejar amb els seus tentacles. És la recerca d'aliment el que el porta a terra."
+  },
+  "917": {
+    "name": "Tarountula",
+    "description": "La bola de fils embolicada al seu cos és prou elàstica per desviar les falç d'un Scyther, l'enemic natural d'aquest Pokémon."
+  },
+  "444": {
+    "name": "Gabite",
+    "description": "Hi ha una creença arrelada que la medicina feta amb les seves escates curarà fins i tot malalties incurables."
+  },
+  "14": {
+    "name": "Kakuna",
+    "description": "Gairebé incapaç de moure's, aquest POKÉMON només pot endurir la seva closca per protegir-se dels depredadors."
+  },
+  "297": {
+    "name": "Hariyama",
+    "description": "Té el costum de reptar els altres sense dubtar-ho per provar la seva força. S'ha conegut que s'atura a les vies del tren i atura els trens utilitzant cops de braç."
+  },
+  "278": {
+    "name": "Wingull",
+    "description": "El WINGULL té el costum de transportar preses i objectes de valor al seu bec i amagar-los en tot tipus de llocs. Aquest Pokemon cavalca els vents i vola com si patinés pel cel."
+  },
+  "782": {
+    "name": "Jangmo-O",
+    "description": "Expressa els seus sentiments pegant-se amb les seues escates. Els sons metàl·lics ressonen per les muntanyes altes on viu el Jangmo-o."
+  },
+  "628": {
+    "name": "Braviary",
+    "description": "Lluiten pels seus amics sense pensar en el perill que corren ells mateixos. Un d'ells pot transportar un cotxe volant."
+  },
+  "844": {
+    "name": "Sandaconda",
+    "description": "Quan contrau el seu cos, més de 100 quilos de sorra surten disparat pel seu nas. Si es queda sense sorra, es desanima molt."
+  },
+  "147": {
+    "name": "Dratini",
+    "description": "Fins fa poc era considerat un POKÉMON mític, fins que es va trobar una petita colònia que vivia submergida."
+  },
+  "517": {
+    "name": "Munna",
+    "description": "Les Munna floten sempre a l'aire. Les persones a qui els han menjat els somnis, obliden de què anaven."
+  },
+  "2": {
+    "name": "Ivysaur",
+    "description": "Quan el bulb de la seva esquena creix, sembla perdre la capacitat de sostenir-se sobre les seves potes del darrere."
+  },
+  "452": {
+    "name": "Drapion",
+    "description": "Té el poder dels braços amb urpes per fer miques un cotxe. Les puntes de les seves urpes alliberen verí."
+  },
+  "901": {
+    "name": "Ursaluna",
+    "description": "Crec que va ser el terreny pantanós de Hisui el que va donar a l'Ursaluna la seva robusta figura i la nova capacitat de manipular la torba al seu gust."
+  },
+  "281": {
+    "name": "Kirlia",
+    "description": "Es diu que una KIRLIA exposada a les emocions positives del seu ENTRENADOR es fa bella. Aquest POKéMON controla poders psicocinètics amb el seu cervell molt desenvolupat."
+  },
+  "794": {
+    "name": "Buzzwole",
+    "description": "Aquest Ultraésser va aparèixer d'un altre món. Mostra el seu cos, però no està clar si aquesta exhibició és una presumció o una amenaça."
+  },
+  "540": {
+    "name": "Sewaddle",
+    "description": "Els Leavanny li posen roba que han fet per a ell quan va néixer. S'amaga el cap dins de la caputxa mentre dorm."
+  },
+  "110": {
+    "name": "Weezing",
+    "description": "On es troben dos tipus de gasos verinosos, 2 KOFFINGs es poden fusionar en un WEEZING al llarg de molts anys."
+  },
+  "813": {
+    "name": "Scorbunny",
+    "description": "Córrer per escalfar-se carrega el seu cos d'energia de foc. Quan això passa, està a punt per lluitar a tota potència."
+  },
+  "956": {
+    "name": "Espathra",
+    "description": "Immobilitza els oponents banyant-los amb energia psíquica dels seus grans ulls. Malgrat la seva aparença, té un temperament ferotge."
+  },
+  "405": {
+    "name": "Luxray",
+    "description": "Té uns ulls capaços de veure a través de qualsevol cosa. Localitza i captura la seva presa amagada rere objectes."
+  },
+  "55": {
+    "name": "Golduck",
+    "description": "Sovint es pot veure nedant amb elegància a la vora dels llacs. Sovint es confon amb el monstre japonès, Kappa."
+  },
+  "686": {
+    "name": "Inkay",
+    "description": "Els oponents que miren els punts lluminosos del seu cos queden atordits i perden les ganes de lluitar."
+  },
+  "239": {
+    "name": "Elekid",
+    "description": "Fa girar els braços per generar electricitat, però s'esgota fàcilment, així que només es carrega una mica."
+  },
+  "669": {
+    "name": "Flabebe",
+    "description": "Fa aflorar i controla el poder amagat de les flors. La flor que porta el Flabebe probablement forma part del seu cos."
+  },
+  "393": {
+    "name": "Piplup",
+    "description": "Com que és molt orgullós, odia acceptar menjar de les persones. El seu gruixut plomatge el protegeix del fred."
+  },
+  "887": {
+    "name": "Dragapult",
+    "description": "Quan no està lluitant, manté els Dreepy als forats dels seus banyes. Un cop comença la batalla, els llança com a míssils supersònics."
+  },
+  "184": {
+    "name": "Azumarill",
+    "description": "Viu a l'aigua pràcticament tot el dia. El seu color i el seu patró corporals actuen com a camuflatge que fan que sigui difícil que els enemics el vegin a l'aigua."
+  },
+  "491": {
+    "name": "Darkrai",
+    "description": "Pot adormir la gent i fer-los somniar. Està actiu durant les nits de lluna nova."
+  },
+  "868": {
+    "name": "Milcery",
+    "description": "Aquest Pokémon va néixer de partícules que fan una olor dolça. El seu cos està fet de nata."
+  },
+  "242": {
+    "name": "Blissey",
+    "description": "Qualsevol que donyi una besada a l'ou de Blissey es tornarà una persona molt atenta i agradable amb tothom."
+  },
+  "612": {
+    "name": "Haxorus",
+    "description": "Són amables però poden ser despietats quan defensen el seu territori. Repten els seus rivals amb queixals que poden tallar l'acer."
+  },
+  "1003": {
+    "name": "Ting-Lu",
+    "description": "La por vessada en un recipient ritual antic s'ha cobert de roques i terra per convertir-se en un Pokémon."
+  },
+  "307": {
+    "name": "Meditite",
+    "description": "MEDITITE fa un entrenament mental rigorós al fons de les muntanyes. Però cada vegada que medita, aquest POKÉMON perd la concentració i l'atenció. Per això, el seu entrenament no té fi."
+  },
+  "757": {
+    "name": "Salandit",
+    "description": "Crema els seus fluids corporals per crear un gas verinós. Quan els seus enemics es desorientan per inhalar el gas, els ataca."
+  },
+  "79": {
+    "name": "Slowpoke",
+    "description": "Increïblement lent i somort. Triga 5 segons a sentir dolor quan és atacat."
+  },
+  "583": {
+    "name": "Vanillish",
+    "description": "Les muntanyes nevades són l'hàbitat d'aquest Pokémon. Durant una antiga edat de gel, es van traslladar a zones del sud."
+  },
+  "429": {
+    "name": "Mismagius",
+    "description": "Els seus crits sonen com a encanteris. Els que l'escolten són atormentats per mal de cap i al·lucinacions."
+  },
+  "995": {
+    "name": "Iron-Thorns",
+    "description": "Té algunes similituds amb un Pokémon presentat en una revista dubtosa com un Tyranitar d'un mil·lenni al futur."
+  },
+  "96": {
+    "name": "Drowzee",
+    "description": "Adorm els enemics i es menja els seus somnis. De vegades s'acaba mareant per menjar-se somnis dolents."
+  },
+  "645": {
+    "name": "Landorus-Incarnate",
+    "description": "Els llocs visitats per Landorus concedeixen collites tan abundants que ha estat aclamat com \"El Guardià dels Camps\"."
+  },
+  "215": {
+    "name": "Sneasel",
+    "description": "Les seves potes amaguen unes urpes afilades. Si l'ataquen, estén ràpidament les urpes i sorprèn el seu enemic."
+  },
+  "700": {
+    "name": "Sylveon",
+    "description": "Envia una aura reconfortant dels seus tentacles en forma de cinta per calmar les baralles."
+  },
+  "350": {
+    "name": "Milotic",
+    "description": "Les seves escates precioses es descriuen com de colors arc de Sant Martí. Canvien de color segons l'angle de visió."
+  },
+  "595": {
+    "name": "Joltik",
+    "description": "Els Joltik que viuen a les ciutats han après una tècnica per xuclar electricitat de les endolls de les cases."
+  },
+  "80": {
+    "name": "Slowbro",
+    "description": "Es diu que el SHELLDER que està enganxat a la cua de SLOWPOKE s'alimenta de les restes del seu hoste."
+  },
+  "983": {
+    "name": "Kingambit",
+    "description": "Només un Bisharp que destaqui per sobre de tots els altres del seu gran exèrcit pot evolucionar a Kingambit."
+  },
+  "829": {
+    "name": "Gossifleur",
+    "description": "S'ancora a terra amb la seva única pota, després s'assol·leia al sol. Després d'absorbir prou llum solar, els seus pètals s'obren quan floreix amb brillantor."
+  },
+  "203": {
+    "name": "Girafarig",
+    "description": "La seva cua té un petit cervell propi. Compte! Si t'hi acostes, pot reaccionar a la teva olor i mossegar."
+  },
+  "653": {
+    "name": "Fennekin",
+    "description": "Menjar una branqueta l'omple d'energia, i les seves orelles espaioses expulsen aire més calent que 390 graus Fahrenheit."
+  },
+  "346": {
+    "name": "Cradily",
+    "description": "CRADILY pastura pels fons marins a la recerca d'aliment. Aquest POKÉMON estén lliurement el coll semblant a un tronc d'arbre i captura la presa incauta utilitzant els seus vuit temacles."
+  },
+  "716": {
+    "name": "Xerneas",
+    "description": "Les llegendes diuen que pot compartir la vida eterna. Va dormir durant mil anys amb la forma d'un arbre abans de revifar."
+  },
+  "38": {
+    "name": "Ninetales",
+    "description": "Molt intel·ligent i molt venjatiu. Agafar una de les seves nombroses cues podria resultar en una maledicció de 1.000 anys."
+  },
+  "468": {
+    "name": "Togekiss",
+    "description": "Mai apareixerà on hi hagi discòrdia. Els avistaments d'aquest Pokémon s'han tornat rars darrerament."
+  },
+  "192": {
+    "name": "Sunflora",
+    "description": "Converteix la llum del sol en energia. A la fosca després de la posta de sol, tanca els seus pètals i es queda quieta."
+  },
+  "891": {
+    "name": "Kubfu",
+    "description": "Kubfu s'entrena intensament per perfeccionar els seus moviments. Els moviments que domina determinaran quina forma adoptarà quan evolucioni."
+  },
+  "487": {
+    "name": "Giratina-Altered",
+    "description": "Un Pokémon que es diu que viu en un món a la banda oposada del nostre. Apareix en un antic cementiri."
+  },
+  "1015": {
+    "name": "Munkidori",
+    "description": "La cadena està feta de toxines que milloren les capacitats. Això va estimular el cervell del Munkidori i va provocar que els seus poders psíquics es desenvolupessin."
+  },
+  "604": {
+    "name": "Eelektross",
+    "description": "Surten de l'oceà utilitzant els seus braços. Atacaran les preses a la costa i les arrossegaran immediatament a l'oceà."
+  },
+  "254": {
+    "name": "Sceptile",
+    "description": "Les fulles que creixen al cos de SCEPTILE tenen vores molt tallants. Aquest POKéMON és molt àgil, salta per totes les branques dels arbres i s'abalança sobre el seu rival des de dalt o des de darrere."
+  },
+  "741": {
+    "name": "Oricorio-Baile",
+    "description": "Bat les seves ales per crear foc. A mesura que es mou en els passos de la seva bella dansa, banya els oponents en flames intenses."
+  },
+  "311": {
+    "name": "Plusle",
+    "description": "PLUSLE sempre actua com a líder d'animació per als seus companys. Sempre que un company fa un bon esforç en una batalla, aquest POKÉMON fa curtcircuit en el seu cos per crear els sorolls ressonants de les espurnes per mostrar la seva alegria."
+  },
+  "366": {
+    "name": "Clamperl",
+    "description": "El robust capell de CLAMPERL no només serveix per a protegir-se, sinó que també s'utilitza per agafar i atrapar preses. El capell d'un CLAMPERL adult tindrà marques i esgarrapades per tot arreu."
+  },
+  "736": {
+    "name": "Grubbin",
+    "description": "La seva forta mandíbula li permet raspar els arbres i xuclar la saba. Normalment viu sota terra."
+  },
+  "223": {
+    "name": "Remoraid",
+    "description": "Té una punteria excel·lent. L'aigua que dispara pot encertar fins i tot a preses en moviment a més de 90 metres."
+  },
+  "673": {
+    "name": "Gogoat",
+    "description": "Pot saber com se sent el seu Entrenador per canvis subtils en l'agafada dels seus banyams. Aquest sentit empàtic els deixa córrer com si fossin un sol ser."
+  },
+  "389": {
+    "name": "Torterra",
+    "description": "Petits Pokémon es reuneixen ocasionalment a la seva esquena immòbil per començar a construir els seus nius."
+  },
+  "809": {
+    "name": "Melmetal",
+    "description": "Venerat fa molt de temps per la seva capacitat de crear ferro de res, per alguna raó ha renascut després de 3.000 anys."
+  },
+  "761": {
+    "name": "Bounsweet",
+    "description": "De cos en surt una aroma delectable. Sovint són empassats sencers pels Toucannon atrets per aquella suavitat."
+  },
+  "331": {
+    "name": "Cacnea",
+    "description": "El CACNEA viu en llocs àrids com els deserts. Allibera una olor forta de la seva flor per atraure la presa. Quan la presa s'acosta, aquest POKÉMON dispara espines afilades del seu cos per immobilitzar la víctima."
+  },
+  "624": {
+    "name": "Pawniard",
+    "description": "Les fulles comprenen tot el cos d'aquest Pokémon. Si la batalla fa que les fulles s'entelin, les afila a les pedres del riu."
+  },
+  "274": {
+    "name": "Nuzleaf",
+    "description": "Els NUZLEAF viuen en boscos densos i exuberants. De vegades, es passegen fora del bosc per sorprendre la gent. Aquest POKéMON no li agrada que li pinyin el seu nas llarg."
+  },
+  "18": {
+    "name": "Pidgeot",
+    "description": "Quan cacen, rasa la superfície de l'aigua a gran velocitat per agafar les preses desprevenudes com els MAGIKARP."
+  },
+  "448": {
+    "name": "Lucario",
+    "description": "Té la capacitat de percebre les aures de totes les coses. Entén el parlar humà."
+  },
+  "327": {
+    "name": "Spinda",
+    "description": "Cap Spinda no té el mateix patró de taques. El seu pas vacil·lant desconcentra els seus enemics."
+  },
+  "777": {
+    "name": "Togedemaru",
+    "description": "El pèl punxegut de l'esquena normalment està relaxat. Quan aquest Pokémon s'agita, el seu pèl s'alça i punxa els seus atacants."
+  },
+  "262": {
+    "name": "Mightyena",
+    "description": "El MIGHTYENA dona senyals evidents quan està a punt d'atacar. Comença a udolar profundament i després aplana el seu cos. Aquest POKÉMON mossega ferotgement amb les seves dents punxegudes."
+  },
+  "798": {
+    "name": "Kartana",
+    "description": "Aquesta Bèstia Ultradimensional va arribar del Forat Ultradimensional. Sembla que no ataca els enemics per si mateixa, però el seu cos afilat és una arma perillosa en si mateix."
+  },
+  "632": {
+    "name": "Durant",
+    "description": "Ataquen en grup, cobrint-se amb una armadura d'acer per protegir-se del Heatmor."
+  },
+  "1023": {
+    "name": "Iron-Crown",
+    "description": "Sembla un objecte misteriós presentat en una revista paranormal com una arma d'última generació amb forma de Cobalion."
+  },
+  "848": {
+    "name": "Toxel",
+    "description": "Emmagatzema verí en una bossa de verí interna i segrega aquest verí a través de la seva pell. Si toques aquest Pokémon, et seguirà una sensació de formigueig."
+  },
+  "720": {
+    "name": "Hoopa",
+    "description": "Aquest entremaliat envia qualsevol cosa a llocs llunyans utilitzant el seu anell, que pot deformar l'espai."
+  },
+  "370": {
+    "name": "Luvdisc",
+    "description": "Els LUVDISC viuen en mars poc profunds als tròpics. Aquest POKÉMON amb forma de cor va rebre el seu nom perquè segueix les parelles enamorades que veu a les onades de l'oceà."
+  },
+  "665": {
+    "name": "Spewpa",
+    "description": "Viu amagat entre les ombres dels matolls. Quan els depredadors ataquen, erissa ràpidament el pèl que cobreix el seu cos per intentar intimidar-los."
+  },
+  "235": {
+    "name": "Smeargle",
+    "description": "Un fluid especial brolla de la punta de la seva cua. El pinta per tot arreu per marcar el seu territori."
+  },
+  "59": {
+    "name": "Arcanine",
+    "description": "Un POKÉMON que ha estat admirat des del passat per la seva bellesa. Corre àgilment com si tingués ales."
+  },
+  "409": {
+    "name": "Rampardos",
+    "description": "El seu potent cop de cap té prou força per esberlar fins i tot les coses més resistents en impactar-hi."
+  },
+  "22": {
+    "name": "Fearow",
+    "description": "Amb les ales enormes i magnífiques, pot volar sense haver de reposar mai."
+  },
+  "472": {
+    "name": "Gliscor",
+    "description": "Observa les preses mentre penja cap per avall de les branques. Quan es presenta l'oportunitat, es llança en picat!"
+  },
+  "188": {
+    "name": "Skiploom",
+    "description": "La flor del seu cap s'obre i es tanca a mesura que fluctua la temperatura."
+  },
+  "921": {
+    "name": "Pawmi",
+    "description": "Té unes bosses elèctriques poc desenvolupades a les galtes. Aquestes bosses només poden produir electricitat si el Pawmi les frota frenèticament amb les planxes de les seves potes davanteres."
+  },
+  "864": {
+    "name": "Cursola",
+    "description": "La seva closca està desbordant de l'energia sobrenatural intensificada. L'ectoplasma serveix de protecció per a l'esperit central d'aquest Pokémon."
+  },
+  "167": {
+    "name": "Spinarak",
+    "description": "Resta quiet en la mateixa postura durant dies a la seva teranyina, esperant que la seva incauta presa s'hi apropi."
+  },
+  "537": {
+    "name": "Seismitoad",
+    "description": "Disparen líquid paralitzant dels bossots del cap. Utilitzen la vibració per a fer mal als seus adversaris."
+  },
+  "219": {
+    "name": "Magcargo",
+    "description": "La closca de l'esquena és només pell que s'ha refredat i endurit. Es trenca fàcilment amb un lleu contacte."
+  },
+  "649": {
+    "name": "Genesect",
+    "description": "Fa més de 300 milions d'anys, era temut com el caçador més fort. Ha estat modificat per l'Equip Plasma."
+  },
+  "976": {
+    "name": "Veluza",
+    "description": "Quan Veluza descarta carn innecessària, la seva ment es torna afilada i el seu poder psíquic augmenta. La carn sobrant té un gust lleuger però deliciós."
+  },
+  "425": {
+    "name": "Drifloon",
+    "description": "Un Pokémon format pels esperits de les persones i els Pokémon. Li encanten les estacions humides i humides."
+  },
+  "75": {
+    "name": "Graveler",
+    "description": "Es llisca pendent avall per moure's. Roda per sobre de qualsevol obstacle sense alentir ni canviar de direcció."
+  },
+  "560": {
+    "name": "Scrafty",
+    "description": "Els grups d'ells peguen a tot el que entra al seu territori. Cada un pot escopir líquid àcid de la seva boca."
+  },
+  "130": {
+    "name": "Gyarados",
+    "description": "Un cop comença a fer estralls, un GYARADOS ho cremarà tot, fins i tot en una tempesta dura."
+  },
+  "999": {
+    "name": "Gimmighoul",
+    "description": "Aquest Pokémon va néixer dins d'un cofre del tresor fa aproximadament 1.500 anys. Xucla l'energia vital dels malfactors que intenten robar el tresor."
+  },
+  "833": {
+    "name": "Chewtle",
+    "description": "Aparentment la picor de la seva dentició l'impulsa a mossegar amb les seves mandíbules tot el que es troba al seu davant."
+  },
+  "63": {
+    "name": "Abra",
+    "description": "Fent ús de la seva capacitat per llegir les ments, identifica els perills imminents i es TELETRANSPORTA a un lloc segur."
+  },
+  "599": {
+    "name": "Klink",
+    "description": "Els dos engranatges petits que encaixen junts estan predeterminats. Cadascun rebot dels altres engranatges petits sense encaixar."
+  },
+  "433": {
+    "name": "Chingling",
+    "description": "Emet crits agitant una bola a la part posterior de la seva gola. Es mou amb saltets saltironejants."
+  },
+  "960": {
+    "name": "Wiglett",
+    "description": "Aquest Pokémon pot detectar l'olor d'un Veluza a més de 20 metres de distància i s'amagarà a la sorra."
+  },
+  "825": {
+    "name": "Dottler",
+    "description": "Gairebé no es mou, però encara està viu. Amagar-se a la seva closca sense menjar ni beure sembla haver despertat els seus poders psíquics."
+  },
+  "126": {
+    "name": "Magmar",
+    "description": "El seu cos crema sempre amb una llum taronja que li permet amagar-se perfectament entre les flames."
+  },
+  "576": {
+    "name": "Gothitelle",
+    "description": "Les estrelles de milers d'anys de llum es poden veure en l'espai distorsionat pel seu intens poder psíquic."
+  },
+  "258": {
+    "name": "Mudkip",
+    "description": "L'aleta al cap del MUDKIP funciona com un radar molt sensible. Fent servir aquesta aleta per detectar els moviments de l'aigua i l'aire, aquest POKÉMON pot saber què està passant al seu voltant sense fer servir els ulls."
+  },
+  "608": {
+    "name": "Lampent",
+    "description": "Aquest Pokémon ombrívol és temut. Deambula per les ciutats buscant els esperits dels caiguts."
+  },
+  "1019": {
+    "name": "Hydrapple",
+    "description": "Set serps viuen dins d'una poma feta de xarop. La serp del centre és la comandant."
+  },
+  "937": {
+    "name": "Ceruledge",
+    "description": "Les fulles de foc dels seus braços cremen ferotgement amb el ressentiment persistent d'un esgrima que va caure abans d'aconseguir el seu objectiu."
+  },
+  "464": {
+    "name": "Rhyperior",
+    "description": "Col·loca roques als forats de les seves palmes i utilitza els seus músculs per a disparar-les. De tant en tant, dispara GEODUDES."
+  },
+  "34": {
+    "name": "Nidoking",
+    "description": "Utilitza la seva cua poderosa en batalla per aixafar, estrènyer i finalment trencar els ossos de la seva presa."
+  },
+  "521": {
+    "name": "Unfezant",
+    "description": "Els mascles mouen les plomes del cap per intimidar els oponents. Les habilitats de vol de les femelles superen les dels mascles."
+  },
+  "171": {
+    "name": "Lanturn",
+    "description": "La llum que emet és tan brillant que pot il·luminar la superfície del mar des d'una profunditat de més de tres milles."
+  },
+  "872": {
+    "name": "Snom",
+    "description": "Escopeix fils impregnats d'una energia gelada i els utilitza per lligar el seu cos a les branques, fent-se passar per un caràmbano mentre dorm."
+  }
+}

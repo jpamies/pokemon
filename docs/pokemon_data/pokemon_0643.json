@@ -1,0 +1,42 @@
+{
+  "id": 643,
+  "name": "Reshiram",
+  "height": 32,
+  "weight": 3300,
+  "base_experience": 306,
+  "types": [
+    "dragon",
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "turboblaze",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 120,
+    "defense": 100,
+    "special-attack": 150,
+    "special-defense": 120,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/643.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png"
+  },
+  "color": "white",
+  "generation": 5,
+  "descriptions": {
+    "en": "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
+    "es": "Pokémon legendario capaz de abrasar el mundo con sus llamas. Ayuda a quienes persiguen un mundo veraz.",
+    "ca": "Aquest Pokémon apareix en llegendes. Envia flames a l'aire des de la seva cua, cremant tot el que l'envolta."
+  },
+  "names": {
+    "en": "Reshiram",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Reshiram"
+  }
+}

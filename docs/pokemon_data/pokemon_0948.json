@@ -1,0 +1,46 @@
+{
+  "id": 948,
+  "name": "Toedscool",
+  "height": 9,
+  "weight": 330,
+  "base_experience": 67,
+  "types": [
+    "ground",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "mycelium-might",
+      "is_hidden": false
+    },
+    {
+      "name": "mycelium-might",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "special-attack": 50,
+    "special-defense": 100,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/948.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/948.png"
+  },
+  "color": "yellow",
+  "generation": 9,
+  "descriptions": {
+    "en": "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+    "es": "Descripción no disponible.",
+    "ca": "El Toedscool viu en boscos humits. Els flocs que se li cauen del cos són masticables i molt saborosos."
+  },
+  "names": {
+    "en": "Toedscool",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Toedscool"
+  }
+}

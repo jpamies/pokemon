@@ -1,0 +1,42 @@
+{
+  "id": 988,
+  "name": "Slither-Wing",
+  "height": 32,
+  "weight": 920,
+  "base_experience": 285,
+  "types": [
+    "bug",
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "protosynthesis",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 135,
+    "defense": 79,
+    "special-attack": 85,
+    "special-defense": 105,
+    "speed": 81
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/988.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/988.png"
+  },
+  "color": "red",
+  "generation": 9,
+  "descriptions": {
+    "en": "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
+    "es": "Descripción no disponible.",
+    "ca": "Aquest misteriós Pokémon té certes semblances amb una criatura que un antic llibre va presentar com a Ala-Lliscant."
+  },
+  "names": {
+    "en": "Slither-Wing",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Slither-Wing"
+  }
+}

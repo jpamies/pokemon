@@ -1,0 +1,45 @@
+{
+  "id": 368,
+  "name": "Gorebyss",
+  "height": 18,
+  "weight": 226,
+  "base_experience": 170,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "hydration",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 84,
+    "defense": 105,
+    "special-attack": 114,
+    "special-defense": 75,
+    "speed": 52
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/368.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/368.png"
+  },
+  "color": "pink",
+  "generation": 3,
+  "descriptions": {
+    "en": "GOREBYSS lives in the southern seas at extreme depths. Its body is built to withstand the enormous pressure of water at incredible depths. Because of this, this POKéMON’s body is unharmed by ordinary attacks.",
+    "es": "Vive en el fondo del mar. En primavera, su cuerpo rosado adquiere colores más vivos.",
+    "ca": "GOREBYSS viu als mars del sud a grans profunditats. El seu cos està preparat per suportar l'enorme pressió de l'aigua a increïbles fondàries. Per això, el cos d'aquest POKÉMON no pateix danys pels atacs normals."
+  },
+  "names": {
+    "en": "Gorebyss",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Gorebyss"
+  }
+}

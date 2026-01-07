@@ -1,0 +1,49 @@
+{
+  "id": 601,
+  "name": "Klinklang",
+  "height": 6,
+  "weight": 810,
+  "base_experience": 234,
+  "types": [
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "plus",
+      "is_hidden": false
+    },
+    {
+      "name": "minus",
+      "is_hidden": false
+    },
+    {
+      "name": "clear-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 100,
+    "defense": 115,
+    "special-attack": 70,
+    "special-defense": 85,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/601.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/601.png"
+  },
+  "color": "gray",
+  "generation": 5,
+  "descriptions": {
+    "en": "The gear with the red core is rotated at high speed for a rapid energy charge.",
+    "es": "Recarga su energía rápidamente haciendo girar con gran celeridad el engranaje equipado con un núcleo rojo.",
+    "ca": "L'engranatge amb el nucli vermell gira a gran velocitat per a una ràpida càrrega d'energia."
+  },
+  "names": {
+    "en": "Klinklang",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Klinklang"
+  }
+}

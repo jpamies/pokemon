@@ -1,0 +1,46 @@
+{
+  "id": 645,
+  "name": "Landorus-Incarnate",
+  "height": 15,
+  "weight": 680,
+  "base_experience": 270,
+  "types": [
+    "ground",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "sand-force",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 89,
+    "attack": 125,
+    "defense": 90,
+    "special-attack": 115,
+    "special-defense": 80,
+    "speed": 101
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/645.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/645.png"
+  },
+  "color": "brown",
+  "generation": 5,
+  "descriptions": {
+    "en": "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
+    "es": "Lo consideran una deidad de las cosechas porque los cultivos crecen en abundancia en las tierras por las que pasa.",
+    "ca": "Els llocs visitats per Landorus concedeixen collites tan abundants que ha estat aclamat com \"El Guardià dels Camps\"."
+  },
+  "names": {
+    "en": "Landorus-Incarnate",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Landorus-Incarnate"
+  }
+}

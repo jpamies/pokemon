@@ -1,0 +1,50 @@
+{
+  "id": 1011,
+  "name": "Dipplin",
+  "height": 4,
+  "weight": 97,
+  "base_experience": 170,
+  "types": [
+    "grass",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "supersweet-syrup",
+      "is_hidden": false
+    },
+    {
+      "name": "gluttony",
+      "is_hidden": false
+    },
+    {
+      "name": "sticky-hold",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 110,
+    "special-attack": 95,
+    "special-defense": 80,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1011.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1011.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1011.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "Dipplin is two creatures in one Pokémon. Its evolution was triggered by a special apple grown only in one place.",
+    "es": "Descripción no disponible.",
+    "ca": "El Dipplin és dos criatures en un sol Pokémon. La seva evolució es va desencadenar per una poma especial que només es cultiva en un lloc."
+  },
+  "names": {
+    "en": "Dipplin",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Dipplin"
+  }
+}

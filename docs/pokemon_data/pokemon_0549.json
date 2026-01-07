@@ -1,0 +1,49 @@
+{
+  "id": 549,
+  "name": "Lilligant",
+  "height": 11,
+  "weight": 163,
+  "base_experience": 168,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "is_hidden": false
+    },
+    {
+      "name": "own-tempo",
+      "is_hidden": false
+    },
+    {
+      "name": "leaf-guard",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 60,
+    "defense": 75,
+    "special-attack": 110,
+    "special-defense": 75,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/549.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+    "es": "El aroma de la flor de su tocado relaja a cualquiera a su alrededor. Hay que cuidarle mucho para que no se marchite.",
+    "ca": "Fins i tot entrenadors veterans tenen el repte de fer que la seva bella flor floreixi. Aquest Pokémon és popular entre les celebritats."
+  },
+  "names": {
+    "en": "Lilligant",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Lilligant"
+  }
+}

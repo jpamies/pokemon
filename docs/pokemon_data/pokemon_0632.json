@@ -1,0 +1,50 @@
+{
+  "id": 632,
+  "name": "Durant",
+  "height": 3,
+  "weight": 330,
+  "base_experience": 169,
+  "types": [
+    "bug",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "hustle",
+      "is_hidden": false
+    },
+    {
+      "name": "truant",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 58,
+    "attack": 109,
+    "defense": 112,
+    "special-attack": 48,
+    "special-defense": 48,
+    "speed": 109
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/632.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/632.png"
+  },
+  "color": "gray",
+  "generation": 5,
+  "descriptions": {
+    "en": "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
+    "es": "Actúan en grupo para expulsar de sus colonias a los Heatmor, sus depredadores naturales.",
+    "ca": "Ataquen en grup, cobrint-se amb una armadura d'acer per protegir-se del Heatmor."
+  },
+  "names": {
+    "en": "Durant",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Durant"
+  }
+}

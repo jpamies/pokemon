@@ -1,0 +1,50 @@
+{
+  "id": 826,
+  "name": "Orbeetle",
+  "height": 4,
+  "weight": 408,
+  "base_experience": 253,
+  "types": [
+    "bug",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "frisk",
+      "is_hidden": false
+    },
+    {
+      "name": "telepathy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 110,
+    "special-attack": 80,
+    "special-defense": 120,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/826.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png"
+  },
+  "color": "red",
+  "generation": 8,
+  "descriptions": {
+    "en": "It’s famous for its high level of intelligence, and the large size of its brain is proof that it also possesses immense psychic power.",
+    "es": "Este Pokémon es conocido por su inteligencia. El gran tamaño de su cerebro es un indicio de la magnitud de sus poderes psíquicos.",
+    "ca": "És famós pel seu elevat nivell d'intel·ligència, i la grandària del seu cervell és la prova que també té un immens poder psíquic."
+  },
+  "names": {
+    "en": "Orbeetle",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Orbeetle"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 703,
+  "name": "Carbink",
+  "height": 3,
+  "weight": 57,
+  "base_experience": 100,
+  "types": [
+    "rock",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "clear-body",
+      "is_hidden": false
+    },
+    {
+      "name": "sturdy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 150,
+    "special-attack": 50,
+    "special-defense": 150,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/703.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/703.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png"
+  },
+  "color": "gray",
+  "generation": 6,
+  "descriptions": {
+    "en": "Born from the temperatures and pressures deep underground, it fires beams from the stone in its head.",
+    "es": "Nace en las profundidades subterráneas, a altas temperaturas y a gran presión. Irradia energía por la roca que tiene en la cabeza.",
+    "ca": "Nascut de les temperatures i pressions de les profunditats de la terra, dispara feixos de llum des de la pedra del seu cap."
+  },
+  "names": {
+    "en": "Carbink",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Carbink"
+  }
+}

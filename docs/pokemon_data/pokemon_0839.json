@@ -1,0 +1,50 @@
+{
+  "id": 839,
+  "name": "Coalossal",
+  "height": 28,
+  "weight": 3105,
+  "base_experience": 255,
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "steam-engine",
+      "is_hidden": false
+    },
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "flash-fire",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 110,
+    "attack": 80,
+    "defense": 120,
+    "special-attack": 80,
+    "special-defense": 90,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/839.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/839.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/839.png"
+  },
+  "color": "black",
+  "generation": 8,
+  "descriptions": {
+    "en": "It’s usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit.",
+    "es": "Aunque es de carácter sereno, monta en cólera si ve a seres humanos dañando una mina y reduce todo a cenizas con sus llamas a 1500 °C.",
+    "ca": "Normalment és pacífic, però el vandalisme a les mines l'enfureix. Els infractors seran calcinats per flames que arriben als 1.500 graus Celsius."
+  },
+  "names": {
+    "en": "Coalossal",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Coalossal"
+  }
+}

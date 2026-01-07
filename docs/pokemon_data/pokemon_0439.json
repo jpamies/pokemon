@@ -1,0 +1,50 @@
+{
+  "id": 439,
+  "name": "Mime-Jr",
+  "height": 6,
+  "weight": 130,
+  "base_experience": 62,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "soundproof",
+      "is_hidden": false
+    },
+    {
+      "name": "filter",
+      "is_hidden": false
+    },
+    {
+      "name": "technician",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 20,
+    "attack": 25,
+    "defense": 45,
+    "special-attack": 70,
+    "special-defense": 90,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/439.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/439.png"
+  },
+  "color": "pink",
+  "generation": 4,
+  "descriptions": {
+    "en": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+    "es": "Desconcierta a sus rivales imitando sus movimientos a la perfección y aprovecha para darse a la fuga.",
+    "ca": "Acostuma a imitar els seus rivals. Un cop l'ha imitat, el rival no pot deixar de mirar-lo."
+  },
+  "names": {
+    "en": "Mime-Jr",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Mime-Jr"
+  }
+}

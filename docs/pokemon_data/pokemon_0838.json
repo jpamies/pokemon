@@ -1,0 +1,50 @@
+{
+  "id": 838,
+  "name": "Carkol",
+  "height": 11,
+  "weight": 780,
+  "base_experience": 144,
+  "types": [
+    "rock",
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "steam-engine",
+      "is_hidden": false
+    },
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "flash-fire",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 60,
+    "defense": 90,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/838.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/838.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/838.png"
+  },
+  "color": "black",
+  "generation": 8,
+  "descriptions": {
+    "en": "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region.",
+    "es": "Forma carbón en el interior de su cuerpo. Los antiguos habitantes de Galar lo aprovechaban para sus labores diarias.",
+    "ca": "Forma carbó dins del seu cos. El carbó deixat per aquest Pokémon va ajudar a alimentar la vida de la gent de la regió de Galar."
+  },
+  "names": {
+    "en": "Carkol",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Carkol"
+  }
+}

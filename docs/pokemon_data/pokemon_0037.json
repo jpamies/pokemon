@@ -1,0 +1,45 @@
+{
+  "id": 37,
+  "name": "Vulpix",
+  "height": 6,
+  "weight": 99,
+  "base_experience": 60,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "is_hidden": false
+    },
+    {
+      "name": "drought",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 65,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/37.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+  },
+  "color": "brown",
+  "generation": 1,
+  "descriptions": {
+    "en": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+    "es": "Cuando nace solo tiene una cola, pero a medida que crece, esta se va dividiendo desde la punta.",
+    "ca": "En néixer, només té una cua. La cua es divideix des de la punta a mesura que creix."
+  },
+  "names": {
+    "en": "Vulpix",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Vulpix"
+  }
+}

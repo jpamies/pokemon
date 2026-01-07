@@ -1,0 +1,45 @@
+{
+  "id": 254,
+  "name": "Sceptile",
+  "height": 17,
+  "weight": 522,
+  "base_experience": 239,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "unburden",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 65,
+    "special-attack": 105,
+    "special-defense": 85,
+    "speed": 120
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/254.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png"
+  },
+  "color": "green",
+  "generation": 3,
+  "descriptions": {
+    "en": "The leaves growing on SCEPTILE’s body are very sharp edged. This POKéMON is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.",
+    "es": "Las hojas de sus brazos pueden cortar gruesos árboles. Invencible en los combates en la jungla.",
+    "ca": "Les fulles que creixen al cos de SCEPTILE tenen vores molt tallants. Aquest POKéMON és molt àgil, salta per totes les branques dels arbres i s'abalança sobre el seu rival des de dalt o des de darrere."
+  },
+  "names": {
+    "en": "Sceptile",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Sceptile"
+  }
+}

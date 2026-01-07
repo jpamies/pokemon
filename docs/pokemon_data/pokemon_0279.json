@@ -1,0 +1,50 @@
+{
+  "id": 279,
+  "name": "Pelipper",
+  "height": 12,
+  "weight": 280,
+  "base_experience": 154,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "drizzle",
+      "is_hidden": false
+    },
+    {
+      "name": "rain-dish",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 100,
+    "special-attack": 95,
+    "special-defense": 70,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/279.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png"
+  },
+  "color": "yellow",
+  "generation": 3,
+  "descriptions": {
+    "en": "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+    "es": "Hunde su gran pico en el mar para sacar numerosas presas junto con mucha agua.",
+    "ca": "És un missatger dels cels, que transporta en el seu bec petits Pokemon i ous per posar-los a lloc segur."
+  },
+  "names": {
+    "en": "Pelipper",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Pelipper"
+  }
+}

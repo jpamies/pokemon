@@ -1,0 +1,49 @@
+{
+  "id": 101,
+  "name": "Electrode",
+  "height": 12,
+  "weight": 666,
+  "base_experience": 172,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "soundproof",
+      "is_hidden": false
+    },
+    {
+      "name": "static",
+      "is_hidden": false
+    },
+    {
+      "name": "aftermath",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "special-attack": 80,
+    "special-defense": 80,
+    "speed": 150
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/101.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png"
+  },
+  "color": "red",
+  "generation": 1,
+  "descriptions": {
+    "en": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+    "es": "Explotan a la mínima. Por eso se les tiene mucho miedo. Estos Pokémon reciben el mote de Bomba Ball.",
+    "ca": "Emmagatzema energia elèctrica a molta pressió. Sovint explota amb poca o cap provocació."
+  },
+  "names": {
+    "en": "Electrode",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Electrode"
+  }
+}

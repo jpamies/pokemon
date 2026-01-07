@@ -1,0 +1,42 @@
+{
+  "id": 640,
+  "name": "Virizion",
+  "height": 20,
+  "weight": 2000,
+  "base_experience": 261,
+  "types": [
+    "grass",
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "justified",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 91,
+    "attack": 90,
+    "defense": 72,
+    "special-attack": 90,
+    "special-defense": 129,
+    "speed": 108
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/640.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/640.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+    "es": "Sus cuernos son hojas afiladas. Sacude a sus enemigos con sus relampagueantes movimientos y los reduce.",
+    "ca": "Aquest Pokémon va lluitar contra els humans per protegir els seus amics. Les llegendes sobre ell continuen transmetent-se."
+  },
+  "names": {
+    "en": "Virizion",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Virizion"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 15,
+  "name": "Beedrill",
+  "height": 10,
+  "weight": 295,
+  "base_experience": 178,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "sniper",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 40,
+    "special-attack": 45,
+    "special-defense": 80,
+    "speed": 75
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/15.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+    "es": "Tiene 3 aguijones venenosos en sus patas y cola. Suelen pinchar a sus enemigos repetidas veces.",
+    "ca": "Té tres agullons verinosos a les seves potes davanteres i a la cua. S'utilitzen per punxar l'enemic repetidament."
+  },
+  "names": {
+    "en": "Beedrill",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Beedrill"
+  }
+}

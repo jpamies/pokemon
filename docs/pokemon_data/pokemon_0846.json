@@ -1,0 +1,45 @@
+{
+  "id": 846,
+  "name": "Arrokuda",
+  "height": 5,
+  "weight": 10,
+  "base_experience": 56,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "propeller-tail",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 41,
+    "attack": 63,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 30,
+    "speed": 66
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/846.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/846.png"
+  },
+  "color": "brown",
+  "generation": 8,
+  "descriptions": {
+    "en": "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It’s very proud of that jaw.",
+    "es": "Se siente muy orgulloso de su afilada mandíbula. En cuanto detecta el más mínimo movimiento, va directo al objetivo para cargar contra él.",
+    "ca": "Si veu qualsevol moviment al seu voltant, aquest Pokémon es llança endavant de seguida, encapçalat per la seva mandíbula punxeguda. Està molt orgullós d'aquesta mandíbula."
+  },
+  "names": {
+    "en": "Arrokuda",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Arrokuda"
+  }
+}

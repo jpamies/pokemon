@@ -1,0 +1,49 @@
+{
+  "id": 704,
+  "name": "Goomy",
+  "height": 3,
+  "weight": 28,
+  "base_experience": 60,
+  "types": [
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "sap-sipper",
+      "is_hidden": false
+    },
+    {
+      "name": "hydration",
+      "is_hidden": false
+    },
+    {
+      "name": "gooey",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 35,
+    "special-attack": 55,
+    "special-defense": 75,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/704.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/704.png"
+  },
+  "color": "purple",
+  "generation": 6,
+  "descriptions": {
+    "en": "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn’t dry out.",
+    "es": "Es el Pokémon de tipo Dragón más débil. Habita en zonas oscuras y húmedas para evitar que su viscoso cuerpo se seque.",
+    "ca": "El Pokémon Drac més dèbil, viu en llocs humits i ombrívols, perquè el seu cos no es dessequi."
+  },
+  "names": {
+    "en": "Goomy",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Goomy"
+  }
+}

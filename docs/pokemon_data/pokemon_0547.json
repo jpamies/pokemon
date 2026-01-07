@@ -1,0 +1,50 @@
+{
+  "id": 547,
+  "name": "Whimsicott",
+  "height": 7,
+  "weight": 66,
+  "base_experience": 168,
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "prankster",
+      "is_hidden": false
+    },
+    {
+      "name": "infiltrator",
+      "is_hidden": false
+    },
+    {
+      "name": "chlorophyll",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 67,
+    "defense": 85,
+    "special-attack": 77,
+    "special-defense": 75,
+    "speed": 116
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/547.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+    "es": "Aparecen en medio de un torbellino y entran en las casas para descolocar los muebles o esparcir algodón por doquier.",
+    "ca": "Com el vent, es pot colar per qualsevol escletxa, per petita que sigui. Deixa boletes de cotó blanc darrere."
+  },
+  "names": {
+    "en": "Whimsicott",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Whimsicott"
+  }
+}

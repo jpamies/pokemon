@@ -1,0 +1,42 @@
+{
+  "id": 1021,
+  "name": "Raging-Bolt",
+  "height": 52,
+  "weight": 4800,
+  "base_experience": 295,
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "protosynthesis",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 125,
+    "attack": 73,
+    "defense": 91,
+    "special-attack": 137,
+    "special-defense": 89,
+    "speed": 75
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1021.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1021.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1021.png"
+  },
+  "color": "yellow",
+  "generation": 9,
+  "descriptions": {
+    "en": "It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
+    "es": "Descripción no disponible.",
+    "ca": "Es diu que crema tot el que l'envolta amb llamps llançats des del seu pel. Se'n sap molt poc d'aquesta criatura."
+  },
+  "names": {
+    "en": "Raging-Bolt",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Raging-Bolt"
+  }
+}

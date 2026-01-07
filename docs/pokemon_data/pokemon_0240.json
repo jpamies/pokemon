@@ -1,0 +1,45 @@
+{
+  "id": 240,
+  "name": "Magby",
+  "height": 7,
+  "weight": 214,
+  "base_experience": 73,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "vital-spirit",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 75,
+    "defense": 37,
+    "special-attack": 70,
+    "special-defense": 55,
+    "speed": 83
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/240.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/240.png"
+  },
+  "color": "red",
+  "generation": 2,
+  "descriptions": {
+    "en": "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
+    "es": "Es pequeño, pero su cuerpo puede llegar a alcanzar 600 °C. Cuando inspira y espira, expulsa llamas por la nariz y por la boca.",
+    "ca": "Cada vegada que inspira i exhala, cauen espurnes calentes de la seva boca i les seves fosses nasals."
+  },
+  "names": {
+    "en": "Magby",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Magby"
+  }
+}

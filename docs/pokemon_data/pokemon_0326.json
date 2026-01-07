@@ -1,0 +1,49 @@
+{
+  "id": 326,
+  "name": "Grumpig",
+  "height": 9,
+  "weight": 715,
+  "base_experience": 165,
+  "types": [
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "thick-fat",
+      "is_hidden": false
+    },
+    {
+      "name": "own-tempo",
+      "is_hidden": false
+    },
+    {
+      "name": "gluttony",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 45,
+    "defense": 65,
+    "special-attack": 90,
+    "special-defense": 110,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/326.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/326.png"
+  },
+  "color": "purple",
+  "generation": 3,
+  "descriptions": {
+    "en": "GRUMPIG uses the black pearls on its body to amplify its psychic power waves for gaining total control over its foe. When this POKéMON uses its special power, its snorting breath grows labored.",
+    "es": "Las perlas negras aumentan sus poderes psíquicos. Controla las mentes de sus rivales con un extraño baile.",
+    "ca": "GRUMPIG utilitza les perles negres del seu cos per amplificar les ones del seu poder psíquic i aconseguir el control total sobre els seus enemics. Quan aquest POKÉMON utilitza el seu poder especial, la seva respiració ronca es fa més dificultosa."
+  },
+  "names": {
+    "en": "Grumpig",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Grumpig"
+  }
+}

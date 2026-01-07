@@ -1,0 +1,46 @@
+{
+  "id": 997,
+  "name": "Arctibax",
+  "height": 8,
+  "weight": 300,
+  "base_experience": 148,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "thermal-exchange",
+      "is_hidden": false
+    },
+    {
+      "name": "ice-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 95,
+    "defense": 66,
+    "special-attack": 45,
+    "special-defense": 65,
+    "speed": 62
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/997.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/997.png"
+  },
+  "color": "gray",
+  "generation": 9,
+  "descriptions": {
+    "en": "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
+    "es": "Descripción no disponible.",
+    "ca": "Arctibax congela l'aire que l'envolta, protegint el seu rostre amb una màscara de gel i convertint la seva aleta dorsal en una fulla de gel."
+  },
+  "names": {
+    "en": "Arctibax",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Arctibax"
+  }
+}

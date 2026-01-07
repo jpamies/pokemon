@@ -1,0 +1,50 @@
+{
+  "id": 142,
+  "name": "Aerodactyl",
+  "height": 18,
+  "weight": 590,
+  "base_experience": 180,
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "rock-head",
+      "is_hidden": false
+    },
+    {
+      "name": "pressure",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special-attack": 60,
+    "special-defense": 75,
+    "speed": 130
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/142.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+    "es": "Se regeneró a partir de material genético de un dinosaurio encontrado en ámbar. Cuando vuela emite escandalosos alaridos.",
+    "ca": "Un Pokémon que va volar pels cels a l'era dels dinosaures. Les seves dents són com serres."
+  },
+  "names": {
+    "en": "Aerodactyl",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Aerodactyl"
+  }
+}

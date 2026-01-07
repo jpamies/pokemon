@@ -1,0 +1,45 @@
+{
+  "id": 878,
+  "name": "Cufant",
+  "height": 12,
+  "weight": 1000,
+  "base_experience": 66,
+  "types": [
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "sheer-force",
+      "is_hidden": false
+    },
+    {
+      "name": "heavy-metal",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 72,
+    "attack": 80,
+    "defense": 49,
+    "special-attack": 40,
+    "special-defense": 49,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/878.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/878.png"
+  },
+  "color": "yellow",
+  "generation": 8,
+  "descriptions": {
+    "en": "It digs up the ground with its trunk. It’s also very strong, being able to carry loads of over five tons without any problem at all.",
+    "es": "Su constitución fornida le permite transportar sin inmutarse cargas de 5 toneladas. Utiliza la trompa para excavar la tierra.",
+    "ca": "Cava el terra amb la seva trompa. També és molt fort, capaç de carregar càrregues de més de cinc tones sense cap problema."
+  },
+  "names": {
+    "en": "Cufant",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Cufant"
+  }
+}

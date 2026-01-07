@@ -1,0 +1,49 @@
+{
+  "id": 539,
+  "name": "Sawk",
+  "height": 14,
+  "weight": 510,
+  "base_experience": 163,
+  "types": [
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "inner-focus",
+      "is_hidden": false
+    },
+    {
+      "name": "mold-breaker",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 75,
+    "special-attack": 30,
+    "special-defense": 75,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/539.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/539.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
+    "es": "Para lograr dominar las técnicas de kárate más letales, se retiran a las montañas y entrenan día y noche.",
+    "ca": "El so dels Sawk colpejant roques i arbres es pot sentir des de les muntanyes on entrenen."
+  },
+  "names": {
+    "en": "Sawk",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Sawk"
+  }
+}

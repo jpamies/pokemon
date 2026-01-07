@@ -1,0 +1,49 @@
+{
+  "id": 762,
+  "name": "Steenee",
+  "height": 7,
+  "weight": 82,
+  "base_experience": 102,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "leaf-guard",
+      "is_hidden": false
+    },
+    {
+      "name": "oblivious",
+      "is_hidden": false
+    },
+    {
+      "name": "sweet-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 52,
+    "attack": 40,
+    "defense": 48,
+    "special-attack": 40,
+    "special-defense": 48,
+    "speed": 62
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/762.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/762.png"
+  },
+  "color": "purple",
+  "generation": 7,
+  "descriptions": {
+    "en": "The sepals on its head developed to protect its body. These are quite hard, so even if pecked by bird Pokémon, this Pokémon is totally fine.",
+    "es": "El cáliz de su cabeza se ha desarrollado y le protege todo el cuerpo. Es tan duro que no le importa que lo picoteen los Pokémon pájaro.",
+    "ca": "Els sèpals del cap es van desenvolupar per protegir el seu cos. Són prou durs, de manera que, fins i tot si són picats per Pokémon ocells, aquest Pokémon es troba perfectament bé."
+  },
+  "names": {
+    "en": "Steenee",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Steenee"
+  }
+}

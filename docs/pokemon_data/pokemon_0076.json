@@ -1,0 +1,50 @@
+{
+  "id": 76,
+  "name": "Golem",
+  "height": 14,
+  "weight": 3000,
+  "base_experience": 223,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "rock-head",
+      "is_hidden": false
+    },
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 130,
+    "special-attack": 55,
+    "special-defense": 65,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/76.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png"
+  },
+  "color": "brown",
+  "generation": 1,
+  "descriptions": {
+    "en": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+    "es": "Se lanza montaña abajo y deja un surco desde la cima hasta el pie. Es mejor mantenerse alejado.",
+    "ca": "El seu cos semblant a una roca és extremadament dur. Pot resistir fàcilment explosions de dinamita sense patir danys."
+  },
+  "names": {
+    "en": "Golem",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Golem"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 809,
+  "name": "Melmetal",
+  "height": 25,
+  "weight": 8000,
+  "base_experience": 270,
+  "types": [
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "iron-fist",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 135,
+    "attack": 143,
+    "defense": 143,
+    "special-attack": 80,
+    "special-defense": 65,
+    "speed": 34
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/809.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/809.png"
+  },
+  "color": "gray",
+  "generation": 7,
+  "descriptions": {
+    "en": "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+    "es": "En la antigüedad se le veneraba por su poder de crear hierro. Después de tres milenios, ha regresado misteriosamente.",
+    "ca": "Venerat fa molt de temps per la seva capacitat de crear ferro de res, per alguna raó ha renascut després de 3.000 anys."
+  },
+  "names": {
+    "en": "Melmetal",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Melmetal"
+  }
+}

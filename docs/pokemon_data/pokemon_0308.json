@@ -1,0 +1,46 @@
+{
+  "id": 308,
+  "name": "Medicham",
+  "height": 13,
+  "weight": 315,
+  "base_experience": 144,
+  "types": [
+    "fighting",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "pure-power",
+      "is_hidden": false
+    },
+    {
+      "name": "telepathy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 75,
+    "special-attack": 60,
+    "special-defense": 75,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/308.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png"
+  },
+  "color": "red",
+  "generation": 3,
+  "descriptions": {
+    "en": "It is said that through meditation, MEDICHAM heightens energy inside its body and sharpens its sixth sense. This POKéMON hides its presence by merging itself with fields and mountains.",
+    "es": "Evita los ataques moviéndose de forma elegante, como si bailara. Ataca dando un golpe devastador y moviéndose igual.",
+    "ca": "Es diu que gràcies a la meditació, MEDICHAM incrementa l'energia dins del seu cos i aguditza el seu sisè sentit. Aquest POKÉMON s'amaga fondent-se amb els camps i les muntanyes."
+  },
+  "names": {
+    "en": "Medicham",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Medicham"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 898,
+  "name": "Calyrex",
+  "height": 11,
+  "weight": 77,
+  "base_experience": 250,
+  "types": [
+    "psychic",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "unnerve",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 80,
+    "defense": 80,
+    "special-attack": 80,
+    "special-defense": 80,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/898.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/898.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/898.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
+    "es": "Un Pokémon muy compasivo agraciado con el poder de la curación. Reinó en Galar en tiempos remotos.",
+    "ca": "Calyrex és un Pokémon misericordiós, capaç de proporcionar curació i benediccions. Va regnar sobre la regió de Galar en temps antics."
+  },
+  "names": {
+    "en": "Calyrex",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Calyrex"
+  }
+}

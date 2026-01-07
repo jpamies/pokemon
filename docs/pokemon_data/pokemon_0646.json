@@ -1,0 +1,42 @@
+{
+  "id": 646,
+  "name": "Kyurem",
+  "height": 30,
+  "weight": 3250,
+  "base_experience": 297,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "pressure",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 125,
+    "attack": 130,
+    "defense": 90,
+    "special-attack": 130,
+    "special-defense": 90,
+    "speed": 95
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/646.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/646.png"
+  },
+  "color": "gray",
+  "generation": 5,
+  "descriptions": {
+    "en": "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+    "es": "Pokémon legendario que aguarda al héroe que compense el vacío de su cuerpo de hielo con verdad e ideales.",
+    "ca": "Genera una energia de congelació poderosa dins seu, però el seu cos es va congelar quan se'n va escapar l'energia."
+  },
+  "names": {
+    "en": "Kyurem",
+    "es": "PENDING_TRANSLATION",
+    "ca": "Kyurem"
+  }
+}
