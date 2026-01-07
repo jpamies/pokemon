@@ -38,5 +38,8 @@
     "en": "Rotom",
     "es": "Rotom",
     "ca": "Rotom"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

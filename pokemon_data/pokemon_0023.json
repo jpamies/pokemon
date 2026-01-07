@@ -45,5 +45,19 @@
     "en": "Ekans",
     "es": "Ekans",
     "ca": "Ekans"
-  }
+  },
+  "evolution": [
+    {
+      "id": 23,
+      "name": "Ekans",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+    },
+    {
+      "id": 24,
+      "name": "Arbok",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

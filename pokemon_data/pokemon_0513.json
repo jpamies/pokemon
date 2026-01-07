@@ -41,5 +41,19 @@
     "en": "Pansear",
     "es": "Pansear",
     "ca": "Pansear"
-  }
+  },
+  "evolution": [
+    {
+      "id": 513,
+      "name": "Pansear",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png"
+    },
+    {
+      "id": 514,
+      "name": "Simisear",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

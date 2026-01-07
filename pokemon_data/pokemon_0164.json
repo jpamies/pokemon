@@ -46,5 +46,19 @@
     "en": "Noctowl",
     "es": "Noctowl",
     "ca": "Noctowl"
-  }
+  },
+  "evolution": [
+    {
+      "id": 163,
+      "name": "Hoothoot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png"
+    },
+    {
+      "id": 164,
+      "name": "Noctowl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

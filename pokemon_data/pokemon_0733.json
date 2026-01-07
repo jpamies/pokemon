@@ -46,5 +46,24 @@
     "en": "Toucannon",
     "es": "Toucannon",
     "ca": "Toucannon"
-  }
+  },
+  "evolution": [
+    {
+      "id": 731,
+      "name": "Pikipek",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/731.png"
+    },
+    {
+      "id": 732,
+      "name": "Trumbeak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png"
+    },
+    {
+      "id": 733,
+      "name": "Toucannon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

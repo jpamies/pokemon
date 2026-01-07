@@ -45,5 +45,19 @@
     "en": "Feebas",
     "es": "Feebas",
     "ca": "Feebas"
-  }
+  },
+  "evolution": [
+    {
+      "id": 349,
+      "name": "Feebas",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png"
+    },
+    {
+      "id": 350,
+      "name": "Milotic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

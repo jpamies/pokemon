@@ -41,5 +41,24 @@
     "en": "Charmeleon",
     "es": "Charmeleon",
     "ca": "Charmeleon"
-  }
+  },
+  "evolution": [
+    {
+      "id": 4,
+      "name": "Charmander",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Lickilicky",
     "es": "Lickilicky",
     "ca": "Lickilicky"
-  }
+  },
+  "evolution": [
+    {
+      "id": 108,
+      "name": "Lickitung",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+    },
+    {
+      "id": 463,
+      "name": "Lickilicky",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

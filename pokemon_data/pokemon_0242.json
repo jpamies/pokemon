@@ -45,5 +45,24 @@
     "en": "Blissey",
     "es": "Blissey",
     "ca": "Blissey"
-  }
+  },
+  "evolution": [
+    {
+      "id": 440,
+      "name": "Happiny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png"
+    },
+    {
+      "id": 113,
+      "name": "Chansey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+    },
+    {
+      "id": 242,
+      "name": "Blissey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

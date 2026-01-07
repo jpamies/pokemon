@@ -42,5 +42,19 @@
     "en": "Combee",
     "es": "Combee",
     "ca": "Combee"
-  }
+  },
+  "evolution": [
+    {
+      "id": 415,
+      "name": "Combee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png"
+    },
+    {
+      "id": 416,
+      "name": "Vespiquen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Electrike",
     "es": "Electrike",
     "ca": "Electrike"
-  }
+  },
+  "evolution": [
+    {
+      "id": 309,
+      "name": "Electrike",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png"
+    },
+    {
+      "id": 310,
+      "name": "Manectric",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

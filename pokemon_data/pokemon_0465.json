@@ -45,5 +45,19 @@
     "en": "Tangrowth",
     "es": "Tangrowth",
     "ca": "Tangrowth"
-  }
+  },
+  "evolution": [
+    {
+      "id": 114,
+      "name": "Tangela",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
+    },
+    {
+      "id": 465,
+      "name": "Tangrowth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

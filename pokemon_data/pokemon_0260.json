@@ -42,5 +42,24 @@
     "en": "Swampert",
     "es": "Swampert",
     "ca": "Swampert"
-  }
+  },
+  "evolution": [
+    {
+      "id": 258,
+      "name": "Mudkip",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png"
+    },
+    {
+      "id": 259,
+      "name": "Marshtomp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png"
+    },
+    {
+      "id": 260,
+      "name": "Swampert",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

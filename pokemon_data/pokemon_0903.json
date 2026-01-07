@@ -46,5 +46,24 @@
     "en": "Sneasler",
     "es": "Sneasler",
     "ca": "Sneasler"
-  }
+  },
+  "evolution": [
+    {
+      "id": 215,
+      "name": "Sneasel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png"
+    },
+    {
+      "id": 461,
+      "name": "Weavile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"
+    },
+    {
+      "id": 903,
+      "name": "Sneasler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

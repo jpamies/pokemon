@@ -45,5 +45,8 @@
     "en": "Druddigon",
     "es": "Druddigon",
     "ca": "Druddigon"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

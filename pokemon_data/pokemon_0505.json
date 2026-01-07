@@ -45,5 +45,19 @@
     "en": "Watchog",
     "es": "Watchog",
     "ca": "Watchog"
-  }
+  },
+  "evolution": [
+    {
+      "id": 504,
+      "name": "Patrat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png"
+    },
+    {
+      "id": 505,
+      "name": "Watchog",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -42,5 +42,19 @@
     "en": "Forretress",
     "es": "Forretress",
     "ca": "Forretress"
-  }
+  },
+  "evolution": [
+    {
+      "id": 204,
+      "name": "Pineco",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/204.png"
+    },
+    {
+      "id": 205,
+      "name": "Forretress",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

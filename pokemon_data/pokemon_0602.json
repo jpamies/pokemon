@@ -37,5 +37,24 @@
     "en": "Tynamo",
     "es": "Tynamo",
     "ca": "Tynamo"
-  }
+  },
+  "evolution": [
+    {
+      "id": 602,
+      "name": "Tynamo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png"
+    },
+    {
+      "id": 603,
+      "name": "Eelektrik",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png"
+    },
+    {
+      "id": 604,
+      "name": "Eelektross",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Bidoof",
     "es": "Bidoof",
     "ca": "Bidoof"
-  }
+  },
+  "evolution": [
+    {
+      "id": 399,
+      "name": "Bidoof",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png"
+    },
+    {
+      "id": 400,
+      "name": "Bibarel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

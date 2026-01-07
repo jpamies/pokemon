@@ -46,5 +46,29 @@
     "en": "Ralts",
     "es": "Ralts",
     "ca": "Ralts"
-  }
+  },
+  "evolution": [
+    {
+      "id": 280,
+      "name": "Ralts",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png"
+    },
+    {
+      "id": 281,
+      "name": "Kirlia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png"
+    },
+    {
+      "id": 282,
+      "name": "Gardevoir",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
+    },
+    {
+      "id": 475,
+      "name": "Gallade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

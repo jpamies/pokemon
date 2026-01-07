@@ -41,5 +41,19 @@
     "en": "Kricketune",
     "es": "Kricketune",
     "ca": "Kricketune"
-  }
+  },
+  "evolution": [
+    {
+      "id": 401,
+      "name": "Kricketot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png"
+    },
+    {
+      "id": 402,
+      "name": "Kricketune",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,24 @@
     "en": "Stoutland",
     "es": "Stoutland",
     "ca": "Stoutland"
-  }
+  },
+  "evolution": [
+    {
+      "id": 506,
+      "name": "Lillipup",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png"
+    },
+    {
+      "id": 507,
+      "name": "Herdier",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png"
+    },
+    {
+      "id": 508,
+      "name": "Stoutland",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

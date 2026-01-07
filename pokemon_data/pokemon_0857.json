@@ -45,5 +45,24 @@
     "en": "Hattrem",
     "es": "Hattrem",
     "ca": "Hattrem"
-  }
+  },
+  "evolution": [
+    {
+      "id": 856,
+      "name": "Hatenna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png"
+    },
+    {
+      "id": 857,
+      "name": "Hattrem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/857.png"
+    },
+    {
+      "id": 858,
+      "name": "Hatterene",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

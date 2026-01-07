@@ -42,5 +42,24 @@
     "en": "Infernape",
     "es": "Infernape",
     "ca": "Infernape"
-  }
+  },
+  "evolution": [
+    {
+      "id": 390,
+      "name": "Chimchar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png"
+    },
+    {
+      "id": 391,
+      "name": "Monferno",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png"
+    },
+    {
+      "id": 392,
+      "name": "Infernape",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

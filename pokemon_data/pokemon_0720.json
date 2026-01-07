@@ -38,5 +38,8 @@
     "en": "Hoopa",
     "es": "Hoopa",
     "ca": "Hoopa"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

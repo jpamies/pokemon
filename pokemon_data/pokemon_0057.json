@@ -45,5 +45,24 @@
     "en": "Primeape",
     "es": "Primeape",
     "ca": "Primeape"
-  }
+  },
+  "evolution": [
+    {
+      "id": 56,
+      "name": "Mankey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+    },
+    {
+      "id": 57,
+      "name": "Primeape",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+    },
+    {
+      "id": 979,
+      "name": "Annihilape",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

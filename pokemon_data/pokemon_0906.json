@@ -41,5 +41,24 @@
     "en": "Sprigatito",
     "es": "Sprigatito",
     "ca": "Sprigatito"
-  }
+  },
+  "evolution": [
+    {
+      "id": 906,
+      "name": "Sprigatito",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png"
+    },
+    {
+      "id": 907,
+      "name": "Floragato",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/907.png"
+    },
+    {
+      "id": 908,
+      "name": "Meowscarada",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

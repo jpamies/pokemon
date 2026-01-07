@@ -41,5 +41,24 @@
     "en": "Floette",
     "es": "Floette",
     "ca": "Floette"
-  }
+  },
+  "evolution": [
+    {
+      "id": 669,
+      "name": "Flabebe",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/669.png"
+    },
+    {
+      "id": 670,
+      "name": "Floette",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/670.png"
+    },
+    {
+      "id": 671,
+      "name": "Florges",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

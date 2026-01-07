@@ -46,5 +46,19 @@
     "en": "Malamar",
     "es": "Malamar",
     "ca": "Malamar"
-  }
+  },
+  "evolution": [
+    {
+      "id": 686,
+      "name": "Inkay",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png"
+    },
+    {
+      "id": 687,
+      "name": "Malamar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

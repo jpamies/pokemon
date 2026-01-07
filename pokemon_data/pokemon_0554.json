@@ -41,5 +41,19 @@
     "en": "Darumaka",
     "es": "Darumaka",
     "ca": "Darumaka"
-  }
+  },
+  "evolution": [
+    {
+      "id": 554,
+      "name": "Darumaka",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png"
+    },
+    {
+      "id": 555,
+      "name": "Darmanitan",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

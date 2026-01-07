@@ -38,5 +38,24 @@
     "en": "Deino",
     "es": "Deino",
     "ca": "Deino"
-  }
+  },
+  "evolution": [
+    {
+      "id": 633,
+      "name": "Deino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png"
+    },
+    {
+      "id": 634,
+      "name": "Zweilous",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png"
+    },
+    {
+      "id": 635,
+      "name": "Hydreigon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

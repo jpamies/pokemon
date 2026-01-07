@@ -45,5 +45,19 @@
     "en": "Muk",
     "es": "Muk",
     "ca": "Muk"
-  }
+  },
+  "evolution": [
+    {
+      "id": 88,
+      "name": "Grimer",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
+    },
+    {
+      "id": 89,
+      "name": "Muk",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

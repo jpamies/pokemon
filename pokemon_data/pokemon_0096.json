@@ -45,5 +45,19 @@
     "en": "Drowzee",
     "es": "Drowzee",
     "ca": "Drowzee"
-  }
+  },
+  "evolution": [
+    {
+      "id": 96,
+      "name": "Drowzee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+    },
+    {
+      "id": 97,
+      "name": "Hypno",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

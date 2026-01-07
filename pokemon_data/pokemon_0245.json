@@ -41,5 +41,8 @@
     "en": "Suicune",
     "es": "Suicune",
     "ca": "Suicune"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Golduck",
     "es": "Golduck",
     "ca": "Golduck"
-  }
+  },
+  "evolution": [
+    {
+      "id": 54,
+      "name": "Psyduck",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+    },
+    {
+      "id": 55,
+      "name": "Golduck",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

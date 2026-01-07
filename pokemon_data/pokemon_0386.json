@@ -37,5 +37,8 @@
     "en": "Deoxys-Normal",
     "es": "Deoxys-Normal",
     "ca": "Deoxys-Normal"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

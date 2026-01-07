@@ -42,5 +42,8 @@
     "en": "Tapu-Bulu",
     "es": "Tapu-Bulu",
     "ca": "Tapu-Bulu"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

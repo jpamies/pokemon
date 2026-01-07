@@ -41,5 +41,24 @@
     "en": "Dragonair",
     "es": "Dragonair",
     "ca": "Dragonair"
-  }
+  },
+  "evolution": [
+    {
+      "id": 147,
+      "name": "Dratini",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+    },
+    {
+      "id": 148,
+      "name": "Dragonair",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+    },
+    {
+      "id": 149,
+      "name": "Dragonite",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

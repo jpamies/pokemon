@@ -46,5 +46,24 @@
     "en": "Tinkatuff",
     "es": "Tinkatuff",
     "ca": "Tinkatuff"
-  }
+  },
+  "evolution": [
+    {
+      "id": 957,
+      "name": "Tinkatink",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/957.png"
+    },
+    {
+      "id": 958,
+      "name": "Tinkatuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/958.png"
+    },
+    {
+      "id": 959,
+      "name": "Tinkaton",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

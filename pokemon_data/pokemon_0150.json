@@ -41,5 +41,8 @@
     "en": "Mewtwo",
     "es": "Mewtwo",
     "ca": "Mewtwo"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

@@ -42,5 +42,8 @@
     "en": "Tapu-Lele",
     "es": "Tapu-Lele",
     "ca": "Tapu-Lele"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

@@ -41,5 +41,19 @@
     "en": "Sinistea",
     "es": "Sinistea",
     "ca": "Sinistea"
-  }
+  },
+  "evolution": [
+    {
+      "id": 854,
+      "name": "Sinistea",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png"
+    },
+    {
+      "id": 855,
+      "name": "Polteageist",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

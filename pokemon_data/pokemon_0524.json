@@ -45,5 +45,24 @@
     "en": "Roggenrola",
     "es": "Roggenrola",
     "ca": "Roggenrola"
-  }
+  },
+  "evolution": [
+    {
+      "id": 524,
+      "name": "Roggenrola",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png"
+    },
+    {
+      "id": 525,
+      "name": "Boldore",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png"
+    },
+    {
+      "id": 526,
+      "name": "Gigalith",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

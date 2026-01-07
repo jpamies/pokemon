@@ -45,5 +45,19 @@
     "en": "Cetitan",
     "es": "Cetitan",
     "ca": "Cetitan"
-  }
+  },
+  "evolution": [
+    {
+      "id": 974,
+      "name": "Cetoddle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png"
+    },
+    {
+      "id": 975,
+      "name": "Cetitan",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/975.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,24 @@
     "en": "Nidorina",
     "es": "Nidorina",
     "ca": "Nidorina"
-  }
+  },
+  "evolution": [
+    {
+      "id": 29,
+      "name": "Nidoran-F",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+    },
+    {
+      "id": 30,
+      "name": "Nidorina",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+    },
+    {
+      "id": 31,
+      "name": "Nidoqueen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

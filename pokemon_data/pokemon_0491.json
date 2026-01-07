@@ -37,5 +37,8 @@
     "en": "Darkrai",
     "es": "Darkrai",
     "ca": "Darkrai"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

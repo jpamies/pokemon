@@ -42,5 +42,19 @@
     "en": "Exeggcute",
     "es": "Exeggcute",
     "ca": "Exeggcute"
-  }
+  },
+  "evolution": [
+    {
+      "id": 102,
+      "name": "Exeggcute",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
+    },
+    {
+      "id": 103,
+      "name": "Exeggutor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

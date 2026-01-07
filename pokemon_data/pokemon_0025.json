@@ -41,5 +41,24 @@
     "en": "Pikachu",
     "es": "Pikachu",
     "ca": "Pikachu"
-  }
+  },
+  "evolution": [
+    {
+      "id": 172,
+      "name": "Pichu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png"
+    },
+    {
+      "id": 25,
+      "name": "Pikachu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    {
+      "id": 26,
+      "name": "Raichu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

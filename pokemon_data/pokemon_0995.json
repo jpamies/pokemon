@@ -38,5 +38,8 @@
     "en": "Iron-Thorns",
     "es": "Iron-Thorns",
     "ca": "Iron-Thorns"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

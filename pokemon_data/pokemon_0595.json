@@ -46,5 +46,19 @@
     "en": "Joltik",
     "es": "Joltik",
     "ca": "Joltik"
-  }
+  },
+  "evolution": [
+    {
+      "id": 595,
+      "name": "Joltik",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png"
+    },
+    {
+      "id": 596,
+      "name": "Galvantula",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

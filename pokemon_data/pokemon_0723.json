@@ -42,5 +42,24 @@
     "en": "Dartrix",
     "es": "Dartrix",
     "ca": "Dartrix"
-  }
+  },
+  "evolution": [
+    {
+      "id": 722,
+      "name": "Rowlet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/722.png"
+    },
+    {
+      "id": 723,
+      "name": "Dartrix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/723.png"
+    },
+    {
+      "id": 724,
+      "name": "Decidueye",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/724.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

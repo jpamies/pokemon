@@ -41,5 +41,8 @@
     "en": "Orthworm",
     "es": "Orthworm",
     "ca": "Orthworm"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

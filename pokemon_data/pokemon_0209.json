@@ -45,5 +45,19 @@
     "en": "Snubbull",
     "es": "Snubbull",
     "ca": "Snubbull"
-  }
+  },
+  "evolution": [
+    {
+      "id": 209,
+      "name": "Snubbull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/209.png"
+    },
+    {
+      "id": 210,
+      "name": "Granbull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

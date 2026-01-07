@@ -45,5 +45,19 @@
     "en": "Minccino",
     "es": "Minccino",
     "ca": "Minccino"
-  }
+  },
+  "evolution": [
+    {
+      "id": 572,
+      "name": "Minccino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png"
+    },
+    {
+      "id": 573,
+      "name": "Cinccino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

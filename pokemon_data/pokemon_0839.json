@@ -46,5 +46,24 @@
     "en": "Coalossal",
     "es": "Coalossal",
     "ca": "Coalossal"
-  }
+  },
+  "evolution": [
+    {
+      "id": 837,
+      "name": "Rolycoly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/837.png"
+    },
+    {
+      "id": 838,
+      "name": "Carkol",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/838.png"
+    },
+    {
+      "id": 839,
+      "name": "Coalossal",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/839.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

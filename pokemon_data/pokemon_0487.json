@@ -42,5 +42,8 @@
     "en": "Giratina-Altered",
     "es": "Giratina-Altered",
     "ca": "Giratina-Altered"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

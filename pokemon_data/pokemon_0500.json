@@ -42,5 +42,24 @@
     "en": "Emboar",
     "es": "Emboar",
     "ca": "Emboar"
-  }
+  },
+  "evolution": [
+    {
+      "id": 498,
+      "name": "Tepig",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png"
+    },
+    {
+      "id": 499,
+      "name": "Pignite",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png"
+    },
+    {
+      "id": 500,
+      "name": "Emboar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

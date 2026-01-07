@@ -45,5 +45,19 @@
     "en": "Blitzle",
     "es": "Blitzle",
     "ca": "Blitzle"
-  }
+  },
+  "evolution": [
+    {
+      "id": 522,
+      "name": "Blitzle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png"
+    },
+    {
+      "id": 523,
+      "name": "Zebstrika",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

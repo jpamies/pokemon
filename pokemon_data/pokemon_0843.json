@@ -45,5 +45,19 @@
     "en": "Silicobra",
     "es": "Silicobra",
     "ca": "Silicobra"
-  }
+  },
+  "evolution": [
+    {
+      "id": 843,
+      "name": "Silicobra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/843.png"
+    },
+    {
+      "id": 844,
+      "name": "Sandaconda",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/844.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

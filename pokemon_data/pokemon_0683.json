@@ -41,5 +41,19 @@
     "en": "Aromatisse",
     "es": "Aromatisse",
     "ca": "Aromatisse"
-  }
+  },
+  "evolution": [
+    {
+      "id": 682,
+      "name": "Spritzee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png"
+    },
+    {
+      "id": 683,
+      "name": "Aromatisse",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/683.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

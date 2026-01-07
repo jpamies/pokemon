@@ -38,5 +38,8 @@
     "en": "Latios",
     "es": "Latios",
     "ca": "Latios"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

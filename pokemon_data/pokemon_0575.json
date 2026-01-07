@@ -45,5 +45,24 @@
     "en": "Gothorita",
     "es": "Gothorita",
     "ca": "Gothorita"
-  }
+  },
+  "evolution": [
+    {
+      "id": 574,
+      "name": "Gothita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png"
+    },
+    {
+      "id": 575,
+      "name": "Gothorita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png"
+    },
+    {
+      "id": 576,
+      "name": "Gothitelle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

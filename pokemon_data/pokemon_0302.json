@@ -46,5 +46,8 @@
     "en": "Sableye",
     "es": "Sableye",
     "ca": "Sableye"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Corphish",
     "es": "Corphish",
     "ca": "Corphish"
-  }
+  },
+  "evolution": [
+    {
+      "id": 341,
+      "name": "Corphish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png"
+    },
+    {
+      "id": 342,
+      "name": "Crawdaunt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -41,5 +41,54 @@
     "en": "Umbreon",
     "es": "Umbreon",
     "ca": "Umbreon"
-  }
+  },
+  "evolution": [
+    {
+      "id": 133,
+      "name": "Eevee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+    },
+    {
+      "id": 134,
+      "name": "Vaporeon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+    },
+    {
+      "id": 135,
+      "name": "Jolteon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+    },
+    {
+      "id": 136,
+      "name": "Flareon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+    },
+    {
+      "id": 196,
+      "name": "Espeon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
+    },
+    {
+      "id": 197,
+      "name": "Umbreon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+    },
+    {
+      "id": 470,
+      "name": "Leafeon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png"
+    },
+    {
+      "id": 471,
+      "name": "Glaceon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
+    },
+    {
+      "id": 700,
+      "name": "Sylveon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

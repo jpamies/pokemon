@@ -41,5 +41,19 @@
     "en": "Floatzel",
     "es": "Floatzel",
     "ca": "Floatzel"
-  }
+  },
+  "evolution": [
+    {
+      "id": 418,
+      "name": "Buizel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png"
+    },
+    {
+      "id": 419,
+      "name": "Floatzel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

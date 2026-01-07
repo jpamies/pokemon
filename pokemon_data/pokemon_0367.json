@@ -41,5 +41,24 @@
     "en": "Huntail",
     "es": "Huntail",
     "ca": "Huntail"
-  }
+  },
+  "evolution": [
+    {
+      "id": 366,
+      "name": "Clamperl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png"
+    },
+    {
+      "id": 367,
+      "name": "Huntail",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png"
+    },
+    {
+      "id": 368,
+      "name": "Gorebyss",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/368.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

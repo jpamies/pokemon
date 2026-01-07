@@ -46,5 +46,19 @@
     "en": "Tentacruel",
     "es": "Tentacruel",
     "ca": "Tentacruel"
-  }
+  },
+  "evolution": [
+    {
+      "id": 72,
+      "name": "Tentacool",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+    },
+    {
+      "id": 73,
+      "name": "Tentacruel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

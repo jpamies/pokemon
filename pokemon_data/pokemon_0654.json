@@ -41,5 +41,24 @@
     "en": "Braixen",
     "es": "Braixen",
     "ca": "Braixen"
-  }
+  },
+  "evolution": [
+    {
+      "id": 653,
+      "name": "Fennekin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+    },
+    {
+      "id": 654,
+      "name": "Braixen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+    },
+    {
+      "id": 655,
+      "name": "Delphox",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

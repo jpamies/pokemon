@@ -42,5 +42,19 @@
     "en": "Gyarados",
     "es": "Gyarados",
     "ca": "Gyarados"
-  }
+  },
+  "evolution": [
+    {
+      "id": 129,
+      "name": "Magikarp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+    },
+    {
+      "id": 130,
+      "name": "Gyarados",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

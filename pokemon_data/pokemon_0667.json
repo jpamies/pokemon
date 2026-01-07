@@ -46,5 +46,19 @@
     "en": "Litleo",
     "es": "Litleo",
     "ca": "Litleo"
-  }
+  },
+  "evolution": [
+    {
+      "id": 667,
+      "name": "Litleo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png"
+    },
+    {
+      "id": 668,
+      "name": "Pyroar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

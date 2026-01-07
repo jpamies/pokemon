@@ -46,5 +46,24 @@
     "en": "Rhydon",
     "es": "Rhydon",
     "ca": "Rhydon"
-  }
+  },
+  "evolution": [
+    {
+      "id": 111,
+      "name": "Rhyhorn",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+    },
+    {
+      "id": 112,
+      "name": "Rhydon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+    },
+    {
+      "id": 464,
+      "name": "Rhyperior",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

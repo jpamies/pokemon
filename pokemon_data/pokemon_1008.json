@@ -38,5 +38,8 @@
     "en": "Miraidon",
     "es": "Miraidon",
     "ca": "Miraidon"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

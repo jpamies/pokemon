@@ -41,5 +41,19 @@
     "en": "Cursola",
     "es": "Cursola",
     "ca": "Cursola"
-  }
+  },
+  "evolution": [
+    {
+      "id": 222,
+      "name": "Corsola",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png"
+    },
+    {
+      "id": 864,
+      "name": "Cursola",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/864.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

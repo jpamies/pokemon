@@ -45,5 +45,19 @@
     "en": "Shroomish",
     "es": "Shroomish",
     "ca": "Shroomish"
-  }
+  },
+  "evolution": [
+    {
+      "id": 285,
+      "name": "Shroomish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png"
+    },
+    {
+      "id": 286,
+      "name": "Breloom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,24 @@
     "en": "Goodra",
     "es": "Goodra",
     "ca": "Goodra"
-  }
+  },
+  "evolution": [
+    {
+      "id": 704,
+      "name": "Goomy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/704.png"
+    },
+    {
+      "id": 705,
+      "name": "Sliggoo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png"
+    },
+    {
+      "id": 706,
+      "name": "Goodra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Spoink",
     "es": "Spoink",
     "ca": "Spoink"
-  }
+  },
+  "evolution": [
+    {
+      "id": 325,
+      "name": "Spoink",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png"
+    },
+    {
+      "id": 326,
+      "name": "Grumpig",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/326.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

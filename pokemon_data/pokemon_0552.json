@@ -46,5 +46,24 @@
     "en": "Krokorok",
     "es": "Krokorok",
     "ca": "Krokorok"
-  }
+  },
+  "evolution": [
+    {
+      "id": 551,
+      "name": "Sandile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png"
+    },
+    {
+      "id": 552,
+      "name": "Krokorok",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png"
+    },
+    {
+      "id": 553,
+      "name": "Krookodile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

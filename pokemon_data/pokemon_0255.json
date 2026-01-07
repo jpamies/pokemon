@@ -41,5 +41,24 @@
     "en": "Torchic",
     "es": "Torchic",
     "ca": "Torchic"
-  }
+  },
+  "evolution": [
+    {
+      "id": 255,
+      "name": "Torchic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png"
+    },
+    {
+      "id": 256,
+      "name": "Combusken",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png"
+    },
+    {
+      "id": 257,
+      "name": "Blaziken",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

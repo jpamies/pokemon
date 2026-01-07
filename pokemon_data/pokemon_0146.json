@@ -42,5 +42,8 @@
     "en": "Moltres",
     "es": "Moltres",
     "ca": "Moltres"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

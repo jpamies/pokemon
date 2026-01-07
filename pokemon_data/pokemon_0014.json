@@ -38,5 +38,24 @@
     "en": "Kakuna",
     "es": "Kakuna",
     "ca": "Kakuna"
-  }
+  },
+  "evolution": [
+    {
+      "id": 13,
+      "name": "Weedle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+    },
+    {
+      "id": 14,
+      "name": "Kakuna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+    },
+    {
+      "id": 15,
+      "name": "Beedrill",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

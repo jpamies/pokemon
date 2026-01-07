@@ -45,5 +45,19 @@
     "en": "Ambipom",
     "es": "Ambipom",
     "ca": "Ambipom"
-  }
+  },
+  "evolution": [
+    {
+      "id": 190,
+      "name": "Aipom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png"
+    },
+    {
+      "id": 424,
+      "name": "Ambipom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

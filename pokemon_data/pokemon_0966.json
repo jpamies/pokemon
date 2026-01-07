@@ -42,5 +42,19 @@
     "en": "Revavroom",
     "es": "Revavroom",
     "ca": "Revavroom"
-  }
+  },
+  "evolution": [
+    {
+      "id": 965,
+      "name": "Varoom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png"
+    },
+    {
+      "id": 966,
+      "name": "Revavroom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Goldeen",
     "es": "Goldeen",
     "ca": "Goldeen"
-  }
+  },
+  "evolution": [
+    {
+      "id": 118,
+      "name": "Goldeen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+    },
+    {
+      "id": 119,
+      "name": "Seaking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

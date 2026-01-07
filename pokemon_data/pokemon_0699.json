@@ -42,5 +42,19 @@
     "en": "Aurorus",
     "es": "Aurorus",
     "ca": "Aurorus"
-  }
+  },
+  "evolution": [
+    {
+      "id": 698,
+      "name": "Amaura",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png"
+    },
+    {
+      "id": 699,
+      "name": "Aurorus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -42,5 +42,19 @@
     "en": "Salandit",
     "es": "Salandit",
     "ca": "Salandit"
-  }
+  },
+  "evolution": [
+    {
+      "id": 757,
+      "name": "Salandit",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png"
+    },
+    {
+      "id": 758,
+      "name": "Salazzle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

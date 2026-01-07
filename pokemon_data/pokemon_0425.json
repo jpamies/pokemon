@@ -46,5 +46,19 @@
     "en": "Drifloon",
     "es": "Drifloon",
     "ca": "Drifloon"
-  }
+  },
+  "evolution": [
+    {
+      "id": 425,
+      "name": "Drifloon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png"
+    },
+    {
+      "id": 426,
+      "name": "Drifblim",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

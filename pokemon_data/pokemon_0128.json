@@ -45,5 +45,8 @@
     "en": "Tauros",
     "es": "Tauros",
     "ca": "Tauros"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

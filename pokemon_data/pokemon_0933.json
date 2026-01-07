@@ -45,5 +45,24 @@
     "en": "Naclstack",
     "es": "Naclstack",
     "ca": "Naclstack"
-  }
+  },
+  "evolution": [
+    {
+      "id": 932,
+      "name": "Nacli",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png"
+    },
+    {
+      "id": 933,
+      "name": "Naclstack",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png"
+    },
+    {
+      "id": 934,
+      "name": "Garganacl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

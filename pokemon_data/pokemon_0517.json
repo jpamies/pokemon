@@ -45,5 +45,19 @@
     "en": "Munna",
     "es": "Munna",
     "ca": "Munna"
-  }
+  },
+  "evolution": [
+    {
+      "id": 517,
+      "name": "Munna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png"
+    },
+    {
+      "id": 518,
+      "name": "Musharna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

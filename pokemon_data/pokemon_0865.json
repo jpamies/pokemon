@@ -41,5 +41,19 @@
     "en": "Sirfetchd",
     "es": "Sirfetchd",
     "ca": "Sirfetchd"
-  }
+  },
+  "evolution": [
+    {
+      "id": 83,
+      "name": "Farfetchd",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
+    },
+    {
+      "id": 865,
+      "name": "Sirfetchd",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/865.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -42,5 +42,8 @@
     "en": "Enamorus-Incarnate",
     "es": "Enamorus-Incarnate",
     "ca": "Enamorus-Incarnate"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

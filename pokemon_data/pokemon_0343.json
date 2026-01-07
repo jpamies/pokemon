@@ -38,5 +38,19 @@
     "en": "Baltoy",
     "es": "Baltoy",
     "ca": "Baltoy"
-  }
+  },
+  "evolution": [
+    {
+      "id": 343,
+      "name": "Baltoy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png"
+    },
+    {
+      "id": 344,
+      "name": "Claydol",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

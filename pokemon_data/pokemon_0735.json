@@ -45,5 +45,19 @@
     "en": "Gumshoos",
     "es": "Gumshoos",
     "ca": "Gumshoos"
-  }
+  },
+  "evolution": [
+    {
+      "id": 734,
+      "name": "Yungoos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png"
+    },
+    {
+      "id": 735,
+      "name": "Gumshoos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

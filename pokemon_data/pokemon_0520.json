@@ -46,5 +46,24 @@
     "en": "Tranquill",
     "es": "Tranquill",
     "ca": "Tranquill"
-  }
+  },
+  "evolution": [
+    {
+      "id": 519,
+      "name": "Pidove",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png"
+    },
+    {
+      "id": 520,
+      "name": "Tranquill",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png"
+    },
+    {
+      "id": 521,
+      "name": "Unfezant",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

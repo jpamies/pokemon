@@ -42,5 +42,19 @@
     "en": "Volcarona",
     "es": "Volcarona",
     "ca": "Volcarona"
-  }
+  },
+  "evolution": [
+    {
+      "id": 636,
+      "name": "Larvesta",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png"
+    },
+    {
+      "id": 637,
+      "name": "Volcarona",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

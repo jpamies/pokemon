@@ -45,5 +45,19 @@
     "en": "Swalot",
     "es": "Swalot",
     "ca": "Swalot"
-  }
+  },
+  "evolution": [
+    {
+      "id": 316,
+      "name": "Gulpin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png"
+    },
+    {
+      "id": 317,
+      "name": "Swalot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/317.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

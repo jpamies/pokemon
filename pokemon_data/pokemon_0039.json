@@ -46,5 +46,24 @@
     "en": "Jigglypuff",
     "es": "Jigglypuff",
     "ca": "Jigglypuff"
-  }
+  },
+  "evolution": [
+    {
+      "id": 174,
+      "name": "Igglybuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
+    },
+    {
+      "id": 39,
+      "name": "Jigglypuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    },
+    {
+      "id": 40,
+      "name": "Wigglytuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

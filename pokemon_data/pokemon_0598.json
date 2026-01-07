@@ -42,5 +42,19 @@
     "en": "Ferrothorn",
     "es": "Ferrothorn",
     "ca": "Ferrothorn"
-  }
+  },
+  "evolution": [
+    {
+      "id": 597,
+      "name": "Ferroseed",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png"
+    },
+    {
+      "id": 598,
+      "name": "Ferrothorn",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

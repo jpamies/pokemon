@@ -38,5 +38,19 @@
     "en": "Urshifu-Single-Strike",
     "es": "Urshifu-Single-Strike",
     "ca": "Urshifu-Single-Strike"
-  }
+  },
+  "evolution": [
+    {
+      "id": 891,
+      "name": "Kubfu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/891.png"
+    },
+    {
+      "id": 892,
+      "name": "Urshifu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png"
+    }
+  ],
+  "is_legendary": true,
+  "is_mythical": false
 }

@@ -38,5 +38,24 @@
     "en": "Flygon",
     "es": "Flygon",
     "ca": "Flygon"
-  }
+  },
+  "evolution": [
+    {
+      "id": 328,
+      "name": "Trapinch",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png"
+    },
+    {
+      "id": 329,
+      "name": "Vibrava",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/329.png"
+    },
+    {
+      "id": 330,
+      "name": "Flygon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

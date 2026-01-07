@@ -46,5 +46,19 @@
     "en": "Duraludon",
     "es": "Duraludon",
     "ca": "Duraludon"
-  }
+  },
+  "evolution": [
+    {
+      "id": 884,
+      "name": "Duraludon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png"
+    },
+    {
+      "id": 1018,
+      "name": "Archaludon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

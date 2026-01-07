@@ -45,5 +45,19 @@
     "en": "Shuppet",
     "es": "Shuppet",
     "ca": "Shuppet"
-  }
+  },
+  "evolution": [
+    {
+      "id": 353,
+      "name": "Shuppet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png"
+    },
+    {
+      "id": 354,
+      "name": "Banette",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

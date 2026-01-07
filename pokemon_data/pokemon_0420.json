@@ -37,5 +37,19 @@
     "en": "Cherubi",
     "es": "Cherubi",
     "ca": "Cherubi"
-  }
+  },
+  "evolution": [
+    {
+      "id": 420,
+      "name": "Cherubi",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png"
+    },
+    {
+      "id": 421,
+      "name": "Cherrim",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

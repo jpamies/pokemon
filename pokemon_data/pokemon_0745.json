@@ -45,5 +45,19 @@
     "en": "Lycanroc-Midday",
     "es": "Lycanroc-Midday",
     "ca": "Lycanroc-Midday"
-  }
+  },
+  "evolution": [
+    {
+      "id": 744,
+      "name": "Rockruff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png"
+    },
+    {
+      "id": 745,
+      "name": "Lycanroc",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,24 @@
     "en": "Cleffa",
     "es": "Cleffa",
     "ca": "Cleffa"
-  }
+  },
+  "evolution": [
+    {
+      "id": 173,
+      "name": "Cleffa",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png"
+    },
+    {
+      "id": 35,
+      "name": "Clefairy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+    },
+    {
+      "id": 36,
+      "name": "Clefable",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

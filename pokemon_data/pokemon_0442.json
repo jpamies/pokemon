@@ -42,5 +42,8 @@
     "en": "Spiritomb",
     "es": "Spiritomb",
     "ca": "Spiritomb"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

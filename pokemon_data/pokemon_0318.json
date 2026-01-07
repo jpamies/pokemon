@@ -42,5 +42,19 @@
     "en": "Carvanha",
     "es": "Carvanha",
     "ca": "Carvanha"
-  }
+  },
+  "evolution": [
+    {
+      "id": 318,
+      "name": "Carvanha",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png"
+    },
+    {
+      "id": 319,
+      "name": "Sharpedo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

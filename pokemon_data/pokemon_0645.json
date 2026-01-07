@@ -42,5 +42,8 @@
     "en": "Landorus-Incarnate",
     "es": "Landorus-Incarnate",
     "ca": "Landorus-Incarnate"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

@@ -42,5 +42,8 @@
     "en": "Dialga",
     "es": "Dialga",
     "ca": "Dialga"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Crabrawler",
     "es": "Crabrawler",
     "ca": "Crabrawler"
-  }
+  },
+  "evolution": [
+    {
+      "id": 739,
+      "name": "Crabrawler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png"
+    },
+    {
+      "id": 740,
+      "name": "Crabominable",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/740.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

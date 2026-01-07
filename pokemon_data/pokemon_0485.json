@@ -42,5 +42,8 @@
     "en": "Heatran",
     "es": "Heatran",
     "ca": "Heatran"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

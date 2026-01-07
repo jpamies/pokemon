@@ -42,5 +42,8 @@
     "en": "Tapu-Fini",
     "es": "Tapu-Fini",
     "ca": "Tapu-Fini"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

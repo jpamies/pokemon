@@ -42,5 +42,19 @@
     "en": "Altaria",
     "es": "Altaria",
     "ca": "Altaria"
-  }
+  },
+  "evolution": [
+    {
+      "id": 333,
+      "name": "Swablu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png"
+    },
+    {
+      "id": 334,
+      "name": "Altaria",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

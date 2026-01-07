@@ -41,5 +41,19 @@
     "en": "Phanpy",
     "es": "Phanpy",
     "ca": "Phanpy"
-  }
+  },
+  "evolution": [
+    {
+      "id": 231,
+      "name": "Phanpy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png"
+    },
+    {
+      "id": 232,
+      "name": "Donphan",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

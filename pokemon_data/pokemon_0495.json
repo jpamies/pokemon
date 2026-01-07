@@ -41,5 +41,24 @@
     "en": "Snivy",
     "es": "Snivy",
     "ca": "Snivy"
-  }
+  },
+  "evolution": [
+    {
+      "id": 495,
+      "name": "Snivy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png"
+    },
+    {
+      "id": 496,
+      "name": "Servine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png"
+    },
+    {
+      "id": 497,
+      "name": "Serperior",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -46,5 +46,19 @@
     "en": "Trevenant",
     "es": "Trevenant",
     "ca": "Trevenant"
-  }
+  },
+  "evolution": [
+    {
+      "id": 708,
+      "name": "Phantump",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png"
+    },
+    {
+      "id": 709,
+      "name": "Trevenant",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/709.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

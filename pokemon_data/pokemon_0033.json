@@ -45,5 +45,24 @@
     "en": "Nidorino",
     "es": "Nidorino",
     "ca": "Nidorino"
-  }
+  },
+  "evolution": [
+    {
+      "id": 32,
+      "name": "Nidoran-M",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+    },
+    {
+      "id": 33,
+      "name": "Nidorino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+    },
+    {
+      "id": 34,
+      "name": "Nidoking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

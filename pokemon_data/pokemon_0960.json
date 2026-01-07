@@ -45,5 +45,19 @@
     "en": "Wiglett",
     "es": "Wiglett",
     "ca": "Wiglett"
-  }
+  },
+  "evolution": [
+    {
+      "id": 960,
+      "name": "Wiglett",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png"
+    },
+    {
+      "id": 961,
+      "name": "Wugtrio",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

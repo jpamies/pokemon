@@ -38,5 +38,24 @@
     "en": "Runerigus",
     "es": "Runerigus",
     "ca": "Runerigus"
-  }
+  },
+  "evolution": [
+    {
+      "id": 562,
+      "name": "Yamask",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png"
+    },
+    {
+      "id": 563,
+      "name": "Cofagrigus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png"
+    },
+    {
+      "id": 867,
+      "name": "Runerigus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

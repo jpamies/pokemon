@@ -45,5 +45,24 @@
     "en": "Tsareena",
     "es": "Tsareena",
     "ca": "Tsareena"
-  }
+  },
+  "evolution": [
+    {
+      "id": 761,
+      "name": "Bounsweet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png"
+    },
+    {
+      "id": 762,
+      "name": "Steenee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png"
+    },
+    {
+      "id": 763,
+      "name": "Tsareena",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

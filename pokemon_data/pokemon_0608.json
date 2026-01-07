@@ -46,5 +46,24 @@
     "en": "Lampent",
     "es": "Lampent",
     "ca": "Lampent"
-  }
+  },
+  "evolution": [
+    {
+      "id": 607,
+      "name": "Litwick",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png"
+    },
+    {
+      "id": 608,
+      "name": "Lampent",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png"
+    },
+    {
+      "id": 609,
+      "name": "Chandelure",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

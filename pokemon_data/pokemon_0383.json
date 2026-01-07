@@ -37,5 +37,8 @@
     "en": "Groudon",
     "es": "Groudon",
     "ca": "Groudon"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

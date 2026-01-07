@@ -45,5 +45,19 @@
     "en": "Lilligant",
     "es": "Lilligant",
     "ca": "Lilligant"
-  }
+  },
+  "evolution": [
+    {
+      "id": 548,
+      "name": "Petilil",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png"
+    },
+    {
+      "id": 549,
+      "name": "Lilligant",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

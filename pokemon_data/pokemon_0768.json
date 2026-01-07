@@ -38,5 +38,19 @@
     "en": "Golisopod",
     "es": "Golisopod",
     "ca": "Golisopod"
-  }
+  },
+  "evolution": [
+    {
+      "id": 767,
+      "name": "Wimpod",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png"
+    },
+    {
+      "id": 768,
+      "name": "Golisopod",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/768.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

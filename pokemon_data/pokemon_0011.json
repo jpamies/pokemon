@@ -37,5 +37,24 @@
     "en": "Metapod",
     "es": "Metapod",
     "ca": "Metapod"
-  }
+  },
+  "evolution": [
+    {
+      "id": 10,
+      "name": "Caterpie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+    },
+    {
+      "id": 11,
+      "name": "Metapod",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+    },
+    {
+      "id": 12,
+      "name": "Butterfree",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

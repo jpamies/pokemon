@@ -42,5 +42,24 @@
     "en": "Talonflame",
     "es": "Talonflame",
     "ca": "Talonflame"
-  }
+  },
+  "evolution": [
+    {
+      "id": 661,
+      "name": "Fletchling",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/661.png"
+    },
+    {
+      "id": 662,
+      "name": "Fletchinder",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png"
+    },
+    {
+      "id": 663,
+      "name": "Talonflame",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,24 @@
     "en": "Conkeldurr",
     "es": "Conkeldurr",
     "ca": "Conkeldurr"
-  }
+  },
+  "evolution": [
+    {
+      "id": 532,
+      "name": "Timburr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png"
+    },
+    {
+      "id": 533,
+      "name": "Gurdurr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png"
+    },
+    {
+      "id": 534,
+      "name": "Conkeldurr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

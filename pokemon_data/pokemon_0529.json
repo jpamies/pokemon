@@ -45,5 +45,19 @@
     "en": "Drilbur",
     "es": "Drilbur",
     "ca": "Drilbur"
-  }
+  },
+  "evolution": [
+    {
+      "id": 529,
+      "name": "Drilbur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png"
+    },
+    {
+      "id": 530,
+      "name": "Excadrill",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

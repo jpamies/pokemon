@@ -37,5 +37,19 @@
     "en": "Chingling",
     "es": "Chingling",
     "ca": "Chingling"
-  }
+  },
+  "evolution": [
+    {
+      "id": 433,
+      "name": "Chingling",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png"
+    },
+    {
+      "id": 358,
+      "name": "Chimecho",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

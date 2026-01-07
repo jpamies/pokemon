@@ -41,5 +41,24 @@
     "en": "Wartortle",
     "es": "Wartortle",
     "ca": "Wartortle"
-  }
+  },
+  "evolution": [
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Wartortle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

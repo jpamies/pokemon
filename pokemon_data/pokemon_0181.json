@@ -41,5 +41,24 @@
     "en": "Ampharos",
     "es": "Ampharos",
     "ca": "Ampharos"
-  }
+  },
+  "evolution": [
+    {
+      "id": 179,
+      "name": "Mareep",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png"
+    },
+    {
+      "id": 180,
+      "name": "Flaaffy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png"
+    },
+    {
+      "id": 181,
+      "name": "Ampharos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

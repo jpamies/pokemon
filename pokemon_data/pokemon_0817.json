@@ -41,5 +41,24 @@
     "en": "Drizzile",
     "es": "Drizzile",
     "ca": "Drizzile"
-  }
+  },
+  "evolution": [
+    {
+      "id": 816,
+      "name": "Sobble",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/816.png"
+    },
+    {
+      "id": 817,
+      "name": "Drizzile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/817.png"
+    },
+    {
+      "id": 818,
+      "name": "Inteleon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

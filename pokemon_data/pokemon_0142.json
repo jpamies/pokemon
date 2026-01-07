@@ -46,5 +46,8 @@
     "en": "Aerodactyl",
     "es": "Aerodactyl",
     "ca": "Aerodactyl"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

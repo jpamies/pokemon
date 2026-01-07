@@ -46,5 +46,19 @@
     "en": "Dwebble",
     "es": "Dwebble",
     "ca": "Dwebble"
-  }
+  },
+  "evolution": [
+    {
+      "id": 557,
+      "name": "Dwebble",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png"
+    },
+    {
+      "id": 558,
+      "name": "Crustle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

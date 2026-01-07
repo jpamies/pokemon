@@ -45,5 +45,19 @@
     "en": "Karrablast",
     "es": "Karrablast",
     "ca": "Karrablast"
-  }
+  },
+  "evolution": [
+    {
+      "id": 588,
+      "name": "Karrablast",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png"
+    },
+    {
+      "id": 589,
+      "name": "Escavalier",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

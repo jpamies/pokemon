@@ -41,5 +41,19 @@
     "en": "Rellor",
     "es": "Rellor",
     "ca": "Rellor"
-  }
+  },
+  "evolution": [
+    {
+      "id": 953,
+      "name": "Rellor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png"
+    },
+    {
+      "id": 954,
+      "name": "Rabsca",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

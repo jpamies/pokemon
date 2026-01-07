@@ -37,5 +37,19 @@
     "en": "Zorua",
     "es": "Zorua",
     "ca": "Zorua"
-  }
+  },
+  "evolution": [
+    {
+      "id": 570,
+      "name": "Zorua",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png"
+    },
+    {
+      "id": 571,
+      "name": "Zoroark",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

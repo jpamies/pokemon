@@ -45,5 +45,19 @@
     "en": "Cubchoo",
     "es": "Cubchoo",
     "ca": "Cubchoo"
-  }
+  },
+  "evolution": [
+    {
+      "id": 613,
+      "name": "Cubchoo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png"
+    },
+    {
+      "id": 614,
+      "name": "Beartic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

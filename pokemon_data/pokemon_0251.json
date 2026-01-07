@@ -38,5 +38,8 @@
     "en": "Celebi",
     "es": "Celebi",
     "ca": "Celebi"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

@@ -45,5 +45,24 @@
     "en": "Porygon-Z",
     "es": "Porygon-Z",
     "ca": "Porygon-Z"
-  }
+  },
+  "evolution": [
+    {
+      "id": 137,
+      "name": "Porygon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
+    },
+    {
+      "id": 233,
+      "name": "Porygon2",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
+    },
+    {
+      "id": 474,
+      "name": "Porygon-Z",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

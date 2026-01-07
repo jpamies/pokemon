@@ -45,5 +45,19 @@
     "en": "Stantler",
     "es": "Stantler",
     "ca": "Stantler"
-  }
+  },
+  "evolution": [
+    {
+      "id": 234,
+      "name": "Stantler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/234.png"
+    },
+    {
+      "id": 899,
+      "name": "Wyrdeer",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/899.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

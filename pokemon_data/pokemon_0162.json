@@ -45,5 +45,19 @@
     "en": "Furret",
     "es": "Furret",
     "ca": "Furret"
-  }
+  },
+  "evolution": [
+    {
+      "id": 161,
+      "name": "Sentret",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png"
+    },
+    {
+      "id": 162,
+      "name": "Furret",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

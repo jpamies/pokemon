@@ -38,5 +38,8 @@
     "en": "Raging-Bolt",
     "es": "Raging-Bolt",
     "ca": "Raging-Bolt"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

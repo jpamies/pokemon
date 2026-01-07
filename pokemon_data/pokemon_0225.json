@@ -46,5 +46,8 @@
     "en": "Delibird",
     "es": "Delibird",
     "ca": "Delibird"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -46,5 +46,19 @@
     "en": "Camerupt",
     "es": "Camerupt",
     "ca": "Camerupt"
-  }
+  },
+  "evolution": [
+    {
+      "id": 322,
+      "name": "Numel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png"
+    },
+    {
+      "id": 323,
+      "name": "Camerupt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

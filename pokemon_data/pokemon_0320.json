@@ -45,5 +45,19 @@
     "en": "Wailmer",
     "es": "Wailmer",
     "ca": "Wailmer"
-  }
+  },
+  "evolution": [
+    {
+      "id": 320,
+      "name": "Wailmer",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/320.png"
+    },
+    {
+      "id": 321,
+      "name": "Wailord",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

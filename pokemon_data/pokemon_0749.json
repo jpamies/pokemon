@@ -45,5 +45,19 @@
     "en": "Mudbray",
     "es": "Mudbray",
     "ca": "Mudbray"
-  }
+  },
+  "evolution": [
+    {
+      "id": 749,
+      "name": "Mudbray",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png"
+    },
+    {
+      "id": 750,
+      "name": "Mudsdale",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

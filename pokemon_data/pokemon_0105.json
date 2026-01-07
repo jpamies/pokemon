@@ -45,5 +45,19 @@
     "en": "Marowak",
     "es": "Marowak",
     "ca": "Marowak"
-  }
+  },
+  "evolution": [
+    {
+      "id": 104,
+      "name": "Cubone",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+    },
+    {
+      "id": 105,
+      "name": "Marowak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

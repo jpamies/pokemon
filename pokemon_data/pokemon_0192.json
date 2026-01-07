@@ -45,5 +45,19 @@
     "en": "Sunflora",
     "es": "Sunflora",
     "ca": "Sunflora"
-  }
+  },
+  "evolution": [
+    {
+      "id": 191,
+      "name": "Sunkern",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/191.png"
+    },
+    {
+      "id": 192,
+      "name": "Sunflora",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

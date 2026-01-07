@@ -41,5 +41,24 @@
     "en": "Feraligatr",
     "es": "Feraligatr",
     "ca": "Feraligatr"
-  }
+  },
+  "evolution": [
+    {
+      "id": 158,
+      "name": "Totodile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png"
+    },
+    {
+      "id": 159,
+      "name": "Croconaw",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png"
+    },
+    {
+      "id": 160,
+      "name": "Feraligatr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

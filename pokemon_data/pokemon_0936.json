@@ -42,5 +42,24 @@
     "en": "Armarouge",
     "es": "Armarouge",
     "ca": "Armarouge"
-  }
+  },
+  "evolution": [
+    {
+      "id": 935,
+      "name": "Charcadet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png"
+    },
+    {
+      "id": 936,
+      "name": "Armarouge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png"
+    },
+    {
+      "id": 937,
+      "name": "Ceruledge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

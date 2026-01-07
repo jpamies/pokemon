@@ -42,5 +42,24 @@
     "en": "Larvitar",
     "es": "Larvitar",
     "ca": "Larvitar"
-  }
+  },
+  "evolution": [
+    {
+      "id": 246,
+      "name": "Larvitar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png"
+    },
+    {
+      "id": 247,
+      "name": "Pupitar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/247.png"
+    },
+    {
+      "id": 248,
+      "name": "Tyranitar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -46,5 +46,19 @@
     "en": "Honchkrow",
     "es": "Honchkrow",
     "ca": "Honchkrow"
-  }
+  },
+  "evolution": [
+    {
+      "id": 198,
+      "name": "Murkrow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png"
+    },
+    {
+      "id": 430,
+      "name": "Honchkrow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

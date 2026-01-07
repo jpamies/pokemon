@@ -37,5 +37,8 @@
     "en": "Mew",
     "es": "Mew",
     "ca": "Mew"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

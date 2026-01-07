@@ -45,5 +45,19 @@
     "en": "Mabosstiff",
     "es": "Mabosstiff",
     "ca": "Mabosstiff"
-  }
+  },
+  "evolution": [
+    {
+      "id": 942,
+      "name": "Maschiff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/942.png"
+    },
+    {
+      "id": 943,
+      "name": "Mabosstiff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/943.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

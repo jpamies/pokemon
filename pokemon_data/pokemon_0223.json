@@ -45,5 +45,19 @@
     "en": "Remoraid",
     "es": "Remoraid",
     "ca": "Remoraid"
-  }
+  },
+  "evolution": [
+    {
+      "id": 223,
+      "name": "Remoraid",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png"
+    },
+    {
+      "id": 224,
+      "name": "Octillery",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

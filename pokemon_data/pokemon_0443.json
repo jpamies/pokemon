@@ -42,5 +42,24 @@
     "en": "Gible",
     "es": "Gible",
     "ca": "Gible"
-  }
+  },
+  "evolution": [
+    {
+      "id": 443,
+      "name": "Gible",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png"
+    },
+    {
+      "id": 444,
+      "name": "Gabite",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png"
+    },
+    {
+      "id": 445,
+      "name": "Garchomp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

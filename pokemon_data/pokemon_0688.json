@@ -46,5 +46,19 @@
     "en": "Binacle",
     "es": "Binacle",
     "ca": "Binacle"
-  }
+  },
+  "evolution": [
+    {
+      "id": 688,
+      "name": "Binacle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png"
+    },
+    {
+      "id": 689,
+      "name": "Barbaracle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

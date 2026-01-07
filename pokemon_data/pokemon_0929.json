@@ -42,5 +42,24 @@
     "en": "Dolliv",
     "es": "Dolliv",
     "ca": "Dolliv"
-  }
+  },
+  "evolution": [
+    {
+      "id": 928,
+      "name": "Smoliv",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png"
+    },
+    {
+      "id": 929,
+      "name": "Dolliv",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png"
+    },
+    {
+      "id": 930,
+      "name": "Arboliva",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

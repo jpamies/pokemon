@@ -41,5 +41,19 @@
     "en": "Copperajah",
     "es": "Copperajah",
     "ca": "Copperajah"
-  }
+  },
+  "evolution": [
+    {
+      "id": 878,
+      "name": "Cufant",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png"
+    },
+    {
+      "id": 879,
+      "name": "Copperajah",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/879.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

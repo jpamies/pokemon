@@ -46,5 +46,24 @@
     "en": "Seismitoad",
     "es": "Seismitoad",
     "ca": "Seismitoad"
-  }
+  },
+  "evolution": [
+    {
+      "id": 535,
+      "name": "Tympole",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png"
+    },
+    {
+      "id": 536,
+      "name": "Palpitoad",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png"
+    },
+    {
+      "id": 537,
+      "name": "Seismitoad",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

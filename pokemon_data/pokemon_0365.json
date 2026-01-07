@@ -46,5 +46,24 @@
     "en": "Walrein",
     "es": "Walrein",
     "ca": "Walrein"
-  }
+  },
+  "evolution": [
+    {
+      "id": 363,
+      "name": "Spheal",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/363.png"
+    },
+    {
+      "id": 364,
+      "name": "Sealeo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png"
+    },
+    {
+      "id": 365,
+      "name": "Walrein",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

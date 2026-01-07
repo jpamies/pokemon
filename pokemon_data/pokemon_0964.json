@@ -41,5 +41,19 @@
     "en": "Palafin-Zero",
     "es": "Palafin-Zero",
     "ca": "Palafin-Zero"
-  }
+  },
+  "evolution": [
+    {
+      "id": 963,
+      "name": "Finizen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/963.png"
+    },
+    {
+      "id": 964,
+      "name": "Palafin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

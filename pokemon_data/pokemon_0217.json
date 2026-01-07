@@ -45,5 +45,24 @@
     "en": "Ursaring",
     "es": "Ursaring",
     "ca": "Ursaring"
-  }
+  },
+  "evolution": [
+    {
+      "id": 216,
+      "name": "Teddiursa",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png"
+    },
+    {
+      "id": 217,
+      "name": "Ursaring",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/217.png"
+    },
+    {
+      "id": 901,
+      "name": "Ursaluna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

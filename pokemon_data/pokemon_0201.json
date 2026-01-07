@@ -37,5 +37,8 @@
     "en": "Unown",
     "es": "Unown",
     "ca": "Unown"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

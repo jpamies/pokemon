@@ -41,5 +41,19 @@
     "en": "Pansage",
     "es": "Pansage",
     "ca": "Pansage"
-  }
+  },
+  "evolution": [
+    {
+      "id": 511,
+      "name": "Pansage",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png"
+    },
+    {
+      "id": 512,
+      "name": "Simisage",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

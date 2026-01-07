@@ -38,5 +38,8 @@
     "en": "Iron-Hands",
     "es": "Iron-Hands",
     "ca": "Iron-Hands"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

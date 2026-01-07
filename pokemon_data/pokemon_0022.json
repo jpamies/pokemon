@@ -42,5 +42,19 @@
     "en": "Fearow",
     "es": "Fearow",
     "ca": "Fearow"
-  }
+  },
+  "evolution": [
+    {
+      "id": 21,
+      "name": "Spearow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+    },
+    {
+      "id": 22,
+      "name": "Fearow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

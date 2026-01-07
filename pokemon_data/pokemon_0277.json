@@ -42,5 +42,19 @@
     "en": "Swellow",
     "es": "Swellow",
     "ca": "Swellow"
-  }
+  },
+  "evolution": [
+    {
+      "id": 276,
+      "name": "Taillow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png"
+    },
+    {
+      "id": 277,
+      "name": "Swellow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

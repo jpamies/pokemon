@@ -41,5 +41,19 @@
     "en": "Spidops",
     "es": "Spidops",
     "ca": "Spidops"
-  }
+  },
+  "evolution": [
+    {
+      "id": 917,
+      "name": "Tarountula",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png"
+    },
+    {
+      "id": 918,
+      "name": "Spidops",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/918.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

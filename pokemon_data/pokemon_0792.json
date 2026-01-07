@@ -38,5 +38,29 @@
     "en": "Lunala",
     "es": "Lunala",
     "ca": "Lunala"
-  }
+  },
+  "evolution": [
+    {
+      "id": 789,
+      "name": "Cosmog",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png"
+    },
+    {
+      "id": 790,
+      "name": "Cosmoem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png"
+    },
+    {
+      "id": 791,
+      "name": "Solgaleo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png"
+    },
+    {
+      "id": 792,
+      "name": "Lunala",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png"
+    }
+  ],
+  "is_legendary": true,
+  "is_mythical": false
 }

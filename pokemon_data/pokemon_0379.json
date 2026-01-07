@@ -41,5 +41,8 @@
     "en": "Registeel",
     "es": "Registeel",
     "ca": "Registeel"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

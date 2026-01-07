@@ -41,5 +41,19 @@
     "en": "Milcery",
     "es": "Milcery",
     "ca": "Milcery"
-  }
+  },
+  "evolution": [
+    {
+      "id": 868,
+      "name": "Milcery",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/868.png"
+    },
+    {
+      "id": 869,
+      "name": "Alcremie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

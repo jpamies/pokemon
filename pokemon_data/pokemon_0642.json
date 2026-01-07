@@ -42,5 +42,8 @@
     "en": "Thundurus-Incarnate",
     "es": "Thundurus-Incarnate",
     "ca": "Thundurus-Incarnate"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

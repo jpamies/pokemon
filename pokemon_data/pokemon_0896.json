@@ -37,5 +37,8 @@
     "en": "Glastrier",
     "es": "Glastrier",
     "ca": "Glastrier"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

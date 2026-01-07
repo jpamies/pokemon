@@ -45,5 +45,24 @@
     "en": "Klinklang",
     "es": "Klinklang",
     "ca": "Klinklang"
-  }
+  },
+  "evolution": [
+    {
+      "id": 599,
+      "name": "Klink",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png"
+    },
+    {
+      "id": 600,
+      "name": "Klang",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png"
+    },
+    {
+      "id": 601,
+      "name": "Klinklang",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

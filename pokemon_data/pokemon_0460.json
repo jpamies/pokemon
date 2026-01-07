@@ -42,5 +42,19 @@
     "en": "Abomasnow",
     "es": "Abomasnow",
     "ca": "Abomasnow"
-  }
+  },
+  "evolution": [
+    {
+      "id": 459,
+      "name": "Snover",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png"
+    },
+    {
+      "id": 460,
+      "name": "Abomasnow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -42,5 +42,34 @@
     "en": "Beautifly",
     "es": "Beautifly",
     "ca": "Beautifly"
-  }
+  },
+  "evolution": [
+    {
+      "id": 265,
+      "name": "Wurmple",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png"
+    },
+    {
+      "id": 266,
+      "name": "Silcoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png"
+    },
+    {
+      "id": 267,
+      "name": "Beautifly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png"
+    },
+    {
+      "id": 268,
+      "name": "Cascoon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png"
+    },
+    {
+      "id": 269,
+      "name": "Dustox",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

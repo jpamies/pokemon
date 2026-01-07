@@ -37,5 +37,8 @@
     "en": "Arceus",
     "es": "Arceus",
     "ca": "Arceus"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

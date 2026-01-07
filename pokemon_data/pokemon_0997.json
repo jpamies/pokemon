@@ -42,5 +42,24 @@
     "en": "Arctibax",
     "es": "Arctibax",
     "ca": "Arctibax"
-  }
+  },
+  "evolution": [
+    {
+      "id": 996,
+      "name": "Frigibax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png"
+    },
+    {
+      "id": 997,
+      "name": "Arctibax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png"
+    },
+    {
+      "id": 998,
+      "name": "Baxcalibur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

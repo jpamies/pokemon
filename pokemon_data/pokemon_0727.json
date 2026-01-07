@@ -42,5 +42,24 @@
     "en": "Incineroar",
     "es": "Incineroar",
     "ca": "Incineroar"
-  }
+  },
+  "evolution": [
+    {
+      "id": 725,
+      "name": "Litten",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png"
+    },
+    {
+      "id": 726,
+      "name": "Torracat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png"
+    },
+    {
+      "id": 727,
+      "name": "Incineroar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

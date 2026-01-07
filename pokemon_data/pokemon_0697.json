@@ -42,5 +42,19 @@
     "en": "Tyrantrum",
     "es": "Tyrantrum",
     "ca": "Tyrantrum"
-  }
+  },
+  "evolution": [
+    {
+      "id": 696,
+      "name": "Tyrunt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/696.png"
+    },
+    {
+      "id": 697,
+      "name": "Tyrantrum",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/697.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

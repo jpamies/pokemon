@@ -37,5 +37,19 @@
     "en": "Type-Null",
     "es": "Type-Null",
     "ca": "Type-Null"
-  }
+  },
+  "evolution": [
+    {
+      "id": 772,
+      "name": "Type-Null",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png"
+    },
+    {
+      "id": 773,
+      "name": "Silvally",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png"
+    }
+  ],
+  "is_legendary": true,
+  "is_mythical": false
 }

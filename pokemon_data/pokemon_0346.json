@@ -42,5 +42,19 @@
     "en": "Cradily",
     "es": "Cradily",
     "ca": "Cradily"
-  }
+  },
+  "evolution": [
+    {
+      "id": 345,
+      "name": "Lileep",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png"
+    },
+    {
+      "id": 346,
+      "name": "Cradily",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

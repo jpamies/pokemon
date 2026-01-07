@@ -41,5 +41,19 @@
     "en": "Wobbuffet",
     "es": "Wobbuffet",
     "ca": "Wobbuffet"
-  }
+  },
+  "evolution": [
+    {
+      "id": 360,
+      "name": "Wynaut",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/360.png"
+    },
+    {
+      "id": 202,
+      "name": "Wobbuffet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

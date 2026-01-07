@@ -37,5 +37,19 @@
     "en": "Poipole",
     "es": "Poipole",
     "ca": "Poipole"
-  }
+  },
+  "evolution": [
+    {
+      "id": 803,
+      "name": "Poipole",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png"
+    },
+    {
+      "id": 804,
+      "name": "Naganadel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

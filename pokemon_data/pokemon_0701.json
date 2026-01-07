@@ -46,5 +46,8 @@
     "en": "Hawlucha",
     "es": "Hawlucha",
     "ca": "Hawlucha"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

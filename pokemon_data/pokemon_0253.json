@@ -41,5 +41,24 @@
     "en": "Grovyle",
     "es": "Grovyle",
     "ca": "Grovyle"
-  }
+  },
+  "evolution": [
+    {
+      "id": 252,
+      "name": "Treecko",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png"
+    },
+    {
+      "id": 253,
+      "name": "Grovyle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png"
+    },
+    {
+      "id": 254,
+      "name": "Sceptile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -41,5 +41,24 @@
     "en": "Electabuzz",
     "es": "Electabuzz",
     "ca": "Electabuzz"
-  }
+  },
+  "evolution": [
+    {
+      "id": 239,
+      "name": "Elekid",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png"
+    },
+    {
+      "id": 125,
+      "name": "Electabuzz",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
+    },
+    {
+      "id": 466,
+      "name": "Electivire",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

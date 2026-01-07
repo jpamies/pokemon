@@ -41,5 +41,8 @@
     "en": "Regirock",
     "es": "Regirock",
     "ca": "Regirock"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

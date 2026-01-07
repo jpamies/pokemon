@@ -41,5 +41,19 @@
     "en": "Arrokuda",
     "es": "Arrokuda",
     "ca": "Arrokuda"
-  }
+  },
+  "evolution": [
+    {
+      "id": 846,
+      "name": "Arrokuda",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/846.png"
+    },
+    {
+      "id": 847,
+      "name": "Barraskewda",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/847.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

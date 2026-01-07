@@ -41,5 +41,19 @@
     "en": "Skwovet",
     "es": "Skwovet",
     "ca": "Skwovet"
-  }
+  },
+  "evolution": [
+    {
+      "id": 819,
+      "name": "Skwovet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/819.png"
+    },
+    {
+      "id": 820,
+      "name": "Greedent",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/820.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

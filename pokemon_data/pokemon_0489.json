@@ -37,5 +37,19 @@
     "en": "Phione",
     "es": "Phione",
     "ca": "Phione"
-  }
+  },
+  "evolution": [
+    {
+      "id": 489,
+      "name": "Phione",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png"
+    },
+    {
+      "id": 490,
+      "name": "Manaphy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": true
 }

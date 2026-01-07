@@ -45,5 +45,19 @@
     "en": "Bunnelby",
     "es": "Bunnelby",
     "ca": "Bunnelby"
-  }
+  },
+  "evolution": [
+    {
+      "id": 659,
+      "name": "Bunnelby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png"
+    },
+    {
+      "id": 660,
+      "name": "Diggersby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

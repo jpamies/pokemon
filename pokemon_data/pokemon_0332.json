@@ -42,5 +42,19 @@
     "en": "Cacturne",
     "es": "Cacturne",
     "ca": "Cacturne"
-  }
+  },
+  "evolution": [
+    {
+      "id": 331,
+      "name": "Cacnea",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png"
+    },
+    {
+      "id": 332,
+      "name": "Cacturne",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/332.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

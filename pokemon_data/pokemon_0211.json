@@ -46,5 +46,19 @@
     "en": "Qwilfish",
     "es": "Qwilfish",
     "ca": "Qwilfish"
-  }
+  },
+  "evolution": [
+    {
+      "id": 211,
+      "name": "Qwilfish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/211.png"
+    },
+    {
+      "id": 904,
+      "name": "Overqwil",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

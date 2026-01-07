@@ -45,5 +45,24 @@
     "en": "Seadra",
     "es": "Seadra",
     "ca": "Seadra"
-  }
+  },
+  "evolution": [
+    {
+      "id": 116,
+      "name": "Horsea",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+    },
+    {
+      "id": 117,
+      "name": "Seadra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+    },
+    {
+      "id": 230,
+      "name": "Kingdra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -41,5 +41,24 @@
     "en": "Piplup",
     "es": "Piplup",
     "ca": "Piplup"
-  }
+  },
+  "evolution": [
+    {
+      "id": 393,
+      "name": "Piplup",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png"
+    },
+    {
+      "id": 394,
+      "name": "Prinplup",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png"
+    },
+    {
+      "id": 395,
+      "name": "Empoleon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -46,5 +46,19 @@
     "en": "Toxicroak",
     "es": "Toxicroak",
     "ca": "Toxicroak"
-  }
+  },
+  "evolution": [
+    {
+      "id": 453,
+      "name": "Croagunk",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png"
+    },
+    {
+      "id": 454,
+      "name": "Toxicroak",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

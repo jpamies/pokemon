@@ -45,5 +45,19 @@
     "en": "Munchlax",
     "es": "Munchlax",
     "ca": "Munchlax"
-  }
+  },
+  "evolution": [
+    {
+      "id": 446,
+      "name": "Munchlax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png"
+    },
+    {
+      "id": 143,
+      "name": "Snorlax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

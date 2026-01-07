@@ -46,5 +46,19 @@
     "en": "Whiscash",
     "es": "Whiscash",
     "ca": "Whiscash"
-  }
+  },
+  "evolution": [
+    {
+      "id": 339,
+      "name": "Barboach",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png"
+    },
+    {
+      "id": 340,
+      "name": "Whiscash",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

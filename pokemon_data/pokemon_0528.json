@@ -46,5 +46,19 @@
     "en": "Swoobat",
     "es": "Swoobat",
     "ca": "Swoobat"
-  }
+  },
+  "evolution": [
+    {
+      "id": 527,
+      "name": "Woobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png"
+    },
+    {
+      "id": 528,
+      "name": "Swoobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

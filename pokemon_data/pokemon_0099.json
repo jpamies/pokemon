@@ -45,5 +45,19 @@
     "en": "Kingler",
     "es": "Kingler",
     "ca": "Kingler"
-  }
+  },
+  "evolution": [
+    {
+      "id": 98,
+      "name": "Krabby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
+    },
+    {
+      "id": 99,
+      "name": "Kingler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

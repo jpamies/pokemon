@@ -45,5 +45,24 @@
     "en": "Fraxure",
     "es": "Fraxure",
     "ca": "Fraxure"
-  }
+  },
+  "evolution": [
+    {
+      "id": 610,
+      "name": "Axew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png"
+    },
+    {
+      "id": 611,
+      "name": "Fraxure",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png"
+    },
+    {
+      "id": 612,
+      "name": "Haxorus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

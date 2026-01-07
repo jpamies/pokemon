@@ -41,5 +41,24 @@
     "en": "Rillaboom",
     "es": "Rillaboom",
     "ca": "Rillaboom"
-  }
+  },
+  "evolution": [
+    {
+      "id": 810,
+      "name": "Grookey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/810.png"
+    },
+    {
+      "id": 811,
+      "name": "Thwackey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/811.png"
+    },
+    {
+      "id": 812,
+      "name": "Rillaboom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

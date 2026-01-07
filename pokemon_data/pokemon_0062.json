@@ -46,5 +46,29 @@
     "en": "Poliwrath",
     "es": "Poliwrath",
     "ca": "Poliwrath"
-  }
+  },
+  "evolution": [
+    {
+      "id": 60,
+      "name": "Poliwag",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+    },
+    {
+      "id": 61,
+      "name": "Poliwhirl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+    },
+    {
+      "id": 62,
+      "name": "Poliwrath",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+    },
+    {
+      "id": 186,
+      "name": "Politoed",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/186.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -45,5 +45,19 @@
     "en": "Glameow",
     "es": "Glameow",
     "ca": "Glameow"
-  }
+  },
+  "evolution": [
+    {
+      "id": 431,
+      "name": "Glameow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png"
+    },
+    {
+      "id": 432,
+      "name": "Purugly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

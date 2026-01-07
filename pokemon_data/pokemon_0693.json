@@ -37,5 +37,19 @@
     "en": "Clawitzer",
     "es": "Clawitzer",
     "ca": "Clawitzer"
-  }
+  },
+  "evolution": [
+    {
+      "id": 692,
+      "name": "Clauncher",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png"
+    },
+    {
+      "id": 693,
+      "name": "Clawitzer",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

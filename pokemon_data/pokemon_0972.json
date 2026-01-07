@@ -41,5 +41,19 @@
     "en": "Houndstone",
     "es": "Houndstone",
     "ca": "Houndstone"
-  }
+  },
+  "evolution": [
+    {
+      "id": 971,
+      "name": "Greavard",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png"
+    },
+    {
+      "id": 972,
+      "name": "Houndstone",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -46,5 +46,24 @@
     "en": "Whirlipede",
     "es": "Whirlipede",
     "ca": "Whirlipede"
-  }
+  },
+  "evolution": [
+    {
+      "id": 543,
+      "name": "Venipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png"
+    },
+    {
+      "id": 544,
+      "name": "Whirlipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png"
+    },
+    {
+      "id": 545,
+      "name": "Scolipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

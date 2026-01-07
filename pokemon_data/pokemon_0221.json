@@ -46,5 +46,24 @@
     "en": "Piloswine",
     "es": "Piloswine",
     "ca": "Piloswine"
-  }
+  },
+  "evolution": [
+    {
+      "id": 220,
+      "name": "Swinub",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png"
+    },
+    {
+      "id": 221,
+      "name": "Piloswine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png"
+    },
+    {
+      "id": 473,
+      "name": "Mamoswine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

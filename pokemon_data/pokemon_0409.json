@@ -41,5 +41,19 @@
     "en": "Rampardos",
     "es": "Rampardos",
     "ca": "Rampardos"
-  }
+  },
+  "evolution": [
+    {
+      "id": 408,
+      "name": "Cranidos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png"
+    },
+    {
+      "id": 409,
+      "name": "Rampardos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

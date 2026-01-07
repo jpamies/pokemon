@@ -42,5 +42,24 @@
     "en": "Golbat",
     "es": "Golbat",
     "ca": "Golbat"
-  }
+  },
+  "evolution": [
+    {
+      "id": 41,
+      "name": "Zubat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+    },
+    {
+      "id": 42,
+      "name": "Golbat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+    },
+    {
+      "id": 169,
+      "name": "Crobat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

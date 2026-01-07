@@ -42,5 +42,19 @@
     "en": "Masquerain",
     "es": "Masquerain",
     "ca": "Masquerain"
-  }
+  },
+  "evolution": [
+    {
+      "id": 283,
+      "name": "Surskit",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/283.png"
+    },
+    {
+      "id": 284,
+      "name": "Masquerain",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/284.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

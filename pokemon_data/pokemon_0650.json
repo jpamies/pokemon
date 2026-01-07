@@ -41,5 +41,24 @@
     "en": "Chespin",
     "es": "Chespin",
     "ca": "Chespin"
-  }
+  },
+  "evolution": [
+    {
+      "id": 650,
+      "name": "Chespin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+    },
+    {
+      "id": 651,
+      "name": "Quilladin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+    },
+    {
+      "id": 652,
+      "name": "Chesnaught",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

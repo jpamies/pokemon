@@ -42,5 +42,24 @@
     "en": "Nincada",
     "es": "Nincada",
     "ca": "Nincada"
-  }
+  },
+  "evolution": [
+    {
+      "id": 290,
+      "name": "Nincada",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png"
+    },
+    {
+      "id": 291,
+      "name": "Ninjask",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png"
+    },
+    {
+      "id": 292,
+      "name": "Shedinja",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -46,5 +46,24 @@
     "en": "Pidgey",
     "es": "Pidgey",
     "ca": "Pidgey"
-  }
+  },
+  "evolution": [
+    {
+      "id": 16,
+      "name": "Pidgey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+    },
+    {
+      "id": 17,
+      "name": "Pidgeotto",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+    },
+    {
+      "id": 18,
+      "name": "Pidgeot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

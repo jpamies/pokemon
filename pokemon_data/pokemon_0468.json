@@ -46,5 +46,24 @@
     "en": "Togekiss",
     "es": "Togekiss",
     "ca": "Togekiss"
-  }
+  },
+  "evolution": [
+    {
+      "id": 175,
+      "name": "Togepi",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png"
+    },
+    {
+      "id": 176,
+      "name": "Togetic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png"
+    },
+    {
+      "id": 468,
+      "name": "Togekiss",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

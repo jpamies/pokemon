@@ -41,5 +41,19 @@
     "en": "Grapploct",
     "es": "Grapploct",
     "ca": "Grapploct"
-  }
+  },
+  "evolution": [
+    {
+      "id": 852,
+      "name": "Clobbopus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png"
+    },
+    {
+      "id": 853,
+      "name": "Grapploct",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/853.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

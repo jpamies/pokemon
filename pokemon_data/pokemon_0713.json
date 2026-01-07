@@ -45,5 +45,19 @@
     "en": "Avalugg",
     "es": "Avalugg",
     "ca": "Avalugg"
-  }
+  },
+  "evolution": [
+    {
+      "id": 712,
+      "name": "Bergmite",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png"
+    },
+    {
+      "id": 713,
+      "name": "Avalugg",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

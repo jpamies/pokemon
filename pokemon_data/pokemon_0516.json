@@ -41,5 +41,19 @@
     "en": "Simipour",
     "es": "Simipour",
     "ca": "Simipour"
-  }
+  },
+  "evolution": [
+    {
+      "id": 515,
+      "name": "Panpour",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png"
+    },
+    {
+      "id": 516,
+      "name": "Simipour",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

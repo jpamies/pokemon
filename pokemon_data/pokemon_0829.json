@@ -45,5 +45,19 @@
     "en": "Gossifleur",
     "es": "Gossifleur",
     "ca": "Gossifleur"
-  }
+  },
+  "evolution": [
+    {
+      "id": 829,
+      "name": "Gossifleur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png"
+    },
+    {
+      "id": 830,
+      "name": "Eldegoss",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/830.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

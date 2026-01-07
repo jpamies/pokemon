@@ -46,5 +46,19 @@
     "en": "Lanturn",
     "es": "Lanturn",
     "ca": "Lanturn"
-  }
+  },
+  "evolution": [
+    {
+      "id": 170,
+      "name": "Chinchou",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png"
+    },
+    {
+      "id": 171,
+      "name": "Lanturn",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

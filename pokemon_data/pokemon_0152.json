@@ -41,5 +41,24 @@
     "en": "Chikorita",
     "es": "Chikorita",
     "ca": "Chikorita"
-  }
+  },
+  "evolution": [
+    {
+      "id": 152,
+      "name": "Chikorita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png"
+    },
+    {
+      "id": 153,
+      "name": "Bayleef",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png"
+    },
+    {
+      "id": 154,
+      "name": "Meganium",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

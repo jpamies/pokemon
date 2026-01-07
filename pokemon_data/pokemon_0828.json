@@ -45,5 +45,19 @@
     "en": "Thievul",
     "es": "Thievul",
     "ca": "Thievul"
-  }
+  },
+  "evolution": [
+    {
+      "id": 827,
+      "name": "Nickit",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/827.png"
+    },
+    {
+      "id": 828,
+      "name": "Thievul",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/828.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

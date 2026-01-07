@@ -38,5 +38,8 @@
     "en": "Magearna",
     "es": "Magearna",
     "ca": "Magearna"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

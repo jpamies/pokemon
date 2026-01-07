@@ -45,5 +45,19 @@
     "en": "Growlithe",
     "es": "Growlithe",
     "ca": "Growlithe"
-  }
+  },
+  "evolution": [
+    {
+      "id": 58,
+      "name": "Growlithe",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+    },
+    {
+      "id": 59,
+      "name": "Arcanine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -37,5 +37,24 @@
     "en": "Grubbin",
     "es": "Grubbin",
     "ca": "Grubbin"
-  }
+  },
+  "evolution": [
+    {
+      "id": 736,
+      "name": "Grubbin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png"
+    },
+    {
+      "id": 737,
+      "name": "Charjabug",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png"
+    },
+    {
+      "id": 738,
+      "name": "Vikavolt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

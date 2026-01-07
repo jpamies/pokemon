@@ -41,5 +41,8 @@
     "en": "Regice",
     "es": "Regice",
     "ca": "Regice"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

@@ -41,5 +41,19 @@
     "en": "Fidough",
     "es": "Fidough",
     "ca": "Fidough"
-  }
+  },
+  "evolution": [
+    {
+      "id": 926,
+      "name": "Fidough",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png"
+    },
+    {
+      "id": 927,
+      "name": "Dachsbun",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

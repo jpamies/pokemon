@@ -45,5 +45,19 @@
     "en": "Elgyem",
     "es": "Elgyem",
     "ca": "Elgyem"
-  }
+  },
+  "evolution": [
+    {
+      "id": 605,
+      "name": "Elgyem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png"
+    },
+    {
+      "id": 606,
+      "name": "Beheeyem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -42,5 +42,24 @@
     "en": "Bellsprout",
     "es": "Bellsprout",
     "ca": "Bellsprout"
-  }
+  },
+  "evolution": [
+    {
+      "id": 69,
+      "name": "Bellsprout",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+    },
+    {
+      "id": 70,
+      "name": "Weepinbell",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+    },
+    {
+      "id": 71,
+      "name": "Victreebel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

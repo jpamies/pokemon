@@ -41,5 +41,24 @@
     "en": "Dusknoir",
     "es": "Dusknoir",
     "ca": "Dusknoir"
-  }
+  },
+  "evolution": [
+    {
+      "id": 355,
+      "name": "Duskull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png"
+    },
+    {
+      "id": 356,
+      "name": "Dusclops",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png"
+    },
+    {
+      "id": 477,
+      "name": "Dusknoir",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

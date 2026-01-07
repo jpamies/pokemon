@@ -45,5 +45,19 @@
     "en": "Mightyena",
     "es": "Mightyena",
     "ca": "Mightyena"
-  }
+  },
+  "evolution": [
+    {
+      "id": 261,
+      "name": "Poochyena",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png"
+    },
+    {
+      "id": 262,
+      "name": "Mightyena",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

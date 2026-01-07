@@ -45,5 +45,19 @@
     "en": "Shellos",
     "es": "Shellos",
     "ca": "Shellos"
-  }
+  },
+  "evolution": [
+    {
+      "id": 422,
+      "name": "Shellos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png"
+    },
+    {
+      "id": 423,
+      "name": "Gastrodon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

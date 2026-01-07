@@ -46,5 +46,19 @@
     "en": "Ledyba",
     "es": "Ledyba",
     "ca": "Ledyba"
-  }
+  },
+  "evolution": [
+    {
+      "id": 165,
+      "name": "Ledyba",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/165.png"
+    },
+    {
+      "id": 166,
+      "name": "Ledian",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -37,5 +37,8 @@
     "en": "Shaymin-Land",
     "es": "Shaymin-Land",
     "ca": "Shaymin-Land"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

@@ -46,5 +46,19 @@
     "en": "Shiinotic",
     "es": "Shiinotic",
     "ca": "Shiinotic"
-  }
+  },
+  "evolution": [
+    {
+      "id": 755,
+      "name": "Morelull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png"
+    },
+    {
+      "id": 756,
+      "name": "Shiinotic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

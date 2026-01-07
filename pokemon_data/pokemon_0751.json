@@ -42,5 +42,19 @@
     "en": "Dewpider",
     "es": "Dewpider",
     "ca": "Dewpider"
-  }
+  },
+  "evolution": [
+    {
+      "id": 751,
+      "name": "Dewpider",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png"
+    },
+    {
+      "id": 752,
+      "name": "Araquanid",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/752.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

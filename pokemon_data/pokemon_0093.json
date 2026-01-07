@@ -38,5 +38,24 @@
     "en": "Haunter",
     "es": "Haunter",
     "ca": "Haunter"
-  }
+  },
+  "evolution": [
+    {
+      "id": 92,
+      "name": "Gastly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+    },
+    {
+      "id": 93,
+      "name": "Haunter",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+    },
+    {
+      "id": 94,
+      "name": "Gengar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

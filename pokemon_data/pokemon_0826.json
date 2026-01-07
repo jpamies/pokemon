@@ -46,5 +46,24 @@
     "en": "Orbeetle",
     "es": "Orbeetle",
     "ca": "Orbeetle"
-  }
+  },
+  "evolution": [
+    {
+      "id": 824,
+      "name": "Blipbug",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png"
+    },
+    {
+      "id": 825,
+      "name": "Dottler",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/825.png"
+    },
+    {
+      "id": 826,
+      "name": "Orbeetle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/826.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

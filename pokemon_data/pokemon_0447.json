@@ -45,5 +45,19 @@
     "en": "Riolu",
     "es": "Riolu",
     "ca": "Riolu"
-  }
+  },
+  "evolution": [
+    {
+      "id": 447,
+      "name": "Riolu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png"
+    },
+    {
+      "id": 448,
+      "name": "Lucario",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

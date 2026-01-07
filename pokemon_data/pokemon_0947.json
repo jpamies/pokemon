@@ -42,5 +42,19 @@
     "en": "Brambleghast",
     "es": "Brambleghast",
     "ca": "Brambleghast"
-  }
+  },
+  "evolution": [
+    {
+      "id": 946,
+      "name": "Bramblin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png"
+    },
+    {
+      "id": 947,
+      "name": "Brambleghast",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

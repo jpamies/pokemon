@@ -37,5 +37,8 @@
     "en": "Spectrier",
     "es": "Spectrier",
     "ca": "Spectrier"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

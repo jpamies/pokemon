@@ -41,5 +41,24 @@
     "en": "Frogadier",
     "es": "Frogadier",
     "ca": "Frogadier"
-  }
+  },
+  "evolution": [
+    {
+      "id": 656,
+      "name": "Froakie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+    },
+    {
+      "id": 657,
+      "name": "Frogadier",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+    },
+    {
+      "id": 658,
+      "name": "Greninja",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

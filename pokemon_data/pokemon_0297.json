@@ -45,5 +45,19 @@
     "en": "Hariyama",
     "es": "Hariyama",
     "ca": "Hariyama"
-  }
+  },
+  "evolution": [
+    {
+      "id": 296,
+      "name": "Makuhita",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/296.png"
+    },
+    {
+      "id": 297,
+      "name": "Hariyama",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

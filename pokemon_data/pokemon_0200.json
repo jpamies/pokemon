@@ -37,5 +37,19 @@
     "en": "Misdreavus",
     "es": "Misdreavus",
     "ca": "Misdreavus"
-  }
+  },
+  "evolution": [
+    {
+      "id": 200,
+      "name": "Misdreavus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png"
+    },
+    {
+      "id": 429,
+      "name": "Mismagius",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

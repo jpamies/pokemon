@@ -45,5 +45,19 @@
     "en": "Chewtle",
     "es": "Chewtle",
     "ca": "Chewtle"
-  }
+  },
+  "evolution": [
+    {
+      "id": 833,
+      "name": "Chewtle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/833.png"
+    },
+    {
+      "id": 834,
+      "name": "Drednaw",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/834.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

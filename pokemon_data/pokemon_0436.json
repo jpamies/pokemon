@@ -46,5 +46,19 @@
     "en": "Bronzor",
     "es": "Bronzor",
     "ca": "Bronzor"
-  }
+  },
+  "evolution": [
+    {
+      "id": 436,
+      "name": "Bronzor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png"
+    },
+    {
+      "id": 437,
+      "name": "Bronzong",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

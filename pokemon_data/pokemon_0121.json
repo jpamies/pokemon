@@ -46,5 +46,19 @@
     "en": "Starmie",
     "es": "Starmie",
     "ca": "Starmie"
-  }
+  },
+  "evolution": [
+    {
+      "id": 120,
+      "name": "Staryu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+    },
+    {
+      "id": 121,
+      "name": "Starmie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

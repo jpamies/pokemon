@@ -37,5 +37,8 @@
     "en": "Stonjourner",
     "es": "Stonjourner",
     "ca": "Stonjourner"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
 }

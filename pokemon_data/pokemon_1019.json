@@ -46,5 +46,34 @@
     "en": "Hydrapple",
     "es": "Hydrapple",
     "ca": "Hydrapple"
-  }
+  },
+  "evolution": [
+    {
+      "id": 840,
+      "name": "Applin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png"
+    },
+    {
+      "id": 841,
+      "name": "Flapple",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/841.png"
+    },
+    {
+      "id": 842,
+      "name": "Appletun",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/842.png"
+    },
+    {
+      "id": 1011,
+      "name": "Dipplin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1011.png"
+    },
+    {
+      "id": 1019,
+      "name": "Hydrapple",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1019.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

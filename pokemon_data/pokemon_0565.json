@@ -46,5 +46,19 @@
     "en": "Carracosta",
     "es": "Carracosta",
     "ca": "Carracosta"
-  }
+  },
+  "evolution": [
+    {
+      "id": 564,
+      "name": "Tirtouga",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png"
+    },
+    {
+      "id": 565,
+      "name": "Carracosta",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

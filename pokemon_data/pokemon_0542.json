@@ -46,5 +46,24 @@
     "en": "Leavanny",
     "es": "Leavanny",
     "ca": "Leavanny"
-  }
+  },
+  "evolution": [
+    {
+      "id": 540,
+      "name": "Sewaddle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png"
+    },
+    {
+      "id": 541,
+      "name": "Swadloon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png"
+    },
+    {
+      "id": 542,
+      "name": "Leavanny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

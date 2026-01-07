@@ -38,5 +38,8 @@
     "en": "Jirachi",
     "es": "Jirachi",
     "ca": "Jirachi"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

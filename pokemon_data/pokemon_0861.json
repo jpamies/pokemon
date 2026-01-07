@@ -46,5 +46,24 @@
     "en": "Grimmsnarl",
     "es": "Grimmsnarl",
     "ca": "Grimmsnarl"
-  }
+  },
+  "evolution": [
+    {
+      "id": 859,
+      "name": "Impidimp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png"
+    },
+    {
+      "id": 860,
+      "name": "Morgrem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/860.png"
+    },
+    {
+      "id": 861,
+      "name": "Grimmsnarl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

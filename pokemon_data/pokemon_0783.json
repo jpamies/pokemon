@@ -46,5 +46,24 @@
     "en": "Hakamo-O",
     "es": "Hakamo-O",
     "ca": "Hakamo-O"
-  }
+  },
+  "evolution": [
+    {
+      "id": 782,
+      "name": "Jangmo-O",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png"
+    },
+    {
+      "id": 783,
+      "name": "Hakamo-O",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/783.png"
+    },
+    {
+      "id": 784,
+      "name": "Kommo-O",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

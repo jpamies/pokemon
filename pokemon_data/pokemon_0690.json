@@ -46,5 +46,19 @@
     "en": "Skrelp",
     "es": "Skrelp",
     "ca": "Skrelp"
-  }
+  },
+  "evolution": [
+    {
+      "id": 690,
+      "name": "Skrelp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png"
+    },
+    {
+      "id": 691,
+      "name": "Dragalge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/691.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

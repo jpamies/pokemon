@@ -42,5 +42,19 @@
     "en": "Sandygast",
     "es": "Sandygast",
     "ca": "Sandygast"
-  }
+  },
+  "evolution": [
+    {
+      "id": 769,
+      "name": "Sandygast",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png"
+    },
+    {
+      "id": 770,
+      "name": "Palossand",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

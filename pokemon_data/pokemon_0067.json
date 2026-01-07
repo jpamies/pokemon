@@ -45,5 +45,24 @@
     "en": "Machoke",
     "es": "Machoke",
     "ca": "Machoke"
-  }
+  },
+  "evolution": [
+    {
+      "id": 66,
+      "name": "Machop",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

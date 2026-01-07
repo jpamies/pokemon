@@ -38,5 +38,8 @@
     "en": "Terrakion",
     "es": "Terrakion",
     "ca": "Terrakion"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

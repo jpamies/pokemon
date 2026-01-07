@@ -42,5 +42,19 @@
     "en": "Toedscool",
     "es": "Toedscool",
     "ca": "Toedscool"
-  }
+  },
+  "evolution": [
+    {
+      "id": 948,
+      "name": "Toedscool",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png"
+    },
+    {
+      "id": 949,
+      "name": "Toedscruel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

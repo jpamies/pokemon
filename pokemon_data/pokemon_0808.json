@@ -37,5 +37,8 @@
     "en": "Meltan",
     "es": "Meltan",
     "ca": "Meltan"
-  }
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
 }

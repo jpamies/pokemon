@@ -38,5 +38,8 @@
     "en": "Yveltal",
     "es": "Yveltal",
     "ca": "Yveltal"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

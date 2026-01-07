@@ -41,5 +41,24 @@
     "en": "Fuecoco",
     "es": "Fuecoco",
     "ca": "Fuecoco"
-  }
+  },
+  "evolution": [
+    {
+      "id": 909,
+      "name": "Fuecoco",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png"
+    },
+    {
+      "id": 910,
+      "name": "Crocalor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png"
+    },
+    {
+      "id": 911,
+      "name": "Skeledirge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

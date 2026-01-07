@@ -22,25 +22,6 @@ os.makedirs(DATA_CACHE_DIR, exist_ok=True)
 os.makedirs(IMAGE_CACHE_DIR, exist_ok=True)
 os.makedirs(TRANSLATION_CACHE_DIR, exist_ok=True)
 
-def translate_to_catalan(text):
-    """Translate text to Catalan using translation file"""
-    if not text or text == "Descripció no disponible.":
-        return text
-    
-    # Load translations from file
-    translation_paths = ['../data/catalan_translations.json', 'data/catalan_translations.json']
-    for translations_file in translation_paths:
-        if os.path.exists(translations_file):
-            try:
-                with open(translations_file, 'r', encoding='utf-8') as f:
-                    translations = json.load(f)
-                    return translations.get(text, text)  # Return original if not found
-            except:
-                pass
-    
-    # Fallback: return original text if translation file not found
-    return text
-
 # Try to register fonts that support emojis
 try:
     # Local emoji fonts (downloaded)
@@ -165,6 +146,28 @@ TYPE_COLORS = {
 }
 
 TYPE_ICONS = {
+    'normal': 'normal.png',
+    'fire': 'fire.png',
+    'water': 'water.png',
+    'electric': 'electric.png',
+    'grass': 'grass.png',
+    'ice': 'ice.png',
+    'fighting': 'fighting.png',
+    'poison': 'poison.png',
+    'ground': 'ground.png',
+    'flying': 'flying.png',
+    'psychic': 'psychic.png',
+    'bug': 'bug.png',
+    'rock': 'rock.png',
+    'ghost': 'ghost.png',
+    'dragon': 'dragon.png',
+    'dark': 'dark.png',
+    'steel': 'steel.png',
+    'fairy': 'fairy.png'
+}
+
+# Fallback symbols if images not available
+TYPE_ICONS_FALLBACK = {
     'normal': '●',
     'fire': '♦',
     'water': '♠',
@@ -189,7 +192,38 @@ def fetch_pokemon(pokemon_id):
     """Fetch Pokemon data from API with caching"""
     cache_file = os.path.join(DATA_CACHE_DIR, f'pokemon_{pokemon_id}.json')
     
-    # Try to load from cache first
+    # Try to load from local JSON files first (pokemon_data/)
+    local_file_paths = [
+        f'../pokemon_data/pokemon_{pokemon_id:04d}.json',
+        f'pokemon_data/pokemon_{pokemon_id:04d}.json'
+    ]
+    
+    for local_file in local_file_paths:
+        if os.path.exists(local_file):
+            try:
+                with open(local_file, 'r', encoding='utf-8') as f:
+                    local_data = json.load(f)
+                    # Convert to expected format
+                    pokemon_data = {
+                        'id': local_data['id'],
+                        'name': local_data['name'],
+                        'height': local_data['height'],
+                        'weight': local_data['weight'],
+                        'types': local_data['types'],
+                        'image_url': local_data.get('image_url', f'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{pokemon_id}.png'),
+                        'stats': local_data.get('stats', {}),
+                        'evolution': local_data.get('evolution'),
+                        'color': local_data.get('color', 'unknown'),
+                        'description': local_data.get('descriptions', {}).get('es', 'Descripción no disponible.'),
+                        'description_catalan': local_data.get('descriptions', {}).get('ca', 'Descripció no disponible.'),
+                        'is_legendary': local_data.get('is_legendary', False),
+                        'is_mythical': local_data.get('is_mythical', False)
+                    }
+                    return pokemon_data
+            except Exception as e:
+                print(f"Error loading local file for Pokemon #{pokemon_id}: {e}")
+    
+    # Try to load from cache
     if os.path.exists(cache_file):
         try:
             with open(cache_file, 'r', encoding='utf-8') as f:
@@ -232,20 +266,8 @@ def fetch_pokemon(pokemon_id):
                     description = entry['flavor_text'].replace('\n', ' ').replace('\f', ' ')
                     break
         
-        # Get Catalan translation from file
-        description_catalan = "Descripció no disponible."
-        try:
-            # Try both relative paths depending on execution context
-            translation_paths = ['../data/catalan_translations.json', 'data/catalan_translations.json']
-            for path in translation_paths:
-                if os.path.exists(path):
-                    with open(path, 'r', encoding='utf-8') as f:
-                        translations = json.load(f)
-                        if str(pokemon_id) in translations:
-                            description_catalan = translations[str(pokemon_id)].get('description', 'Descripció no disponible.')
-                    break
-        except Exception as e:
-            pass
+        # Use Spanish description as fallback for description_catalan
+        description_catalan = description
         
         pokemon_data = {
             'id': data['id'],
@@ -458,7 +480,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
             pass
     
     # Description text directly below image (no box) - FULL WIDTH AND UPPERCASE
-    desc_y = img_y - 15
+    desc_y = img_y - 20  # Moved down from -15 to -20 (-5px)
     description = pokemon.get('description_catalan', pokemon.get('description', 'Descripció no disponible.')).upper()  # UPPERCASE
     c.setFillColor(HexColor('#2c3e50'))
     c.setFont("Helvetica", 8)  # Slightly bigger font
@@ -494,22 +516,78 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
     for i, ptype in enumerate(pokemon['types']):
         type_y = types_y - (i * 22)
         type_color = TYPE_COLORS.get(ptype, '#95a5a6')
-        type_icon = TYPE_ICONS.get(ptype, '❓')
+        type_icon_file = TYPE_ICONS.get(ptype, 'unknown.png')
         
-        # Type badge
-        c.setFillColor(HexColor(type_color))
-        c.roundRect(right_x, type_y, 70, 18, 9, fill=1)
+        # Try to use emoji image, fallback to symbol
+        emoji_path = f'../emoji_icons/{type_icon_file}'
+        if not os.path.exists(emoji_path):
+            emoji_path = f'emoji_icons/{type_icon_file}'
         
-        # Type text with symbol - TRANSLATED AND UPPERCASE
-        c.setFillColor(HexColor('#ffffff'))
-        c.setFont("Helvetica-Bold", 8)
-        type_translated = TYPE_TRANSLATIONS.get(ptype, ptype.upper())
-        type_text = f"{type_icon} {type_translated}"
-        c.drawString(right_x + 5, type_y + 5, type_text)
+        if os.path.exists(emoji_path):
+            try:
+                # Draw emoji image with transparency support (no badge background)
+                c.drawImage(emoji_path, right_x + 3, type_y + 1, width=16, height=16, mask='auto')
+                # Type text without symbol - TRANSLATED AND UPPERCASE
+                c.setFillColor(HexColor('#000000'))  # Black text for better contrast
+                c.setFont("Helvetica-Bold", 8)
+                type_translated = TYPE_TRANSLATIONS.get(ptype, ptype.upper())
+                c.drawString(right_x + 22, type_y + 5, type_translated)
+            except Exception as e:
+                # Fallback to symbol with badge if image fails
+                c.setFillColor(HexColor(type_color))
+                c.roundRect(right_x, type_y, 70, 18, 9, fill=1)
+                type_icon_fallback = TYPE_ICONS_FALLBACK.get(ptype, '❓')
+                c.setFillColor(HexColor('#ffffff'))
+                c.setFont("Helvetica-Bold", 8)
+                type_translated = TYPE_TRANSLATIONS.get(ptype, ptype.upper())
+                type_text = f"{type_icon_fallback} {type_translated}"
+                c.drawString(right_x + 5, type_y + 5, type_text)
+        else:
+            # Fallback to symbol with badge if no image
+            c.setFillColor(HexColor(type_color))
+            c.roundRect(right_x, type_y, 70, 18, 9, fill=1)
+            type_icon_fallback = TYPE_ICONS_FALLBACK.get(ptype, '❓')
+            c.setFillColor(HexColor('#ffffff'))
+            c.setFont("Helvetica-Bold", 8)
+            type_translated = TYPE_TRANSLATIONS.get(ptype, ptype.upper())
+            type_text = f"{type_icon_fallback} {type_translated}"
+            c.drawString(right_x + 5, type_y + 5, type_text)
     
-    # Check if legendary/mythical (simplified check by ID ranges)
-    is_legendary = pokemon['id'] in [144, 145, 146, 150, 151]  # Some Gen 1 legendaries
-    is_mythical = pokemon['id'] in [151]  # Mew
+    # Special status badges (legendary/mythical)
+    special_y = types_y - (len(pokemon['types']) * 22)
+    
+    if pokemon.get('is_legendary', False):
+        # Legendary badge with emoji icon
+        legendary_icon = os.path.join(os.path.dirname(__file__), '..', 'emoji_icons', 'legendary.png')
+        if os.path.exists(legendary_icon):
+            c.drawImage(legendary_icon, right_x + 3, special_y + 1, width=16, height=16, mask='auto')
+            c.setFillColor(HexColor('#000000'))  # Black text
+            c.setFont("Helvetica-Bold", 8)
+            c.drawString(right_x + 22, special_y + 5, "LLEGENDARI")
+        else:
+            # Fallback with badge
+            c.setFillColor(HexColor('#B8860B'))
+            c.roundRect(right_x, special_y, 70, 18, 9, fill=1)
+            c.setFillColor(HexColor('#ffffff'))
+            c.setFont("Helvetica-Bold", 8)
+            c.drawString(right_x + 5, special_y + 5, "⭐ LLEGENDARI")
+        special_y -= 22
+    
+    if pokemon.get('is_mythical', False):
+        # Mythical badge with emoji icon
+        mythical_icon = os.path.join(os.path.dirname(__file__), '..', 'emoji_icons', 'mythical.png')
+        if os.path.exists(mythical_icon):
+            c.drawImage(mythical_icon, right_x + 3, special_y + 1, width=16, height=16, mask='auto')
+            c.setFillColor(HexColor('#000000'))  # Black text
+            c.setFont("Helvetica-Bold", 8)
+            c.drawString(right_x + 22, special_y + 5, "MÍTIC")
+        else:
+            # Fallback with badge
+            c.setFillColor(HexColor('#C0C0C0'))
+            c.roundRect(right_x, special_y, 70, 18, 9, fill=1)
+            c.setFillColor(HexColor('#000000'))
+            c.setFont("Helvetica-Bold", 8)
+            c.drawString(right_x + 5, special_y + 5, "✨ MÍTIC")
     
     # Remove special badges section - more space for description
     
@@ -520,47 +598,137 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
     if pokemon.get('evolution'):
         evo_chain = pokemon['evolution']
         
-        # Evolution section (bottom area) - NO BACKGROUND BOX
-        # Evolution chain at the bottom without visual separation
-        evo_y = y + 20  # Moved from y + 55 to y + 20
-        total_width = len(evo_chain) * 40 - 5  # Even more spacing between evolutions
-        start_x = x + (card_width - total_width) // 2
-        evo_x = start_x
+        # Evolution section - positioned at the very bottom of the card
+        evo_y = y + 15  # Moved up from y + 5 to y + 15 (+10px)
         
-        for i, evo_pokemon in enumerate(evo_chain):
-            if i > 0:  # Draw arrow between evolutions
-                c.setFillColor(HexColor('#7f8c8d'))
-                c.setFont("Helvetica", 7)
-                c.drawString(evo_x - 10, evo_y + 10, "→")
+        # Two-row layout for long chains (>6 evolutions)
+        if len(evo_chain) > 6:
+            # Split into two rows
+            mid_point = (len(evo_chain) + 1) // 2
+            first_row = evo_chain[:mid_point]
+            second_row = evo_chain[mid_point:]
             
-            # Download and draw evolution image
-            try:
-                evo_image = download_image(evo_pokemon['image_url'])
-                if evo_image:
-                    img_size = 22  # Bigger images
-                    c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size)
-                    
-                    # Pokemon name below image - SAME SIZE FOR ALL
-                    name = evo_pokemon['name'].upper()
-                    c.setFont("Helvetica", 5)  # Same font size for all
-                    c.setFillColor(HexColor('#2c3e50'))
-                    name_width = c.stringWidth(name, "Helvetica", 5)
-                    
-                    # Center name under image
-                    name_x = evo_x + (img_size - name_width) // 2
-                    c.drawString(name_x, evo_y - 12, name)
-                    
-                    # Highlight current Pokemon
-                    if evo_pokemon['id'] == pokemon['id']:
-                        c.setStrokeColor(HexColor('#e74c3c'))
-                        c.setLineWidth(2)
-                        c.rect(evo_x - 1, evo_y - 1, img_size + 2, img_size + 2)
-                        c.setStrokeColor(HexColor('#2c3e50'))
-                        c.setLineWidth(1)
-            except:
-                pass
+            spacing = 35
+            img_size = 20
+            font_size = 4
+            row_height = 31  # Increased from 30 to 31 (+1px between rows)
             
-            evo_x += 40  # Even more space between evolutions
+            # Draw first row
+            total_width = len(first_row) * spacing - 5
+            start_x = x + (card_width - total_width) // 2
+            evo_x = start_x
+            
+            for i, evo_pokemon in enumerate(first_row):
+                if i > 0:
+                    c.setFillColor(HexColor('#7f8c8d'))
+                    c.setFont("Helvetica", 6)
+                    c.drawString(evo_x - 8, evo_y + row_height + 8, "→")
+                
+                try:
+                    evo_image = download_image(evo_pokemon['image_url'])
+                    if evo_image:
+                        c.drawImage(evo_image, evo_x, evo_y + row_height, width=img_size, height=img_size)
+                        
+                        name = evo_pokemon['name'].upper()
+                        c.setFont("Helvetica", font_size)
+                        c.setFillColor(HexColor('#2c3e50'))
+                        name_width = c.stringWidth(name, "Helvetica", font_size)
+                        name_x = evo_x + (img_size - name_width) // 2
+                        c.drawString(name_x, evo_y + row_height - 7, name)  # Separated 1px more (-7 instead of -6)
+                        
+                        if evo_pokemon['id'] == pokemon['id']:
+                            c.setStrokeColor(HexColor('#e74c3c'))
+                            c.setLineWidth(2)
+                            c.rect(evo_x - 1, evo_y + row_height - 1, img_size + 2, img_size + 2)
+                            c.setStrokeColor(HexColor('#2c3e50'))
+                            c.setLineWidth(1)
+                except:
+                    pass
+                
+                evo_x += spacing
+            
+            # Draw second row
+            total_width = len(second_row) * spacing - 5
+            start_x = x + (card_width - total_width) // 2
+            evo_x = start_x
+            
+            for i, evo_pokemon in enumerate(second_row):
+                if i > 0:
+                    c.setFillColor(HexColor('#7f8c8d'))
+                    c.setFont("Helvetica", 6)
+                    c.drawString(evo_x - 8, evo_y + 8, "→")
+                
+                try:
+                    evo_image = download_image(evo_pokemon['image_url'])
+                    if evo_image:
+                        c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size)
+                        
+                        name = evo_pokemon['name'].upper()
+                        c.setFont("Helvetica", font_size)
+                        c.setFillColor(HexColor('#2c3e50'))
+                        name_width = c.stringWidth(name, "Helvetica", font_size)
+                        name_x = evo_x + (img_size - name_width) // 2
+                        c.drawString(name_x, evo_y - 7, name)  # Separated 1px more (-7 instead of -6)
+                        
+                        if evo_pokemon['id'] == pokemon['id']:
+                            c.setStrokeColor(HexColor('#e74c3c'))
+                            c.setLineWidth(2)
+                            c.rect(evo_x - 1, evo_y - 1, img_size + 2, img_size + 2)
+                            c.setStrokeColor(HexColor('#2c3e50'))
+                            c.setLineWidth(1)
+                except:
+                    pass
+                
+                evo_x += spacing
+        
+        else:
+            # Single row layout for shorter chains
+            # Adaptive spacing based on number of evolutions
+            if len(evo_chain) <= 3:
+                spacing = 40
+                img_size = 22
+                font_size = 5
+            elif len(evo_chain) <= 5:
+                spacing = 32
+                img_size = 20
+                font_size = 4
+            else:
+                spacing = 28
+                img_size = 18
+                font_size = 4
+            
+            total_width = len(evo_chain) * spacing - 5
+            start_x = x + (card_width - total_width) // 2
+            evo_x = start_x
+            
+            for i, evo_pokemon in enumerate(evo_chain):
+                if i > 0:
+                    c.setFillColor(HexColor('#7f8c8d'))
+                    c.setFont("Helvetica", 6)
+                    c.drawString(evo_x - 8, evo_y + 8, "→")
+                
+                try:
+                    evo_image = download_image(evo_pokemon['image_url'])
+                    if evo_image:
+                        c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size)
+                        
+                        name = evo_pokemon['name'].upper()
+                        c.setFont("Helvetica", font_size)
+                        c.setFillColor(HexColor('#2c3e50'))
+                        name_width = c.stringWidth(name, "Helvetica", font_size)
+                        name_x = evo_x + (img_size - name_width) // 2
+                        c.drawString(name_x, evo_y - 7, name)  # Separated 1px more (-7 instead of -6)
+                        
+                        if evo_pokemon['id'] == pokemon['id']:
+                            c.setStrokeColor(HexColor('#e74c3c'))
+                            c.setLineWidth(2)
+                            c.rect(evo_x - 1, evo_y - 1, img_size + 2, img_size + 2)
+                            c.setStrokeColor(HexColor('#2c3e50'))
+                            c.setLineWidth(1)
+                except:
+                    pass
+                
+                evo_x += spacing
     
     # Stats section with stars (below evolution) - IN CATALAN
     # Statistics section removed to give more space for description
@@ -611,8 +779,8 @@ def generate_pokemon_pdf(pokemon_list, filename, subtitle="151 Pokémon"):
     page_width, page_height = landscape(A4)
     
     # Card dimensions - increased height for better use of space
-    card_width = 190
-    card_height = 260  # Increased from 220 to 260
+    card_width = 190  # Restored to original width
+    card_height = 260  # Set to 260px as requested
     cards_per_row = 4
     cards_per_col = 2
     cards_per_page = cards_per_row * cards_per_col

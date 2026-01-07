@@ -42,5 +42,29 @@
     "en": "Gloom",
     "es": "Gloom",
     "ca": "Gloom"
-  }
+  },
+  "evolution": [
+    {
+      "id": 43,
+      "name": "Oddish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+    },
+    {
+      "id": 44,
+      "name": "Gloom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+    },
+    {
+      "id": 45,
+      "name": "Vileplume",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+    },
+    {
+      "id": 182,
+      "name": "Bellossom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

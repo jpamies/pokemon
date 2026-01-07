@@ -45,5 +45,19 @@
     "en": "Ponyta",
     "es": "Ponyta",
     "ca": "Ponyta"
-  }
+  },
+  "evolution": [
+    {
+      "id": 77,
+      "name": "Ponyta",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+    },
+    {
+      "id": 78,
+      "name": "Rapidash",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

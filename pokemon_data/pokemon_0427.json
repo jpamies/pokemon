@@ -45,5 +45,19 @@
     "en": "Buneary",
     "es": "Buneary",
     "ca": "Buneary"
-  }
+  },
+  "evolution": [
+    {
+      "id": 427,
+      "name": "Buneary",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png"
+    },
+    {
+      "id": 428,
+      "name": "Lopunny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

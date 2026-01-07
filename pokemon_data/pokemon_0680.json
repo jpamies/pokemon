@@ -38,5 +38,24 @@
     "en": "Doublade",
     "es": "Doublade",
     "ca": "Doublade"
-  }
+  },
+  "evolution": [
+    {
+      "id": 679,
+      "name": "Honedge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png"
+    },
+    {
+      "id": 680,
+      "name": "Doublade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+    },
+    {
+      "id": 681,
+      "name": "Aegislash",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

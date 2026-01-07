@@ -42,5 +42,19 @@
     "en": "Armaldo",
     "es": "Armaldo",
     "ca": "Armaldo"
-  }
+  },
+  "evolution": [
+    {
+      "id": 347,
+      "name": "Anorith",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png"
+    },
+    {
+      "id": 348,
+      "name": "Armaldo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

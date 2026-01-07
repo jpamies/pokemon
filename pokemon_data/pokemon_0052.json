@@ -45,5 +45,24 @@
     "en": "Meowth",
     "es": "Meowth",
     "ca": "Meowth"
-  }
+  },
+  "evolution": [
+    {
+      "id": 52,
+      "name": "Meowth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+    },
+    {
+      "id": 53,
+      "name": "Persian",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+    },
+    {
+      "id": 863,
+      "name": "Perrserker",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

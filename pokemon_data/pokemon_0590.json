@@ -42,5 +42,19 @@
     "en": "Foongus",
     "es": "Foongus",
     "ca": "Foongus"
-  }
+  },
+  "evolution": [
+    {
+      "id": 590,
+      "name": "Foongus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png"
+    },
+    {
+      "id": 591,
+      "name": "Amoonguss",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

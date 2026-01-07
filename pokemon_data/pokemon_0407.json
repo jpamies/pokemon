@@ -46,5 +46,24 @@
     "en": "Roserade",
     "es": "Roserade",
     "ca": "Roserade"
-  }
+  },
+  "evolution": [
+    {
+      "id": 406,
+      "name": "Budew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png"
+    },
+    {
+      "id": 315,
+      "name": "Roselia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png"
+    },
+    {
+      "id": 407,
+      "name": "Roserade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

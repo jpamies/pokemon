@@ -42,5 +42,24 @@
     "en": "Bulbasaur",
     "es": "Bulbasaur",
     "ca": "Bulbasaur"
-  }
+  },
+  "evolution": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

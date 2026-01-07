@@ -45,5 +45,19 @@
     "en": "Basculin-Red-Striped",
     "es": "Basculin-Red-Striped",
     "ca": "Basculin-Red-Striped"
-  }
+  },
+  "evolution": [
+    {
+      "id": 550,
+      "name": "Basculin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png"
+    },
+    {
+      "id": 902,
+      "name": "Basculegion",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

@@ -38,5 +38,19 @@
     "en": "Archen",
     "es": "Archen",
     "ca": "Archen"
-  }
+  },
+  "evolution": [
+    {
+      "id": 566,
+      "name": "Archen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png"
+    },
+    {
+      "id": 567,
+      "name": "Archeops",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

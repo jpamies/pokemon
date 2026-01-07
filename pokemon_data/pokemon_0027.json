@@ -41,5 +41,19 @@
     "en": "Sandshrew",
     "es": "Sandshrew",
     "ca": "Sandshrew"
-  }
+  },
+  "evolution": [
+    {
+      "id": 27,
+      "name": "Sandshrew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+    },
+    {
+      "id": 28,
+      "name": "Sandslash",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

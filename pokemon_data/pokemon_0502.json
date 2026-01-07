@@ -41,5 +41,24 @@
     "en": "Dewott",
     "es": "Dewott",
     "ca": "Dewott"
-  }
+  },
+  "evolution": [
+    {
+      "id": 501,
+      "name": "Oshawott",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png"
+    },
+    {
+      "id": 502,
+      "name": "Dewott",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png"
+    },
+    {
+      "id": 503,
+      "name": "Samurott",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

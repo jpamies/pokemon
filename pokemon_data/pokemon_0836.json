@@ -41,5 +41,19 @@
     "en": "Boltund",
     "es": "Boltund",
     "ca": "Boltund"
-  }
+  },
+  "evolution": [
+    {
+      "id": 835,
+      "name": "Yamper",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png"
+    },
+    {
+      "id": 836,
+      "name": "Boltund",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/836.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

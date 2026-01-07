@@ -45,5 +45,19 @@
     "en": "Shelmet",
     "es": "Shelmet",
     "ca": "Shelmet"
-  }
+  },
+  "evolution": [
+    {
+      "id": 616,
+      "name": "Shelmet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png"
+    },
+    {
+      "id": 617,
+      "name": "Accelgor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

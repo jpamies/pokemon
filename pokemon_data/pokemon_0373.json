@@ -42,5 +42,24 @@
     "en": "Salamence",
     "es": "Salamence",
     "ca": "Salamence"
-  }
+  },
+  "evolution": [
+    {
+      "id": 371,
+      "name": "Bagon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png"
+    },
+    {
+      "id": 372,
+      "name": "Shelgon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png"
+    },
+    {
+      "id": 373,
+      "name": "Salamence",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

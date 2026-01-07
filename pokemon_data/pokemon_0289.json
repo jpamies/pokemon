@@ -37,5 +37,24 @@
     "en": "Slaking",
     "es": "Slaking",
     "ca": "Slaking"
-  }
+  },
+  "evolution": [
+    {
+      "id": 287,
+      "name": "Slakoth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png"
+    },
+    {
+      "id": 288,
+      "name": "Vigoroth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png"
+    },
+    {
+      "id": 289,
+      "name": "Slaking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

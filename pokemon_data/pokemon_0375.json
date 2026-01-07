@@ -42,5 +42,24 @@
     "en": "Metang",
     "es": "Metang",
     "ca": "Metang"
-  }
+  },
+  "evolution": [
+    {
+      "id": 374,
+      "name": "Beldum",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png"
+    },
+    {
+      "id": 375,
+      "name": "Metang",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png"
+    },
+    {
+      "id": 376,
+      "name": "Metagross",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }

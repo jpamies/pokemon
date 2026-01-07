@@ -42,5 +42,8 @@
     "en": "Ho-Oh",
     "es": "Ho-Oh",
     "ca": "Ho-Oh"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

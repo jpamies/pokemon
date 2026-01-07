@@ -37,5 +37,8 @@
     "en": "Azelf",
     "es": "Azelf",
     "ca": "Azelf"
-  }
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
 }

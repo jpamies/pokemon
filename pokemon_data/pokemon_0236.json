@@ -45,5 +45,29 @@
     "en": "Tyrogue",
     "es": "Tyrogue",
     "ca": "Tyrogue"
-  }
+  },
+  "evolution": [
+    {
+      "id": 236,
+      "name": "Tyrogue",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png"
+    },
+    {
+      "id": 106,
+      "name": "Hitmonlee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
+    },
+    {
+      "id": 107,
+      "name": "Hitmonchan",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
+    },
+    {
+      "id": 237,
+      "name": "Hitmontop",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
 }
