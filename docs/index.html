@@ -5,147 +5,247 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📚 Centre de Descàrregues - Guia Pokémon</title>
     <meta name="description" content="Descàrrega PDFs educatius de Pokémon en català">
+    <link rel="stylesheet" href="../css/styles.css">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #333;
-            min-height: 100vh;
-        }
-        .container {
+        /* Adaptaciones específicas para el centro de descargas */
+        .docs-container {
             max-width: 1200px;
             margin: 0 auto;
-            background: white;
-            border-radius: 15px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
         }
-        h1 {
+        
+        .docs-header {
             text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .docs-title {
+            font-size: 3em;
+            font-weight: bold;
             color: #2c3e50;
             margin-bottom: 10px;
-            font-size: 2.5em;
+            text-transform: uppercase;
         }
-        .subtitle {
-            text-align: center;
+        
+        .docs-subtitle {
+            font-size: 1.3em;
             color: #7f8c8d;
             margin-bottom: 30px;
-            font-size: 1.2em;
         }
-        .nav-links {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .nav-links a {
-            display: inline-block;
-            margin: 0 15px;
-            padding: 12px 24px;
-            background: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        .nav-links a:hover {
-            background: #2980b9;
-            transform: translateY(-2px);
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .section h2 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        .pdf-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        .pdf-card {
-            background: #f8f9fa;
-            border: 1px solid #e9ecef;
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-            transition: all 0.3s ease;
-        }
-        .pdf-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        .pdf-card h3 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        .pdf-card p {
-            color: #6c757d;
-            margin-bottom: 15px;
-        }
-        .download-links {
+        
+        .nav-controls {
             display: flex;
-            gap: 10px;
             justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
         }
-        .download-btn {
-            padding: 8px 16px;
-            background: #28a745;
-            color: white;
+        
+        .nav-btn {
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 3px solid #4a90e2;
+            border-radius: 15px;
+            background: white;
+            color: #4a90e2;
             text-decoration: none;
-            border-radius: 5px;
-            font-size: 0.9em;
-            transition: background 0.3s ease;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
         }
-        .download-btn:hover {
-            background: #218838;
+        
+        .nav-btn:hover {
+            background: #4a90e2;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(74, 144, 226, 0.3);
         }
-        .complete-section {
-            background: #e8f5e8;
-            border-radius: 10px;
-            padding: 25px;
-            margin-bottom: 30px;
-        }
-        .stats {
+        
+        .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.8);
+            border: 3px solid #e3f2fd;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-color: #4a90e2;
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #4a90e2;
+            text-transform: uppercase;
+        }
+        
+        .stat-label {
+            font-size: 1.1em;
+            color: #666;
+            margin-top: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .section-title {
+            font-size: 2em;
+            color: #2c3e50;
+            text-align: center;
+            margin: 50px 0 30px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .complete-section {
+            background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+            border: 3px solid #4caf50;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .pdf-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
             margin: 30px 0;
         }
-        .stat-card {
-            background: #f1f3f4;
-            padding: 20px;
-            border-radius: 10px;
+        
+        .pdf-card {
+            background: rgba(255, 255, 255, 0.9);
+            border: 3px solid #e3f2fd;
+            border-radius: 15px;
+            padding: 25px;
             text-align: center;
+            transition: all 0.3s ease;
         }
-        .stat-number {
-            font-size: 2em;
+        
+        .pdf-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            border-color: #4a90e2;
+        }
+        
+        .pdf-card h3 {
+            font-size: 1.4em;
+            color: #2c3e50;
+            margin-bottom: 15px;
             font-weight: bold;
-            color: #3498db;
+            text-transform: uppercase;
         }
-        .stat-label {
-            color: #6c757d;
-            margin-top: 5px;
+        
+        .pdf-card p {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        
+        .download-links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .download-btn {
+            padding: 12px 20px;
+            background: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+        
+        .download-btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(76, 175, 80, 0.3);
+        }
+        
+        .info-section {
+            background: rgba(255, 255, 255, 0.8);
+            border: 3px solid #e3f2fd;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+        }
+        
+        .info-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .info-section p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        
+        .links-section a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .links-section a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .docs-container {
+                margin: 10px;
+                padding: 20px;
+            }
+            
+            .docs-title {
+                font-size: 2em;
+            }
+            
+            .nav-controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .pdf-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>📚 Centre de Descàrregues</h1>
-        <p class="subtitle">Guies Pokémon educatives en català - PDFs per imprimir</p>
+    <div class="docs-container">
+        <div class="docs-header">
+            <h1 class="docs-title">📚 Centre de Descàrregues</h1>
+            <p class="docs-subtitle">Guies Pokémon educatives en català - PDFs per imprimir</p>
+        </div>
         
-        <div class="nav-links">
-            <a href="../">🏠 Aplicació Web</a>
-            <a href="https://github.com/jpamies/pokemon">📂 Repositori GitHub</a>
+        <div class="nav-controls">
+            <a href="../" class="nav-btn">🏠 Aplicació Web</a>
+            <a href="https://github.com/jpamies/pokemon" class="nav-btn">📂 Repositori GitHub</a>
         </div>
 
-        <div class="stats">
+        <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-number">1,025</div>
                 <div class="stat-label">Pokémon Complerts</div>
@@ -164,8 +264,8 @@
             </div>
         </div>
 
-        <div class="section complete-section">
-            <h2>🌟 Guies Completes (Recomanat)</h2>
+        <div class="complete-section">
+            <h2 class="section-title">🌟 Guies Completes (Recomanat)</h2>
             <div class="pdf-grid">
                 <div class="pdf-card">
                     <h3>📥 Guia Completa per ID</h3>
@@ -184,85 +284,83 @@
             </div>
         </div>
 
-        <div class="section">
-            <h2>📖 PDFs per Generació</h2>
-            <div class="pdf-grid">
-                <div class="pdf-card">
-                    <h3>Gen I - Kanto</h3>
-                    <p>#1-151 • Regió de Kanto</p>
-                    <div class="download-links">
-                        <a href="pdf/gen1_kanto_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/gen1_kanto_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+        <h2 class="section-title">📖 PDFs per Generació</h2>
+        <div class="pdf-grid">
+            <div class="pdf-card">
+                <h3>Gen I - Kanto</h3>
+                <p>#1-151 • Regió de Kanto</p>
+                <div class="download-links">
+                    <a href="pdf/gen1_kanto_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/gen1_kanto_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
-                <div class="pdf-card">
-                    <h3>Gen II - Johto</h3>
-                    <p>#152-251 • Regió de Johto</p>
-                    <div class="download-links">
-                        <a href="pdf/ii_johto_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/ii_johto_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+            </div>
+            <div class="pdf-card">
+                <h3>Gen II - Johto</h3>
+                <p>#152-251 • Regió de Johto</p>
+                <div class="download-links">
+                    <a href="pdf/ii_johto_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/ii_johto_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
-                <div class="pdf-card">
-                    <h3>Gen III - Hoenn</h3>
-                    <p>#252-386 • Regió de Hoenn</p>
-                    <div class="download-links">
-                        <a href="pdf/iii_hoenn_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/iii_hoenn_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+            </div>
+            <div class="pdf-card">
+                <h3>Gen III - Hoenn</h3>
+                <p>#252-386 • Regió de Hoenn</p>
+                <div class="download-links">
+                    <a href="pdf/iii_hoenn_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/iii_hoenn_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
-                <div class="pdf-card">
-                    <h3>Gen IV - Sinnoh</h3>
-                    <p>#387-493 • Regió de Sinnoh</p>
-                    <div class="download-links">
-                        <a href="pdf/iv_sinnoh_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/iv_sinnoh_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+            </div>
+            <div class="pdf-card">
+                <h3>Gen IV - Sinnoh</h3>
+                <p>#387-493 • Regió de Sinnoh</p>
+                <div class="download-links">
+                    <a href="pdf/iv_sinnoh_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/iv_sinnoh_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
-                <div class="pdf-card">
-                    <h3>Gen V - Unova</h3>
-                    <p>#494-649 • Regió d'Unova</p>
-                    <div class="download-links">
-                        <a href="pdf/v_unova_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/v_unova_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+            </div>
+            <div class="pdf-card">
+                <h3>Gen V - Unova</h3>
+                <p>#494-649 • Regió d'Unova</p>
+                <div class="download-links">
+                    <a href="pdf/v_unova_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/v_unova_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
-                <div class="pdf-card">
-                    <h3>Gen VI - Kalos</h3>
-                    <p>#650-721 • Regió de Kalos</p>
-                    <div class="download-links">
-                        <a href="pdf/vi_kalos_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/vi_kalos_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+            </div>
+            <div class="pdf-card">
+                <h3>Gen VI - Kalos</h3>
+                <p>#650-721 • Regió de Kalos</p>
+                <div class="download-links">
+                    <a href="pdf/vi_kalos_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/vi_kalos_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
-                <div class="pdf-card">
-                    <h3>Gen VII - Alola</h3>
-                    <p>#722-809 • Regió d'Alola</p>
-                    <div class="download-links">
-                        <a href="pdf/vii_alola_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/vii_alola_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+            </div>
+            <div class="pdf-card">
+                <h3>Gen VII - Alola</h3>
+                <p>#722-809 • Regió d'Alola</p>
+                <div class="download-links">
+                    <a href="pdf/vii_alola_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/vii_alola_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
-                <div class="pdf-card">
-                    <h3>Gen VIII - Galar</h3>
-                    <p>#810-905 • Regió de Galar</p>
-                    <div class="download-links">
-                        <a href="pdf/viii_galar_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/viii_galar_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+            </div>
+            <div class="pdf-card">
+                <h3>Gen VIII - Galar</h3>
+                <p>#810-905 • Regió de Galar</p>
+                <div class="download-links">
+                    <a href="pdf/viii_galar_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/viii_galar_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
-                <div class="pdf-card">
-                    <h3>Gen IX - Paldea</h3>
-                    <p>#906-1025 • Regió de Paldea</p>
-                    <div class="download-links">
-                        <a href="pdf/ix_paldea_by_id.pdf" class="download-btn">Per ID</a>
-                        <a href="pdf/ix_paldea_by_color.pdf" class="download-btn">Per Color</a>
-                    </div>
+            </div>
+            <div class="pdf-card">
+                <h3>Gen IX - Paldea</h3>
+                <p>#906-1025 • Regió de Paldea</p>
+                <div class="download-links">
+                    <a href="pdf/ix_paldea_by_id.pdf" class="download-btn">Per ID</a>
+                    <a href="pdf/ix_paldea_by_color.pdf" class="download-btn">Per Color</a>
                 </div>
             </div>
         </div>
 
-        <div class="section">
+        <div class="info-section">
             <h2>ℹ️ Informació</h2>
             <p><strong>Format:</strong> Cartes horitzontals optimitzades per impressió A4</p>
             <p><strong>Contingut:</strong> Imatges oficials, noms, tipus, mides i descripcions completes</p>
@@ -270,12 +368,12 @@
             <p><strong>Ús:</strong> Material educatiu per a pares, educadors i nens catalanoparlants</p>
         </div>
 
-        <div class="section">
+        <div class="info-section links-section">
             <h2>🔗 Enllaços Útils</h2>
             <p>
-                <a href="../" style="color: #3498db;">🌐 Aplicació Web Interactiva</a> • 
-                <a href="https://github.com/jpamies/pokemon" style="color: #3498db;">📂 Codi Font</a> • 
-                <a href="https://pokeapi.co/" style="color: #3498db;">🔗 PokeAPI</a>
+                <a href="../">🌐 Aplicació Web Interactiva</a> • 
+                <a href="https://github.com/jpamies/pokemon">📂 Codi Font</a> • 
+                <a href="https://pokeapi.co/">🔗 PokeAPI</a>
             </p>
         </div>
     </div>
