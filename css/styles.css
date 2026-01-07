@@ -397,7 +397,6 @@ main {
     border-radius: 6px;
     overflow: hidden;
     position: relative;
-    max-width: 120px;
 }
 
 .stat-fill {
@@ -491,7 +490,6 @@ main {
     }
     
     .stat-bar {
-        max-width: 100px;
         height: 10px;
     }
     
