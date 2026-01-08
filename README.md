@@ -121,8 +121,7 @@ pokemon/
 │   └── cache/            # Cache de datos e imágenes
 │
 └── 📚 Documentación
-    ├── README.md         # Esta documentación
-    └── TECHNICAL_DOCS.md # Documentación técnica
+    └── README.md         # Esta documentación
 ```
 
 ## 📊 Estadísticas del Proyecto
@@ -171,7 +170,7 @@ Este proyecto está bajo la **Licencia MIT**. Ver el archivo `LICENSE` para más
 
 <div align="center">
 
-**[🌐 Ver Aplicación](https://jpamies.github.io/pokemon/) • [📚 Descargar PDFs](https://jpamies.github.io/pokemon/docs/) • [📖 Documentación Técnica](TECHNICAL_DOCS.md)**
+**[🌐 Ver Aplicación](https://jpamies.github.io/pokemon/) • [📚 Descargar PDFs](https://jpamies.github.io/pokemon/docs/)**
 
 *Hecho con ❤️ para la comunidad educativa catalanohablante*
 
