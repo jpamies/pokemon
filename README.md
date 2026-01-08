@@ -68,22 +68,37 @@ Una aplicación web estática diseñada específicamente para ayudar a los niño
 ```bash
 git clone https://github.com/jpamies/pokemon.git
 cd pokemon
-python -m http.server 8000
+make serve
 ```
 
-### Generación de PDFs
+### Comandos Disponibles
 ```bash
+# Ver todos los comandos disponibles
+make help
+
 # Generar todos los PDFs
-python main.py all
+make all
 
-# Solo PDFs por generaciones
-python main.py generations
+# Solo PDFs por generaciones (I-IX)
+make generations
 
-# Solo PDFs completos
-python main.py complete
+# Solo PDFs completos (1,025 Pokémon)
+make complete
 
-# Regenerar cache
-python main.py cache
+# Regenerar cache de datos e imágenes
+make cache
+
+# Optimizar imágenes para PDFs más pequeños
+make optimize
+
+# Servir aplicación web localmente
+make serve
+
+# Limpiar archivos temporales
+make clean
+
+# Verificar integridad de datos
+make test
 ```
 
 ### Estructura del Proyecto
