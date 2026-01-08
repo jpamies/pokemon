@@ -130,7 +130,7 @@ class DocsI18n {
         
         // Update generation cards
         const cards = document.querySelectorAll('.pdf-card');
-        const langSuffix = this.currentLanguage;
+        const langSuffix = this.currentLanguage === 'ca' ? '' : `_${this.currentLanguage}`;
         const generations = ['i_kanto', 'ii_johto', 'iii_hoenn', 'iv_sinnoh', 'v_unova', 'vi_kalos', 'vii_alola', 'viii_galar', 'ix_paldea'];
         
         cards.forEach((card, index) => {
@@ -141,11 +141,11 @@ class DocsI18n {
                 const links = card.querySelectorAll('.pdf-link');
                 if (links[0]) {
                     links[0].innerHTML = `📥 ${t.buttons.byId}`;
-                    links[0].href = `pdf/${generations[index]}_by_id_${langSuffix}.pdf`;
+                    links[0].href = `pdf/${generations[index]}_by_id${langSuffix}.pdf`;
                 }
                 if (links[1]) {
                     links[1].innerHTML = `🎨 ${t.buttons.byColor}`;
-                    links[1].href = `pdf/${generations[index]}_by_color_${langSuffix}.pdf`;
+                    links[1].href = `pdf/${generations[index]}_by_color${langSuffix}.pdf`;
                 }
             }
         });
