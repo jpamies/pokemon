@@ -7,10 +7,12 @@ class I18n {
 
     async loadTranslations() {
         const languages = ['ca', 'es', 'en'];
+        // Detect if we're in a subdirectory and adjust path
+        const basePath = window.location.pathname.includes('/es/') || window.location.pathname.includes('/en/') ? '../' : '';
         
         for (const lang of languages) {
             try {
-                const response = await fetch(`translations/${lang}.json`);
+                const response = await fetch(`${basePath}translations/${lang}.json`);
                 this.translations[lang] = await response.json();
             } catch (error) {
                 console.error(`Failed to load ${lang} translations:`, error);
