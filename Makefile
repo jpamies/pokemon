@@ -10,7 +10,7 @@ BLUE = \033[0;34m
 RED = \033[0;31m
 NC = \033[0m # No Color
 
-.PHONY: help all generations complete cache clean optimize serve test
+.PHONY: help all generations complete cache clean optimize serve test translate
 
 # Comando por defecto
 help:
@@ -22,6 +22,7 @@ help:
 	@echo "  make complete               - Generar PDFs completos (1,025 Pokémon)"
 	@echo "  make cache                  - Regenerar cache de datos e imágenes"
 	@echo "  make optimize               - Optimizar imágenes para PDFs más pequeños"
+	@echo "  make translate              - Generar traducciones en catalán"
 	@echo ""
 	@echo "$(YELLOW)Comandos de desarrollo:$(NC)"
 	@echo "  make serve                  - Servir aplicación web localmente"
@@ -38,13 +39,17 @@ help:
 # Generar todos los PDFs
 all:
 	@echo "$(GREEN)🚀 Generando todos los PDFs...$(NC)"
-	@$(PYTHON) $(SCRIPTS_DIR)/generate_all_pdfs.py
+	@$(PYTHON) $(SCRIPTS_DIR)/make_all_pdfs.py
 	@echo "$(GREEN)✅ Todos los PDFs generados correctamente$(NC)"
 
 # Generar PDFs por generaciones
 generations:
 	@echo "$(GREEN)📚 Generando PDFs por generaciones...$(NC)"
-	@$(PYTHON) $(SCRIPTS_DIR)/generate_generation_pdfs.py
+	@for gen in 1 2 3 4 5 6 7 8 9; do \
+		echo "$(YELLOW)Generando Generación $$gen...$(NC)"; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen id; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen color; \
+	done
 	@echo "$(GREEN)✅ PDFs por generaciones completados$(NC)"
 
 # Generar PDFs completos
@@ -57,7 +62,7 @@ complete:
 # Regenerar cache
 cache:
 	@echo "$(YELLOW)💾 Regenerando cache...$(NC)"
-	@$(PYTHON) $(SCRIPTS_DIR)/generate_cache.py
+	@$(PYTHON) $(SCRIPTS_DIR)/generate_all_cache.py
 	@echo "$(GREEN)✅ Cache regenerado$(NC)"
 
 # Optimizar imágenes
@@ -65,6 +70,12 @@ optimize:
 	@echo "$(YELLOW)🖼️  Optimizando imágenes...$(NC)"
 	@$(PYTHON) $(SCRIPTS_DIR)/optimize_images.py
 	@echo "$(GREEN)✅ Imágenes optimizadas$(NC)"
+
+# Generar traducciones
+translate:
+	@echo "$(YELLOW)🌍 Generando traducciones en catalán...$(NC)"
+	@$(PYTHON) $(SCRIPTS_DIR)/batch_translate.py
+	@echo "$(GREEN)✅ Traducciones generadas$(NC)"
 
 # Servir aplicación web localmente
 serve:

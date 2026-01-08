@@ -91,6 +91,9 @@ make cache
 # Optimizar imágenes para PDFs más pequeños
 make optimize
 
+# Generar traducciones en catalán
+make translate
+
 # Servir aplicación web localmente
 make serve
 
