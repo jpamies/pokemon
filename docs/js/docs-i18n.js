@@ -136,7 +136,7 @@ class DocsI18n {
         
         // Update back link URL
         const backLink = document.querySelector('.back-link');
-        backLink.href = this.currentLanguage === 'ca' ? '../' : `../?lang=${this.currentLanguage}`;
+        backLink.href = '../';
         
         // Update document language
         document.documentElement.lang = this.currentLanguage;
