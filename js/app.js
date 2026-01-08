@@ -10,7 +10,7 @@ class PokemonGuide {
         this.pokemonDatabase = null; // Consolidated Pokemon database
         
         // Detect base path for subdirectories
-        this.basePath = window.location.pathname.includes('/es/') || window.location.pathname.includes('/en/') ? '../' : './';
+        this.basePath = './';
         
         this.initializeApp();
         
@@ -112,15 +112,12 @@ class PokemonGuide {
         // Check URL for language parameter first
         const urlParams = new URLSearchParams(window.location.search);
         const urlLang = urlParams.get('lang');
-        const pathLang = this.getLanguageFromPath();
         
         let savedLanguage = 'ca'; // Default
         
-        // Priority: URL param > path > localStorage
+        // Priority: URL param > localStorage
         if (urlLang && ['ca', 'es', 'en'].includes(urlLang)) {
             savedLanguage = urlLang;
-        } else if (pathLang && ['ca', 'es', 'en'].includes(pathLang)) {
-            savedLanguage = pathLang;
         } else {
             const storedLang = localStorage.getItem('pokemon-guide-language');
             if (storedLang && ['ca', 'es', 'en'].includes(storedLang)) {
@@ -155,15 +152,6 @@ class PokemonGuide {
                 toggleBtn.title = 'Modo Simple';
             }
         }
-    }
-
-    getLanguageFromPath() {
-        const path = window.location.pathname;
-        if (path.includes('/es/') || path.endsWith('/es')) return 'es';
-        if (path.includes('/en/') || path.endsWith('/en')) return 'en';
-        if (path.includes('/ca/') || path.endsWith('/ca')) return 'ca';
-        if (path.includes('/cat/') || path.endsWith('/cat')) return 'ca';
-        return null;
     }
 
     toggleAccessibilityMode() {
