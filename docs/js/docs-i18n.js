@@ -8,6 +8,7 @@ class DocsI18n {
                 subtitle: 'Guies Pokémon Educatives Multiidioma',
                 statsTitle: '📊 Estadístiques del Projecte',
                 backLink: '🏠 Tornar a l\'Aplicació',
+                githubLink: '🐙 GitHub',
                 stats: {
                     pdfs: 'PDFs Generats',
                     pokemon: 'Pokémon Complets',
@@ -32,6 +33,7 @@ class DocsI18n {
                 subtitle: 'Guías Pokémon Educativas Multiidioma',
                 statsTitle: '📊 Estadísticas del Proyecto',
                 backLink: '🏠 Volver a la Aplicación',
+                githubLink: '🐙 GitHub',
                 stats: {
                     pdfs: 'PDFs Generados',
                     pokemon: 'Pokémon Completos',
@@ -56,6 +58,7 @@ class DocsI18n {
                 subtitle: 'Multilingual Educational Pokémon Guides',
                 statsTitle: '📊 Project Statistics',
                 backLink: '🏠 Back to Application',
+                githubLink: '🐙 GitHub',
                 stats: {
                     pdfs: 'Generated PDFs',
                     pokemon: 'Complete Pokémon',
@@ -112,7 +115,11 @@ class DocsI18n {
         document.querySelector('.docs-title').textContent = t.title;
         document.querySelector('.docs-subtitle').textContent = t.subtitle;
         document.querySelector('.stats h3').textContent = t.statsTitle;
-        document.querySelector('.back-link').innerHTML = t.backLink;
+        
+        // Update links
+        const backLinks = document.querySelectorAll('.back-link');
+        backLinks[0].innerHTML = t.backLink;
+        backLinks[1].innerHTML = t.githubLink;
         
         // Update stats labels
         const statItems = document.querySelectorAll('.stat-item span:last-child');
@@ -133,10 +140,6 @@ class DocsI18n {
                 if (links[1]) links[1].innerHTML = `🎨 ${t.buttons.byColor}`;
             }
         });
-        
-        // Update back link URL
-        const backLink = document.querySelector('.back-link');
-        backLink.href = '../';
         
         // Update document language
         document.documentElement.lang = this.currentLanguage;
