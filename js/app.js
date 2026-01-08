@@ -125,7 +125,7 @@ class PokemonGuide {
             }
         }
         
-        this.setLanguage(savedLanguage);
+        window.i18n.setLanguage(savedLanguage);
         
         // Load saved Pokemon ID
         const savedId = localStorage.getItem('pokemon-guide-current-id');
