@@ -8,258 +8,138 @@
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="stylesheet" href="../css/styles.css">
     <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
         .docs-container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
             background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
-            padding: 40px;
+            padding: 60px 40px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
             backdrop-filter: blur(10px);
+            text-align: center;
         }
         
         .docs-header {
-            text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
         
         .docs-title {
-            font-size: 3em;
+            font-size: 3.5em;
             font-weight: bold;
             color: #2c3e50;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             text-transform: uppercase;
         }
         
         .docs-subtitle {
-            font-size: 1.3em;
+            font-size: 1.4em;
             color: #7f8c8d;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
+            line-height: 1.6;
         }
         
         .language-selector {
             display: flex;
             justify-content: center;
-            gap: 15px;
-            margin-bottom: 40px;
+            gap: 20px;
+            margin-bottom: 50px;
             flex-wrap: wrap;
         }
         
         .lang-btn {
-            padding: 12px 25px;
+            padding: 20px 40px;
             background: linear-gradient(135deg, #3498db, #2980b9);
             color: white;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: all 0.3s ease;
             text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
             display: inline-block;
+            box-shadow: 0 10px 25px rgba(52, 152, 219, 0.3);
         }
         
         .lang-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.4);
+            background: linear-gradient(135deg, #2980b9, #1f4e79);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(52, 152, 219, 0.4);
+            color: white;
         }
         
-        .lang-btn.active {
+        .lang-btn.catalan {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+        }
+        
+        .lang-btn.spanish {
             background: linear-gradient(135deg, #e74c3c, #c0392b);
         }
         
-        .nav-controls {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
+        .lang-btn.english {
+            background: linear-gradient(135deg, #27ae60, #229954);
         }
         
-        .nav-btn {
-            padding: 15px 30px;
-            background: linear-gradient(135deg, #4a90e2, #357abd);
+        .stats {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
             color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 20px rgba(74, 144, 226, 0.3);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
         }
         
-        .nav-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 30px rgba(74, 144, 226, 0.4);
+        .stats h3 {
+            margin-bottom: 20px;
+            font-size: 1.5em;
         }
         
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 20px;
-            margin-bottom: 40px;
         }
         
-        .stat-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 25px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        .stat-item {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 10px;
         }
         
         .stat-number {
-            font-size: 2.5em;
+            font-size: 2em;
             font-weight: bold;
-            margin-bottom: 10px;
-        }
-        
-        .stat-label {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-        
-        .section-title {
-            font-size: 2.2em;
-            color: #2c3e50;
-            margin: 40px 0 20px 0;
-            text-align: center;
-            font-weight: bold;
-        }
-        
-        .pdf-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        
-        .pdf-card {
-            background: white;
-            border-radius: 15px;
-            padding: 25px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
-        }
-        
-        .pdf-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-            border-color: #3498db;
-        }
-        
-        .pdf-title {
-            font-size: 1.4em;
-            font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 15px;
-        }
-        
-        .pdf-description {
-            color: #7f8c8d;
-            margin-bottom: 20px;
-            line-height: 1.5;
-        }
-        
-        .pdf-links {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        
-        .pdf-link {
-            padding: 10px 20px;
-            background: linear-gradient(135deg, #27ae60, #229954);
-            color: white;
-            text-decoration: none;
-            border-radius: 20px;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            font-size: 0.9em;
-        }
-        
-        .pdf-link:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
-        }
-        
-        .generation-table {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-        }
-        
-        .generation-table table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        
-        .generation-table th {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            text-align: left;
-            font-weight: bold;
-        }
-        
-        .generation-table td {
-            padding: 15px 20px;
-            border-bottom: 1px solid #ecf0f1;
-        }
-        
-        .generation-table tr:hover {
-            background: #f8f9fa;
-        }
-        
-        .gen-links {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        
-        .gen-link {
-            padding: 8px 15px;
-            background: linear-gradient(135deg, #3498db, #2980b9);
-            color: white;
-            text-decoration: none;
-            border-radius: 15px;
-            font-size: 0.85em;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        
-        .gen-link:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 3px 10px rgba(52, 152, 219, 0.4);
-        }
-        
-        .language-content {
-            display: none;
-        }
-        
-        .language-content.active {
             display: block;
         }
         
-        @media (max-width: 768px) {
-            .docs-container {
-                padding: 20px;
-                margin: 10px;
-            }
-            
-            .docs-title {
-                font-size: 2em;
-            }
-            
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .pdf-grid {
-                grid-template-columns: 1fr;
-            }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #9b59b6, #8e44ad);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+        
+        .back-link:hover {
+            background: linear-gradient(135deg, #8e44ad, #7d3c98);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            color: white;
         }
     </style>
 </head>
@@ -267,251 +147,40 @@
     <div class="docs-container">
         <div class="docs-header">
             <h1 class="docs-title">📚 Centre de Descàrregues</h1>
-            <p class="docs-subtitle">Guies Pokémon educatives multiidioma - PDFs per imprimir</p>
+            <p class="docs-subtitle">Selecciona el teu idioma preferit per accedir a les guies Pokémon educatives</p>
         </div>
-
+        
         <div class="language-selector">
-            <button class="lang-btn active" onclick="switchLanguage('ca')" data-lang="ca">🔵 Català</button>
-            <button class="lang-btn" onclick="switchLanguage('es')" data-lang="es">🔴 Español</button>
-            <button class="lang-btn" onclick="switchLanguage('en')" data-lang="en">🟢 English</button>
+            <a href="ca/" class="lang-btn catalan">🔵 Català</a>
+            <a href="es/" class="lang-btn spanish">🔴 Español</a>
+            <a href="en/" class="lang-btn english">🟢 English</a>
         </div>
-
-        <div class="nav-controls">
-            <a href="../index.html" class="nav-btn">🏠 Inici</a>
-            <a href="https://jpamies.github.io/pokemon/" class="nav-btn">📱 Aplicació Web</a>
-        </div>
-
-        <!-- CATALÀ -->
-        <div id="content-ca" class="language-content active">
+        
+        <div class="stats">
+            <h3>📊 Estadístiques del Projecte</h3>
             <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">1,025</div>
-                    <div class="stat-label">Pokémon Complerts</div>
+                <div class="stat-item">
+                    <span class="stat-number">54</span>
+                    <span>PDFs Generats</span>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">66</div>
-                    <div class="stat-label">PDFs Disponibles</div>
+                <div class="stat-item">
+                    <span class="stat-number">1,025</span>
+                    <span>Pokémon Complets</span>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">9</div>
-                    <div class="stat-label">Generacions</div>
+                <div class="stat-item">
+                    <span class="stat-number">3</span>
+                    <span>Idiomes</span>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label">Idiomes</div>
+                <div class="stat-item">
+                    <span class="stat-number">9</span>
+                    <span>Generacions</span>
                 </div>
-            </div>
-
-            <div class="complete-section">
-                <h2 class="section-title">🌟 Guies Completes (Recomanat)</h2>
-                <div class="pdf-grid">
-                    <div class="pdf-card">
-                        <div class="pdf-title">📖 Guia Completa per ID</div>
-                        <div class="pdf-description">Tots els 1,025 Pokémon ordenats per número oficial</div>
-                        <div class="pdf-links">
-                            <a href="pdf/pokemon_complet_catala.pdf" class="pdf-link">📥 Descarregar</a>
-                        </div>
-                    </div>
-                    <div class="pdf-card">
-                        <div class="pdf-title">🎨 Guia Completa per Color</div>
-                        <div class="pdf-description">Tots els 1,025 Pokémon ordenats per color representatiu</div>
-                        <div class="pdf-links">
-                            <a href="pdf/pokemon_complet_catala_by_color.pdf" class="pdf-link">📥 Descarregar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="section-title">📖 PDFs per Generació</h2>
-            <div class="generation-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Generació</th>
-                            <th>Pokémon</th>
-                            <th>Regió</th>
-                            <th>Descàrregues</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>Gen I</strong></td><td>#1-151</td><td>Kanto</td><td class="gen-links"><a href="pdf/i_kanto_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/i_kanto_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                        <tr><td><strong>Gen II</strong></td><td>#152-251</td><td>Johto</td><td class="gen-links"><a href="pdf/ii_johto_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/ii_johto_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                        <tr><td><strong>Gen III</strong></td><td>#252-386</td><td>Hoenn</td><td class="gen-links"><a href="pdf/iii_hoenn_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/iii_hoenn_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                        <tr><td><strong>Gen IV</strong></td><td>#387-493</td><td>Sinnoh</td><td class="gen-links"><a href="pdf/iv_sinnoh_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/iv_sinnoh_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                        <tr><td><strong>Gen V</strong></td><td>#494-649</td><td>Unova</td><td class="gen-links"><a href="pdf/v_unova_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/v_unova_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                        <tr><td><strong>Gen VI</strong></td><td>#650-721</td><td>Kalos</td><td class="gen-links"><a href="pdf/vi_kalos_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/vi_kalos_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                        <tr><td><strong>Gen VII</strong></td><td>#722-809</td><td>Alola</td><td class="gen-links"><a href="pdf/vii_alola_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/vii_alola_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                        <tr><td><strong>Gen VIII</strong></td><td>#810-905</td><td>Galar</td><td class="gen-links"><a href="pdf/viii_galar_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/viii_galar_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                        <tr><td><strong>Gen IX</strong></td><td>#906-1025</td><td>Paldea</td><td class="gen-links"><a href="pdf/ix_paldea_by_id.pdf" class="gen-link">Per ID</a><a href="pdf/ix_paldea_by_color.pdf" class="gen-link">Per Color</a></td></tr>
-                    </tbody>
-                </table>
             </div>
         </div>
-
-        <!-- ESPAÑOL -->
-        <div id="content-es" class="language-content">
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">1,025</div>
-                    <div class="stat-label">Pokémon Completos</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">66</div>
-                    <div class="stat-label">PDFs Disponibles</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">9</div>
-                    <div class="stat-label">Generaciones</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label">Idiomas</div>
-                </div>
-            </div>
-
-            <div class="complete-section">
-                <h2 class="section-title">🌟 Guías Completas (Recomendado)</h2>
-                <div class="pdf-grid">
-                    <div class="pdf-card">
-                        <div class="pdf-title">📖 Guía Completa por ID</div>
-                        <div class="pdf-description">Todos los 1,025 Pokémon ordenados por número oficial</div>
-                        <div class="pdf-links">
-                            <a href="pdf/pokemon_complet_espanol.pdf" class="pdf-link">📥 Descargar</a>
-                        </div>
-                    </div>
-                    <div class="pdf-card">
-                        <div class="pdf-title">🎨 Guía Completa por Color</div>
-                        <div class="pdf-description">Todos los 1,025 Pokémon ordenados por color representativo</div>
-                        <div class="pdf-links">
-                            <a href="pdf/pokemon_complet_espanol_by_color.pdf" class="pdf-link">📥 Descargar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="section-title">📖 PDFs por Generación</h2>
-            <div class="generation-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Generación</th>
-                            <th>Pokémon</th>
-                            <th>Región</th>
-                            <th>Descargas</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>Gen I</strong></td><td>#1-151</td><td>Kanto</td><td class="gen-links"><a href="pdf/i_kanto_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/i_kanto_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                        <tr><td><strong>Gen II</strong></td><td>#152-251</td><td>Johto</td><td class="gen-links"><a href="pdf/ii_johto_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/ii_johto_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                        <tr><td><strong>Gen III</strong></td><td>#252-386</td><td>Hoenn</td><td class="gen-links"><a href="pdf/iii_hoenn_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/iii_hoenn_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                        <tr><td><strong>Gen IV</strong></td><td>#387-493</td><td>Sinnoh</td><td class="gen-links"><a href="pdf/iv_sinnoh_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/iv_sinnoh_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                        <tr><td><strong>Gen V</strong></td><td>#494-649</td><td>Unova</td><td class="gen-links"><a href="pdf/v_unova_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/v_unova_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                        <tr><td><strong>Gen VI</strong></td><td>#650-721</td><td>Kalos</td><td class="gen-links"><a href="pdf/vi_kalos_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/vi_kalos_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                        <tr><td><strong>Gen VII</strong></td><td>#722-809</td><td>Alola</td><td class="gen-links"><a href="pdf/vii_alola_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/vii_alola_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                        <tr><td><strong>Gen VIII</strong></td><td>#810-905</td><td>Galar</td><td class="gen-links"><a href="pdf/viii_galar_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/viii_galar_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                        <tr><td><strong>Gen IX</strong></td><td>#906-1025</td><td>Paldea</td><td class="gen-links"><a href="pdf/ix_paldea_by_id_es.pdf" class="gen-link">Por ID</a><a href="pdf/ix_paldea_by_color_es.pdf" class="gen-link">Por Color</a></td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- ENGLISH -->
-        <div id="content-en" class="language-content">
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">1,025</div>
-                    <div class="stat-label">Complete Pokémon</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">66</div>
-                    <div class="stat-label">Available PDFs</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">9</div>
-                    <div class="stat-label">Generations</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label">Languages</div>
-                </div>
-            </div>
-
-            <div class="complete-section">
-                <h2 class="section-title">🌟 Complete Guides (Recommended)</h2>
-                <div class="pdf-grid">
-                    <div class="pdf-card">
-                        <div class="pdf-title">📖 Complete Guide by ID</div>
-                        <div class="pdf-description">All 1,025 Pokémon ordered by official number</div>
-                        <div class="pdf-links">
-                            <a href="pdf/pokemon_complet_english.pdf" class="pdf-link">📥 Download</a>
-                        </div>
-                    </div>
-                    <div class="pdf-card">
-                        <div class="pdf-title">🎨 Complete Guide by Color</div>
-                        <div class="pdf-description">All 1,025 Pokémon ordered by representative color</div>
-                        <div class="pdf-links">
-                            <a href="pdf/pokemon_complet_english_by_color.pdf" class="pdf-link">📥 Download</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="section-title">📖 PDFs by Generation</h2>
-            <div class="generation-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Generation</th>
-                            <th>Pokémon</th>
-                            <th>Region</th>
-                            <th>Downloads</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>Gen I</strong></td><td>#1-151</td><td>Kanto</td><td class="gen-links"><a href="pdf/i_kanto_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/i_kanto_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                        <tr><td><strong>Gen II</strong></td><td>#152-251</td><td>Johto</td><td class="gen-links"><a href="pdf/ii_johto_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/ii_johto_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                        <tr><td><strong>Gen III</strong></td><td>#252-386</td><td>Hoenn</td><td class="gen-links"><a href="pdf/iii_hoenn_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/iii_hoenn_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                        <tr><td><strong>Gen IV</strong></td><td>#387-493</td><td>Sinnoh</td><td class="gen-links"><a href="pdf/iv_sinnoh_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/iv_sinnoh_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                        <tr><td><strong>Gen V</strong></td><td>#494-649</td><td>Unova</td><td class="gen-links"><a href="pdf/v_unova_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/v_unova_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                        <tr><td><strong>Gen VI</strong></td><td>#650-721</td><td>Kalos</td><td class="gen-links"><a href="pdf/vi_kalos_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/vi_kalos_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                        <tr><td><strong>Gen VII</strong></td><td>#722-809</td><td>Alola</td><td class="gen-links"><a href="pdf/vii_alola_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/vii_alola_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                        <tr><td><strong>Gen VIII</strong></td><td>#810-905</td><td>Galar</td><td class="gen-links"><a href="pdf/viii_galar_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/viii_galar_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                        <tr><td><strong>Gen IX</strong></td><td>#906-1025</td><td>Paldea</td><td class="gen-links"><a href="pdf/ix_paldea_by_id_en.pdf" class="gen-link">By ID</a><a href="pdf/ix_paldea_by_color_en.pdf" class="gen-link">By Color</a></td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+        
+        <a href="../" class="back-link">
+            🏠 Tornar a l'Aplicació Principal
+        </a>
     </div>
-
-    <script>
-        function switchLanguage(lang) {
-            // Hide all content
-            document.querySelectorAll('.language-content').forEach(content => {
-                content.classList.remove('active');
-            });
-            
-            // Remove active class from all buttons
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            
-            // Show selected content
-            document.getElementById('content-' + lang).classList.add('active');
-            
-            // Add active class to selected button
-            document.querySelector('[data-lang="' + lang + '"]').classList.add('active');
-            
-            // Update page language
-            document.documentElement.lang = lang;
-            
-            // Update title based on language
-            const titles = {
-                'ca': '📚 Centre de Descàrregues - Guia Pokémon',
-                'es': '📚 Centro de Descargas - Guía Pokémon',
-                'en': '📚 Download Center - Pokémon Guide'
-            };
-            document.title = titles[lang];
-        }
-    </script>
 </body>
 </html>

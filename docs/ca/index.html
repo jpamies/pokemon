@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Centre de Descàrregues - Guia Pokémon</title>
+    <meta name="description" content="Descàrrega PDFs educatius de Pokémon en català, espanyol i anglès">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <style>
+        .docs-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .docs-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .docs-title {
+            font-size: 3em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        .docs-subtitle {
+            font-size: 1.3em;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        
+        .language-selector {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .lang-btn {
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .lang-btn:hover {
+            background: linear-gradient(135deg, #2980b9, #1f4e79);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .lang-btn.active {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+        }
+        
+        .pdf-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .pdf-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .pdf-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            border-color: #3498db;
+        }
+        
+        .pdf-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        
+        .pdf-description {
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .pdf-links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .pdf-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #27ae60, #229954);
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            font-size: 0.9em;
+        }
+        
+        .pdf-link:hover {
+            background: linear-gradient(135deg, #229954, #1e8449);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .stats {
+            text-align: center;
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .stats h3 {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .stat-item {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #9b59b6, #8e44ad);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+        }
+        
+        .back-link:hover {
+            background: linear-gradient(135deg, #8e44ad, #7d3c98);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="docs-container">
+        <div class="docs-header">
+            <h1 class="docs-title">📚 Centre de Descàrregues</h1>
+            <p class="docs-subtitle">Guies Pokémon Educatives Multiidioma</p>
+        </div>
+        
+        <div class="language-selector">
+            <a href="./" class="lang-btn active">🔵 Català</a>
+            <a href="../es/" class="lang-btn">🔴 Español</a>
+            <a href="../en/" class="lang-btn">🟢 English</a>
+        </div>
+        
+        <div class="stats">
+            <h3>📊 Estadístiques del Projecte</h3>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">54</span>
+                    <span>PDFs Generats</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1,025</span>
+                    <span>Pokémon Complets</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">3</span>
+                    <span>Idiomes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">9</span>
+                    <span>Generacions</span>
+                </div>
+            </div>
+        </div>
+        
+        <a href="../../" class="back-link">
+            🏠 Tornar a l'Aplicació
+        </a>
+        
+        <div class="pdf-grid">
+            <div class="pdf-card">
+                <h3 class="pdf-title">🔴 Generació I - Kanto</h3>
+                <p class="pdf-description">151 Pokémon de la regió de Kanto (Bulbasaur - Mew)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/i_kanto_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/i_kanto_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+            
+            <div class="pdf-card">
+                <h3 class="pdf-title">🟡 Generació II - Johto</h3>
+                <p class="pdf-description">100 Pokémon de la regió de Johto (Chikorita - Celebi)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/ii_johto_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/ii_johto_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+            
+            <div class="pdf-card">
+                <h3 class="pdf-title">🟢 Generació III - Hoenn</h3>
+                <p class="pdf-description">135 Pokémon de la regió de Hoenn (Treecko - Deoxys)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/iii_hoenn_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/iii_hoenn_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+            
+            <div class="pdf-card">
+                <h3 class="pdf-title">🔵 Generació IV - Sinnoh</h3>
+                <p class="pdf-description">107 Pokémon de la regió de Sinnoh (Turtwig - Arceus)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/iv_sinnoh_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/iv_sinnoh_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+            
+            <div class="pdf-card">
+                <h3 class="pdf-title">⚫ Generació V - Unova</h3>
+                <p class="pdf-description">156 Pokémon de la regió d'Unova (Snivy - Genesect)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/v_unova_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/v_unova_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+            
+            <div class="pdf-card">
+                <h3 class="pdf-title">🟣 Generació VI - Kalos</h3>
+                <p class="pdf-description">72 Pokémon de la regió de Kalos (Chespin - Volcanion)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/vi_kalos_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/vi_kalos_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+            
+            <div class="pdf-card">
+                <h3 class="pdf-title">🟠 Generació VII - Alola</h3>
+                <p class="pdf-description">88 Pokémon de la regió d'Alola (Rowlet - Melmetal)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/vii_alola_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/vii_alola_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+            
+            <div class="pdf-card">
+                <h3 class="pdf-title">🔴 Generació VIII - Galar</h3>
+                <p class="pdf-description">96 Pokémon de la regió de Galar (Grookey - Enamorus)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/viii_galar_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/viii_galar_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+            
+            <div class="pdf-card">
+                <h3 class="pdf-title">🟡 Generació IX - Paldea</h3>
+                <p class="pdf-description">120 Pokémon de la regió de Paldea (Sprigatito - Pecharunt)</p>
+                <div class="pdf-links">
+                    <a href="../pdf/ix_paldea_by_id_ca.pdf" class="pdf-link">📥 Per ID</a>
+                    <a href="../pdf/ix_paldea_by_color_ca.pdf" class="pdf-link">🎨 Per Color</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

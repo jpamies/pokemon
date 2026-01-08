@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Pokémon per a Nens - Català</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script>
+        // Set language before loading the app
+        localStorage.setItem('pokemon-guide-language', 'ca');
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐾 Guia Pokémon per a Nens</h1>
+            <div class="controls">
+                <select id="language-selector">
+                    <option value="ca" selected>Català</option>
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+                <button id="accessibility-toggle" title="Canviar mode de text">
+                    <span id="accessibility-text">Aa</span>
+                </button>
+                <button id="advanced-toggle" title="Mode Avançat">📋</button>
+                <button id="pdf-export" title="Exportar a PDF">📄</button>
+            </div>
+        </header>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p id="loading-text">Carregant Pokémon...</p>
+        </div>
+
+        <div id="error-message" class="error-message hidden">
+            <p>❌ Error carregant Pokémon</p>
+            <button id="retry-btn">Tornar a intentar</button>
+        </div>
+
+        <div id="pokemon-container" class="pokemon-card">
+            <div class="pokemon-image-container">
+                <img id="pokemon-image" src="" alt="Pokémon" class="pokemon-image">
+            </div>
+            
+            <div class="pokemon-info">
+                <div class="pokemon-header">
+                    <h2 id="pokemon-name">Pokémon</h2>
+                    <span id="pokemon-number">#001</span>
+                </div>
+                
+                <div class="pokemon-generation">
+                    <span id="pokemon-generation">Gen I - Kanto</span>
+                </div>
+                
+                <div class="pokemon-types" id="pokemon-types">
+                    <!-- Types will be inserted here -->
+                </div>
+                
+                <div class="pokemon-basic-info">
+                    <div class="info-item">
+                        <span class="info-label" id="height-label">Alçada:</span>
+                        <span id="pokemon-height">0.7m</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" id="weight-label">Pes:</span>
+                        <span id="pokemon-weight">6.9kg</span>
+                    </div>
+                </div>
+                
+                <div class="pokemon-description">
+                    <p id="pokemon-description">Descripció del Pokémon...</p>
+                </div>
+                
+                <!-- Advanced mode content -->
+                <div class="pokemon-advanced">
+                    <div class="pokemon-stats">
+                        <h3>Estadístiques</h3>
+                        <div id="pokemon-stats">
+                            <!-- Stats will be inserted here -->
+                        </div>
+                    </div>
+                    
+                    <div class="pokemon-abilities">
+                        <h3>Habilitats</h3>
+                        <div id="pokemon-abilities">
+                            <!-- Abilities will be inserted here -->
+                        </div>
+                    </div>
+                    
+                    <div class="pokemon-details">
+                        <div class="info-item">
+                            <span class="info-label" id="color-label">Color:</span>
+                            <span id="pokemon-color">Verd</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label" id="habitat-label">Hàbitat:</span>
+                            <span id="pokemon-habitat">Praderia</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pokemon-special" id="pokemon-special">
+                    <!-- Special status badges will be inserted here -->
+                </div>
+                
+                <div class="pokemon-evolution">
+                    <h3>Evolució</h3>
+                    <div id="pokemon-evolution">
+                        <!-- Evolution chain will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <button id="prev-btn" class="nav-btn">
+                <span id="prev-text">← Anterior</span>
+            </button>
+            <button id="home-btn" class="nav-btn">
+                <span id="home-text">🏠 Inici</span>
+            </button>
+            <button id="list-btn" class="nav-btn">
+                <span id="list-text">📋 Llista</span>
+            </button>
+            <button id="next-btn" class="nav-btn">
+                <span id="next-text">Següent →</span>
+            </button>
+        </div>
+
+        <div class="pokemon-counter">
+            <span id="counter-text">1 de 1025</span>
+        </div>
+
+        <!-- Pokemon List Modal -->
+        <div id="pokemon-list-container" class="pokemon-list-container hidden">
+            <div class="pokemon-list-header">
+                <h2>Llista de Pokémon</h2>
+                <button id="close-list-btn" class="close-btn">✕</button>
+            </div>
+            <div id="pokemon-grid" class="pokemon-grid">
+                <!-- Pokemon list will be generated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/i18n.js"></script>
+    <script src="../js/cache.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
