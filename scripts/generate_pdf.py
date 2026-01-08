@@ -319,7 +319,18 @@ def parse_evolution_chain(chain, current_id):
     # Return full chain (shows pre-evolutions and post-evolutions)
     return full_chain if len(full_chain) > 1 else None
 
+def get_optimized_image(pokemon_id, size="240"):
+    """Get optimized image from local images folder"""
+    image_path = f"images/{pokemon_id}_{size}.png"
+    if os.path.exists(image_path):
+        try:
+            return ImageReader(image_path)
+        except Exception as e:
+            print(f"Error loading optimized image {image_path}: {e}")
+    return None
+
 def download_image(url):
+    """Download and cache Pokemon image with gradient background"""
     """Download and cache Pokemon image with gradient background"""
     if not url:
         return None
@@ -618,7 +629,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                     c.drawString(evo_x - 8, evo_y + row_height + 8, "→")
                 
                 try:
-                    evo_image = download_image(evo_pokemon['image_url'])
+                    evo_image = get_optimized_image(evo_pokemon['id'], "60")
                     if evo_image:
                         c.drawImage(evo_image, evo_x, evo_y + row_height, width=img_size, height=img_size, mask='auto')
                         
@@ -652,7 +663,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                     c.drawString(evo_x - 8, evo_y + 8, "→")
                 
                 try:
-                    evo_image = download_image(evo_pokemon['image_url'])
+                    evo_image = get_optimized_image(evo_pokemon['id'], "60")
                     if evo_image:
                         c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size, mask='auto')
                         
@@ -701,7 +712,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                     c.drawString(evo_x - 8, evo_y + 8, "→")
                 
                 try:
-                    evo_image = download_image(evo_pokemon['image_url'])
+                    evo_image = get_optimized_image(evo_pokemon['id'], "60")
                     if evo_image:
                         c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size, mask='auto')
                         
@@ -786,7 +797,8 @@ def generate_pokemon_pdf(pokemon_list, filename, subtitle="151 Pokémon"):
     card_count = 0
     
     for pokemon in pokemon_list:
-        image = download_image(pokemon['image_url'])
+        # Use optimized image instead of downloading
+        image = get_optimized_image(pokemon['id'], "240")
         
         # Calculate position
         if card_count > 0 and card_count % cards_per_page == 0:
