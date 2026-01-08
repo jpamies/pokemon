@@ -525,7 +525,7 @@ class PokemonGuide {
     getTypeIcon(typeName) {
         // Create img element for PNG emoji
         const img = document.createElement('img');
-        img.src = `docs/emoji_icons/${typeName}.png`;
+        img.src = `${this.basePath}docs/emoji_icons/${typeName}.png`;
         img.alt = typeName;
         img.className = 'type-emoji';
         img.style.width = '16px';
