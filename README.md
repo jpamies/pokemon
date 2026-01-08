@@ -24,19 +24,15 @@ Una aplicación web estática diseñada específicamente para ayudar a los niño
 
 *Ambas versiones incluyen todos los Pokémon de las 9 generaciones con descripciones completas en catalán*
 
-## 📚 PDFs por Generación
+## 📚 PDFs Multiidioma
 
-| Generación | Pokémon | Región | Descargas |
-|------------|---------|--------|-----------|
-| **Gen I** | #1-151 | Kanto | [Por ID](docs/pdf/i_kanto_by_id.pdf) • [Por Color](docs/pdf/i_kanto_by_color.pdf) |
-| **Gen II** | #152-251 | Johto | [Por ID](docs/pdf/ii_johto_by_id.pdf) • [Por Color](docs/pdf/ii_johto_by_color.pdf) |
-| **Gen III** | #252-386 | Hoenn | [Por ID](docs/pdf/iii_hoenn_by_id.pdf) • [Por Color](docs/pdf/iii_hoenn_by_color.pdf) |
-| **Gen IV** | #387-493 | Sinnoh | [Por ID](docs/pdf/iv_sinnoh_by_id.pdf) • [Por Color](docs/pdf/iv_sinnoh_by_color.pdf) |
-| **Gen V** | #494-649 | Unova | [Por ID](docs/pdf/v_unova_by_id.pdf) • [Por Color](docs/pdf/v_unova_by_color.pdf) |
-| **Gen VI** | #650-721 | Kalos | [Por ID](docs/pdf/vi_kalos_by_id.pdf) • [Por Color](docs/pdf/vi_kalos_by_color.pdf) |
-| **Gen VII** | #722-809 | Alola | [Por ID](docs/pdf/vii_alola_by_id.pdf) • [Por Color](docs/pdf/vii_alola_by_color.pdf) |
-| **Gen VIII** | #810-905 | Galar | [Por ID](docs/pdf/viii_galar_by_id.pdf) • [Por Color](docs/pdf/viii_galar_by_color.pdf) |
-| **Gen IX** | #906-1025 | Paldea | [Por ID](docs/pdf/ix_paldea_by_id.pdf) • [Por Color](docs/pdf/ix_paldea_by_color.pdf) |
+| Idioma | Guías Completas | PDFs por Generación |
+|--------|----------------|-------------------|
+| **🔵 Català** | [Por ID](docs/pdf/pokemon_complet_catala.pdf) • [Por Color](docs/pdf/pokemon_complet_catala_by_color.pdf) | 18 PDFs (9 gen × 2 tipos) |
+| **🔴 Español** | [Por ID](docs/pdf/pokemon_complet_espanol.pdf) • [Por Color](docs/pdf/pokemon_complet_espanol_by_color.pdf) | 18 PDFs (9 gen × 2 tipos) |
+| **🟢 English** | [By ID](docs/pdf/pokemon_complet_english.pdf) • [By Color](docs/pdf/pokemon_complet_english_by_color.pdf) | 18 PDFs (9 gen × 2 types) |
+
+**Total: 66 PDFs** - Todos los Pokémon de las 9 generaciones en 3 idiomas
 
 ## ✨ Características Principales
 
@@ -94,6 +90,9 @@ make optimize
 # Generar traducciones en catalán
 make translate
 
+# Generar todos los PDFs en 3 idiomas
+make multilang
+
 # Servir aplicación web localmente
 make serve
 
@@ -131,7 +130,7 @@ pokemon/
 
 - **🐾 Pokémon**: 1,025 completos (Generaciones I-IX)
 - **🌍 Traducciones**: 1,025 descripciones en catalán
-- **📄 PDFs**: 22 archivos (18 por generación + 4 completos)
+- **📄 PDFs**: 66 archivos (54 por generación + 6 completos + 6 comprimidos)
 - **💾 Tamaño**: 254MB total optimizado con imágenes PNG
 - **🌐 Idiomas**: Catalán, español, inglés
 - **📱 Compatibilidad**: Todos los navegadores modernos

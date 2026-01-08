@@ -10,7 +10,7 @@ BLUE = \033[0;34m
 RED = \033[0;31m
 NC = \033[0m # No Color
 
-.PHONY: help all generations complete cache clean optimize serve test translate
+.PHONY: help all generations complete cache clean optimize serve test translate multilang
 
 # Comando por defecto
 help:
@@ -23,6 +23,7 @@ help:
 	@echo "  make cache                  - Regenerar cache de datos e imágenes"
 	@echo "  make optimize               - Optimizar imágenes para PDFs más pequeños"
 	@echo "  make translate              - Generar traducciones en catalán"
+	@echo "  make multilang              - Generar todos los PDFs en 3 idiomas"
 	@echo ""
 	@echo "$(YELLOW)Comandos de desarrollo:$(NC)"
 	@echo "  make serve                  - Servir aplicación web localmente"
@@ -76,6 +77,23 @@ translate:
 	@echo "$(YELLOW)🌍 Generando traducciones en catalán...$(NC)"
 	@$(PYTHON) $(SCRIPTS_DIR)/batch_translate.py
 	@echo "$(GREEN)✅ Traducciones generadas$(NC)"
+
+# Generar todos los PDFs multiidioma
+multilang:
+	@echo "$(GREEN)🌍 Generando todos los PDFs en 3 idiomas...$(NC)"
+	@echo "$(YELLOW)📚 Generando PDFs completos...$(NC)"
+	@$(PYTHON) $(SCRIPTS_DIR)/generate_complete_with_cards.py
+	@$(PYTHON) $(SCRIPTS_DIR)/generate_complete_by_color.py
+	@$(PYTHON) $(SCRIPTS_DIR)/generate_complete_spanish.py
+	@$(PYTHON) $(SCRIPTS_DIR)/generate_complete_english.py
+	@echo "$(YELLOW)📖 Generando PDFs por generaciones...$(NC)"
+	@for gen in 1 2 3 4 5 6 7 8 9; do \
+		echo "$(YELLOW)Generación $$gen...$(NC)"; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen id; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen color; \
+	done
+	@$(PYTHON) $(SCRIPTS_DIR)/generate_generations_multilang.py
+	@echo "$(GREEN)✅ Todos los PDFs multiidioma generados$(NC)"
 
 # Servir aplicación web localmente
 serve:
