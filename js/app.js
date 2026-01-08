@@ -7,6 +7,7 @@ class PokemonGuide {
         this.apiEndpoint = 'https://pokeapi.co/api/v2';
         this.cache = new Map();
         this.pokemonCache = new PokemonCache(); // Use new cache system
+        this.pokemonDatabase = null; // Consolidated Pokemon database
         
         this.initializeApp();
         
@@ -15,6 +16,9 @@ class PokemonGuide {
     }
 
     async initializeApp() {
+        // Load consolidated Pokemon database
+        await this.loadPokemonDatabase();
+        
         // Wait for i18n to load
         await new Promise(resolve => {
             const checkI18n = () => {
@@ -31,6 +35,17 @@ class PokemonGuide {
         this.initializeFromStorage();
         this.applyAccessibilityMode();
         await this.loadPokemon(this.currentPokemonId);
+    }
+
+    async loadPokemonDatabase() {
+        try {
+            const response = await fetch('./cache/pokemon_complete.json');
+            this.pokemonDatabase = await response.json();
+            console.log('Pokemon database loaded successfully');
+        } catch (error) {
+            console.warn('Could not load Pokemon database:', error);
+            this.pokemonDatabase = {};
+        }
     }
 
     setupEventListeners() {
@@ -279,13 +294,10 @@ class PokemonGuide {
         const currentLang = window.i18n?.currentLanguage || 'en';
         let description = '';
         
-        // Load description from Pokemon data files for all languages
-        try {
-            const response = await fetch(`./pokemon_data/pokemon_${pokemonId.toString().padStart(4, '0')}.json`);
-            const pokemonData = await response.json();
-            description = pokemonData.descriptions?.[currentLang];
-        } catch (error) {
-            console.warn('Could not load Pokemon data file:', error);
+        // Load description from consolidated Pokemon data
+        if (this.pokemonDatabase && this.pokemonDatabase[pokemonId]) {
+            const pokemonData = this.pokemonDatabase[pokemonId];
+            description = pokemonData.descriptions?.[currentLang] || pokemonData.description_catalan || pokemonData.description;
         }
         
         if (!description && this.currentPokemon) {
@@ -297,15 +309,12 @@ class PokemonGuide {
     }
 
     async getCatalanDescription(pokemonId) {
-        // Load Pokemon data file with 3 languages
-        try {
-            const response = await fetch(`./pokemon_data/pokemon_${pokemonId.toString().padStart(4, '0')}.json`);
-            const pokemonData = await response.json();
-            return pokemonData.descriptions?.ca || null;
-        } catch (error) {
-            console.warn('Could not load Pokemon data file:', error);
-            return null;
+        // Load Pokemon data from consolidated database
+        if (this.pokemonDatabase && this.pokemonDatabase[pokemonId]) {
+            const pokemonData = this.pokemonDatabase[pokemonId];
+            return pokemonData.descriptions?.ca || pokemonData.description_catalan || null;
         }
+        return null;
     }
 
     async extractDescription(flavorTextEntries, pokemonId) {
