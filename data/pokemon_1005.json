@@ -1,0 +1,45 @@
+{
+  "id": 1005,
+  "name": "Roaring-Moon",
+  "height": 20,
+  "weight": 3800,
+  "base_experience": 295,
+  "types": [
+    "dragon",
+    "dark"
+  ],
+  "abilities": [
+    {
+      "name": "protosynthesis",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 105,
+    "attack": 139,
+    "defense": 71,
+    "special-attack": 55,
+    "special-defense": 101,
+    "speed": 119
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1005.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1005.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
+    "es": "Es posible que esta sea la criatura catalogada como Luna Bramante en un diario de expedición que todavía guarda muchos misterios.",
+    "ca": "És possible que aquest sigui la criatura anomenada Roaring Moon en un diari d'expedició que encara guarda molts misteris."
+  },
+  "names": {
+    "en": "Roaring-Moon",
+    "es": "Roaring-Moon",
+    "ca": "Roaring-Moon"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

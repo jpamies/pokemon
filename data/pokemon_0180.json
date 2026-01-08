@@ -1,0 +1,64 @@
+{
+  "id": 180,
+  "name": "Flaaffy",
+  "height": 8,
+  "weight": 133,
+  "base_experience": 128,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "static",
+      "is_hidden": false
+    },
+    {
+      "name": "plus",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 55,
+    "defense": 55,
+    "special-attack": 80,
+    "special-defense": 60,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/180.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png"
+  },
+  "color": "pink",
+  "generation": 2,
+  "descriptions": {
+    "en": "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+    "es": "Su esponjosa lana almacena electricidad. Su piel gomosa evita que sea electrocutado.",
+    "ca": "Com a resultat d'emmagatzemar massa electricitat, ha desenvolupat zones on fins i tot la llana suau no creix."
+  },
+  "names": {
+    "en": "Flaaffy",
+    "es": "Flaaffy",
+    "ca": "Flaaffy"
+  },
+  "evolution": [
+    {
+      "id": 179,
+      "name": "Mareep",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png"
+    },
+    {
+      "id": 180,
+      "name": "Flaaffy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/180.png"
+    },
+    {
+      "id": 181,
+      "name": "Ampharos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

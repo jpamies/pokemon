@@ -1,0 +1,45 @@
+{
+  "id": 994,
+  "name": "Iron-Moth",
+  "height": 12,
+  "weight": 360,
+  "base_experience": 285,
+  "types": [
+    "fire",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "quark-drive",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 60,
+    "special-attack": 140,
+    "special-defense": 110,
+    "speed": 110
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/994.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/994.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/994.png"
+  },
+  "color": "yellow",
+  "generation": 9,
+  "descriptions": {
+    "en": "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.",
+    "es": "Este Pokémon se asemeja a un objeto desconocido descrito en una revista de fenómenos paranormales como un OVNI enviado para observar a la humanidad.",
+    "ca": "Aquest Pokémon sembla un objecte desconegut descrit en una revista sobre fenòmens paranormals com un OVNI enviat per observar la humanitat."
+  },
+  "names": {
+    "en": "Iron-Moth",
+    "es": "Iron-Moth",
+    "ca": "Iron-Moth"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": 558,
+  "name": "Crustle",
+  "height": 14,
+  "weight": 2000,
+  "base_experience": 170,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "shell-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "weak-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 105,
+    "defense": 125,
+    "special-attack": 65,
+    "special-defense": 75,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/558.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/558.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+    "es": "Su inmensa capacidad motriz le permite desplazarse cargando a sus espaldas rocas enormes durante días.",
+    "ca": "Competint per un territori, els Crustle lluiten aferrissadament. El qui té la seva roca trencada és el perdedor de la batalla."
+  },
+  "names": {
+    "en": "Crustle",
+    "es": "Crustle",
+    "ca": "Crustle"
+  },
+  "evolution": [
+    {
+      "id": 557,
+      "name": "Dwebble",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png"
+    },
+    {
+      "id": 558,
+      "name": "Crustle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": 423,
+  "name": "Gastrodon",
+  "height": 9,
+  "weight": 299,
+  "base_experience": 166,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "sticky-hold",
+      "is_hidden": false
+    },
+    {
+      "name": "storm-drain",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 111,
+    "attack": 83,
+    "defense": 68,
+    "special-attack": 92,
+    "special-defense": 82,
+    "speed": 39
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/423.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/423.png"
+  },
+  "color": "purple",
+  "generation": 4,
+  "descriptions": {
+    "en": "It has a pliable body without any bones. If any part of its body is torn off, it grows right back.",
+    "es": "Si se ve amenazado por sus enemigos naturales, segrega un líquido morado y huye rápidamente.",
+    "ca": "Té un cos flexible sense ossos. Si es trenca qualsevol part del seu cos, li torna a créixer."
+  },
+  "names": {
+    "en": "Gastrodon",
+    "es": "Gastrodon",
+    "ca": "Gastrodon"
+  },
+  "evolution": [
+    {
+      "id": 422,
+      "name": "Shellos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png"
+    },
+    {
+      "id": 423,
+      "name": "Gastrodon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

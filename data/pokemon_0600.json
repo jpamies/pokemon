@@ -1,0 +1,68 @@
+{
+  "id": 600,
+  "name": "Klang",
+  "height": 6,
+  "weight": 510,
+  "base_experience": 154,
+  "types": [
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "plus",
+      "is_hidden": false
+    },
+    {
+      "name": "minus",
+      "is_hidden": false
+    },
+    {
+      "name": "clear-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 95,
+    "special-attack": 70,
+    "special-defense": 85,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/600.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/600.png"
+  },
+  "color": "gray",
+  "generation": 5,
+  "descriptions": {
+    "en": "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
+    "es": "Muestra sus sentimientos cambiando la dirección de su giro. Cuanto más se enfade, más rápido girará.",
+    "ca": "Canviant la direcció en què rota, comunica els seus sentiments als altres. Quan està enfadat, rota més ràpid."
+  },
+  "names": {
+    "en": "Klang",
+    "es": "Klang",
+    "ca": "Klang"
+  },
+  "evolution": [
+    {
+      "id": 599,
+      "name": "Klink",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png"
+    },
+    {
+      "id": 600,
+      "name": "Klang",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png"
+    },
+    {
+      "id": 601,
+      "name": "Klinklang",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

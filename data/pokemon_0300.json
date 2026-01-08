@@ -1,0 +1,63 @@
+{
+  "id": 300,
+  "name": "Skitty",
+  "height": 6,
+  "weight": 110,
+  "base_experience": 52,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "cute-charm",
+      "is_hidden": false
+    },
+    {
+      "name": "normalize",
+      "is_hidden": false
+    },
+    {
+      "name": "wonder-skin",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 45,
+    "defense": 45,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/300.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png"
+  },
+  "color": "pink",
+  "generation": 3,
+  "descriptions": {
+    "en": "SKITTY has the habit of becoming fascinated by moving objects and chasing them around. This POKéMON is known to chase after its own tail and become dizzy.",
+    "es": "No puede evitar ir tras las cosas que se mueven. Hasta corre en círculos persiguiéndose la cola.",
+    "ca": "El SKITTY té el costum de fascinar-se per objectes en moviment i perseguir-los. Se sap que aquest POKÉMON persegueix la seva pròpia cua i s'acaba marejant."
+  },
+  "names": {
+    "en": "Skitty",
+    "es": "Skitty",
+    "ca": "Skitty"
+  },
+  "evolution": [
+    {
+      "id": 300,
+      "name": "Skitty",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/300.png"
+    },
+    {
+      "id": 301,
+      "name": "Delcatty",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/301.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

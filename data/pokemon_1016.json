@@ -1,0 +1,49 @@
+{
+  "id": 1016,
+  "name": "Fezandipiti",
+  "height": 14,
+  "weight": 301,
+  "base_experience": 278,
+  "types": [
+    "poison",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "toxic-chain",
+      "is_hidden": false
+    },
+    {
+      "name": "technician",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 88,
+    "attack": 91,
+    "defense": 82,
+    "special-attack": 70,
+    "special-defense": 125,
+    "speed": 99
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1016.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1016.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1016.png"
+  },
+  "color": "black",
+  "generation": 9,
+  "descriptions": {
+    "en": "Fezandipiti owes its beautiful looks and lovely voice to the toxic stimulants emanating from the chain wrapped around its body.",
+    "es": "Fezandipiti debe su hermosa apariencia y encantadora voz a los estimulantes tóxicos que emanan de la cadena enrollada alrededor de su cuerpo.",
+    "ca": "El Fezandipiti deu el seu bell aspecte i la seva encisadora veu als estimulants tòxics que emanen de la cadena que envolta el seu cos."
+  },
+  "names": {
+    "en": "Fezandipiti",
+    "es": "Fezandipiti",
+    "ca": "Fezandipiti"
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
+}

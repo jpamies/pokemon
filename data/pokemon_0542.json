@@ -1,0 +1,69 @@
+{
+  "id": 542,
+  "name": "Leavanny",
+  "height": 12,
+  "weight": 205,
+  "base_experience": 225,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "chlorophyll",
+      "is_hidden": false
+    },
+    {
+      "name": "overcoat",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 103,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 80,
+    "speed": 92
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/542.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/542.png"
+  },
+  "color": "yellow",
+  "generation": 5,
+  "descriptions": {
+    "en": "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
+    "es": "Si se encuentra con un Pokémon joven, segrega por la boca hilos pegadizos con los que le teje una prenda de ropa.",
+    "ca": "Quan troba un Pokémon petit, li teixeix roba de fulles, fent servir les talladores dels seus braços i la seda enganxosa."
+  },
+  "names": {
+    "en": "Leavanny",
+    "es": "Leavanny",
+    "ca": "Leavanny"
+  },
+  "evolution": [
+    {
+      "id": 540,
+      "name": "Sewaddle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png"
+    },
+    {
+      "id": 541,
+      "name": "Swadloon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png"
+    },
+    {
+      "id": 542,
+      "name": "Leavanny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,49 @@
+{
+  "id": 642,
+  "name": "Thundurus-Incarnate",
+  "height": 15,
+  "weight": 610,
+  "base_experience": 261,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "prankster",
+      "is_hidden": false
+    },
+    {
+      "name": "defiant",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 79,
+    "attack": 115,
+    "defense": 70,
+    "special-attack": 125,
+    "special-defense": 80,
+    "speed": 111
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/642.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/642.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "Countless charred remains mar the landscape of places through which Thundurus has passed.",
+    "es": "Lanza descargas eléctricas por las púas de su cola. Sobrevuela Teselia dejando caer rayos.",
+    "ca": "Nombroses restes cremades marquen el paisatge dels llocs pels quals ha passat Thundurus."
+  },
+  "names": {
+    "en": "Thundurus-Incarnate",
+    "es": "Thundurus-Incarnate",
+    "ca": "Thundurus-Incarnate"
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
+}

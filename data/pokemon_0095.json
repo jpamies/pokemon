@@ -1,0 +1,64 @@
+{
+  "id": 95,
+  "name": "Onix",
+  "height": 88,
+  "weight": 2100,
+  "base_experience": 77,
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "rock-head",
+      "is_hidden": false
+    },
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "weak-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "special-attack": 30,
+    "special-defense": 45,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/95.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+  },
+  "color": "gray",
+  "generation": 1,
+  "descriptions": {
+    "en": "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",
+    "es": "Cava a gran velocidad en busca de comida. Los túneles que deja son usados por los Diglett.",
+    "ca": "A mesura que creix, les parts de pedra del seu cos es van endurint fins a assemblar-se a un diamant, però de color negre."
+  },
+  "names": {
+    "en": "Onix",
+    "es": "Onix",
+    "ca": "Onix"
+  },
+  "evolution": [
+    {
+      "id": 95,
+      "name": "Onix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+    },
+    {
+      "id": 208,
+      "name": "Steelix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

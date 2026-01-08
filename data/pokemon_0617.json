@@ -1,0 +1,63 @@
+{
+  "id": 617,
+  "name": "Accelgor",
+  "height": 8,
+  "weight": 253,
+  "base_experience": 173,
+  "types": [
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "hydration",
+      "is_hidden": false
+    },
+    {
+      "name": "sticky-hold",
+      "is_hidden": false
+    },
+    {
+      "name": "unburden",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 40,
+    "special-attack": 100,
+    "special-defense": 60,
+    "speed": 145
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/617.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/617.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+    "es": "Se siente ligero una vez liberado de su caparazón. Lucha y se mueve como un ninja.",
+    "ca": "Quan el seu cos s'asseca, es debilita. Per tant, per evitar la deshidratació, s'embolica amb moltes capes de membrana prima."
+  },
+  "names": {
+    "en": "Accelgor",
+    "es": "Accelgor",
+    "ca": "Accelgor"
+  },
+  "evolution": [
+    {
+      "id": 616,
+      "name": "Shelmet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png"
+    },
+    {
+      "id": 617,
+      "name": "Accelgor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

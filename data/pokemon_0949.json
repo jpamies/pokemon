@@ -1,0 +1,60 @@
+{
+  "id": 949,
+  "name": "Toedscruel",
+  "height": 19,
+  "weight": 580,
+  "base_experience": 180,
+  "types": [
+    "ground",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "mycelium-might",
+      "is_hidden": false
+    },
+    {
+      "name": "mycelium-might",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "special-attack": 80,
+    "special-defense": 120,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/949.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/949.png"
+  },
+  "color": "black",
+  "generation": 9,
+  "descriptions": {
+    "en": "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
+    "es": "Estos Pokémon se reúnen en grupos y forman colonias profundamente en los bosques. Odian completamente cuando los extraños se acercan.",
+    "ca": "Aquests Pokémon es reuneixen en grups i formen colònies al cor dels boscos. Odien que els estranys s'apropin."
+  },
+  "names": {
+    "en": "Toedscruel",
+    "es": "Toedscruel",
+    "ca": "Toedscruel"
+  },
+  "evolution": [
+    {
+      "id": 948,
+      "name": "Toedscool",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png"
+    },
+    {
+      "id": 949,
+      "name": "Toedscruel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

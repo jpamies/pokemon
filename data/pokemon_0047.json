@@ -1,0 +1,64 @@
+{
+  "id": 47,
+  "name": "Parasect",
+  "height": 10,
+  "weight": 295,
+  "base_experience": 142,
+  "types": [
+    "bug",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "effect-spore",
+      "is_hidden": false
+    },
+    {
+      "name": "dry-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "damp",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "special-attack": 60,
+    "special-defense": 80,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/47.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png"
+  },
+  "color": "red",
+  "generation": 1,
+  "descriptions": {
+    "en": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+    "es": "Parasect está dominado por una seta parásita mayor que él. Dispersa esporas venenosas.",
+    "ca": "Un parell d'hoste i paràsit on el bolet paràsit s'ha apoderat de l'insecte hoste. Prefereix llocs humits."
+  },
+  "names": {
+    "en": "Parasect",
+    "es": "Parasect",
+    "ca": "Parasect"
+  },
+  "evolution": [
+    {
+      "id": 46,
+      "name": "Paras",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+    },
+    {
+      "id": 47,
+      "name": "Parasect",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

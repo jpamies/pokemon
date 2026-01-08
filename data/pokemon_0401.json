@@ -1,0 +1,59 @@
+{
+  "id": 401,
+  "name": "Kricketot",
+  "height": 3,
+  "weight": 22,
+  "base_experience": 39,
+  "types": [
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "run-away",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 37,
+    "attack": 25,
+    "defense": 41,
+    "special-attack": 25,
+    "special-defense": 41,
+    "speed": 25
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/401.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/401.png"
+  },
+  "color": "red",
+  "generation": 4,
+  "descriptions": {
+    "en": "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
+    "es": "Hablan entre sí chocando las antenas. Los sonidos producidos son muy característicos.",
+    "ca": "Mou el cap d'un costat a l'altre, fent que les seves antenes xoquin i sonin com un xilòfon."
+  },
+  "names": {
+    "en": "Kricketot",
+    "es": "Kricketot",
+    "ca": "Kricketot"
+  },
+  "evolution": [
+    {
+      "id": 401,
+      "name": "Kricketot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png"
+    },
+    {
+      "id": 402,
+      "name": "Kricketune",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,63 @@
+{
+  "id": 613,
+  "name": "Cubchoo",
+  "height": 5,
+  "weight": 85,
+  "base_experience": 61,
+  "types": [
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "snow-cloak",
+      "is_hidden": false
+    },
+    {
+      "name": "slush-rush",
+      "is_hidden": false
+    },
+    {
+      "name": "rattled",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 40,
+    "special-attack": 60,
+    "special-defense": 40,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/613.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/613.png"
+  },
+  "color": "white",
+  "generation": 5,
+  "descriptions": {
+    "en": "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
+    "es": "Siempre está con mucosidades colgando. Las aspira para hacer un movimiento, ya que son su materia prima para esto.",
+    "ca": "Quan no es troba bé, el seu mucus es torna aquós i el poder dels seus atacs de tipus Gel disminueix."
+  },
+  "names": {
+    "en": "Cubchoo",
+    "es": "Cubchoo",
+    "ca": "Cubchoo"
+  },
+  "evolution": [
+    {
+      "id": 613,
+      "name": "Cubchoo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png"
+    },
+    {
+      "id": 614,
+      "name": "Beartic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

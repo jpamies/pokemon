@@ -1,0 +1,64 @@
+{
+  "id": 467,
+  "name": "Magmortar",
+  "height": 16,
+  "weight": 680,
+  "base_experience": 243,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "vital-spirit",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 67,
+    "special-attack": 125,
+    "special-defense": 95,
+    "speed": 83
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/467.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/467.png"
+  },
+  "color": "red",
+  "generation": 4,
+  "descriptions": {
+    "en": "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",
+    "es": "Sus brazos disparan bolas de fuego de más de 2000 °C. Vive en cráteres volcánicos.",
+    "ca": "Dispara boles de foc de més de 1.800 graus Celsius des dels extrems dels seus braços. Viu en cràters volcànics."
+  },
+  "names": {
+    "en": "Magmortar",
+    "es": "Magmortar",
+    "ca": "Magmortar"
+  },
+  "evolution": [
+    {
+      "id": 240,
+      "name": "Magby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png"
+    },
+    {
+      "id": 126,
+      "name": "Magmar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+    },
+    {
+      "id": 467,
+      "name": "Magmortar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

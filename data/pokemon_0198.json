@@ -1,0 +1,64 @@
+{
+  "id": 198,
+  "name": "Murkrow",
+  "height": 5,
+  "weight": 21,
+  "base_experience": 81,
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "insomnia",
+      "is_hidden": false
+    },
+    {
+      "name": "super-luck",
+      "is_hidden": false
+    },
+    {
+      "name": "prankster",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 42,
+    "special-attack": 85,
+    "special-defense": 42,
+    "speed": 91
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/198.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png"
+  },
+  "color": "black",
+  "generation": 2,
+  "descriptions": {
+    "en": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+    "es": "Esconde objetos brillantes en un lugar secreto. Meowth y Murkrow suelen saquear su escondite.",
+    "ca": "Temut i avorrit per molts, es creu que porta desgràcia a tots els que el veuen de nit."
+  },
+  "names": {
+    "en": "Murkrow",
+    "es": "Murkrow",
+    "ca": "Murkrow"
+  },
+  "evolution": [
+    {
+      "id": 198,
+      "name": "Murkrow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png"
+    },
+    {
+      "id": 430,
+      "name": "Honchkrow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

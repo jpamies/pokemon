@@ -1,0 +1,64 @@
+{
+  "id": 657,
+  "name": "Frogadier",
+  "height": 6,
+  "weight": 109,
+  "base_experience": 142,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "torrent",
+      "is_hidden": false
+    },
+    {
+      "name": "protean",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 54,
+    "attack": 63,
+    "defense": 52,
+    "special-attack": 83,
+    "special-defense": 56,
+    "speed": 97
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png"
+  },
+  "color": "blue",
+  "generation": 6,
+  "descriptions": {
+    "en": "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+    "es": "Puede lanzar piedras envueltas en burbujas con tal puntería, que acierta latas vacías a 30 metros de distancia.",
+    "ca": "Pot llançar pedres recobertes de bombolles amb un control precís, encertant llaunes buides a fins a cent peus de distància."
+  },
+  "names": {
+    "en": "Frogadier",
+    "es": "Frogadier",
+    "ca": "Frogadier"
+  },
+  "evolution": [
+    {
+      "id": 656,
+      "name": "Froakie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png"
+    },
+    {
+      "id": 657,
+      "name": "Frogadier",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png"
+    },
+    {
+      "id": 658,
+      "name": "Greninja",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": 121,
+  "name": "Starmie",
+  "height": 11,
+  "weight": 800,
+  "base_experience": 182,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "illuminate",
+      "is_hidden": false
+    },
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    },
+    {
+      "name": "analytic",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 85,
+    "special-attack": 100,
+    "special-defense": 85,
+    "speed": 115
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/121.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+    "es": "Su núcleo central brilla con los colores del arcoíris. Para algunos tiene el valor de una gema.",
+    "ca": "El seu nucli central resplendeix amb els set colors de l'arc de sant Martí. Algunes persones valoren el nucli com a una gemma."
+  },
+  "names": {
+    "en": "Starmie",
+    "es": "Starmie",
+    "ca": "Starmie"
+  },
+  "evolution": [
+    {
+      "id": 120,
+      "name": "Staryu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+    },
+    {
+      "id": 121,
+      "name": "Starmie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

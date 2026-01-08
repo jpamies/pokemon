@@ -1,0 +1,45 @@
+{
+  "id": 989,
+  "name": "Sandy-Shocks",
+  "height": 23,
+  "weight": 600,
+  "base_experience": 285,
+  "types": [
+    "electric",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "protosynthesis",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 81,
+    "defense": 97,
+    "special-attack": 121,
+    "special-defense": 85,
+    "speed": 101
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/989.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/989.png"
+  },
+  "color": "gray",
+  "generation": 9,
+  "descriptions": {
+    "en": "No records exist of this Pokémon being caught. Data is lacking, but the Pokémon’s traits match up with a creature shown in an expedition journal.",
+    "es": "No existen registros de que este Pokémon haya sido capturado. Los datos son escasos, pero los rasgos del Pokémon coinciden con una criatura que se muestra en un diario de expedición.",
+    "ca": "No hi ha registres d'aquest Pokémon que hagi estat capturat. Les dades són escasses, però els trets del Pokémon coincideixen amb una criatura que es mostra en un diari d'expedició."
+  },
+  "names": {
+    "en": "Sandy-Shocks",
+    "es": "Sandy-Shocks",
+    "ca": "Sandy-Shocks"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

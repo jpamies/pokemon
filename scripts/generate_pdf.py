@@ -91,24 +91,81 @@ def get_emoji_font():
 
 # Type translations to Catalan (primary language)
 TYPE_TRANSLATIONS = {
-    'normal': 'NORMAL',
-    'fire': 'FOC',
-    'water': 'AIGUA',
-    'electric': 'ELÈCTRIC',
-    'grass': 'PLANTA',
-    'ice': 'GEL',
-    'fighting': 'LLUITA',
-    'poison': 'VERÍ',
-    'ground': 'TERRA',
-    'flying': 'VOLADOR',
-    'psychic': 'PSÍQUIC',
-    'bug': 'INSECTE',
-    'rock': 'ROCA',
-    'ghost': 'FANTASMA',
-    'dragon': 'DRAC',
-    'dark': 'FOSC',
-    'steel': 'ACER',
-    'fairy': 'FADA'
+    'ca': {
+        'normal': 'NORMAL',
+        'fire': 'FOC',
+        'water': 'AIGUA',
+        'electric': 'ELÈCTRIC',
+        'grass': 'PLANTA',
+        'ice': 'GEL',
+        'fighting': 'LLUITA',
+        'poison': 'VERÍ',
+        'ground': 'TERRA',
+        'flying': 'VOLADOR',
+        'psychic': 'PSÍQUIC',
+        'bug': 'INSECTE',
+        'rock': 'ROCA',
+        'ghost': 'FANTASMA',
+        'dragon': 'DRAC',
+        'dark': 'FOSC',
+        'steel': 'ACER',
+        'fairy': 'FADA'
+    },
+    'es': {
+        'normal': 'NORMAL',
+        'fire': 'FUEGO',
+        'water': 'AGUA',
+        'electric': 'ELÉCTRICO',
+        'grass': 'PLANTA',
+        'ice': 'HIELO',
+        'fighting': 'LUCHA',
+        'poison': 'VENENO',
+        'ground': 'TIERRA',
+        'flying': 'VOLADOR',
+        'psychic': 'PSÍQUICO',
+        'bug': 'BICHO',
+        'rock': 'ROCA',
+        'ghost': 'FANTASMA',
+        'dragon': 'DRAGÓN',
+        'dark': 'SINIESTRO',
+        'steel': 'ACERO',
+        'fairy': 'HADA'
+    },
+    'en': {
+        'normal': 'NORMAL',
+        'fire': 'FIRE',
+        'water': 'WATER',
+        'electric': 'ELECTRIC',
+        'grass': 'GRASS',
+        'ice': 'ICE',
+        'fighting': 'FIGHTING',
+        'poison': 'POISON',
+        'ground': 'GROUND',
+        'flying': 'FLYING',
+        'psychic': 'PSYCHIC',
+        'bug': 'BUG',
+        'rock': 'ROCK',
+        'ghost': 'GHOST',
+        'dragon': 'DRAGON',
+        'dark': 'DARK',
+        'steel': 'STEEL',
+        'fairy': 'FAIRY'
+    }
+}
+
+SPECIAL_TRANSLATIONS = {
+    'ca': {
+        'legendary': 'LLEGENDARI',
+        'mythical': 'MÍTIC'
+    },
+    'es': {
+        'legendary': 'LEGENDARIO',
+        'mythical': 'MÍTICO'
+    },
+    'en': {
+        'legendary': 'LEGENDARY',
+        'mythical': 'MYTHICAL'
+    }
 }
 POKEMON_COLORS = {
     'red': '#FF4757',      # Bright red
@@ -188,14 +245,14 @@ TYPE_ICONS_FALLBACK = {
     'fairy': '★'
 }
 
-def fetch_pokemon(pokemon_id):
+def fetch_pokemon(pokemon_id, language="ca"):
     """Fetch Pokemon data from API with caching"""
     cache_file = os.path.join(DATA_CACHE_DIR, f'pokemon_{pokemon_id}.json')
     
-    # Try to load from local JSON files first (pokemon_data/)
+    # Try to load from local JSON files first (data/)
     local_file_paths = [
-        f'../pokemon_data/pokemon_{pokemon_id:04d}.json',
-        f'pokemon_data/pokemon_{pokemon_id:04d}.json'
+        f'../data/pokemon_{pokemon_id:04d}.json',
+        f'data/pokemon_{pokemon_id:04d}.json'
     ]
     
     for local_file in local_file_paths:
@@ -203,7 +260,10 @@ def fetch_pokemon(pokemon_id):
             try:
                 with open(local_file, 'r', encoding='utf-8') as f:
                     local_data = json.load(f)
-                    # Convert to expected format
+                    # Convert to expected format with correct language
+                    lang_map = {'ca': 'ca', 'es': 'es', 'en': 'en'}
+                    desc_key = lang_map.get(language, 'ca')
+                    
                     pokemon_data = {
                         'id': local_data['id'],
                         'name': local_data['name'],
@@ -214,7 +274,7 @@ def fetch_pokemon(pokemon_id):
                         'stats': local_data.get('stats', {}),
                         'evolution': local_data.get('evolution'),
                         'color': local_data.get('color', 'unknown'),
-                        'description': local_data.get('descriptions', {}).get('es', 'Descripción no disponible.'),
+                        'description': local_data.get('descriptions', {}).get(desc_key, local_data.get('descriptions', {}).get('en', 'Descripción no disponible.')),
                         'description_catalan': local_data.get('descriptions', {}).get('ca', 'Descripció no disponible.'),
                         'is_legendary': local_data.get('is_legendary', False),
                         'is_mythical': local_data.get('is_mythical', False)
@@ -409,7 +469,7 @@ def get_generation(pokemon_id):
     else:
         return 'Gen IX - Paldea'
 
-def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
+def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language="ca"):
     """Draw a single Pokemon card"""
     # Card background
     c.setFillColor(HexColor('#ffffff'))
@@ -485,7 +545,14 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
     
     # Description text directly below image (no box) - FULL WIDTH AND UPPERCASE
     desc_y = img_y - 20  # Moved down from -15 to -20 (-5px)
-    description = pokemon.get('description_catalan', pokemon.get('description', 'Descripció no disponible.')).upper()  # UPPERCASE
+    
+    # Use correct description based on language
+    if language == 'ca':
+        description = pokemon.get('description_catalan', pokemon.get('description', 'Descripció no disponible.'))
+    else:
+        description = pokemon.get('description', 'Descripción no disponible.')
+    
+    description = description.upper()  # UPPERCASE
     c.setFillColor(HexColor('#2c3e50'))
     c.setFont("Helvetica", 8)  # Slightly bigger font
     
@@ -534,7 +601,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                 # Type text without symbol - TRANSLATED AND UPPERCASE
                 c.setFillColor(HexColor('#000000'))  # Black text for better contrast
                 c.setFont("Helvetica-Bold", 8)
-                type_translated = TYPE_TRANSLATIONS.get(ptype, ptype.upper())
+                type_translated = TYPE_TRANSLATIONS.get(language, {}).get(ptype, ptype.upper())
                 c.drawString(right_x + 22, type_y + 5, type_translated)
             except Exception as e:
                 # Fallback to symbol with badge if image fails
@@ -543,7 +610,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
                 type_icon_fallback = TYPE_ICONS_FALLBACK.get(ptype, '❓')
                 c.setFillColor(HexColor('#ffffff'))
                 c.setFont("Helvetica-Bold", 8)
-                type_translated = TYPE_TRANSLATIONS.get(ptype, ptype.upper())
+                type_translated = TYPE_TRANSLATIONS.get(language, {}).get(ptype, ptype.upper())
                 type_text = f"{type_icon_fallback} {type_translated}"
                 c.drawString(right_x + 5, type_y + 5, type_text)
         else:
@@ -553,7 +620,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
             type_icon_fallback = TYPE_ICONS_FALLBACK.get(ptype, '❓')
             c.setFillColor(HexColor('#ffffff'))
             c.setFont("Helvetica-Bold", 8)
-            type_translated = TYPE_TRANSLATIONS.get(ptype, ptype.upper())
+            type_translated = TYPE_TRANSLATIONS.get(language, {}).get(ptype, ptype.upper())
             type_text = f"{type_icon_fallback} {type_translated}"
             c.drawString(right_x + 5, type_y + 5, type_text)
     
@@ -567,14 +634,16 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
             c.drawImage(legendary_icon, right_x + 3, special_y + 1, width=16, height=16, mask='auto')
             c.setFillColor(HexColor('#000000'))  # Black text
             c.setFont("Helvetica-Bold", 8)
-            c.drawString(right_x + 22, special_y + 5, "LLEGENDARI")
+            legendary_text = SPECIAL_TRANSLATIONS.get(language, {}).get('legendary', 'LEGENDARY')
+            c.drawString(right_x + 22, special_y + 5, legendary_text)
         else:
             # Fallback with badge
             c.setFillColor(HexColor('#B8860B'))
             c.roundRect(right_x, special_y, 70, 18, 9, fill=1)
             c.setFillColor(HexColor('#ffffff'))
             c.setFont("Helvetica-Bold", 8)
-            c.drawString(right_x + 5, special_y + 5, "⭐ LLEGENDARI")
+            legendary_text = SPECIAL_TRANSLATIONS.get(language, {}).get('legendary', 'LEGENDARY')
+            c.drawString(right_x + 5, special_y + 5, f"⭐ {legendary_text}")
         special_y -= 22
     
     if pokemon.get('is_mythical', False):
@@ -584,14 +653,16 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height):
             c.drawImage(mythical_icon, right_x + 3, special_y + 1, width=16, height=16, mask='auto')
             c.setFillColor(HexColor('#000000'))  # Black text
             c.setFont("Helvetica-Bold", 8)
-            c.drawString(right_x + 22, special_y + 5, "MÍTIC")
+            mythical_text = SPECIAL_TRANSLATIONS.get(language, {}).get('mythical', 'MYTHICAL')
+            c.drawString(right_x + 22, special_y + 5, mythical_text)
         else:
             # Fallback with badge
             c.setFillColor(HexColor('#C0C0C0'))
             c.roundRect(right_x, special_y, 70, 18, 9, fill=1)
             c.setFillColor(HexColor('#000000'))
             c.setFont("Helvetica-Bold", 8)
-            c.drawString(right_x + 5, special_y + 5, "✨ MÍTIC")
+            mythical_text = SPECIAL_TRANSLATIONS.get(language, {}).get('mythical', 'MYTHICAL')
+            c.drawString(right_x + 5, special_y + 5, f"✨ {mythical_text}")
     
     # Remove special badges section - more space for description
     
@@ -773,7 +844,7 @@ def generate_pdf():
     # TODO: Expand to more generations after translations are complete
     print(f"\\nReady to expand to all {total_count} Pokemon once translations are complete!")
 
-def generate_pokemon_pdf(pokemon_list, filename, subtitle="151 Pokémon"):
+def generate_pokemon_pdf(pokemon_list, filename, subtitle="151 Pokémon", language="ca"):
     """Generate PDF with given Pokemon list"""
     # Create PDF directory if it doesn't exist
     os.makedirs('pdf', exist_ok=True)
@@ -810,7 +881,7 @@ def generate_pokemon_pdf(pokemon_list, filename, subtitle="151 Pokémon"):
         x = margin_x + col * (card_width + spacing_x)
         y = page_height - margin_y - (row + 1) * (card_height + spacing_y)
         
-        draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height)
+        draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language)
         card_count += 1
     
     c.save()

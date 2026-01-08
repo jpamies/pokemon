@@ -1,0 +1,64 @@
+{
+  "id": 650,
+  "name": "Chespin",
+  "height": 4,
+  "weight": 90,
+  "base_experience": 63,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "bulletproof",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 56,
+    "attack": 61,
+    "defense": 65,
+    "special-attack": 48,
+    "special-defense": 45,
+    "speed": 38
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/650.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png"
+  },
+  "color": "green",
+  "generation": 6,
+  "descriptions": {
+    "en": "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+    "es": "Cuando acumula energía, las suaves púas de su cabeza se vuelven tan duras y afiladas que hasta pueden atravesar rocas.",
+    "ca": "Els pues del seu cap solen ser tous. Quan els flexiona, els punts es tornen tan durs i afilats que poden traspassar la roca."
+  },
+  "names": {
+    "en": "Chespin",
+    "es": "Chespin",
+    "ca": "Chespin"
+  },
+  "evolution": [
+    {
+      "id": 650,
+      "name": "Chespin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png"
+    },
+    {
+      "id": 651,
+      "name": "Quilladin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png"
+    },
+    {
+      "id": 652,
+      "name": "Chesnaught",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

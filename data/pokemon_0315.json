@@ -1,0 +1,69 @@
+{
+  "id": 315,
+  "name": "Roselia",
+  "height": 3,
+  "weight": 20,
+  "base_experience": 140,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    },
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "leaf-guard",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 45,
+    "special-attack": 100,
+    "special-defense": 80,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/315.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png"
+  },
+  "color": "green",
+  "generation": 3,
+  "descriptions": {
+    "en": "ROSELIA shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this POKéMON brings serenity to living things.",
+    "es": "Ataca con sus manos, en las que tiene un tipo de veneno diferente en cada una. Cuanto más aroma, mejor salud tiene.",
+    "ca": "ROSELIA dispara espines afilades com a projectils contra qualsevol oponent que intenti robar les flors dels seus braços. L'aroma d'aquest POKÉMON aporta serenitat als éssers vius."
+  },
+  "names": {
+    "en": "Roselia",
+    "es": "Roselia",
+    "ca": "Roselia"
+  },
+  "evolution": [
+    {
+      "id": 406,
+      "name": "Budew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png"
+    },
+    {
+      "id": 315,
+      "name": "Roselia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png"
+    },
+    {
+      "id": 407,
+      "name": "Roserade",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

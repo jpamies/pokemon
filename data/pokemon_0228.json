@@ -1,0 +1,64 @@
+{
+  "id": 228,
+  "name": "Houndour",
+  "height": 6,
+  "weight": 108,
+  "base_experience": 66,
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "early-bird",
+      "is_hidden": false
+    },
+    {
+      "name": "flash-fire",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 60,
+    "defense": 30,
+    "special-attack": 80,
+    "special-defense": 50,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/228.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png"
+  },
+  "color": "black",
+  "generation": 2,
+  "descriptions": {
+    "en": "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+    "es": "Al amanecer, resuena por la zona su inquietante aullido para anunciar que es su territorio.",
+    "ca": "Utilitza diferents tipus de crits per comunicar-se amb els altres de la seva espècie i per perseguir la seva presa."
+  },
+  "names": {
+    "en": "Houndour",
+    "es": "Houndour",
+    "ca": "Houndour"
+  },
+  "evolution": [
+    {
+      "id": 228,
+      "name": "Houndour",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png"
+    },
+    {
+      "id": 229,
+      "name": "Houndoom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

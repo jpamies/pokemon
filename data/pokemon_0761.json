@@ -1,0 +1,68 @@
+{
+  "id": 761,
+  "name": "Bounsweet",
+  "height": 3,
+  "weight": 32,
+  "base_experience": 42,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "leaf-guard",
+      "is_hidden": false
+    },
+    {
+      "name": "oblivious",
+      "is_hidden": false
+    },
+    {
+      "name": "sweet-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 42,
+    "attack": 30,
+    "defense": 38,
+    "special-attack": 30,
+    "special-defense": 38,
+    "speed": 32
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/761.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/761.png"
+  },
+  "color": "purple",
+  "generation": 7,
+  "descriptions": {
+    "en": "A delectable aroma pours from its body. They are often swallowed whole by Toucannon lured by that wafting deliciousness.",
+    "es": "Atraídos por el apetitoso aroma que desprende su cuerpo, los Toucannon los engullen con avidez sin ni siquiera masticar.",
+    "ca": "De cos en surt una aroma delectable. Sovint són empassats sencers pels Toucannon atrets per aquella suavitat."
+  },
+  "names": {
+    "en": "Bounsweet",
+    "es": "Bounsweet",
+    "ca": "Bounsweet"
+  },
+  "evolution": [
+    {
+      "id": 761,
+      "name": "Bounsweet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/761.png"
+    },
+    {
+      "id": 762,
+      "name": "Steenee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png"
+    },
+    {
+      "id": 763,
+      "name": "Tsareena",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

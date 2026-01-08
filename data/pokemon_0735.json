@@ -1,0 +1,63 @@
+{
+  "id": 735,
+  "name": "Gumshoos",
+  "height": 7,
+  "weight": 142,
+  "base_experience": 146,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "stakeout",
+      "is_hidden": false
+    },
+    {
+      "name": "strong-jaw",
+      "is_hidden": false
+    },
+    {
+      "name": "adaptability",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 88,
+    "attack": 110,
+    "defense": 60,
+    "special-attack": 55,
+    "special-defense": 60,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/735.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/735.png"
+  },
+  "color": "brown",
+  "generation": 7,
+  "descriptions": {
+    "en": "When it finds a trace of its prey, it patiently stakes out the location...but it’s always snoozing by nightfall.",
+    "es": "Al detectar el rastro de una presa, la acecha con tenacidad, pero al ponerse el sol le vence el sueño.",
+    "ca": "Quan troba un rastre de la seva presa, l'assetja amb paciència... però sempre s'adorm a la caiguda de la nit."
+  },
+  "names": {
+    "en": "Gumshoos",
+    "es": "Gumshoos",
+    "ca": "Gumshoos"
+  },
+  "evolution": [
+    {
+      "id": 734,
+      "name": "Yungoos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/734.png"
+    },
+    {
+      "id": 735,
+      "name": "Gumshoos",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/735.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

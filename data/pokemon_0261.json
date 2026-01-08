@@ -1,0 +1,63 @@
+{
+  "id": 261,
+  "name": "Poochyena",
+  "height": 5,
+  "weight": 136,
+  "base_experience": 56,
+  "types": [
+    "dark"
+  ],
+  "abilities": [
+    {
+      "name": "run-away",
+      "is_hidden": false
+    },
+    {
+      "name": "quick-feet",
+      "is_hidden": false
+    },
+    {
+      "name": "rattled",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 35,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/261.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/261.png"
+  },
+  "color": "gray",
+  "generation": 3,
+  "descriptions": {
+    "en": "At first sight, POOCHYENA takes a bite at anything that moves. This POKéMON chases after prey until the victim becomes exhausted. However, it may turn tail if the prey strikes back.",
+    "es": "Es muy persistente. Si se fija en una presa, no la dejará hasta que caiga agotada.",
+    "ca": "A primera vista, el POOCHYENA mossega qualsevol cosa que es mou. Aquest POKÉMON persegueix la seva presa fins que aquesta s'esgota. No obstant això, pot donar mitja volta si la presa li planta cara."
+  },
+  "names": {
+    "en": "Poochyena",
+    "es": "Poochyena",
+    "ca": "Poochyena"
+  },
+  "evolution": [
+    {
+      "id": 261,
+      "name": "Poochyena",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png"
+    },
+    {
+      "id": 262,
+      "name": "Mightyena",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

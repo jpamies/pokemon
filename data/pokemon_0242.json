@@ -1,0 +1,68 @@
+{
+  "id": 242,
+  "name": "Blissey",
+  "height": 15,
+  "weight": 468,
+  "base_experience": 608,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    },
+    {
+      "name": "serene-grace",
+      "is_hidden": false
+    },
+    {
+      "name": "healer",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 255,
+    "attack": 10,
+    "defense": 10,
+    "special-attack": 75,
+    "special-defense": 135,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/242.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png"
+  },
+  "color": "pink",
+  "generation": 2,
+  "descriptions": {
+    "en": "Anyone who takes even one bite of BLISSEY's egg be­ comes unfailingly caring and pleas­ ant to everyone.",
+    "es": "Los huevos que pone están llenos de felicidad. Solo con probar un poquito de uno, cualquiera sonríe.",
+    "ca": "Qualsevol que donyi una besada a l'ou de Blissey es tornarà una persona molt atenta i agradable amb tothom."
+  },
+  "names": {
+    "en": "Blissey",
+    "es": "Blissey",
+    "ca": "Blissey"
+  },
+  "evolution": [
+    {
+      "id": 440,
+      "name": "Happiny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png"
+    },
+    {
+      "id": 113,
+      "name": "Chansey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+    },
+    {
+      "id": 242,
+      "name": "Blissey",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

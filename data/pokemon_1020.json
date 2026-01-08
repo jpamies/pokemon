@@ -1,0 +1,45 @@
+{
+  "id": 1020,
+  "name": "Gouging-Fire",
+  "height": 35,
+  "weight": 5900,
+  "base_experience": 295,
+  "types": [
+    "fire",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "protosynthesis",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 105,
+    "attack": 115,
+    "defense": 121,
+    "special-attack": 65,
+    "special-defense": 93,
+    "speed": 91
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1020.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1020.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1020.png"
+  },
+  "color": "brown",
+  "generation": 9,
+  "descriptions": {
+    "en": "There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.",
+    "es": "Hay muy pocos informes de avistamientos de esta criatura. Un breve video la muestra embistiendo y expulsando pilares de fuego.",
+    "ca": "Hi ha molt pocs informes sobre l'avistament d'aquesta criatura. Un breu vídeo mostra com es desferma i expulsa columnes de flames."
+  },
+  "names": {
+    "en": "Gouging-Fire",
+    "es": "Gouging-Fire",
+    "ca": "Gouging-Fire"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

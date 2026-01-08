@@ -1,0 +1,64 @@
+{
+  "id": 295,
+  "name": "Exploud",
+  "height": 15,
+  "weight": 840,
+  "base_experience": 221,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "soundproof",
+      "is_hidden": false
+    },
+    {
+      "name": "scrappy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 104,
+    "attack": 91,
+    "defense": 63,
+    "special-attack": 91,
+    "special-defense": 73,
+    "speed": 68
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/295.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/295.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "EXPLOUD triggers earthquakes with the tremors it creates by bellowing. If this POKéMON violently inhales from the ports on its body, it’s a sign that it is preparing to let loose a huge bellow.",
+    "es": "Su aullido se puede oír a 10 km. Emite todo tipo de sonidos desde los tubos de su cuerpo.",
+    "ca": "L'EXPLOUD provoca terratrèmols amb les sacsejades que genera quan udola. Si aquest POKÉMON aspira violentament pels forats del seu cos, és un senyal que s'està preparant per deixar anar un udol enorme."
+  },
+  "names": {
+    "en": "Exploud",
+    "es": "Exploud",
+    "ca": "Exploud"
+  },
+  "evolution": [
+    {
+      "id": 293,
+      "name": "Whismur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/293.png"
+    },
+    {
+      "id": 294,
+      "name": "Loudred",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png"
+    },
+    {
+      "id": 295,
+      "name": "Exploud",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

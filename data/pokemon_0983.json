@@ -1,0 +1,69 @@
+{
+  "id": 983,
+  "name": "Kingambit",
+  "height": 20,
+  "weight": 1200,
+  "base_experience": 275,
+  "types": [
+    "dark",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "defiant",
+      "is_hidden": false
+    },
+    {
+      "name": "supreme-overlord",
+      "is_hidden": false
+    },
+    {
+      "name": "pressure",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 135,
+    "defense": 120,
+    "special-attack": 60,
+    "special-defense": 85,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/983.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/983.png"
+  },
+  "color": "black",
+  "generation": 9,
+  "descriptions": {
+    "en": "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
+    "es": "Solo un Bisharp que destaque por encima de todos los demás en su vasto ejército puede evolucionar en Kingambit.",
+    "ca": "Només un Bisharp que destaqui per sobre de tots els altres del seu gran exèrcit pot evolucionar a Kingambit."
+  },
+  "names": {
+    "en": "Kingambit",
+    "es": "Kingambit",
+    "ca": "Kingambit"
+  },
+  "evolution": [
+    {
+      "id": 624,
+      "name": "Pawniard",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png"
+    },
+    {
+      "id": 625,
+      "name": "Bisharp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png"
+    },
+    {
+      "id": 983,
+      "name": "Kingambit",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

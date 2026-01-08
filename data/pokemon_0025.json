@@ -1,0 +1,64 @@
+{
+  "id": 25,
+  "name": "Pikachu",
+  "height": 4,
+  "weight": 60,
+  "base_experience": 112,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "static",
+      "is_hidden": false
+    },
+    {
+      "name": "lightning-rod",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "When several of these POKéMON gather, their electricity could build and cause lightning storms.",
+    "es": "Levanta su cola para vigilar los alrededores. A veces, puede ser alcanzado por un rayo en esa pose.",
+    "ca": "Quan es reuneixen diversos d'aquests Pokémon, la seva electricitat pot acumular-se i causar tempestes."
+  },
+  "names": {
+    "en": "Pikachu",
+    "es": "Pikachu",
+    "ca": "Pikachu"
+  },
+  "evolution": [
+    {
+      "id": 172,
+      "name": "Pichu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png"
+    },
+    {
+      "id": 25,
+      "name": "Pikachu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    {
+      "id": 26,
+      "name": "Raichu",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

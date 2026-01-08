@@ -1,0 +1,60 @@
+{
+  "id": 873,
+  "name": "Frosmoth",
+  "height": 13,
+  "weight": 420,
+  "base_experience": 166,
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "is_hidden": false
+    },
+    {
+      "name": "ice-scales",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 65,
+    "defense": 60,
+    "special-attack": 125,
+    "special-defense": 90,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/873.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/873.png"
+  },
+  "color": "white",
+  "generation": 8,
+  "descriptions": {
+    "en": "Icy scales fall from its wings like snow as it flies over fields and mountains. The temperature of its wings is less than −290 degrees Fahrenheit.",
+    "es": "La temperatura de sus alas es de -180 °C. Sobrevuela el campo esparciendo sus gélidas escamas, como si de nieve se tratase.",
+    "ca": "Les escates de gel cauen de les seves ales com la neu mentre vola sobre camps i muntanyes. La temperatura de les seves ales és inferior a -179 graus Celsius."
+  },
+  "names": {
+    "en": "Frosmoth",
+    "es": "Frosmoth",
+    "ca": "Frosmoth"
+  },
+  "evolution": [
+    {
+      "id": 872,
+      "name": "Snom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png"
+    },
+    {
+      "id": 873,
+      "name": "Frosmoth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

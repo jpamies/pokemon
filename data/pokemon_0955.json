@@ -1,0 +1,63 @@
+{
+  "id": 955,
+  "name": "Flittle",
+  "height": 2,
+  "weight": 15,
+  "base_experience": 51,
+  "types": [
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "anticipation",
+      "is_hidden": false
+    },
+    {
+      "name": "frisk",
+      "is_hidden": false
+    },
+    {
+      "name": "speed-boost",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 35,
+    "defense": 30,
+    "special-attack": 55,
+    "special-defense": 30,
+    "speed": 75
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/955.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/955.png"
+  },
+  "color": "yellow",
+  "generation": 9,
+  "descriptions": {
+    "en": "Flittle’s toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon’s belly.",
+    "es": "Los dedos de Flittle levitan a aproximadamente media pulgada del suelo debido al poder psíquico emitido por los volantes en el vientre del Pokémon.",
+    "ca": "Els dits dels peus de Flittle leviten uns pocs centímetres per sobre del terra a causa del poder psíquic que emeten les franges del seu ventre."
+  },
+  "names": {
+    "en": "Flittle",
+    "es": "Flittle",
+    "ca": "Flittle"
+  },
+  "evolution": [
+    {
+      "id": 955,
+      "name": "Flittle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png"
+    },
+    {
+      "id": 956,
+      "name": "Espathra",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

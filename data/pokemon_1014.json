@@ -1,0 +1,49 @@
+{
+  "id": 1014,
+  "name": "Okidogi",
+  "height": 18,
+  "weight": 922,
+  "base_experience": 278,
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "toxic-chain",
+      "is_hidden": false
+    },
+    {
+      "name": "guard-dog",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 88,
+    "attack": 128,
+    "defense": 115,
+    "special-attack": 58,
+    "special-defense": 86,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1014.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1014.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1014.png"
+  },
+  "color": "black",
+  "generation": 9,
+  "descriptions": {
+    "en": "After all its muscles were stimulated by the toxic chain around its neck, Okidogi transformed and gained a powerful physique.",
+    "es": "Después de que todos sus músculos fueran estimulados por la cadena tóxica alrededor de su cuello, Okidogi se transformó y adquirió una poderosa complexión.",
+    "ca": "Després que tots els seus músculs fossin estimulats per la cadena tòxica que tenia al voltant del coll, l'Okidogi es va transformar i va guanyar una silueta poderosa."
+  },
+  "names": {
+    "en": "Okidogi",
+    "es": "Okidogi",
+    "ca": "Okidogi"
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
+}

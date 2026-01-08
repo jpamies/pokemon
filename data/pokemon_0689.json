@@ -1,0 +1,64 @@
+{
+  "id": 689,
+  "name": "Barbaracle",
+  "height": 13,
+  "weight": 960,
+  "base_experience": 175,
+  "types": [
+    "rock",
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "tough-claws",
+      "is_hidden": false
+    },
+    {
+      "name": "sniper",
+      "is_hidden": false
+    },
+    {
+      "name": "pickpocket",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 72,
+    "attack": 105,
+    "defense": 115,
+    "special-attack": 54,
+    "special-defense": 86,
+    "speed": 68
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/689.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png"
+  },
+  "color": "brown",
+  "generation": 6,
+  "descriptions": {
+    "en": "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
+    "es": "Al evolucionar, los dos Binacle se dividen y dan lugar a siete criaturas que se aglomeran formando un Barbaracle y suman su poder al combatir.",
+    "ca": "Quan evolucionen, dos Binacle es multipliquen fins a set. Lluiten amb la força de set Binacle."
+  },
+  "names": {
+    "en": "Barbaracle",
+    "es": "Barbaracle",
+    "ca": "Barbaracle"
+  },
+  "evolution": [
+    {
+      "id": 688,
+      "name": "Binacle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png"
+    },
+    {
+      "id": 689,
+      "name": "Barbaracle",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/689.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

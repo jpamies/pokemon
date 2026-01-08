@@ -1,0 +1,55 @@
+{
+  "id": 772,
+  "name": "Type-Null",
+  "height": 19,
+  "weight": 1205,
+  "base_experience": 107,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "battle-armor",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 95,
+    "special-attack": 95,
+    "special-defense": 95,
+    "speed": 59
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/772.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/772.png"
+  },
+  "color": "gray",
+  "generation": 7,
+  "descriptions": {
+    "en": "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+    "es": "La pesada máscara le impide liberar toda su fuerza, que se cree que es extraordinaria.",
+    "ca": "La pesada màscara de control que porta suprimeix les seves capacitats intrínseques. Aquest Pokémon té un cert poder especial ocult."
+  },
+  "names": {
+    "en": "Type-Null",
+    "es": "Type-Null",
+    "ca": "Type-Null"
+  },
+  "evolution": [
+    {
+      "id": 772,
+      "name": "Type-Null",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png"
+    },
+    {
+      "id": 773,
+      "name": "Silvally",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/773.png"
+    }
+  ],
+  "is_legendary": true,
+  "is_mythical": false
+}

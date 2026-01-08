@@ -1,0 +1,65 @@
+{
+  "id": 996,
+  "name": "Frigibax",
+  "height": 5,
+  "weight": 170,
+  "base_experience": 64,
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "thermal-exchange",
+      "is_hidden": false
+    },
+    {
+      "name": "ice-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 75,
+    "defense": 45,
+    "special-attack": 35,
+    "special-defense": 45,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/996.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/996.png"
+  },
+  "color": "gray",
+  "generation": 9,
+  "descriptions": {
+    "en": "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+    "es": "Frigibax absorbe el calor a través de su aleta dorsal y convierte el calor en energía de hielo. Cuanto más alta es la temperatura, más energía almacena Frigibax.",
+    "ca": "Frigibax absorbeix la calor a través de la seva aleta dorsal i la converteix en energia de gel. Com més alta és la temperatura, més energia emmagatzema Frigibax."
+  },
+  "names": {
+    "en": "Frigibax",
+    "es": "Frigibax",
+    "ca": "Frigibax"
+  },
+  "evolution": [
+    {
+      "id": 996,
+      "name": "Frigibax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png"
+    },
+    {
+      "id": 997,
+      "name": "Arctibax",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png"
+    },
+    {
+      "id": 998,
+      "name": "Baxcalibur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

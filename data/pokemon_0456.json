@@ -1,0 +1,63 @@
+{
+  "id": 456,
+  "name": "Finneon",
+  "height": 4,
+  "weight": 70,
+  "base_experience": 66,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "storm-drain",
+      "is_hidden": false
+    },
+    {
+      "name": "water-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 49,
+    "attack": 49,
+    "defense": 56,
+    "special-attack": 49,
+    "special-defense": 61,
+    "speed": 66
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/456.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/456.png"
+  },
+  "color": "blue",
+  "generation": 4,
+  "descriptions": {
+    "en": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
+    "es": "La línea que le recorre el costado puede almacenar luz solar. Brilla con mucha fuerza por la noche.",
+    "ca": "Després d'una llarga exposició a la llum solar, els patrons de les seves aletes de la cua brillen vividament quan arriba la foscor."
+  },
+  "names": {
+    "en": "Finneon",
+    "es": "Finneon",
+    "ca": "Finneon"
+  },
+  "evolution": [
+    {
+      "id": 456,
+      "name": "Finneon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png"
+    },
+    {
+      "id": 457,
+      "name": "Lumineon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

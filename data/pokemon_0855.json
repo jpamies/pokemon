@@ -1,0 +1,59 @@
+{
+  "id": 855,
+  "name": "Polteageist",
+  "height": 2,
+  "weight": 4,
+  "base_experience": 178,
+  "types": [
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "weak-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "cursed-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 65,
+    "special-attack": 134,
+    "special-defense": 114,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/855.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/855.png"
+  },
+  "color": "purple",
+  "generation": 8,
+  "descriptions": {
+    "en": "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.",
+    "es": "Se hospeda en teteras dignas de un anticuario. Las originales son escasísimas, pero existe un gran número de burdas falsificaciones.",
+    "ca": "Aquesta espècie viu en tetera antigues. La majoria de les tetera són falsificacions, però en algunes ocasions, es troba una obra autèntica."
+  },
+  "names": {
+    "en": "Polteageist",
+    "es": "Polteageist",
+    "ca": "Polteageist"
+  },
+  "evolution": [
+    {
+      "id": 854,
+      "name": "Sinistea",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/854.png"
+    },
+    {
+      "id": 855,
+      "name": "Polteageist",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

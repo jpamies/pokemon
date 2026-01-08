@@ -1,0 +1,65 @@
+{
+  "id": 936,
+  "name": "Armarouge",
+  "height": 15,
+  "weight": 850,
+  "base_experience": 263,
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "is_hidden": false
+    },
+    {
+      "name": "weak-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 60,
+    "defense": 100,
+    "special-attack": 125,
+    "special-defense": 80,
+    "speed": 75
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/936.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/936.png"
+  },
+  "color": "red",
+  "generation": 9,
+  "descriptions": {
+    "en": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+    "es": "Armarouge evolucionó mediante el uso de un conjunto de armadura que pertenecía a un guerrero distinguido. Este Pokémon es increíblemente leal.",
+    "ca": "L'Armarouge va evolucionar gràcies a un conjunt d'armadura que pertanyia a un distingit guerrer. Aquest Pokémon és increïblement lleial."
+  },
+  "names": {
+    "en": "Armarouge",
+    "es": "Armarouge",
+    "ca": "Armarouge"
+  },
+  "evolution": [
+    {
+      "id": 935,
+      "name": "Charcadet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png"
+    },
+    {
+      "id": 936,
+      "name": "Armarouge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png"
+    },
+    {
+      "id": 937,
+      "name": "Ceruledge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

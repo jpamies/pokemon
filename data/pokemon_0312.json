@@ -1,0 +1,48 @@
+{
+  "id": 312,
+  "name": "Minun",
+  "height": 4,
+  "weight": 42,
+  "base_experience": 142,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "minus",
+      "is_hidden": false
+    },
+    {
+      "name": "volt-absorb",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 50,
+    "special-attack": 75,
+    "special-defense": 85,
+    "speed": 95
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/312.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/312.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/312.png"
+  },
+  "color": "yellow",
+  "generation": 3,
+  "descriptions": {
+    "en": "MINUN is more concerned about cheering on its partners than its own safety. It shorts out the electricity in its body to create brilliant showers of sparks to cheer on its teammates.",
+    "es": "La electricidad de Minun y Plusle es buena para la circulación y para desentumecer músculos.",
+    "ca": "MINUN es preocupa més per animar els seus companys que per la seva pròpia seguretat. Fa curtcircuit en l'electricitat del seu cos per crear brillants pluges d'espurnes per animar els seus companys."
+  },
+  "names": {
+    "en": "Minun",
+    "es": "Minun",
+    "ca": "Minun"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

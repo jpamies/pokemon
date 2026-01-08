@@ -39,11 +39,11 @@ class PokemonGuide {
 
     async loadPokemonDatabase() {
         try {
-            const response = await fetch('./cache/pokemon_complete.json');
-            this.pokemonDatabase = await response.json();
-            console.log('Pokemon database loaded successfully');
+            // Load individual Pokemon data files from data/ folder
+            this.pokemonDatabase = {};
+            console.log('Pokemon database initialized for individual file loading');
         } catch (error) {
-            console.warn('Could not load Pokemon database:', error);
+            console.warn('Could not initialize Pokemon database:', error);
             this.pokemonDatabase = {};
         }
     }
@@ -177,59 +177,60 @@ class PokemonGuide {
     }
 
     async fetchPokemon(id) {
-        // Check persistent cache first
-        let cachedData = this.pokemonCache.getPokemonData(id);
-        if (cachedData) {
-            // Also store in memory cache for faster access
-            this.cache.set(`pokemon_${id}`, cachedData);
-            return cachedData;
-        }
-        
-        // Check memory cache
+        // Check memory cache first
         const cacheKey = `pokemon_${id}`;
         if (this.cache.has(cacheKey)) {
             return this.cache.get(cacheKey);
         }
 
-        // Fetch Pokemon data
-        const pokemonResponse = await fetch(`${this.apiEndpoint}/pokemon/${id}`);
-        if (!pokemonResponse.ok) {
-            throw new Error(`HTTP error! status: ${pokemonResponse.status}`);
+        try {
+            // Load from local JSON file
+            const paddedId = id.toString().padStart(4, '0');
+            const response = await fetch(`./data/pokemon_${paddedId}.json`);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            const pokemonData = await response.json();
+            
+            // Convert to the format expected by the app
+            const pokemon = {
+                id: pokemonData.id,
+                name: pokemonData.names || { en: pokemonData.name, es: pokemonData.name, ca: pokemonData.name },
+                image: pokemonData.images?.official_artwork || `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`,
+                height: pokemonData.height,
+                weight: pokemonData.weight,
+                generation: `generation-${this.getGenerationRoman(pokemonData.generation)}`,
+                region: this.getRegionFromGeneration(pokemonData.generation),
+                evolutionChain: this.convertEvolutionChain(pokemonData.evolution || [], id),
+                evolutionStage: this.getEvolutionStage(pokemonData.evolution || [], id),
+                description: pokemonData.descriptions?.[window.i18n?.currentLanguage || 'en'] || pokemonData.descriptions?.en || '',
+                color: pokemonData.color || 'unknown',
+                habitat: 'unknown', // Not available in simplified data
+                isLegendary: pokemonData.is_legendary || false,
+                isMythical: pokemonData.is_mythical || false,
+                types: (pokemonData.types || []).map(typeName => ({
+                    name: typeName,
+                    translations: {}
+                })),
+                stats: this.convertStats(pokemonData.stats || {}),
+                abilities: (pokemonData.abilities || []).map(ability => ({
+                    name: ability.name,
+                    translations: { en: ability.name, es: ability.name, ca: ability.name },
+                    isHidden: ability.is_hidden || false
+                }))
+            };
+            
+            // Cache the result
+            this.cache.set(cacheKey, pokemon);
+            
+            return pokemon;
+            
+        } catch (error) {
+            console.error(`Error loading Pokemon ${id}:`, error);
+            throw error;
         }
-        const pokemonData = await pokemonResponse.json();
-
-        // Fetch Pokemon species data for names
-        const speciesResponse = await fetch(pokemonData.species.url);
-        if (!speciesResponse.ok) {
-            throw new Error(`HTTP error! status: ${speciesResponse.status}`);
-        }
-        const speciesData = await speciesResponse.json();
-
-        // Fetch generation data for region name
-        const generationResponse = await fetch(speciesData.generation.url);
-        if (!generationResponse.ok) {
-            throw new Error(`HTTP error! status: ${generationResponse.status}`);
-        }
-        const generationData = await generationResponse.json();
-
-        // Fetch evolution chain data
-        const evolutionResponse = await fetch(speciesData.evolution_chain.url);
-        if (!evolutionResponse.ok) {
-            throw new Error(`HTTP error! status: ${evolutionResponse.status}`);
-        }
-        const evolutionData = await evolutionResponse.json();
-
-        // Fetch ability translations
-        const abilitiesWithTranslations = await this.fetchAbilityTranslations(pokemonData.abilities);
-
-        // Process the data
-        const pokemon = await this.processPokemonData(pokemonData, speciesData, generationData, evolutionData, abilitiesWithTranslations);
-        
-        // Cache the result in both memory and persistent storage
-        this.cache.set(cacheKey, pokemon);
-        this.pokemonCache.setPokemonData(id, pokemon);
-        
-        return pokemon;
     }
 
     async fetchAbilityTranslations(abilities) {
@@ -294,10 +295,16 @@ class PokemonGuide {
         const currentLang = window.i18n?.currentLanguage || 'en';
         let description = '';
         
-        // Load description from consolidated Pokemon data
-        if (this.pokemonDatabase && this.pokemonDatabase[pokemonId]) {
-            const pokemonData = this.pokemonDatabase[pokemonId];
-            description = pokemonData.descriptions?.[currentLang] || pokemonData.description_catalan || pokemonData.description;
+        // Load description from individual JSON files in data/ folder
+        try {
+            const paddedId = pokemonId.toString().padStart(4, '0');
+            const response = await fetch(`./data/pokemon_${paddedId}.json`);
+            if (response.ok) {
+                const pokemonData = await response.json();
+                description = pokemonData.descriptions?.[currentLang] || pokemonData.description_catalan || pokemonData.description;
+            }
+        } catch (error) {
+            console.warn(`Could not load description for Pokemon ${pokemonId}:`, error);
         }
         
         if (!description && this.currentPokemon) {
@@ -309,10 +316,16 @@ class PokemonGuide {
     }
 
     async getCatalanDescription(pokemonId) {
-        // Load Pokemon data from consolidated database
-        if (this.pokemonDatabase && this.pokemonDatabase[pokemonId]) {
-            const pokemonData = this.pokemonDatabase[pokemonId];
-            return pokemonData.descriptions?.ca || pokemonData.description_catalan || null;
+        // Load Pokemon data from individual JSON files in data/ folder
+        try {
+            const paddedId = pokemonId.toString().padStart(4, '0');
+            const response = await fetch(`./data/pokemon_${paddedId}.json`);
+            if (response.ok) {
+                const pokemonData = await response.json();
+                return pokemonData.descriptions?.ca || pokemonData.description_catalan || pokemonData.description || null;
+            }
+        } catch (error) {
+            console.warn(`Could not load data for Pokemon ${pokemonId}:`, error);
         }
         return null;
     }
@@ -384,9 +397,39 @@ class PokemonGuide {
         };
     }
 
-    extractPokemonIdFromUrl(url) {
-        const matches = url.match(/\/(\d+)\/$/);
-        return matches ? parseInt(matches[1]) : 1;
+    getGenerationRoman(genNumber) {
+        const romans = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix'];
+        return romans[genNumber - 1] || 'i';
+    }
+
+    getRegionFromGeneration(genNumber) {
+        const regions = ['kanto', 'johto', 'hoenn', 'sinnoh', 'unova', 'kalos', 'alola', 'galar', 'paldea'];
+        return regions[genNumber - 1] || 'kanto';
+    }
+
+    convertEvolutionChain(evolutionArray, currentId) {
+        return evolutionArray.map((evo, index) => ({
+            name: evo.name,
+            id: evo.id,
+            stage: index + 1,
+            level: null // Level info not available in simplified data
+        }));
+    }
+
+    getEvolutionStage(evolutionArray, currentId) {
+        const index = evolutionArray.findIndex(evo => evo.id === currentId);
+        return index >= 0 ? index + 1 : 1;
+    }
+
+    convertStats(statsObj) {
+        return [
+            { name: 'hp', value: statsObj.hp || 0 },
+            { name: 'attack', value: statsObj.attack || 0 },
+            { name: 'defense', value: statsObj.defense || 0 },
+            { name: 'special-attack', value: statsObj['special-attack'] || 0 },
+            { name: 'special-defense', value: statsObj['special-defense'] || 0 },
+            { name: 'speed', value: statsObj.speed || 0 }
+        ];
     }
 
     translateColor(color) {
@@ -1060,17 +1103,18 @@ class PokemonGuide {
                 return;
             }
 
-            // Fetch basic pokemon data for species URL
-            const pokemonResponse = await fetch(`${this.apiEndpoint}/pokemon/${id}`);
-            const pokemonData = await pokemonResponse.json();
+            // Load from local JSON file
+            const paddedId = id.toString().padStart(4, '0');
+            const response = await fetch(`./data/pokemon_${paddedId}.json`);
             
-            // Fetch species data for names
-            const speciesResponse = await fetch(pokemonData.species.url);
-            const speciesData = await speciesResponse.json();
-            
-            const names = this.extractNames(speciesData.names || []);
-            const currentLang = window.i18n.currentLanguage;
-            nameElement.textContent = names[currentLang] || names.en || `Pokemon #${id}`;
+            if (response.ok) {
+                const pokemonData = await response.json();
+                const currentLang = window.i18n.currentLanguage;
+                const names = pokemonData.names || { en: pokemonData.name, es: pokemonData.name, ca: pokemonData.name };
+                nameElement.textContent = names[currentLang] || names.en || `Pokemon #${id}`;
+            } else {
+                nameElement.textContent = `Pokemon #${id}`;
+            }
             
         } catch (error) {
             nameElement.textContent = `Pokemon #${id}`;

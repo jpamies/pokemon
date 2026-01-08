@@ -1,0 +1,64 @@
+{
+  "id": 668,
+  "name": "Pyroar",
+  "height": 15,
+  "weight": 815,
+  "base_experience": 177,
+  "types": [
+    "fire",
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "rivalry",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": false
+    },
+    {
+      "name": "moxie",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 86,
+    "attack": 68,
+    "defense": 72,
+    "special-attack": 109,
+    "special-defense": 66,
+    "speed": 106
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/668.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png"
+  },
+  "color": "brown",
+  "generation": 6,
+  "descriptions": {
+    "en": "The male with the largest mane of fire is the leader of the pride.",
+    "es": "El macho con la melena de fuego más grande de toda la manada es el líder de sus compañeros.",
+    "ca": "El mascle amb la crinera de foc més gran és el líder del grup."
+  },
+  "names": {
+    "en": "Pyroar",
+    "es": "Pyroar",
+    "ca": "Pyroar"
+  },
+  "evolution": [
+    {
+      "id": 667,
+      "name": "Litleo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png"
+    },
+    {
+      "id": 668,
+      "name": "Pyroar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

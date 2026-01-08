@@ -1,0 +1,68 @@
+{
+  "id": 934,
+  "name": "Garganacl",
+  "height": 23,
+  "weight": 2400,
+  "base_experience": 250,
+  "types": [
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "purifying-salt",
+      "is_hidden": false
+    },
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "clear-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 130,
+    "special-attack": 45,
+    "special-defense": 90,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/934.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/934.png"
+  },
+  "color": "brown",
+  "generation": 9,
+  "descriptions": {
+    "en": "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
+    "es": "Garganacl frotará las puntas de sus dedos y esparcirá sal sobre los Pokémon heridos. Incluso las heridas más graves sanarán rápidamente después.",
+    "ca": "El Garganacl frota les puntes dels dits i ruixa els Pokémon ferits amb sal. Fins i tot les ferides més greus es curen de seguida."
+  },
+  "names": {
+    "en": "Garganacl",
+    "es": "Garganacl",
+    "ca": "Garganacl"
+  },
+  "evolution": [
+    {
+      "id": 932,
+      "name": "Nacli",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png"
+    },
+    {
+      "id": 933,
+      "name": "Naclstack",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png"
+    },
+    {
+      "id": 934,
+      "name": "Garganacl",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

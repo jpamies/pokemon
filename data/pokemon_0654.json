@@ -1,0 +1,64 @@
+{
+  "id": 654,
+  "name": "Braixen",
+  "height": 10,
+  "weight": 145,
+  "base_experience": 143,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "blaze",
+      "is_hidden": false
+    },
+    {
+      "name": "magician",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 59,
+    "attack": 59,
+    "defense": 58,
+    "special-attack": 90,
+    "special-defense": 70,
+    "speed": 73
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/654.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png"
+  },
+  "color": "red",
+  "generation": 6,
+  "descriptions": {
+    "en": "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+    "es": "Tiene una rama enredada en la cola. Cuando la saca, la rama prende fuego al hacer fricción con su pelaje y se lanza al ataque con ella.",
+    "ca": "Té una branqueta clavada a la cua. Amb la fricció dels pèls de la cua, li prengui foc i salta a la batalla."
+  },
+  "names": {
+    "en": "Braixen",
+    "es": "Braixen",
+    "ca": "Braixen"
+  },
+  "evolution": [
+    {
+      "id": 653,
+      "name": "Fennekin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+    },
+    {
+      "id": 654,
+      "name": "Braixen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+    },
+    {
+      "id": 655,
+      "name": "Delphox",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

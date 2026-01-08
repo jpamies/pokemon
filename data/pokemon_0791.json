@@ -1,0 +1,66 @@
+{
+  "id": 791,
+  "name": "Solgaleo",
+  "height": 34,
+  "weight": 2300,
+  "base_experience": 306,
+  "types": [
+    "psychic",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "full-metal-body",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 137,
+    "attack": 137,
+    "defense": 107,
+    "special-attack": 113,
+    "special-defense": 89,
+    "speed": 97
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/791.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png"
+  },
+  "color": "white",
+  "generation": 7,
+  "descriptions": {
+    "en": "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
+    "es": "Se cree que proviene de otro mundo. El brillo que emite su cuerpo es tal que puede hacer que la noche más profunda parezca pleno día.",
+    "ca": "Es diu que viu en un altre món. La intensa llum que irradia des de la superfície del seu cos pot il·luminar com el migdia les nits més fosques."
+  },
+  "names": {
+    "en": "Solgaleo",
+    "es": "Solgaleo",
+    "ca": "Solgaleo"
+  },
+  "evolution": [
+    {
+      "id": 789,
+      "name": "Cosmog",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png"
+    },
+    {
+      "id": 790,
+      "name": "Cosmoem",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/790.png"
+    },
+    {
+      "id": 791,
+      "name": "Solgaleo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png"
+    },
+    {
+      "id": 792,
+      "name": "Lunala",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png"
+    }
+  ],
+  "is_legendary": true,
+  "is_mythical": false
+}

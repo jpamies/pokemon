@@ -1,0 +1,45 @@
+{
+  "id": 648,
+  "name": "Meloetta-Aria",
+  "height": 6,
+  "weight": 65,
+  "base_experience": 270,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "serene-grace",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 77,
+    "defense": 77,
+    "special-attack": 128,
+    "special-defense": 128,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/648.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/648.png"
+  },
+  "color": "white",
+  "generation": 5,
+  "descriptions": {
+    "en": "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+    "es": "Las melodías que canta Meloetta tienen el poder de hacer sentir felicidad a los Pokémon que hay a su alrededor.",
+    "ca": "Les seves melodies es canten amb un mètode de vocalització especial que pot controlar els sentiments de qui les escolta."
+  },
+  "names": {
+    "en": "Meloetta-Aria",
+    "es": "Meloetta-Aria",
+    "ca": "Meloetta-Aria"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
+}

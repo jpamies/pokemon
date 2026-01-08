@@ -1,0 +1,45 @@
+{
+  "id": 1004,
+  "name": "Chi-Yu",
+  "height": 4,
+  "weight": 49,
+  "base_experience": 285,
+  "types": [
+    "dark",
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "beads-of-ruin",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 80,
+    "defense": 80,
+    "special-attack": 135,
+    "special-defense": 120,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1004.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1004.png"
+  },
+  "color": "red",
+  "generation": 9,
+  "descriptions": {
+    "en": "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
+    "es": "Controla llamas que arden a más de 2,982 grados centígrados. Nada con tranquilidad a través del mar de lava que crea al derretir roca y arena.",
+    "ca": "Controla flames que cremen a més de 5.400 graus Fahrenheit. Nedeja tranquil·lament pel mar de lava que crea en fondre la roca i la sorra."
+  },
+  "names": {
+    "en": "Chi-Yu",
+    "es": "Chi-Yu",
+    "ca": "Chi-Yu"
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
+}

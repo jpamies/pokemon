@@ -1,0 +1,63 @@
+{
+  "id": 427,
+  "name": "Buneary",
+  "height": 4,
+  "weight": 55,
+  "base_experience": 70,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "run-away",
+      "is_hidden": false
+    },
+    {
+      "name": "klutz",
+      "is_hidden": false
+    },
+    {
+      "name": "limber",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 66,
+    "defense": 44,
+    "special-attack": 44,
+    "special-defense": 56,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/427.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png"
+  },
+  "color": "brown",
+  "generation": 4,
+  "descriptions": {
+    "en": "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
+    "es": "Lleva las orejas enrolladas. Cuando las extiende, golpea con tal fuerza que incluso puede romper rocas.",
+    "ca": "Ataca els rivals desenrotllant bruscament les seves orelles arrodonides. La ferida que provoca és prou forta per fer plorar un adult."
+  },
+  "names": {
+    "en": "Buneary",
+    "es": "Buneary",
+    "ca": "Buneary"
+  },
+  "evolution": [
+    {
+      "id": 427,
+      "name": "Buneary",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png"
+    },
+    {
+      "id": 428,
+      "name": "Lopunny",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

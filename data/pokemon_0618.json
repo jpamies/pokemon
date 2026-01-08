@@ -1,0 +1,53 @@
+{
+  "id": 618,
+  "name": "Stunfisk",
+  "height": 7,
+  "weight": 110,
+  "base_experience": 165,
+  "types": [
+    "ground",
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "static",
+      "is_hidden": false
+    },
+    {
+      "name": "limber",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 109,
+    "attack": 66,
+    "defense": 84,
+    "special-attack": 81,
+    "special-defense": 99,
+    "speed": 32
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/618.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png"
+  },
+  "color": "brown",
+  "generation": 5,
+  "descriptions": {
+    "en": "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+    "es": "Ni un pisotón de un luchador de sumo lo aplastaría gracias a su piel sólida. Sonríe al soltar descargas eléctricas.",
+    "ca": "La seva pell és molt dura, per la qual cosa no es fa mal ni tan sols si la trepitgen lluitadors de sumo. Somriu mentre transmet electricitat."
+  },
+  "names": {
+    "en": "Stunfisk",
+    "es": "Stunfisk",
+    "ca": "Stunfisk"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

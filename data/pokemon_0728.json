@@ -1,0 +1,64 @@
+{
+  "id": 728,
+  "name": "Popplio",
+  "height": 4,
+  "weight": 75,
+  "base_experience": 64,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "torrent",
+      "is_hidden": false
+    },
+    {
+      "name": "liquid-voice",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 54,
+    "defense": 54,
+    "special-attack": 66,
+    "special-defense": 56,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/728.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/728.png"
+  },
+  "color": "blue",
+  "generation": 7,
+  "descriptions": {
+    "en": "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It’s famous for being a hard worker.",
+    "es": "Se le conoce por su diligencia y predisposición. Segrega agua por la nariz para hinchar globos con los que golpea a sus rivales.",
+    "ca": "Aquest Pokémon bufa líquids corporals pel nas, fent bombolles per estavellar-se contra els seus enemics. És famós per ser molt treballador."
+  },
+  "names": {
+    "en": "Popplio",
+    "es": "Popplio",
+    "ca": "Popplio"
+  },
+  "evolution": [
+    {
+      "id": 728,
+      "name": "Popplio",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/728.png"
+    },
+    {
+      "id": 729,
+      "name": "Brionne",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/729.png"
+    },
+    {
+      "id": 730,
+      "name": "Primarina",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

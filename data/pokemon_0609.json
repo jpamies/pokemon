@@ -1,0 +1,69 @@
+{
+  "id": 609,
+  "name": "Chandelure",
+  "height": 10,
+  "weight": 343,
+  "base_experience": 234,
+  "types": [
+    "ghost",
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "is_hidden": false
+    },
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "infiltrator",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 90,
+    "special-attack": 145,
+    "special-defense": 90,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/609.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png"
+  },
+  "color": "black",
+  "generation": 5,
+  "descriptions": {
+    "en": "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+    "es": "Sus llamas absorben el alma del enemigo y la abrasan, dejando solo su cuerpo inerte.",
+    "ca": "Absorbeix un esperit, que després crema. Agitant les flames dels seus braços, posa els seus rivals en un trànsit hipnòtic."
+  },
+  "names": {
+    "en": "Chandelure",
+    "es": "Chandelure",
+    "ca": "Chandelure"
+  },
+  "evolution": [
+    {
+      "id": 607,
+      "name": "Litwick",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png"
+    },
+    {
+      "id": 608,
+      "name": "Lampent",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png"
+    },
+    {
+      "id": 609,
+      "name": "Chandelure",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,69 @@
+{
+  "id": 866,
+  "name": "Mr-Rime",
+  "height": 15,
+  "weight": 582,
+  "base_experience": 182,
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "tangled-feet",
+      "is_hidden": false
+    },
+    {
+      "name": "screen-cleaner",
+      "is_hidden": false
+    },
+    {
+      "name": "ice-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 85,
+    "defense": 75,
+    "special-attack": 110,
+    "special-defense": 100,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/866.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/866.png"
+  },
+  "color": "purple",
+  "generation": 8,
+  "descriptions": {
+    "en": "It’s highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.",
+    "es": "Es un bailarín consumado de claqué. Agita su bastón de hielo mientras exhibe su destreza con gráciles pasos.",
+    "ca": "És molt hàbil ballant claqué. Agita el seu bastó de gel al ritme dels seus moviments elegants."
+  },
+  "names": {
+    "en": "Mr-Rime",
+    "es": "Mr-Rime",
+    "ca": "Mr-Rime"
+  },
+  "evolution": [
+    {
+      "id": 439,
+      "name": "Mime-Jr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png"
+    },
+    {
+      "id": 122,
+      "name": "Mr-Mime",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
+    },
+    {
+      "id": 866,
+      "name": "Mr-Rime",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

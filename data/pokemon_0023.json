@@ -1,0 +1,63 @@
+{
+  "id": 23,
+  "name": "Ekans",
+  "height": 20,
+  "weight": 69,
+  "base_experience": 58,
+  "types": [
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "intimidate",
+      "is_hidden": false
+    },
+    {
+      "name": "shed-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 35,
+    "attack": 60,
+    "defense": 44,
+    "special-attack": 40,
+    "special-defense": 54,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/23.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+    "es": "Cuanto más viejo, más crece este Pokémon. Por la noche, descansa en las ramas de los árboles.",
+    "ca": "Es mou en silenci i sigil·losament. S'empassa sencers els ous dels ocells, com el Pidgey i l'Espanrot."
+  },
+  "names": {
+    "en": "Ekans",
+    "es": "Ekans",
+    "ca": "Ekans"
+  },
+  "evolution": [
+    {
+      "id": 23,
+      "name": "Ekans",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+    },
+    {
+      "id": 24,
+      "name": "Arbok",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

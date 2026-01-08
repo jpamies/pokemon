@@ -1,0 +1,69 @@
+{
+  "id": 79,
+  "name": "Slowpoke",
+  "height": 12,
+  "weight": 360,
+  "base_experience": 63,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "oblivious",
+      "is_hidden": false
+    },
+    {
+      "name": "own-tempo",
+      "is_hidden": false
+    },
+    {
+      "name": "regenerator",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 65,
+    "defense": 65,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 15
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/79.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png"
+  },
+  "color": "pink",
+  "generation": 1,
+  "descriptions": {
+    "en": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
+    "es": "Descansa ocioso junto al agua. Si algo muerde su cola, no lo notará en todo el día.",
+    "ca": "Increïblement lent i somort. Triga 5 segons a sentir dolor quan és atacat."
+  },
+  "names": {
+    "en": "Slowpoke",
+    "es": "Slowpoke",
+    "ca": "Slowpoke"
+  },
+  "evolution": [
+    {
+      "id": 79,
+      "name": "Slowpoke",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+    },
+    {
+      "id": 80,
+      "name": "Slowbro",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+    },
+    {
+      "id": 199,
+      "name": "Slowking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

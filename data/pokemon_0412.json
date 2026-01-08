@@ -1,0 +1,64 @@
+{
+  "id": 412,
+  "name": "Burmy",
+  "height": 2,
+  "weight": 34,
+  "base_experience": 45,
+  "types": [
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "overcoat",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 29,
+    "defense": 45,
+    "special-attack": 29,
+    "special-defense": 45,
+    "speed": 36
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/412.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png"
+  },
+  "color": "green",
+  "generation": 4,
+  "descriptions": {
+    "en": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+    "es": "Para protegerse de los vientos fríos invernales, se cubre con un caparazón de ramas y hojas.",
+    "ca": "Per protegir-se del fred vent hivernal, es cobreix amb un mantell fet de brots i fulles."
+  },
+  "names": {
+    "en": "Burmy",
+    "es": "Burmy",
+    "ca": "Burmy"
+  },
+  "evolution": [
+    {
+      "id": 412,
+      "name": "Burmy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png"
+    },
+    {
+      "id": 413,
+      "name": "Wormadam",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png"
+    },
+    {
+      "id": 414,
+      "name": "Mothim",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

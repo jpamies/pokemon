@@ -1,0 +1,68 @@
+{
+  "id": 534,
+  "name": "Conkeldurr",
+  "height": 14,
+  "weight": 870,
+  "base_experience": 227,
+  "types": [
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "guts",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": false
+    },
+    {
+      "name": "iron-fist",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 105,
+    "attack": 140,
+    "defense": 95,
+    "special-attack": 55,
+    "special-defense": 65,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/534.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png"
+  },
+  "color": "brown",
+  "generation": 5,
+  "descriptions": {
+    "en": "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+    "es": "Se cree que Conkeldurr enseñó a los humanos la técnica para elaborar cemento hace más de 2000 años.",
+    "ca": "Es creu que el Conkeldurr va ensenyar als humans a fer formigó fa més de 2.000 anys."
+  },
+  "names": {
+    "en": "Conkeldurr",
+    "es": "Conkeldurr",
+    "ca": "Conkeldurr"
+  },
+  "evolution": [
+    {
+      "id": 532,
+      "name": "Timburr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png"
+    },
+    {
+      "id": 533,
+      "name": "Gurdurr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png"
+    },
+    {
+      "id": 534,
+      "name": "Conkeldurr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

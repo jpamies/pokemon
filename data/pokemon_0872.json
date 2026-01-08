@@ -1,0 +1,60 @@
+{
+  "id": 872,
+  "name": "Snom",
+  "height": 3,
+  "weight": 38,
+  "base_experience": 37,
+  "types": [
+    "ice",
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "is_hidden": false
+    },
+    {
+      "name": "ice-scales",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 25,
+    "defense": 35,
+    "special-attack": 45,
+    "special-defense": 30,
+    "speed": 20
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/872.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/872.png"
+  },
+  "color": "white",
+  "generation": 8,
+  "descriptions": {
+    "en": "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
+    "es": "Teje un hilo gélido que le permite aferrarse a las ramas y simula ser un carámbano mientras duerme.",
+    "ca": "Escopeix fils impregnats d'una energia gelada i els utilitza per lligar el seu cos a les branques, fent-se passar per un caràmbano mentre dorm."
+  },
+  "names": {
+    "en": "Snom",
+    "es": "Snom",
+    "ca": "Snom"
+  },
+  "evolution": [
+    {
+      "id": 872,
+      "name": "Snom",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/872.png"
+    },
+    {
+      "id": 873,
+      "name": "Frosmoth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

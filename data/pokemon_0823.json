@@ -1,0 +1,69 @@
+{
+  "id": 823,
+  "name": "Corviknight",
+  "height": 22,
+  "weight": 750,
+  "base_experience": 248,
+  "types": [
+    "flying",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "pressure",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": false
+    },
+    {
+      "name": "mirror-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 98,
+    "attack": 87,
+    "defense": 105,
+    "special-attack": 53,
+    "special-defense": 85,
+    "speed": 67
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/823.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png"
+  },
+  "color": "purple",
+  "generation": 8,
+  "descriptions": {
+    "en": "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe.",
+    "es": "No tiene rival en los cielos de Galar. El acero negro y lustroso de su cuerpo intimida a cualquier adversario.",
+    "ca": "Aquest Pokémon domina el cel de la regió de Galar. El brillant negre del seu cos d'acer podria inspirar terror al cor de qualsevol enemic."
+  },
+  "names": {
+    "en": "Corviknight",
+    "es": "Corviknight",
+    "ca": "Corviknight"
+  },
+  "evolution": [
+    {
+      "id": 821,
+      "name": "Rookidee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png"
+    },
+    {
+      "id": 822,
+      "name": "Corvisquire",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/822.png"
+    },
+    {
+      "id": 823,
+      "name": "Corviknight",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

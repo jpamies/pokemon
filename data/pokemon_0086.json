@@ -1,0 +1,63 @@
+{
+  "id": 86,
+  "name": "Seel",
+  "height": 11,
+  "weight": 900,
+  "base_experience": 65,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "thick-fat",
+      "is_hidden": false
+    },
+    {
+      "name": "hydration",
+      "is_hidden": false
+    },
+    {
+      "name": "ice-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "special-attack": 45,
+    "special-defense": 70,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/86.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png"
+  },
+  "color": "white",
+  "generation": 1,
+  "descriptions": {
+    "en": "The protruding horn on its head is very hard. It is used for bashing through thick ice.",
+    "es": "Este Pokémon vive en icebergs. Nada en el mar y usa el cuerno de su cabeza para romper el hielo.",
+    "ca": "El corn que sobresurt del seu cap és molt dur. S'utilitza per obrir camí a través del gel dens."
+  },
+  "names": {
+    "en": "Seel",
+    "es": "Seel",
+    "ca": "Seel"
+  },
+  "evolution": [
+    {
+      "id": 86,
+      "name": "Seel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+    },
+    {
+      "id": 87,
+      "name": "Dewgong",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

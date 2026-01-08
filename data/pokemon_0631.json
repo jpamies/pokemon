@@ -1,0 +1,52 @@
+{
+  "id": 631,
+  "name": "Heatmor",
+  "height": 14,
+  "weight": 580,
+  "base_experience": 169,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "gluttony",
+      "is_hidden": false
+    },
+    {
+      "name": "flash-fire",
+      "is_hidden": false
+    },
+    {
+      "name": "white-smoke",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 97,
+    "defense": 66,
+    "special-attack": 105,
+    "special-defense": 66,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/631.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/631.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "It breathes through a hole in its tail while it burns with an internal fire. Durant is its prey.",
+    "es": "Usa su lengua de fuego para derretir la armadura de acero de los Durant y llegar así hasta su interior.",
+    "ca": "Respira per un forat a la cua mentre crema amb un foc intern. El Durant és la seva presa."
+  },
+  "names": {
+    "en": "Heatmor",
+    "es": "Heatmor",
+    "ca": "Heatmor"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

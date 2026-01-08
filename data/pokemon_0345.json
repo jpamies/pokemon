@@ -1,0 +1,60 @@
+{
+  "id": 345,
+  "name": "Lileep",
+  "height": 10,
+  "weight": 238,
+  "base_experience": 71,
+  "types": [
+    "rock",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "suction-cups",
+      "is_hidden": false
+    },
+    {
+      "name": "storm-drain",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 66,
+    "attack": 41,
+    "defense": 77,
+    "special-attack": 61,
+    "special-defense": 87,
+    "speed": 23
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/345.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/345.png"
+  },
+  "color": "purple",
+  "generation": 3,
+  "descriptions": {
+    "en": "LILEEP became extinct approximately a hundred million years ago. This ancient POKéMON attaches itself to a rock on the seafloor and catches approaching prey using tentacles  shaped like flower petals.",
+    "es": "Se extinguió hace 100 millones de años. Sus tentáculos parecen pétalos para atraer a sus presas.",
+    "ca": "El LILIéS va extingir-se fa aproximadament cent milions d'anys. Aquest antic POKÉMON s'enganxa a una roca del fons marí i atrapa les preses que s'apropen utilitzant tentacles en forma de pètals de flor."
+  },
+  "names": {
+    "en": "Lileep",
+    "es": "Lileep",
+    "ca": "Lileep"
+  },
+  "evolution": [
+    {
+      "id": 345,
+      "name": "Lileep",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/345.png"
+    },
+    {
+      "id": 346,
+      "name": "Cradily",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

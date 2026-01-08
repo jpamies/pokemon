@@ -1,0 +1,45 @@
+{
+  "id": 793,
+  "name": "Nihilego",
+  "height": 12,
+  "weight": 555,
+  "base_experience": 257,
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "beast-boost",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 109,
+    "attack": 53,
+    "defense": 47,
+    "special-attack": 127,
+    "special-defense": 131,
+    "speed": 103
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/793.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png"
+  },
+  "color": "white",
+  "generation": 7,
+  "descriptions": {
+    "en": "One of several mysterious Ultra Beasts. People on the street report observing those infested by it suddenly becoming violent.",
+    "es": "Un Ultraente envuelto en misterio. Se dice que las víctimas a las que posee se vuelven agresivas.",
+    "ca": "Un dels diversos Ultraéssers misteriosos. La gent del carrer reporta que les persones infestades per aquest Pokémon es tornen violentes sobtadament."
+  },
+  "names": {
+    "en": "Nihilego",
+    "es": "Nihilego",
+    "ca": "Nihilego"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,63 @@
+{
+  "id": 573,
+  "name": "Cinccino",
+  "height": 5,
+  "weight": 75,
+  "base_experience": 165,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "cute-charm",
+      "is_hidden": false
+    },
+    {
+      "name": "technician",
+      "is_hidden": false
+    },
+    {
+      "name": "skill-link",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 95,
+    "defense": 60,
+    "special-attack": 65,
+    "special-defense": 60,
+    "speed": 115
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/573.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/573.png"
+  },
+  "color": "gray",
+  "generation": 5,
+  "descriptions": {
+    "en": "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
+    "es": "El pelo que cubre su cuerpo proporciona una agradable sensación al tocarlo. No acumula ni polvo ni electricidad estática.",
+    "ca": "El seu pèl blanc està recobert d'un oli especial que els fa fàcil de desviar els atacs."
+  },
+  "names": {
+    "en": "Cinccino",
+    "es": "Cinccino",
+    "ca": "Cinccino"
+  },
+  "evolution": [
+    {
+      "id": 572,
+      "name": "Minccino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png"
+    },
+    {
+      "id": 573,
+      "name": "Cinccino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

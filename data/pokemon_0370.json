@@ -1,0 +1,48 @@
+{
+  "id": 370,
+  "name": "Luvdisc",
+  "height": 6,
+  "weight": 87,
+  "base_experience": 116,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "hydration",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 43,
+    "attack": 30,
+    "defense": 55,
+    "special-attack": 40,
+    "special-defense": 65,
+    "speed": 97
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/370.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/370.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/370.png"
+  },
+  "color": "pink",
+  "generation": 3,
+  "descriptions": {
+    "en": "LUVDISC live in shallow seas in the tropics. This heart-shaped POKéMON earned its name by swimming after loving couples it spotted in the ocean’s waves.",
+    "es": "Vive en mares cálidos. Se dice que, si una pareja lo encuentra, será bendecida con amor eterno.",
+    "ca": "Els LUVDISC viuen en mars poc profunds als tròpics. Aquest POKÉMON amb forma de cor va rebre el seu nom perquè segueix les parelles enamorades que veu a les onades de l'oceà."
+  },
+  "names": {
+    "en": "Luvdisc",
+    "es": "Luvdisc",
+    "ca": "Luvdisc"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

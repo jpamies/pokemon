@@ -1,0 +1,64 @@
+{
+  "id": 372,
+  "name": "Shelgon",
+  "height": 11,
+  "weight": 1105,
+  "base_experience": 147,
+  "types": [
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "rock-head",
+      "is_hidden": false
+    },
+    {
+      "name": "overcoat",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 100,
+    "special-attack": 60,
+    "special-defense": 50,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/372.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png"
+  },
+  "color": "white",
+  "generation": 3,
+  "descriptions": {
+    "en": "Inside SHELGON’s armor-like shell, cells are in the midst of transformation to create an entirely new body. This POKéMON’s shell is extremely heavy, making its movements sluggish.",
+    "es": "Las células han empezado a cambiar dentro de su dura concha, que se separa cuando evoluciona.",
+    "ca": "A dins de la seva closca semblant a una armadura, les seves cel·lules estan en ple proces de transformacio per crear un cos nou. Aquesta closca es molt pesada, fent que els seus moviments siguin lents."
+  },
+  "names": {
+    "en": "Shelgon",
+    "es": "Shelgon",
+    "ca": "Shelgon"
+  },
+  "evolution": [
+    {
+      "id": 371,
+      "name": "Bagon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png"
+    },
+    {
+      "id": 372,
+      "name": "Shelgon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png"
+    },
+    {
+      "id": 373,
+      "name": "Salamence",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

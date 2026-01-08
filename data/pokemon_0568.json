@@ -1,0 +1,63 @@
+{
+  "id": 568,
+  "name": "Trubbish",
+  "height": 6,
+  "weight": 310,
+  "base_experience": 66,
+  "types": [
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "stench",
+      "is_hidden": false
+    },
+    {
+      "name": "sticky-hold",
+      "is_hidden": false
+    },
+    {
+      "name": "aftermath",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 62,
+    "special-attack": 40,
+    "special-defense": 62,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/568.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+    "es": "Pokémon nacido de la reacción química entre una bolsa de basura y residuos industriales.",
+    "ca": "Respirar el gas que belfen et farà dormir una setmana. Prefereixen llocs bruts i descuidats."
+  },
+  "names": {
+    "en": "Trubbish",
+    "es": "Trubbish",
+    "ca": "Trubbish"
+  },
+  "evolution": [
+    {
+      "id": 568,
+      "name": "Trubbish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png"
+    },
+    {
+      "id": 569,
+      "name": "Garbodor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

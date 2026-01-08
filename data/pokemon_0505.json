@@ -1,0 +1,63 @@
+{
+  "id": 505,
+  "name": "Watchog",
+  "height": 11,
+  "weight": 270,
+  "base_experience": 147,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "illuminate",
+      "is_hidden": false
+    },
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "analytic",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 69,
+    "special-attack": 60,
+    "special-defense": 69,
+    "speed": 77
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/505.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png"
+  },
+  "color": "brown",
+  "generation": 5,
+  "descriptions": {
+    "en": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+    "es": "Los componentes luminiscentes de su interior hacen que sus ojos y su cuerpo brillen, y así intimida a sus rivales.",
+    "ca": "Quan veuen un enemic, les seves cues s'alcen i escopeixen les llavors de les baies emmagatzemades a les butxaques de les galtes."
+  },
+  "names": {
+    "en": "Watchog",
+    "es": "Watchog",
+    "ca": "Watchog"
+  },
+  "evolution": [
+    {
+      "id": 504,
+      "name": "Patrat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png"
+    },
+    {
+      "id": 505,
+      "name": "Watchog",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

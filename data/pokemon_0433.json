@@ -1,0 +1,55 @@
+{
+  "id": 433,
+  "name": "Chingling",
+  "height": 2,
+  "weight": 6,
+  "base_experience": 57,
+  "types": [
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "levitate",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 50,
+    "special-attack": 65,
+    "special-defense": 50,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/433.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/433.png"
+  },
+  "color": "yellow",
+  "generation": 4,
+  "descriptions": {
+    "en": "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
+    "es": "Emite un tintineo cada vez que salta. Ensordece a sus rivales con sonidos de alta frecuencia.",
+    "ca": "Emet crits agitant una bola a la part posterior de la seva gola. Es mou amb saltets saltironejants."
+  },
+  "names": {
+    "en": "Chingling",
+    "es": "Chingling",
+    "ca": "Chingling"
+  },
+  "evolution": [
+    {
+      "id": 433,
+      "name": "Chingling",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png"
+    },
+    {
+      "id": 358,
+      "name": "Chimecho",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

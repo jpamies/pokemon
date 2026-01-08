@@ -1,0 +1,49 @@
+{
+  "id": 442,
+  "name": "Spiritomb",
+  "height": 10,
+  "weight": 1080,
+  "base_experience": 170,
+  "types": [
+    "ghost",
+    "dark"
+  ],
+  "abilities": [
+    {
+      "name": "pressure",
+      "is_hidden": false
+    },
+    {
+      "name": "infiltrator",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 92,
+    "defense": 108,
+    "special-attack": 92,
+    "special-defense": 108,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/442.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/442.png"
+  },
+  "color": "purple",
+  "generation": 4,
+  "descriptions": {
+    "en": "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+    "es": "Se formó a partir de 108 espíritus. Está unido a la fisura de una piedra angular mística.",
+    "ca": "Un Pokémon format per 108 esperits. Està lligat a una escletxa en una pedra mestra estranya."
+  },
+  "names": {
+    "en": "Spiritomb",
+    "es": "Spiritomb",
+    "ca": "Spiritomb"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

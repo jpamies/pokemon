@@ -1,0 +1,49 @@
+{
+  "id": 145,
+  "name": "Zapdos",
+  "height": 16,
+  "weight": 526,
+  "base_experience": 261,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "pressure",
+      "is_hidden": false
+    },
+    {
+      "name": "static",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 85,
+    "special-attack": 125,
+    "special-defense": 90,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/145.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "A legendary bird POKéMON that is said to appear from clouds while dropping enormous lightning bolts.",
+    "es": "Es un legendario pájaro Pokémon. Dicen que aparece entre las nubes lanzando enormes rayos brillantes.",
+    "ca": "Un Pokémon ocell llegendari que es diu que apareix entre els núvols mentre deixa caure enormes llamps."
+  },
+  "names": {
+    "en": "Zapdos",
+    "es": "Zapdos",
+    "ca": "Zapdos"
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
+}

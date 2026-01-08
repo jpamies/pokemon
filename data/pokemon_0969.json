@@ -1,0 +1,60 @@
+{
+  "id": 969,
+  "name": "Glimmet",
+  "height": 7,
+  "weight": 80,
+  "base_experience": 70,
+  "types": [
+    "rock",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "toxic-debris",
+      "is_hidden": false
+    },
+    {
+      "name": "corrosion",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 48,
+    "attack": 35,
+    "defense": 42,
+    "special-attack": 105,
+    "special-defense": 60,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/969.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/969.png"
+  },
+  "color": "blue",
+  "generation": 9,
+  "descriptions": {
+    "en": "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+    "es": "Absorbe nutrientes de las paredes de las cuevas. Los pétalos que lleva puestos están hechos de veneno cristalizado.",
+    "ca": "Absorbeix nutrients de les parets de les coves. Els pètals que porta posats estan fets de verí cristal·litzat."
+  },
+  "names": {
+    "en": "Glimmet",
+    "es": "Glimmet",
+    "ca": "Glimmet"
+  },
+  "evolution": [
+    {
+      "id": 969,
+      "name": "Glimmet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png"
+    },
+    {
+      "id": 970,
+      "name": "Glimmora",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

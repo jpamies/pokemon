@@ -1,0 +1,65 @@
+{
+  "id": 290,
+  "name": "Nincada",
+  "height": 5,
+  "weight": 55,
+  "base_experience": 53,
+  "types": [
+    "bug",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "compound-eyes",
+      "is_hidden": false
+    },
+    {
+      "name": "run-away",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 31,
+    "attack": 45,
+    "defense": 90,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 40
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/290.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/290.png"
+  },
+  "color": "gray",
+  "generation": 3,
+  "descriptions": {
+    "en": "NINCADA lives underground for many years in complete darkness. This POKéMON absorbs nutrients from the roots of trees. It stays motionless as it waits for evolution.",
+    "es": "Como se ha pasado casi toda la vida viviendo bajo tierra, no ve bien. Las antenas que tiene le ayudan a orientarse.",
+    "ca": "El NINCADA viu sota terra durant molts anys en foscor total. Aquesta CRIATURA POKÉMON absorbeix nutrients de les arrels dels arbres. Està immòbil mentre espera evolucionar."
+  },
+  "names": {
+    "en": "Nincada",
+    "es": "Nincada",
+    "ca": "Nincada"
+  },
+  "evolution": [
+    {
+      "id": 290,
+      "name": "Nincada",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png"
+    },
+    {
+      "id": 291,
+      "name": "Ninjask",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png"
+    },
+    {
+      "id": 292,
+      "name": "Shedinja",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,69 @@
+{
+  "id": 271,
+  "name": "Lombre",
+  "height": 12,
+  "weight": 325,
+  "base_experience": 119,
+  "types": [
+    "water",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "is_hidden": false
+    },
+    {
+      "name": "rain-dish",
+      "is_hidden": false
+    },
+    {
+      "name": "own-tempo",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 50,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/271.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png"
+  },
+  "color": "green",
+  "generation": 3,
+  "descriptions": {
+    "en": "It lives at the water’s edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night.",
+    "es": "Vive en el agua y, cuando hace sol, se queda en la orilla. De día duerme sobre las algas y de noche entra en acción.",
+    "ca": "Viu a la vora de l'aigua on hi ha sol. Es dorm sobre un llit d'herba aquàtica durant el dia i es torna actiu durant la nit."
+  },
+  "names": {
+    "en": "Lombre",
+    "es": "Lombre",
+    "ca": "Lombre"
+  },
+  "evolution": [
+    {
+      "id": 270,
+      "name": "Lotad",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png"
+    },
+    {
+      "id": 271,
+      "name": "Lombre",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png"
+    },
+    {
+      "id": 272,
+      "name": "Ludicolo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

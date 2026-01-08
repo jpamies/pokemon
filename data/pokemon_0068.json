@@ -1,0 +1,68 @@
+{
+  "id": 68,
+  "name": "Machamp",
+  "height": 16,
+  "weight": 1300,
+  "base_experience": 227,
+  "types": [
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "guts",
+      "is_hidden": false
+    },
+    {
+      "name": "no-guard",
+      "is_hidden": false
+    },
+    {
+      "name": "steadfast",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "special-attack": 65,
+    "special-defense": 85,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/68.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png"
+  },
+  "color": "gray",
+  "generation": 1,
+  "descriptions": {
+    "en": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
+    "es": "Tiene cuatro brazos tan bien desarrollados que puede dar una serie de 1000 puñetazos en cuestión de dos segundos.",
+    "ca": "Utilitzant els seus músculs pesants, llança cops de puny poderosos que poden enviar la víctima molt lluny a l'horitzó."
+  },
+  "names": {
+    "en": "Machamp",
+    "es": "Machamp",
+    "ca": "Machamp"
+  },
+  "evolution": [
+    {
+      "id": 66,
+      "name": "Machop",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -48,8 +48,12 @@ generations:
 	@echo "$(GREEN)📚 Generando PDFs por generaciones...$(NC)"
 	@for gen in 1 2 3 4 5 6 7 8 9; do \
 		echo "$(YELLOW)Generando Generación $$gen...$(NC)"; \
-		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen id; \
-		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen color; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen id ca; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen color ca; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen id es; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen color es; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen id en; \
+		$(PYTHON) $(SCRIPTS_DIR)/make_gen_pdf.py $$gen color en; \
 	done
 	@echo "$(GREEN)✅ PDFs por generaciones completados$(NC)"
 

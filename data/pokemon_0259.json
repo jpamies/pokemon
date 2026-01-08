@@ -1,0 +1,65 @@
+{
+  "id": 259,
+  "name": "Marshtomp",
+  "height": 7,
+  "weight": 280,
+  "base_experience": 142,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "torrent",
+      "is_hidden": false
+    },
+    {
+      "name": "damp",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 70,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/259.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/259.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "The surface of MARSHTOMP’s body is enveloped by a thin, sticky film that enables it to live on land. This POKéMON plays in mud on beaches when the ocean tide is low.",
+    "es": "Sus piernas robustas impiden que pierda el equilibrio y caiga, incluso en el barro. Duerme bajo la arena.",
+    "ca": "La superfície del cos del MARSHTOMP està recoberta per una fina pel·lícula enganxosa que li permet viure en terra. Aquest POKÉMON juga al fang de les platges quan la marea baixa."
+  },
+  "names": {
+    "en": "Marshtomp",
+    "es": "Marshtomp",
+    "ca": "Marshtomp"
+  },
+  "evolution": [
+    {
+      "id": 258,
+      "name": "Mudkip",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png"
+    },
+    {
+      "id": 259,
+      "name": "Marshtomp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png"
+    },
+    {
+      "id": 260,
+      "name": "Swampert",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

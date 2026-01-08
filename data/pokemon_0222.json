@@ -1,0 +1,64 @@
+{
+  "id": 222,
+  "name": "Corsola",
+  "height": 6,
+  "weight": 50,
+  "base_experience": 144,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "hustle",
+      "is_hidden": false
+    },
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    },
+    {
+      "name": "regenerator",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 95,
+    "special-attack": 65,
+    "special-defense": 95,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/222.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png"
+  },
+  "color": "pink",
+  "generation": 2,
+  "descriptions": {
+    "en": "It continuously sheds and grows. The tip of its head is prized as a treasure for its beauty.",
+    "es": "Crece y muda continuamente. La parte superior de su cabeza es muy apreciada por su belleza.",
+    "ca": "Està contínuament perdent i creixent el pèl. La punta del seu cap és apreciada com un tresor per la seva bellesa."
+  },
+  "names": {
+    "en": "Corsola",
+    "es": "Corsola",
+    "ca": "Corsola"
+  },
+  "evolution": [
+    {
+      "id": 222,
+      "name": "Corsola",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/222.png"
+    },
+    {
+      "id": 864,
+      "name": "Cursola",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/864.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": 219,
+  "name": "Magcargo",
+  "height": 8,
+  "weight": 550,
+  "base_experience": 151,
+  "types": [
+    "fire",
+    "rock"
+  ],
+  "abilities": [
+    {
+      "name": "magma-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "weak-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 120,
+    "special-attack": 90,
+    "special-defense": 80,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/219.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/219.png"
+  },
+  "color": "red",
+  "generation": 2,
+  "descriptions": {
+    "en": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.",
+    "es": "En ocasiones, su resbaladiza concha lanza intensas llamaradas que recorren todo su cuerpo.",
+    "ca": "La closca de l'esquena és només pell que s'ha refredat i endurit. Es trenca fàcilment amb un lleu contacte."
+  },
+  "names": {
+    "en": "Magcargo",
+    "es": "Magcargo",
+    "ca": "Magcargo"
+  },
+  "evolution": [
+    {
+      "id": 218,
+      "name": "Slugma",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/218.png"
+    },
+    {
+      "id": 219,
+      "name": "Magcargo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

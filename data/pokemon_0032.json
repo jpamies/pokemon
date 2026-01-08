@@ -1,0 +1,68 @@
+{
+  "id": 32,
+  "name": "Nidoran-M",
+  "height": 5,
+  "weight": 90,
+  "base_experience": 55,
+  "types": [
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "rivalry",
+      "is_hidden": false
+    },
+    {
+      "name": "hustle",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 46,
+    "attack": 57,
+    "defense": 40,
+    "special-attack": 40,
+    "special-defense": 40,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/32.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
+    "es": "Saca las orejas por encima de la hierba para explorar el territorio. Le protege su cuerno venenoso.",
+    "ca": "Endureix les orelles per detectar el perill. Com més grans són els seus banyes, més poderós és el verí que segrega."
+  },
+  "names": {
+    "en": "Nidoran-M",
+    "es": "Nidoran-M",
+    "ca": "Nidoran-M"
+  },
+  "evolution": [
+    {
+      "id": 32,
+      "name": "Nidoran-M",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+    },
+    {
+      "id": 33,
+      "name": "Nidorino",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+    },
+    {
+      "id": 34,
+      "name": "Nidoking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

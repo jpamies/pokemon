@@ -1,0 +1,45 @@
+{
+  "id": 381,
+  "name": "Latios",
+  "height": 20,
+  "weight": 600,
+  "base_experience": 270,
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "levitate",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 90,
+    "defense": 80,
+    "special-attack": 130,
+    "special-defense": 110,
+    "speed": 110
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/381.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/381.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "LATIOS has the ability to make its foe see an image of what it has seen or imagines in its head. This POKéMON is intelligent and understands human speech.",
+    "es": "Es un Pokémon muy inteligente. Puede adelantar a aviones a reacción plegando las alas.",
+    "ca": "LATIOS té l'habilitat de fer que el seu rival vegi una imatge del que ha vist o imaginat al seu cap. Aquest POKÉMON és intel·ligent i entén el llenguatge humà."
+  },
+  "names": {
+    "en": "Latios",
+    "es": "Latios",
+    "ca": "Latios"
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
+}

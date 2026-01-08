@@ -1,0 +1,60 @@
+{
+  "id": 348,
+  "name": "Armaldo",
+  "height": 15,
+  "weight": 682,
+  "base_experience": 173,
+  "types": [
+    "rock",
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "battle-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "swift-swim",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 100,
+    "special-attack": 70,
+    "special-defense": 80,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/348.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/348.png"
+  },
+  "color": "gray",
+  "generation": 3,
+  "descriptions": {
+    "en": "ARMALDO’s tough armor makes all attacks bounce off. This POKéMON’s two enormous claws can be freely extended or contracted. They have the power to punch right through a steel slab.",
+    "es": "Ensarta a sus presas con sus gigantescas garras elásticas. Una fuerte coraza cubre su cuerpo.",
+    "ca": "L'armadura resistent d'ARMALDO fa rebotar tots els atacs. Les dues pinces enormes d'aquest POKÉMON es poden estendre o contreure lliurement. Tenen la força per travessar una xapa d'acer."
+  },
+  "names": {
+    "en": "Armaldo",
+    "es": "Armaldo",
+    "ca": "Armaldo"
+  },
+  "evolution": [
+    {
+      "id": 347,
+      "name": "Anorith",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png"
+    },
+    {
+      "id": 348,
+      "name": "Armaldo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/348.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

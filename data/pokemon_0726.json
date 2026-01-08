@@ -1,0 +1,64 @@
+{
+  "id": 726,
+  "name": "Torracat",
+  "height": 7,
+  "weight": 250,
+  "base_experience": 147,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "blaze",
+      "is_hidden": false
+    },
+    {
+      "name": "intimidate",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 85,
+    "defense": 50,
+    "special-attack": 80,
+    "special-defense": 50,
+    "speed": 90
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/726.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/726.png"
+  },
+  "color": "red",
+  "generation": 7,
+  "descriptions": {
+    "en": "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
+    "es": "Luce al cuello un cascabel incandescente que tintinea con fuerza cuando desprende llamas.",
+    "ca": "Al coll té una campana de foc. La campana sona brillantment quan aquest Pokémon escup foc."
+  },
+  "names": {
+    "en": "Torracat",
+    "es": "Torracat",
+    "ca": "Torracat"
+  },
+  "evolution": [
+    {
+      "id": 725,
+      "name": "Litten",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/725.png"
+    },
+    {
+      "id": 726,
+      "name": "Torracat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png"
+    },
+    {
+      "id": 727,
+      "name": "Incineroar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

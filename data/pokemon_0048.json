@@ -1,0 +1,64 @@
+{
+  "id": 48,
+  "name": "Venonat",
+  "height": 10,
+  "weight": 300,
+  "base_experience": 61,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "compound-eyes",
+      "is_hidden": false
+    },
+    {
+      "name": "tinted-lens",
+      "is_hidden": false
+    },
+    {
+      "name": "run-away",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 55,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/48.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+    "es": "Sus grandes ojos son en realidad grupos de ojos diminutos. Por la noche se siente atraído por la luz.",
+    "ca": "Viu a les ombres dels arbres alts on s'alimenta d'insectes. S'hi atrau per la llum de nit."
+  },
+  "names": {
+    "en": "Venonat",
+    "es": "Venonat",
+    "ca": "Venonat"
+  },
+  "evolution": [
+    {
+      "id": 48,
+      "name": "Venonat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+    },
+    {
+      "id": 49,
+      "name": "Venomoth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

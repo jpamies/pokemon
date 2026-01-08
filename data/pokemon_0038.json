@@ -1,0 +1,59 @@
+{
+  "id": 38,
+  "name": "Ninetales",
+  "height": 11,
+  "weight": 199,
+  "base_experience": 177,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "is_hidden": false
+    },
+    {
+      "name": "drought",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "special-attack": 81,
+    "special-defense": 100,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/38.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+  },
+  "color": "yellow",
+  "generation": 1,
+  "descriptions": {
+    "en": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
+    "es": "Tiene nueve colas y un pelaje de color dorado. Dicen que este Pokémon llega a vivir 1000 años.",
+    "ca": "Molt intel·ligent i molt venjatiu. Agafar una de les seves nombroses cues podria resultar en una maledicció de 1.000 anys."
+  },
+  "names": {
+    "en": "Ninetales",
+    "es": "Ninetales",
+    "ca": "Ninetales"
+  },
+  "evolution": [
+    {
+      "id": 37,
+      "name": "Vulpix",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+    },
+    {
+      "id": 38,
+      "name": "Ninetales",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

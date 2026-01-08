@@ -1,0 +1,64 @@
+{
+  "id": 581,
+  "name": "Swanna",
+  "height": 13,
+  "weight": 242,
+  "base_experience": 166,
+  "types": [
+    "water",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "big-pecks",
+      "is_hidden": false
+    },
+    {
+      "name": "hydration",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 87,
+    "defense": 63,
+    "special-attack": 87,
+    "special-defense": 63,
+    "speed": 98
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/581.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/581.png"
+  },
+  "color": "white",
+  "generation": 5,
+  "descriptions": {
+    "en": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+    "es": "Aunque no lo parezca por su grácil elegancia, puede batir con fuerza las alas y volar durante miles de kilómetros.",
+    "ca": "Les Swanna comencen a ballar a la caiguda del sol. La que balla al mig és la líder del grup."
+  },
+  "names": {
+    "en": "Swanna",
+    "es": "Swanna",
+    "ca": "Swanna"
+  },
+  "evolution": [
+    {
+      "id": 580,
+      "name": "Ducklett",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png"
+    },
+    {
+      "id": 581,
+      "name": "Swanna",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

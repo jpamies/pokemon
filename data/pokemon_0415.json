@@ -1,0 +1,60 @@
+{
+  "id": 415,
+  "name": "Combee",
+  "height": 3,
+  "weight": 55,
+  "base_experience": 49,
+  "types": [
+    "bug",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "honey-gather",
+      "is_hidden": false
+    },
+    {
+      "name": "hustle",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 42,
+    "special-attack": 30,
+    "special-defense": 42,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/415.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/415.png"
+  },
+  "color": "yellow",
+  "generation": 4,
+  "descriptions": {
+    "en": "A Pokémon formed by three others. It busily carries sweet floral honey to VESPIQUEN.",
+    "es": "El trío se forma al nacer y se pasa la vida recogiendo miel de las flores para satisfacer a Vespiquen.",
+    "ca": "Un Pokémon format per tres altres. Porta diligentment la dolça mel floral a la VESPIQUEN."
+  },
+  "names": {
+    "en": "Combee",
+    "es": "Combee",
+    "ca": "Combee"
+  },
+  "evolution": [
+    {
+      "id": 415,
+      "name": "Combee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png"
+    },
+    {
+      "id": 416,
+      "name": "Vespiquen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

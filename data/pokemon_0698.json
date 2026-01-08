@@ -1,0 +1,60 @@
+{
+  "id": 698,
+  "name": "Amaura",
+  "height": 13,
+  "weight": 252,
+  "base_experience": 72,
+  "types": [
+    "rock",
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "refrigerate",
+      "is_hidden": false
+    },
+    {
+      "name": "snow-warning",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 77,
+    "attack": 59,
+    "defense": 50,
+    "special-attack": 67,
+    "special-defense": 63,
+    "speed": 46
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/698.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png"
+  },
+  "color": "blue",
+  "generation": 6,
+  "descriptions": {
+    "en": "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
+    "es": "Pokémon que ha sido regenerado a partir de un trozo de su antiguo cuerpo, que quedó congelado hace unos 100 millones de años.",
+    "ca": "Aquest Pokémon antic va ser restaurat a partir d'una part del seu cos que havia estat congelada en gel durant més de 100 milions d'anys."
+  },
+  "names": {
+    "en": "Amaura",
+    "es": "Amaura",
+    "ca": "Amaura"
+  },
+  "evolution": [
+    {
+      "id": 698,
+      "name": "Amaura",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/698.png"
+    },
+    {
+      "id": 699,
+      "name": "Aurorus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/699.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

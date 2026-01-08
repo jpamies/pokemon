@@ -1,0 +1,64 @@
+{
+  "id": 342,
+  "name": "Crawdaunt",
+  "height": 11,
+  "weight": 328,
+  "base_experience": 164,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "abilities": [
+    {
+      "name": "hyper-cutter",
+      "is_hidden": false
+    },
+    {
+      "name": "shell-armor",
+      "is_hidden": false
+    },
+    {
+      "name": "adaptability",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 63,
+    "attack": 120,
+    "defense": 85,
+    "special-attack": 90,
+    "special-defense": 55,
+    "speed": 55
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/342.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/342.png"
+  },
+  "color": "red",
+  "generation": 3,
+  "descriptions": {
+    "en": "CRAWDAUNT has an extremely violent nature that compels it to challenge other living things to battle. Other life-forms refuse to live in ponds inhabited by this POKéMON, making them desolate places.",
+    "es": "Este malandrín usa sus pinzas para atosigar y expulsar a los otros Pokémon que viven en su estanque.",
+    "ca": "El GAMBARAIG té una naturalesa extremadament violenta que el fa desafiar altres éssers vius a la batalla. Altres formes de vida es neguen a viure en els estanys habitats per aquest POKÉMON, convertint-los en llocs desolats."
+  },
+  "names": {
+    "en": "Crawdaunt",
+    "es": "Crawdaunt",
+    "ca": "Crawdaunt"
+  },
+  "evolution": [
+    {
+      "id": 341,
+      "name": "Corphish",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/341.png"
+    },
+    {
+      "id": 342,
+      "name": "Crawdaunt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

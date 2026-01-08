@@ -1,0 +1,64 @@
+{
+  "id": 747,
+  "name": "Mareanie",
+  "height": 4,
+  "weight": 80,
+  "base_experience": 61,
+  "types": [
+    "poison",
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "merciless",
+      "is_hidden": false
+    },
+    {
+      "name": "limber",
+      "is_hidden": false
+    },
+    {
+      "name": "regenerator",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 62,
+    "special-attack": 43,
+    "special-defense": 52,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/747.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/747.png"
+  },
+  "color": "blue",
+  "generation": 7,
+  "descriptions": {
+    "en": "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
+    "es": "Aturde a su presa con los aguijones venenosos de la cabeza. Cuando esta se debilita, la rodea con sus diez extremidades y la remata.",
+    "ca": "Clava la punxa verinosa del seu cap a la seva presa. Quan la presa s'ha debilitat, Mareanie li propina el cop de gràcia amb els seus 10 temacles."
+  },
+  "names": {
+    "en": "Mareanie",
+    "es": "Mareanie",
+    "ca": "Mareanie"
+  },
+  "evolution": [
+    {
+      "id": 747,
+      "name": "Mareanie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/747.png"
+    },
+    {
+      "id": 748,
+      "name": "Toxapex",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,68 @@
+{
+  "id": 610,
+  "name": "Axew",
+  "height": 6,
+  "weight": 180,
+  "base_experience": 64,
+  "types": [
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "rivalry",
+      "is_hidden": false
+    },
+    {
+      "name": "mold-breaker",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 46,
+    "attack": 87,
+    "defense": 60,
+    "special-attack": 30,
+    "special-defense": 40,
+    "speed": 57
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/610.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/610.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+    "es": "Usa sus colmillos para romper las bayas que come. Estos se regeneran una y otra vez, por eso son tan fuertes y afilados.",
+    "ca": "Utilitzen les seves ulleres per esclafar les baies que mengen. El renaixement repetit fa que les seves ulleres siguin fortes i esmolades."
+  },
+  "names": {
+    "en": "Axew",
+    "es": "Axew",
+    "ca": "Axew"
+  },
+  "evolution": [
+    {
+      "id": 610,
+      "name": "Axew",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png"
+    },
+    {
+      "id": 611,
+      "name": "Fraxure",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png"
+    },
+    {
+      "id": 612,
+      "name": "Haxorus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,63 @@
+{
+  "id": 504,
+  "name": "Patrat",
+  "height": 5,
+  "weight": 116,
+  "base_experience": 51,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "run-away",
+      "is_hidden": false
+    },
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "analytic",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 55,
+    "defense": 39,
+    "special-attack": 35,
+    "special-defense": 39,
+    "speed": 42
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/504.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/504.png"
+  },
+  "color": "brown",
+  "generation": 5,
+  "descriptions": {
+    "en": "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+    "es": "Almacena víveres en unas bolsas en sus mofletes y vigila durante días. Hace señales con la cola a sus compañeros.",
+    "ca": "Utilitzant aliments emmagatzemats a les butxaques de les galtes, poden fer vigilància durant dies. Utilitzen les seves cues per comunicar-se amb els altres."
+  },
+  "names": {
+    "en": "Patrat",
+    "es": "Patrat",
+    "ca": "Patrat"
+  },
+  "evolution": [
+    {
+      "id": 504,
+      "name": "Patrat",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png"
+    },
+    {
+      "id": 505,
+      "name": "Watchog",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

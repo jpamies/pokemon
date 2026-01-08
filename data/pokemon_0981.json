@@ -1,0 +1,64 @@
+{
+  "id": 981,
+  "name": "Farigiraf",
+  "height": 32,
+  "weight": 1600,
+  "base_experience": 260,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "cud-chew",
+      "is_hidden": false
+    },
+    {
+      "name": "armor-tail",
+      "is_hidden": false
+    },
+    {
+      "name": "sap-sipper",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 120,
+    "attack": 90,
+    "defense": 70,
+    "special-attack": 110,
+    "special-defense": 70,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/981.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/981.png"
+  },
+  "color": "brown",
+  "generation": 9,
+  "descriptions": {
+    "en": "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.",
+    "es": "Ahora que las ondas cerebrales de la cabeza y la cola están sincronizadas, el poder psíquico de este Pokémon es 10 veces más fuerte que el de Girafarig.",
+    "ca": "Ara que les ones cerebrals del cap i la cua estan sincronitzades, el poder psíquic d'aquest Pokémon és 10 vegades més fort que el de Girafarig."
+  },
+  "names": {
+    "en": "Farigiraf",
+    "es": "Farigiraf",
+    "ca": "Farigiraf"
+  },
+  "evolution": [
+    {
+      "id": 203,
+      "name": "Girafarig",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png"
+    },
+    {
+      "id": 981,
+      "name": "Farigiraf",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

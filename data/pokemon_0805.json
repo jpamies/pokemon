@@ -1,0 +1,45 @@
+{
+  "id": 805,
+  "name": "Stakataka",
+  "height": 55,
+  "weight": 8200,
+  "base_experience": 257,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "beast-boost",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 61,
+    "attack": 131,
+    "defense": 211,
+    "special-attack": 53,
+    "special-defense": 101,
+    "speed": 13
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/805.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/805.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/805.png"
+  },
+  "color": "gray",
+  "generation": 7,
+  "descriptions": {
+    "en": "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+    "es": "Surgió de un Ultraumbral. Parece estar compuesto de varias criaturas que se han combinado para formar un solo ser.",
+    "ca": "Va aparèixer d'un Forat Ultra. Cada un sembla estar format per molts éssers vius apilats un sobre l'altre."
+  },
+  "names": {
+    "en": "Stakataka",
+    "es": "Stakataka",
+    "ca": "Stakataka"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

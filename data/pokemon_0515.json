@@ -1,0 +1,59 @@
+{
+  "id": 515,
+  "name": "Panpour",
+  "height": 6,
+  "weight": 135,
+  "base_experience": 63,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "gluttony",
+      "is_hidden": false
+    },
+    {
+      "name": "torrent",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 48,
+    "special-attack": 53,
+    "special-defense": 48,
+    "speed": 64
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/515.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/515.png"
+  },
+  "color": "blue",
+  "generation": 5,
+  "descriptions": {
+    "en": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+    "es": "El agua acumulada en su mata de pelo es rica en nutrientes. Usa su cola para regar plantas con esa misma agua.",
+    "ca": "L'aigua emmagatzemada al plomall del seu cap està plena de nutrients. Les plantes que reben aquesta aigua creixen molt."
+  },
+  "names": {
+    "en": "Panpour",
+    "es": "Panpour",
+    "ca": "Panpour"
+  },
+  "evolution": [
+    {
+      "id": 515,
+      "name": "Panpour",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png"
+    },
+    {
+      "id": 516,
+      "name": "Simipour",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": 318,
+  "name": "Carvanha",
+  "height": 8,
+  "weight": 208,
+  "base_experience": 61,
+  "types": [
+    "water",
+    "dark"
+  ],
+  "abilities": [
+    {
+      "name": "rough-skin",
+      "is_hidden": false
+    },
+    {
+      "name": "speed-boost",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 90,
+    "defense": 20,
+    "special-attack": 65,
+    "special-defense": 20,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/318.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png"
+  },
+  "color": "red",
+  "generation": 3,
+  "descriptions": {
+    "en": "CARVANHA’s strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this POKéMON.",
+    "es": "Atacan en grupo a los barcos y los hunden a base de bocados. Habitan en los ríos de la jungla.",
+    "ca": "Les fortes mandíbules i les punxegudes dents de la CARVANHA tenen un poder destructiu capaç de trencar el casc dels vaixells. Molts vaixells han estat atacats i enfonsats per aquest POKÉMON."
+  },
+  "names": {
+    "en": "Carvanha",
+    "es": "Carvanha",
+    "ca": "Carvanha"
+  },
+  "evolution": [
+    {
+      "id": 318,
+      "name": "Carvanha",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/318.png"
+    },
+    {
+      "id": 319,
+      "name": "Sharpedo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/319.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

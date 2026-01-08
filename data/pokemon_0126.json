@@ -1,0 +1,64 @@
+{
+  "id": 126,
+  "name": "Magmar",
+  "height": 13,
+  "weight": 445,
+  "base_experience": 173,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "flame-body",
+      "is_hidden": false
+    },
+    {
+      "name": "vital-spirit",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "special-attack": 100,
+    "special-defense": 85,
+    "speed": 93
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/126.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png"
+  },
+  "color": "red",
+  "generation": 1,
+  "descriptions": {
+    "en": "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+    "es": "A este Pokémon se lo encontraron cerca de un volcán. Esta criatura ígnea tiene una temperatura corporal de unos 1200 °C.",
+    "ca": "El seu cos crema sempre amb una llum taronja que li permet amagar-se perfectament entre les flames."
+  },
+  "names": {
+    "en": "Magmar",
+    "es": "Magmar",
+    "ca": "Magmar"
+  },
+  "evolution": [
+    {
+      "id": 240,
+      "name": "Magby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png"
+    },
+    {
+      "id": 126,
+      "name": "Magmar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+    },
+    {
+      "id": 467,
+      "name": "Magmortar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

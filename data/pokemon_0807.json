@@ -1,0 +1,44 @@
+{
+  "id": 807,
+  "name": "Zeraora",
+  "height": 15,
+  "weight": 445,
+  "base_experience": 270,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "volt-absorb",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 88,
+    "attack": 112,
+    "defense": 75,
+    "special-attack": 102,
+    "special-defense": 80,
+    "speed": 143
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/807.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/807.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/807.png"
+  },
+  "color": "yellow",
+  "generation": 7,
+  "descriptions": {
+    "en": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks.",
+    "es": "Hace jirones al oponente con sus garras electrificadas. Aunque este esquive los golpes, acaba electrocutado por las descargas.",
+    "ca": "Electrifica les seves urpes i les utilitza per a esquarterar els seus oponents. Fins i tot si esquiven l'atac, els sacsejaran les espurnes elèctriques."
+  },
+  "names": {
+    "en": "Zeraora",
+    "es": "Zeraora",
+    "ca": "Zeraora"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
+}

@@ -1,0 +1,64 @@
+{
+  "id": 755,
+  "name": "Morelull",
+  "height": 2,
+  "weight": 15,
+  "base_experience": 57,
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "illuminate",
+      "is_hidden": false
+    },
+    {
+      "name": "effect-spore",
+      "is_hidden": false
+    },
+    {
+      "name": "rain-dish",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 55,
+    "special-attack": 65,
+    "special-defense": 75,
+    "speed": 15
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/755.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/755.png"
+  },
+  "color": "purple",
+  "generation": 7,
+  "descriptions": {
+    "en": "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+    "es": "Cuando titila, esparce esporas luminosas a su alrededor. Todo aquel que ve esta luz cae en un profundo sueño.",
+    "ca": "Escampa espores que pampalluguen i brillen. Qualsevol que vegi aquestes llums cau en un son profund."
+  },
+  "names": {
+    "en": "Morelull",
+    "es": "Morelull",
+    "ca": "Morelull"
+  },
+  "evolution": [
+    {
+      "id": 755,
+      "name": "Morelull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/755.png"
+    },
+    {
+      "id": 756,
+      "name": "Shiinotic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

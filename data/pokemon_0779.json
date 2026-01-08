@@ -1,0 +1,53 @@
+{
+  "id": 779,
+  "name": "Bruxish",
+  "height": 9,
+  "weight": 190,
+  "base_experience": 166,
+  "types": [
+    "water",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "dazzling",
+      "is_hidden": false
+    },
+    {
+      "name": "strong-jaw",
+      "is_hidden": false
+    },
+    {
+      "name": "wonder-skin",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 68,
+    "attack": 105,
+    "defense": 70,
+    "special-attack": 70,
+    "special-defense": 70,
+    "speed": 92
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/779.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/779.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/779.png"
+  },
+  "color": "pink",
+  "generation": 7,
+  "descriptions": {
+    "en": "When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.",
+    "es": "Cuando la protuberancia que tiene en la cabeza emite poderes psíquicos, se escucha como un ruido de dientes rechinando muy molesto.",
+    "ca": "Quan allibera el seu poder psíquic de la protuberància del cap, el so estrident de les dents grinyolant ressona per la zona."
+  },
+  "names": {
+    "en": "Bruxish",
+    "es": "Bruxish",
+    "ca": "Bruxish"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

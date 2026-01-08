@@ -7,11 +7,12 @@ from generate_pdf import fetch_pokemon, generate_pokemon_pdf
 
 def main():
     if len(sys.argv) < 2:
-        print("❌ Uso: python make_gen_pdf.py <generacion> [order]")
+        print("❌ Uso: python make_gen_pdf.py <generacion> [order] [language]")
         sys.exit(1)
     
     gen = sys.argv[1]
     order = sys.argv[2] if len(sys.argv) > 2 else 'id'
+    language = sys.argv[3] if len(sys.argv) > 3 else 'ca'  # Default catalán
     
     gen_ranges = {
         '1': (1, 151, 'i_kanto'),
@@ -34,7 +35,7 @@ def main():
     
     pokemon_list = []
     for pid in range(start, end + 1):
-        pokemon = fetch_pokemon(pid)
+        pokemon = fetch_pokemon(pid, language)
         if pokemon:
             pokemon_list.append(pokemon)
     
@@ -47,12 +48,15 @@ def main():
             suffix = 'by_id'
             order_text = 'por ID'
         
-        # Generar PDF en la ruta correcta
-        output_path = f'docs/pdf/{name}_{suffix}.pdf'
+        # Generar PDF en la ruta correcta con idioma
+        lang_suffix = f'_{language}' if language != 'ca' else ''
+        output_path = f'docs/pdf/{name}_{suffix}{lang_suffix}.pdf'
         if not os.path.exists('docs/pdf'):
             # Si estamos en scripts/, cambiar al directorio padre
             os.chdir('..')
-        generate_pokemon_pdf(pokemon_list, output_path, f'{name.title()} {order_text} ({len(pokemon_list)} Pokémon)')
+        
+        # Pasar idioma al generador
+        generate_pokemon_pdf(pokemon_list, output_path, f'{name.title()} {order_text} ({len(pokemon_list)} Pokémon)', language=language)
         print(f'✅ Generación {gen} completada: {len(pokemon_list)} Pokémon')
     else:
         print('❌ Error obteniendo Pokémon')

@@ -1,0 +1,65 @@
+{
+  "id": 929,
+  "name": "Dolliv",
+  "height": 6,
+  "weight": 119,
+  "base_experience": 124,
+  "types": [
+    "grass",
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "early-bird",
+      "is_hidden": false
+    },
+    {
+      "name": "harvest",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 52,
+    "attack": 53,
+    "defense": 60,
+    "special-attack": 78,
+    "special-defense": 78,
+    "speed": 33
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/929.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/929.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+    "es": "Dolliv comparte su sabroso y fresco aceite aromático con los demás. Esta especie ha coexistido con los humanos desde tiempos inmemorables.",
+    "ca": "El Dolliv comparteix el seu oli saborós i de fragància fresca amb els altres. Aquesta espècie ha conviscut amb els humans des de temps remots."
+  },
+  "names": {
+    "en": "Dolliv",
+    "es": "Dolliv",
+    "ca": "Dolliv"
+  },
+  "evolution": [
+    {
+      "id": 928,
+      "name": "Smoliv",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png"
+    },
+    {
+      "id": 929,
+      "name": "Dolliv",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png"
+    },
+    {
+      "id": 930,
+      "name": "Arboliva",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

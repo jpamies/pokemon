@@ -1,0 +1,44 @@
+{
+  "id": 808,
+  "name": "Meltan",
+  "height": 2,
+  "weight": 80,
+  "base_experience": 135,
+  "types": [
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "magnet-pull",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 46,
+    "attack": 65,
+    "defense": 65,
+    "special-attack": 55,
+    "special-defense": 35,
+    "speed": 34
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/808.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/808.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/808.png"
+  },
+  "color": "gray",
+  "generation": 7,
+  "descriptions": {
+    "en": "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+    "es": "Su cuerpo está compuesto de acero líquido. Funde las partículas de hierro y otros metales del subsuelo para luego absorberlas.",
+    "ca": "Fon partícules de ferro i altres metalls que troba al subsòl per poder absorbir-los al seu cos de metall fos."
+  },
+  "names": {
+    "en": "Meltan",
+    "es": "Meltan",
+    "ca": "Meltan"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": true
+}

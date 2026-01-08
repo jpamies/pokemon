@@ -1,0 +1,64 @@
+{
+  "id": 1018,
+  "name": "Archaludon",
+  "height": 20,
+  "weight": 600,
+  "base_experience": 300,
+  "types": [
+    "steel",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "stamina",
+      "is_hidden": false
+    },
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "stalwart",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 105,
+    "defense": 130,
+    "special-attack": 125,
+    "special-defense": 65,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1018.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1018.png"
+  },
+  "color": "white",
+  "generation": 9,
+  "descriptions": {
+    "en": "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+    "es": "Reúne electricidad estática de su entorno. Los rayos que lanza cuando está a cuatro patas son tremendamente poderosos.",
+    "ca": "Reuneix electricitat estàtica del seu entorn. Els rajos que llança quan està ajagut sobre les quatre potes són tremendament potents."
+  },
+  "names": {
+    "en": "Archaludon",
+    "es": "Archaludon",
+    "ca": "Archaludon"
+  },
+  "evolution": [
+    {
+      "id": 884,
+      "name": "Duraludon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/884.png"
+    },
+    {
+      "id": 1018,
+      "name": "Archaludon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1018.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

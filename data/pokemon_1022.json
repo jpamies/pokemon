@@ -1,0 +1,45 @@
+{
+  "id": 1022,
+  "name": "Iron-Boulder",
+  "height": 15,
+  "weight": 1625,
+  "base_experience": 295,
+  "types": [
+    "rock",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "quark-drive",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 80,
+    "special-attack": 68,
+    "special-defense": 108,
+    "speed": 124
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1022.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1022.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1022.png"
+  },
+  "color": "gray",
+  "generation": 9,
+  "descriptions": {
+    "en": "It resembles a Pokémon described in a dubious magazine as a Terrakion that had been modified by an evil organization.",
+    "es": "Se asemeja a un Pokémon descrito en una revista dudosa como un Terrakion que había sido modificado por una organización malvada.",
+    "ca": "Sembla un Pokémon descrit en una revista dubtosa com un Terrakion que havia estat modificat per una organització malvada."
+  },
+  "names": {
+    "en": "Iron-Boulder",
+    "es": "Iron-Boulder",
+    "ca": "Iron-Boulder"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

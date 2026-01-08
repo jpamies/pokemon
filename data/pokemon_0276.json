@@ -1,0 +1,60 @@
+{
+  "id": 276,
+  "name": "Taillow",
+  "height": 3,
+  "weight": 23,
+  "base_experience": 54,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "guts",
+      "is_hidden": false
+    },
+    {
+      "name": "scrappy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 55,
+    "defense": 30,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/276.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/276.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "TAILLOW courageously stands its ground against foes, however strong they may be. This gutsy POKéMON will remain defiant even after a loss. On the other hand, it cries loudly if it becomes hungry.",
+    "es": "Es un Pokémon valiente que no teme a los rivales fuertes. Vuela en busca de climas templados.",
+    "ca": "El TAILLOW es valent i es planta cara contra els seus rivals, per forts que siguin. Aquest Pokemon gòspel es mantindrà desafiant fins i tot després d'una derrota. D'altra banda, crida fort si té gana."
+  },
+  "names": {
+    "en": "Taillow",
+    "es": "Taillow",
+    "ca": "Taillow"
+  },
+  "evolution": [
+    {
+      "id": 276,
+      "name": "Taillow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png"
+    },
+    {
+      "id": 277,
+      "name": "Swellow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

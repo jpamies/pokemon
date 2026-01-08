@@ -1,0 +1,68 @@
+{
+  "id": 577,
+  "name": "Solosis",
+  "height": 3,
+  "weight": 10,
+  "base_experience": 58,
+  "types": [
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "overcoat",
+      "is_hidden": false
+    },
+    {
+      "name": "magic-guard",
+      "is_hidden": false
+    },
+    {
+      "name": "regenerator",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 40,
+    "special-attack": 105,
+    "special-defense": 50,
+    "speed": 20
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/577.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/577.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+    "es": "Gracias a la sustancia viscosa que envuelve su cuerpo, permanece tranquilo por dura o rigurosa que sea la situación.",
+    "ca": "Allunyenen els atacants amb el seu poder psíquic. Poden usar la telepatia per parlar amb els altres."
+  },
+  "names": {
+    "en": "Solosis",
+    "es": "Solosis",
+    "ca": "Solosis"
+  },
+  "evolution": [
+    {
+      "id": 577,
+      "name": "Solosis",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png"
+    },
+    {
+      "id": 578,
+      "name": "Duosion",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png"
+    },
+    {
+      "id": 579,
+      "name": "Reuniclus",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

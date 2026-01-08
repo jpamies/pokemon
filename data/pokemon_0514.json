@@ -1,0 +1,59 @@
+{
+  "id": 514,
+  "name": "Simisear",
+  "height": 10,
+  "weight": 280,
+  "base_experience": 174,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "gluttony",
+      "is_hidden": false
+    },
+    {
+      "name": "blaze",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 98,
+    "defense": 63,
+    "special-attack": 98,
+    "special-defense": 63,
+    "speed": 101
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/514.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "It loves sweets because they become energy for the fire burning inside its body.",
+    "es": "Achicharra a sus enemigos desprendiendo llamas por la cola y la cabeza, fruto de su desmesurado calor interno.",
+    "ca": "Li encantan les coses dolces perquè es converteixen en energia per al foc que crema dins del seu cos."
+  },
+  "names": {
+    "en": "Simisear",
+    "es": "Simisear",
+    "ca": "Simisear"
+  },
+  "evolution": [
+    {
+      "id": 513,
+      "name": "Pansear",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png"
+    },
+    {
+      "id": 514,
+      "name": "Simisear",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

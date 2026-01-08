@@ -1,0 +1,59 @@
+{
+  "id": 836,
+  "name": "Boltund",
+  "height": 10,
+  "weight": 340,
+  "base_experience": 172,
+  "types": [
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "strong-jaw",
+      "is_hidden": false
+    },
+    {
+      "name": "competitive",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 69,
+    "attack": 90,
+    "defense": 60,
+    "special-attack": 90,
+    "special-defense": 60,
+    "speed": 121
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/836.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/836.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/836.png"
+  },
+  "color": "yellow",
+  "generation": 8,
+  "descriptions": {
+    "en": "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
+    "es": "La electricidad que genera y envía a sus patas le ayuda a desplazarse rápidamente. Puede correr sin descanso durante tres días y tres noches.",
+    "ca": "Aquest Pokémon genera electricitat i la canalitza a les seves potes per mantenir-les fortes. El Boltund pot córrer sense parar durant tres dies sencers."
+  },
+  "names": {
+    "en": "Boltund",
+    "es": "Boltund",
+    "ca": "Boltund"
+  },
+  "evolution": [
+    {
+      "id": 835,
+      "name": "Yamper",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png"
+    },
+    {
+      "id": 836,
+      "name": "Boltund",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/836.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

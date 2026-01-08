@@ -1,0 +1,69 @@
+{
+  "id": 39,
+  "name": "Jigglypuff",
+  "height": 5,
+  "weight": 55,
+  "base_experience": 95,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "cute-charm",
+      "is_hidden": false
+    },
+    {
+      "name": "competitive",
+      "is_hidden": false
+    },
+    {
+      "name": "friend-guard",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special-attack": 45,
+    "special-defense": 25,
+    "speed": 20
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/39.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+  },
+  "color": "pink",
+  "generation": 1,
+  "descriptions": {
+    "en": "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+    "es": "Cautiva con la mirada a su enemigo y hace que se quede profundamente dormido mientras entona una dulce melodía.",
+    "ca": "Quan els seus ulls enormes s'il·luminen, canta una melodia misteriosa i reconfortant que adorm els seus enemics."
+  },
+  "names": {
+    "en": "Jigglypuff",
+    "es": "Jigglypuff",
+    "ca": "Jigglypuff"
+  },
+  "evolution": [
+    {
+      "id": 174,
+      "name": "Igglybuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png"
+    },
+    {
+      "id": 39,
+      "name": "Jigglypuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    },
+    {
+      "id": 40,
+      "name": "Wigglytuff",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

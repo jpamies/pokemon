@@ -1,0 +1,63 @@
+{
+  "id": 463,
+  "name": "Lickilicky",
+  "height": 17,
+  "weight": 1400,
+  "base_experience": 180,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "own-tempo",
+      "is_hidden": false
+    },
+    {
+      "name": "oblivious",
+      "is_hidden": false
+    },
+    {
+      "name": "cloud-nine",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 110,
+    "attack": 85,
+    "defense": 95,
+    "special-attack": 80,
+    "special-defense": 95,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/463.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/463.png"
+  },
+  "color": "pink",
+  "generation": 4,
+  "descriptions": {
+    "en": "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
+    "es": "Agarra cosas con su lengua extensible. Si te acercas mucho, te deja lleno de babas.",
+    "ca": "Envolta les coses amb la seva llengua extensible. Apropar-se massa a ell et deixarà xop de bava."
+  },
+  "names": {
+    "en": "Lickilicky",
+    "es": "Lickilicky",
+    "ca": "Lickilicky"
+  },
+  "evolution": [
+    {
+      "id": 108,
+      "name": "Lickitung",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+    },
+    {
+      "id": 463,
+      "name": "Lickilicky",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

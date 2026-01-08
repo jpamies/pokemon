@@ -1,0 +1,64 @@
+{
+  "id": 355,
+  "name": "Duskull",
+  "height": 8,
+  "weight": 150,
+  "base_experience": 59,
+  "types": [
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "levitate",
+      "is_hidden": false
+    },
+    {
+      "name": "frisk",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 20,
+    "attack": 40,
+    "defense": 90,
+    "special-attack": 30,
+    "special-defense": 90,
+    "speed": 25
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/355.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/355.png"
+  },
+  "color": "black",
+  "generation": 3,
+  "descriptions": {
+    "en": "DUSKULL can pass through any wall no matter how thick it may be. Once this POKéMON chooses a target, it will doggedly pursue the intended victim until the break of dawn.",
+    "es": "Persigue a su presa sin descanso allá donde vaya. No obstante, abandona la caza al amanecer.",
+    "ca": "El DUSKULL pot travessar qualsevol paret, per gruixuda que sigui. Un cop aquest POKÉMON tria un objectiu, el perseguirà amb obstinació fins a la llum del dia."
+  },
+  "names": {
+    "en": "Duskull",
+    "es": "Duskull",
+    "ca": "Duskull"
+  },
+  "evolution": [
+    {
+      "id": 355,
+      "name": "Duskull",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png"
+    },
+    {
+      "id": 356,
+      "name": "Dusclops",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png"
+    },
+    {
+      "id": 477,
+      "name": "Dusknoir",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

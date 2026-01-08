@@ -1,0 +1,61 @@
+{
+  "id": 92,
+  "name": "Gastly",
+  "height": 13,
+  "weight": 1,
+  "base_experience": 62,
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "levitate",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 35,
+    "defense": 30,
+    "special-attack": 100,
+    "special-defense": 35,
+    "speed": 80
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/92.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+  },
+  "color": "purple",
+  "generation": 1,
+  "descriptions": {
+    "en": "Almost invisible, this gaseous POKéMON cloaks the target and puts it to sleep without notice.",
+    "es": "Su etéreo cuerpo está hecho de gas. Puede envolver a un oponente de cualquier tamaño hasta ahogarlo.",
+    "ca": "Gairebé invisible, aquest Pokémon gasós envolta l'objectiu i l'adorm sense que se n'adoni."
+  },
+  "names": {
+    "en": "Gastly",
+    "es": "Gastly",
+    "ca": "Gastly"
+  },
+  "evolution": [
+    {
+      "id": 92,
+      "name": "Gastly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+    },
+    {
+      "id": 93,
+      "name": "Haunter",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+    },
+    {
+      "id": 94,
+      "name": "Gengar",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

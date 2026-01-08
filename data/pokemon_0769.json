@@ -1,0 +1,60 @@
+{
+  "id": 769,
+  "name": "Sandygast",
+  "height": 5,
+  "weight": 700,
+  "base_experience": 64,
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "water-compaction",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 45,
+    "speed": 15
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/769.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/769.png"
+  },
+  "color": "brown",
+  "generation": 7,
+  "descriptions": {
+    "en": "Born from a sand mound playfully built by a child, this Pokémon embodies the grudges of the departed.",
+    "es": "Surgió cuando una persona murió abandonada en plena calle y su resentimiento poseyó un montículo de arena apilado por un niño.",
+    "ca": "Nascut d'un munt de sorra construït de manera juganera per un nen, aquest Pokémon encarna els rancors dels difunts."
+  },
+  "names": {
+    "en": "Sandygast",
+    "es": "Sandygast",
+    "ca": "Sandygast"
+  },
+  "evolution": [
+    {
+      "id": 769,
+      "name": "Sandygast",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/769.png"
+    },
+    {
+      "id": 770,
+      "name": "Palossand",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/770.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

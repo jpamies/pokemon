@@ -1,0 +1,65 @@
+{
+  "id": 396,
+  "name": "Starly",
+  "height": 3,
+  "weight": 20,
+  "base_experience": 49,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "reckless",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 55,
+    "defense": 30,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/396.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/396.png"
+  },
+  "color": "brown",
+  "generation": 4,
+  "descriptions": {
+    "en": "They flock in great numbers. Though small, they flap their wings with great power.",
+    "es": "Viaja en grandes bandadas. Aunque es pequeño, agita las alas con gran fuerza.",
+    "ca": "Van en estols nombrosos. Tot i ser petits, baten les ales amb molta força."
+  },
+  "names": {
+    "en": "Starly",
+    "es": "Starly",
+    "ca": "Starly"
+  },
+  "evolution": [
+    {
+      "id": 396,
+      "name": "Starly",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png"
+    },
+    {
+      "id": 397,
+      "name": "Staravia",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png"
+    },
+    {
+      "id": 398,
+      "name": "Staraptor",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

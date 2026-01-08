@@ -1,0 +1,60 @@
+{
+  "id": 289,
+  "name": "Slaking",
+  "height": 20,
+  "weight": 1305,
+  "base_experience": 252,
+  "types": [
+    "normal"
+  ],
+  "abilities": [
+    {
+      "name": "truant",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 150,
+    "attack": 160,
+    "defense": 100,
+    "special-attack": 95,
+    "special-defense": 65,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/289.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png"
+  },
+  "color": "brown",
+  "generation": 3,
+  "descriptions": {
+    "en": "SLAKING spends all day lying down and lolling about. It eats grass growing within its reach. If it eats all the grass it can reach, this POKéMON reluctantly moves to another spot.",
+    "es": "El Pokémon más perezoso del mundo. Cambia de lugar para coger la comida al alcance de su mano.",
+    "ca": "El SLAKING passa tot el dia ajagut i jagadejant. Menja l'herba que li creix a l'abast. Si es menja tota l'herba que pot arribar, aquesta CRIATURA POKÉMON de mala gana es trasllada a un altre lloc."
+  },
+  "names": {
+    "en": "Slaking",
+    "es": "Slaking",
+    "ca": "Slaking"
+  },
+  "evolution": [
+    {
+      "id": 287,
+      "name": "Slakoth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png"
+    },
+    {
+      "id": 288,
+      "name": "Vigoroth",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/288.png"
+    },
+    {
+      "id": 289,
+      "name": "Slaking",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/289.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

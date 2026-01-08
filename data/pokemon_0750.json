@@ -1,0 +1,63 @@
+{
+  "id": 750,
+  "name": "Mudsdale",
+  "height": 25,
+  "weight": 9200,
+  "base_experience": 175,
+  "types": [
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "own-tempo",
+      "is_hidden": false
+    },
+    {
+      "name": "stamina",
+      "is_hidden": false
+    },
+    {
+      "name": "inner-focus",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 100,
+    "attack": 125,
+    "defense": 100,
+    "special-attack": 55,
+    "special-defense": 85,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/750.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/750.png"
+  },
+  "color": "brown",
+  "generation": 7,
+  "descriptions": {
+    "en": "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
+    "es": "El lodo que segrega por la boca se vuelve impermeable al secarse, por lo que solía usarse como capa aislante en las paredes de las casas.",
+    "ca": "Escopeix una fang que proporciona resistència tant al vent com a la pluja, per això les parets de les cases antigues sovint s'hi cobrien."
+  },
+  "names": {
+    "en": "Mudsdale",
+    "es": "Mudsdale",
+    "ca": "Mudsdale"
+  },
+  "evolution": [
+    {
+      "id": 749,
+      "name": "Mudbray",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/749.png"
+    },
+    {
+      "id": 750,
+      "name": "Mudsdale",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/750.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

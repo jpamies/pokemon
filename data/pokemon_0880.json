@@ -1,0 +1,53 @@
+{
+  "id": 880,
+  "name": "Dracozolt",
+  "height": 18,
+  "weight": 1900,
+  "base_experience": 177,
+  "types": [
+    "electric",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "volt-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "hustle",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-rush",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "special-attack": 80,
+    "special-defense": 70,
+    "speed": 75
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/880.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/880.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
+    "es": "La robustez de su tren inferior lo hacía invencible en la antigüedad, pero se extinguió tras comerse todas las plantas de las que se nutría.",
+    "ca": "En temps antics, era invencible gràcies al seu poderós cos inferior, però es va extingir igualment després d'esgotar totes les seves fonts d'aliment vegetals."
+  },
+  "names": {
+    "en": "Dracozolt",
+    "es": "Dracozolt",
+    "ca": "Dracozolt"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

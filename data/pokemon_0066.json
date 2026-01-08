@@ -1,0 +1,68 @@
+{
+  "id": 66,
+  "name": "Machop",
+  "height": 8,
+  "weight": 195,
+  "base_experience": 61,
+  "types": [
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "guts",
+      "is_hidden": false
+    },
+    {
+      "name": "no-guard",
+      "is_hidden": false
+    },
+    {
+      "name": "steadfast",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 50,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/66.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png"
+  },
+  "color": "gray",
+  "generation": 1,
+  "descriptions": {
+    "en": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+    "es": "Levanta un Graveler para mantener sus músculos en forma. Domina todas las artes marciales.",
+    "ca": "Li agrada desenvolupar els seus músculs. Entrena en tots els estils de les arts marcials per fer-se encara més fort."
+  },
+  "names": {
+    "en": "Machop",
+    "es": "Machop",
+    "ca": "Machop"
+  },
+  "evolution": [
+    {
+      "id": 66,
+      "name": "Machop",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

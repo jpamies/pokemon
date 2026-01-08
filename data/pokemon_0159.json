@@ -1,0 +1,64 @@
+{
+  "id": 159,
+  "name": "Croconaw",
+  "height": 11,
+  "weight": 250,
+  "base_experience": 142,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "torrent",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 65,
+    "attack": 80,
+    "defense": 80,
+    "special-attack": 59,
+    "special-defense": 63,
+    "speed": 58
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/159.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png"
+  },
+  "color": "blue",
+  "generation": 2,
+  "descriptions": {
+    "en": "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+    "es": "Si pierde un colmillo, le crecerá otro en su lugar. Siempre tiene 48 colmillos en su boca.",
+    "ca": "Si perd una dent, en creix una de nova al seu lloc. Sempre té 48 dents a la boca."
+  },
+  "names": {
+    "en": "Croconaw",
+    "es": "Croconaw",
+    "ca": "Croconaw"
+  },
+  "evolution": [
+    {
+      "id": 158,
+      "name": "Totodile",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png"
+    },
+    {
+      "id": 159,
+      "name": "Croconaw",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png"
+    },
+    {
+      "id": 160,
+      "name": "Feraligatr",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

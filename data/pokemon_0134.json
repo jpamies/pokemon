@@ -1,0 +1,94 @@
+{
+  "id": 134,
+  "name": "Vaporeon",
+  "height": 10,
+  "weight": 290,
+  "base_experience": 184,
+  "types": [
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "water-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "hydration",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 130,
+    "attack": 65,
+    "defense": 60,
+    "special-attack": 110,
+    "special-defense": 95,
+    "speed": 65
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/134.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+  },
+  "color": "blue",
+  "generation": 1,
+  "descriptions": {
+    "en": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
+    "es": "Prefiere las bellas costas. Con células parecidas al agua, podría fundirse en la misma.",
+    "ca": "Viu a prop de l'aigua. La seva llarga cua té una aleta que sovint es confon amb la d'una sirena."
+  },
+  "names": {
+    "en": "Vaporeon",
+    "es": "Vaporeon",
+    "ca": "Vaporeon"
+  },
+  "evolution": [
+    {
+      "id": 133,
+      "name": "Eevee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+    },
+    {
+      "id": 134,
+      "name": "Vaporeon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+    },
+    {
+      "id": 135,
+      "name": "Jolteon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+    },
+    {
+      "id": 136,
+      "name": "Flareon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+    },
+    {
+      "id": 196,
+      "name": "Espeon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
+    },
+    {
+      "id": 197,
+      "name": "Umbreon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+    },
+    {
+      "id": 470,
+      "name": "Leafeon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png"
+    },
+    {
+      "id": 471,
+      "name": "Glaceon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
+    },
+    {
+      "id": 700,
+      "name": "Sylveon",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

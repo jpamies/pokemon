@@ -1,0 +1,65 @@
+{
+  "id": 937,
+  "name": "Ceruledge",
+  "height": 16,
+  "weight": 620,
+  "base_experience": 263,
+  "types": [
+    "fire",
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "is_hidden": false
+    },
+    {
+      "name": "weak-armor",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 80,
+    "special-attack": 60,
+    "special-defense": 100,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/937.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/937.png"
+  },
+  "color": "blue",
+  "generation": 9,
+  "descriptions": {
+    "en": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+    "es": "Las hojas ardientes de sus brazos arden con ferocidad con el resentimiento persistente de un esgrimista que cayó antes de lograr su objetivo.",
+    "ca": "Les fulles de foc dels seus braços cremen ferotgement amb el ressentiment persistent d'un esgrima que va caure abans d'aconseguir el seu objectiu."
+  },
+  "names": {
+    "en": "Ceruledge",
+    "es": "Ceruledge",
+    "ca": "Ceruledge"
+  },
+  "evolution": [
+    {
+      "id": 935,
+      "name": "Charcadet",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png"
+    },
+    {
+      "id": 936,
+      "name": "Armarouge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png"
+    },
+    {
+      "id": 937,
+      "name": "Ceruledge",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

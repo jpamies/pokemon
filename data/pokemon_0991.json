@@ -1,0 +1,45 @@
+{
+  "id": 991,
+  "name": "Iron-Bundle",
+  "height": 6,
+  "weight": 110,
+  "base_experience": 285,
+  "types": [
+    "ice",
+    "water"
+  ],
+  "abilities": [
+    {
+      "name": "quark-drive",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 56,
+    "attack": 80,
+    "defense": 114,
+    "special-attack": 124,
+    "special-defense": 60,
+    "speed": 136
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/991.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/991.png"
+  },
+  "color": "red",
+  "generation": 9,
+  "descriptions": {
+    "en": "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.",
+    "es": "Su forma es similar a la de un robot que aparece en un artículo de una revista sobre lo paranormal. Se decía que ese robot había sido creado por una antigua civilización.",
+    "ca": "La seva forma és similar a un robot que es va presentar en un article de revista sobre fenòmens paranormals. Es deia que aquest robot havia estat creat per una antiga civilització."
+  },
+  "names": {
+    "en": "Iron-Bundle",
+    "es": "Iron-Bundle",
+    "ca": "Iron-Bundle"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,68 @@
+{
+  "id": 821,
+  "name": "Rookidee",
+  "height": 2,
+  "weight": 18,
+  "base_experience": 49,
+  "types": [
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "is_hidden": false
+    },
+    {
+      "name": "unnerve",
+      "is_hidden": false
+    },
+    {
+      "name": "big-pecks",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 38,
+    "attack": 47,
+    "defense": 35,
+    "special-attack": 33,
+    "special-defense": 35,
+    "speed": 57
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/821.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/821.png"
+  },
+  "color": "blue",
+  "generation": 8,
+  "descriptions": {
+    "en": "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit.",
+    "es": "De naturaleza valiente, planta cara a cualquier rival, por muy fuerte que sea. Los contraataques que recibe le sirven para fortalecerse.",
+    "ca": "Aquest Pokémon afrontarà valentament qualsevol oponent, per poderós que sigui. Aquest Pokémon es beneficia de cada batalla: fins i tot una derrota augmenta una mica la seva força."
+  },
+  "names": {
+    "en": "Rookidee",
+    "es": "Rookidee",
+    "ca": "Rookidee"
+  },
+  "evolution": [
+    {
+      "id": 821,
+      "name": "Rookidee",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/821.png"
+    },
+    {
+      "id": 822,
+      "name": "Corvisquire",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/822.png"
+    },
+    {
+      "id": 823,
+      "name": "Corviknight",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

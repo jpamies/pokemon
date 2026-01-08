@@ -1,0 +1,69 @@
+{
+  "id": 194,
+  "name": "Wooper",
+  "height": 4,
+  "weight": 85,
+  "base_experience": 42,
+  "types": [
+    "water",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "damp",
+      "is_hidden": false
+    },
+    {
+      "name": "water-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "unaware",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 45,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 15
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/194.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png"
+  },
+  "color": "blue",
+  "generation": 2,
+  "descriptions": {
+    "en": "This POKéMON lives in cold water. It will leave the water to search for food when it gets cold outside.",
+    "es": "Este Pokémon vive en aguas frías. Sale del agua para buscar comida cuando refresca el ambiente.",
+    "ca": "Aquest POKéMON viu a l'aigua freda. Sortirà de l'aigua per buscar menjar quan faci fred a l'exterior."
+  },
+  "names": {
+    "en": "Wooper",
+    "es": "Wooper",
+    "ca": "Wooper"
+  },
+  "evolution": [
+    {
+      "id": 194,
+      "name": "Wooper",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png"
+    },
+    {
+      "id": 195,
+      "name": "Quagsire",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png"
+    },
+    {
+      "id": 980,
+      "name": "Clodsire",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,69 @@
+{
+  "id": 543,
+  "name": "Venipede",
+  "height": 4,
+  "weight": 53,
+  "base_experience": 52,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "poison-point",
+      "is_hidden": false
+    },
+    {
+      "name": "swarm",
+      "is_hidden": false
+    },
+    {
+      "name": "speed-boost",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 59,
+    "special-attack": 30,
+    "special-defense": 39,
+    "speed": 57
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/543.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png"
+  },
+  "color": "red",
+  "generation": 5,
+  "descriptions": {
+    "en": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+    "es": "Percibe su entorno con su sentido del tacto, residente en su cabeza y cola. Su carácter es violento por naturaleza.",
+    "ca": "La seva mossegada injecta un verí potent, suficient per paralitzar grans Pokémon ocell que intenten caçar-lo."
+  },
+  "names": {
+    "en": "Venipede",
+    "es": "Venipede",
+    "ca": "Venipede"
+  },
+  "evolution": [
+    {
+      "id": 543,
+      "name": "Venipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png"
+    },
+    {
+      "id": 544,
+      "name": "Whirlipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png"
+    },
+    {
+      "id": 545,
+      "name": "Scolipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

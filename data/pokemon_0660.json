@@ -1,0 +1,64 @@
+{
+  "id": 660,
+  "name": "Diggersby",
+  "height": 10,
+  "weight": 424,
+  "base_experience": 148,
+  "types": [
+    "normal",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "pickup",
+      "is_hidden": false
+    },
+    {
+      "name": "cheek-pouch",
+      "is_hidden": false
+    },
+    {
+      "name": "huge-power",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 85,
+    "attack": 56,
+    "defense": 77,
+    "special-attack": 50,
+    "special-defense": 77,
+    "speed": 78
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/660.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png"
+  },
+  "color": "brown",
+  "generation": 6,
+  "descriptions": {
+    "en": "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.",
+    "es": "Sus grandes orejas tienen tal fuerza que con ellas puede levantar con facilidad rocas de más de una tonelada. Es de una ayuda inestimable en las obras.",
+    "ca": "Amb les seves orelles potents, poden alçar roques d'una tona o més amb facilitat. Poden ser de gran ajuda en llocs de construcció."
+  },
+  "names": {
+    "en": "Diggersby",
+    "es": "Diggersby",
+    "ca": "Diggersby"
+  },
+  "evolution": [
+    {
+      "id": 659,
+      "name": "Bunnelby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/659.png"
+    },
+    {
+      "id": 660,
+      "name": "Diggersby",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

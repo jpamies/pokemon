@@ -1,0 +1,64 @@
+{
+  "id": 171,
+  "name": "Lanturn",
+  "height": 12,
+  "weight": 225,
+  "base_experience": 161,
+  "types": [
+    "water",
+    "electric"
+  ],
+  "abilities": [
+    {
+      "name": "volt-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "illuminate",
+      "is_hidden": false
+    },
+    {
+      "name": "water-absorb",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 125,
+    "attack": 58,
+    "defense": 58,
+    "special-attack": 76,
+    "special-defense": 76,
+    "speed": 67
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/171.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/171.png"
+  },
+  "color": "blue",
+  "generation": 2,
+  "descriptions": {
+    "en": "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
+    "es": "La luz de Lanturn se puede ver desde lo más profundo. Se le llama la Estrella de Alta Mar.",
+    "ca": "La llum que emet és tan brillant que pot il·luminar la superfície del mar des d'una profunditat de més de tres milles."
+  },
+  "names": {
+    "en": "Lanturn",
+    "es": "Lanturn",
+    "ca": "Lanturn"
+  },
+  "evolution": [
+    {
+      "id": 170,
+      "name": "Chinchou",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png"
+    },
+    {
+      "id": 171,
+      "name": "Lanturn",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

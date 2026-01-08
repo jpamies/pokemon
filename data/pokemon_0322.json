@@ -1,0 +1,64 @@
+{
+  "id": 322,
+  "name": "Numel",
+  "height": 7,
+  "weight": 240,
+  "base_experience": 61,
+  "types": [
+    "fire",
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "oblivious",
+      "is_hidden": false
+    },
+    {
+      "name": "simple",
+      "is_hidden": false
+    },
+    {
+      "name": "own-tempo",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 40,
+    "special-attack": 65,
+    "special-defense": 45,
+    "speed": 35
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/322.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png"
+  },
+  "color": "yellow",
+  "generation": 3,
+  "descriptions": {
+    "en": "NUMEL is extremely dull witted - it doesn’t notice being hit. However, it can’t stand hunger for even a second. This POKéMON’s body is a seething cauldron of boiling magma.",
+    "es": "En su joroba almacena magma ardiente que se enfría cuando llueve y lo ralentiza.",
+    "ca": "NUMEL és extremadament estúpid - ni s'adona que el colpegen. No obstant això, no pot suportar la fam ni un segon. El cos d'aquest POKéMON és un bullent caldero de magma ardent."
+  },
+  "names": {
+    "en": "Numel",
+    "es": "Numel",
+    "ca": "Numel"
+  },
+  "evolution": [
+    {
+      "id": 322,
+      "name": "Numel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/322.png"
+    },
+    {
+      "id": 323,
+      "name": "Camerupt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

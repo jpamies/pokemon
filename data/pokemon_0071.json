@@ -1,0 +1,65 @@
+{
+  "id": 71,
+  "name": "Victreebel",
+  "height": 17,
+  "weight": 155,
+  "base_experience": 221,
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "is_hidden": false
+    },
+    {
+      "name": "gluttony",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special-attack": 100,
+    "special-defense": 70,
+    "speed": 70
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/71.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png"
+  },
+  "color": "green",
+  "generation": 1,
+  "descriptions": {
+    "en": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+    "es": "Dicen que vive en grandes colonias en el interior de las junglas, aunque nadie ha podido verificarlo.",
+    "ca": "Es diu que viuen en grans colònies al fons de les jungles, tot i que ningú mai no n'ha tornat."
+  },
+  "names": {
+    "en": "Victreebel",
+    "es": "Victreebel",
+    "ca": "Victreebel"
+  },
+  "evolution": [
+    {
+      "id": 69,
+      "name": "Bellsprout",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+    },
+    {
+      "id": 70,
+      "name": "Weepinbell",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+    },
+    {
+      "id": 71,
+      "name": "Victreebel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": 850,
+  "name": "Sizzlipede",
+  "height": 7,
+  "weight": 10,
+  "base_experience": 61,
+  "types": [
+    "fire",
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "is_hidden": false
+    },
+    {
+      "name": "white-smoke",
+      "is_hidden": false
+    },
+    {
+      "name": "flame-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 45
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/850.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png"
+  },
+  "color": "red",
+  "generation": 8,
+  "descriptions": {
+    "en": "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+    "es": "Genera calor consumiendo el gas inflamable que almacena en su cuerpo. Los círculos amarillos del abdomen están particularmente calientes.",
+    "ca": "Emmagatzema gas inflamable al seu cos i l'utilitza per generar calor. Les seccions grogues del seu ventre s'escalfen especialment."
+  },
+  "names": {
+    "en": "Sizzlipede",
+    "es": "Sizzlipede",
+    "ca": "Sizzlipede"
+  },
+  "evolution": [
+    {
+      "id": 850,
+      "name": "Sizzlipede",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png"
+    },
+    {
+      "id": 851,
+      "name": "Centiskorch",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/851.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

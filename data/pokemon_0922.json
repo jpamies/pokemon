@@ -1,0 +1,69 @@
+{
+  "id": 922,
+  "name": "Pawmo",
+  "height": 4,
+  "weight": 65,
+  "base_experience": 123,
+  "types": [
+    "electric",
+    "fighting"
+  ],
+  "abilities": [
+    {
+      "name": "volt-absorb",
+      "is_hidden": false
+    },
+    {
+      "name": "natural-cure",
+      "is_hidden": false
+    },
+    {
+      "name": "iron-fist",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 40,
+    "special-attack": 50,
+    "special-defense": 40,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/922.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/922.png"
+  },
+  "color": "yellow",
+  "generation": 9,
+  "descriptions": {
+    "en": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+    "es": "Cuando su grupo es atacado, Pawmo es el primero en lanzarse a la batalla, derrotando a los enemigos con una técnica de combate que utiliza descargas eléctricas.",
+    "ca": "Quan el seu grup és atacat, el Pawmo és el primer a llançar-se a la batalla, derrotant els enemics amb una tècnica de lluita que utilitza descàrregues elèctriques."
+  },
+  "names": {
+    "en": "Pawmo",
+    "es": "Pawmo",
+    "ca": "Pawmo"
+  },
+  "evolution": [
+    {
+      "id": 921,
+      "name": "Pawmi",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png"
+    },
+    {
+      "id": 922,
+      "name": "Pawmo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png"
+    },
+    {
+      "id": 923,
+      "name": "Pawmot",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

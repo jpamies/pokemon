@@ -1,0 +1,49 @@
+{
+  "id": 788,
+  "name": "Tapu-Fini",
+  "height": 13,
+  "weight": 212,
+  "base_experience": 257,
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "misty-surge",
+      "is_hidden": false
+    },
+    {
+      "name": "telepathy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 75,
+    "defense": 115,
+    "special-attack": 95,
+    "special-defense": 130,
+    "speed": 85
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/788.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png"
+  },
+  "color": "purple",
+  "generation": 7,
+  "descriptions": {
+    "en": "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
+    "es": "Desconcierta al enemigo provocando una espesa niebla que se convierte en su perdición. Las corrientes marinas son su fuente de energía.",
+    "ca": "La densa boira que crea porta a la caiguda i destrucció dels seus enemics confosos. Els corrents marins són la font de la seva energia."
+  },
+  "names": {
+    "en": "Tapu-Fini",
+    "es": "Tapu-Fini",
+    "ca": "Tapu-Fini"
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
+}

@@ -1,0 +1,65 @@
+{
+  "id": 478,
+  "name": "Froslass",
+  "height": 13,
+  "weight": 266,
+  "base_experience": 168,
+  "types": [
+    "ice",
+    "ghost"
+  ],
+  "abilities": [
+    {
+      "name": "snow-cloak",
+      "is_hidden": false
+    },
+    {
+      "name": "cursed-body",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 70,
+    "special-attack": 80,
+    "special-defense": 70,
+    "speed": 110
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/478.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png"
+  },
+  "color": "white",
+  "generation": 4,
+  "descriptions": {
+    "en": "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
+    "es": "Congela a sus enemigos con un aliento gélido de -50 °C. Su cuerpo está hueco.",
+    "ca": "Congela els enemics amb un alè glaçat de gairebé -60 graus Fahrenheit. El que sembla el seu cos realment està buit."
+  },
+  "names": {
+    "en": "Froslass",
+    "es": "Froslass",
+    "ca": "Froslass"
+  },
+  "evolution": [
+    {
+      "id": 361,
+      "name": "Snorunt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png"
+    },
+    {
+      "id": 362,
+      "name": "Glalie",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png"
+    },
+    {
+      "id": 478,
+      "name": "Froslass",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": 931,
+  "name": "Squawkabilly-Green-Plumage",
+  "height": 6,
+  "weight": 24,
+  "base_experience": 146,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "intimidate",
+      "is_hidden": false
+    },
+    {
+      "name": "hustle",
+      "is_hidden": false
+    },
+    {
+      "name": "guts",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 82,
+    "attack": 96,
+    "defense": 51,
+    "special-attack": 45,
+    "special-defense": 51,
+    "speed": 92
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/931.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/931.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png"
+  },
+  "color": "green",
+  "generation": 9,
+  "descriptions": {
+    "en": "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
+    "es": "Estos Pokémon prefieren vivir en las ciudades. Forman parvadas según el color de sus plumas y pelean por el territorio.",
+    "ca": "Aquests Pokémon prefereixen viure a les ciutats. Formen esbarts segons el color de les seves plomes i es barallen per marcar el seu territori."
+  },
+  "names": {
+    "en": "Squawkabilly-Green-Plumage",
+    "es": "Squawkabilly-Green-Plumage",
+    "ca": "Squawkabilly-Green-Plumage"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

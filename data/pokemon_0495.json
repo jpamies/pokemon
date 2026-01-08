@@ -1,0 +1,64 @@
+{
+  "id": 495,
+  "name": "Snivy",
+  "height": 6,
+  "weight": 81,
+  "base_experience": 62,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "overgrow",
+      "is_hidden": false
+    },
+    {
+      "name": "contrary",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 45,
+    "attack": 45,
+    "defense": 55,
+    "special-attack": 45,
+    "special-defense": 55,
+    "speed": 63
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/495.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/495.png"
+  },
+  "color": "green",
+  "generation": 5,
+  "descriptions": {
+    "en": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+    "es": "Cuando recibe los rayos de sol, se mueve mucho más rápido que de costumbre. Usa mejor sus lianas que sus manos.",
+    "ca": "És molt intel·ligent i tranquil. Estar exposat a molta llum solar accelera els seus moviments."
+  },
+  "names": {
+    "en": "Snivy",
+    "es": "Snivy",
+    "ca": "Snivy"
+  },
+  "evolution": [
+    {
+      "id": 495,
+      "name": "Snivy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png"
+    },
+    {
+      "id": 496,
+      "name": "Servine",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png"
+    },
+    {
+      "id": 497,
+      "name": "Serperior",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

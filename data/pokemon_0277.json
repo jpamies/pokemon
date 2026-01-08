@@ -1,0 +1,60 @@
+{
+  "id": 277,
+  "name": "Swellow",
+  "height": 7,
+  "weight": 198,
+  "base_experience": 159,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "abilities": [
+    {
+      "name": "guts",
+      "is_hidden": false
+    },
+    {
+      "name": "scrappy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 60,
+    "special-attack": 75,
+    "special-defense": 50,
+    "speed": 125
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/277.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/277.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "SWELLOW flies high above our heads, making graceful arcs in the sky. This POKéMON dives at a steep angle as soon as it spots its prey. The hapless prey is tightly grasped by SWELLOW’s clawed feet, preventing escape.",
+    "es": "Cuando se encuentra bien, pone firmes las plumas de la cola doble que tiene. Remonta el vuelo de forma muy elegante.",
+    "ca": "El SWELLOW vola alt sobre els nostres caps, traçant arcs elegants al cel. Aquest Pokemon es llança en picat a gran velocitat quan veu la seva presa. La infeliç víctima és subjectada fermament pels peus amb urpes del SWELLOW, impedint-li escapar."
+  },
+  "names": {
+    "en": "Swellow",
+    "es": "Swellow",
+    "ca": "Swellow"
+  },
+  "evolution": [
+    {
+      "id": 276,
+      "name": "Taillow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png"
+    },
+    {
+      "id": 277,
+      "name": "Swellow",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

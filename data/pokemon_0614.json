@@ -1,0 +1,63 @@
+{
+  "id": 614,
+  "name": "Beartic",
+  "height": 26,
+  "weight": 2600,
+  "base_experience": 177,
+  "types": [
+    "ice"
+  ],
+  "abilities": [
+    {
+      "name": "snow-cloak",
+      "is_hidden": false
+    },
+    {
+      "name": "slush-rush",
+      "is_hidden": false
+    },
+    {
+      "name": "swift-swim",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 95,
+    "attack": 130,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 80,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/614.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/614.png"
+  },
+  "color": "white",
+  "generation": 5,
+  "descriptions": {
+    "en": "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+    "es": "Adoran los mares gélidos del norte. Congelan su aliento para crear sendas por las que caminar sobre las aguas.",
+    "ca": "Pot congelar el seu alè a voluntat. És molt hàbil a l'aigua, neda pels mars del nord i caça la seva presa."
+  },
+  "names": {
+    "en": "Beartic",
+    "es": "Beartic",
+    "ca": "Beartic"
+  },
+  "evolution": [
+    {
+      "id": 613,
+      "name": "Cubchoo",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png"
+    },
+    {
+      "id": 614,
+      "name": "Beartic",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

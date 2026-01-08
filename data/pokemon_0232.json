@@ -1,0 +1,59 @@
+{
+  "id": 232,
+  "name": "Donphan",
+  "height": 11,
+  "weight": 1200,
+  "base_experience": 175,
+  "types": [
+    "ground"
+  ],
+  "abilities": [
+    {
+      "name": "sturdy",
+      "is_hidden": false
+    },
+    {
+      "name": "sand-veil",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 120,
+    "special-attack": 60,
+    "special-defense": 60,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/232.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/232.png"
+  },
+  "color": "gray",
+  "generation": 2,
+  "descriptions": {
+    "en": "It has sharp, hard tusks and a rugged hide. Its TACKLE is strong enough to knock down a house.",
+    "es": "Tiene afilados y duros colmillos, y una gruesa piel. Su Placaje es tan fuerte que puede derribar una casa.",
+    "ca": "Té ullals afilats i durs, i una pell robusta. El seu ZEMBLA és prou fort per fer caure una casa."
+  },
+  "names": {
+    "en": "Donphan",
+    "es": "Donphan",
+    "ca": "Donphan"
+  },
+  "evolution": [
+    {
+      "id": 231,
+      "name": "Phanpy",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/231.png"
+    },
+    {
+      "id": 232,
+      "name": "Donphan",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/232.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

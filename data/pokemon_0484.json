@@ -1,0 +1,49 @@
+{
+  "id": 484,
+  "name": "Palkia",
+  "height": 42,
+  "weight": 3360,
+  "base_experience": 306,
+  "types": [
+    "water",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "pressure",
+      "is_hidden": false
+    },
+    {
+      "name": "telepathy",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 100,
+    "special-attack": 150,
+    "special-defense": 120,
+    "speed": 100
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/484.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/484.png"
+  },
+  "color": "purple",
+  "generation": 4,
+  "descriptions": {
+    "en": "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+    "es": "Se dice que vive en una dimensión espacial paralela. Aparece en la mitología.",
+    "ca": "Té la capacitat de distorsionar l'espai. Es descriu com una deïtat en la mitologia de la regió de Sinnoh."
+  },
+  "names": {
+    "en": "Palkia",
+    "es": "Palkia",
+    "ca": "Palkia"
+  },
+  "evolution": null,
+  "is_legendary": true,
+  "is_mythical": false
+}

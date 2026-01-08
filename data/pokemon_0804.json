@@ -1,0 +1,56 @@
+{
+  "id": 804,
+  "name": "Naganadel",
+  "height": 36,
+  "weight": 1500,
+  "base_experience": 243,
+  "types": [
+    "poison",
+    "dragon"
+  ],
+  "abilities": [
+    {
+      "name": "beast-boost",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 73,
+    "attack": 73,
+    "defense": 73,
+    "special-attack": 127,
+    "special-defense": 73,
+    "speed": 121
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/804.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/804.png"
+  },
+  "color": "purple",
+  "generation": 7,
+  "descriptions": {
+    "en": "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+    "es": "Una de las temibles criaturas conocidas como Ultraentes. En su cuerpo almacena cientos de litros de veneno.",
+    "ca": "Emmagatzema centenars de litres de líquid verinós al seu interior. És una de les criatures conegudes com a UBs."
+  },
+  "names": {
+    "en": "Naganadel",
+    "es": "Naganadel",
+    "ca": "Naganadel"
+  },
+  "evolution": [
+    {
+      "id": 803,
+      "name": "Poipole",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/803.png"
+    },
+    {
+      "id": 804,
+      "name": "Naganadel",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/804.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

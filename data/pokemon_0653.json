@@ -1,0 +1,64 @@
+{
+  "id": 653,
+  "name": "Fennekin",
+  "height": 4,
+  "weight": 94,
+  "base_experience": 61,
+  "types": [
+    "fire"
+  ],
+  "abilities": [
+    {
+      "name": "blaze",
+      "is_hidden": false
+    },
+    {
+      "name": "magician",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special-attack": 62,
+    "special-defense": 60,
+    "speed": 60
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/653.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png"
+  },
+  "color": "red",
+  "generation": 6,
+  "descriptions": {
+    "en": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+    "es": "Tras masticar e ingerir pequeñas ramas se siente pletórico y expulsa aire caliente por sus grandes orejas a temperaturas superiores a los 200 ºC.",
+    "ca": "Menjar una branqueta l'omple d'energia, i les seves orelles espaioses expulsen aire més calent que 390 graus Fahrenheit."
+  },
+  "names": {
+    "en": "Fennekin",
+    "es": "Fennekin",
+    "ca": "Fennekin"
+  },
+  "evolution": [
+    {
+      "id": 653,
+      "name": "Fennekin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png"
+    },
+    {
+      "id": 654,
+      "name": "Braixen",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png"
+    },
+    {
+      "id": 655,
+      "name": "Delphox",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

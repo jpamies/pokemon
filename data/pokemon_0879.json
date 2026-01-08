@@ -1,0 +1,59 @@
+{
+  "id": 879,
+  "name": "Copperajah",
+  "height": 30,
+  "weight": 6500,
+  "base_experience": 175,
+  "types": [
+    "steel"
+  ],
+  "abilities": [
+    {
+      "name": "sheer-force",
+      "is_hidden": false
+    },
+    {
+      "name": "heavy-metal",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 122,
+    "attack": 130,
+    "defense": 69,
+    "special-attack": 80,
+    "special-defense": 69,
+    "speed": 30
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/879.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/879.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/879.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "They came over from another region long ago and worked together with humans. Their green skin is resistant to water.",
+    "es": "Su piel verdosa es resistente al agua. Proviene de tierras lejanas y presta ayuda a las personas en la realización de ciertos trabajos.",
+    "ca": "Van venir d'una altra regió fa molt de temps i van treballar juntament amb els humans. La seva pell verda és resistent a l'aigua."
+  },
+  "names": {
+    "en": "Copperajah",
+    "es": "Copperajah",
+    "ca": "Copperajah"
+  },
+  "evolution": [
+    {
+      "id": 878,
+      "name": "Cufant",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png"
+    },
+    {
+      "id": 879,
+      "name": "Copperajah",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/879.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

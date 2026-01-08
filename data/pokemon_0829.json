@@ -1,0 +1,63 @@
+{
+  "id": 829,
+  "name": "Gossifleur",
+  "height": 4,
+  "weight": 22,
+  "base_experience": 50,
+  "types": [
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "cotton-down",
+      "is_hidden": false
+    },
+    {
+      "name": "regenerator",
+      "is_hidden": false
+    },
+    {
+      "name": "effect-spore",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 60,
+    "special-attack": 40,
+    "special-defense": 60,
+    "speed": 10
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/829.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/829.png"
+  },
+  "color": "green",
+  "generation": 8,
+  "descriptions": {
+    "en": "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
+    "es": "Si planta su única extremidad inferior en la tierra y se expone a abundante luz solar, sus pétalos cobran un color vivo.",
+    "ca": "S'ancora a terra amb la seva única pota, després s'assol·leia al sol. Després d'absorbir prou llum solar, els seus pètals s'obren quan floreix amb brillantor."
+  },
+  "names": {
+    "en": "Gossifleur",
+    "es": "Gossifleur",
+    "ca": "Gossifleur"
+  },
+  "evolution": [
+    {
+      "id": 829,
+      "name": "Gossifleur",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/829.png"
+    },
+    {
+      "id": 830,
+      "name": "Eldegoss",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/830.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": 303,
+  "name": "Mawile",
+  "height": 6,
+  "weight": 115,
+  "base_experience": 133,
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "abilities": [
+    {
+      "name": "hyper-cutter",
+      "is_hidden": false
+    },
+    {
+      "name": "intimidate",
+      "is_hidden": false
+    },
+    {
+      "name": "sheer-force",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 50,
+    "attack": 85,
+    "defense": 85,
+    "special-attack": 55,
+    "special-defense": 55,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/303.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png"
+  },
+  "color": "black",
+  "generation": 3,
+  "descriptions": {
+    "en": "MAWHILE’s huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, MAWHILE chomps it with its gaping jaws.",
+    "es": "Engaña con su aspecto dócil; hace que el rival se confíe y le da un mordisco con sus enormes e implacables mandíbulas.",
+    "ca": "Les enormes mandíbules del MAWHILE són en realitat banyes d'acer que s'han transformat. La seva cara de semblar dòcil serveix per enganyar l'adversari i fer que baixi la guàrdia. Quan menys s'ho espera, el MAWHILE l'enxampa amb les seves enormes mandíbules."
+  },
+  "names": {
+    "en": "Mawile",
+    "es": "Mawile",
+    "ca": "Mawile"
+  },
+  "evolution": null,
+  "is_legendary": false,
+  "is_mythical": false
+}

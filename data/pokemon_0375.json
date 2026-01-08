@@ -1,0 +1,65 @@
+{
+  "id": 375,
+  "name": "Metang",
+  "height": 12,
+  "weight": 2025,
+  "base_experience": 147,
+  "types": [
+    "steel",
+    "psychic"
+  ],
+  "abilities": [
+    {
+      "name": "clear-body",
+      "is_hidden": false
+    },
+    {
+      "name": "light-metal",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 100,
+    "special-attack": 55,
+    "special-defense": 80,
+    "speed": 50
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/375.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png"
+  },
+  "color": "blue",
+  "generation": 3,
+  "descriptions": {
+    "en": "When two BELDUM fuse together, METANG is formed. The brains of the BELDUM are joined by a magnetic nervous system. By linking its brains magnetically, this POKéMON generates strong psychokinetic power.",
+    "es": "Lo forman dos Beldum unidos. Puede chocarse con un avión sin que su cuerpo de acero sufra ni un rasguño.",
+    "ca": "Quan dos Beldum es fusionen, neix el Metang. Els cervells dels Beldum estan units per un sistema nerviós magnetic. Enllaçant els seus cervells magneticament, aquest pokemon genera un gran poder psicocinetic."
+  },
+  "names": {
+    "en": "Metang",
+    "es": "Metang",
+    "ca": "Metang"
+  },
+  "evolution": [
+    {
+      "id": 374,
+      "name": "Beldum",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/374.png"
+    },
+    {
+      "id": 375,
+      "name": "Metang",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/375.png"
+    },
+    {
+      "id": 376,
+      "name": "Metagross",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

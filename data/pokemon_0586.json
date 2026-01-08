@@ -1,0 +1,64 @@
+{
+  "id": 586,
+  "name": "Sawsbuck",
+  "height": 19,
+  "weight": 925,
+  "base_experience": 166,
+  "types": [
+    "normal",
+    "grass"
+  ],
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "is_hidden": false
+    },
+    {
+      "name": "sap-sipper",
+      "is_hidden": false
+    },
+    {
+      "name": "serene-grace",
+      "is_hidden": true
+    }
+  ],
+  "stats": {
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 95
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/586.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png"
+  },
+  "color": "brown",
+  "generation": 5,
+  "descriptions": {
+    "en": "They migrate according to the seasons. People can tell the season by looking at Sawsbuck’s horns.",
+    "es": "Cambia de morada dependiendo de las estaciones. Observando sus cuernos, la gente sabe cuándo estas van a cambiar.",
+    "ca": "Es mouen segons les estacions. Les persones poden saber quina estació és mirant els banyes del Sawsbuck."
+  },
+  "names": {
+    "en": "Sawsbuck",
+    "es": "Sawsbuck",
+    "ca": "Sawsbuck"
+  },
+  "evolution": [
+    {
+      "id": 585,
+      "name": "Deerling",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png"
+    },
+    {
+      "id": 586,
+      "name": "Sawsbuck",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}

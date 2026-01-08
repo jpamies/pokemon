@@ -1,0 +1,60 @@
+{
+  "id": 736,
+  "name": "Grubbin",
+  "height": 4,
+  "weight": 44,
+  "base_experience": 60,
+  "types": [
+    "bug"
+  ],
+  "abilities": [
+    {
+      "name": "swarm",
+      "is_hidden": false
+    }
+  ],
+  "stats": {
+    "hp": 47,
+    "attack": 62,
+    "defense": 45,
+    "special-attack": 55,
+    "special-defense": 45,
+    "speed": 46
+  },
+  "images": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png",
+    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/736.png",
+    "official_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/736.png"
+  },
+  "color": "gray",
+  "generation": 7,
+  "descriptions": {
+    "en": "Its strong jaw enables it to scrape trees and slurp out the sap. It normally lives underground.",
+    "es": "Con sus duras mandíbulas arranca la corteza de los árboles y sorbe la savia. Suele habitar bajo tierra.",
+    "ca": "La seva forta mandíbula li permet raspar els arbres i xuclar la saba. Normalment viu sota terra."
+  },
+  "names": {
+    "en": "Grubbin",
+    "es": "Grubbin",
+    "ca": "Grubbin"
+  },
+  "evolution": [
+    {
+      "id": 736,
+      "name": "Grubbin",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/736.png"
+    },
+    {
+      "id": 737,
+      "name": "Charjabug",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/737.png"
+    },
+    {
+      "id": 738,
+      "name": "Vikavolt",
+      "image_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/738.png"
+    }
+  ],
+  "is_legendary": false,
+  "is_mythical": false
+}
