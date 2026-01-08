@@ -15,12 +15,12 @@ Una aplicación web estática diseñada específicamente para ayudar a los niño
 - **[📚 Centro de Descargas](https://jpamies.github.io/pokemon/docs/)** - Todos los PDFs disponibles
 
 ### 📖 **Guías Completas** (Recomendado)
-- **[📥 Guía Completa por ID](docs/pdf/pokemon_complet_catala.pdf)** - 1,025 Pokémon ordenados por número
-- **[📥 Guía Completa por Color](docs/pdf/pokemon_complet_catala_by_color.pdf)** - 1,025 Pokémon ordenados por color
+- **[📥 Guía Completa por ID](docs/pdf/pokemon_complet.pdf)** - 1,025 Pokémon ordenados por número
+- **[📥 Guía Completa por Color](docs/pdf/pokemon_complet_by_color.pdf)** - 1,025 Pokémon ordenados por color
 
 ### 🗜️ **Versiones Comprimidas** (Menor tamaño)
-- **[📦 Guía Completa por ID (Comprimida)](docs/pdf/pokemon_complet_catala_compressed.pdf)** - Versión optimizada
-- **[📦 Guía Completa por Color (Comprimida)](docs/pdf/pokemon_complet_catala_by_color_compressed.pdf)** - Versión optimizada
+- **[📦 Guía Completa por ID (Comprimida)](docs/pdf/pokemon_complet_compressed.pdf)** - Versión optimizada
+- **[📦 Guía Completa por Color (Comprimida)](docs/pdf/pokemon_complet_by_color_compressed.pdf)** - Versión optimizada
 
 *Ambas versiones incluyen todos los Pokémon de las 9 generaciones con descripciones completas en catalán*
 
@@ -28,9 +28,9 @@ Una aplicación web estática diseñada específicamente para ayudar a los niño
 
 | Idioma | Guías Completas | PDFs por Generación |
 |--------|----------------|-------------------|
-| **🔵 Català** | [Por ID](docs/pdf/pokemon_complet_catala.pdf) • [Por Color](docs/pdf/pokemon_complet_catala_by_color.pdf) | 18 PDFs (9 gen × 2 tipos) |
-| **🔴 Español** | [Por ID](docs/pdf/pokemon_complet_espanol.pdf) • [Por Color](docs/pdf/pokemon_complet_espanol_by_color.pdf) | 18 PDFs (9 gen × 2 tipos) |
-| **🟢 English** | [By ID](docs/pdf/pokemon_complet_english.pdf) • [By Color](docs/pdf/pokemon_complet_english_by_color.pdf) | 18 PDFs (9 gen × 2 types) |
+| **🔵 Català** | [Por ID](docs/pdf/pokemon_complet.pdf) • [Por Color](docs/pdf/pokemon_complet_by_color.pdf) | 18 PDFs (9 gen × 2 tipos) |
+| **🔴 Español** | [Por ID](docs/pdf/pokemon_complet_es.pdf) • [Por Color](docs/pdf/pokemon_complet_by_color_es.pdf) | 18 PDFs (9 gen × 2 tipos) |
+| **🟢 English** | [By ID](docs/pdf/pokemon_complet_en.pdf) • [By Color](docs/pdf/pokemon_complet_by_color_en.pdf) | 18 PDFs (9 gen × 2 types) |
 
 **Total: 66 PDFs** - Todos los Pokémon de las 9 generaciones en 3 idiomas
 
