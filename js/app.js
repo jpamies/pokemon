@@ -9,6 +9,9 @@ class PokemonGuide {
         this.pokemonCache = new PokemonCache(); // Use new cache system
         this.pokemonDatabase = null; // Consolidated Pokemon database
         
+        // Detect base path for subdirectories
+        this.basePath = window.location.pathname.includes('/es/') || window.location.pathname.includes('/en/') ? '../' : './';
+        
         this.initializeApp();
         
         // Start preloading images in background
@@ -213,7 +216,7 @@ class PokemonGuide {
         try {
             // Load from local JSON file
             const paddedId = id.toString().padStart(4, '0');
-            const response = await fetch(`./data/pokemon_${paddedId}.json`);
+            const response = await fetch(`${this.basePath}data/pokemon_${paddedId}.json`);
             
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -325,7 +328,7 @@ class PokemonGuide {
         // Load description from individual JSON files in data/ folder
         try {
             const paddedId = pokemonId.toString().padStart(4, '0');
-            const response = await fetch(`./data/pokemon_${paddedId}.json`);
+            const response = await fetch(`${this.basePath}data/pokemon_${paddedId}.json`);
             if (response.ok) {
                 const pokemonData = await response.json();
                 description = pokemonData.descriptions?.[currentLang] || pokemonData.description_catalan || pokemonData.description;
@@ -346,7 +349,7 @@ class PokemonGuide {
         // Load Pokemon data from individual JSON files in data/ folder
         try {
             const paddedId = pokemonId.toString().padStart(4, '0');
-            const response = await fetch(`./data/pokemon_${paddedId}.json`);
+            const response = await fetch(`${this.basePath}data/pokemon_${paddedId}.json`);
             if (response.ok) {
                 const pokemonData = await response.json();
                 return pokemonData.descriptions?.ca || pokemonData.description_catalan || pokemonData.description || null;
@@ -1132,7 +1135,7 @@ class PokemonGuide {
 
             // Load from local JSON file
             const paddedId = id.toString().padStart(4, '0');
-            const response = await fetch(`./data/pokemon_${paddedId}.json`);
+            const response = await fetch(`${this.basePath}data/pokemon_${paddedId}.json`);
             
             if (response.ok) {
                 const pokemonData = await response.json();
