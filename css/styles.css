@@ -453,6 +453,14 @@ body:not(.desktop-mode) {
     /* All responsive styles will be nested here */
 }
 
+/* Force desktop image size */
+@media (min-width: 769px) {
+    .pokemon-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 @media (max-width: 768px) {
     body:not(.desktop-mode) .pokemon-container {
         margin: 10px 5px;
