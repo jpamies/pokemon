@@ -674,7 +674,18 @@ class PokemonGuide {
             
             const statFill = document.createElement('div');
             statFill.className = 'stat-fill';
-            statFill.style.width = `${(stat.value / 180) * 100}%`;
+            // Máximos reales por estadística
+            const maxValues = {
+                'hp': 255,
+                'attack': 190,
+                'defense': 230,
+                'special-attack': 194,
+                'special-defense': 230,
+                'speed': 200
+            };
+            
+            const maxValue = maxValues[stat.name] || 180;
+            statFill.style.width = `${Math.min((stat.value / maxValue) * 100, 100)}%`;
             
             const statValue = document.createElement('span');
             statValue.className = 'stat-value';
