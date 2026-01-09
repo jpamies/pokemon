@@ -443,12 +443,14 @@ main {
 /* Responsive Design for Advanced Mode */
 @media (max-width: 768px) {
     .pokemon-header {
-        flex-direction: column;
-        text-align: center;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 15px;
+        align-items: center;
     }
     
     .pokemon-info {
-        text-align: center;
+        text-align: left;
     }
     
     .pokemon-image {
