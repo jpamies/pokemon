@@ -674,7 +674,7 @@ class PokemonGuide {
             
             const statFill = document.createElement('div');
             statFill.className = 'stat-fill';
-            statFill.style.width = `${(stat.value / 255) * 100}%`;
+            statFill.style.width = `${(stat.value / 180) * 100}%`;
             
             const statValue = document.createElement('span');
             statValue.className = 'stat-value';
