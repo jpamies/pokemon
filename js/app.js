@@ -4,6 +4,7 @@ class PokemonGuide {
         this.maxPokemonId = 1025; // All Pokemon generations
         this.isUppercase = true; // Default to uppercase for accessibility
         this.isAdvancedMode = false; // New advanced mode toggle
+        this.isDesktopMode = this.detectMobile(); // Auto-detect mobile/tablet
         this.apiEndpoint = 'https://pokeapi.co/api/v2';
         this.cache = new Map();
         this.pokemonCache = new PokemonCache(); // Use new cache system
@@ -66,6 +67,11 @@ class PokemonGuide {
         // Advanced mode toggle
         document.getElementById('advanced-toggle').addEventListener('click', () => {
             this.toggleAdvancedMode();
+        });
+
+        // Responsive mode toggle
+        document.getElementById('responsive-toggle').addEventListener('click', () => {
+            this.toggleResponsiveMode();
         });
 
         // PDF export button
@@ -152,6 +158,28 @@ class PokemonGuide {
                 toggleBtn.title = 'Modo Simple';
             }
         }
+
+        // Load desktop mode preference
+        const savedDesktopMode = localStorage.getItem('pokemon-guide-desktop-mode');
+        if (savedDesktopMode !== null) {
+            this.isDesktopMode = savedDesktopMode === 'true';
+        }
+        
+        // Apply desktop mode
+        const body = document.body;
+        const responsiveBtn = document.getElementById('responsive-toggle');
+        if (this.isDesktopMode) {
+            body.classList.add('desktop-mode');
+            responsiveBtn.textContent = '🖥️';
+            responsiveBtn.title = 'Modo Responsive';
+        } else {
+            responsiveBtn.textContent = '📱';
+            responsiveBtn.title = 'Modo Desktop';
+        }
+    }
+
+    detectMobile() {
+        return window.innerWidth <= 768 || /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
 
     toggleAccessibilityMode() {
@@ -836,6 +864,24 @@ class PokemonGuide {
         
         this.displayCurrentPokemon();
         localStorage.setItem('pokemon-guide-advanced-mode', this.isAdvancedMode.toString());
+    }
+
+    toggleResponsiveMode() {
+        this.isDesktopMode = !this.isDesktopMode;
+        const body = document.body;
+        const toggleBtn = document.getElementById('responsive-toggle');
+        
+        if (this.isDesktopMode) {
+            body.classList.add('desktop-mode');
+            toggleBtn.textContent = '🖥️';
+            toggleBtn.title = 'Modo Responsive';
+        } else {
+            body.classList.remove('desktop-mode');
+            toggleBtn.textContent = '📱';
+            toggleBtn.title = 'Modo Desktop';
+        }
+        
+        localStorage.setItem('pokemon-guide-desktop-mode', this.isDesktopMode.toString());
     }
 
     updateNavigation() {
