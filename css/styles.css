@@ -299,11 +299,12 @@ main {
 
 /* Evolution Chain */
 .evolution-chain {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
-    justify-items: center;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
