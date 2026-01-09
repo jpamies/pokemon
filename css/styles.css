@@ -461,8 +461,9 @@ main {
     }
     
     .pokemon-basic-stats {
-        flex-direction: column;
-        gap: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
     
     .detail-item {
