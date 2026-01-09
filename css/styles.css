@@ -441,6 +441,13 @@ main {
 }
 
 /* Responsive Design for Advanced Mode */
+@media (min-width: 769px) {
+    .pokemon-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 @media (max-width: 768px) {
     .pokemon-header {
         display: grid;
