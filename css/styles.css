@@ -776,9 +776,11 @@ main {
     }
     
     .controls {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        gap: 8px;
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     
     #language-selector {
@@ -791,8 +793,6 @@ main {
     .button-group {
         display: flex;
         gap: 8px;
-        flex-wrap: wrap;
-        justify-content: center;
     }
     
     #accessibility-toggle, #advanced-toggle, #pdf-export {
