@@ -504,18 +504,18 @@ main {
     }
     
     .evolution-chain {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 15px;
-        max-width: 400px;
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        gap: 10px;
+        max-width: 350px;
     }
     
     .evolution-arrow {
         transform: rotate(90deg);
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     
     .evolution-item {
-        min-width: 80px;
+        min-width: 60px;
     }
     
     .evolution-image {
@@ -900,9 +900,9 @@ main {
     }
     
     .evolution-chain {
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-        gap: 10px;
-        max-width: 300px;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        gap: 8px;
+        max-width: 280px;
     }
     
     .evolution-item {
