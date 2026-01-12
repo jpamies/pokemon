@@ -442,11 +442,41 @@ main {
     opacity: 0.8;
 }
 
-/* Responsive Design */
+/* Desktop styles - Force original layout */
 @media (min-width: 769px) {
+    .pokemon-container {
+        margin: 20px 0;
+        padding: 30px;
+        border-radius: 20px;
+    }
+    
+    .pokemon-header {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .pokemon-info {
+        flex: 1;
+        text-align: left;
+    }
+    
     .pokemon-image {
         width: 200px;
         height: 200px;
+    }
+    
+    .pokemon-name {
+        font-size: 2.5em;
+    }
+    
+    .pokemon-basic-stats {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 30px 0;
     }
 }
 
