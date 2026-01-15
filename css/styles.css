@@ -515,6 +515,10 @@ main {
         gap: 10px;
     }
     
+    .stat {
+        text-align: center;
+    }
+    
     .detail-item {
         flex-direction: column;
         gap: 5px;
