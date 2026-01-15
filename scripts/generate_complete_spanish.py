@@ -30,7 +30,7 @@ def generate_complete_spanish():
                 'types': data['types'],
                 'image_url': data.get('image_url', f'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{pokemon_id}.png'),
                 'color': data.get('color', 'unknown'),
-                'description': data.get('description_en', 'Description not available.'),  # Usar inglés por ahora
+                'description': data.get('description_es', data.get('description_en', 'Descripción no disponible.')),
                 'description_catalan': data.get('description_catalan', ''),
                 'is_legendary': data.get('is_legendary', False),
                 'is_mythical': data.get('is_mythical', False)
