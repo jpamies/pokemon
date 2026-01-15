@@ -223,7 +223,7 @@ main {
 }
 
 /* Recuadro de color */
-.color-box {
+.stat .color-box {
     display: inline-block;
     width: 18px;
     height: 18px;
