@@ -438,7 +438,7 @@ main {
 }
 
 .ability-item.hidden-ability::after {
-    content: " (Oculta)";
+    content: attr(data-hidden-text);
     font-size: 0.8em;
     opacity: 0.8;
 }

@@ -711,6 +711,14 @@ class PokemonGuide {
             const abilityDiv = document.createElement('div');
             abilityDiv.className = `ability-item ${ability.isHidden ? 'hidden-ability' : ''}`;
             
+            // Add hidden text translation if hidden
+            if (ability.isHidden) {
+                const hiddenText = this.isUppercase 
+                    ? ` (${window.i18n.t('hidden')})` 
+                    : ` (${window.i18n.t('hidden').charAt(0).toUpperCase() + window.i18n.t('hidden').slice(1).toLowerCase()})`;
+                abilityDiv.setAttribute('data-hidden-text', hiddenText);
+            }
+            
             // Get translated name with intelligent fallback
             const currentLang = window.i18n.currentLanguage;
             let abilityName;

@@ -15,6 +15,8 @@
   "evolution_chain": "CADENA D'EVOLUCIÓ",
   "stage": "ETAPA",
   "base_stats": "ESTADÍSTIQUES BASE",
+  "abilities": "HABILITATS",
+  "hidden": "OCULTA",
   "types": {
     "normal": "NORMAL",
     "fire": "FOC",
