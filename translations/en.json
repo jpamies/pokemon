@@ -3,6 +3,7 @@
   "previous": "PREVIOUS",
   "next": "NEXT",
   "home": "HOME",
+  "list": "LIST",
   "height": "HEIGHT",
   "weight": "WEIGHT",
   "color": "COLOR",
@@ -11,6 +12,9 @@
   "error": "SOMETHING WENT WRONG",
   "retry": "TRY AGAIN",
   "counter": "OF",
+  "evolution_chain": "EVOLUTION CHAIN",
+  "stage": "STAGE",
+  "base_stats": "BASE STATS",
   "types": {
     "normal": "NORMAL",
     "fire": "FIRE",

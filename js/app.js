@@ -780,7 +780,7 @@ class PokemonGuide {
             
             const stage = document.createElement('div');
             stage.className = 'evolution-stage';
-            stage.textContent = `Etapa ${evolution.stage}`;
+            stage.textContent = `${window.i18n.t('stage')} ${evolution.stage}`;
             
             evolutionDiv.appendChild(img);
             evolutionDiv.appendChild(name);

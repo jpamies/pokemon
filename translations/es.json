@@ -3,6 +3,7 @@
   "previous": "ANTERIOR",
   "next": "SIGUIENTE",
   "home": "INICIO",
+  "list": "LISTA",
   "height": "ALTURA",
   "weight": "PESO",
   "color": "COLOR",
@@ -11,6 +12,9 @@
   "error": "ALGO SALIÓ MAL",
   "retry": "INTENTAR DE NUEVO",
   "counter": "DE",
+  "evolution_chain": "CADENA DE EVOLUCIÓN",
+  "stage": "ETAPA",
+  "base_stats": "ESTADÍSTICAS BASE",
   "types": {
     "normal": "NORMAL",
     "fire": "FUEGO",

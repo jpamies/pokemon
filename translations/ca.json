@@ -3,6 +3,7 @@
   "previous": "ANTERIOR",
   "next": "SEGÜENT",
   "home": "INICI",
+  "list": "LLISTA",
   "height": "ALÇADA",
   "weight": "PES",
   "color": "COLOR",
@@ -11,6 +12,9 @@
   "error": "ALGUNA COSA HA ANAT MALAMENT",
   "retry": "TORNAR A INTENTAR",
   "counter": "DE",
+  "evolution_chain": "CADENA D'EVOLUCIÓ",
+  "stage": "ETAPA",
+  "base_stats": "ESTADÍSTIQUES BASE",
   "types": {
     "normal": "NORMAL",
     "fire": "FOC",
