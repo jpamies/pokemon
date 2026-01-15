@@ -151,13 +151,15 @@ class DocsI18n {
         });
         
         // Update complete guides links
+        const langSuffixComplete = this.currentLanguage === 'ca' ? '_catala' : 
+                                   this.currentLanguage === 'es' ? '_espanol' : '_english';
         const completeByIdLink = document.querySelector('.complete-by-id');
         const completeByColorLink = document.querySelector('.complete-by-color');
         if (completeByIdLink) {
-            completeByIdLink.href = `pdf/pokemon_complet${langSuffix}.pdf`;
+            completeByIdLink.href = `pdf/pokemon_complet${langSuffixComplete}.pdf`;
         }
         if (completeByColorLink) {
-            completeByColorLink.href = `pdf/pokemon_complet${langSuffix}_by_color.pdf`;
+            completeByColorLink.href = `pdf/pokemon_complet${langSuffixComplete}_by_color.pdf`;
         }
         
         // Update document language
