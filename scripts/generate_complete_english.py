@@ -40,7 +40,7 @@ def generate_complete_english():
         # Fallback: obtener datos uno por uno
         all_pokemon = []
         for i in range(1, 1026):
-            pokemon = fetch_pokemon(i)
+            pokemon = fetch_pokemon(i, language='en')
             if pokemon:
                 all_pokemon.append(pokemon)
     
