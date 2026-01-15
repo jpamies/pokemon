@@ -44,6 +44,7 @@ class I18n {
             'prev-text': this.t('previous'),
             'next-text': this.t('next'),
             'home-text': this.t('home'),
+            'list-text': this.t('list'),
             'height-label': this.t('height'),
             'weight-label': this.t('weight'),
             'color-label': this.t('color'),
@@ -59,6 +60,12 @@ class I18n {
                 element.textContent = text;
             }
         }
+
+        // Update all elements with data-i18n attribute
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            element.textContent = this.t(key);
+        });
 
         // Update HTML lang attribute
         document.documentElement.lang = this.currentLanguage;
