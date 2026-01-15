@@ -768,7 +768,7 @@ class PokemonGuide {
             
             const name = document.createElement('div');
             name.className = 'evolution-name';
-            name.textContent = evolution.name.charAt(0).toUpperCase() + evolution.name.slice(1);
+            name.textContent = this.formatName(evolution.name);
             
             const stage = document.createElement('div');
             stage.className = 'evolution-stage';
