@@ -164,6 +164,7 @@ main {
 }
 
 .stat span:last-child {
+    display: inline-block;
     font-size: 0.9em;
     font-weight: bold;
     color: #2c3e50;
