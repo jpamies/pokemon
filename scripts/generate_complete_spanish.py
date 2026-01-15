@@ -49,7 +49,8 @@ def generate_complete_spanish():
     generate_pokemon_pdf(
         pokemon_by_id, 
         'docs/pdf/pokemon_complet_espanol.pdf',
-        subtitle="1,025 Pokémon en Español"
+        subtitle="1,025 Pokémon en Español",
+        language='es'
     )
     
     # Generar PDF completo por color
@@ -57,7 +58,8 @@ def generate_complete_spanish():
     generate_pokemon_pdf(
         pokemon_by_color, 
         'docs/pdf/pokemon_complet_espanol_by_color.pdf',
-        subtitle="1,025 Pokémon por Color - Español"
+        subtitle="1,025 Pokémon por Color - Español",
+        language='es'
     )
     
     print('✅ PDFs completos en español generados')
