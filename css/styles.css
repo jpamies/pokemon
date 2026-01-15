@@ -236,7 +236,7 @@ main {
 
 /* Contenedor del color para mantener en línea */
 #pokemon-color {
-    display: flex;
+    display: block;
     align-items: center;
     white-space: nowrap;
 }
