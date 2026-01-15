@@ -171,6 +171,11 @@ class PokemonGuide {
             body.classList.remove('uppercase');
             toggleText.textContent = 'AA';
         }
+        
+        // Reload current Pokemon to update evolution names
+        if (this.currentPokemonId) {
+            this.loadPokemon(this.currentPokemonId);
+        }
     }
 
     async loadPokemon(id) {
