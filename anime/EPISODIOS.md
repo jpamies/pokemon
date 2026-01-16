@@ -27,20 +27,130 @@
 ### Temporada 1: ¡Hazte con todos! / ¡Atrápalos ya! (52 eps)
 **Episodios EP001-EP051, EP054-EP057** | Región: Kanto
 
-| # | Título ES | Título EN |
-|---|-----------|-----------|
-| 001 | ¡Pokémon, te elijo a ti! | Pokémon - I Choose You! |
-| 002 | Emergencia Pokémon | Pokémon Emergency! |
-| 014 | Combate eléctrico | Electric Shock Showdown |
-| 020 | Adiós Pikachu | Pikachu's Goodbye |
+| # | Título EN | Título JP (Rōmaji) |
+|---|-----------|-------------------|
+| 001 | Pokémon - I Choose You! | Pokémon! Kimi ni Kimeta! |
+| 002 | Pokémon Emergency! | Showdown! Pokémon Center! |
+| 003 | Ash Catches a Pokémon | I Caught a Pokémon! |
+| 004 | Challenge of the Samurai | Challenge of the Samurai Boy! |
+| 005 | Showdown in Pewter City | Nibi Gym Battle! |
+| 006 | Clefairy and the Moon Stone | Pippi and the Moon Stone |
+| 007 | The Water Flowers of Cerulean City | The Suichūka of Hanada City |
+| 008 | The Path to the Pokémon League | The Road to the Pokémon League |
+| 009 | The School of Hard Knocks | Pokémon Victory Manual |
+| 010 | Bulbasaur and the Hidden Village | Fushigidane of the Hidden Village |
+| 011 | Charmander – The Stray Pokémon | Stray Pokémon - Hitokage |
+| 012 | Here Comes the Squirtle Squad | Enter the Zenigame Squad! |
+| 013 | Mystery at the Lighthouse | Masaki's Lighthouse |
+| 014 | Electric Shock Showdown | Electric Shock Showdown! Kuchiba Gym |
+| 015 | Battle Aboard the St. Anne | Battle on the St. Annu! |
+| 016 | Pokémon Shipwreck | Pokémon Adrift |
+| 017 | Island of the Giant Pokémon | Island of the Giant Pokémon!? |
+| 018 | Beauty and the Beach | Holiday at Aopulco |
+| 019 | Tentacool & Tentacruel | Menokurage Dokukurage |
+| 020 | The Ghost of Maiden's Peak | The Ghost Pokémon and the Summer Festival |
+| 021 | Bye Bye Butterfree | Bye Bye Butterfree |
+| 022 | Abra and the Psychic Showdown | Casey! Psychic Showdown! |
+| 023 | The Tower of Terror | Capture at the Pokémon Tower! |
+| 024 | Haunter versus Kadabra | Ghost VS Esper! |
+| 025 | Primeape Goes Bananas | Don't Get Angry, Okorizaru! |
+| 026 | Pokémon Scent-sation! | Erika and Kusaihana |
+| 027 | Hypno's Naptime | Sleeper and Pokémon Hypnotism!? |
+| 028 | Pokémon Fashion Flash | Rokon! Breeder Showdown! |
+| 029 | The Punchy Pokémon | Fighting Pokémon! The Great Battle! |
+| 030 | Sparks Fly for Magnemite | Do Coil Dream of Electric Mice!? |
+| 031 | Dig Those Diglett! | Lots of Digda! |
+| 032 | The Ninja Poké-Showdown | Sekichiku Ninja Showdown! |
+| 033 | The Flame Pokémon-athon! | The Great Fire Pokémon Race! |
+| 034 | The Kangaskhan Kid | Garura's Lullaby |
+| 035 | The Legend of Miniryu | The Legend of Miniryu |
+| 036 | The Bridge Bike Gang | Stormy Cycling Road |
+| 037 | Ditto's Mysterious Mansion | Metamon and the Copycat Girl |
+| 038 | Computer Warrior Porygon | Computer Warrior Porygon |
+| 039 | Pikachu's Goodbye | Forest of Pikachu |
+| 040 | The Battling Eevee Brothers | The Four Eievui Brothers |
+| 041 | Wake Up Snorlax! | Wake Up! Kabigon! |
+| 042 | Showdown at Dark City | Showdown! Pokémon Gym! |
+| 043 | The March of the Exeggutor Squad | The Great Nassy Squad March! |
+| 044 | The Problem with Paras | Paras and Parasect |
+| 045 | The Song of Jigglypuff | Sing! Purin! |
+| 046 | Attack of the Prehistoric Pokémon | Resurrection!? Fossil Pokémon! |
+| 047 | A Chansey Operation | Lucky's Clinical Records |
+| 048 | Holy Matrimony! | Gardie and Kojirō |
+| 049 | So Near, Yet So Farfetch'd | Kamonegi's Sitting Duck |
+| 050 | Who Gets to Keep Togepi? | Who Gets to Keep Togepy!? |
+| 051 | Bulbasaur's Mysterious Garden | Fushigidane's Mysterious Flower Garden |
+| 052 | Princess vs. Princess | Fierce Fight! Pokémon Girls' Festival |
+| 053 | The Purr-fect Hero | It's Children's Day, Everyone Gathers |
+| 054 | The Case of the K-9 Caper! | Police Dog Gardie |
+| 055 | Pokémon Paparazzi | Photo Op Pikachu |
+| 056 | The Ultimate Test | Pokémon Certification Test!? |
+| 057 | The Breeding Center Secret | The Secret of the Breeding Center! |
 
-### Temporada 2: Las Islas Naranja / Liga Naranja (60 eps)
-**Episodios EP052-EP053, EP058-EP118** | Región: Islas Naranja
+### Temporada 2: Las Islas Naranja / Liga Naranja (36 eps)
+**Episodios EP058-EP082, EP084-EP118** | Región: Islas Naranja
 
-| # | Título ES | Título EN |
-|---|-----------|-----------|
-| 083 | Pummelo Stadium | Pummelo Stadium |
-| 084 | Adiós Lapras | Viva Las Lapras |
+| # | Título EN | Título JP (Rōmaji) |
+|---|-----------|-------------------|
+| 058 | Riddle Me This | Burn! Guren Gym! |
+| 059 | Volcanic Panic | Decisive Battle! Guren Gym! |
+| 060 | Beach Blank-Out Blastoise | Kamex's Island |
+| 061 | The Misty Mermaid | Hanada Gym! Underwater Battle! |
+| 062 | Clefairy Tales | Pippi VS Purin |
+| 063 | The Battle of the Badge | Tokiwa Gym! The Last Badge! |
+| 064 | It's Mr. Mime Time | Barrierd from the Pokémon Circus |
+| 065 | Showdown at the Po-ké Corral | Rival Showdown! Okido Laboratory |
+| 066 | The Evolution Solution | When Yadon Becomes Yadoran |
+| 067 | The Pi-Kahuna | The Legend of the Surfing Pikachu |
+| 068 | Make Room for Gloom | Kusaihana of the Botanical Garden |
+| 069 | Lights, Camera, Quack-tion | Pokémon the Movie! |
+| 070 | Go West Young Meowth | Nyarth's A-I-U-E-O |
+| 071 | To Master the Onixpected! | Enter Siba of The Big Four! |
+| 072 | The Ancient Puzzle of Pokémopolis | Fierce Battle! Ancient Pokémon |
+| 073 | Bad To The Bone | Garagara's Bone Club |
+| 074 | All Fired Up! | Fire! Pokémon League Opening Ceremony! |
+| 075 | Round One - Begin! | Pokémon League Opens! Water Field! |
+| 076 | Fire and Ice | Ice Field! Blazing Battle! |
+| 077 | The Fourth Round Rumble | Grass Field! Unexpected Rival! |
+| 078 | A Friend In Deed | A Rival Enters! |
+| 079 | Friend and Foe Alike | Sekiei Stadium! VS Hiroshi! |
+| 080 | Friends to the End | Pokémon League! Final Battle! |
+| 081 | Pallet Party Panic | Masara Town! Setting Off on a New Journey |
+| 082 | A Scare in the Air | Blimp Accident!? |
+| 083 | Poké Ball Peril | Southern Pokémon and the GS Ball |
+| 084 | The Lost Lapras | Save Laplace! |
+| 085 | Fit To Be Tide | Orange League! Natsukan Gym! |
+| 086 | Pikachu Re-Volts | The Mystery of the Missing Pokémon! |
+| 087 | The Crystal Onix | The Crystal Iwark |
+| 088 | In the Pink | The Island of Pink Pokémon |
+| 089 | Shell Shock! | The Secret of the Kabuto Fossils! |
+| 090 | Stage Fight! | Dance! Pokémon Showboat! |
+| 091 | Bye Bye Psyduck | Goodbye Koduck! Come Again Golduck? |
+| 092 | The Joy of Pokémon | Sailing Joy! Cross the Raging Waves! |
+| 093 | Navel Maneuvers | Navel Gym! Snowy Mountain Battle! |
+| 094 | Snack Attack | Gluttonous Kabigon! Huge Panic! |
+| 095 | A Shipful of Shivers | Ghost Ship and Ghost Pokémon! |
+| 096 | Meowth Rules! | Lord Nyarth's Island!? |
+| 097 | Tracey Gets Bugged | The Strike Soldier's Pride |
+| 098 | A Way Off Day Off | It's a Southern Island! Everyone Assemble! |
+| 099 | The Mandarin Island Miss Match | Kanna of The Big Four! Ice Battle!! |
+| 100 | Wherefore Art Thou, Pokémon? | Nidoran's Love Story |
+| 101 | Get Along, Little Pokémon | Coil on the Prairie! |
+| 102 | The Mystery Menace | Monster in the Sewers!? |
+| 103 | Misty Meets Her Match | Yuzu Gym! Type Battle 3 VS 3!! |
+| 104 | Bound For Trouble | Pikachu VS Nyarth!? |
+| 105 | Charizard Chills | Lizardon! I Choose You!! |
+| 106 | The Pokémon Water War | Firefighting Showdown! Zenigame VS Kameil |
+| 107 | Pokémon Food Fight! | Burn! Kabigon!! |
+| 108 | Pokémon Double Trouble | Tag Battle! The Final Gym!! |
+| 109 | The Wacky Watcher! | Koiking! The Secret of Evolution!! |
+| 110 | The Stun Spore Detour | Nyoromo and Kasumi |
+| 111 | Hello, Pummelo! | Winner's Cup! Full Battle 6 VS 6!! |
+| 112 | Enter The Dragonite | Final Battle! Enter Kairyu! |
+| 113 | Viva Las Lapras | Goodbye Laplace! |
+| 114 | The Underground Round Up | Big Marumine Explosion!? |
+| 115 | A Tent Situation | Back in Masara Town! |
+| 116 | The Rivalry Revival | Rival Showdown! Satoshi VS Shigeru!! |
 
 ---
 
