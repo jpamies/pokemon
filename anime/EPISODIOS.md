@@ -24,6 +24,8 @@
 
 ## 🔴 Serie El Comienzo (118 episodios)
 
+> **Nota:** Prime Video organiza esta serie en **4 temporadas de 13 episodios** cada una (52 eps total)
+
 ### Temporada 1: ¡Hazte con todos! / ¡Atrápalos ya! (52 eps)
 **Episodios EP001-EP051, EP054-EP057** | Región: Kanto
 
