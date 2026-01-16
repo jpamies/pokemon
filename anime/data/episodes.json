@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "region": "Kanto",
+    "generation": 1,
+    "season": 1,
+    "episode_in_season": 1,
+    "title_es": "¡Pokémon, te elijo a ti!",
+    "title_en": "Pokémon - I Choose You!",
+    "title_ca": "",
+    "synopsis": "Ash Ketchum comienza su viaje como entrenador Pokémon en su décimo cumpleaños. Después de llegar tarde al laboratorio del Profesor Oak, recibe a Pikachu, un Pokémon eléctrico rebelde que no confía en él.",
+    "pokemon": [
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "role": "main"
+      },
+      {
+        "id": 1,
+        "name": "Bulbasaur",
+        "role": "cameo"
+      },
+      {
+        "id": 4,
+        "name": "Charmander",
+        "role": "cameo"
+      },
+      {
+        "id": 7,
+        "name": "Squirtle",
+        "role": "cameo"
+      },
+      {
+        "id": 16,
+        "name": "Pidgey",
+        "role": "secondary"
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "role": "secondary"
+      },
+      {
+        "id": 21,
+        "name": "Spearow",
+        "role": "secondary"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "Netflix",
+        "available": true,
+        "region": "ES"
+      },
+      {
+        "name": "Prime Video",
+        "available": true,
+        "region": "ES"
+      }
+    ],
+    "air_date": "1997-04-01",
+    "notes": "Primer episodio de la serie. Introducción de Ash y Pikachu."
+  }
+]

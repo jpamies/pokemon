@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pokémon Episode",
+  "description": "Esquema para episodios de la serie animada de Pokémon",
+  "type": "object",
+  "required": ["id", "region", "generation", "title_es", "title_en", "season", "episode_in_season"],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Número único del episodio en toda la serie",
+      "minimum": 1
+    },
+    "region": {
+      "type": "string",
+      "description": "Región donde transcurre el episodio",
+      "enum": ["Kanto", "Johto", "Hoenn", "Sinnoh", "Unova", "Kalos", "Alola", "Galar", "Paldea"]
+    },
+    "generation": {
+      "type": "integer",
+      "description": "Generación de Pokémon",
+      "minimum": 1,
+      "maximum": 9
+    },
+    "season": {
+      "type": "integer",
+      "description": "Número de temporada",
+      "minimum": 1
+    },
+    "episode_in_season": {
+      "type": "integer",
+      "description": "Número del episodio dentro de la temporada",
+      "minimum": 1
+    },
+    "title_es": {
+      "type": "string",
+      "description": "Título del episodio en español"
+    },
+    "title_en": {
+      "type": "string",
+      "description": "Título del episodio en inglés"
+    },
+    "title_ca": {
+      "type": "string",
+      "description": "Título del episodio en catalán (opcional)"
+    },
+    "synopsis": {
+      "type": "string",
+      "description": "Breve sinopsis del episodio"
+    },
+    "pokemon": {
+      "type": "array",
+      "description": "Lista de Pokémon que aparecen en el episodio",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "ID del Pokémon"
+          },
+          "name": {
+            "type": "string",
+            "description": "Nombre del Pokémon"
+          },
+          "role": {
+            "type": "string",
+            "description": "Rol en el episodio",
+            "enum": ["main", "secondary", "cameo"]
+          }
+        }
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "description": "Plataformas donde ver el episodio",
+      "items": {
+        "type": "object",
+        "required": ["name", "available"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Nombre de la plataforma",
+            "enum": ["Netflix", "Prime Video", "Disney+", "HBO Max", "Crunchyroll", "Pokémon TV"]
+          },
+          "available": {
+            "type": "boolean",
+            "description": "Si está disponible actualmente"
+          },
+          "url": {
+            "type": "string",
+            "description": "URL directa al episodio"
+          },
+          "region": {
+            "type": "string",
+            "description": "Región de disponibilidad",
+            "enum": ["ES", "US", "UK", "JP", "LATAM", "Global"]
+          }
+        }
+      }
+    },
+    "air_date": {
+      "type": "string",
+      "description": "Fecha de emisión original (YYYY-MM-DD)",
+      "format": "date"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Notas adicionales sobre el episodio"
+    }
+  }
+}

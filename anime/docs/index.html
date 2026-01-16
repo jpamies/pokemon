@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📺 Pokémon Anime Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            min-width: 150px;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .filters {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            width: 100%;
+            padding: 8px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .episodes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .episode-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .episode-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .episode-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+
+        .episode-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .episode-region {
+            background: #667eea;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .episode-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .episode-synopsis {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .pokemon-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+
+        .pokemon-badge {
+            background: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.85em;
+        }
+
+        .platforms {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .platform-badge {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+
+        .platform-available {
+            background: #4caf50;
+            color: white;
+        }
+
+        .platform-unavailable {
+            background: #ccc;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📺 Pokémon Anime Tracker</h1>
+            <p>Seguimiento completo de episodios de la serie</p>
+        </header>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="total-episodes">0</div>
+                <div>Episodios</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="total-regions">0</div>
+                <div>Regiones</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="total-pokemon">0</div>
+                <div>Pokémon</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label>Región</label>
+                <select id="filter-region">
+                    <option value="">Todas</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Temporada</label>
+                <select id="filter-season">
+                    <option value="">Todas</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Buscar</label>
+                <input type="text" id="search" placeholder="Título o Pokémon...">
+            </div>
+        </div>
+
+        <div class="episodes-grid" id="episodes-container"></div>
+    </div>
+
+    <script>
+        let allEpisodes = [];
+
+        async function loadEpisodes() {
+            const response = await fetch('../data/episodes.json');
+            allEpisodes = await response.json();
+            updateStats();
+            populateFilters();
+            displayEpisodes(allEpisodes);
+        }
+
+        function updateStats() {
+            document.getElementById('total-episodes').textContent = allEpisodes.length;
+            const regions = new Set(allEpisodes.map(ep => ep.region));
+            document.getElementById('total-regions').textContent = regions.size;
+            const pokemon = new Set(allEpisodes.flatMap(ep => ep.pokemon.map(p => p.id)));
+            document.getElementById('total-pokemon').textContent = pokemon.size;
+        }
+
+        function populateFilters() {
+            const regions = [...new Set(allEpisodes.map(ep => ep.region))];
+            const regionSelect = document.getElementById('filter-region');
+            regions.forEach(region => {
+                const option = document.createElement('option');
+                option.value = region;
+                option.textContent = region;
+                regionSelect.appendChild(option);
+            });
+
+            const seasons = [...new Set(allEpisodes.map(ep => ep.season))].sort((a, b) => a - b);
+            const seasonSelect = document.getElementById('filter-season');
+            seasons.forEach(season => {
+                const option = document.createElement('option');
+                option.value = season;
+                option.textContent = `Temporada ${season}`;
+                seasonSelect.appendChild(option);
+            });
+        }
+
+        function displayEpisodes(episodes) {
+            const container = document.getElementById('episodes-container');
+            container.innerHTML = '';
+
+            episodes.forEach(episode => {
+                const card = document.createElement('div');
+                card.className = 'episode-card';
+                
+                const pokemonBadges = episode.pokemon.map(p => 
+                    `<span class="pokemon-badge">${p.name}</span>`
+                ).join('');
+
+                const platformBadges = episode.platforms.map(p => 
+                    `<span class="platform-badge ${p.available ? 'platform-available' : 'platform-unavailable'}">${p.name}</span>`
+                ).join('');
+
+                card.innerHTML = `
+                    <div class="episode-header">
+                        <div class="episode-number">#${episode.id}</div>
+                        <div class="episode-region">${episode.region}</div>
+                    </div>
+                    <div class="episode-title">${episode.title_es}</div>
+                    <div style="color: #999; font-size: 0.9em; margin-bottom: 10px;">${episode.title_en}</div>
+                    <div class="episode-synopsis">${episode.synopsis}</div>
+                    <div class="pokemon-list">${pokemonBadges}</div>
+                    <div class="platforms">${platformBadges}</div>
+                `;
+                
+                container.appendChild(card);
+            });
+        }
+
+        // Filtros
+        document.getElementById('filter-region').addEventListener('change', applyFilters);
+        document.getElementById('filter-season').addEventListener('change', applyFilters);
+        document.getElementById('search').addEventListener('input', applyFilters);
+
+        function applyFilters() {
+            const region = document.getElementById('filter-region').value;
+            const season = document.getElementById('filter-season').value;
+            const search = document.getElementById('search').value.toLowerCase();
+
+            let filtered = allEpisodes;
+
+            if (region) {
+                filtered = filtered.filter(ep => ep.region === region);
+            }
+
+            if (season) {
+                filtered = filtered.filter(ep => ep.season === parseInt(season));
+            }
+
+            if (search) {
+                filtered = filtered.filter(ep => 
+                    ep.title_es.toLowerCase().includes(search) ||
+                    ep.title_en.toLowerCase().includes(search) ||
+                    ep.pokemon.some(p => p.name.toLowerCase().includes(search))
+                );
+            }
+
+            displayEpisodes(filtered);
+        }
+
+        loadEpisodes();
+    </script>
+</body>
+</html>
