@@ -7,28 +7,51 @@
     "episode_in_season": 1,
     "title_es": "¡Pokémon, te elijo a ti!",
     "title_en": "Pokémon - I Choose You!",
+    "title_ja": "ポケモン！きみにきめた！",
     "title_ca": "",
-    "synopsis": "Ash Ketchum comienza su viaje como entrenador Pokémon en su décimo cumpleaños. Después de llegar tarde al laboratorio del Profesor Oak, recibe a Pikachu, un Pokémon eléctrico rebelde que no confía en él.",
+    "synopsis": "Ash Ketchum comienza su viaje como entrenador Pokémon en su décimo cumpleaños. Después de llegar tarde al laboratorio del Profesor Oak, recibe a Pikachu, un Pokémon eléctrico rebelde que no confía en él. Durante su primer día, Ash debe ganarse la confianza de Pikachu mientras se enfrentan a una bandada de Spearow.",
     "pokemon": [
       {
         "id": 25,
         "name": "Pikachu",
-        "role": "main"
+        "role": "main",
+        "description": "Protagonista, primer Pokémon de Ash"
+      },
+      {
+        "id": 16,
+        "name": "Pidgey",
+        "role": "main",
+        "description": "Primer Pokémon que Ash intenta capturar"
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "role": "main",
+        "description": "Aparece en el camino"
+      },
+      {
+        "id": 21,
+        "name": "Spearow",
+        "role": "main",
+        "description": "Antagonista del episodio"
       },
       {
         "id": 1,
         "name": "Bulbasaur",
-        "role": "cameo"
+        "role": "main",
+        "description": "En el laboratorio del Profesor Oak"
       },
       {
         "id": 4,
         "name": "Charmander",
-        "role": "cameo"
+        "role": "main",
+        "description": "En el laboratorio del Profesor Oak"
       },
       {
         "id": 7,
         "name": "Squirtle",
-        "role": "cameo"
+        "role": "main",
+        "description": "En el laboratorio del Profesor Oak"
       },
       {
         "id": 16,
@@ -44,21 +67,40 @@
         "id": 21,
         "name": "Spearow",
         "role": "secondary"
-      }
-    ],
-    "platforms": [
-      {
-        "name": "Netflix",
-        "available": true,
-        "region": "ES"
       },
       {
-        "name": "Prime Video",
-        "available": true,
-        "region": "ES"
+        "id": 1,
+        "name": "Bulbasaur",
+        "role": "secondary"
+      },
+      {
+        "id": 4,
+        "name": "Charmander",
+        "role": "secondary"
+      },
+      {
+        "id": 7,
+        "name": "Squirtle",
+        "role": "secondary"
+      },
+      {
+        "id": 1,
+        "name": "Bulbasaur",
+        "role": "cameo"
+      },
+      {
+        "id": 4,
+        "name": "Charmander",
+        "role": "cameo"
+      },
+      {
+        "id": 7,
+        "name": "Squirtle",
+        "role": "cameo"
       }
     ],
+    "platforms": [],
     "air_date": "1997-04-01",
-    "notes": "Primer episodio de la serie. Introducción de Ash y Pikachu."
+    "notes": ""
   }
 ]
