@@ -29,130 +29,132 @@
 ### Temporada 1: ¡Hazte con todos! / ¡Atrápalos ya! (52 eps)
 **Episodios EP001-EP051, EP054-EP057** | Región: Kanto
 
-| # | Título EN | Título JP (Rōmaji) |
-|---|-----------|-------------------|
-| 001 | Pokémon - I Choose You! | Pokémon! Kimi ni Kimeta! |
-| 002 | Pokémon Emergency! | Showdown! Pokémon Center! |
-| 003 | Ash Catches a Pokémon | I Caught a Pokémon! |
-| 004 | Challenge of the Samurai | Challenge of the Samurai Boy! |
-| 005 | Showdown in Pewter City | Nibi Gym Battle! |
-| 006 | Clefairy and the Moon Stone | Pippi and the Moon Stone |
-| 007 | The Water Flowers of Cerulean City | The Suichūka of Hanada City |
-| 008 | The Path to the Pokémon League | The Road to the Pokémon League |
-| 009 | The School of Hard Knocks | Pokémon Victory Manual |
-| 010 | Bulbasaur and the Hidden Village | Fushigidane of the Hidden Village |
-| 011 | Charmander – The Stray Pokémon | Stray Pokémon - Hitokage |
-| 012 | Here Comes the Squirtle Squad | Enter the Zenigame Squad! |
-| 013 | Mystery at the Lighthouse | Masaki's Lighthouse |
-| 014 | Electric Shock Showdown | Electric Shock Showdown! Kuchiba Gym |
-| 015 | Battle Aboard the St. Anne | Battle on the St. Annu! |
-| 016 | Pokémon Shipwreck | Pokémon Adrift |
-| 017 | Island of the Giant Pokémon | Island of the Giant Pokémon!? |
-| 018 | Beauty and the Beach | Holiday at Aopulco |
-| 019 | Tentacool & Tentacruel | Menokurage Dokukurage |
-| 020 | The Ghost of Maiden's Peak | The Ghost Pokémon and the Summer Festival |
-| 021 | Bye Bye Butterfree | Bye Bye Butterfree |
-| 022 | Abra and the Psychic Showdown | Casey! Psychic Showdown! |
-| 023 | The Tower of Terror | Capture at the Pokémon Tower! |
-| 024 | Haunter versus Kadabra | Ghost VS Esper! |
-| 025 | Primeape Goes Bananas | Don't Get Angry, Okorizaru! |
-| 026 | Pokémon Scent-sation! | Erika and Kusaihana |
-| 027 | Hypno's Naptime | Sleeper and Pokémon Hypnotism!? |
-| 028 | Pokémon Fashion Flash | Rokon! Breeder Showdown! |
-| 029 | The Punchy Pokémon | Fighting Pokémon! The Great Battle! |
-| 030 | Sparks Fly for Magnemite | Do Coil Dream of Electric Mice!? |
-| 031 | Dig Those Diglett! | Lots of Digda! |
-| 032 | The Ninja Poké-Showdown | Sekichiku Ninja Showdown! |
-| 033 | The Flame Pokémon-athon! | The Great Fire Pokémon Race! |
-| 034 | The Kangaskhan Kid | Garura's Lullaby |
-| 035 | The Legend of Miniryu | The Legend of Miniryu |
-| 036 | The Bridge Bike Gang | Stormy Cycling Road |
-| 037 | Ditto's Mysterious Mansion | Metamon and the Copycat Girl |
-| 038 | Computer Warrior Porygon | Computer Warrior Porygon |
-| 039 | Pikachu's Goodbye | Forest of Pikachu |
-| 040 | The Battling Eevee Brothers | The Four Eievui Brothers |
-| 041 | Wake Up Snorlax! | Wake Up! Kabigon! |
-| 042 | Showdown at Dark City | Showdown! Pokémon Gym! |
-| 043 | The March of the Exeggutor Squad | The Great Nassy Squad March! |
-| 044 | The Problem with Paras | Paras and Parasect |
-| 045 | The Song of Jigglypuff | Sing! Purin! |
-| 046 | Attack of the Prehistoric Pokémon | Resurrection!? Fossil Pokémon! |
-| 047 | A Chansey Operation | Lucky's Clinical Records |
-| 048 | Holy Matrimony! | Gardie and Kojirō |
-| 049 | So Near, Yet So Farfetch'd | Kamonegi's Sitting Duck |
-| 050 | Who Gets to Keep Togepi? | Who Gets to Keep Togepy!? |
-| 051 | Bulbasaur's Mysterious Garden | Fushigidane's Mysterious Flower Garden |
-| 052 | Princess vs. Princess | Fierce Fight! Pokémon Girls' Festival |
-| 053 | The Purr-fect Hero | It's Children's Day, Everyone Gathers |
-| 054 | The Case of the K-9 Caper! | Police Dog Gardie |
-| 055 | Pokémon Paparazzi | Photo Op Pikachu |
-| 056 | The Ultimate Test | Pokémon Certification Test!? |
-| 057 | The Breeding Center Secret | The Secret of the Breeding Center! |
+| # | Título ES | Título EN | Prime Video |
+|---|-----------|-----------|-------------|
+| 001 | ¡Pokémon, te elijo a ti! | Pokémon - I Choose You! | [T1E1](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 002 | Emergencia Pokémon | Pokémon Emergency! | [T1E2](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 003 | Ash atrapa un Pokémon | Ash Catches a Pokémon | [T1E3](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 004 | El reto del samurái | Challenge of the Samurai | [T1E4](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 005 | Combate en Ciudad Plateada | Showdown in Pewter City | [T1E5](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 006 | Clefairy y la Piedra Lunar | Clefairy and the Moon Stone | [T1E6](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 007 | Las flores acuáticas de Ciudad Celeste | The Water Flowers of Cerulean City | [T1E7](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 008 | El camino hacia la Liga Pokémon | The Path to the Pokémon League | [T1E8](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 009 | La escuela de los golpes duros | The School of Hard Knocks | [T1E9](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 010 | Bulbasaur y la aldea oculta | Bulbasaur and the Hidden Village | [T1E10](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 011 | Charmander, el Pokémon perdido | Charmander – The Stray Pokémon | [T1E11](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 012 | Aquí llega el Escuadrón Squirtle | Here Comes the Squirtle Squad | [T1E12](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 013 | Misterio en el faro | Mystery at the Lighthouse | [T1E13](EPISODIOS_PRIME_VIDEO.md#temporada-1-13-episodios) |
+| 014 | Competición de descarga eléctrica | Electric Shock Showdown | [T2E1](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 015 | Combate a bordo del St. Anne | Battle Aboard the St. Anne | [T2E2](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 016 | El naufragio Pokémon | Pokémon Shipwreck | [T2E3](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 017 | La isla de los Pokémon gigantes | Island of the Giant Pokémon | [T2E4](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 018 | Belleza y la playa | Beauty and the Beach | ❌ Censurado |
+| 019 | Tentacool y Tentacruel | Tentacool & Tentacruel | [T2E5](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 020 | El fantasma de Maiden's Peak | The Ghost of Maiden's Peak | [T2E6](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 021 | Adiós, Butterfree | Bye Bye Butterfree | [T2E7](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 022 | Abra y el enfrentamiento psíquico | Abra and the Psychic Showdown | [T2E8](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 023 | La torre del terror | The Tower of Terror | [T2E9](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 024 | Haunter versus Kadabra | Haunter versus Kadabra | [T2E10](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 025 | Primeape se vuelve loco | Primeape Goes Bananas | [T2E11](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 026 | Perfume Pokémon | Pokémon Scent-sation! | [T2E12](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 027 | Siesta hipnótica | Hypno's Naptime | [T2E13](EPISODIOS_PRIME_VIDEO.md#temporada-2-13-episodios) |
+| 028 | La última moda Pokémon | Pokémon Fashion Flash | [T3E1](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 029 | El Pokémon boxeador | The Punchy Pokémon | [T3E2](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 030 | Saltan chispas por Magnemite | Sparks Fly for Magnemite | [T3E3](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 031 | Aplasta a esos Diglett | Dig Those Diglett! | [T3E4](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 032 | El Poké-enfrentamiento ninja | The Ninja Poké-Showdown | [T3E5](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 033 | La llama Pokémon-athon | The Flame Pokémon-athon! | [T3E6](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 034 | El niño Kangaskhan | The Kangaskhan Kid | [T3E7](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 035 | La leyenda de Dratini | The Legend of Miniryu | ❌ Censurado |
+| 036 | La banda de la bici del puente | The Bridge Bike Gang | [T3E8](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 037 | La misteriosa mansión de Ditto | Ditto's Mysterious Mansion | [T3E9](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 038 | Soldado eléctrico Porygon | Computer Warrior Porygon | ❌ Censurado |
+| 039 | Adiós, Pikachu | Pikachu's Goodbye | [T3E10](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 040 | Los combatientes hermanos Eevee | The Battling Eevee Brothers | [T3E11](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 041 | ¡Despierta, Snorlax! | Wake Up Snorlax! | [T3E12](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 042 | Enfrentamiento en Ciudad Tenebrosa | Showdown at Dark City | [T3E13](EPISODIOS_PRIME_VIDEO.md#temporada-3-13-episodios) |
+| 043 | La marcha del Escuadrón Exeggutor | The March of the Exeggutor Squad | [T4E1](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 044 | El problema con Paras | The Problem with Paras | [T4E2](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 045 | La canción de Jigglypuff | The Song of Jigglypuff | [T4E3](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 046 | El ataque de los Pokémon prehistóricos | Attack of the Prehistoric Pokémon | [T4E4](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 047 | Operación Chansey | A Chansey Operation | [T4E5](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 048 | Sagrado matrimonio | Holy Matrimony! | [T4E6](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 049 | Tan cerca, y aun así tan Farfetch'd | So Near, Yet So Farfetch'd | [T4E7](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 050 | ¿Quién conseguirá quedarse con Togepi? | Who Gets to Keep Togepi? | [T4E8](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 051 | El jardín misterioso de Bulbasaur | Bulbasaur's Mysterious Garden | [T4E9](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 052 | Princesa contra princesa | Princess vs. Princess | ❌ Censurado |
+| 053 | El héroe perfecto | The Purr-fect Hero | ❌ Censurado |
+| 054 | El caso de la travesura K-9 | The Case of the K-9 Caper! | [T4E10](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 055 | Paparazzi de Pokémon | Pokémon Paparazzi | [T4E11](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 056 | El examen final | The Ultimate Test | [T4E12](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
+| 057 | El secreto del centro de crianza | The Breeding Center Secret | [T4E13](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
 
-### Temporada 2: Las Islas Naranja / Liga Naranja (36 eps)
-**Episodios EP058-EP082, EP084-EP118** | Región: Islas Naranja
+### Temporada 2: Las Islas Naranja / Liga Naranja (59 eps)
+**Episodios EP058-EP116** | Región: Islas Naranja
 
-| # | Título EN | Título JP (Rōmaji) |
-|---|-----------|-------------------|
-| 058 | Riddle Me This | Burn! Guren Gym! |
-| 059 | Volcanic Panic | Decisive Battle! Guren Gym! |
-| 060 | Beach Blank-Out Blastoise | Kamex's Island |
-| 061 | The Misty Mermaid | Hanada Gym! Underwater Battle! |
-| 062 | Clefairy Tales | Pippi VS Purin |
-| 063 | The Battle of the Badge | Tokiwa Gym! The Last Badge! |
-| 064 | It's Mr. Mime Time | Barrierd from the Pokémon Circus |
-| 065 | Showdown at the Po-ké Corral | Rival Showdown! Okido Laboratory |
-| 066 | The Evolution Solution | When Yadon Becomes Yadoran |
-| 067 | The Pi-Kahuna | The Legend of the Surfing Pikachu |
-| 068 | Make Room for Gloom | Kusaihana of the Botanical Garden |
-| 069 | Lights, Camera, Quack-tion | Pokémon the Movie! |
-| 070 | Go West Young Meowth | Nyarth's A-I-U-E-O |
-| 071 | To Master the Onixpected! | Enter Siba of The Big Four! |
-| 072 | The Ancient Puzzle of Pokémopolis | Fierce Battle! Ancient Pokémon |
-| 073 | Bad To The Bone | Garagara's Bone Club |
-| 074 | All Fired Up! | Fire! Pokémon League Opening Ceremony! |
-| 075 | Round One - Begin! | Pokémon League Opens! Water Field! |
-| 076 | Fire and Ice | Ice Field! Blazing Battle! |
-| 077 | The Fourth Round Rumble | Grass Field! Unexpected Rival! |
-| 078 | A Friend In Deed | A Rival Enters! |
-| 079 | Friend and Foe Alike | Sekiei Stadium! VS Hiroshi! |
-| 080 | Friends to the End | Pokémon League! Final Battle! |
-| 081 | Pallet Party Panic | Masara Town! Setting Off on a New Journey |
-| 082 | A Scare in the Air | Blimp Accident!? |
-| 083 | Poké Ball Peril | Southern Pokémon and the GS Ball |
-| 084 | The Lost Lapras | Save Laplace! |
-| 085 | Fit To Be Tide | Orange League! Natsukan Gym! |
-| 086 | Pikachu Re-Volts | The Mystery of the Missing Pokémon! |
-| 087 | The Crystal Onix | The Crystal Iwark |
-| 088 | In the Pink | The Island of Pink Pokémon |
-| 089 | Shell Shock! | The Secret of the Kabuto Fossils! |
-| 090 | Stage Fight! | Dance! Pokémon Showboat! |
-| 091 | Bye Bye Psyduck | Goodbye Koduck! Come Again Golduck? |
-| 092 | The Joy of Pokémon | Sailing Joy! Cross the Raging Waves! |
-| 093 | Navel Maneuvers | Navel Gym! Snowy Mountain Battle! |
-| 094 | Snack Attack | Gluttonous Kabigon! Huge Panic! |
-| 095 | A Shipful of Shivers | Ghost Ship and Ghost Pokémon! |
-| 096 | Meowth Rules! | Lord Nyarth's Island!? |
-| 097 | Tracey Gets Bugged | The Strike Soldier's Pride |
-| 098 | A Way Off Day Off | It's a Southern Island! Everyone Assemble! |
-| 099 | The Mandarin Island Miss Match | Kanna of The Big Four! Ice Battle!! |
-| 100 | Wherefore Art Thou, Pokémon? | Nidoran's Love Story |
-| 101 | Get Along, Little Pokémon | Coil on the Prairie! |
-| 102 | The Mystery Menace | Monster in the Sewers!? |
-| 103 | Misty Meets Her Match | Yuzu Gym! Type Battle 3 VS 3!! |
-| 104 | Bound For Trouble | Pikachu VS Nyarth!? |
-| 105 | Charizard Chills | Lizardon! I Choose You!! |
-| 106 | The Pokémon Water War | Firefighting Showdown! Zenigame VS Kameil |
-| 107 | Pokémon Food Fight! | Burn! Kabigon!! |
-| 108 | Pokémon Double Trouble | Tag Battle! The Final Gym!! |
-| 109 | The Wacky Watcher! | Koiking! The Secret of Evolution!! |
-| 110 | The Stun Spore Detour | Nyoromo and Kasumi |
-| 111 | Hello, Pummelo! | Winner's Cup! Full Battle 6 VS 6!! |
-| 112 | Enter The Dragonite | Final Battle! Enter Kairyu! |
-| 113 | Viva Las Lapras | Goodbye Laplace! |
-| 114 | The Underground Round Up | Big Marumine Explosion!? |
-| 115 | A Tent Situation | Back in Masara Town! |
-| 116 | The Rivalry Revival | Rival Showdown! Satoshi VS Shigeru!! |
+| # | Título ES | Título EN |
+|---|-----------|-----------|
+| 058 | A ver si aciertas éste | Riddle Me This |
+| 059 | Pánico volcánico | Volcanic Panic |
+| 060 | Durmiendo con Blastoise en la playa | Beach Blank-Out Blastoise |
+| 061 | Misty la sirena | The Misty Mermaid |
+| 062 | Cuentos de Clefairy | Clefairy Tales |
+| 063 | El combate de la medalla | The Battle of the Badge |
+| 064 | Es la hora de Mr. Mime | It's Mr. Mime Time |
+| 065 | Navidades Jynx | Holiday Hi-Jynx | ❌ Censurado |
+| 066 | Salida de la nieve | Snow Way Out! |
+| 067 | Espectáculo en el Poké-corral | Showdown at the Po-ké Corral |
+| 068 | La solución de la evolución | The Evolution Solution |
+| 069 | La Pi-Kahuna | The Pi-Kahuna |
+| 070 | Haced sitio a Gloom | Make Room for Gloom |
+| 071 | Luces, Cámara y Cuack-ción | Lights, Camera, Quack-tion! |
+| 072 | Ve al oeste, joven Meowth | Go West Young Meowth |
+| 073 | El Maestro de lo Onixeperado | To Master the Onix-pected |
+| 074 | El antiguo rompecabezas de Pokémopolis | The Ancient Puzzle of Pokémopolis |
+| 075 | Malo hasta la médula | Bad to the Bone |
+| 076 | ¡A todo gas! | All Fired Up! |
+| 077 | Comienza la primera ronda | Round One – Begin! |
+| 078 | Fuego y hielo | Fire and Ice |
+| 079 | La sonada cuarta ronda | The Fourth Round Rumble |
+| 080 | Un amigo de verdad | A Friend in Deed |
+| 081 | Igual amigos que enemigos | Friend and Foe Alike |
+| 082 | Amigos hasta el final | Friends to the End |
+| 083 | Pánico en la fiesta de Paleta | Pallet Party Panic |
+| 084 | Susto en el aire | A Scare in the Air |
+| 085 | Peligro: Poké Ball | Poké Ball Peril |
+| 086 | El Lapras perdido | The Lost Lapras |
+| 087 | Nacido para navegar | Fit to be Tide |
+| 088 | Pikachu se rebela | Pikachu Re-Volts |
+| 089 | El Onix de cristal | The Crystal Onix |
+| 090 | De color rosa | In the Pink |
+| 091 | Impacto caparazón | Shell Shock! |
+| 092 | ¡Lucha escénica! | Stage Fight! | ❌ Censurado |
+| 093 | Adiós, Psyduck | Bye Bye Psyduck |
+| 094 | La Joy de los Pokémon | The Joy of Pokémon |
+| 095 | Maniobras en Navel | Navel Maneuvers |
+| 096 | Ataque de hambre | Snack Attack |
+| 097 | Un barco de escalofrío | A Shipful of Shivers |
+| 098 | ¡Meowth al poder! | Meowth Rules! |
+| 099 | Tracey captura un insecto | Tracey Gets Bugged |
+| 100 | Menudo día libre | A Way Off Day Off |
+| 101 | El combate femenino de Isla Mandarina | The Mandarin Island Miss Match | ❌ Censurado |
+| 102 | ¿Por qué existís, Pokémon? | Wherefore Art Thou, Pokémon? |
+| 103 | Sigue, pequeño Pokémon | Get Along, Little Pokémon |
+| 104 | La amenaza misteriosa | The Mystery Menace |
+| 105 | Misty conoce a su media naranja | Misty Meets Her Match |
+| 106 | Destinados a tener problemas | Bound For Trouble |
+| 107 | Charizard congelado | Charizard Chills |
+| 108 | La guerra de los Pokémon de agua | The Pokémon Water War |
+| 109 | Combate por comida Pokémon | Pokémon Food Fight! |
+| 110 | Doble problema Pokémon | Pokémon Double Trouble |
+| 111 | El observador chiflado | The Wacky Watcher! |
+| 112 | La espora paralizadora | The Stun Spore Detour |
+| 113 | Hola, Pomelo | Hello, Pummelo! |
+| 114 | Adelante, Dragonite | Enter The Dragonite |
+| 115 | Viva los Lapras | Viva Las Lapras |
+| 116 | El rodeo subterráneo | The Underground Round Up |
+| 117 | Metidos en una carpa | A Tent Situation |
+| 118 | El resurgir de una rivalidad | The Rivalry Revival |
 
 ---
 
