@@ -90,71 +90,73 @@
 | 057 | El secreto del centro de crianza | The Breeding Center Secret | [T4E13](EPISODIOS_PRIME_VIDEO.md#temporada-4-13-episodios) |
 
 ### Temporada 2: Las Islas Naranja / Liga Naranja (59 eps)
-**Episodios EP058-EP116** | Región: Islas Naranja
+**Episodios EP058-EP116** | Región: Islas Naranja | [📺 Playlist YouTube](https://www.youtube.com/playlist?list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt)
 
-| # | Título ES | Título EN |
-|---|-----------|-----------|
-| 058 | A ver si aciertas éste | Riddle Me This |
-| 059 | Pánico volcánico | Volcanic Panic |
-| 060 | Durmiendo con Blastoise en la playa | Beach Blank-Out Blastoise |
-| 061 | Misty la sirena | The Misty Mermaid |
-| 062 | Cuentos de Clefairy | Clefairy Tales |
-| 063 | El combate de la medalla | The Battle of the Badge |
-| 064 | Es la hora de Mr. Mime | It's Mr. Mime Time |
+| # | Título ES | Título EN | YouTube |
+|---|-----------|-----------|---------|
+| 052 | Princesa contra princesa | Princess vs. Princess | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=1) ❌ |
+| 053 | El perrrfecto héroe | The Purr-fect Hero | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=2) ❌ |
+| 058 | A ver si aciertas éste | Riddle Me This | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=3) |
+| 059 | Pánico volcánico | Volcanic Panic | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=4) |
+| 060 | Durmiendo con Blastoise en la playa | Beach Blank-Out Blastoise | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=5) |
+| 061 | Misty la sirena | The Misty Mermaid | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=6) |
+| 062 | Cuentos de Clefairy | Clefairy Tales | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=7) |
+| 063 | El combate de la medalla | The Battle of the Badge | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=8) |
+| 064 | Es la hora de Mr. Mime | It's Mr. Mime Time | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=9) |
 | 065 | Navidades Jynx | Holiday Hi-Jynx | ❌ Censurado |
-| 066 | Salida de la nieve | Snow Way Out! |
-| 067 | Espectáculo en el Poké-corral | Showdown at the Po-ké Corral |
-| 068 | La solución de la evolución | The Evolution Solution |
-| 069 | La Pi-Kahuna | The Pi-Kahuna |
-| 070 | Haced sitio a Gloom | Make Room for Gloom |
-| 071 | Luces, Cámara y Cuack-ción | Lights, Camera, Quack-tion! |
-| 072 | Ve al oeste, joven Meowth | Go West Young Meowth |
-| 073 | El Maestro de lo Onixeperado | To Master the Onix-pected |
-| 074 | El antiguo rompecabezas de Pokémopolis | The Ancient Puzzle of Pokémopolis |
-| 075 | Malo hasta la médula | Bad to the Bone |
-| 076 | ¡A todo gas! | All Fired Up! |
-| 077 | Comienza la primera ronda | Round One – Begin! |
-| 078 | Fuego y hielo | Fire and Ice |
-| 079 | La sonada cuarta ronda | The Fourth Round Rumble |
-| 080 | Un amigo de verdad | A Friend in Deed |
-| 081 | Igual amigos que enemigos | Friend and Foe Alike |
-| 082 | Amigos hasta el final | Friends to the End |
-| 083 | Pánico en la fiesta de Paleta | Pallet Party Panic |
-| 084 | Susto en el aire | A Scare in the Air |
-| 085 | Peligro: Poké Ball | Poké Ball Peril |
-| 086 | El Lapras perdido | The Lost Lapras |
-| 087 | Nacido para navegar | Fit to be Tide |
-| 088 | Pikachu se rebela | Pikachu Re-Volts |
-| 089 | El Onix de cristal | The Crystal Onix |
-| 090 | De color rosa | In the Pink |
-| 091 | Impacto caparazón | Shell Shock! |
+| 066 | Salida de la nieve | Snow Way Out! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=10) |
+| 067 | Espectáculo en el Poké-corral | Showdown at the Po-ké Corral | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=11) |
+| 068 | La solución de la evolución | The Evolution Solution | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=12) |
+| 069 | La Pi-Kahuna | The Pi-Kahuna | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=13) |
+| 070 | Haced sitio a Gloom | Make Room for Gloom | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=14) |
+| 071 | Luces, Cámara y Cuack-ción | Lights, Camera, Quack-tion! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=15) |
+| 072 | Ve al oeste, joven Meowth | Go West Young Meowth | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=16) |
+| 073 | El Maestro de lo Onixeperado | To Master the Onix-pected | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=17) |
+| 074 | El antiguo rompecabezas de Pokémopolis | The Ancient Puzzle of Pokémopolis | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=18) |
+| 075 | Malo hasta la médula | Bad to the Bone | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=19) |
+| 076 | ¡A todo gas! | All Fired Up! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=20) |
+| 077 | Comienza la primera ronda | Round One – Begin! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=21) |
+| 078 | Fuego y hielo | Fire and Ice | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=22) |
+| 079 | La sonada cuarta ronda | The Fourth Round Rumble | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=23) |
+| 080 | Un amigo de verdad | A Friend in Deed | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=24) |
+| 081 | Igual amigos que enemigos | Friend and Foe Alike | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=25) |
+| 082 | Amigos hasta el final | Friends to the End | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=26) |
+| 083 | Pánico en la fiesta de Paleta | Pallet Party Panic | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=27) |
+| 084 | Susto en el aire | A Scare in the Air | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=28) |
+| 085 | Peligro: Poké Ball | Poké Ball Peril | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=29) |
+| 086 | El Lapras perdido | The Lost Lapras | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=30) |
+| 087 | Nacido para navegar | Fit to be Tide | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=31) |
+| 088 | Pikachu se rebela | Pikachu Re-Volts | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=32) |
+| 089 | El Onix de cristal | The Crystal Onix | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=33) |
+| 090 | De color rosa | In the Pink | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=34) |
+| 091 | Impacto caparazón | Shell Shock! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=35) |
 | 092 | ¡Lucha escénica! | Stage Fight! | ❌ Censurado |
-| 093 | Adiós, Psyduck | Bye Bye Psyduck |
-| 094 | La Joy de los Pokémon | The Joy of Pokémon |
-| 095 | Maniobras en Navel | Navel Maneuvers |
-| 096 | Ataque de hambre | Snack Attack |
-| 097 | Un barco de escalofrío | A Shipful of Shivers |
-| 098 | ¡Meowth al poder! | Meowth Rules! |
-| 099 | Tracey captura un insecto | Tracey Gets Bugged |
-| 100 | Menudo día libre | A Way Off Day Off |
+| 093 | Adiós, Psyduck | Bye Bye Psyduck | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=36) |
+| 094 | La Joy de los Pokémon | The Joy of Pokémon | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=37) |
+| 095 | Maniobras en Navel | Navel Maneuvers | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=38) |
+| 096 | Ataque de hambre | Snack Attack | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=39) |
+| 097 | Un barco de escalofrío | A Shipful of Shivers | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=40) |
+| 098 | ¡Meowth al poder! | Meowth Rules! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=41) |
+| 099 | Tracey captura un insecto | Tracey Gets Bugged | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=42) |
+| 100 | Menudo día libre | A Way Off Day Off | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=43) |
 | 101 | El combate femenino de Isla Mandarina | The Mandarin Island Miss Match | ❌ Censurado |
-| 102 | ¿Por qué existís, Pokémon? | Wherefore Art Thou, Pokémon? |
-| 103 | Sigue, pequeño Pokémon | Get Along, Little Pokémon |
-| 104 | La amenaza misteriosa | The Mystery Menace |
-| 105 | Misty conoce a su media naranja | Misty Meets Her Match |
-| 106 | Destinados a tener problemas | Bound For Trouble |
-| 107 | Charizard congelado | Charizard Chills |
-| 108 | La guerra de los Pokémon de agua | The Pokémon Water War |
-| 109 | Combate por comida Pokémon | Pokémon Food Fight! |
-| 110 | Doble problema Pokémon | Pokémon Double Trouble |
-| 111 | El observador chiflado | The Wacky Watcher! |
-| 112 | La espora paralizadora | The Stun Spore Detour |
-| 113 | Hola, Pomelo | Hello, Pummelo! |
-| 114 | Adelante, Dragonite | Enter The Dragonite |
-| 115 | Viva los Lapras | Viva Las Lapras |
-| 116 | El rodeo subterráneo | The Underground Round Up |
-| 117 | Metidos en una carpa | A Tent Situation |
-| 118 | El resurgir de una rivalidad | The Rivalry Revival |
+| 102 | ¿Por qué existís, Pokémon? | Wherefore Art Thou, Pokémon? | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=44) |
+| 103 | Sigue, pequeño Pokémon | Get Along, Little Pokémon | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=45) |
+| 104 | La amenaza misteriosa | The Mystery Menace | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=46) |
+| 105 | Misty conoce a su media naranja | Misty Meets Her Match | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=47) |
+| 106 | Destinados a tener problemas | Bound For Trouble | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=48) |
+| 107 | Charizard congelado | Charizard Chills | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=49) |
+| 108 | La guerra de los Pokémon de agua | The Pokémon Water War | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=50) |
+| 109 | Combate por comida Pokémon | Pokémon Food Fight! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=51) |
+| 110 | Doble problema Pokémon | Pokémon Double Trouble | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=52) |
+| 111 | El observador chiflado | The Wacky Watcher! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=53) |
+| 112 | La espora paralizadora | The Stun Spore Detour | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=54) |
+| 113 | Hola, Pomelo | Hello, Pummelo! | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=55) |
+| 114 | Adelante, Dragonite | Enter The Dragonite | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=56) |
+| 115 | Viva los Lapras | Viva Las Lapras | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=57) |
+| 116 | El rodeo subterráneo | The Underground Round Up | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=58) |
+| 117 | Metidos en una carpa | A Tent Situation | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=59) |
+| 118 | El resurgir de una rivalidad | The Rivalry Revival | [▶️](https://www.youtube.com/watch?v=p2sUUsylt3M&list=PL-t1336xq7ykMsJ_Z7xl8E6hVPGAIwYPt&index=60) |
 
 ---
 
