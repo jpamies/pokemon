@@ -162,6 +162,190 @@
 
 ## 🟡 Serie Oro y Plata (158 episodios)
 
+### Temporada 3: Pokémon: The Johto Journeys (41 eps)
+**Episodios EP119-EP159** | Región: Johto
+
+> **Nota:** Actualmente subiendo a YouTube progresivamente (3 episodios/semana)
+
+| # | Título ES | Título EN | YouTube | Prime Video |
+|---|-----------|-----------|---------|-------------|
+| 119 | No toquéis a ese "Dile" | Don't Touch That 'dile | | |
+| 120 | Dos encuentros problemáticos | The Double Trouble Header | | |
+| 121 | Un jugoso final | A Sappy Ending | | |
+| 122 | Pokémon rodante | Roll On, Pokémon! | | |
+| 123 | Ilusión confusión | Illusion Confusion! | | |
+| 124 | El poder floral | Flower Power | | |
+| 125 | Spinarak ataca | Spinarak Attack | | |
+| 126 | Snubbull, la snob | Snubbull Snobbery | | |
+| 127 | El pequeño gran cuerno | The Little Big Horn | | |
+| 128 | El rescate de Chikorita | The Chikorita Rescue | | |
+| 129 | Una vez en luna llena | Once in a Blue Moon | | |
+| 130 | Fuera el silbato | The Whistle Stop | | |
+| 131 | La ignorancia de Blissey | Ignorance is Blissey | | |
+| 132 | Un combate con Bellsprout | A Bout With Sprout | | |
+| 133 | Combatiendo al volador con fuego | Fighting Flyer with Fire | | |
+| 134 | Para llorar a gritos | For Crying Out Loud | | |
+| 135 | Tanque para aburrir | Tanks a Lot! | | |
+| 136 | La ambición ardiente de Charizard | Charizard's Burning Ambitions | | |
+| 137 | Sonreíd para ganar | Grin to Win! | | |
+| 138 | Chikorita está que muerde | Chikorita's Big Upset | | |
+| 139 | Amigos del mal tiempo | Foul Weather Friends | | |
+| 140 | El secreto del superhéroe | The Superhero Secret | | |
+| 141 | Manso y lanudo | Mild 'n Wooly | | |
+| 142 | Conectado para el combate | Wired for Battle! | | |
+| 143 | Buena caza de Quil | Good 'Quil Hunting | | |
+| 144 | Amenaza de sequía | A Shadow of a Drought | | |
+| 145 | Cultivando bonguri | Going Apricorn! | | |
+| 146 | Ahuyentando a los bichos | Gettin' The Bugs Out | | |
+| 147 | Una historia de Farfetch'd | A Farfetch'd Tale | | |
+| 148 | Engaños en el intercambio | Tricks of the Trade | | |
+| 149 | La brigada de incendios | The Fire-ing Squad! | | |
+| 150 | No, gran Woop | No Big Woop! | | |
+| 151 | Túnel a la vista | Tunnel Vision | | |
+| 152 | Salvad al Houndour | Hour of the Houndour | | |
+| 153 | Totodile, el bailón | The Totodile Duel | | |
+| 154 | Combates ardientes | Hot Matches! | | |
+| 155 | Totodile, el amoroso | Love, Totodile Style | | |
+| 156 | Juego sucio | Fowl Play! | | |
+| 157 | Sorpresa en el bosque | Forest Grumps | | |
+| 158 | La caza de los Cazadores | The Fortune Hunters | | |
+| 159 | Un Pokémon de otro mundo | A Corsola Caper! | | |
+
+### Temporada 4: Pokémon: Johto League Champions (52 eps)
+
+| # | Título ES | Título EN | YouTube | Prime Video |
+|---|-----------|-----------|---------|-------------|
+| 160 | Una oportunidad en Ciudad Trigal | A Goldenrod Opportunity | | |
+| 161 | El final del cuento de la lechera | A Dairy Tale Ending | | |
+| 162 | ¡Hora de emisión! | Air Time! | | |
+| 163 | Concurso de Pokémon bicho | The Bug Stops Here | | |
+| 164 | Selección de tipos | Type Casting | | |
+| 165 | Locos por los fósiles | Fossil Fools | | |
+| 166 | ¡Mensajeros! | Carrying On! | | |
+| 167 | Lío en el castillo | Hassle in the Castle | | |
+| 168 | Dos Pokémon hits y una dama | Two Hits and a Miss | | |
+| 169 | Un combate en agua caliente | A Hot Water Battle | | |
+| 170 | Anzuelo, sedal y chulito | Hook, Line, and Stinker | | |
+| 171 | La bella y el criador | Beauty and the Breeder | | |
+| 172 | Una píldora más fácil de tragar | A Better Pill to Swallow | | |
+| 173 | Energía a tope | Power Play! | | |
+| 174 | La patrulla de la montaña | Mountain Time | | |
+| 175 | Festival de Wobbuffet | Wobbu-Palooza! | | |
+| 176 | Combate de imitaciones | Imitation Confrontation | | |
+| 177 | El problema con Snubbull | The Trouble With Snubbull | | |
+| 178 | Amigos de Ariados | Ariados, Amigos | | |
+| 179 | Alas cosa mala | Wings 'N' Things | | |
+| 180 | Campeonato de Pokémon planta | The Grass Route | | |
+| 181 | Sociedad manzanil | The Apple Corp! | | |
+| 182 | La entrega especial de Houndoom | Houndoom's Special Delivery | | |
+| 183 | Una oportunidad fantasmil | A Ghost of a Chance | | |
+| 184 | De fantasma en fantasma | From Ghost to Ghost | | |
+| 185 | La ceremonia del té | Trouble's Brewing | | |
+| 186 | Robos brillantes | All That Glitters! | | |
+| 187 | La luz mágica | The Light Fantastic | | |
+| 188 | InOSOportable | UnBEARable | | |
+| 189 | Fotos de amor | Moving Pictures | | |
+| 190 | Aguas termales | Spring Fever | | |
+| 191 | Hielo congelador | Freeze Frame | | |
+| 192 | Las piedras robadas | The Stolen Stones! | | |
+| 193 | Los huidizos Dunsparce | The Dunsparce Deception | | |
+| 194 | Wobbuffet y la llave secreta | The Wayward Wobbuffet | | |
+| 195 | Los delirios de Brock | Sick Daze | | |
+| 196 | Maestros de sumo Pokémon | Ring Masters | | |
+| 197 | El Poké-parlante | The Poké Spokesman | | |
+| 198 | La reina de los Pokémon | Control Freak! | | |
+| 199 | Arte Pokémon | The Art of Pokémon | | |
+| 200 | Brock el rompecorazones | The Heartbreak of Brock | | |
+| 201 | Seguridad eléctrica | Current Events | | |
+| 202 | Los progresos de Bayleef | Turning Over A New Bayleef | | |
+| 203 | Actuando con Natu-ralidad | Doin' What Comes Natu-rally | | |
+| 204 | Competición de globos aeroestáticos | The Big Balloon Blow-Up | | |
+| 205 | El superhéroe del cine | The Screen Actor's Guilt | | |
+| 206 | El Rhydon nadador | Right on, Rhydon! | | |
+| 207 | Buscando a los Kecleon | The Kecleon Caper | | |
+| 208 | La Joy de los Pokémon de agua | The Joy of Water Pokémon | | |
+| 209 | El Miltank sanador | Got Miltank? | | |
+| 210 | En busca de la luz | Fight for the Light! | | |
+| 211 | Machoke, Machoke machote | Machoke, Machoke Man! | | |
+
+### Temporada 5: Pokémon: Master Quest (64 eps)
+
+| # | Título ES | Título EN | YouTube | Prime Video |
+|---|-----------|-----------|---------|-------------|
+| 212 | Alrededor del remolino | Around the Whirlpool | | |
+| 213 | Llévame volando hasta la luna | Fly Me to the Moon | | |
+| 214 | Acompañando a los Chinchou | Takin' It on the Chinchou | | |
+| 215 | ¡El Corsola travieso! | A Corsola Caper! | | |
+| 216 | ¡Mantine al agua! | Mantine Overboard! | | |
+| 217 | ¡Octillery el marginado! | Octillery The Outcast | | |
+| 218 | Héroes del duelo | Dueling Heroes | | |
+| 219 | ¡El combate perfecto! | The Perfect Match! | | |
+| 220 | Los Diglett cultivadores | Plant It Now... Diglett Later | | |
+| 221 | ¡Hi ho plata a gogó! | Hi Ho Silver... Away! | | |
+| 222 | El misterio es historia | The Mystery is History | | |
+| 223 | ¡Un padre atrapado! | A Parent Trapped! | | |
+| 224 | Una promesa es una promesa | A Promise is a Promise | | |
+| 225 | El Noctowl salvador | Throwing in the Noctowl | | |
+| 226 | Nervios de Steelix | Nerves of Steelix! | | |
+| 227 | ¡Bulbasaur... el embajador! | Bulbasaur... the Ambassador! | | |
+| 228 | Falta el Espeon | Espeon, Not Included | | |
+| 229 | Por Ho-Oh suenan los cascabeles | For Ho-Oh the Bells Toll! | | |
+| 230 | ¡Pokémon extremo! | Extreme Pokémon! | | |
+| 231 | Una aventura con vistas al huevo | An EGG-sighting Adventure! | | |
+| 232 | Maquinando un plan | Hatching a Plan | | |
+| 233 | ¡Deudas y prohibiciones! | Dues and Don'ts | | |
+| 234 | Esperando a un amigo | Just Waiting On a Friend | | |
+| 235 | Un Tyrogue con muchos problemas | A Tyrogue Full of Trouble | | |
+| 236 | Xatu, el futuro | Xatu the Future | | |
+| 237 | Experimentando la evolución | Talkin' 'Bout an Evolution | | |
+| 238 | Furia inocente | Rage of Innocence | | |
+| 239 | Tan frío como Fredo | As Cold as Pryce | | |
+| 240 | ¡Helados para el nene y la nena! | Nice Pryce, Baby! | | |
+| 241 | Sople como sople el viento | Whichever Way the Wind Blows | | |
+| 242 | A algunos les va el calor | Some Like it Hot | | |
+| 243 | La maga Pokémon | Hocus Pokémon | | |
+| 244 | El cristal poderoso | As Clear as Crystal | | |
+| 245 | La canción y el baile de siempre | Same Old Song and Dance | | |
+| 246 | ¡Iluminados! | Enlighten Up! | | |
+| 247 | ¡Buscando al auténtico profesor Oak! | Will the Real Oak Please Stand Up? | | |
+| 248 | Pide un deseo a un estrellado | Wish Upon a Star Shape | | |
+| 249 | Adivinos extravagantes | Outrageous Fortunes | | |
+| 250 | ¡Pilla un Pokémon sorpresa! | One Trick Phony! | | |
+| 251 | ¡Politoed el animador! | I Politoed Ya So! | | |
+| 252 | La belleza está en el interior | Beauty is Skin Deep | | |
+| 253 | El robo del colmillo | Fangs for Nothin' | | |
+| 254 | ¡Grandes bolas de fuego! | Great Bowls of Fire! | | |
+| 255 | ¡Más vale ocho que nunca! | Better Eight Than Never | | |
+| 256 | ¿Why? ¡Wynaut! | Why? Why Not! | | |
+| 257 | Combates bajo el agua | Just Add Water | | |
+| 258 | Lapras de lujo | Lapras of Luxury | | |
+| 259 | Sal del cascarón si puedes | Hatch Me If You Can | | |
+| 260 | A Entei no hay quien le venza | Entei at Your Own Risk | | |
+| 261 | Una hazaña digna de un rey | A Crowning Achievement | | |
+| 262 | Mi objetivo es Elekid | Here's Lookin' at You, Elekid | | |
+| 263 | ¡Eres una estrella, Larvitar! | You're a Star, Larvitar! | | |
+| 264 | ¡El mundo de Unown! | Address Unown! | | |
+| 265 | La madre de todas las batallas | Mother of All Battles | | |
+| 266 | Sneasel el centinela | Pop Goes The Sneasel | | |
+| 267 | ¡Esperando la antorcha! | A Claim to Flame! | | |
+| 268 | Amor al estilo Pokémon | Love, Pokémon Style | | |
+| 269 | ¡Atados uno a otro! | Tie One On! | | |
+| 270 | Lazos que unen | The Ties That Bind | | |
+| 271 | ¡Calor invencible! | Can't Beat the Heat! | | |
+| 272 | ¡Jugando con fuego! | Playing with Fire! | | |
+| 273 | El reñido final de Johto | Johto Photo Finish | | |
+| 274 | ¡Ya te cogeré más tarde! | Gotta Catch Ya Later! | | |
+| 275 | ¡Solo en Hoenn! | Hoenn Alone! | | |
+| 158 | Los amigos psíquicos | The Psychic Sidekicks! | | |
+| 159 | Cazadores de fortuna | The Fortune Hunters | | |
+| 123 | Ilusión confusión | Illusion Confusion! | | |
+| 124 | Cazadores de fortuna | The Fortune Hunters | | |
+| 125 | Spinarak ataca | Spinarak Attack | | |
+
+---
+
+## 🟡 Serie Oro y Plata (158 episodios)
+
 ### Temporada 3: The Johto Journeys / Los Viajes Johto (41 eps)
 **Episodios EP119-EP159** | Región: Johto
 
