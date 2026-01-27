@@ -5,6 +5,7 @@ Script para generar PDFs por generaciones en español e inglés
 
 import sys
 import os
+import json
 sys.path.append(os.path.dirname(__file__))
 from generate_pdf import fetch_pokemon, generate_pokemon_pdf
 
@@ -30,21 +31,30 @@ def generate_all_generations_multilang():
         for gen_num, gen_info in GENERATIONS.items():
             print(f'  📖 Generación {gen_num} ({gen_info["name"]})...')
             
+            # Load Pokemon for this generation
+            pokemon_list = []
+            for pokemon_id in range(gen_info['start'], gen_info['end'] + 1):
+                padded_id = str(pokemon_id).zfill(4)
+                json_path = f'data/pokemon_{padded_id}.json'
+                
+                if os.path.exists(json_path):
+                    with open(json_path, 'r', encoding='utf-8') as f:
+                        pokemon_list.append(json.load(f))
+            
             # Por ID
             generate_pokemon_pdf(
-                start_id=gen_info['start'],
-                end_id=gen_info['end'],
+                pokemon_list=pokemon_list,
                 filename=f'{gen_info["name"]}_by_id_{lang_code}.pdf',
-                order_by='id',
+                subtitle=f'{len(pokemon_list)} Pokémon',
                 language=lang_code
             )
             
             # Por color
+            pokemon_by_color = sorted(pokemon_list, key=lambda p: (p.get('color', 'unknown'), p['id']))
             generate_pokemon_pdf(
-                start_id=gen_info['start'],
-                end_id=gen_info['end'],
+                pokemon_list=pokemon_by_color,
                 filename=f'{gen_info["name"]}_by_color_{lang_code}.pdf',
-                order_by='color',
+                subtitle=f'{len(pokemon_list)} Pokémon',
                 language=lang_code
             )
         

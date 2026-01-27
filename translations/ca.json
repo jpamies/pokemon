@@ -17,6 +17,13 @@
   "base_stats": "ESTADÍSTIQUES BASE",
   "abilities": "HABILITATS",
   "hidden": "OCULTA",
+  "search_placeholder": "Buscar Pokémon...",
+  "generation": "Generació",
+  "type": "Tipus",
+  "all_generations": "Totes",
+  "all_types": "Tots",
+  "all_colors": "Tots",
+  "clear_filters": "Netejar filtres",
   "types": {
     "normal": "NORMAL",
     "fire": "FOC",

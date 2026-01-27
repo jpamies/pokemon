@@ -17,6 +17,13 @@
   "base_stats": "BASE STATS",
   "abilities": "ABILITIES",
   "hidden": "HIDDEN",
+  "search_placeholder": "Search Pokémon...",
+  "generation": "Generation",
+  "type": "Type",
+  "all_generations": "All",
+  "all_types": "All",
+  "all_colors": "All",
+  "clear_filters": "Clear filters",
   "types": {
     "normal": "NORMAL",
     "fire": "FIRE",

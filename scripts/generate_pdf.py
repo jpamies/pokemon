@@ -469,6 +469,81 @@ def get_generation(pokemon_id):
     else:
         return 'Gen IX - Paldea'
 
+def get_generation_color(pokemon_id):
+    """Get neutral color based on generation"""
+    if pokemon_id <= 151:
+        return '#e8f4f8'  # Gen I - Light blue gray
+    elif pokemon_id <= 251:
+        return '#f0f0f5'  # Gen II - Soft gray
+    elif pokemon_id <= 386:
+        return '#e3e8ed'  # Gen III - Light slate
+    elif pokemon_id <= 493:
+        return '#e6f2ff'  # Gen IV - Powder blue
+    elif pokemon_id <= 649:
+        return '#e8eef2'  # Gen V - Light steel
+    elif pokemon_id <= 721:
+        return '#f5e8f8'  # Gen VI - Light lavender
+    elif pokemon_id <= 809:
+        return '#e8f8f0'  # Gen VII - Light mint
+    elif pokemon_id <= 905:
+        return '#fff4e8'  # Gen VIII - Light peach
+    else:
+        return '#f8e8e8'  # Gen IX - Light rose
+
+def clean_pokemon_name(name):
+    """Remove form suffixes from Pokemon names, but keep legitimate hyphens"""
+    # Pokemon that legitimately have hyphens in their names (don't clean these)
+    legitimate_hyphens = [
+        'Nidoran-F', 'Nidoran-M', 'Mr-Mime', 'Mime-Jr', 'Mr-Rime',
+        'Porygon-Z', 'Ho-Oh', 'Jangmo-O', 'Hakamo-O', 'Kommo-O',
+        'Tapu-Koko', 'Tapu-Lele', 'Tapu-Bulu', 'Tapu-Fini',
+        'Type-Null', 'Zygarde-50',
+        'Minior-Red-Meteor',
+        'Maushold-Family-Of-Four',
+        'Squawkabilly-Green-Plumage',
+        'Palafin-Zero',
+        'Tatsugiri-Curly',
+        'Dudunsparce-Two-Segment',
+        'Great-Tusk', 'Scream-Tail', 'Brute-Bonnet', 'Flutter-Mane',
+        'Slither-Wing', 'Sandy-Shocks', 'Iron-Treads', 'Iron-Bundle',
+        'Iron-Hands', 'Iron-Jugulis', 'Iron-Moth', 'Iron-Thorns',
+        'Wo-Chien', 'Chien-Pao', 'Ting-Lu', 'Chi-Yu',
+        'Roaring-Moon', 'Iron-Valiant', 'Walking-Wake', 'Iron-Leaves',
+        'Gouging-Fire', 'Raging-Bolt', 'Iron-Boulder', 'Iron-Crown'
+    ]
+    
+    # If the name is in the legitimate list, return as-is
+    if name in legitimate_hyphens:
+        return name
+    
+    # Remove common form suffixes
+    suffixes_to_remove = [
+        '-Normal', '-Attack', '-Defense', '-Speed',
+        '-Altered', '-Origin', '-Land', '-Sky',
+        '-Average', '-Small', '-Large', '-Super',
+        '-Incarnate', '-Therian', '-Aria', '-Pirouette',
+        '-Standard', '-Zen', '-Ordinary', '-Resolute',
+        '-Male', '-Female', '-Plant', '-Sandy', '-Trash',
+        '-Shield', '-Blade', '-Average Size', '-50% Forme',
+        '-Red-Striped', '-Blue-Striped', '-White-Striped',
+        '-Baile', '-Pom-Pom', '-Pau', '-Sensu',
+        '-Midday', '-Midnight', '-Dusk',
+        '-Solo', '-School',
+        '-Disguised', '-Busted',
+        '-Amped', '-Low-Key',
+        '-Full-Belly', '-Hangry',
+        '-Ice', '-Noice',
+        '-Single-Strike', '-Rapid-Strike',
+        '-Hero', '-Family', '-Roaming',
+        '-Paldea', '-Combat', '-Blaze', '-Aqua'
+    ]
+    
+    for suffix in suffixes_to_remove:
+        if name.endswith(suffix):
+            return name[:-len(suffix)]
+    
+    return name
+
 def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language="ca"):
     """Draw a single Pokemon card"""
     # Card background
@@ -481,54 +556,25 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language
     c.rect(x, y, card_width, card_height, fill=0, stroke=1)
     
     # Header with Pokemon color as background
-    pokemon_color = POKEMON_COLORS.get(pokemon['color'], '#f8f9fa')
+    pokemon_color = get_generation_color(pokemon['id'])
     c.setFillColor(HexColor(pokemon_color))
     c.rect(x + 1, y + card_height - 36, card_width - 2, 35, fill=1, stroke=0)
     
-    # Pokemon name (left side) - white text with black outline
+    # Pokemon name (left side) - BLACK text (more readable)
     c.setFont("Helvetica-Bold", 12)
-    name_text = pokemon['name'].upper()
-    
-    # Draw text outline (black)
+    name_text = clean_pokemon_name(pokemon['name']).upper()
     c.setFillColor(HexColor('#000000'))
-    for dx in [-1, 0, 1]:
-        for dy in [-1, 0, 1]:
-            if dx != 0 or dy != 0:
-                c.drawString(x + 8 + dx, y + card_height - 20 + dy, name_text)
-    
-    # Draw main text (white)
-    c.setFillColor(HexColor('#ffffff'))
     c.drawString(x + 8, y + card_height - 20, name_text)
     
-    # Pokemon number (right side, same line) - white with outline
+    # Pokemon number (right side, same line) - BLACK text
     num_text = f"#{pokemon['id']:03d}"
     num_width = c.stringWidth(num_text, "Helvetica-Bold", 12)
-    
-    # Draw number outline (black)
-    c.setFillColor(HexColor('#000000'))
-    for dx in [-1, 0, 1]:
-        for dy in [-1, 0, 1]:
-            if dx != 0 or dy != 0:
-                c.drawString(x + card_width - num_width - 8 + dx, y + card_height - 20 + dy, num_text)
-    
-    # Draw main number (white)
-    c.setFillColor(HexColor('#ffffff'))
     c.drawString(x + card_width - num_width - 8, y + card_height - 20, num_text)
     
-    # Generation info (centered below name) - white with outline - UPPERCASE
+    # Generation info (centered below name) - BLACK text - UPPERCASE
     c.setFont("Helvetica", 9)
     gen_text = get_generation(pokemon['id']).upper()
     gen_width = c.stringWidth(gen_text, "Helvetica", 9)
-    
-    # Draw generation outline (black)
-    c.setFillColor(HexColor('#000000'))
-    for dx in [-1, 0, 1]:
-        for dy in [-1, 0, 1]:
-            if dx != 0 or dy != 0:
-                c.drawString(x + (card_width - gen_width) // 2 + dx, y + card_height - 32 + dy, gen_text)
-    
-    # Draw main generation (white)
-    c.setFillColor(HexColor('#ffffff'))
     c.drawString(x + (card_width - gen_width) // 2, y + card_height - 32, gen_text)
     
     # LEFT SIDE: Pokemon image
@@ -674,7 +720,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language
         evo_chain = pokemon['evolution']
         
         # Evolution section - positioned at the very bottom of the card
-        evo_y = y + 15  # Moved up from y + 5 to y + 15 (+10px)
+        evo_y = y + 35  # Moved up to make room for stats at bottom
         
         # Two-row layout for long chains (>6 evolutions)
         if len(evo_chain) > 6:
@@ -704,7 +750,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language
                     if evo_image:
                         c.drawImage(evo_image, evo_x, evo_y + row_height, width=img_size, height=img_size, mask='auto')
                         
-                        name = evo_pokemon['name'].upper()
+                        name = clean_pokemon_name(evo_pokemon['name']).upper()
                         c.setFont("Helvetica", font_size)
                         c.setFillColor(HexColor('#2c3e50'))
                         name_width = c.stringWidth(name, "Helvetica", font_size)
@@ -738,7 +784,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language
                     if evo_image:
                         c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size, mask='auto')
                         
-                        name = evo_pokemon['name'].upper()
+                        name = clean_pokemon_name(evo_pokemon['name']).upper()
                         c.setFont("Helvetica", font_size)
                         c.setFillColor(HexColor('#2c3e50'))
                         name_width = c.stringWidth(name, "Helvetica", font_size)
@@ -787,7 +833,7 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language
                     if evo_image:
                         c.drawImage(evo_image, evo_x, evo_y, width=img_size, height=img_size, mask='auto')
                         
-                        name = evo_pokemon['name'].upper()
+                        name = clean_pokemon_name(evo_pokemon['name']).upper()
                         c.setFont("Helvetica", font_size)
                         c.setFillColor(HexColor('#2c3e50'))
                         name_width = c.stringWidth(name, "Helvetica", font_size)
@@ -805,8 +851,42 @@ def draw_pokemon_card(c, pokemon, image, x, y, card_width, card_height, language
                 
                 evo_x += spacing
     
-    # Stats section with stars (below evolution) - IN CATALAN
-    # Statistics section removed to give more space for description
+    # Stats section with numbers (centered at the bottom)
+    stats_y = y + 8  # Bottom of the card
+    
+    # Get stats
+    stats = pokemon.get('stats', {})
+    hp = stats.get('hp', 0)
+    attack = stats.get('attack', 0)
+    defense = stats.get('defense', 0)
+    
+    # Icon size
+    icon_size = 10
+    
+    # Calculate total width for centering (3 stats with spacing)
+    stat_spacing = 50
+    total_width = (3 * stat_spacing) - 10
+    stat_x = x + (card_width - total_width) // 2  # Center horizontally
+    
+    # HP
+    heart_icon = os.path.join(os.path.dirname(__file__), '..', 'emoji_icons', 'heart.png')
+    if os.path.exists(heart_icon):
+        c.drawImage(heart_icon, stat_x, stats_y, width=icon_size, height=icon_size, mask='auto')
+    c.setFont("Helvetica-Bold", 8)
+    c.setFillColor(HexColor('#000000'))
+    c.drawString(stat_x + 12, stats_y + 2, str(hp))
+    
+    # Attack
+    sword_icon = os.path.join(os.path.dirname(__file__), '..', 'emoji_icons', 'sword.png')
+    if os.path.exists(sword_icon):
+        c.drawImage(sword_icon, stat_x + stat_spacing, stats_y, width=icon_size, height=icon_size, mask='auto')
+    c.drawString(stat_x + stat_spacing + 12, stats_y + 2, str(attack))
+    
+    # Defense
+    shield_icon = os.path.join(os.path.dirname(__file__), '..', 'emoji_icons', 'shield.png')
+    if os.path.exists(shield_icon):
+        c.drawImage(shield_icon, stat_x + (stat_spacing * 2), stats_y, width=icon_size, height=icon_size, mask='auto')
+    c.drawString(stat_x + (stat_spacing * 2) + 12, stats_y + 2, str(defense))
 
 def generate_pdf():
     """Generate Pokemon PDFs for all generations"""

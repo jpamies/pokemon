@@ -17,6 +17,13 @@
   "base_stats": "ESTADÍSTICAS BASE",
   "abilities": "HABILIDADES",
   "hidden": "OCULTA",
+  "search_placeholder": "Buscar Pokémon...",
+  "generation": "Generación",
+  "type": "Tipo",
+  "all_generations": "Todas",
+  "all_types": "Todos",
+  "all_colors": "Todos",
+  "clear_filters": "Limpiar filtros",
   "types": {
     "normal": "NORMAL",
     "fire": "FUEGO",
